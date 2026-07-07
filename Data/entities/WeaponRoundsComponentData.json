@@ -1,0 +1,1266 @@
+{
+    "_metadata": {
+        "struct_size": 132,
+        "omitted_size": 0,
+        "exported_entity_count": 22,
+        "matched_bilingual_hash_count": 21,
+        "patch_date": "2026-07-07",
+        "game_version": "1.006.301"
+    },
+    "entities": [
+        {
+            "0xDF51FE8D62F294BE": {
+                "hash": "16091922826775401662",
+                "name": "Breakthrough Exosuit Heavy Shotgun",
+                "name_zh": "EXO-55 突破 重型霰弹枪",
+                "index": 0,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "67 <=> ProjectileType_Unknown_67",
+                    "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
+                },
+                "magazine_capacity": {
+                    "x": 6.0,
+                    "y": 0.0
+                },
+                "ammo_capacity": 64,
+                "ammo_refill": 0,
+                "ammo": 64,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 0,
+                "magazine_switch_audio": 0,
+                "magazine_0_weapon_anim": 0,
+                "magazine_0_wielder_anim": 0,
+                "magazine_1_weapon_anim": 0,
+                "magazine_1_wielder_anim": 0,
+                "magazine_anim_variable": 0
+            }
+        },
+        {
+            "0x41EAC4A03987FAA0": {
+                "hash": "4749824949454633632",
+                "name": "SG-8 Punisher (Model)",
+                "name_zh": "SG-8 制裁者（主武器，模型）",
+                "index": 1,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "252 <=> ProjectileType_Unknown_252",
+                    "alternate_projectile_type": "252 <=> ProjectileType_Unknown_252"
+                },
+                "magazine_capacity": {
+                    "x": 8.0,
+                    "y": 8.0
+                },
+                "ammo_capacity": 60,
+                "ammo_refill": 60,
+                "ammo": 32,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 1,
+                "magazine_switch_audio": 2751498770,
+                "magazine_0_weapon_anim": 2386575183,
+                "magazine_0_wielder_anim": 3334969633,
+                "magazine_1_weapon_anim": 2144827903,
+                "magazine_1_wielder_anim": 1204198336,
+                "magazine_anim_variable": 1258484571
+            }
+        },
+        {
+            "0xBCC2177439D231BE": {
+                "hash": "13601459612566041022",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 2,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "252 <=> ProjectileType_Unknown_252",
+                    "alternate_projectile_type": "252 <=> ProjectileType_Unknown_252"
+                },
+                "magazine_capacity": {
+                    "x": 8.0,
+                    "y": 8.0
+                },
+                "ammo_capacity": 60,
+                "ammo_refill": 60,
+                "ammo": 32,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 1,
+                "magazine_switch_audio": 2751498770,
+                "magazine_0_weapon_anim": 2386575183,
+                "magazine_0_wielder_anim": 3334969633,
+                "magazine_1_weapon_anim": 2144827903,
+                "magazine_1_wielder_anim": 1204198336,
+                "magazine_anim_variable": 1258484571
+            }
+        },
+        {
+            "0x4F749E2EE26F532D": {
+                "hash": "5725374950499373869",
+                "name": "SG-8S Slugger (Model)",
+                "name_zh": "SG-8S 重炮手（主武器，模型）",
+                "index": 3,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "233 <=> ProjectileType_Unknown_233",
+                    "alternate_projectile_type": "233 <=> ProjectileType_Unknown_233"
+                },
+                "magazine_capacity": {
+                    "x": 8.0,
+                    "y": 8.0
+                },
+                "ammo_capacity": 60,
+                "ammo_refill": 60,
+                "ammo": 32,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 1,
+                "magazine_switch_audio": 2751498770,
+                "magazine_0_weapon_anim": 2386575183,
+                "magazine_0_wielder_anim": 3334969633,
+                "magazine_1_weapon_anim": 2144827903,
+                "magazine_1_wielder_anim": 1204198336,
+                "magazine_anim_variable": 1258484571
+            }
+        },
+        {
+            "0x4E310B1FE4C52B52": {
+                "hash": "5634296840427219794",
+                "name": "SG-20 Halt (Model)",
+                "name_zh": "SG-20 止息（主武器，模型）",
+                "index": 4,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "180 <=> ProjectileType_Unknown_180",
+                    "alternate_projectile_type": "187 <=> ProjectileType_Unknown_187"
+                },
+                "magazine_capacity": {
+                    "x": 8.0,
+                    "y": 8.0
+                },
+                "ammo_capacity": 60,
+                "ammo_refill": 60,
+                "ammo": 32,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 1,
+                "magazine_switch_audio": 2751498770,
+                "magazine_0_weapon_anim": 2386575183,
+                "magazine_0_wielder_anim": 3334969633,
+                "magazine_1_weapon_anim": 2144827903,
+                "magazine_1_wielder_anim": 1204198336,
+                "magazine_anim_variable": 1258484571
+            }
+        },
+        {
+            "0xD323DE60855898AC": {
+                "hash": "15214248472323070124",
+                "name": "SG-451 Cookout (Model)",
+                "name_zh": "SG-451 野炊（主武器，模型）",
+                "index": 5,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "334 <=> ProjectileType_Unknown_334",
+                    "alternate_projectile_type": "334 <=> ProjectileType_Unknown_334"
+                },
+                "magazine_capacity": {
+                    "x": 8.0,
+                    "y": 8.0
+                },
+                "ammo_capacity": 60,
+                "ammo_refill": 60,
+                "ammo": 32,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 1,
+                "magazine_switch_audio": 2751498770,
+                "magazine_0_weapon_anim": 2386575183,
+                "magazine_0_wielder_anim": 3334969633,
+                "magazine_1_weapon_anim": 2144827903,
+                "magazine_1_wielder_anim": 1204198336,
+                "magazine_anim_variable": 1258484571
+            }
+        },
+        {
+            "0xDCD1C835407EF7BA": {
+                "hash": "15911719089517557690",
+                "name": "SG-97 Sweeper (Model)",
+                "name_zh": "SG-97 扫荡者（主武器，模型）",
+                "index": 6,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "254 <=> ProjectileType_Unknown_254",
+                    "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
+                },
+                "magazine_capacity": {
+                    "x": 7.0,
+                    "y": 0.0
+                },
+                "ammo_capacity": 70,
+                "ammo_refill": 70,
+                "ammo": 46,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 1,
+                "magazine_switch_audio": 0,
+                "magazine_0_weapon_anim": 0,
+                "magazine_0_wielder_anim": 0,
+                "magazine_1_weapon_anim": 0,
+                "magazine_1_wielder_anim": 0,
+                "magazine_anim_variable": 0
+            }
+        },
+        {
+            "0x72170A55A1F37FF1": {
+                "hash": "8221051007693717489",
+                "name": "DBS-2 Double Freedom (Model)",
+                "name_zh": "DBS-2 双重自由（主武器，模型）",
+                "index": 7,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "306 <=> ProjectileType_Unknown_306",
+                    "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
+                },
+                "magazine_capacity": {
+                    "x": 2.0,
+                    "y": 0.0
+                },
+                "ammo_capacity": 40,
+                "ammo_refill": 40,
+                "ammo": 22,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 0,
+                "magazine_switch_audio": 0,
+                "magazine_0_weapon_anim": 0,
+                "magazine_0_wielder_anim": 0,
+                "magazine_1_weapon_anim": 0,
+                "magazine_1_wielder_anim": 0,
+                "magazine_anim_variable": 0
+            }
+        },
+        {
+            "0x90DDC374F4E3D756": {
+                "hash": "10438714418406872918",
+                "name": "M90A Shotgun (Model)",
+                "name_zh": "M90A 霰弹枪（主武器，模型）",
+                "index": 8,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "61 <=> ProjectileType_Unknown_61",
+                    "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
+                },
+                "magazine_capacity": {
+                    "x": 6.0,
+                    "y": 0.0
+                },
+                "ammo_capacity": 44,
+                "ammo_refill": 44,
+                "ammo": 24,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 1,
+                "magazine_switch_audio": 0,
+                "magazine_0_weapon_anim": 0,
+                "magazine_0_wielder_anim": 0,
+                "magazine_1_weapon_anim": 0,
+                "magazine_1_wielder_anim": 0,
+                "magazine_anim_variable": 0
+            }
+        },
+        {
+            "0xD6B1FB05B9109353": {
+                "hash": "15470422196992643923",
+                "name": "P-11 Stim Pistol (Model)",
+                "name_zh": "P-11 治疗剂手枪（副武器，模型）",
+                "index": 9,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "307 <=> ProjectileType_Unknown_307",
+                    "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
+                },
+                "magazine_capacity": {
+                    "x": 6.0,
+                    "y": 0.0
+                },
+                "ammo_capacity": 24,
+                "ammo_refill": 18,
+                "ammo": 18,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 0,
+                "magazine_switch_audio": 0,
+                "magazine_0_weapon_anim": 0,
+                "magazine_0_wielder_anim": 0,
+                "magazine_1_weapon_anim": 0,
+                "magazine_1_wielder_anim": 0,
+                "magazine_anim_variable": 0
+            }
+        },
+        {
+            "0x52071F49263415E4": {
+                "hash": "5910727434981086692",
+                "name": "SG-88 Break-Action Shotgun",
+                "name_zh": "中折式霰弹枪",
+                "index": 10,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "211 <=> ProjectileType_Unknown_211",
+                    "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
+                },
+                "magazine_capacity": {
+                    "x": 2.0,
+                    "y": 0.0
+                },
+                "ammo_capacity": 40,
+                "ammo_refill": 20,
+                "ammo": 20,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 0,
+                "magazine_switch_audio": 0,
+                "magazine_0_weapon_anim": 0,
+                "magazine_0_wielder_anim": 0,
+                "magazine_1_weapon_anim": 0,
+                "magazine_1_wielder_anim": 0,
+                "magazine_anim_variable": 0
+            }
+        },
+        {
+            "0x02CD7321CD8445F5": {
+                "hash": "201944147320653301",
+                "name": "Grenade Launcher Grenadier",
+                "name_zh": "AR/GL-21 幺二 下挂榴弹发射器",
+                "index": 11,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "255 <=> ProjectileType_Unknown_255",
+                    "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
+                },
+                "magazine_capacity": {
+                    "x": 1.0,
+                    "y": 0.0
+                },
+                "ammo_capacity": 3,
+                "ammo_refill": 3,
+                "ammo": 2,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 1,
+                "magazine_switch_audio": 0,
+                "magazine_0_weapon_anim": 0,
+                "magazine_0_wielder_anim": 0,
+                "magazine_1_weapon_anim": 0,
+                "magazine_1_wielder_anim": 0,
+                "magazine_anim_variable": 0
+            }
+        },
+        {
+            "0x51F50D6321F52F3D": {
+                "hash": "5905641205788913469",
+                "name": "B/MD C4 Pack Detonator (Model)",
+                "name_zh": "B/MD C4 背包 引爆器（武器，模型）",
+                "index": 12,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "54 <=> ProjectileType_Unknown_54",
+                    "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
+                },
+                "magazine_capacity": {
+                    "x": 1.0,
+                    "y": 0.0
+                },
+                "ammo_capacity": 0,
+                "ammo_refill": 1,
+                "ammo": 0,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 1,
+                "magazine_switch_audio": 0,
+                "magazine_0_weapon_anim": 0,
+                "magazine_0_wielder_anim": 0,
+                "magazine_1_weapon_anim": 0,
+                "magazine_1_wielder_anim": 0,
+                "magazine_anim_variable": 0
+            }
+        },
+        {
+            "0x7B75E5132FFD4CA6": {
+                "hash": "8896268509512551590",
+                "name": "R-2124 Constitution (Model)",
+                "name_zh": "R-2124 宪法（主武器，模型）",
+                "index": 13,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "273 <=> ProjectileType_Unknown_273",
+                    "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
+                },
+                "magazine_capacity": {
+                    "x": 5.0,
+                    "y": 0.0
+                },
+                "ammo_capacity": 99,
+                "ammo_refill": 99,
+                "ammo": 60,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 1,
+                "magazine_switch_audio": 0,
+                "magazine_0_weapon_anim": 0,
+                "magazine_0_wielder_anim": 0,
+                "magazine_1_weapon_anim": 0,
+                "magazine_1_wielder_anim": 0,
+                "magazine_anim_variable": 0
+            }
+        },
+        {
+            "0xE6D932BE83729076": {
+                "hash": "16634382492500136054",
+                "name": "R-6 Deadeye (Model)",
+                "name_zh": "R-6 鹰眼（主武器，模型）",
+                "index": 14,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "288 <=> ProjectileType_Unknown_288",
+                    "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
+                },
+                "magazine_capacity": {
+                    "x": 8.0,
+                    "y": 0.0
+                },
+                "ammo_capacity": 60,
+                "ammo_refill": 60,
+                "ammo": 32,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 1,
+                "magazine_switch_audio": 0,
+                "magazine_0_weapon_anim": 0,
+                "magazine_0_wielder_anim": 0,
+                "magazine_1_weapon_anim": 0,
+                "magazine_1_wielder_anim": 0,
+                "magazine_anim_variable": 0
+            }
+        },
+        {
+            "0x2B28E17FFED05F7C": {
+                "hash": "3109983482551492476",
+                "name": "SG-22 Bushwhacker (Model)",
+                "name_zh": "SG-22 游击兵（副武器，模型）",
+                "index": 15,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "252 <=> ProjectileType_Unknown_252",
+                    "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
+                },
+                "magazine_capacity": {
+                    "x": 3.0,
+                    "y": 0.0
+                },
+                "ammo_capacity": 30,
+                "ammo_refill": 30,
+                "ammo": 30,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 0,
+                "magazine_switch_audio": 0,
+                "magazine_0_weapon_anim": 0,
+                "magazine_0_wielder_anim": 0,
+                "magazine_1_weapon_anim": 0,
+                "magazine_1_wielder_anim": 0,
+                "magazine_anim_variable": 0
+            }
+        },
+        {
+            "0x52E4334E6A128CAF": {
+                "hash": "5972955417680186543",
+                "name": "GP-31 Grenade Pistol (Model)",
+                "name_zh": "GP-31 榴弹手枪（副武器，模型）",
+                "index": 16,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "255 <=> ProjectileType_Unknown_255",
+                    "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
+                },
+                "magazine_capacity": {
+                    "x": 1.0,
+                    "y": 0.0
+                },
+                "ammo_capacity": 6,
+                "ammo_refill": 4,
+                "ammo": 4,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 1,
+                "magazine_switch_audio": 0,
+                "magazine_0_weapon_anim": 0,
+                "magazine_0_wielder_anim": 0,
+                "magazine_1_weapon_anim": 0,
+                "magazine_1_wielder_anim": 0,
+                "magazine_anim_variable": 0
+            }
+        },
+        {
+            "0xC780BCD79547DA0F": {
+                "hash": "14375697644675127823",
+                "name": "P-69 Veto (Model)",
+                "name_zh": "P-69 否决者（副武器，模型）",
+                "index": 17,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "230 <=> ProjectileType_Unknown_230",
+                    "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
+                },
+                "magazine_capacity": {
+                    "x": 12.0,
+                    "y": 0.0
+                },
+                "ammo_capacity": 90,
+                "ammo_refill": 90,
+                "ammo": 52,
+                "reload_amount": 6,
+                "reload_thresholds": {
+                    "x": 7.0,
+                    "y": 0.0
+                },
+                "chambered": 0,
+                "magazine_switch_audio": 0,
+                "magazine_0_weapon_anim": 0,
+                "magazine_0_wielder_anim": 0,
+                "magazine_1_weapon_anim": 0,
+                "magazine_1_wielder_anim": 0,
+                "magazine_anim_variable": 0
+            }
+        },
+        {
+            "0x8D3D52A3B2F19402": {
+                "hash": "10177381595962512386",
+                "name": "P-4 Senator (Model)",
+                "name_zh": "P-4 参议员（副武器，模型）",
+                "index": 18,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "298 <=> ProjectileType_Unknown_298",
+                    "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
+                },
+                "magazine_capacity": {
+                    "x": 6.0,
+                    "y": 0.0
+                },
+                "ammo_capacity": 40,
+                "ammo_refill": 40,
+                "ammo": 32,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 0,
+                "magazine_switch_audio": 0,
+                "magazine_0_weapon_anim": 0,
+                "magazine_0_wielder_anim": 0,
+                "magazine_1_weapon_anim": 0,
+                "magazine_1_wielder_anim": 0,
+                "magazine_anim_variable": 0
+            }
+        },
+        {
+            "0xBDE1F2534280300D": {
+                "hash": "13682483582340182029",
+                "name": "P-41 Ombudsman (Model)",
+                "name_zh": "P-41 巡察者（副武器，模型）",
+                "index": 19,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "62 <=> ProjectileType_Unknown_62",
+                    "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
+                },
+                "magazine_capacity": {
+                    "x": 6.0,
+                    "y": 0.0
+                },
+                "ammo_capacity": 40,
+                "ammo_refill": 40,
+                "ammo": 32,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 0,
+                "magazine_switch_audio": 0,
+                "magazine_0_weapon_anim": 0,
+                "magazine_0_wielder_anim": 0,
+                "magazine_1_weapon_anim": 0,
+                "magazine_1_wielder_anim": 0,
+                "magazine_anim_variable": 0
+            }
+        },
+        {
+            "0xA8CFFB316F0B5C5F": {
+                "hash": "12164217308285983839",
+                "name": "AC-8 Autocannon (Model)",
+                "name_zh": "AC-8 机炮（武器，模型）",
+                "index": 20,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "113 <=> ProjectileType_Unknown_113",
+                    "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
+                },
+                "magazine_capacity": {
+                    "x": 10.0,
+                    "y": 0.0
+                },
+                "ammo_capacity": 0,
+                "ammo_refill": 0,
+                "ammo": 0,
+                "reload_amount": 5,
+                "reload_thresholds": {
+                    "x": 6.0,
+                    "y": 0.0
+                },
+                "chambered": 1,
+                "magazine_switch_audio": 0,
+                "magazine_0_weapon_anim": 0,
+                "magazine_0_wielder_anim": 0,
+                "magazine_1_weapon_anim": 0,
+                "magazine_1_wielder_anim": 0,
+                "magazine_anim_variable": 0
+            }
+        },
+        {
+            "0xFE3B29B2CFA63F9B": {
+                "hash": "18319281757224320923",
+                "name": "GL-52 De-Escalator (Model)",
+                "name_zh": "GL-52 缓和使者（模型）",
+                "index": 21,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "216 <=> ProjectileType_Unknown_216",
+                    "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
+                },
+                "magazine_capacity": {
+                    "x": 6.0,
+                    "y": 0.0
+                },
+                "ammo_capacity": 40,
+                "ammo_refill": 40,
+                "ammo": 32,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 0,
+                "magazine_switch_audio": 0,
+                "magazine_0_weapon_anim": 0,
+                "magazine_0_wielder_anim": 0,
+                "magazine_1_weapon_anim": 0,
+                "magazine_1_wielder_anim": 0,
+                "magazine_anim_variable": 0
+            }
+        }
+    ]
+}

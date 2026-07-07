@@ -1,0 +1,5 @@
+StratagemOriginType_ShipSpecific
+StratagemOriginType_ShipGeneric
+StratagemOriginType_ClanStation
+StratagemOriginType_Unk3
+StratagemOriginType_Count

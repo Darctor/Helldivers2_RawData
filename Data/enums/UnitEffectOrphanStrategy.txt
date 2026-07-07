@@ -1,0 +1,4 @@
+UnitEffectOrphanStrategy_None
+UnitEffectOrphanStrategy_Destroy
+UnitEffectOrphanStrategy_Stop
+UnitEffectOrphanStrategy_Disconnect

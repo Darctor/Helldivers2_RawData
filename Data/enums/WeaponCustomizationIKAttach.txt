@@ -1,0 +1,6 @@
+WeaponCustomizationIKAttach_None
+WeaponCustomizationIKAttach_Optics
+WeaponCustomizationIKAttach_Underbarrel
+WeaponCustomizationIKAttach_Muzzle
+WeaponCustomizationIKAttach_Magazine
+WeaponCustomizationIKAttach_Count

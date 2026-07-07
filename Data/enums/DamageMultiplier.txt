@@ -1,0 +1,5 @@
+DamageMultiplier_None
+DamageMultiplier_Critical
+DamageMultiplier_Normal
+DamageMultiplier_Reduced
+DamageMultiplier_Symbolic

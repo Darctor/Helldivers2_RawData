@@ -1,0 +1,3 @@
+ShieldBlockMeleeType_None
+ShieldBlockMeleeType_DamageOnceThenDisableZoneShape
+ShieldBlockMeleeType_DamageOnceThenDisableDamageResult

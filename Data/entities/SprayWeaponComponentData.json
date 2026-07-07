@@ -1,0 +1,1484 @@
+{
+    "_metadata": {
+        "struct_size": 224,
+        "omitted_size": 3,
+        "exported_entity_count": 23,
+        "matched_bilingual_hash_count": 21,
+        "patch_date": "2026-07-07",
+        "game_version": "1.006.301"
+    },
+    "entities": [
+        {
+            "0x9E2E17F2CCCCAFDD": {
+                "hash": "11398074038506794973",
+                "name": "Bile Titan",
+                "name_zh": "吐酸泰坦",
+                "index": 0,
+                "warmup_time": 0.0,
+                "cooldown_time": 0.05000000074505806,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 989301601,
+                "spray_capsule_radius": 1.100000023841858,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "6181568566424688250",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 0,
+                "projectile_type": "78 <=> ProjectileType_Unknown_78",
+                "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
+                "effect_type": "0 <=> HitEffectDamageType_None",
+                "particle_collision_trigger_mines": 0,
+                "last_drop_owner_vo_event": 2645484469,
+                "dry_fire_audio_event": 0,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        },
+        {
+            "0x6F91BC8002875E76": {
+                "hash": "8039414067817307766",
+                "name": "Bile Spewer Vomit",
+                "name_zh": "胆汁喷涌虫 吐酸器",
+                "index": 1,
+                "warmup_time": 0.0,
+                "cooldown_time": 0.05000000074505806,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 989301601,
+                "spray_capsule_radius": 1.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "6181568566424688250",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 0,
+                "projectile_type": "138 <=> ProjectileType_Unknown_138",
+                "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
+                "effect_type": "0 <=> HitEffectDamageType_None",
+                "particle_collision_trigger_mines": 0,
+                "last_drop_owner_vo_event": 2645484469,
+                "dry_fire_audio_event": 0,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        },
+        {
+            "0x271567F38F9CEDFD": {
+                "hash": "2816271437774253565",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 2,
+                "warmup_time": 0.0,
+                "cooldown_time": 0.05000000074505806,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 989301601,
+                "spray_capsule_radius": 1.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "6181568566424688250",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 0,
+                "projectile_type": "23 <=> ProjectileType_Unknown_23",
+                "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
+                "effect_type": "0 <=> HitEffectDamageType_None",
+                "particle_collision_trigger_mines": 0,
+                "last_drop_owner_vo_event": 2645484469,
+                "dry_fire_audio_event": 0,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        },
+        {
+            "0x76E9644BCD3F341B": {
+                "hash": "8568490042777875483",
+                "name": "Dragonroach Vomit",
+                "name_zh": "蟑龙 吐火攻击",
+                "index": 3,
+                "warmup_time": 0.0,
+                "cooldown_time": 0.009999999776482582,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 0,
+                "spray_capsule_radius": 5.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "14900141230239011239",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "7 <=> WindEffectTemplate_LargeWeaponFire"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "1587683755141136233",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "2692210838382123519",
+                    "callout_event_start": 418315309,
+                    "audio_event_start": 3340914726,
+                    "audio_event_stop": 1004375400,
+                    "wind_template": "7 <=> WindEffectTemplate_LargeWeaponFire"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 0,
+                "projectile_type": "229 <=> ProjectileType_Unknown_229",
+                "damage_info_type": "555 <=> DamageInfoType_Unknown_555",
+                "effect_type": "0 <=> HitEffectDamageType_None",
+                "particle_collision_trigger_mines": 0,
+                "last_drop_owner_vo_event": 2645484469,
+                "dry_fire_audio_event": 0,
+                "particle_collision_fire_template": "0 <=> FireTemplate_None"
+            }
+        },
+        {
+            "0x1D8D9AA0502F866E": {
+                "hash": "2129528212146849390",
+                "name": "Predator Hunter Vomit",
+                "name_zh": "掠食追猎虫 吐酸器",
+                "index": 4,
+                "warmup_time": 0.0,
+                "cooldown_time": 0.05000000074505806,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 989301601,
+                "spray_capsule_radius": 1.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "6181568566424688250",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 0,
+                "projectile_type": "138 <=> ProjectileType_Unknown_138",
+                "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
+                "effect_type": "0 <=> HitEffectDamageType_None",
+                "particle_collision_trigger_mines": 0,
+                "last_drop_owner_vo_event": 2645484469,
+                "dry_fire_audio_event": 0,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        },
+        {
+            "0xF4C0B6C9218FB571": {
+                "hash": "17636297115750610289",
+                "name": "Pyro Trooper Flamer (Model)",
+                "name_zh": "炙焰装甲兵 火焰喷射器",
+                "index": 5,
+                "warmup_time": 1.0,
+                "cooldown_time": 1.0,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 747556395,
+                "spray_capsule_radius": 0.25,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "18178481158602349376",
+                    "callout_event_start": 0,
+                    "audio_event_start": 3860165635,
+                    "audio_event_stop": 0,
+                    "wind_template": "7 <=> WindEffectTemplate_LargeWeaponFire"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "13461756045271898035",
+                    "callout_event_start": 0,
+                    "audio_event_start": 2940567763,
+                    "audio_event_stop": 3358505350,
+                    "wind_template": "7 <=> WindEffectTemplate_LargeWeaponFire"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "829875543123227408",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 1,
+                "projectile_type": "49 <=> ProjectileType_Unknown_49",
+                "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
+                "effect_type": "0 <=> HitEffectDamageType_None",
+                "particle_collision_trigger_mines": 0,
+                "last_drop_owner_vo_event": 2645484469,
+                "dry_fire_audio_event": 0,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        },
+        {
+            "0xF2B4A99D1B0E40C8": {
+                "hash": "17488789745215357128",
+                "name": "Hulk Scorcher Flamer (Model)",
+                "name_zh": "巨型炙焰者 火焰喷射器",
+                "index": 6,
+                "warmup_time": 1.0,
+                "cooldown_time": 1.0,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 747556395,
+                "spray_capsule_radius": 0.5,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "18178481158602349376",
+                    "callout_event_start": 0,
+                    "audio_event_start": 2048366901,
+                    "audio_event_stop": 0,
+                    "wind_template": "7 <=> WindEffectTemplate_LargeWeaponFire"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "13461756045271898035",
+                    "callout_event_start": 0,
+                    "audio_event_start": 2221618875,
+                    "audio_event_stop": 2155672448,
+                    "wind_template": "7 <=> WindEffectTemplate_LargeWeaponFire"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "829875543123227408",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 1,
+                "projectile_type": "49 <=> ProjectileType_Unknown_49",
+                "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
+                "effect_type": "0 <=> HitEffectDamageType_None",
+                "particle_collision_trigger_mines": 0,
+                "last_drop_owner_vo_event": 2645484469,
+                "dry_fire_audio_event": 0,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        },
+        {
+            "0x0736BEE2D6328726": {
+                "hash": "519812688473392934",
+                "name": "Lumberer Exosuit Flamer",
+                "name_zh": "EXO-51 伐木者 喷火武器",
+                "index": 7,
+                "warmup_time": 0.699999988079071,
+                "cooldown_time": 10.0,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 747556395,
+                "spray_capsule_radius": 0.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "14900141230239011239",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "10048255496969202164",
+                    "callout_event_start": 0,
+                    "audio_event_start": 2557993495,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "1587683755141136233",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "16415996823525155780",
+                    "callout_event_start": 418315309,
+                    "audio_event_start": 1153376687,
+                    "audio_event_stop": 783613635,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "829875543123227408",
+                    "callout_event_start": 0,
+                    "audio_event_start": 5338378,
+                    "audio_event_stop": 4213751115,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 1,
+                "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                "damage_info_type": "17 <=> DamageInfoType_Unknown_17",
+                "effect_type": "2 <=> HitEffectDamageType_PiercingMedium",
+                "particle_collision_trigger_mines": 1,
+                "last_drop_owner_vo_event": 3956223216,
+                "dry_fire_audio_event": 1926142422,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        },
+        {
+            "0xEF04CB84D097A497": {
+                "hash": "17223114646267339927",
+                "name": "Spore Burst Bile Titan",
+                "name_zh": "孢裂泰坦",
+                "index": 8,
+                "warmup_time": 0.0,
+                "cooldown_time": 0.05000000074505806,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 989301601,
+                "spray_capsule_radius": 1.100000023841858,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "16569755665269430598",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 0,
+                "projectile_type": "156 <=> ProjectileType_Unknown_156",
+                "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
+                "effect_type": "0 <=> HitEffectDamageType_None",
+                "particle_collision_trigger_mines": 0,
+                "last_drop_owner_vo_event": 2645484469,
+                "dry_fire_audio_event": 0,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        },
+        {
+            "0x529DFE4C4C881324": {
+                "hash": "5953193886108619556",
+                "name": "Nursing Spewer Vomit",
+                "name_zh": "抚育喷涌虫 吐酸器",
+                "index": 9,
+                "warmup_time": 0.0,
+                "cooldown_time": 0.05000000074505806,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 989301601,
+                "spray_capsule_radius": 1.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "8645238791260988562",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 0,
+                "projectile_type": "33 <=> ProjectileType_Unknown_33",
+                "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
+                "effect_type": "0 <=> HitEffectDamageType_None",
+                "particle_collision_trigger_mines": 0,
+                "last_drop_owner_vo_event": 2645484469,
+                "dry_fire_audio_event": 0,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        },
+        {
+            "0x03F31CAF3A7D8F4E": {
+                "hash": "284602740380634958",
+                "name": "G-142 Pyrotech (Model)",
+                "name_zh": "G-142 烟花束（投掷物，模型）",
+                "index": 10,
+                "warmup_time": 0.0,
+                "cooldown_time": 0.0,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 1454625704,
+                "spray_capsule_radius": 0.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "14900141230239011239",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "1587683755141136233",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "1670305856112843263",
+                    "callout_event_start": 418315309,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 1,
+                "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                "damage_info_type": "25 <=> DamageInfoType_Unknown_25",
+                "effect_type": "2 <=> HitEffectDamageType_PiercingMedium",
+                "particle_collision_trigger_mines": 1,
+                "last_drop_owner_vo_event": 2645484469,
+                "dry_fire_audio_event": 0,
+                "particle_collision_fire_template": "1 <=> FireTemplate_Small（8秒）"
+            }
+        },
+        {
+            "0x820CC3BAFE962858": {
+                "hash": "9371080132553746520",
+                "name": "A/FLAM-40 Flame Sentry",
+                "name_zh": "A/FLAM-40 火焰哨戒炮",
+                "index": 11,
+                "warmup_time": 0.699999988079071,
+                "cooldown_time": 10.0,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 747556395,
+                "spray_capsule_radius": 0.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "14900141230239011239",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "10048255496969202164",
+                    "callout_event_start": 0,
+                    "audio_event_start": 2557993495,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "1587683755141136233",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "16415996823525155780",
+                    "callout_event_start": 418315309,
+                    "audio_event_start": 1153376687,
+                    "audio_event_stop": 783613635,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "829875543123227408",
+                    "callout_event_start": 0,
+                    "audio_event_start": 5338378,
+                    "audio_event_stop": 4213751115,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 1,
+                "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                "damage_info_type": "17 <=> DamageInfoType_Unknown_17",
+                "effect_type": "2 <=> HitEffectDamageType_PiercingMedium",
+                "particle_collision_trigger_mines": 1,
+                "last_drop_owner_vo_event": 3956223216,
+                "dry_fire_audio_event": 1926142422,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        },
+        {
+            "0xE0E257B37526DBE3": {
+                "hash": "16204610837508709347",
+                "name": "E/MG-101 HMG Emplacement (Flamethrower)",
+                "name_zh": "E/MG-101 固定重机枪（火焰喷射器）",
+                "index": 12,
+                "warmup_time": 0.699999988079071,
+                "cooldown_time": 15.0,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 1803865503,
+                "spray_capsule_radius": 0.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "14900141230239011239",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "10048255496969202164",
+                    "callout_event_start": 0,
+                    "audio_event_start": 3550831508,
+                    "audio_event_stop": 0,
+                    "wind_template": "7 <=> WindEffectTemplate_LargeWeaponFire"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "1587683755141136233",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "8100017336532090948",
+                    "callout_event_start": 0,
+                    "audio_event_start": 1881104745,
+                    "audio_event_stop": 548193405,
+                    "wind_template": "7 <=> WindEffectTemplate_LargeWeaponFire"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "829875543123227408",
+                    "callout_event_start": 0,
+                    "audio_event_start": 2308490114,
+                    "audio_event_stop": 155984213,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 1,
+                "projectile_type": "59 <=> ProjectileType_Unknown_59",
+                "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
+                "effect_type": "0 <=> HitEffectDamageType_None",
+                "particle_collision_trigger_mines": 1,
+                "last_drop_owner_vo_event": 2645484469,
+                "dry_fire_audio_event": 0,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        },
+        {
+            "0x992B6F65A5BAB53D": {
+                "hash": "11037037794164389181",
+                "name": "Flamerthrower SMG Flamer",
+                "name_zh": "SMG/FLAM-34 司炉者 下挂喷火器",
+                "index": 13,
+                "warmup_time": 0.699999988079071,
+                "cooldown_time": 10.0,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 1803865503,
+                "spray_capsule_radius": 0.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "14900141230239011239",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "10048255496969202164",
+                    "callout_event_start": 0,
+                    "audio_event_start": 2976742107,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "1587683755141136233",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "17161707001298768559",
+                    "callout_event_start": 418315309,
+                    "audio_event_start": 241766230,
+                    "audio_event_stop": 2373333470,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "829875543123227408",
+                    "callout_event_start": 0,
+                    "audio_event_start": 2270614757,
+                    "audio_event_stop": 1587852684,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 1,
+                "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                "damage_info_type": "16 <=> DamageInfoType_Unknown_16",
+                "effect_type": "2 <=> HitEffectDamageType_PiercingMedium",
+                "particle_collision_trigger_mines": 1,
+                "last_drop_owner_vo_event": 3956223216,
+                "dry_fire_audio_event": 2439407863,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        },
+        {
+            "0x6BF1164EA3829A23": {
+                "hash": "7778022558452062755",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 14,
+                "warmup_time": 0.699999988079071,
+                "cooldown_time": 15.0,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 1803865503,
+                "spray_capsule_radius": 0.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "14900141230239011239",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "10048255496969202164",
+                    "callout_event_start": 0,
+                    "audio_event_start": 2869137645,
+                    "audio_event_stop": 0,
+                    "wind_template": "7 <=> WindEffectTemplate_LargeWeaponFire"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "1587683755141136233",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "8100017336532090948",
+                    "callout_event_start": 0,
+                    "audio_event_start": 2084608292,
+                    "audio_event_stop": 3955395638,
+                    "wind_template": "7 <=> WindEffectTemplate_LargeWeaponFire"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "829875543123227408",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 1,
+                "projectile_type": "59 <=> ProjectileType_Unknown_59",
+                "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
+                "effect_type": "0 <=> HitEffectDamageType_None",
+                "particle_collision_trigger_mines": 1,
+                "last_drop_owner_vo_event": 2645484469,
+                "dry_fire_audio_event": 0,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        },
+        {
+            "0x65CD4325BA23F3C6": {
+                "hash": "7335593197372175302",
+                "name": "AX/FLAM-75 Hot Dog Gun (Model)",
+                "name_zh": "AX/FLAM-75 热狗（武器）",
+                "index": 15,
+                "warmup_time": 0.699999988079071,
+                "cooldown_time": 10.0,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 1803865503,
+                "spray_capsule_radius": 0.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "14900141230239011239",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "10048255496969202164",
+                    "callout_event_start": 0,
+                    "audio_event_start": 2869137645,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "1587683755141136233",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "13991562456240544718",
+                    "callout_event_start": 418315309,
+                    "audio_event_start": 2084608292,
+                    "audio_event_stop": 3955395638,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "829875543123227408",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 1,
+                "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                "damage_info_type": "15 <=> DamageInfoType_Unknown_15",
+                "effect_type": "2 <=> HitEffectDamageType_PiercingMedium",
+                "particle_collision_trigger_mines": 1,
+                "last_drop_owner_vo_event": 3956223216,
+                "dry_fire_audio_event": 2439407863,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        },
+        {
+            "0xB729A2BA153BCAED": {
+                "hash": "13198259103089806061",
+                "name": "AX/TX-13 Dog Breath Gun (Model)",
+                "name_zh": "AX/TX-13 腐息（武器）",
+                "index": 16,
+                "warmup_time": 0.0,
+                "cooldown_time": 15.0,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 1803865503,
+                "spray_capsule_radius": 0.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "14900141230239011239",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "1587683755141136233",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "242765372113565227",
+                    "callout_event_start": 418315309,
+                    "audio_event_start": 335829265,
+                    "audio_event_stop": 1035764924,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 1,
+                "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                "damage_info_type": "29 <=> DamageInfoType_Unknown_29",
+                "effect_type": "2 <=> HitEffectDamageType_PiercingMedium",
+                "particle_collision_trigger_mines": 0,
+                "last_drop_owner_vo_event": 3956223216,
+                "dry_fire_audio_event": 0,
+                "particle_collision_fire_template": "0 <=> FireTemplate_None"
+            }
+        },
+        {
+            "0x4FB0F8C02F55C82B": {
+                "hash": "5742363029208942635",
+                "name": "FLAM-66 Torcher (Model)",
+                "name_zh": "FLAM-66 火炬手（主武器，模型）",
+                "index": 17,
+                "warmup_time": 0.699999988079071,
+                "cooldown_time": 10.0,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 1803865503,
+                "spray_capsule_radius": 0.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "14900141230239011239",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "10048255496969202164",
+                    "callout_event_start": 0,
+                    "audio_event_start": 1017214271,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "1587683755141136233",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "13991562456240544718",
+                    "callout_event_start": 418315309,
+                    "audio_event_start": 2970598254,
+                    "audio_event_stop": 2413843637,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "829875543123227408",
+                    "callout_event_start": 0,
+                    "audio_event_start": 2121069226,
+                    "audio_event_stop": 2964381256,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 1,
+                "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                "damage_info_type": "15 <=> DamageInfoType_Unknown_15",
+                "effect_type": "2 <=> HitEffectDamageType_PiercingMedium",
+                "particle_collision_trigger_mines": 1,
+                "last_drop_owner_vo_event": 3956223216,
+                "dry_fire_audio_event": 2439407863,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        },
+        {
+            "0x3F92BA65EF65CCA9": {
+                "hash": "4580928717960105129",
+                "name": "P-72 Crisper (Model)",
+                "name_zh": "P-72 迅击（副武器，模型）",
+                "index": 18,
+                "warmup_time": 0.699999988079071,
+                "cooldown_time": 10.0,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 1803865503,
+                "spray_capsule_radius": 0.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "14900141230239011239",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "10048255496969202164",
+                    "callout_event_start": 0,
+                    "audio_event_start": 2146488441,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "1587683755141136233",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "11696612951655659479",
+                    "callout_event_start": 418315309,
+                    "audio_event_start": 3757506625,
+                    "audio_event_stop": 1665050303,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "829875543123227408",
+                    "callout_event_start": 0,
+                    "audio_event_start": 3879498819,
+                    "audio_event_stop": 3968902089,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 1,
+                "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                "damage_info_type": "16 <=> DamageInfoType_Unknown_16",
+                "effect_type": "2 <=> HitEffectDamageType_PiercingMedium",
+                "particle_collision_trigger_mines": 1,
+                "last_drop_owner_vo_event": 3956223216,
+                "dry_fire_audio_event": 2439407863,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        },
+        {
+            "0x88F61AFFF48AC8A4": {
+                "hash": "9869105320050739364",
+                "name": "TX-41 Sterilizer (Model)",
+                "name_zh": "TX-41 灭菌器（模型）",
+                "index": 19,
+                "warmup_time": 0.0,
+                "cooldown_time": 15.0,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 1803865503,
+                "spray_capsule_radius": 0.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "14900141230239011239",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 3435018303,
+                    "audio_event_stop": 0,
+                    "wind_template": "7 <=> WindEffectTemplate_LargeWeaponFire"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "1587683755141136233",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "11804315310924160597",
+                    "callout_event_start": 418315309,
+                    "audio_event_start": 1773671782,
+                    "audio_event_stop": 599097114,
+                    "wind_template": "7 <=> WindEffectTemplate_LargeWeaponFire"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "0",
+                    "callout_event_start": 0,
+                    "audio_event_start": 1928837757,
+                    "audio_event_stop": 1851540683,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 1,
+                "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                "damage_info_type": "28 <=> DamageInfoType_Unknown_28",
+                "effect_type": "2 <=> HitEffectDamageType_PiercingMedium",
+                "particle_collision_trigger_mines": 0,
+                "last_drop_owner_vo_event": 3956223216,
+                "dry_fire_audio_event": 0,
+                "particle_collision_fire_template": "0 <=> FireTemplate_None"
+            }
+        },
+        {
+            "0x39AB99895147A3BF": {
+                "hash": "4155583896232633279",
+                "name": "FLAM-40 Flame Thrower (Model)",
+                "name_zh": "FLAM-40 火焰喷射器（模型）",
+                "index": 20,
+                "warmup_time": 0.699999988079071,
+                "cooldown_time": 10.0,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 1803865503,
+                "spray_capsule_radius": 0.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "14900141230239011239",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "10048255496969202164",
+                    "callout_event_start": 0,
+                    "audio_event_start": 3550831508,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "1587683755141136233",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "11696612951655659479",
+                    "callout_event_start": 418315309,
+                    "audio_event_start": 1881104745,
+                    "audio_event_stop": 548193405,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "829875543123227408",
+                    "callout_event_start": 0,
+                    "audio_event_start": 2308490114,
+                    "audio_event_stop": 155984213,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 1,
+                "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                "damage_info_type": "14 <=> DamageInfoType_Unknown_14",
+                "effect_type": "2 <=> HitEffectDamageType_PiercingMedium",
+                "particle_collision_trigger_mines": 1,
+                "last_drop_owner_vo_event": 3956223216,
+                "dry_fire_audio_event": 2439407863,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        },
+        {
+            "0x78A8185F63A70795": {
+                "hash": "8694225878611593109",
+                "name": "B/FLAM-80 Cremator (Model)",
+                "name_zh": "B/FLAM-80 焚燃者（武器，模型）",
+                "index": 21,
+                "warmup_time": 0.699999988079071,
+                "cooldown_time": 10.0,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 1803865503,
+                "spray_capsule_radius": 0.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "14900141230239011239",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "10048255496969202164",
+                    "callout_event_start": 0,
+                    "audio_event_start": 4026553142,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "1587683755141136233",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "11885419067834423525",
+                    "callout_event_start": 418315309,
+                    "audio_event_start": 2174575826,
+                    "audio_event_stop": 113540263,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "829875543123227408",
+                    "callout_event_start": 0,
+                    "audio_event_start": 3769495531,
+                    "audio_event_stop": 3499201604,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 1,
+                "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                "damage_info_type": "17 <=> DamageInfoType_Unknown_17",
+                "effect_type": "2 <=> HitEffectDamageType_PiercingMedium",
+                "particle_collision_trigger_mines": 1,
+                "last_drop_owner_vo_event": 3956223216,
+                "dry_fire_audio_event": 2439407863,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        },
+        {
+            "0x444880F62CA7EAE8": {
+                "hash": "4920324387701779176",
+                "name": "M-104 Incinerator FRV Flamer",
+                "name_zh": "M-104 炽热型 喷火枪",
+                "index": 22,
+                "warmup_time": 0.699999988079071,
+                "cooldown_time": 10.0,
+                "firenode_pose_limit": 0.0,
+                "audio_node": 1803865503,
+                "spray_capsule_radius": 0.0,
+                "unk_uint32_0x0014": 0,
+                "warmup": {
+                    "shake": {
+                        "world_shake_effect": "14900141230239011239",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "10048255496969202164",
+                    "callout_event_start": 0,
+                    "audio_event_start": 1407405509,
+                    "audio_event_stop": 0,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "firing": {
+                    "shake": {
+                        "world_shake_effect": "1587683755141136233",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "9091998352808646401",
+                    "callout_event_start": 418315309,
+                    "audio_event_start": 2000604828,
+                    "audio_event_stop": 3334939337,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "cooldown": {
+                    "shake": {
+                        "world_shake_effect": "0",
+                        "local_shake_effect": "0",
+                        "fpv_shake_effect": "0",
+                        "inner_radius": 2.0,
+                        "outer_radius": 5.0
+                    },
+                    "muzzle_effect": "829875543123227408",
+                    "callout_event_start": 0,
+                    "audio_event_start": 1250790038,
+                    "audio_event_stop": 3218657890,
+                    "wind_template": "0 <=> WindEffectTemplate_None"
+                },
+                "ammo_cost": 1,
+                "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                "damage_info_type": "17 <=> DamageInfoType_Unknown_17",
+                "effect_type": "2 <=> HitEffectDamageType_PiercingMedium",
+                "particle_collision_trigger_mines": 1,
+                "last_drop_owner_vo_event": 3956223216,
+                "dry_fire_audio_event": 2439407863,
+                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+            }
+        }
+    ]
+}

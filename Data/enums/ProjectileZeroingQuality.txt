@@ -1,0 +1,6 @@
+ProjectileZeroingQuality_None
+ProjectileZeroingQuality_Cheap
+ProjectileZeroingQuality_Normal
+ProjectileZeroingQuality_High
+ProjectileZeroingQuality_Perfect
+ProjectileZeroingQuality_Count

@@ -1,0 +1,6 @@
+FireTemplate_None
+FireTemplate_Small（8秒）
+FireTemplate_Medium（15秒）
+FireTemplate_Large（21秒）
+FireTemplate_Massive（40秒）
+FireTemplate_Count

@@ -1,0 +1,4 @@
+StratagemCooldownType_Individual
+StratagemCooldownType_SharedTeam
+StratagemCooldownType_SharedClan
+StratagemCooldownType_Count
