@@ -1,0 +1,563 @@
+{
+    "_metadata": {
+        "struct_size": 56,
+        "omitted_size": 7,
+        "exported_entity_count": 19,
+        "matched_bilingual_hash_count": 19,
+        "patch_date": "2026_07_07",
+        "game_version": "1.006.301"
+    },
+    "entities": [
+        {
+            "0x826643D4EAF3B508": {
+                "hash": "9396272254309086472",
+                "loc_name": "Exostorm MK1",
+                "loc_name_zh": "异界风暴MK1（环境）",
+                "index": 0,
+                "spawn_timer_min": {
+                    "x": 15.0,
+                    "y": 15.0
+                },
+                "spawn_timer_max": {
+                    "x": 60.0,
+                    "y": 60.0
+                },
+                "spawned_entity": "9418429711517340700",
+                "random_offset_distance_range": {
+                    "x": 0.0,
+                    "y": 50.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 0,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 1,
+                "start_active": 1,
+                "avoid_objective_location_distance": -1.0
+            }
+        },
+        {
+            "0xC4C0B055ACEA0C82": {
+                "hash": "14177525508982049922",
+                "loc_name": "DSS Planetary Bombardment",
+                "loc_name_zh": "星球轰炸（环境）",
+                "index": 1,
+                "spawn_timer_min": {
+                    "x": 38.0,
+                    "y": 38.0
+                },
+                "spawn_timer_max": {
+                    "x": 38.0,
+                    "y": 38.0
+                },
+                "spawned_entity": "12523933911409224779",
+                "random_offset_distance_range": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 0,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 10.0,
+                "unk_bool_0x002C": 1,
+                "paused_while_spawned": 1,
+                "start_active": 1,
+                "avoid_objective_location_distance": 10.0
+            }
+        },
+        {
+            "0x543A9F643D8EC7AC": {
+                "hash": "6069338700713478060",
+                "loc_name": "DSS Eagle Storm",
+                "loc_name_zh": "飞鹰风暴（环境）",
+                "index": 2,
+                "spawn_timer_min": {
+                    "x": 110.0,
+                    "y": 110.0
+                },
+                "spawn_timer_max": {
+                    "x": 150.0,
+                    "y": 150.0
+                },
+                "spawned_entity": "9717601978335302972",
+                "random_offset_distance_range": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 0,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 0,
+                "start_active": 1,
+                "avoid_objective_location_distance": 10.0
+            }
+        },
+        {
+            "0x8FFE419994D3EF01": {
+                "hash": "10375802719390920449",
+                "loc_name": "Enemy Orbital",
+                "loc_name_zh": "敌人轨道轰炸（环境）",
+                "index": 3,
+                "spawn_timer_min": {
+                    "x": 90.0,
+                    "y": 30.0
+                },
+                "spawn_timer_max": {
+                    "x": 150.0,
+                    "y": 60.0
+                },
+                "spawned_entity": "4822214108367178297",
+                "random_offset_distance_range": {
+                    "x": 0.0,
+                    "y": 50.0
+                },
+                "scale_rate_on_objective_completion": 1.0,
+                "spawn_on_origin": 0,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 0,
+                "start_active": 1,
+                "avoid_objective_location_distance": 45.0
+            }
+        },
+        {
+            "0x0AD48CA95A35E86F": {
+                "hash": "780403294432782447",
+                "loc_name": "Dust Devils (Weather)",
+                "loc_name_zh": "尘卷风（天气）",
+                "index": 4,
+                "spawn_timer_min": {
+                    "x": 6.0,
+                    "y": 6.0
+                },
+                "spawn_timer_max": {
+                    "x": 12.0,
+                    "y": 12.0
+                },
+                "spawned_entity": "4298962299928679023",
+                "random_offset_distance_range": {
+                    "x": 60.0,
+                    "y": 240.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 0,
+                "spawn_on_navmesh": 1,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 0,
+                "start_active": 0,
+                "avoid_objective_location_distance": 20.0
+            }
+        },
+        {
+            "0x2DF751DCA50B96EA": {
+                "hash": "3312206059057944298",
+                "loc_name": "Fire Tornado (Weather)",
+                "loc_name_zh": "火龙卷（天气）",
+                "index": 5,
+                "spawn_timer_min": {
+                    "x": 7.0,
+                    "y": 7.0
+                },
+                "spawn_timer_max": {
+                    "x": 13.0,
+                    "y": 13.0
+                },
+                "spawned_entity": "14005216303325302728",
+                "random_offset_distance_range": {
+                    "x": 45.0,
+                    "y": 130.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 0,
+                "spawn_on_navmesh": 1,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 0,
+                "start_active": 0,
+                "avoid_objective_location_distance": 20.0
+            }
+        },
+        {
+            "0x60CF8192A5FDA029": {
+                "hash": "6975936814670258217",
+                "loc_name": "Acid Storm",
+                "loc_name_zh": "酸雨风暴（环境）",
+                "index": 6,
+                "spawn_timer_min": {
+                    "x": 75.0,
+                    "y": 75.0
+                },
+                "spawn_timer_max": {
+                    "x": 690.0,
+                    "y": 690.0
+                },
+                "spawned_entity": "16930826278911679558",
+                "random_offset_distance_range": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 1,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 1,
+                "start_active": 1,
+                "avoid_objective_location_distance": -1.0
+            }
+        },
+        {
+            "0xD53A201AD7ED14F5": {
+                "hash": "15364628378391745781",
+                "loc_name": "Dust Devils",
+                "loc_name_zh": "尘卷风（环境）",
+                "index": 7,
+                "spawn_timer_min": {
+                    "x": 90.0,
+                    "y": 90.0
+                },
+                "spawn_timer_max": {
+                    "x": 780.0,
+                    "y": 780.0
+                },
+                "spawned_entity": "780403294432782447",
+                "random_offset_distance_range": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 1,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 1,
+                "start_active": 1,
+                "avoid_objective_location_distance": -1.0
+            }
+        },
+        {
+            "0x9080B0090BC6F3AB": {
+                "hash": "10412515891379368875",
+                "loc_name": "Earthquake",
+                "loc_name_zh": "地震（环境）",
+                "index": 8,
+                "spawn_timer_min": {
+                    "x": 135.0,
+                    "y": 135.0
+                },
+                "spawn_timer_max": {
+                    "x": 715.0,
+                    "y": 715.0
+                },
+                "spawned_entity": "8850657780063593973",
+                "random_offset_distance_range": {
+                    "x": 0.0,
+                    "y": 100.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 0,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 1,
+                "start_active": 1,
+                "avoid_objective_location_distance": -1.0
+            }
+        },
+        {
+            "0x7BAFBDB8D21D7D2A": {
+                "hash": "8912550789086281002",
+                "loc_name": "Fire Tornado",
+                "loc_name_zh": "火龙卷（环境）",
+                "index": 9,
+                "spawn_timer_min": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "spawn_timer_max": {
+                    "x": 720.0,
+                    "y": 720.0
+                },
+                "spawned_entity": "3312206059057944298",
+                "random_offset_distance_range": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 1,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 1,
+                "start_active": 1,
+                "avoid_objective_location_distance": -1.0
+            }
+        },
+        {
+            "0xBE5C2702BD514A76": {
+                "hash": "13716881457783327350",
+                "loc_name": "Ion Storm",
+                "loc_name_zh": "离子风暴（环境）",
+                "index": 10,
+                "spawn_timer_min": {
+                    "x": 255.0,
+                    "y": 255.0
+                },
+                "spawn_timer_max": {
+                    "x": 960.0,
+                    "y": 960.0
+                },
+                "spawned_entity": "6196760958746040749",
+                "random_offset_distance_range": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 1,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 1,
+                "start_active": 1,
+                "avoid_objective_location_distance": -1.0
+            }
+        },
+        {
+            "0x37EF28E51C6C1716": {
+                "hash": "4030485156009350934",
+                "loc_name": "Meteor Shower",
+                "loc_name_zh": "流星风暴（环境）",
+                "index": 11,
+                "spawn_timer_min": {
+                    "x": 255.0,
+                    "y": 255.0
+                },
+                "spawn_timer_max": {
+                    "x": 995.0,
+                    "y": 995.0
+                },
+                "spawned_entity": "2036607187954284541",
+                "random_offset_distance_range": {
+                    "x": 0.0,
+                    "y": 15.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 0,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 1,
+                "start_active": 1,
+                "avoid_objective_location_distance": 20.0
+            }
+        },
+        {
+            "0x7D9517E3CF9FE980": {
+                "hash": "9049165293479258496",
+                "loc_name": "Sandstorm",
+                "loc_name_zh": "沙尘暴（环境）",
+                "index": 12,
+                "spawn_timer_min": {
+                    "x": 330.0,
+                    "y": 330.0
+                },
+                "spawn_timer_max": {
+                    "x": 1200.0,
+                    "y": 1200.0
+                },
+                "spawned_entity": "15543627206611261570",
+                "random_offset_distance_range": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 1,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 1,
+                "start_active": 1,
+                "avoid_objective_location_distance": -1.0
+            }
+        },
+        {
+            "0xD65B304D05CF9820": {
+                "hash": "15445992454365354016",
+                "loc_name": "Snowstorm",
+                "loc_name_zh": "暴风雪（环境）",
+                "index": 13,
+                "spawn_timer_min": {
+                    "x": 240.0,
+                    "y": 240.0
+                },
+                "spawn_timer_max": {
+                    "x": 1080.0,
+                    "y": 1080.0
+                },
+                "spawned_entity": "17591740805331981563",
+                "random_offset_distance_range": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 1,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 1,
+                "start_active": 1,
+                "avoid_objective_location_distance": -1.0
+            }
+        },
+        {
+            "0x663FD31B0949A8E8": {
+                "hash": "7367839628474820840",
+                "loc_name": "Volcanic Activity",
+                "loc_name_zh": "火山喷发（环境）",
+                "index": 14,
+                "spawn_timer_min": {
+                    "x": 375.0,
+                    "y": 375.0
+                },
+                "spawn_timer_max": {
+                    "x": 1080.0,
+                    "y": 1080.0
+                },
+                "spawned_entity": "2918844402145947936",
+                "random_offset_distance_range": {
+                    "x": 0.0,
+                    "y": 20.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 0,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 1,
+                "start_active": 1,
+                "avoid_objective_location_distance": 15.0
+            }
+        },
+        {
+            "0xCB1A204319FC2ADA": {
+                "hash": "14635045411664702170",
+                "loc_name": "TCS Tremor",
+                "loc_name_zh": "TCS 震颤（环境）",
+                "index": 15,
+                "spawn_timer_min": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "spawn_timer_max": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "spawned_entity": "8850657780063593973",
+                "random_offset_distance_range": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 0,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 1,
+                "start_active": 1,
+                "avoid_objective_location_distance": -1.0
+            }
+        },
+        {
+            "0x4D6701191DD4EA6F": {
+                "hash": "5577427870907951727",
+                "loc_name": "Large Exostorm",
+                "loc_name_zh": "大型异界风暴（环境）",
+                "index": 16,
+                "spawn_timer_min": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "spawn_timer_max": {
+                    "x": 2.0,
+                    "y": 2.0
+                },
+                "spawned_entity": "2291771168896758632",
+                "random_offset_distance_range": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 0,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 1,
+                "start_active": 0,
+                "avoid_objective_location_distance": -1.0
+            }
+        },
+        {
+            "0x1A5ED54B8DD6191D": {
+                "hash": "1900190613275810077",
+                "loc_name": "Exostorm MK2",
+                "loc_name_zh": "异界风暴MK2（环境）",
+                "index": 17,
+                "spawn_timer_min": {
+                    "x": 10.0,
+                    "y": 10.0
+                },
+                "spawn_timer_max": {
+                    "x": 45.0,
+                    "y": 45.0
+                },
+                "spawned_entity": "9418429711517340700",
+                "random_offset_distance_range": {
+                    "x": 0.0,
+                    "y": 35.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 0,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 1,
+                "start_active": 1,
+                "avoid_objective_location_distance": -1.0
+            }
+        },
+        {
+            "0xD365C43981469A26": {
+                "hash": "15232797065911638566",
+                "loc_name": "Exostorm MK3",
+                "loc_name_zh": "异界风暴MK3（环境）",
+                "index": 18,
+                "spawn_timer_min": {
+                    "x": 5.0,
+                    "y": 5.0
+                },
+                "spawn_timer_max": {
+                    "x": 30.0,
+                    "y": 30.0
+                },
+                "spawned_entity": "9418429711517340700",
+                "random_offset_distance_range": {
+                    "x": 0.0,
+                    "y": 15.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 0,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 1,
+                "start_active": 1,
+                "avoid_objective_location_distance": -1.0
+            }
+        }
+    ]
+}

@@ -1,0 +1,1255 @@
+{
+    "_metadata": {
+        "struct_size": 12,
+        "omitted_size": 0,
+        "exported_entity_count": 113,
+        "matched_bilingual_hash_count": 84,
+        "patch_date": "2026_07_07",
+        "game_version": "1.006.301"
+    },
+    "entities": [
+        {
+            "0x6454186A40F772F0": {
+                "hash": "7229430146472047344",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 0,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x2B11C9E4980EC479": {
+                "hash": "3103483601875813497",
+                "loc_name": "E/AT-12 Anti-Tank Emplacement",
+                "loc_name_zh": "E/AT-12固定反坦克炮",
+                "index": 1,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x68A34D32A1025F04": {
+                "hash": "7539955080993332996",
+                "loc_name": "A/G-16 Gatling Sentry MK5",
+                "loc_name_zh": "A/G-16 加特林哨戒炮MK5",
+                "index": 2,
+                "remove_time": 2.5,
+                "life_time": 180.0,
+                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+            }
+        },
+        {
+            "0xED13DDC480EC6910": {
+                "hash": "17083241647592728848",
+                "loc_name": "FX-12 Shield Generator Relay",
+                "loc_name_zh": "FX-12防护罩中继器",
+                "index": 3,
+                "remove_time": 2.5,
+                "life_time": 40.0,
+                "on_retract_ability": "2265 <=> AbilityId_Unknown_2265"
+            }
+        },
+        {
+            "0x29AE906EA485A7FA": {
+                "hash": "3003496806383724538",
+                "loc_name": "Starwart Defense Wall",
+                "loc_name_zh": "盟友防御墙（崩溃）",
+                "index": 4,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x0C8257D1C0255593": {
+                "hash": "901379433810974099",
+                "loc_name": "E/GL-21 Grenadier Battlement",
+                "loc_name_zh": "E/GL-21 掷弹兵防御墙",
+                "index": 5,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x820CC3BAFE962858": {
+                "hash": "9371080132553746520",
+                "loc_name": "A/FLAM-40 Flame Sentry",
+                "loc_name_zh": "A/FLAM-40 火焰哨戒炮",
+                "index": 6,
+                "remove_time": 2.5,
+                "life_time": 150.0,
+                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+            }
+        },
+        {
+            "0xC6A87C428FD3C7A3": {
+                "hash": "14314828040919828387",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 7,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x0A12D5A29CDF2D40": {
+                "hash": "725877384353361216",
+                "loc_name": "Landingzone Beacon",
+                "loc_name_zh": "立即撤离信标",
+                "index": 8,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xACC611541CD839DB": {
+                "hash": "12449657272871172571",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 9,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xAE38F34B101315DD": {
+                "hash": "12554051465013040605",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 10,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x56070F36CFFFA8A8": {
+                "hash": "6198940140191066280",
+                "loc_name": "A/LAS-98 Laser Sentry",
+                "loc_name_zh": "A/LAS-98 激光哨戒炮",
+                "index": 11,
+                "remove_time": 2.5,
+                "life_time": 180.0,
+                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+            }
+        },
+        {
+            "0xAA4564F90CDBF5F1": {
+                "hash": "12269323780666160625",
+                "loc_name": "A/MG-43 Machine Gun Sentry MK2",
+                "loc_name_zh": "A/MG-43 哨戒机枪 MK2",
+                "index": 12,
+                "remove_time": 2.5,
+                "life_time": 180.0,
+                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+            }
+        },
+        {
+            "0x0E977C49DB7604F9": {
+                "hash": "1051445694670701817",
+                "loc_name": "E/MG-101 HMG Emplacement",
+                "loc_name_zh": "E/MG-101 固定重机枪",
+                "index": 13,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xA970CBA66FBEAA11": {
+                "hash": "12209482505501190673",
+                "loc_name": "E/MG-101 HMG Emplacement MK2",
+                "loc_name_zh": "E/MG-101 固定重机枪（MK2）",
+                "index": 14,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xF00C349422E8E320": {
+                "hash": "17297258079668724512",
+                "loc_name": "MD-6 Anti-Personnel Mine Deployer",
+                "loc_name_zh": "MD-6 反步兵地雷",
+                "index": 15,
+                "remove_time": 3.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+            }
+        },
+        {
+            "0xA9982969137F3D77": {
+                "hash": "12220563120145251703",
+                "loc_name": "MD-8 Gas Mine Deployer",
+                "loc_name_zh": "MD-8 毒气地雷",
+                "index": 16,
+                "remove_time": 3.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+            }
+        },
+        {
+            "0xBF32E12923A9A252": {
+                "hash": "13777321776887997010",
+                "loc_name": "MD-14 Incendiary Mine Deployer",
+                "loc_name_zh": "MD-i4 燃烧地雷",
+                "index": 17,
+                "remove_time": 3.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+            }
+        },
+        {
+            "0x25A2FD037B6ED25C": {
+                "hash": "2712008117028049500",
+                "loc_name": "MD-17 Anti-Tank Mine Deployer",
+                "loc_name_zh": "MD-17 反坦克地雷",
+                "index": 18,
+                "remove_time": 3.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+            }
+        },
+        {
+            "0x51A0812E3BCE2D74": {
+                "hash": "5881843148917714292",
+                "loc_name": "A/M-12 Mortar Sentry",
+                "loc_name_zh": "A/M-12 高爆迫击炮",
+                "index": 19,
+                "remove_time": 2.5,
+                "life_time": 180.0,
+                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+            }
+        },
+        {
+            "0x299C0D3DFD2F0994": {
+                "hash": "2998286011813792148",
+                "loc_name": "A/GM-17 Gas Mortar Sentry",
+                "loc_name_zh": "A/GM-17 瓦斯迫击炮",
+                "index": 20,
+                "remove_time": 2.5,
+                "life_time": 180.0,
+                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+            }
+        },
+        {
+            "0xB2053A1838092F8B": {
+                "hash": "12827722989328478091",
+                "loc_name": "A/M-23 EMS Mortar Sentry",
+                "loc_name_zh": "A/M-23 静电迫击炮",
+                "index": 21,
+                "remove_time": 2.5,
+                "life_time": 180.0,
+                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+            }
+        },
+        {
+            "0xE0E257B37526DBE3": {
+                "hash": "16204610837508709347",
+                "loc_name": "E/MG-101 HMG Emplacement (Flamethrower)",
+                "loc_name_zh": "E/MG-101 固定重机枪（火焰喷射器）",
+                "index": 22,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x1980D92B619FF5FE": {
+                "hash": "1837707428311856638",
+                "loc_name": "E/MG-101 HMG Emplacement (Laser)",
+                "loc_name_zh": "E/MG-101 固定重机枪（激光）",
+                "index": 23,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x24510E7B16B5F7A5": {
+                "hash": "2616888780303759269",
+                "loc_name": "E/MG-101 HMG Emplacement (Railgun)",
+                "loc_name_zh": "E/MG-101 固定重机枪（磁轨炮）",
+                "index": 24,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xEB91B90EEC279745": {
+                "hash": "16974551944278808389",
+                "loc_name": "E/MG-101 HMG Emplacement (Rocket)",
+                "loc_name_zh": "E/MG-101 固定重机枪（火箭哨戒炮）",
+                "index": 25,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x8633FF89EF4F6788": {
+                "hash": "9670353792785147784",
+                "loc_name": "A/AC-8 Autocannon Sentry Plasma",
+                "loc_name_zh": "A/AC-8 自动哨戒炮MK2（焦土射弹）",
+                "index": 26,
+                "remove_time": 2.5,
+                "life_time": 180.0,
+                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+            }
+        },
+        {
+            "0x37079568DC86E9C6": {
+                "hash": "3965302274531977670",
+                "loc_name": "A/MLS-4X Rocket Sentry",
+                "loc_name_zh": "A/MLS-4X 火箭哨戒炮",
+                "index": 27,
+                "remove_time": 2.5,
+                "life_time": 150.0,
+                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+            }
+        },
+        {
+            "0x6293CAF0559BACF6": {
+                "hash": "7103244170870631670",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 28,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x74599E56F72F9D7E": {
+                "hash": "8383906277678357886",
+                "loc_name": "A/ARC-3 Tesla Tower",
+                "loc_name_zh": "A/ARC-3特斯拉塔",
+                "index": 29,
+                "remove_time": 2.5,
+                "life_time": 150.0,
+                "on_retract_ability": "2365 <=> AbilityId_Unknown_2365"
+            }
+        },
+        {
+            "0xEF85D6CF58E31D70": {
+                "hash": "17259437333005147504",
+                "loc_name": "A/G-16 Gatling Sentry",
+                "loc_name_zh": "A/G-16 加特林哨戒炮",
+                "index": 30,
+                "remove_time": 3.5,
+                "life_time": 150.0,
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+            }
+        },
+        {
+            "0x7FF0FD4572F5996F": {
+                "hash": "9219146911950674287",
+                "loc_name": "A/G-16 Gatling Sentry MK2",
+                "loc_name_zh": "A/G-16 加特林哨戒炮MK2",
+                "index": 31,
+                "remove_time": 3.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+            }
+        },
+        {
+            "0x57F27CBD5B71B0CB": {
+                "hash": "6337264778388549835",
+                "loc_name": "A/G-16 Gatling Sentry MK4",
+                "loc_name_zh": "A/G-16 加特林哨戒炮MK4",
+                "index": 32,
+                "remove_time": 3.5,
+                "life_time": -1.0,
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+            }
+        },
+        {
+            "0x37CDE43876BA26BB": {
+                "hash": "4021120973472933563",
+                "loc_name": "A/MG-43 Machine Gun Sentry",
+                "loc_name_zh": "A/MG-43 哨戒机枪",
+                "index": 33,
+                "remove_time": 2.5,
+                "life_time": 150.0,
+                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+            }
+        },
+        {
+            "0xB52BEAAE4F85C391": {
+                "hash": "13054785979242890129",
+                "loc_name": "Sealed Hellpod",
+                "loc_name_zh": "无装备空投仓支架",
+                "index": 34,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xCA6E81E2B3E22B18": {
+                "hash": "14586739053780151064",
+                "loc_name": "RL-77 Airburst Rocket Launcher (Hellpod)",
+                "loc_name_zh": "RL-77 空爆火箭发射器（支架）",
+                "index": 35,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x31400A6A3003E29C": {
+                "hash": "3548847957556322972",
+                "loc_name": "B-1 Supply Pack (Hellpod)",
+                "loc_name_zh": "B-1 补给背包（支架）",
+                "index": 36,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x4CF9D9B3F6813F52": {
+                "hash": "5546703783041515346",
+                "loc_name": "ARC-3 Arc Thrower (Hellpod)",
+                "loc_name_zh": "ARC-3 电弧发射器（支架）",
+                "index": 37,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x5F41C4DCABE95421": {
+                "hash": "6863983759145391137",
+                "loc_name": "AC-8 Autocannon (Hellpod)",
+                "loc_name_zh": "AC-8 机炮（支架）",
+                "index": 38,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x3A50B58B0553056A": {
+                "hash": "4202058061031081322",
+                "loc_name": "SH-20 Ballistic Shield Backpack (Hellpod)",
+                "loc_name_zh": "SH-20 防弹盾牌背包（支架）",
+                "index": 39,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x2ADE442313B5B7B3": {
+                "hash": "3088981311867959219",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 40,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x2AB2507588D54B8B": {
+                "hash": "3076609961184545675",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 41,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xB7791DA91F13488C": {
+                "hash": "13220630793330837644",
+                "loc_name": "GL-28 Belt-Fed Grenade Launcher (Hellpod)",
+                "loc_name_zh": "GL-28 弹链式榴弹发射器（支架）",
+                "index": 42,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x0AC9CDDBE8C64851": {
+                "hash": "777378755084961873",
+                "loc_name": "B/MD C4 Pack (Hellpod)",
+                "loc_name_zh": "B/MD C4 背包（支架）",
+                "index": 43,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xD00A26BA08786344": {
+                "hash": "14990836890103997252",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 44,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xBBD57DF3E5B15ED8": {
+                "hash": "13534862741616025304",
+                "loc_name": "TX-41 Sterilizer (Hellpod)",
+                "loc_name_zh": "TX-41 灭菌器（支架）",
+                "index": 45,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x0800B8C12FF96A8E": {
+                "hash": "576663892176497294",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 46,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x89CFD784797A7621": {
+                "hash": "9930392667348956705",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 47,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x6B6E7FE1B931393C": {
+                "hash": "7741265416947841340",
+                "loc_name": "Dark Fluid Backpack (Hellpod)",
+                "loc_name_zh": "暗流体背包（支架）",
+                "index": 48,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x09183066C4EBCE28": {
+                "hash": "655326963730992680",
+                "loc_name": "SH-51 Directional Shield (Hellpod)",
+                "loc_name_zh": "SH-51 定向护盾（支架）",
+                "index": 49,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x4C7E4680FF843A1B": {
+                "hash": "5511920513804679707",
+                "loc_name": "LIFT-182 Warp Pack (Hellpod)",
+                "loc_name_zh": "LIFT-182 传送背包（支架）",
+                "index": 50,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xE86BAA795FA4E457": {
+                "hash": "16747667077579727959",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 51,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x41436D438139F786": {
+                "hash": "4702722572603225990",
+                "loc_name": "AX/FLAM-75 Hot Dog (Hellpod)",
+                "loc_name_zh": "AX/FLAM-75 热狗（支架）",
+                "index": 52,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xD8E278355CF29EF4": {
+                "hash": "15628185827517046516",
+                "loc_name": "AX/TX-13 Dog Breath (Hellpod)",
+                "loc_name_zh": "AX/TX-13 腐息（支架）",
+                "index": 53,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xDE6F09BC8EAEBE27": {
+                "hash": "16028040304287202855",
+                "loc_name": "AX/LAS-5 Rover (Hellpod)",
+                "loc_name_zh": "AX/LAS-5 漫游车（支架）",
+                "index": 54,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x0807D288AD22601B": {
+                "hash": "578662561602494491",
+                "loc_name": "AX/AR-23 Guard Dog (Hellpod)",
+                "loc_name_zh": "AX/AR-23 护卫犬（支架）",
+                "index": 55,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x72DB04413D4AB0F0": {
+                "hash": "8276213418471108848",
+                "loc_name": "AX/FLAM-75 Hot Dog (Hellpod)",
+                "loc_name_zh": "AX/ARC-3 K9（支架）",
+                "index": 56,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xF88D61A8FE1E0766": {
+                "hash": "17910078671568111462",
+                "loc_name": "SH-32 Shield Generator Pack (Hellpod)",
+                "loc_name_zh": "SH-32 防护罩生成包（支架）",
+                "index": 57,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xC87555EED1E9F092": {
+                "hash": "14444545864073080978",
+                "loc_name": "MGX-42 Bullet Storm (Hellpod)",
+                "loc_name_zh": "MGX-42 子弹风暴（支架）",
+                "index": 58,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x8A9E543022C18092": {
+                "hash": "9988513589272608914",
+                "loc_name": "EAT-411 Leveller (Hellpod)",
+                "loc_name_zh": "EAT-411 荡平者（支架）",
+                "index": 59,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x20AAFC3A504D2E5F": {
+                "hash": "2353971082640043615",
+                "loc_name": "EAT-700 Expendable Napalm (Hellpod)",
+                "loc_name_zh": "EAT-700 消耗性凝固汽油弹（支架）",
+                "index": 60,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xC57F85252B7D853B": {
+                "hash": "14231239742203987259",
+                "loc_name": "FAF-14 Spear (Hellpod)",
+                "loc_name_zh": "FAF-14 飞矛（支架）",
+                "index": 61,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x0A60397B7409995E": {
+                "hash": "747660740534049118",
+                "loc_name": "StA-X3 W.A.S.P. Launcher (Hellpod)",
+                "loc_name_zh": "StA-X3 WASP 发射器（支架）",
+                "index": 62,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xE90F771A36FB441E": {
+                "hash": "16793772489963160606",
+                "loc_name": "FLAM-40 Flame Thrower (Hellpod)",
+                "loc_name_zh": "FLAM-40 火焰喷射器（支架）",
+                "index": 63,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x20225DEE487C9F5F": {
+                "hash": "2315516436421582687",
+                "loc_name": "GL-21 Grenade Launcher (Hellpod)",
+                "loc_name_zh": "GL-21 榴弹发射器（支架）",
+                "index": 64,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x2F67BF9C4F560C02": {
+                "hash": "3415909520450653186",
+                "loc_name": "GL-52 De-Escalator (Hellpod)",
+                "loc_name_zh": "GL-52 缓和使者（支架）",
+                "index": 65,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x5CAF553BA7EA1429": {
+                "hash": "6678650487122301993",
+                "loc_name": "S-11 Speargun (Hellpod)",
+                "loc_name_zh": "S-11 矛枪（支架）",
+                "index": 66,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xCA4F3FC268F449D5": {
+                "hash": "14577940623038630357",
+                "loc_name": "B/FLAM-80 Cremator (Hellpod)",
+                "loc_name_zh": "B/FLAM-80 焚燃者（支架）",
+                "index": 67,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x0FD8B759412815DD": {
+                "hash": "1141864099511539165",
+                "loc_name": "MG-206 Heavy Machine Gun (Hellpod)",
+                "loc_name_zh": "MG-206 重机枪（支架）",
+                "index": 68,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x77C52E494527AA8A": {
+                "hash": "8630355153153141386",
+                "loc_name": "B-100 Portable Hellbomb (Hellpod)",
+                "loc_name_zh": "B-100 便携式地狱火炸弹（支架）",
+                "index": 69,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x52DCE8A110418742": {
+                "hash": "5970902984446543682",
+                "loc_name": "LIFT-860 Hover Pack (Hellpod)",
+                "loc_name_zh": "LIFT-860 悬浮背包（支架）",
+                "index": 70,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x0E9D35CD5C0217C2": {
+                "hash": "1053057044002772930",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 71,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xA6A8273F408D0309": {
+                "hash": "12008891559002833673",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 72,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x61353DF120F27732": {
+                "hash": "7004572901293848370",
+                "loc_name": "LIFT-850 Jump Pack (Hellpod)",
+                "loc_name_zh": "LIFT-850 喷射背包（支架）",
+                "index": 73,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xFDE262593307CA2F": {
+                "hash": "18294292771580135983",
+                "loc_name": "LAS-98 Laser Cannon (Hellpod)",
+                "loc_name_zh": "LAS-98 激光大炮（支架）",
+                "index": 74,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xA0E691598F32932F": {
+                "hash": "11594114104552493871",
+                "loc_name": "MLS-4X Commando (Hellpod)",
+                "loc_name_zh": "MLS-4X 突击兵（支架）",
+                "index": 75,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x67AC082FF6D142F3": {
+                "hash": "7470354883998204659",
+                "loc_name": "LAS-99 Quasar Cannon (Hellpod)",
+                "loc_name_zh": "LAS-99 类星体加农炮（支架）",
+                "index": 76,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x0DC7A18342B62BEC": {
+                "hash": "992939827990506476",
+                "loc_name": "EAT-17 Expendable Anti-Tank (Hellpod)",
+                "loc_name_zh": "EAT-17 消耗性反坦克武器（支架）",
+                "index": 77,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x31C4DD88C1450282": {
+                "hash": "3586234782721573506",
+                "loc_name": "M-105 Stalwart (Hellpod)",
+                "loc_name_zh": "M-105 盟友（支架）",
+                "index": 78,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x94C5114EBA59AA21": {
+                "hash": "10719993517856893473",
+                "loc_name": "MG-43 Machine Gun (Hellpod)",
+                "loc_name_zh": "MG-43 机枪（支架）",
+                "index": 79,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x5429EE4183CC2C2F": {
+                "hash": "6064640338382564399",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 80,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xB3F6EC87073AAFEC": {
+                "hash": "12967812241745948652",
+                "loc_name": "Medic Backpack (Hellpod)",
+                "loc_name_zh": "医疗背包（支架）",
+                "index": 81,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x7FA006885812A756": {
+                "hash": "9196357621753489238",
+                "loc_name": "CQC-9 Defoliation Tool (Hellpod)",
+                "loc_name_zh": "CQC-9 除叶工具（支架）",
+                "index": 82,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xEB95609DCBAD53FE": {
+                "hash": "16975580601286218750",
+                "loc_name": "CQC-1 One True Flag (Hellpod)",
+                "loc_name_zh": "CQC-1 唯一真旗帜（支架）",
+                "index": 83,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x8DB8B823889324F9": {
+                "hash": "10212114617817310457",
+                "loc_name": "CQC-20 Breaching Hammer (Hellpod)",
+                "loc_name_zh": "CQC-20 破门锤（支架）",
+                "index": 84,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x73B63D637973C7A4": {
+                "hash": "8337919257571739556",
+                "loc_name": "M-1000 Maxigun (Hellpod)",
+                "loc_name_zh": "M-1000 重装机枪（支架）",
+                "index": 85,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xDE18775FA447A9BF": {
+                "hash": "16003672528522815935",
+                "loc_name": "Mini Missile Silo (Hellpod)",
+                "loc_name_zh": "MS-11 单兵导弹发射井（本体）",
+                "index": 86,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x46B9E3BE0AE9972E": {
+                "hash": "5096354858712799022",
+                "loc_name": "PLAS-45 Epoch (Hellpod)",
+                "loc_name_zh": "PLAS-45 纪元（支架）",
+                "index": 87,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xB62620AE2CD89F49": {
+                "hash": "13125214096466681673",
+                "loc_name": "RS-422 Railgun (Hellpod)",
+                "loc_name_zh": "RS-422 磁轨炮（支架）",
+                "index": 88,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xDDEE9646723E09D3": {
+                "hash": "15991884556147755475",
+                "loc_name": "GR-8 Recoilless Rifle (Hellpod)",
+                "loc_name_zh": "GR-8 无后坐力炮（支架）",
+                "index": 89,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x44FD108C1BA32019": {
+                "hash": "4971147757632036889",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 90,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x9DE2C3A3C9A6353E": {
+                "hash": "11376870716921492798",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 91,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x891ADA7D553B69DB": {
+                "hash": "9879448964426328539",
+                "loc_name": "APW-1 Anti-Materiel Rifle (Hellpod)",
+                "loc_name_zh": "APW-1 反器材步枪（支架）",
+                "index": 92,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xC18C1301580FA0C4": {
+                "hash": "13946543042552897732",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 93,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x96615499993B1E16": {
+                "hash": "10836035197107641878",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 94,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xD23393AF036CC727": {
+                "hash": "15146612351663130407",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 95,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xBB3AFFFB572C3488": {
+                "hash": "13491377088706131080",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 96,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x04C99523A808EF90": {
+                "hash": "344970826846105488",
+                "loc_name": "A/G-16 Gatling Sentry MK2.1",
+                "loc_name_zh": "A/G-16 加特林哨戒炮MK2.1",
+                "index": 97,
+                "remove_time": 3.5,
+                "life_time": -1.0,
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+            }
+        },
+        {
+            "0x87F46B6D12BB016A": {
+                "hash": "9796573205647524202",
+                "loc_name": "A/G-16 Gatling Sentry MK3",
+                "loc_name_zh": "A/G-16 加特林哨戒炮MK3",
+                "index": 98,
+                "remove_time": 2.5,
+                "life_time": -1.0,
+                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+            }
+        },
+        {
+            "0xB127552416CE512E": {
+                "hash": "12765265282294763822",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 99,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xC7C2AFE0D83CF26D": {
+                "hash": "14394260739264934509",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 100,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xDFA99372CEFBF84D": {
+                "hash": "16116574862830205005",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 101,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xAC6E5FA7DB7FE621": {
+                "hash": "12424973596508546593",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 102,
+                "remove_time": 6.0,
+                "life_time": 0.0,
+                "on_retract_ability": "1266 <=> AbilityId_Unknown_1266"
+            }
+        },
+        {
+            "0xE310DABABD5E36AF": {
+                "hash": "16361817941812852399",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 103,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x1556FE9780D5D52D": {
+                "hash": "1537696249448617261",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 104,
+                "remove_time": 6.0,
+                "life_time": 0.0,
+                "on_retract_ability": "1277 <=> AbilityId_Unknown_1277"
+            }
+        },
+        {
+            "0x5052EC6A928CCF1A": {
+                "hash": "5787948413593898778",
+                "loc_name": "Supplies (Hellpod)",
+                "loc_name_zh": "补给（支架）",
+                "index": 105,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1261 <=> AbilityId_Unknown_1261"
+            }
+        },
+        {
+            "0xD7F32C2DF7934784": {
+                "hash": "15560829713433970564",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 106,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x73681FFD58FA1A90": {
+                "hash": "8315931884919593616",
+                "loc_name": "Resupply Pod AR-23",
+                "loc_name_zh": "补给上的解放者",
+                "index": 107,
+                "remove_time": 0.0,
+                "life_time": 0.0,
+                "on_retract_ability": "1267 <=> AbilityId_Unknown_1267"
+            }
+        },
+        {
+            "0x54D86057F5DACFB9": {
+                "hash": "6113742425058627513",
+                "loc_name": "A/AC-8 Autocannon Sentry",
+                "loc_name_zh": "A/AC-8 自动哨戒炮",
+                "index": 108,
+                "remove_time": 2.5,
+                "life_time": 150.0,
+                "on_retract_ability": "1263 <=> AbilityId_Unknown_1263"
+            }
+        },
+        {
+            "0xAF04113302F5621D": {
+                "hash": "12611223767334871581",
+                "loc_name": "Medical Supply (Hellpod)",
+                "loc_name_zh": "医疗补给（支架）",
+                "index": 109,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x34DA42A01BDC971A": {
+                "hash": "3808429690324817690",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 110,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0xEA534432474985A0": {
+                "hash": "16884914410677175712",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 111,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+            }
+        },
+        {
+            "0x4DF41F84668D07FB": {
+                "hash": "5617149288754513915",
+                "loc_name": "M-103 Supply FRV AR Sentry",
+                "loc_name_zh": "M-103 补给型 解放者炮塔",
+                "index": 112,
+                "remove_time": 0.0,
+                "life_time": 0.0,
+                "on_retract_ability": "1267 <=> AbilityId_Unknown_1267"
+            }
+        }
+    ]
+}

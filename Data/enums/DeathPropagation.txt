@@ -1,0 +1,4 @@
+DeathPropagation_None
+DeathPropagation_ToParent
+DeathPropagation_ToChildren
+DeathPropagation_Both

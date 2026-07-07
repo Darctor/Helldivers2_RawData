@@ -1,0 +1,5 @@
+WeaponReloadEventType_None
+WeaponReloadEventType_ReloadNormal
+WeaponReloadEventType_ReloadNormalOneHand
+WeaponReloadEventType_ReloadFast
+WeaponReloadEventType_ReloadFastOneHand

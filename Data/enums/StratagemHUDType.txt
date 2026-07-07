@@ -1,0 +1,6 @@
+StratagemHUDType_Offensive
+StratagemHUDType_Mission
+StratagemHUDType_Supply
+StratagemHUDType_Defensive
+StratagemHUDType_Special
+StratagemHUDType_Count

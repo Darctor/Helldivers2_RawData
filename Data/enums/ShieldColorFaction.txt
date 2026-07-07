@@ -1,0 +1,3 @@
+ShieldColorFaction_None
+ShieldColorFaction_Illuminate_Blue
+ShieldColorFaction_Helldivers_Orange

@@ -1,0 +1,1336 @@
+{
+    "_metadata": {
+        "struct_size": 4992,
+        "omitted_size": 3,
+        "exported_entity_count": 6,
+        "matched_bilingual_hash_count": 3,
+        "patch_date": "2026_07_07",
+        "game_version": "1.006.301"
+    },
+    "entities": [
+        {
+            "0x20B9C7734DAEAD65": {
+                "hash": "2358135177943625061",
+                "loc_name": "Veracitor",
+                "loc_name_zh": "证真者",
+                "index": 0,
+                "start_offline": 0,
+                "shieldable_zones": [
+                    {
+                        "unk_float_L1_0x0000": 0.75,
+                        "zone_name": 3323647717,
+                        "unk_uint32_L1_0x0008": 1278906229,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 8.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 0,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 9.999999747378752e-06,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 3072261008,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 0
+                    }
+                ],
+                "unk_uint32_0x1304": 0,
+                "shield_unit_activate_sound": 1460947290,
+                "shield_unit_deactivate_sound": 3072261008,
+                "default_shield_recharge_sound": 1460947290,
+                "shield_activate_animation_event": 3470895594,
+                "shield_deactivate_animation_event": 1922100775,
+                "hit_effect_receiver_type": "9 <=> HitEffectReceiverType_Unknown_9",
+                "inflict_pain": 0,
+                "block_melee_type": "0 <=> ShieldBlockMeleeType_None",
+                "default_charge_event_triggers": [
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    },
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    },
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    },
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    }
+                ],
+                "shield_audio_node": 0,
+                "unk_uint32_0x137C": 3167719909
+            }
+        },
+        {
+            "0x453FE22C634EB30F": {
+                "hash": "4989955592422339343",
+                "loc_name": "Gatekeeper",
+                "loc_name_zh": "御门者",
+                "index": 1,
+                "start_offline": 0,
+                "shieldable_zones": [
+                    {
+                        "unk_float_L1_0x0000": 0.75,
+                        "zone_name": 3323647717,
+                        "unk_uint32_L1_0x0008": 1278906229,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 8.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 0,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 9.999999747378752e-06,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 3072261008,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 0
+                    }
+                ],
+                "unk_uint32_0x1304": 0,
+                "shield_unit_activate_sound": 1460947290,
+                "shield_unit_deactivate_sound": 3072261008,
+                "default_shield_recharge_sound": 1460947290,
+                "shield_activate_animation_event": 3470895594,
+                "shield_deactivate_animation_event": 1922100775,
+                "hit_effect_receiver_type": "9 <=> HitEffectReceiverType_Unknown_9",
+                "inflict_pain": 0,
+                "block_melee_type": "0 <=> ShieldBlockMeleeType_None",
+                "default_charge_event_triggers": [
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    },
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    },
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    },
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    }
+                ],
+                "shield_audio_node": 0,
+                "unk_uint32_0x137C": 3167719909
+            }
+        },
+        {
+            "0xDAC7D53FE0749F5F": {
+                "hash": "15764803490959105887",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 2,
+                "start_offline": 1,
+                "shieldable_zones": [
+                    {
+                        "unk_float_L1_0x0000": 0.5,
+                        "zone_name": 4177763943,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 3373253751,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.75,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324394,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.5,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324393,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.25,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324392,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 4177763943
+                    },
+                    {
+                        "unk_float_L1_0x0000": 0.0,
+                        "zone_name": 3864243383,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 1128880422,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.75,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324394,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.5,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324393,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.25,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324392,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 3864243383
+                    },
+                    {
+                        "unk_float_L1_0x0000": 0.0,
+                        "zone_name": 4248660730,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 593241453,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.75,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324394,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.5,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324393,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.25,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324392,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 4248660730
+                    },
+                    {
+                        "unk_float_L1_0x0000": 0.0,
+                        "zone_name": 470746886,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 2734219698,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.75,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324394,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.5,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324393,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.25,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324392,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 470746886
+                    },
+                    {
+                        "unk_float_L1_0x0000": 0.0,
+                        "zone_name": 3633817635,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 2895664228,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.75,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324394,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.5,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324393,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.25,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324392,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 3633817635
+                    },
+                    {
+                        "unk_float_L1_0x0000": 0.0,
+                        "zone_name": 299342052,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 1888635837,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.75,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324394,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.5,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324393,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.25,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324392,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 299342052
+                    },
+                    {
+                        "unk_float_L1_0x0000": 0.0,
+                        "zone_name": 3937404331,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 3913569326,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.75,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324394,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.5,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324393,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.25,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324392,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 3937404331
+                    },
+                    {
+                        "unk_float_L1_0x0000": 0.0,
+                        "zone_name": 3401103892,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 866902942,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.75,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324394,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.5,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324393,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.25,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324392,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 3401103892
+                    },
+                    {
+                        "unk_float_L1_0x0000": 0.0,
+                        "zone_name": 4008095580,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 3220505084,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.75,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324394,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.5,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324393,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.25,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324392,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 4008095580
+                    },
+                    {
+                        "unk_float_L1_0x0000": 0.0,
+                        "zone_name": 803832274,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 1173773423,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.75,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324394,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.5,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324393,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.25,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324392,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 803832274
+                    },
+                    {
+                        "unk_float_L1_0x0000": 0.0,
+                        "zone_name": 2881381122,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 3443807231,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.75,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324394,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.5,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324393,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.25,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324392,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 2881381122
+                    },
+                    {
+                        "unk_float_L1_0x0000": 0.0,
+                        "zone_name": 4063631309,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 3560954975,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.75,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324394,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.5,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324393,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.25,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324392,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 4063631309
+                    },
+                    {
+                        "unk_float_L1_0x0000": 0.0,
+                        "zone_name": 2788132038,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 1509258020,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.75,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324394,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.5,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324393,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.25,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324392,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 2788132038
+                    },
+                    {
+                        "unk_float_L1_0x0000": 0.0,
+                        "zone_name": 2388956765,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 3314751668,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.75,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324394,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.5,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324393,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.25,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324392,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 2388956765
+                    },
+                    {
+                        "unk_float_L1_0x0000": 0.0,
+                        "zone_name": 1100503639,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 1691996898,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.75,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324394,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.5,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324393,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.25,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324392,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 1100503639
+                    },
+                    {
+                        "unk_float_L1_0x0000": 0.0,
+                        "zone_name": 534279985,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 2871346526,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.75,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324394,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.5,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324393,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.25,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324392,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 534279985
+                    },
+                    {
+                        "unk_float_L1_0x0000": 0.0,
+                        "zone_name": 856869139,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 2928238848,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.75,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324394,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.5,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324393,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.25,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324392,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 856869139
+                    },
+                    {
+                        "unk_float_L1_0x0000": 0.0,
+                        "zone_name": 564297210,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 2420312241,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.75,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324394,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.5,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324393,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.25,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 1443324392,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 564297210
+                    }
+                ],
+                "unk_uint32_0x1304": 0,
+                "shield_unit_activate_sound": 4029015248,
+                "shield_unit_deactivate_sound": 3114071484,
+                "default_shield_recharge_sound": 0,
+                "shield_activate_animation_event": 3470895594,
+                "shield_deactivate_animation_event": 1922100775,
+                "hit_effect_receiver_type": "9 <=> HitEffectReceiverType_Unknown_9",
+                "inflict_pain": 0,
+                "block_melee_type": "0 <=> ShieldBlockMeleeType_None",
+                "default_charge_event_triggers": [
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    },
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    },
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    },
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    }
+                ],
+                "shield_audio_node": 0,
+                "unk_uint32_0x137C": 2697240888
+            }
+        },
+        {
+            "0xB0762600F2B478CE": {
+                "hash": "12715392383440943310",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 3,
+                "start_offline": 1,
+                "shieldable_zones": [
+                    {
+                        "unk_float_L1_0x0000": 0.75,
+                        "zone_name": 436174468,
+                        "unk_uint32_L1_0x0008": 2010998663,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 0,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 0
+                    }
+                ],
+                "unk_uint32_0x1304": 0,
+                "shield_unit_activate_sound": 4029015248,
+                "shield_unit_deactivate_sound": 3114071484,
+                "default_shield_recharge_sound": 0,
+                "shield_activate_animation_event": 3470895594,
+                "shield_deactivate_animation_event": 1922100775,
+                "hit_effect_receiver_type": "9 <=> HitEffectReceiverType_Unknown_9",
+                "inflict_pain": 0,
+                "block_melee_type": "0 <=> ShieldBlockMeleeType_None",
+                "default_charge_event_triggers": [
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    },
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    },
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    },
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    }
+                ],
+                "shield_audio_node": 0,
+                "unk_uint32_0x137C": 3167719909
+            }
+        },
+        {
+            "0x7EA558204D0FFC29": {
+                "hash": "9125797115691269161",
+                "loc_name": "Overseer Shield",
+                "loc_name_zh": "监视者 手臂护盾",
+                "index": 4,
+                "start_offline": 1,
+                "shieldable_zones": [
+                    {
+                        "unk_float_L1_0x0000": 0.75,
+                        "zone_name": 436174468,
+                        "unk_uint32_L1_0x0008": 2010998663,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 0,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 0
+                    }
+                ],
+                "unk_uint32_0x1304": 0,
+                "shield_unit_activate_sound": 4029015248,
+                "shield_unit_deactivate_sound": 3114071484,
+                "default_shield_recharge_sound": 0,
+                "shield_activate_animation_event": 3470895594,
+                "shield_deactivate_animation_event": 1922100775,
+                "hit_effect_receiver_type": "9 <=> HitEffectReceiverType_Unknown_9",
+                "inflict_pain": 0,
+                "block_melee_type": "0 <=> ShieldBlockMeleeType_None",
+                "default_charge_event_triggers": [
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    },
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    },
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    },
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    }
+                ],
+                "shield_audio_node": 0,
+                "unk_uint32_0x137C": 3167719909
+            }
+        },
+        {
+            "0x1449EB0752E0476E": {
+                "hash": "1461957970746165102",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 5,
+                "start_offline": 1,
+                "shieldable_zones": [
+                    {
+                        "unk_float_L1_0x0000": 0.5,
+                        "zone_name": 508404510,
+                        "unk_uint32_L1_0x0008": 0,
+                        "unk_uint32_L1_0x000C": 0,
+                        "unk_uint32_L1_0x0010": 0,
+                        "unk_uint32_L1_0x0014": 0,
+                        "recharge_delay": 5.0,
+                        "broken_recharge_delay": 7.0,
+                        "recharge_rate": 75.0,
+                        "starter_charge_on_recharge": 0.0,
+                        "activated_visibility_mask": 2446936500,
+                        "charge_event_triggers_override": [
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            },
+                            {
+                                "health_percent": 0.0,
+                                "event_name": 0,
+                                "reverse_event_name": 0,
+                                "event_sound": 0,
+                                "reverse_event_sound": 0
+                            }
+                        ],
+                        "unk_uint32_about_zone_name": 0
+                    }
+                ],
+                "unk_uint32_0x1304": 0,
+                "shield_unit_activate_sound": 4029015248,
+                "shield_unit_deactivate_sound": 3114071484,
+                "default_shield_recharge_sound": 0,
+                "shield_activate_animation_event": 3470895594,
+                "shield_deactivate_animation_event": 1922100775,
+                "hit_effect_receiver_type": "9 <=> HitEffectReceiverType_Unknown_9",
+                "inflict_pain": 0,
+                "block_melee_type": "0 <=> ShieldBlockMeleeType_None",
+                "default_charge_event_triggers": [
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    },
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    },
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    },
+                    {
+                        "health_percent": 0.0,
+                        "event_name": 0,
+                        "reverse_event_name": 0,
+                        "event_sound": 0,
+                        "reverse_event_sound": 0
+                    }
+                ],
+                "shield_audio_node": 0,
+                "unk_uint32_0x137C": 0
+            }
+        }
+    ]
+}

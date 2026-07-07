@@ -1,0 +1,957 @@
+{
+    "_metadata": {
+        "struct_size": 128,
+        "omitted_size": 11,
+        "exported_entity_count": 21,
+        "matched_bilingual_hash_count": 16,
+        "patch_date": "2026_07_07",
+        "game_version": "1.006.301"
+    },
+    "entities": [
+        {
+            "0x0883366204E1CCC5": {
+                "hash": "613393768869121221",
+                "loc_name": "Gazer",
+                "loc_name_zh": "凝视者",
+                "index": 0,
+                "beam_type": "13 <=> BeamType_Gazer",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 0,
+                "fire_loop_stop_audio_event": 0,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "8859811321112716539",
+                "noise_timer": 0.25,
+                "fire_source_node": 747556395,
+                "dry_fire_audio_event": 0,
+                "dry_fire_repeat_audio_event": 0,
+                "on_fire_started_wielder_anim_event": 0,
+                "on_fire_stopped_wielder_anim_event": 0,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0x1448D494665D01A0": {
+                "hash": "1461651812919345568",
+                "loc_name": "Gazer MK2",
+                "loc_name_zh": "凝视者MK2",
+                "index": 1,
+                "beam_type": "26 <=> BeamType_Gazer_MK2",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 0,
+                "fire_loop_stop_audio_event": 0,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "1972006519445982030",
+                "noise_timer": 0.25,
+                "fire_source_node": 747556395,
+                "dry_fire_audio_event": 0,
+                "dry_fire_repeat_audio_event": 0,
+                "on_fire_started_wielder_anim_event": 0,
+                "on_fire_stopped_wielder_anim_event": 0,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0x32890A67670C5224": {
+                "hash": "3641453212932526628",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 2,
+                "beam_type": "11 <=> BeamType_TripodEye",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 1337735903,
+                "fire_loop_stop_audio_event": 828944125,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "9107034086869126613",
+                "noise_timer": 0.25,
+                "fire_source_node": 1243096897,
+                "dry_fire_audio_event": 0,
+                "dry_fire_repeat_audio_event": 0,
+                "on_fire_started_wielder_anim_event": 0,
+                "on_fire_stopped_wielder_anim_event": 0,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0x08886D27A6F6DB8C": {
+                "hash": "614861366208420748",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 3,
+                "beam_type": "2 <=> BeamType_BotTorch",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 0.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 1337735903,
+                "fire_loop_stop_audio_event": 828944125,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "2610715712599480522",
+                "noise_timer": 0.25,
+                "fire_source_node": 2601604451,
+                "dry_fire_audio_event": 0,
+                "dry_fire_repeat_audio_event": 0,
+                "on_fire_started_wielder_anim_event": 0,
+                "on_fire_stopped_wielder_anim_event": 0,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0x4763C852D8ECEE35": {
+                "hash": "5144175457539518005",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 4,
+                "beam_type": "4 <=> BeamType_TripodEye_MK3",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 0,
+                "fire_loop_stop_audio_event": 0,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "9107034086869126613",
+                "noise_timer": 0.25,
+                "fire_source_node": 1243096897,
+                "dry_fire_audio_event": 0,
+                "dry_fire_repeat_audio_event": 0,
+                "on_fire_started_wielder_anim_event": 0,
+                "on_fire_stopped_wielder_anim_event": 0,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0x2B3C367B280F4094": {
+                "hash": "3115424944814506132",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 5,
+                "beam_type": "8 <=> BeamType_ObserverEye",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 3708388414,
+                "fire_loop_stop_audio_event": 409737216,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "15870481001909367221",
+                "noise_timer": 0.25,
+                "fire_source_node": 2601604451,
+                "dry_fire_audio_event": 0,
+                "dry_fire_repeat_audio_event": 0,
+                "on_fire_started_wielder_anim_event": 0,
+                "on_fire_stopped_wielder_anim_event": 0,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0xC6A5BB8B319217AC": {
+                "hash": "14314053197173495724",
+                "loc_name": "Harvester Beam (Model)",
+                "loc_name_zh": "猎杀器 激光",
+                "index": 6,
+                "beam_type": "11 <=> BeamType_TripodEye",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 0,
+                "fire_loop_stop_audio_event": 0,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "9107034086869126613",
+                "noise_timer": 0.25,
+                "fire_source_node": 1243096897,
+                "dry_fire_audio_event": 0,
+                "dry_fire_repeat_audio_event": 0,
+                "on_fire_started_wielder_anim_event": 0,
+                "on_fire_stopped_wielder_anim_event": 0,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0x4E342031A9D5C4F9": {
+                "hash": "5635164431422178553",
+                "loc_name": "Leviathan Beam Turret (Model)",
+                "loc_name_zh": "利维坦 激光炮",
+                "index": 7,
+                "beam_type": "20 <=> BeamType_Leviathan",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 0,
+                "fire_loop_stop_audio_event": 0,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "8859811321112716539",
+                "noise_timer": 0.25,
+                "fire_source_node": 747556395,
+                "dry_fire_audio_event": 0,
+                "dry_fire_repeat_audio_event": 0,
+                "on_fire_started_wielder_anim_event": 0,
+                "on_fire_stopped_wielder_anim_event": 0,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0x56070F36CFFFA8A8": {
+                "hash": "6198940140191066280",
+                "loc_name": "A/LAS-98 Laser Sentry",
+                "loc_name_zh": "A/LAS-98 激光哨戒炮",
+                "index": 8,
+                "beam_type": "9 <=> BeamType_LaserSentry",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 2192302417,
+                "fire_loop_stop_audio_event": 3443717383,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "9107034086869126613",
+                "noise_timer": 0.25,
+                "fire_source_node": 747556395,
+                "dry_fire_audio_event": 1972314068,
+                "dry_fire_repeat_audio_event": 619824322,
+                "on_fire_started_wielder_anim_event": 2631304082,
+                "on_fire_stopped_wielder_anim_event": 489713550,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0x1980D92B619FF5FE": {
+                "hash": "1837707428311856638",
+                "loc_name": "E/MG-101 HMG Emplacement (Laser)",
+                "loc_name_zh": "E/MG-101 固定重机枪（激光）",
+                "index": 9,
+                "beam_type": "22 <=> BeamType_Large",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 1337735903,
+                "fire_loop_stop_audio_event": 828944125,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "9107034086869126613",
+                "noise_timer": 0.25,
+                "fire_source_node": 2601604451,
+                "dry_fire_audio_event": 0,
+                "dry_fire_repeat_audio_event": 0,
+                "on_fire_started_wielder_anim_event": 0,
+                "on_fire_stopped_wielder_anim_event": 0,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0xE8A244FFA3A48FE4": {
+                "hash": "16763036627779227620",
+                "loc_name": "Harvester Broken Beam (Model)",
+                "loc_name_zh": "猎杀器 激光MK2",
+                "index": 10,
+                "beam_type": "21 <=> BeamType_TripodBrokenEye",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 2492921472,
+                "fire_loop_stop_audio_event": 196103212,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "9107034086869126613",
+                "noise_timer": 0.25,
+                "fire_source_node": 1243096897,
+                "dry_fire_audio_event": 0,
+                "dry_fire_repeat_audio_event": 0,
+                "on_fire_started_wielder_anim_event": 0,
+                "on_fire_stopped_wielder_anim_event": 0,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0xF196069E7E14C497": {
+                "hash": "17408108687437120663",
+                "loc_name": "Leviathan Beam Turret Left (Model)",
+                "loc_name_zh": "利维坦 激光炮 左",
+                "index": 11,
+                "beam_type": "20 <=> BeamType_Leviathan",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 0,
+                "fire_loop_stop_audio_event": 0,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "8859811321112716539",
+                "noise_timer": 0.25,
+                "fire_source_node": 747556395,
+                "dry_fire_audio_event": 0,
+                "dry_fire_repeat_audio_event": 0,
+                "on_fire_started_wielder_anim_event": 0,
+                "on_fire_stopped_wielder_anim_event": 0,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0x7ACB4BD753B71DE0": {
+                "hash": "8848249281094032864",
+                "loc_name": "Leviathan Beam Turret Right (Model)",
+                "loc_name_zh": "利维坦 激光炮 右",
+                "index": 12,
+                "beam_type": "20 <=> BeamType_Leviathan",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 0,
+                "fire_loop_stop_audio_event": 0,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "8859811321112716539",
+                "noise_timer": 0.25,
+                "fire_source_node": 747556395,
+                "dry_fire_audio_event": 0,
+                "dry_fire_repeat_audio_event": 0,
+                "on_fire_started_wielder_anim_event": 0,
+                "on_fire_stopped_wielder_anim_event": 0,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0x372481E910C05A76": {
+                "hash": "3973443609256024694",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 13,
+                "beam_type": "3 <=> BeamType_ShoulderMountedCamera",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 3440814238,
+                "fire_loop_stop_audio_event": 2553182014,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "0",
+                "noise_timer": 0.25,
+                "fire_source_node": 2601604451,
+                "dry_fire_audio_event": 1972314068,
+                "dry_fire_repeat_audio_event": 619824322,
+                "on_fire_started_wielder_anim_event": 0,
+                "on_fire_stopped_wielder_anim_event": 0,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0x2C66C201B2543D2C": {
+                "hash": "3199457897835937068",
+                "loc_name": "AX/LAS-5 Rover Gun (Model)",
+                "loc_name_zh": "AX/LAS-5 漫游车（武器）",
+                "index": 14,
+                "beam_type": "23 <=> BeamType_MediumDrone",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 0.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 2117740806,
+                "fire_loop_stop_audio_event": 3927165688,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "11385957211273278469",
+                "noise_timer": 0.25,
+                "fire_source_node": 2601604451,
+                "dry_fire_audio_event": 0,
+                "dry_fire_repeat_audio_event": 0,
+                "on_fire_started_wielder_anim_event": 0,
+                "on_fire_stopped_wielder_anim_event": 0,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0x27EE1ED8F6FB6356": {
+                "hash": "2877271129141764950",
+                "loc_name": "LAS-5 Scythe (Model)",
+                "loc_name_zh": "LAS-5 长柄镰（主武器，模型）",
+                "index": 15,
+                "beam_type": "7 <=> BeamType_Medium",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 3708388414,
+                "fire_loop_stop_audio_event": 409737216,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "11385957211273278469",
+                "noise_timer": 0.25,
+                "fire_source_node": 2601604451,
+                "dry_fire_audio_event": 1972314068,
+                "dry_fire_repeat_audio_event": 619824322,
+                "on_fire_started_wielder_anim_event": 1694094985,
+                "on_fire_stopped_wielder_anim_event": 1786122532,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0x7E3145A5BAA4B948": {
+                "hash": "9093125700741019976",
+                "loc_name": "LAS-22 Shear (Model)",
+                "loc_name_zh": "LAS-22 切变（主武器，模型）",
+                "index": 16,
+                "beam_type": "7 <=> BeamType_Medium",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 1414409562,
+                "fire_loop_stop_audio_event": 2813388644,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "11385957211273278469",
+                "noise_timer": 0.25,
+                "fire_source_node": 2601604451,
+                "dry_fire_audio_event": 1972314068,
+                "dry_fire_repeat_audio_event": 619824322,
+                "on_fire_started_wielder_anim_event": 1694094985,
+                "on_fire_stopped_wielder_anim_event": 1786122532,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0x3C86E871923F3970": {
+                "hash": "4361428863637469552",
+                "loc_name": "LAS-13 Trident (Model)",
+                "loc_name_zh": "LAS-13 三叉戟（主武器，模型）",
+                "index": 17,
+                "beam_type": "5 <=> BeamType_Trident",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 0,
+                "fire_loop_stop_audio_event": 0,
+                "fire_single_audio_event": 914815718,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "11385957211273278469",
+                "noise_timer": 0.25,
+                "fire_source_node": 2601604451,
+                "dry_fire_audio_event": 1972314068,
+                "dry_fire_repeat_audio_event": 619824322,
+                "on_fire_started_wielder_anim_event": 1694094985,
+                "on_fire_stopped_wielder_anim_event": 1786122532,
+                "blaster_mode": 1,
+                "rounds_per_minute": 300,
+                "beam_count_per_barrel": 2
+            }
+        },
+        {
+            "0x4F8A477E577AABA9": {
+                "hash": "5731472083741485993",
+                "loc_name": "Physical Gun (Model)",
+                "loc_name_zh": "物理枪",
+                "index": 18,
+                "beam_type": "12 <=> BeamType_PhysGun",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 3708388414,
+                "fire_loop_stop_audio_event": 409737216,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "0",
+                "noise_timer": 0.25,
+                "fire_source_node": 1464994495,
+                "dry_fire_audio_event": 0,
+                "dry_fire_repeat_audio_event": 0,
+                "on_fire_started_wielder_anim_event": 0,
+                "on_fire_stopped_wielder_anim_event": 0,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0x7B06196E90154C88": {
+                "hash": "8864800879179811976",
+                "loc_name": "LAS-7 Dagger (Model)",
+                "loc_name_zh": "LAS-7 匕首（副武器，模型）",
+                "index": 19,
+                "beam_type": "10 <=> BeamType_Small",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 1573814625,
+                "fire_loop_stop_audio_event": 3935454263,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "2200167325228221039",
+                "noise_timer": 0.25,
+                "fire_source_node": 2601604451,
+                "dry_fire_audio_event": 779413565,
+                "dry_fire_repeat_audio_event": 4027796040,
+                "on_fire_started_wielder_anim_event": 182456922,
+                "on_fire_stopped_wielder_anim_event": 2458244727,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        },
+        {
+            "0xD54B9505C0F72873": {
+                "hash": "15369542005276747891",
+                "loc_name": "LAS-98 Laser Cannon (Model)",
+                "loc_name_zh": "LAS-98 激光大炮（模型）",
+                "index": 20,
+                "beam_type": "1 <=> BeamType_LaserCannon",
+                "beam_prisms": {
+                    "light_beam_type": "0 <=> BeamType_None",
+                    "light_heat_generation_mul": 1.0,
+                    "heavy_beam_type": "0 <=> BeamType_None",
+                    "heavy_heat_generation_mul": 1.0
+                },
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "focal_distances": {
+                    "x": 50.0,
+                    "y": 100.0,
+                    "z": 200.0
+                },
+                "firenode_pose_limit": 180.0,
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 1337735903,
+                "fire_loop_stop_audio_event": 828944125,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "9107034086869126613",
+                "noise_timer": 0.25,
+                "fire_source_node": 2601604451,
+                "dry_fire_audio_event": 1972314068,
+                "dry_fire_repeat_audio_event": 619824322,
+                "on_fire_started_wielder_anim_event": 2631304082,
+                "on_fire_stopped_wielder_anim_event": 489713550,
+                "blaster_mode": 0,
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+StratagemButtonDirection_None
+StratagemButtonDirection_Up [↑]
+StratagemButtonDirection_Right [→]
+StratagemButtonDirection_Down [↓]
+StratagemButtonDirection_Left [←]

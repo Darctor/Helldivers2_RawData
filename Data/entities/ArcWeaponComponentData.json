@@ -1,0 +1,262 @@
+{
+    "_metadata": {
+        "struct_size": 80,
+        "omitted_size": 6,
+        "exported_entity_count": 10,
+        "matched_bilingual_hash_count": 7,
+        "patch_date": "2026_07_07",
+        "game_version": "1.006.301"
+    },
+    "entities": [
+        {
+            "0x345AC393DD820704": {
+                "hash": "3772542677720106756",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 0,
+                "arc_type": "12 <=> ArcType_Unk12",
+                "rounds_per_minute": -1.0,
+                "infinite_ammo": 1,
+                "rpc_synced_fire_events": 0,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "fire_fail_audio_event": 0,
+                "fire_source_node": 2601604451,
+                "on_round_fired_shakes": {
+                    "world_shake_effect": "15470634414645351875",
+                    "local_shake_effect": "15470634414645351875",
+                    "fpv_shake_effect": "0",
+                    "inner_radius": 5.0,
+                    "outer_radius": 10.0
+                },
+                "muzzle_flash": "10465347570353705351",
+                "muzzle_flash_fail": "16648530335928772614"
+            }
+        },
+        {
+            "0xF5247DE3ABFB822B": {
+                "hash": "17664382055250362923",
+                "loc_name": "Watcher Arc Weapon (Model)",
+                "loc_name_zh": "守望者 电弧发射器",
+                "index": 1,
+                "arc_type": "4 <=> ArcType_IlluminateObserverLightning",
+                "rounds_per_minute": -1.0,
+                "infinite_ammo": 1,
+                "rpc_synced_fire_events": 0,
+                "fire_single_audio_event": 2780454428,
+                "fire_all_barrel_audio_event": 0,
+                "fire_fail_audio_event": 0,
+                "fire_source_node": 2601604451,
+                "on_round_fired_shakes": {
+                    "world_shake_effect": "15470634414645351875",
+                    "local_shake_effect": "15470634414645351875",
+                    "fpv_shake_effect": "0",
+                    "inner_radius": 5.0,
+                    "outer_radius": 10.0
+                },
+                "muzzle_flash": "10465347570353705351",
+                "muzzle_flash_fail": "16648530335928772614"
+            }
+        },
+        {
+            "0x8DBF99607BD8E550": {
+                "hash": "10214051119573296464",
+                "loc_name": "Harvester Arc Weapon (Model)",
+                "loc_name_zh": "猎杀器 电弧",
+                "index": 2,
+                "arc_type": "1 <=> ArcType_IlluminateTripod",
+                "rounds_per_minute": -1.0,
+                "infinite_ammo": 1,
+                "rpc_synced_fire_events": 0,
+                "fire_single_audio_event": 4100158230,
+                "fire_all_barrel_audio_event": 0,
+                "fire_fail_audio_event": 3527293210,
+                "fire_source_node": 2601604451,
+                "on_round_fired_shakes": {
+                    "world_shake_effect": "15470634414645351875",
+                    "local_shake_effect": "15470634414645351875",
+                    "fpv_shake_effect": "0",
+                    "inner_radius": 5.0,
+                    "outer_radius": 10.0
+                },
+                "muzzle_flash": "10465347570353705351",
+                "muzzle_flash_fail": "16648530335928772614"
+            }
+        },
+        {
+            "0x2B09C5CC8F46B23B": {
+                "hash": "3101227300789072443",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 3,
+                "arc_type": "9 <=> ArcType_IlluminateObelisk",
+                "rounds_per_minute": -1.0,
+                "infinite_ammo": 1,
+                "rpc_synced_fire_events": 0,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "fire_fail_audio_event": 0,
+                "fire_source_node": 747556395,
+                "on_round_fired_shakes": {
+                    "world_shake_effect": "15470634414645351875",
+                    "local_shake_effect": "15470634414645351875",
+                    "fpv_shake_effect": "0",
+                    "inner_radius": 5.0,
+                    "outer_radius": 10.0
+                },
+                "muzzle_flash": "10465347570353705351",
+                "muzzle_flash_fail": "16648530335928772614"
+            }
+        },
+        {
+            "0x0D382AE7FFEA9D45": {
+                "hash": "952558497108237637",
+                "loc_name": "Lightning Spire",
+                "loc_name_zh": "光能族电塔 电弧发射器",
+                "index": 4,
+                "arc_type": "5 <=> ArcType_IlluminateTurretTesla",
+                "rounds_per_minute": -1.0,
+                "infinite_ammo": 1,
+                "rpc_synced_fire_events": 0,
+                "fire_single_audio_event": 2104647552,
+                "fire_all_barrel_audio_event": 0,
+                "fire_fail_audio_event": 0,
+                "fire_source_node": 1243096897,
+                "on_round_fired_shakes": {
+                    "world_shake_effect": "15470634414645351875",
+                    "local_shake_effect": "15470634414645351875",
+                    "fpv_shake_effect": "0",
+                    "inner_radius": 3.0,
+                    "outer_radius": 10.0
+                },
+                "muzzle_flash": "0",
+                "muzzle_flash_fail": "0"
+            }
+        },
+        {
+            "0xED12FA4BDA0BB76D": {
+                "hash": "17082991540257404781",
+                "loc_name": "N/A",
+                "loc_name_zh": "N/A",
+                "index": 5,
+                "arc_type": "16 <=> ArcType_Unk16",
+                "rounds_per_minute": -1.0,
+                "infinite_ammo": 1,
+                "rpc_synced_fire_events": 0,
+                "fire_single_audio_event": 2104647552,
+                "fire_all_barrel_audio_event": 0,
+                "fire_fail_audio_event": 0,
+                "fire_source_node": 1243096897,
+                "on_round_fired_shakes": {
+                    "world_shake_effect": "15470634414645351875",
+                    "local_shake_effect": "15470634414645351875",
+                    "fpv_shake_effect": "0",
+                    "inner_radius": 3.0,
+                    "outer_radius": 10.0
+                },
+                "muzzle_flash": "0",
+                "muzzle_flash_fail": "0"
+            }
+        },
+        {
+            "0x74599E56F72F9D7E": {
+                "hash": "8383906277678357886",
+                "loc_name": "A/ARC-3 Tesla Tower",
+                "loc_name_zh": "A/ARC-3特斯拉塔",
+                "index": 6,
+                "arc_type": "13 <=> ArcType_TeslaTurret",
+                "rounds_per_minute": -1.0,
+                "infinite_ammo": 1,
+                "rpc_synced_fire_events": 0,
+                "fire_single_audio_event": 1726138993,
+                "fire_all_barrel_audio_event": 0,
+                "fire_fail_audio_event": 0,
+                "fire_source_node": 1441931427,
+                "on_round_fired_shakes": {
+                    "world_shake_effect": "15470634414645351875",
+                    "local_shake_effect": "15470634414645351875",
+                    "fpv_shake_effect": "0",
+                    "inner_radius": 3.0,
+                    "outer_radius": 10.0
+                },
+                "muzzle_flash": "0",
+                "muzzle_flash_fail": "0"
+            }
+        },
+        {
+            "0xA0532C3616528CBF": {
+                "hash": "11552626079949819071",
+                "loc_name": "AX/FLAM-75 Hot Dog Gun (Model)",
+                "loc_name_zh": "AX/ARC-3 K9（武器）",
+                "index": 7,
+                "arc_type": "8 <=> ArcType_Drone_Stun_Arc",
+                "rounds_per_minute": 12.0,
+                "infinite_ammo": 1,
+                "rpc_synced_fire_events": 0,
+                "fire_single_audio_event": 29902759,
+                "fire_all_barrel_audio_event": 0,
+                "fire_fail_audio_event": 0,
+                "fire_source_node": 1464994495,
+                "on_round_fired_shakes": {
+                    "world_shake_effect": "15470634414645351875",
+                    "local_shake_effect": "15470634414645351875",
+                    "fpv_shake_effect": "0",
+                    "inner_radius": 5.0,
+                    "outer_radius": 10.0
+                },
+                "muzzle_flash": "10465347570353705351",
+                "muzzle_flash_fail": "16648530335928772614"
+            }
+        },
+        {
+            "0x076DD5D4F4360204": {
+                "hash": "535319041333920260",
+                "loc_name": "ARC-12 Blitzer (Model)",
+                "loc_name_zh": "ARC-12 雷霆（主武器，模型）",
+                "index": 8,
+                "arc_type": "3 <=> ArcType_ArcShotgun",
+                "rounds_per_minute": 45.0,
+                "infinite_ammo": 1,
+                "rpc_synced_fire_events": 0,
+                "fire_single_audio_event": 4293099941,
+                "fire_all_barrel_audio_event": 0,
+                "fire_fail_audio_event": 0,
+                "fire_source_node": 1464994495,
+                "on_round_fired_shakes": {
+                    "world_shake_effect": "15470634414645351875",
+                    "local_shake_effect": "15470634414645351875",
+                    "fpv_shake_effect": "0",
+                    "inner_radius": 5.0,
+                    "outer_radius": 10.0
+                },
+                "muzzle_flash": "10465347570353705351",
+                "muzzle_flash_fail": "16648530335928772614"
+            }
+        },
+        {
+            "0x96DE9CD50F7306E6": {
+                "hash": "10871298989420119782",
+                "loc_name": "ARC-3 Arc Thrower (Model)",
+                "loc_name_zh": "ARC-3 电弧发射器（模型）",
+                "index": 9,
+                "arc_type": "7 <=> ArcType_ArcThrower",
+                "rounds_per_minute": -1.0,
+                "infinite_ammo": 1,
+                "rpc_synced_fire_events": 0,
+                "fire_single_audio_event": 694574617,
+                "fire_all_barrel_audio_event": 0,
+                "fire_fail_audio_event": 1078217113,
+                "fire_source_node": 747556395,
+                "on_round_fired_shakes": {
+                    "world_shake_effect": "15470634414645351875",
+                    "local_shake_effect": "15470634414645351875",
+                    "fpv_shake_effect": "0",
+                    "inner_radius": 5.0,
+                    "outer_radius": 10.0
+                },
+                "muzzle_flash": "10465347570353705351",
+                "muzzle_flash_fail": "16648530335928772614"
+            }
+        }
+    ]
+}
