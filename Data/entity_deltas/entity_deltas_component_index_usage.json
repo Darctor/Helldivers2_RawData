@@ -1,0 +1,173 @@
+{
+  "_metadata": {
+    "unique_component_indexes": 27,
+    "source": "0x21250640000",
+    "matched_bilingual_hash_count": 240,
+    "patch_date": "2026-07-07",
+    "game_version": "1.006.301"
+  },
+  "items": [
+    {
+      "component_index": 5,
+      "times_referenced": 12,
+      "type_name": "GameModeComponentData",
+      "type_hash_hex": "0x09E13FAC"
+    },
+    {
+      "component_index": 8,
+      "times_referenced": 80,
+      "type_name": "WeaponMagazineComponentData",
+      "type_hash_hex": "0xFB8D88A3"
+    },
+    {
+      "component_index": 22,
+      "times_referenced": 2,
+      "type_name": "LoadoutPackageComponentData",
+      "type_hash_hex": "0x7A858691"
+    },
+    {
+      "component_index": 29,
+      "times_referenced": 2,
+      "type_name": "MeleeAttackComponentData",
+      "type_hash_hex": "0x5224F28D"
+    },
+    {
+      "component_index": 71,
+      "times_referenced": 6,
+      "type_name": "ResourceDependencyComponentData",
+      "type_hash_hex": "0x904F65F4"
+    },
+    {
+      "component_index": 76,
+      "times_referenced": 8,
+      "type_name": "CharacterVoiceComponentData",
+      "type_hash_hex": "0x55943E70"
+    },
+    {
+      "component_index": 85,
+      "times_referenced": 1,
+      "type_name": "UnitComponentData",
+      "type_hash_hex": "0x4437574D"
+    },
+    {
+      "component_index": 86,
+      "times_referenced": 1,
+      "type_name": "FactionComponentData",
+      "type_hash_hex": "0x5653EA91"
+    },
+    {
+      "component_index": 109,
+      "times_referenced": 30,
+      "type_name": "WeaponRoundsComponentData",
+      "type_hash_hex": "0x66081072"
+    },
+    {
+      "component_index": 118,
+      "times_referenced": 70,
+      "type_name": "WeaponReloadComponentData",
+      "type_hash_hex": "0x991D454E"
+    },
+    {
+      "component_index": 149,
+      "times_referenced": 11,
+      "type_name": "BombardmentComponentData",
+      "type_hash_hex": "0xCDBC43D8"
+    },
+    {
+      "component_index": 152,
+      "times_referenced": 1,
+      "type_name": "HellpodRackComponentData",
+      "type_hash_hex": "0xA98BB156"
+    },
+    {
+      "component_index": 165,
+      "times_referenced": 1,
+      "type_name": "ObjectiveSecureAreaComponentData",
+      "type_hash_hex": "0x5634CD08"
+    },
+    {
+      "component_index": 197,
+      "times_referenced": 160,
+      "type_name": "UnitCustomizationComponentData",
+      "type_hash_hex": "0x704B76A6"
+    },
+    {
+      "component_index": 203,
+      "times_referenced": 10,
+      "type_name": "HiveMindComponentData",
+      "type_hash_hex": "0xD0207221"
+    },
+    {
+      "component_index": 214,
+      "times_referenced": 5,
+      "type_name": "HealthComponentData",
+      "type_hash_hex": "0xB3915DE3"
+    },
+    {
+      "component_index": 222,
+      "times_referenced": 3,
+      "type_name": "AvatarComponentData",
+      "type_hash_hex": "0x40EF204C"
+    },
+    {
+      "component_index": 226,
+      "times_referenced": 215,
+      "type_name": "WeaponDataComponentData",
+      "type_hash_hex": "0x88E4DBB1"
+    },
+    {
+      "component_index": 245,
+      "times_referenced": 1,
+      "type_name": "ExplosiveComponentData",
+      "type_hash_hex": "0xF5CF9B8C"
+    },
+    {
+      "component_index": 256,
+      "times_referenced": 9,
+      "type_name": "WeaponHeatComponentData",
+      "type_hash_hex": "0x4C981CD9"
+    },
+    {
+      "component_index": 259,
+      "times_referenced": 5,
+      "type_name": "BeamWeaponComponentData",
+      "type_hash_hex": "0xF0721C2C"
+    },
+    {
+      "component_index": 261,
+      "times_referenced": 201,
+      "type_name": "WeaponCustomizationComponentData",
+      "type_hash_hex": "0xEBA8F3D0"
+    },
+    {
+      "component_index": 269,
+      "times_referenced": 3,
+      "type_name": "OrbitalAbilityComponentData",
+      "type_hash_hex": "0x936A9C08"
+    },
+    {
+      "component_index": 299,
+      "times_referenced": 1,
+      "type_name": "StatusEffectReceiverComponentData",
+      "type_hash_hex": "0x6062C233"
+    },
+    {
+      "component_index": 300,
+      "times_referenced": 1,
+      "type_name": "RotationComponentData",
+      "type_hash_hex": "0xFC7B189D"
+    },
+    {
+      "component_index": 301,
+      "times_referenced": 1,
+      "type_name": "LocomotionComponentData",
+      "type_hash_hex": "0x88076790"
+    },
+    {
+      "component_index": 312,
+      "times_referenced": 121,
+      "type_name": "ProjectileWeaponComponentData",
+      "type_hash_hex": "0x45171B68"
+    }
+  ]
+}

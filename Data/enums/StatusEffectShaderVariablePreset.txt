@@ -1,0 +1,3 @@
+StatusEffectShaderVariablePreset_None
+StatusEffectShaderVariablePreset_Confusion
+StatusEffectShaderVariablePreset_Count

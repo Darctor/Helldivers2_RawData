@@ -1,0 +1,7 @@
+EaglePayload_None
+EaglePayload_DoubleStrafe
+EaglePayload_Strafe
+EaglePayload_Missile
+EaglePayload_Rocket
+EaglePayload_Airstrike
+EaglePayload_CarpetBombing

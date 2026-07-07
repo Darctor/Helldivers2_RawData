@@ -1,0 +1,5 @@
+ExplosiveMode_Timed
+ExplosiveMode_Impact
+ExplosiveMode_External
+ExplosiveMode_TimedStatusEffect
+ExplosiveMode_ProximityTrigger

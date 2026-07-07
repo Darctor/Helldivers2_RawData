@@ -1,0 +1,738 @@
+{
+    "_metadata": {
+        "struct_size": 192,
+        "omitted_size": 0,
+        "exported_entity_count": 11,
+        "matched_bilingual_hash_count": 10,
+        "patch_date": "2026-07-07",
+        "game_version": "1.006.301"
+    },
+    "entities": [
+        {
+            "0xA7F1620602B19808": {
+                "hash": "12101561451675752456",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 0,
+                "unk_uint32_0x0000": 0,
+                "unk_uint32_0x0004": 1,
+                "stamina_cost": 0.0,
+                "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
+                "unk_uint32_0x0010": 3,
+                "wielder_animation_type_stand": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0034": 3,
+                "wielder_animation_type_prone": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0058": 3,
+                "wielder_animation_type_aim": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x007C": 0,
+                "unk_wielder_animation_type_1": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_wielder_animation_type_2": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "0x5F3EC9BDA2BD8553": {
+                "hash": "6863144698475545939",
+                "name": "CQC-20 Breaching Hammer (Model)",
+                "name_zh": "CQC-20 破门锤（模型）",
+                "index": 1,
+                "unk_uint32_0x0000": 0,
+                "unk_uint32_0x0004": 2,
+                "stamina_cost": 0.05000000074505806,
+                "damage_info_type": "536 <=> DamageInfoType_Unknown_536",
+                "unk_uint32_0x0010": 0,
+                "wielder_animation_type_stand": [
+                    39,
+                    40,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0034": 1,
+                "wielder_animation_type_prone": [
+                    41,
+                    42,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0058": 3,
+                "wielder_animation_type_aim": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x007C": 0,
+                "unk_wielder_animation_type_1": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_wielder_animation_type_2": [
+                    38,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "0xE3B6AEDD07FCB464": {
+                "hash": "16408494556715988068",
+                "name": "CQC-19 Stun Lance (Model)",
+                "name_zh": "CQC-19 眩晕长矛（副武器，模型）",
+                "index": 2,
+                "unk_uint32_0x0000": 0,
+                "unk_uint32_0x0004": 1,
+                "stamina_cost": 0.029999999329447746,
+                "damage_info_type": "534 <=> DamageInfoType_Unknown_534",
+                "unk_uint32_0x0010": 0,
+                "wielder_animation_type_stand": [
+                    43,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0034": 1,
+                "wielder_animation_type_prone": [
+                    44,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0058": 3,
+                "wielder_animation_type_aim": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x007C": 0,
+                "unk_wielder_animation_type_1": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_wielder_animation_type_2": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "0xE85E623F93F96FB3": {
+                "hash": "16743928489815142323",
+                "name": "Entrenchment Tool (Model)",
+                "name_zh": "堑壕工具（三号位，模型）",
+                "index": 3,
+                "unk_uint32_0x0000": 0,
+                "unk_uint32_0x0004": 0,
+                "stamina_cost": 0.029999999329447746,
+                "damage_info_type": "530 <=> DamageInfoType_Unknown_530",
+                "unk_uint32_0x0010": 0,
+                "wielder_animation_type_stand": [
+                    45,
+                    46,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0034": 1,
+                "wielder_animation_type_prone": [
+                    47,
+                    48,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0058": 2,
+                "wielder_animation_type_aim": [
+                    49,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x007C": 0,
+                "unk_wielder_animation_type_1": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_wielder_animation_type_2": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "0x7E1F76163C667E4B": {
+                "hash": "9088112410931658315",
+                "name": "CQC-72 Entrenchment Tool (Model)",
+                "name_zh": "CQC-72 堑壕工具（副武器，模型）",
+                "index": 4,
+                "unk_uint32_0x0000": 0,
+                "unk_uint32_0x0004": 0,
+                "stamina_cost": 0.029999999329447746,
+                "damage_info_type": "530 <=> DamageInfoType_Unknown_530",
+                "unk_uint32_0x0010": 0,
+                "wielder_animation_type_stand": [
+                    45,
+                    46,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0034": 1,
+                "wielder_animation_type_prone": [
+                    47,
+                    48,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0058": 2,
+                "wielder_animation_type_aim": [
+                    49,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x007C": 0,
+                "unk_wielder_animation_type_1": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_wielder_animation_type_2": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "0xFCD8A6E67EAC635A": {
+                "hash": "18219495801425257306",
+                "name": "CQC-2 Saber (Model)",
+                "name_zh": "CQC-2 军刀（副武器，模型）",
+                "index": 5,
+                "unk_uint32_0x0000": 0,
+                "unk_uint32_0x0004": 0,
+                "stamina_cost": 0.029999999329447746,
+                "damage_info_type": "528 <=> DamageInfoType_Unknown_528",
+                "unk_uint32_0x0010": 0,
+                "wielder_animation_type_stand": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0034": 1,
+                "wielder_animation_type_prone": [
+                    5,
+                    6,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0058": 3,
+                "wielder_animation_type_aim": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x007C": 0,
+                "unk_wielder_animation_type_1": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_wielder_animation_type_2": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "0xBF4CFD2AEABFB5A4": {
+                "hash": "13784670920243131812",
+                "name": "CQC-9 Defoliation Tool (Model)",
+                "name_zh": "CQC-9 除叶工具（模型）",
+                "index": 6,
+                "unk_uint32_0x0000": 0,
+                "unk_uint32_0x0004": 2,
+                "stamina_cost": 0.05000000074505806,
+                "damage_info_type": "526 <=> DamageInfoType_Unknown_526",
+                "unk_uint32_0x0010": 0,
+                "wielder_animation_type_stand": [
+                    8,
+                    9,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0034": 1,
+                "wielder_animation_type_prone": [
+                    10,
+                    11,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0058": 3,
+                "wielder_animation_type_aim": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x007C": 0,
+                "unk_wielder_animation_type_1": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_wielder_animation_type_2": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "0x52CDBFBACA3CB397": {
+                "hash": "5966635890313573271",
+                "name": "CQC-30 Stun Baton (Model)",
+                "name_zh": "CQC-30 眩晕短棍（副武器，模型）",
+                "index": 7,
+                "unk_uint32_0x0000": 0,
+                "unk_uint32_0x0004": 0,
+                "stamina_cost": 0.029999999329447746,
+                "damage_info_type": "535 <=> DamageInfoType_Unknown_535",
+                "unk_uint32_0x0010": 0,
+                "wielder_animation_type_stand": [
+                    12,
+                    13,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0034": 1,
+                "wielder_animation_type_prone": [
+                    16,
+                    17,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0058": 3,
+                "wielder_animation_type_aim": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x007C": 0,
+                "unk_wielder_animation_type_1": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_wielder_animation_type_2": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "0xB0F1B354BA1D38D8": {
+                "hash": "12750169196543686872",
+                "name": "CQC-1 One True Flag (Model)",
+                "name_zh": "CQC-1 唯一真旗帜（模型）",
+                "index": 8,
+                "unk_uint32_0x0000": 0,
+                "unk_uint32_0x0004": 1,
+                "stamina_cost": 0.029999999329447746,
+                "damage_info_type": "533 <=> DamageInfoType_Unknown_533",
+                "unk_uint32_0x0010": 0,
+                "wielder_animation_type_stand": [
+                    18,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0034": 1,
+                "wielder_animation_type_prone": [
+                    19,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0058": 2,
+                "wielder_animation_type_aim": [
+                    18,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x007C": 0,
+                "unk_wielder_animation_type_1": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_wielder_animation_type_2": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "0x75816077C139C850": {
+                "hash": "8467154841892407376",
+                "name": "CQC-5 Combat Hatchet (Model)",
+                "name_zh": "CQC-5 战斗短柄斧（副武器，模型）",
+                "index": 9,
+                "unk_uint32_0x0000": 0,
+                "unk_uint32_0x0004": 1,
+                "stamina_cost": 0.03999999910593033,
+                "damage_info_type": "527 <=> DamageInfoType_Unknown_527",
+                "unk_uint32_0x0010": 0,
+                "wielder_animation_type_stand": [
+                    22,
+                    23,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0034": 1,
+                "wielder_animation_type_prone": [
+                    24,
+                    25,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0058": 3,
+                "wielder_animation_type_aim": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x007C": 0,
+                "unk_wielder_animation_type_1": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_wielder_animation_type_2": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "0x792D5D2A340FD6E6": {
+                "hash": "8731737688384722662",
+                "name": "CQC-42 Machete (Model)",
+                "name_zh": "CQC-42 砍刀（副武器，模型）",
+                "index": 10,
+                "unk_uint32_0x0000": 0,
+                "unk_uint32_0x0004": 2,
+                "stamina_cost": 0.05000000074505806,
+                "damage_info_type": "529 <=> DamageInfoType_Unknown_529",
+                "unk_uint32_0x0010": 0,
+                "wielder_animation_type_stand": [
+                    26,
+                    27,
+                    28,
+                    29,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0034": 1,
+                "wielder_animation_type_prone": [
+                    30,
+                    31,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x0058": 3,
+                "wielder_animation_type_aim": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_uint32_0x007C": 0,
+                "unk_wielder_animation_type_1": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "unk_wielder_animation_type_2": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+HitReactEventType_None
+HitReactEventType_Light
+HitReactEventType_Medium
+HitReactEventType_Heavy
+HitReactEventType_Massive
+HitReactEventType_CyborgRadical

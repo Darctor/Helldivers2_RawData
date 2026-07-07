@@ -1,0 +1,1811 @@
+{
+  "_metadata": {
+    "patch_date": "2026-07-07",
+    "game_version": "1.006.301",
+    "enum_type_count": 66,
+    "file_existing_enum_type_count": 58,
+    "component_count": 41,
+    "settings_count": 8
+  },
+  "existing_enum_types": [
+    {
+      "enum_name": "ArcType",
+      "file_exists": true,
+      "values": [
+        "0 <=> ArcType_None",
+        "1 <=> ArcType_IlluminateTripod",
+        "2 <=> ArcType_ArcThrower_MK3",
+        "3 <=> ArcType_ArcShotgun",
+        "4 <=> ArcType_IlluminateObserverLightning",
+        "5 <=> ArcType_IlluminateTurretTesla",
+        "6 <=> ArcType_Throwable_Grenade_Arc",
+        "7 <=> ArcType_ArcThrower",
+        "8 <=> ArcType_Drone_Stun_Arc",
+        "9 <=> ArcType_IlluminateObelisk",
+        "10 <=> ArcType_ArcThrower_MK2",
+        "11 <=> ArcType_IlluminateSummonerSpawnEffect",
+        "12 <=> ArcType_Unk12",
+        "13 <=> ArcType_TeslaTurret",
+        "14 <=> ArcType_ArcThrower_MK4",
+        "15 <=> ArcType_Grenade_Launcher_Arc",
+        "16 <=> ArcType_Unk16",
+        "17 <=> ArcType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "ArcSettings",
+          "count": 1
+        },
+        {
+          "config_file": "ArcWeaponComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "ExplosionSettings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "AttackCurveTemplate",
+      "file_exists": true,
+      "values": [
+        "0 <=> AttackCurveTemplate_ShuttleLanding",
+        "1 <=> AttackCurveTemplate_ShuttleTakeoff",
+        "2 <=> AttackCurveTemplate_ShriekerAttack",
+        "3 <=> AttackCurveTemplate_EagleAttack",
+        "4 <=> AttackCurveTemplate_EagleAttackDive",
+        "5 <=> AttackCurveTemplate_EagleAttackFlat",
+        "6 <=> AttackCurveTemplate_EagleEvade",
+        "7 <=> AttackCurveTemplate_MissileTarget",
+        "8 <=> AttackCurveTemplate_MissileLost",
+        "9 <=> AttackCurveTemplate_ArchingRocket",
+        "10 <=> AttackCurveTemplate_OutcastDroneAttack",
+        "11 <=> AttackCurveTemplate_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "AiEnemyComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "BeamType",
+      "file_exists": true,
+      "values": [
+        "0 <=> BeamType_None",
+        "1 <=> BeamType_LaserCannon",
+        "2 <=> BeamType_BotTorch",
+        "3 <=> BeamType_ShoulderMountedCamera",
+        "4 <=> BeamType_TripodEye_MK3",
+        "5 <=> BeamType_Trident",
+        "6 <=> BeamType_Medium_Wide",
+        "7 <=> BeamType_Medium",
+        "8 <=> BeamType_ObserverEye",
+        "9 <=> BeamType_LaserSentry",
+        "10 <=> BeamType_Small",
+        "11 <=> BeamType_TripodEye",
+        "12 <=> BeamType_PhysGun",
+        "13 <=> BeamType_Gazer",
+        "14 <=> BeamType_Large_Heavy",
+        "15 <=> BeamType_Large_Light",
+        "16 <=> BeamType_Unk16",
+        "17 <=> BeamType_Unk17",
+        "18 <=> BeamType_TripodEye_MK2",
+        "19 <=> BeamType_Unk19",
+        "20 <=> BeamType_Leviathan",
+        "21 <=> BeamType_TripodBrokenEye",
+        "22 <=> BeamType_Large",
+        "23 <=> BeamType_MediumDrone",
+        "24 <=> BeamType_Unk24",
+        "25 <=> BeamType_OutcastFlashbeamChargeup",
+        "26 <=> BeamType_Gazer_MK2",
+        "27 <=> BeamType_Medium_Focused",
+        "28 <=> BeamType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "BeamSettings",
+          "count": 1
+        },
+        {
+          "config_file": "BeamWeaponComponentData",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "enum_name": "CrosshairWeaponType",
+      "file_exists": true,
+      "values": [
+        "0 <=> CrosshairWeaponType_Default",
+        "1 <=> CrosshairWeaponType_CrosshairNever",
+        "2 <=> CrosshairWeaponType_CrosshairAlways",
+        "3 <=> CrosshairWeaponType_CrosshairDamageIndicatorOnly",
+        "4 <=> CrosshairWeaponType_AssaultRifle",
+        "5 <=> CrosshairWeaponType_HaloAssaultRifle",
+        "6 <=> CrosshairWeaponType_PumpShotgun",
+        "7 <=> CrosshairWeaponType_AutoShotgun",
+        "8 <=> CrosshairWeaponType_Pistol",
+        "9 <=> CrosshairWeaponType_Revolver",
+        "10 <=> CrosshairWeaponType_Laser",
+        "11 <=> CrosshairWeaponType_LaserCannon",
+        "12 <=> CrosshairWeaponType_LaserPulseCannon",
+        "13 <=> CrosshairWeaponType_PlasmaBlasterSpin",
+        "14 <=> CrosshairWeaponType_PlasmaBlaster",
+        "15 <=> CrosshairWeaponType_Railgun",
+        "16 <=> CrosshairWeaponType_Javelin",
+        "17 <=> CrosshairWeaponType_Throwable",
+        "18 <=> CrosshairWeaponType_Physgun",
+        "19 <=> CrosshairWeaponType_None",
+        "20 <=> CrosshairWeaponType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "WeaponDataComponentData",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "enum_name": "DamageDealerZoneShape",
+      "file_exists": true,
+      "values": [
+        "0 <=> DamageDealerZoneShape_Sphere",
+        "1 <=> DamageDealerZoneShape_Box",
+        "2 <=> DamageDealerZoneShape_Capsule"
+      ],
+      "usages": [
+        {
+          "config_file": "OrbitalAbilityComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "OverlapDamageComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "DamageMultiplier",
+      "file_exists": true,
+      "values": [
+        "0 <=> DamageMultiplier_None",
+        "1 <=> DamageMultiplier_Critical",
+        "2 <=> DamageMultiplier_Normal",
+        "3 <=> DamageMultiplier_Reduced",
+        "4 <=> DamageMultiplier_Symbolic"
+      ],
+      "usages": [
+        {
+          "config_file": "HealthComponentData",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "enum_name": "DeathDecayMode",
+      "file_exists": true,
+      "values": [
+        "0 <=> DeathDecayMode_None",
+        "1 <=> DeathDecayMode_Regular",
+        "2 <=> DeathDecayMode_Long",
+        "3 <=> DeathDecayMode_Instant"
+      ],
+      "usages": [
+        {
+          "config_file": "HealthComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "DeathPropagation",
+      "file_exists": true,
+      "values": [
+        "0 <=> DeathPropagation_None",
+        "1 <=> DeathPropagation_ToParent",
+        "2 <=> DeathPropagation_ToChildren",
+        "3 <=> DeathPropagation_Both"
+      ],
+      "usages": [
+        {
+          "config_file": "HealthComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "DepositRefill",
+      "file_exists": true,
+      "values": [
+        "0 <=> DepositRefill_None",
+        "1 <=> DepositRefill_Ammo",
+        "2 <=> DepositRefill_Medic",
+        "3 <=> DepositRefill_Supplies",
+        "4 <=> DepositRefill_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "DepositComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "DestructionTemplateType",
+      "file_exists": true,
+      "values": [
+        "0 <=> DestructionTemplateType_none",
+        "1 <=> DestructionTemplateType_SmallArms",
+        "2 <=> DestructionTemplateType_FragGrenade_HeavyMachinegun_Sniper_Car_Mech",
+        "3 <=> DestructionTemplateType_Autocannon_Charger_Recoilless_LAV",
+        "4 <=> DestructionTemplateType_Strider_EagleRockets",
+        "5 <=> DestructionTemplateType_OrbitalBombardment",
+        "6 <=> DestructionTemplateType_Hellbomb",
+        "7 <=> DestructionTemplateType_ForceDestroyTrees",
+        "8 <=> DestructionTemplateType_ExplodingBarrel",
+        "9 <=> DestructionTemplateType_Script"
+      ],
+      "usages": [
+        {
+          "config_file": "HealthComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "EagleAirstrikePattern",
+      "file_exists": true,
+      "values": [
+        "0 <=> EagleAirstrikePattern_6Z",
+        "1 <=> EagleAirstrikePattern_Smoke_6Z",
+        "2 <=> EagleAirstrikePattern_8Z",
+        "3 <=> EagleAirstrikePattern_8line_ClusterBomb",
+        "4 <=> EagleAirstrikePattern_4line_Napalm_MK1",
+        "5 <=> EagleAirstrikePattern_5line_Napalm_MK2",
+        "6 <=> EagleAirstrikePattern_5line_Napalm_MK3",
+        "7 <=> EagleAirstrikePattern_Single",
+        "8 <=> EagleAirstrikePattern_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "EagleComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "EaglePayload",
+      "file_exists": true,
+      "values": [
+        "0 <=> EaglePayload_None",
+        "1 <=> EaglePayload_DoubleStrafe",
+        "2 <=> EaglePayload_Strafe",
+        "3 <=> EaglePayload_Missile",
+        "4 <=> EaglePayload_Rocket",
+        "5 <=> EaglePayload_Airstrike",
+        "6 <=> EaglePayload_CarpetBombing"
+      ],
+      "usages": [
+        {
+          "config_file": "EagleComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "ElementType",
+      "file_exists": true,
+      "values": [
+        "0 <=> ElementType_None",
+        "1 <=> ElementType_Fire",
+        "2 <=> ElementType_Electricity",
+        "3 <=> ElementType_Acid",
+        "4 <=> ElementType_Bleed",
+        "5 <=> ElementType_Gas",
+        "6 <=> ElementType_illuminatePlasma",
+        "7 <=> ElementType_VehicleDamage",
+        "8 <=> ElementType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "DamageSettings",
+          "count": 1
+        },
+        {
+          "config_file": "HealthComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "ExertionLevelIndex",
+      "file_exists": true,
+      "values": [
+        "0 <=> ExertionLevelIndex_None",
+        "1 <=> ExertionLevelIndex_Inconsiderable",
+        "2 <=> ExertionLevelIndex_Low",
+        "3 <=> ExertionLevelIndex_Medium",
+        "4 <=> ExertionLevelIndex_High",
+        "5 <=> ExertionLevelIndex_Injured",
+        "6 <=> ExertionLevelIndex_Hemmorage",
+        "7 <=> ExertionLevelIndex_HemmorageCritical"
+      ],
+      "usages": [
+        {
+          "config_file": "AvatarComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "ExplosionVerificationMode",
+      "file_exists": true,
+      "values": [
+        "0 <=> ExplosionVerificationMode_None",
+        "1 <=> ExplosionVerificationMode_OuterRadius",
+        "2 <=> ExplosionVerificationMode_All"
+      ],
+      "usages": [
+        {
+          "config_file": "HealthComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "ExplosiveMode",
+      "file_exists": true,
+      "values": [
+        "0 <=> ExplosiveMode_Timed",
+        "1 <=> ExplosiveMode_Impact",
+        "2 <=> ExplosiveMode_External",
+        "3 <=> ExplosiveMode_TimedStatusEffect",
+        "4 <=> ExplosiveMode_ProximityTrigger"
+      ],
+      "usages": [
+        {
+          "config_file": "ExplosiveComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "EyeType",
+      "file_exists": true,
+      "values": [
+        "0 <=> EyeType_None",
+        "1 <=> EyeType_Humanoid",
+        "2 <=> EyeType_Cone",
+        "3 <=> EyeType_Omni",
+        "4 <=> EyeType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "SensorEyeComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "FactionType",
+      "file_exists": true,
+      "values": [
+        "0 <=> FactionType_None",
+        "1 <=> FactionType_SuperEarth",
+        "2 <=> FactionType_Bugs",
+        "3 <=> FactionType_Unk3",
+        "4 <=> FactionType_Illuminate",
+        "5 <=> FactionType_Unk5",
+        "6 <=> FactionType_Unk6",
+        "7 <=> FactionType_Unk7",
+        "8 <=> FactionType_Cyborg",
+        "9 <=> FactionType_Wildlife"
+      ],
+      "usages": [
+        {
+          "config_file": "FactionComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "HiveMindComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "FireMode",
+      "file_exists": true,
+      "values": [
+        "0 <=> FireMode_None",
+        "1 <=> FireMode_Automatic",
+        "2 <=> FireMode_Single",
+        "3 <=> FireMode_Burst",
+        "4 <=> FireMode_AllBarrels",
+        "5 <=> FireMode_ChargeWithSafetyOn",
+        "6 <=> FireMode_ChargeWithSafetyOff",
+        "7 <=> FireMode_AllMagazines",
+        "8 <=> FireMode_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "WeaponDataComponentData",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "enum_name": "FireTemplate",
+      "file_exists": true,
+      "values": [
+        "0 <=> FireTemplate_None",
+        "1 <=> FireTemplate_Small（8秒）",
+        "2 <=> FireTemplate_Medium（15秒）",
+        "3 <=> FireTemplate_Large（21秒）",
+        "4 <=> FireTemplate_Massive（40秒）",
+        "5 <=> FireTemplate_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "ExplosionSettings",
+          "count": 1
+        },
+        {
+          "config_file": "ProjectileSettings",
+          "count": 1
+        },
+        {
+          "config_file": "SprayWeaponComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "HitEffectDamageType",
+      "file_exists": true,
+      "values": [
+        "0 <=> HitEffectDamageType_None",
+        "1 <=> HitEffectDamageType_PiercingSmall",
+        "2 <=> HitEffectDamageType_PiercingMedium",
+        "3 <=> HitEffectDamageType_PiercingLarge",
+        "4 <=> HitEffectDamageType_PiercingLargeHEAT",
+        "5 <=> HitEffectDamageType_IncendiarySmall",
+        "6 <=> HitEffectDamageType_IncendiaryMedium",
+        "7 <=> HitEffectDamageType_BeamSmall",
+        "8 <=> HitEffectDamageType_BeamLarge",
+        "9 <=> HitEffectDamageType_Blunt",
+        "10 <=> HitEffectDamageType_SlashingSmall",
+        "11 <=> HitEffectDamageType_SlashingLarge",
+        "12 <=> HitEffectDamageType_VehicleStep",
+        "13 <=> HitEffectDamageType_PiercingSmallStim",
+        "14 <=> HitEffectDamageType_Unk14",
+        "15 <=> HitEffectDamageType_Unk15",
+        "16 <=> HitEffectDamageType_Unk16",
+        "17 <=> HitEffectDamageType_Unk17",
+        "18 <=> HitEffectDamageType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "ArcSettings",
+          "count": 1
+        },
+        {
+          "config_file": "BeamSettings",
+          "count": 1
+        },
+        {
+          "config_file": "ExplosionSettings",
+          "count": 1
+        },
+        {
+          "config_file": "OverlapDamageComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "ProjectileSettings",
+          "count": 1
+        },
+        {
+          "config_file": "SprayWeaponComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "ThrowableComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "HitReactEventType",
+      "file_exists": true,
+      "values": [
+        "0 <=> HitReactEventType_None",
+        "1 <=> HitReactEventType_Light",
+        "2 <=> HitReactEventType_Medium",
+        "3 <=> HitReactEventType_Heavy",
+        "4 <=> HitReactEventType_Massive",
+        "5 <=> HitReactEventType_CyborgRadical"
+      ],
+      "usages": [
+        {
+          "config_file": "HitReactComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "HitReactPropagationTarget",
+      "file_exists": true,
+      "values": [
+        "0 <=> HitReactPropagationTarget_Self",
+        "1 <=> HitReactPropagationTarget_Parent"
+      ],
+      "usages": [
+        {
+          "config_file": "HitReactComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "MagazineType",
+      "file_exists": true,
+      "values": [
+        "0 <=> MagazineType_Uniform",
+        "1 <=> MagazineType_Pattern"
+      ],
+      "usages": [
+        {
+          "config_file": "WeaponMagazineComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "ModifiableStatType",
+      "file_exists": true,
+      "values": [
+        "0 <=> ModifiableStatType_None",
+        "1 <=> ModifiableStatType_DamageOutputScale",
+        "2 <=> ModifiableStatType_IncomingDamageScale",
+        "3 <=> ModifiableStatType_ExplosionIncomingDamageScale",
+        "4 <=> ModifiableStatType_ExplosionRadiusScale",
+        "5 <=> ModifiableStatType_ExplosionInnerRadiusScale",
+        "6 <=> ModifiableStatType_BombardmentSpreadScale",
+        "7 <=> ModifiableStatType_EagleExtraBomb",
+        "8 <=> ModifiableStatType_ArcWeaponExtraJumps",
+        "9 <=> ModifiableStatType_AmmoBoxSupportWeaponFillPercentage",
+        "10 <=> ModifiableStatType_WeaponReloadTimeScale",
+        "11 <=> ModifiableStatType_WeaponDamageRecoilScale",
+        "12 <=> ModifiableStatType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "StatusEffectSettings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "MountSide",
+      "file_exists": true,
+      "values": [
+        "0 <=> MountSide_Common",
+        "1 <=> MountSide_Right",
+        "2 <=> MountSide_Left"
+      ],
+      "usages": [
+        {
+          "config_file": "MountComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "NoiseTemplate",
+      "file_exists": true,
+      "values": [
+        "0 <=> NoiseTemplate_None",
+        "1 <=> NoiseTemplate_Toot",
+        "2 <=> NoiseTemplate_Engine",
+        "3 <=> NoiseTemplate_EnemyWarning",
+        "4 <=> NoiseTemplate_GunshipWarning",
+        "5 <=> NoiseTemplate_Footsteps",
+        "6 <=> NoiseTemplate_Weapon_Small",
+        "7 <=> NoiseTemplate_Weapon_Medium",
+        "8 <=> NoiseTemplate_Weapon_Large",
+        "9 <=> NoiseTemplate_Weapon_Huge",
+        "10 <=> NoiseTemplate_Supressor_Small",
+        "11 <=> NoiseTemplate_Supressor_Medium",
+        "12 <=> NoiseTemplate_Supressor_Large",
+        "13 <=> NoiseTemplate_Supressor_Huge",
+        "14 <=> NoiseTemplate_Small_Explosion_Frag",
+        "15 <=> NoiseTemplate_Medium_Explosion_Vehicle",
+        "16 <=> NoiseTemplate_Large_Explosion_Orbital",
+        "17 <=> NoiseTemplate_Huge_Explosion_Hellbomb",
+        "18 <=> NoiseTemplate_BeamHit",
+        "19 <=> NoiseTemplate_ProjectileHit",
+        "20 <=> NoiseTemplate_ProjectileHitSuppressed",
+        "21 <=> NoiseTemplate_Objective_Large_Frequent",
+        "22 <=> NoiseTemplate_Objective_Large_Seldom",
+        "23 <=> NoiseTemplate_Objective_Encounter",
+        "24 <=> NoiseTemplate_Objective_Flag",
+        "25 <=> NoiseTemplate_StratagemBeacon",
+        "26 <=> NoiseTemplate_Extraction",
+        "27 <=> NoiseTemplate_CapitalTower",
+        "28 <=> NoiseTemplate_Max"
+      ],
+      "usages": [
+        {
+          "config_file": "ExplosionSettings",
+          "count": 1
+        },
+        {
+          "config_file": "OrbitalAbilityComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "WeaponDataComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "OverlapDamageMode",
+      "file_exists": true,
+      "values": [
+        "0 <=> OverlapDamageMode_ImpactDamage",
+        "1 <=> OverlapDamageMode_UnitSize"
+      ],
+      "usages": [
+        {
+          "config_file": "OverlapDamageComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "ProjectileStatusEffectVolumeTemplate",
+      "file_exists": true,
+      "values": [
+        "0 <=> ProjectileStatusEffectVolumeTemplate_None",
+        "1 <=> ProjectileStatusEffectVolumeTemplate_Flamethrower",
+        "2 <=> ProjectileStatusEffectVolumeTemplate_Acid_Stream",
+        "3 <=> ProjectileStatusEffectVolumeTemplate_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "ProjectileSettings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "ProjectileZeroingQuality",
+      "file_exists": true,
+      "values": [
+        "0 <=> ProjectileZeroingQuality_None",
+        "1 <=> ProjectileZeroingQuality_Cheap",
+        "2 <=> ProjectileZeroingQuality_Normal",
+        "3 <=> ProjectileZeroingQuality_High",
+        "4 <=> ProjectileZeroingQuality_Perfect",
+        "5 <=> ProjectileZeroingQuality_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "ProjectileWeaponComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "RackSide",
+      "file_exists": true,
+      "values": [
+        "0 <=> RackSide_None",
+        "1 <=> RackSide_Right",
+        "2 <=> RackSide_Left"
+      ],
+      "usages": [
+        {
+          "config_file": "HellpodRackComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "SeekingMissileTargetingMode",
+      "file_exists": true,
+      "values": [
+        "0 <=> SeekingMissileTargetingMode_Behavior",
+        "1 <=> SeekingMissileTargetingMode_Guidance",
+        "2 <=> SeekingMissileTargetingMode_TargetLock",
+        "3 <=> SeekingMissileTargetingMode_External",
+        "4 <=> SeekingMissileTargetingMode_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "SeekingMissileComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "ShieldBlockMeleeType",
+      "file_exists": true,
+      "values": [
+        "0 <=> ShieldBlockMeleeType_None",
+        "1 <=> ShieldBlockMeleeType_DamageOnceThenDisableZoneShape",
+        "2 <=> ShieldBlockMeleeType_DamageOnceThenDisableDamageResult"
+      ],
+      "usages": [
+        {
+          "config_file": "DamageZoneShieldComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "ShieldComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "ShieldColorFaction",
+      "file_exists": true,
+      "values": [
+        "0 <=> ShieldColorFaction_None",
+        "1 <=> ShieldColorFaction_Illuminate_Blue",
+        "2 <=> ShieldColorFaction_Helldivers_Orange"
+      ],
+      "usages": [
+        {
+          "config_file": "ShieldComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "StatusEffectShaderVariablePreset",
+      "file_exists": true,
+      "values": [
+        "0 <=> StatusEffectShaderVariablePreset_None",
+        "1 <=> StatusEffectShaderVariablePreset_Confusion",
+        "2 <=> StatusEffectShaderVariablePreset_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "StatusEffectSettings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "StatusEffectSusceptibilityType",
+      "file_exists": true,
+      "values": [
+        "0 <=> StatusEffectSusceptibilityType_None",
+        "1 <=> StatusEffectSusceptibilityType_Blind",
+        "2 <=> StatusEffectSusceptibilityType_Deaf",
+        "3 <=> StatusEffectSusceptibilityType_Confusion",
+        "4 <=> StatusEffectSusceptibilityType_Fire",
+        "5 <=> StatusEffectSusceptibilityType_Fire_Panic",
+        "6 <=> StatusEffectSusceptibilityType_Lava",
+        "7 <=> StatusEffectSusceptibilityType_Slowed",
+        "8 <=> StatusEffectSusceptibilityType_Submerged",
+        "9 <=> StatusEffectSusceptibilityType_Rooted",
+        "10 <=> StatusEffectSusceptibilityType_Acid",
+        "11 <=> StatusEffectSusceptibilityType_Thermite",
+        "12 <=> StatusEffectSusceptibilityType_Cyborg_Fire",
+        "13 <=> StatusEffectSusceptibilityType_Sand",
+        "14 <=> StatusEffectSusceptibilityType_Mud",
+        "15 <=> StatusEffectSusceptibilityType_Snow",
+        "16 <=> StatusEffectSusceptibilityType_Pure_Damage",
+        "17 <=> StatusEffectSusceptibilityType_Stim",
+        "18 <=> StatusEffectSusceptibilityType_RadiationLight",
+        "19 <=> StatusEffectSusceptibilityType_RadiationHeavy",
+        "20 <=> StatusEffectSusceptibilityType_Electric",
+        "21 <=> StatusEffectSusceptibilityType_Hidden",
+        "22 <=> StatusEffectSusceptibilityType_Stun",
+        "23 <=> StatusEffectSusceptibilityType_StunIlluminate",
+        "24 <=> StatusEffectSusceptibilityType_Thornbush",
+        "25 <=> StatusEffectSusceptibilityType_BushSmall",
+        "26 <=> StatusEffectSusceptibilityType_BushLarge",
+        "27 <=> StatusEffectSusceptibilityType_Gas",
+        "28 <=> StatusEffectSusceptibilityType_Gas_Confusion",
+        "29 <=> StatusEffectSusceptibilityType_Inverted_Aim_Assist",
+        "30 <=> StatusEffectSusceptibilityType_ExtremeCold",
+        "31 <=> StatusEffectSusceptibilityType_AcidStorm",
+        "32 <=> StatusEffectSusceptibilityType_Unk32",
+        "33 <=> StatusEffectSusceptibilityType_Unk33",
+        "34 <=> StatusEffectSusceptibilityType_Footage_Recorded",
+        "35 <=> StatusEffectSusceptibilityType_Unk35",
+        "36 <=> StatusEffectSusceptibilityType_Unk36",
+        "37 <=> StatusEffectSusceptibilityType_Gloom",
+        "38 <=> StatusEffectSusceptibilityType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "StatusEffectReceiverComponentData",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "enum_name": "StatusEffectTemplateType",
+      "file_exists": true,
+      "values": [
+        "0 <=> StatusEffectTemplateType_None",
+        "1 <=> StatusEffectTemplateType_Flamethrower",
+        "2 <=> StatusEffectTemplateType_Barbwire",
+        "3 <=> StatusEffectTemplateType_Fire",
+        "4 <=> StatusEffectTemplateType_Acid_Splash",
+        "5 <=> StatusEffectTemplateType_Acid_Stream",
+        "6 <=> StatusEffectTemplateType_Water",
+        "7 <=> StatusEffectTemplateType_Electric",
+        "8 <=> StatusEffectTemplateType_NukeRadiation",
+        "9 <=> StatusEffectTemplateType_Snow",
+        "10 <=> StatusEffectTemplateType_Mud",
+        "11 <=> StatusEffectTemplateType_Sand",
+        "12 <=> StatusEffectTemplateType_Pure_Damage",
+        "13 <=> StatusEffectTemplateType_Thornbush",
+        "14 <=> StatusEffectTemplateType_Smoke",
+        "15 <=> StatusEffectTemplateType_StaticField",
+        "16 <=> StatusEffectTemplateType_Gas",
+        "17 <=> StatusEffectTemplateType_Hidden",
+        "18 <=> StatusEffectTemplateType_IntenseHeat",
+        "19 <=> StatusEffectTemplateType_ExtremeCold",
+        "20 <=> StatusEffectTemplateType_Freezing",
+        "21 <=> StatusEffectTemplateType_Sandstorm",
+        "22 <=> StatusEffectTemplateType_NightSandstorm",
+        "23 <=> StatusEffectTemplateType_Snowstorm",
+        "24 <=> StatusEffectTemplateType_AcidStorm",
+        "25 <=> StatusEffectTemplateType_Weather_Insulated",
+        "26 <=> StatusEffectTemplateType_Protected",
+        "27 <=> StatusEffectTemplateType_DarkFluid",
+        "28 <=> StatusEffectTemplateType_FlamethrowerMK2",
+        "29 <=> StatusEffectTemplateType_Gloom",
+        "30 <=> StatusEffectTemplateType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "ExplosionSettings",
+          "count": 1
+        },
+        {
+          "config_file": "ExplosiveComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "StatusEffectSettings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "StatusEffectType",
+      "file_exists": true,
+      "values": [
+        "0 <=> StatusEffectType_None",
+        "1 <=> StatusEffectType_Blind",
+        "2 <=> StatusEffectType_Bleed",
+        "3 <=> StatusEffectType_Deaf",
+        "4 <=> StatusEffectType_Confusion",
+        "5 <=> StatusEffectType_Fire",
+        "6 <=> StatusEffectType_Fire_Panic",
+        "7 <=> StatusEffectType_Lava",
+        "8 <=> StatusEffectType_Slowed",
+        "9 <=> StatusEffectType_Rooted",
+        "10 <=> StatusEffectType_Acid_Splash",
+        "11 <=> StatusEffectType_Acid_Stream",
+        "12 <=> StatusEffectType_Thermite",
+        "13 <=> StatusEffectType_Cyborg_Fire",
+        "14 <=> StatusEffectType_Choked",
+        "15 <=> StatusEffectType_Sand",
+        "16 <=> StatusEffectType_Mud",
+        "17 <=> StatusEffectType_Snow",
+        "18 <=> StatusEffectType_Submerged",
+        "19 <=> StatusEffectType_Thornbush",
+        "20 <=> StatusEffectType_Cactus",
+        "21 <=> StatusEffectType_Barbwire",
+        "22 <=> StatusEffectType_BushSmall",
+        "23 <=> StatusEffectType_BushLarge",
+        "24 <=> StatusEffectType_Pure_Damage",
+        "25 <=> StatusEffectType_Stim_Fx",
+        "26 <=> StatusEffectType_Stim_Stamina",
+        "27 <=> StatusEffectType_Stim_Heal",
+        "28 <=> StatusEffectType_Stim_Pistol_Heal",
+        "29 <=> StatusEffectType_Stim_Combat_Drugs",
+        "30 <=> StatusEffectType_Stim_Cooldown",
+        "31 <=> StatusEffectType_BurningLight",
+        "32 <=> StatusEffectType_BurningHeavy",
+        "33 <=> StatusEffectType_RadiationLight",
+        "34 <=> StatusEffectType_RadiationHeavy",
+        "35 <=> StatusEffectType_Electric",
+        "36 <=> StatusEffectType_Hidden",
+        "37 <=> StatusEffectType_Stun_Small",
+        "38 <=> StatusEffectType_Stun_Medium",
+        "39 <=> StatusEffectType_Stun_Large",
+        "40 <=> StatusEffectType_Stun_Massive",
+        "41 <=> StatusEffectType_Stun_Illuminate",
+        "42 <=> StatusEffectType_Gas",
+        "43 <=> StatusEffectType_Gas_MK2",
+        "44 <=> StatusEffectType_Gas_Confusion",
+        "45 <=> StatusEffectType_Gas_Confusion_MK2",
+        "46 <=> StatusEffectType_Inverted_Aim_Assist",
+        "47 <=> StatusEffectType_Flashlighted",
+        "48 <=> StatusEffectType_Smoke_Covered",
+        "49 <=> StatusEffectType_Backpack_Chemicals",
+        "50 <=> StatusEffectType_Intense_Heat",
+        "51 <=> StatusEffectType_Extreme_Cold",
+        "52 <=> StatusEffectType_Tremor",
+        "53 <=> StatusEffectType_Sandstorm",
+        "54 <=> StatusEffectType_Blizzard",
+        "55 <=> StatusEffectType_Acid_Storm",
+        "56 <=> StatusEffectType_Weather_Insulated",
+        "57 <=> StatusEffectType_Protected",
+        "58 <=> StatusEffectType_Dark_Fluid",
+        "59 <=> StatusEffectType_Death_March",
+        "60 <=> StatusEffectType_Hotshot_Laser_Rifle_RL1",
+        "61 <=> StatusEffectType_Hotshot_Laser_Rifle_RL2",
+        "62 <=> StatusEffectType_Hotshot_Laser_Rifle_RL3",
+        "63 <=> StatusEffectType_Illuminate_Scrambler",
+        "64 <=> StatusEffectType_Constitution",
+        "65 <=> StatusEffectType_Constitution_Booster_Armor_Resistance",
+        "66 <=> StatusEffectType_Post_Mortem_Explosion",
+        "67 <=> StatusEffectType_Footage_Recorded",
+        "68 <=> StatusEffectType_FlamerSlowed",
+        "69 <=> StatusEffectType_Gloom",
+        "70 <=> StatusEffectType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "DamageSettings",
+          "count": 1
+        },
+        {
+          "config_file": "ExplosiveComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "StatusEffectSettings",
+          "count": 2
+        },
+        {
+          "config_file": "WeaponHeatComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "StratagemBeaconColor",
+      "file_exists": true,
+      "values": [
+        "0 <=> StratagemBeaconColor_None",
+        "1 <=> StratagemBeaconColor_Red",
+        "2 <=> StratagemBeaconColor_Blue",
+        "3 <=> StratagemBeaconColor_Yellow"
+      ],
+      "usages": [
+        {
+          "config_file": "StratagemSettings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "StratagemButtonDirection",
+      "file_exists": true,
+      "values": [
+        "0 <=> StratagemButtonDirection_None",
+        "1 <=> StratagemButtonDirection_Up [↑]",
+        "2 <=> StratagemButtonDirection_Right [→]",
+        "3 <=> StratagemButtonDirection_Down [↓]",
+        "4 <=> StratagemButtonDirection_Left [←]"
+      ],
+      "usages": [
+        {
+          "config_file": "StratagemSettings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "StratagemCallInType",
+      "file_exists": true,
+      "values": [
+        "0 <=> StratagemCallInType_Throw",
+        "1 <=> StratagemCallInType_ExactLocation",
+        "2 <=> StratagemCallInType_LandingZoneBeacon",
+        "3 <=> StratagemCallInType_HellpadCall",
+        "4 <=> StratagemCallInType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "StratagemSettings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "StratagemCategoryType",
+      "file_exists": true,
+      "values": [
+        "0 <=> StratagemCategoryType_CloseAirSupport",
+        "1 <=> StratagemCategoryType_OrbitalFireSupport",
+        "2 <=> StratagemCategoryType_HellpodDeployment",
+        "3 <=> StratagemCategoryType_TactialAirInsertion",
+        "4 <=> StratagemCategoryType_Special",
+        "5 <=> StratagemCategoryType_OrbitalBombardment",
+        "6 <=> StratagemCategoryType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "StratagemSettings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "StratagemCooldownType",
+      "file_exists": true,
+      "values": [
+        "0 <=> StratagemCooldownType_Individual",
+        "1 <=> StratagemCooldownType_SharedTeam",
+        "2 <=> StratagemCooldownType_SharedClan",
+        "3 <=> StratagemCooldownType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "StratagemSettings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "StratagemHUDType",
+      "file_exists": true,
+      "values": [
+        "0 <=> StratagemHUDType_Offensive",
+        "1 <=> StratagemHUDType_Mission",
+        "2 <=> StratagemHUDType_Supply",
+        "3 <=> StratagemHUDType_Defensive",
+        "4 <=> StratagemHUDType_Special",
+        "5 <=> StratagemHUDType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "StratagemSettings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "StratagemObjectiveDropRequirement",
+      "file_exists": true,
+      "values": [
+        "0 <=> StratagemObjectiveDropRequirement_None",
+        "1 <=> StratagemObjectiveDropRequirement_Hellbomb",
+        "2 <=> StratagemObjectiveDropRequirement_Drill",
+        "3 <=> StratagemObjectiveDropRequirement_RaiseFlag",
+        "4 <=> StratagemObjectiveDropRequirement_BugThumper",
+        "5 <=> StratagemObjectiveDropRequirement_Scrambler",
+        "6 <=> StratagemObjectiveDropRequirement_BugScanner",
+        "7 <=> StratagemObjectiveDropRequirement_ProspectingDrill",
+        "8 <=> StratagemObjectiveDropRequirement_SeismicProbe",
+        "9 <=> StratagemObjectiveDropRequirement_BugSynthesizer",
+        "10 <=> StratagemObjectiveDropRequirement_CyborgCarryData",
+        "11 <=> StratagemObjectiveDropRequirement_CargoContainer",
+        "12 <=> StratagemObjectiveDropRequirement_CargoContainer_MK2",
+        "13 <=> StratagemObjectiveDropRequirement_CarryData",
+        "14 <=> StratagemObjectiveDropRequirement_DarkFluidBackpack",
+        "15 <=> StratagemObjectiveDropRequirement_TCS03Thumper",
+        "16 <=> StratagemObjectiveDropRequirement_DataJack",
+        "17 <=> StratagemObjectiveDropRequirement_Unk17",
+        "18 <=> StratagemObjectiveDropRequirement_MissionHellbombBackpack",
+        "19 <=> StratagemObjectiveDropRequirement_OilRigExtract",
+        "20 <=> StratagemObjectiveDropRequirement_SeafSquad",
+        "21 <=> StratagemObjectiveDropRequirement_ShoulderMountedCamera",
+        "22 <=> StratagemObjectiveDropRequirement_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "StratagemSettings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "StratagemOriginType",
+      "file_exists": true,
+      "values": [
+        "0 <=> StratagemOriginType_ShipSpecific",
+        "1 <=> StratagemOriginType_ShipGeneric",
+        "2 <=> StratagemOriginType_ClanStation",
+        "3 <=> StratagemOriginType_Unk3",
+        "4 <=> StratagemOriginType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "StratagemSettings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "StratagemType",
+      "file_exists": true,
+      "values": [
+        "0 <=> StratagemType_None",
+        "1 <=> StratagemType_BastionTank",
+        "2 <=> StratagemType_Drone_Stun_Arc",
+        "3 <=> StratagemType_EagleBomb",
+        "4 <=> StratagemType_OrbitalGatlingBarrage",
+        "5 <=> StratagemType_OrbitalIlluminationFlare",
+        "6 <=> StratagemType_Commando",
+        "7 <=> StratagemType_ExtractionBeacon",
+        "8 <=> StratagemType_TurretFlamer",
+        "9 <=> StratagemType_AntiTankEmplacement",
+        "10 <=> StratagemType_EmancipatorExosuit",
+        "11 <=> StratagemType_RaiseFlag",
+        "12 <=> StratagemType_AntiTankMines",
+        "13 <=> StratagemType_Stalwart",
+        "14 <=> StratagemType_C4_Backpack",
+        "15 <=> StratagemType_Leveller",
+        "16 <=> StratagemType_BugThumper",
+        "17 <=> StratagemType_EagleAirstrike",
+        "18 <=> StratagemType_SeismicProbe",
+        "19 <=> StratagemType_MedicBackpack_PresidentReward",
+        "20 <=> StratagemType_OrbitalWalkingBarrage",
+        "21 <=> StratagemType_ShieldGeneratorRelay",
+        "22 <=> StratagemType_TurretLaserCannon",
+        "23 <=> StratagemType_WarpPack",
+        "24 <=> StratagemType_Autocannon",
+        "25 <=> StratagemType_FRV_Supply",
+        "26 <=> StratagemType_PatriotExosuit",
+        "27 <=> StratagemType_SEAF_Artillery",
+        "28 <=> StratagemType_DarkFluidBackpack",
+        "29 <=> StratagemType_EagleStrafingRun",
+        "30 <=> StratagemType_MissionHellbombBackpack",
+        "31 <=> StratagemType_HeavyMachineGun",
+        "32 <=> StratagemType_AmmoRack",
+        "33 <=> StratagemType_Orbital_EMS_Strike",
+        "34 <=> StratagemType_EagleStrafingRun_DSS",
+        "35 <=> StratagemType_OilRigExtract",
+        "36 <=> StratagemType_PatriotExosuit_PresidentReward",
+        "37 <=> StratagemType_EagleAirstrikeSmoke",
+        "38 <=> StratagemType_ExpendableNapalmLauncher",
+        "39 <=> StratagemType_Tutorial_ExtractBeacon",
+        "40 <=> StratagemType_OrbitalGas",
+        "41 <=> StratagemType_DropoffHellbomb",
+        "42 <=> StratagemType_ShieldGeneratorPack",
+        "43 <=> StratagemType_TurretMortarStaticField",
+        "44 <=> StratagemType_Epoch",
+        "45 <=> StratagemType_GasMines",
+        "46 <=> StratagemType_Tank_Reload_HE",
+        "47 <=> StratagemType_MissionDataJack",
+        "48 <=> StratagemType_EagleRearm",
+        "49 <=> StratagemType_DefoliationTool",
+        "50 <=> StratagemType_TurretMortarGas",
+        "51 <=> StratagemType_TurretRocket",
+        "52 <=> StratagemType_AirBurstRocket",
+        "53 <=> StratagemType_HoverPack",
+        "54 <=> StratagemType_Railgun",
+        "55 <=> StratagemType_Drone_Flamer",
+        "56 <=> StratagemType_OrbitalRailcannon",
+        "57 <=> StratagemType_GrenadierBattlement",
+        "58 <=> StratagemType_Tank_Reload_Canister",
+        "59 <=> StratagemType_Sterilizer",
+        "60 <=> StratagemType_LaserCannon",
+        "61 <=> StratagemType_TCS03Thumper",
+        "62 <=> StratagemType_EagleClusterbombs",
+        "63 <=> StratagemType_TurretGatling",
+        "64 <=> StratagemType_Directional_Shield",
+        "65 <=> StratagemType_ArcThrower",
+        "66 <=> StratagemType_TurretRocket_PresidentReward",
+        "67 <=> StratagemType_ProspectingDrill",
+        "68 <=> StratagemType_DropoffCargoContainer",
+        "69 <=> StratagemType_DropoffBugPlug",
+        "70 <=> StratagemType_DroneMG",
+        "71 <=> StratagemType_OrbitalSmoke",
+        "72 <=> StratagemType_Spear",
+        "73 <=> StratagemType_CyborgCarryData",
+        "74 <=> StratagemType_HealthPackRack",
+        "75 <=> StratagemType_ShoulderMountedCamera",
+        "76 <=> StratagemType_CarryData",
+        "77 <=> StratagemType_GrenadeLauncher",
+        "78 <=> StratagemType_Machinegun_PresidentReward",
+        "79 <=> StratagemType_OrbitalAirBurst",
+        "80 <=> StratagemType_JammedPinata",
+        "81 <=> StratagemType_SuperEarthFlag",
+        "82 <=> StratagemType_RemoteExplosives",
+        "83 <=> StratagemType_Cremator",
+        "84 <=> StratagemType_BreakthroughExosuit",
+        "85 <=> StratagemType_SoloSilo",
+        "86 <=> StratagemType_HealthPackRack_PresidentReward",
+        "87 <=> StratagemType_LumbererExosuit",
+        "88 <=> StratagemType_Machinegun",
+        "89 <=> StratagemType_Tutorial_ReinforcementBeacon",
+        "90 <=> StratagemType_Tank_Reload_AT",
+        "91 <=> StratagemType_BallisticShield",
+        "92 <=> StratagemType_WASP",
+        "93 <=> StratagemType_EmergencyExtractionBeacon",
+        "94 <=> StratagemType_BulletStorm",
+        "95 <=> StratagemType_BreachingHammer",
+        "96 <=> StratagemType_AmmoBackpack",
+        "97 <=> StratagemType_CarpetBomb",
+        "98 <=> StratagemType_TurretTesla",
+        "99 <=> StratagemType_FRV",
+        "100 <=> StratagemType_OrbitalNapalmBarrage",
+        "101 <=> StratagemType_OrbitalLaser",
+        "102 <=> StratagemType_Scrambler",
+        "103 <=> StratagemType_AmmoRack_PresidentReward",
+        "104 <=> StratagemType_Maxigun",
+        "105 <=> StratagemType_ImmediateExtractionBeacon",
+        "106 <=> StratagemType_Flamethrower",
+        "107 <=> StratagemType_Speargun",
+        "108 <=> StratagemType_OneTrueFlag",
+        "109 <=> StratagemType_Drone_Laser_Rifle",
+        "110 <=> StratagemType_ClanStationSeafSquad",
+        "111 <=> StratagemType_TurretMortar",
+        "112 <=> StratagemType_OrbitalPrecisionStrike",
+        "113 <=> StratagemType_AntiPersonnalMine",
+        "114 <=> StratagemType_PortableHellbomb",
+        "115 <=> StratagemType_TurretMachinegun",
+        "116 <=> StratagemType_SpireSterilizer",
+        "117 <=> StratagemType_CallInSuperDestroyer",
+        "118 <=> StratagemType_ReinforcementBeacon",
+        "119 <=> StratagemType_Orbital380mmHEBarrage",
+        "120 <=> StratagemType_BeltFedGrenadeLauncher",
+        "121 <=> StratagemType_UploadDiscovery",
+        "122 <=> StratagemType_DrillingCharge",
+        "123 <=> StratagemType_Recoilless",
+        "124 <=> StratagemType_De-Escalator",
+        "125 <=> StratagemType_Nuke",
+        "126 <=> StratagemType_EagleAirstrikeNapalm",
+        "127 <=> StratagemType_Jumppack",
+        "128 <=> StratagemType_FRV_Incinerator",
+        "129 <=> StratagemType_Orbital120mmHEBarrage",
+        "130 <=> StratagemType_TurretAutocannon",
+        "131 <=> StratagemType_CargoContainer",
+        "132 <=> StratagemType_IncendiaryMines",
+        "133 <=> StratagemType_Eagle110mmRocket",
+        "134 <=> StratagemType_AntiMaterielRifle",
+        "135 <=> StratagemType_Drone_Gas",
+        "136 <=> StratagemType_Jumppack_PresidentReward",
+        "137 <=> StratagemType_HMG_Emplacement",
+        "138 <=> StratagemType_SOSBeacon",
+        "139 <=> StratagemType_EagleAirToAirMissile",
+        "140 <=> StratagemType_ExpendableAntiTank",
+        "141 <=> StratagemType_ExtractBeacon",
+        "142 <=> StratagemType_QuasarCannon",
+        "143 <=> StratagemType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "StratagemSettings",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "enum_name": "TerrainDeformationType",
+      "file_exists": true,
+      "values": [
+        "0 <=> TerrainDeformationType_None",
+        "1 <=> TerrainDeformationType_Default",
+        "2 <=> TerrainDeformationType_Nuke",
+        "3 <=> TerrainDeformationType_Large",
+        "4 <=> TerrainDeformationType_Medium",
+        "5 <=> TerrainDeformationType_Small",
+        "6 <=> TerrainDeformationType_Scorch",
+        "7 <=> TerrainDeformationType_FlattenHeightmapAO",
+        "8 <=> TerrainDeformationType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "ExplosionSettings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "UnitCustomizationCollectionType",
+      "file_exists": true,
+      "values": [
+        "0 <=> UnitCustomizationCollectionType_Shuttle",
+        "1 <=> UnitCustomizationCollectionType_Hellpod",
+        "2 <=> UnitCustomizationCollectionType_HellpodRack",
+        "3 <=> UnitCustomizationCollectionType_CombatWalker",
+        "4 <=> UnitCustomizationCollectionType_CombatWalkerEmancipator",
+        "5 <=> UnitCustomizationCollectionType_CombatWalkerLumberer",
+        "6 <=> UnitCustomizationCollectionType_CombatWalkerBreakthrough",
+        "7 <=> UnitCustomizationCollectionType_FRV",
+        "8 <=> UnitCustomizationCollectionType_FRV_Incinerator",
+        "9 <=> UnitCustomizationCollectionType_FRV_Supply",
+        "10 <=> UnitCustomizationCollectionType_BastionTank",
+        "11 <=> UnitCustomizationCollectionType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "StratagemSettings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "UnitEffectOrphanStrategy",
+      "file_exists": true,
+      "values": [
+        "0 <=> UnitEffectOrphanStrategy_None",
+        "1 <=> UnitEffectOrphanStrategy_Destroy",
+        "2 <=> UnitEffectOrphanStrategy_Stop",
+        "3 <=> UnitEffectOrphanStrategy_Disconnect"
+      ],
+      "usages": [
+        {
+          "config_file": "ExplosiveComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "HealthComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "SeekingMissileComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "ThrowableComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "WeaponDataComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "UnitSize",
+      "file_exists": true,
+      "values": [
+        "0 <=> UnitSize_Small",
+        "1 <=> UnitSize_Medium",
+        "2 <=> UnitSize_Large",
+        "3 <=> UnitSize_Massive",
+        "4 <=> UnitSize_Num"
+      ],
+      "usages": [
+        {
+          "config_file": "HealthComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "MinefieldComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "OverlapDamageComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "WeaponAmmoPoolType",
+      "file_exists": true,
+      "values": [
+        "0 <=> WeaponAmmoPoolType_AmmoLeft",
+        "1 <=> WeaponAmmoPoolType_AmmoLeftTotal",
+        "2 <=> WeaponAmmoPoolType_AmmoReserve",
+        "3 <=> WeaponAmmoPoolType_Unk3"
+      ],
+      "usages": [
+        {
+          "config_file": "WeaponCustomizationComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "WeaponCustomizationIKAttach",
+      "file_exists": true,
+      "values": [
+        "0 <=> WeaponCustomizationIKAttach_None",
+        "1 <=> WeaponCustomizationIKAttach_Optics",
+        "2 <=> WeaponCustomizationIKAttach_Underbarrel",
+        "3 <=> WeaponCustomizationIKAttach_Muzzle",
+        "4 <=> WeaponCustomizationIKAttach_Magazine",
+        "5 <=> WeaponCustomizationIKAttach_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "WeaponCustomizationComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "WeaponCustomizationSlot",
+      "file_exists": true,
+      "values": [
+        "0 <=> WeaponCustomizationSlot_None",
+        "1 <=> WeaponCustomizationSlot_Underbarrel",
+        "2 <=> WeaponCustomizationSlot_Optics",
+        "3 <=> WeaponCustomizationSlot_PaintScheme",
+        "4 <=> WeaponCustomizationSlot_Muzzle",
+        "5 <=> WeaponCustomizationSlot_Magazine",
+        "6 <=> WeaponCustomizationSlot_AmmoType",
+        "7 <=> WeaponCustomizationSlot_AmmoTypeAlternate",
+        "8 <=> WeaponCustomizationSlot_Internals",
+        "9 <=> WeaponCustomizationSlot_Triggers",
+        "10 <=> WeaponCustomizationSlot_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "WeaponCustomizationComponentData",
+          "count": 2
+        },
+        {
+          "config_file": "WeaponCustomizationSettings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "WeaponFunctionType",
+      "file_exists": true,
+      "values": [
+        "0 <=> WeaponFunctionType_None",
+        "1 <=> WeaponFunctionType_Zeroing",
+        "2 <=> WeaponFunctionType_ROF",
+        "3 <=> WeaponFunctionType_Firemode",
+        "4 <=> WeaponFunctionType_Magazine",
+        "5 <=> WeaponFunctionType_LightMode",
+        "6 <=> WeaponFunctionType_LaserGuide",
+        "7 <=> WeaponFunctionType_MuzzleVelocity",
+        "8 <=> WeaponFunctionType_ProgrammableAmmo",
+        "9 <=> WeaponFunctionType_LaserPrism",
+        "10 <=> WeaponFunctionType_Unk10",
+        "11 <=> WeaponFunctionType_Detonate",
+        "12 <=> WeaponFunctionType_UnderBarrelWeapon",
+        "13 <=> WeaponFunctionType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "WeaponDataComponentData",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "enum_name": "WeaponReloadEventType",
+      "file_exists": true,
+      "values": [
+        "0 <=> WeaponReloadEventType_None",
+        "1 <=> WeaponReloadEventType_ReloadNormal",
+        "2 <=> WeaponReloadEventType_ReloadNormalOneHand",
+        "3 <=> WeaponReloadEventType_ReloadFast",
+        "4 <=> WeaponReloadEventType_ReloadFastOneHand"
+      ],
+      "usages": [
+        {
+          "config_file": "WeaponReloadComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "WeaponStatModifierType",
+      "file_exists": true,
+      "values": [
+        "0 <=> WeaponStatModifierType_Add_Ergonomics",
+        "1 <=> WeaponStatModifierType_Mul_Sway",
+        "2 <=> WeaponStatModifierType_Mul_RecoilHorizontal",
+        "3 <=> WeaponStatModifierType_Mul_RecoilHorizontalAlt",
+        "4 <=> WeaponStatModifierType_Mul_RecoilVertical",
+        "5 <=> WeaponStatModifierType_Mul_RecoilVerticalAlt",
+        "6 <=> WeaponStatModifierType_Mul_DriftHorizontal",
+        "7 <=> WeaponStatModifierType_Mul_DriftHorizontalAlt",
+        "8 <=> WeaponStatModifierType_Mul_DriftVertical",
+        "9 <=> WeaponStatModifierType_Mul_DriftVerticalAlt",
+        "10 <=> WeaponStatModifierType_Mul_ClimbHorizontal",
+        "11 <=> WeaponStatModifierType_Mul_ClimbHorizontalAlt",
+        "12 <=> WeaponStatModifierType_Mul_ClimbVertical",
+        "13 <=> WeaponStatModifierType_Mul_ClimbVerticalAlt",
+        "14 <=> WeaponStatModifierType_Mul_SpreadHorizontal",
+        "15 <=> WeaponStatModifierType_Mul_SpreadHorizontalAlt",
+        "16 <=> WeaponStatModifierType_Mul_SpreadVertical",
+        "17 <=> WeaponStatModifierType_Mul_SpreadVerticalAlt",
+        "18 <=> WeaponStatModifierType_Count"
+      ],
+      "usages": [
+        {
+          "config_file": "WeaponDataComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "WindEffectTemplate",
+      "file_exists": true,
+      "values": [
+        "0 <=> WindEffectTemplate_None",
+        "1 <=> WindEffectTemplate_SmallExplosion",
+        "2 <=> WindEffectTemplate_MediumExplosion",
+        "3 <=> WindEffectTemplate_LargeExplosion",
+        "4 <=> WindEffectTemplate_HugeExplosion",
+        "5 <=> WindEffectTemplate_Hellpod",
+        "6 <=> WindEffectTemplate_BombImpact",
+        "7 <=> WindEffectTemplate_LargeWeaponFire",
+        "8 <=> WindEffectTemplate_LargeWeaponFireLoop",
+        "9 <=> WindEffectTemplate_ImpactMedium",
+        "10 <=> WindEffectTemplate_ImpactHeavy"
+      ],
+      "usages": [
+        {
+          "config_file": "ExplosionSettings",
+          "count": 1
+        },
+        {
+          "config_file": "ProjectileWeaponComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "SprayWeaponComponentData",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "missing_enum_types": [
+    {
+      "enum_name": "AbilityId",
+      "file_exists": false,
+      "values": [],
+      "usages": [
+        {
+          "config_file": "AiEnemyComponentData",
+          "count": 20
+        },
+        {
+          "config_file": "DepositComponentData",
+          "count": 2
+        },
+        {
+          "config_file": "ExplosiveComponentData",
+          "count": 2
+        },
+        {
+          "config_file": "HellpodPayloadComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "HellpodRackComponentData",
+          "count": 2
+        },
+        {
+          "config_file": "HitReactComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "ThrowableComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "WeaponDataComponentData",
+          "count": 4
+        },
+        {
+          "config_file": "WeaponHeatComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "WeaponReloadComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "DamageInfoType",
+      "file_exists": false,
+      "values": [],
+      "usages": [
+        {
+          "config_file": "ArcSettings",
+          "count": 1
+        },
+        {
+          "config_file": "BeamSettings",
+          "count": 1
+        },
+        {
+          "config_file": "DamageSettings",
+          "count": 1
+        },
+        {
+          "config_file": "ExplosionSettings",
+          "count": 1
+        },
+        {
+          "config_file": "MeleeWeaponComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "OrbitalAbilityComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "ProjectileSettings",
+          "count": 1
+        },
+        {
+          "config_file": "SprayWeaponComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "StatusEffectSettings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "ExplosionType",
+      "file_exists": false,
+      "values": [],
+      "usages": [
+        {
+          "config_file": "BeamSettings",
+          "count": 1
+        },
+        {
+          "config_file": "ExplosionSettings",
+          "count": 1
+        },
+        {
+          "config_file": "ExplosiveComponentData",
+          "count": 2
+        },
+        {
+          "config_file": "MinefieldComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "ProjectileSettings",
+          "count": 2
+        },
+        {
+          "config_file": "WeaponChargeComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "HitEffectReceiverType",
+      "file_exists": false,
+      "values": [],
+      "usages": [
+        {
+          "config_file": "DamageZoneShieldComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "HealthComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "ShieldComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "ProjectileType",
+      "file_exists": false,
+      "values": [],
+      "usages": [
+        {
+          "config_file": "BombardmentComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "EagleComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "ExplosionSettings",
+          "count": 1
+        },
+        {
+          "config_file": "OrbitalAbilityComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "ProjectileSettings",
+          "count": 1
+        },
+        {
+          "config_file": "ProjectileWeaponComponentData",
+          "count": 2
+        },
+        {
+          "config_file": "SeekingMissileComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "SprayWeaponComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "WeaponChargeComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "WeaponMagazineComponentData",
+          "count": 2
+        },
+        {
+          "config_file": "WeaponRoundsComponentData",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "enum_name": "RaycastTemplate",
+      "file_exists": false,
+      "values": [],
+      "usages": [
+        {
+          "config_file": "BeamSettings",
+          "count": 1
+        },
+        {
+          "config_file": "ExplosiveComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "SensorEyeComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "SurfaceImpactType",
+      "file_exists": false,
+      "values": [],
+      "usages": [
+        {
+          "config_file": "BeamSettings",
+          "count": 1
+        },
+        {
+          "config_file": "ExplosionSettings",
+          "count": 1
+        },
+        {
+          "config_file": "OrbitalAbilityComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "ProjectileSettings",
+          "count": 2
+        },
+        {
+          "config_file": "ProjectileWeaponComponentData",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "enum_name": "Tag",
+      "file_exists": false,
+      "values": [],
+      "usages": [
+        {
+          "config_file": "BombardmentComponentData",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}
