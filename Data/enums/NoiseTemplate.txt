@@ -27,3 +27,5 @@ NoiseTemplate_StratagemBeacon
 NoiseTemplate_Extraction
 NoiseTemplate_CapitalTower
 NoiseTemplate_Max
+NoiseTemplate_Unk29
+NoiseTemplate_Unk30

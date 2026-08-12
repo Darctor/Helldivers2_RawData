@@ -6,4 +6,5 @@ ElementType_Bleed
 ElementType_Gas
 ElementType_illuminatePlasma
 ElementType_VehicleDamage
+ElementType_Tornado
 ElementType_Count

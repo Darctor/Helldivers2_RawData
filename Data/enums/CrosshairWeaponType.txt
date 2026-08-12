@@ -17,5 +17,6 @@ CrosshairWeaponType_Railgun
 CrosshairWeaponType_Javelin
 CrosshairWeaponType_Throwable
 CrosshairWeaponType_Physgun
+CrosshairWeaponType_Unk19
 CrosshairWeaponType_None
 CrosshairWeaponType_Count

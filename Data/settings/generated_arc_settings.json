@@ -3,10 +3,10 @@
         "ArcSettings": {
             "_metadata": {
                 "struct_size": 104,
-                "omitted_size": 0,
+                "omitted_size": 11,
                 "exported_type_count": 16,
-                "patch_date": "2026-07-07",
-                "game_version": "1.006.301"
+                "patch_date": "2026-08-12",
+                "game_version": "1.007.000"
             },
             "items": [
                 {
@@ -20,19 +20,17 @@
                     "max_angle_spread_first_shot": 3.0,
                     "max_chain_length": 1,
                     "max_chain_split": 1,
-                    "damage_info_type": "190 <=> DamageInfoType_Unknown_190",
+                    "damage_info_type": "191 <=> DamageInfoType_Unknown_191",
                     "camera_shake_path": "0",
                     "particle_effect_path": "0",
                     "particle_linger_time": 0.25,
-                    "unk_uint32_0x003C": 0,
                     "explosion_effect_path": "7796303474030059700",
                     "hit_effect_damage_type": "3 <=> HitEffectDamageType_PiercingLarge",
                     "hit_audio_event": 4066763531,
                     "bolt_path": "7616758381494621082",
                     "demolition_strength": 10,
-                    "unk_uint32_0x005C": 1,
-                    "arc_count": 1,
-                    "unk_uint32_0x0064": 0
+                    "unk_bool_0x005C": 1,
+                    "arc_count": 1
                 },
                 {
                     "index": 1,
@@ -45,19 +43,17 @@
                     "max_angle_spread_first_shot": 3.0,
                     "max_chain_length": 1,
                     "max_chain_split": 1,
-                    "damage_info_type": "190 <=> DamageInfoType_Unknown_190",
+                    "damage_info_type": "191 <=> DamageInfoType_Unknown_191",
                     "camera_shake_path": "0",
                     "particle_effect_path": "0",
                     "particle_linger_time": 0.25,
-                    "unk_uint32_0x003C": 0,
                     "explosion_effect_path": "7796303474030059700",
                     "hit_effect_damage_type": "3 <=> HitEffectDamageType_PiercingLarge",
                     "hit_audio_event": 4066763531,
                     "bolt_path": "7616758381494621082",
                     "demolition_strength": 10,
-                    "unk_uint32_0x005C": 1,
-                    "arc_count": 1,
-                    "unk_uint32_0x0064": 0
+                    "unk_bool_0x005C": 1,
+                    "arc_count": 1
                 },
                 {
                     "index": 2,
@@ -70,19 +66,17 @@
                     "max_angle_spread_first_shot": 3.0,
                     "max_chain_length": 1,
                     "max_chain_split": 1,
-                    "damage_info_type": "191 <=> DamageInfoType_Unknown_191",
+                    "damage_info_type": "192 <=> DamageInfoType_Unknown_192",
                     "camera_shake_path": "0",
                     "particle_effect_path": "0",
                     "particle_linger_time": 0.25,
-                    "unk_uint32_0x003C": 0,
                     "explosion_effect_path": "7796303474030059700",
                     "hit_effect_damage_type": "3 <=> HitEffectDamageType_PiercingLarge",
                     "hit_audio_event": 4066763531,
                     "bolt_path": "7616758381494621082",
                     "demolition_strength": 10,
-                    "unk_uint32_0x005C": 1,
-                    "arc_count": 1,
-                    "unk_uint32_0x0064": 0
+                    "unk_bool_0x005C": 1,
+                    "arc_count": 1
                 },
                 {
                     "index": 3,
@@ -95,19 +89,17 @@
                     "max_angle_spread_first_shot": 3.0,
                     "max_chain_length": 1,
                     "max_chain_split": 3,
-                    "damage_info_type": "191 <=> DamageInfoType_Unknown_191",
+                    "damage_info_type": "192 <=> DamageInfoType_Unknown_192",
                     "camera_shake_path": "0",
                     "particle_effect_path": "0",
                     "particle_linger_time": 0.25,
-                    "unk_uint32_0x003C": 0,
                     "explosion_effect_path": "7796303474030059700",
                     "hit_effect_damage_type": "3 <=> HitEffectDamageType_PiercingLarge",
                     "hit_audio_event": 4066763531,
                     "bolt_path": "7616758381494621082",
                     "demolition_strength": 10,
-                    "unk_uint32_0x005C": 1,
-                    "arc_count": 1,
-                    "unk_uint32_0x0064": 0
+                    "unk_bool_0x005C": 1,
+                    "arc_count": 1
                 },
                 {
                     "index": 4,
@@ -120,19 +112,17 @@
                     "max_angle_spread_first_shot": 10.0,
                     "max_chain_length": 1,
                     "max_chain_split": 0,
-                    "damage_info_type": "192 <=> DamageInfoType_Unknown_192",
+                    "damage_info_type": "193 <=> DamageInfoType_Unknown_193",
                     "camera_shake_path": "0",
                     "particle_effect_path": "0",
                     "particle_linger_time": 0.25,
-                    "unk_uint32_0x003C": 0,
                     "explosion_effect_path": "7796303474030059700",
                     "hit_effect_damage_type": "3 <=> HitEffectDamageType_PiercingLarge",
                     "hit_audio_event": 4066763531,
                     "bolt_path": "16359245277033039219",
                     "demolition_strength": 10,
-                    "unk_uint32_0x005C": 1,
-                    "arc_count": 1,
-                    "unk_uint32_0x0064": 0
+                    "unk_bool_0x005C": 1,
+                    "arc_count": 1
                 },
                 {
                     "index": 5,
@@ -145,19 +135,17 @@
                     "max_angle_spread_first_shot": 3.0,
                     "max_chain_length": 2,
                     "max_chain_split": 5,
-                    "damage_info_type": "193 <=> DamageInfoType_Unknown_193",
+                    "damage_info_type": "194 <=> DamageInfoType_Unknown_194",
                     "camera_shake_path": "0",
                     "particle_effect_path": "0",
                     "particle_linger_time": 0.25,
-                    "unk_uint32_0x003C": 0,
                     "explosion_effect_path": "7796303474030059700",
                     "hit_effect_damage_type": "3 <=> HitEffectDamageType_PiercingLarge",
                     "hit_audio_event": 4066763531,
                     "bolt_path": "7616758381494621082",
                     "demolition_strength": 10,
-                    "unk_uint32_0x005C": 1,
-                    "arc_count": 1,
-                    "unk_uint32_0x0064": 0
+                    "unk_bool_0x005C": 1,
+                    "arc_count": 1
                 },
                 {
                     "index": 6,
@@ -170,19 +158,17 @@
                     "max_angle_spread_first_shot": 180.0,
                     "max_chain_length": 2,
                     "max_chain_split": 2,
-                    "damage_info_type": "204 <=> DamageInfoType_Unknown_204",
+                    "damage_info_type": "205 <=> DamageInfoType_Unknown_205",
                     "camera_shake_path": "0",
                     "particle_effect_path": "0",
                     "particle_linger_time": 0.25,
-                    "unk_uint32_0x003C": 0,
                     "explosion_effect_path": "7796303474030059700",
                     "hit_effect_damage_type": "3 <=> HitEffectDamageType_PiercingLarge",
                     "hit_audio_event": 3528384486,
                     "bolt_path": "7616758381494621082",
                     "demolition_strength": 10,
-                    "unk_uint32_0x005C": 1,
-                    "arc_count": 1,
-                    "unk_uint32_0x0064": 0
+                    "unk_bool_0x005C": 1,
+                    "arc_count": 1
                 },
                 {
                     "index": 7,
@@ -199,15 +185,13 @@
                     "camera_shake_path": "0",
                     "particle_effect_path": "0",
                     "particle_linger_time": 0.25,
-                    "unk_uint32_0x003C": 0,
                     "explosion_effect_path": "7796303474030059700",
                     "hit_effect_damage_type": "3 <=> HitEffectDamageType_PiercingLarge",
                     "hit_audio_event": 0,
                     "bolt_path": "7616758381494621082",
                     "demolition_strength": 10,
-                    "unk_uint32_0x005C": 0,
-                    "arc_count": 1,
-                    "unk_uint32_0x0064": 0
+                    "unk_bool_0x005C": 0,
+                    "arc_count": 1
                 },
                 {
                     "index": 8,
@@ -224,15 +208,13 @@
                     "camera_shake_path": "0",
                     "particle_effect_path": "0",
                     "particle_linger_time": 0.25,
-                    "unk_uint32_0x003C": 0,
                     "explosion_effect_path": "7796303474030059700",
                     "hit_effect_damage_type": "3 <=> HitEffectDamageType_PiercingLarge",
                     "hit_audio_event": 0,
                     "bolt_path": "7616758381494621082",
                     "demolition_strength": 10,
-                    "unk_uint32_0x005C": 0,
-                    "arc_count": 1,
-                    "unk_uint32_0x0064": 0
+                    "unk_bool_0x005C": 0,
+                    "arc_count": 1
                 },
                 {
                     "index": 9,
@@ -249,15 +231,13 @@
                     "camera_shake_path": "0",
                     "particle_effect_path": "0",
                     "particle_linger_time": 0.25,
-                    "unk_uint32_0x003C": 0,
                     "explosion_effect_path": "7796303474030059700",
                     "hit_effect_damage_type": "3 <=> HitEffectDamageType_PiercingLarge",
                     "hit_audio_event": 0,
                     "bolt_path": "7616758381494621082",
                     "demolition_strength": 10,
-                    "unk_uint32_0x005C": 0,
-                    "arc_count": 1,
-                    "unk_uint32_0x0064": 0
+                    "unk_bool_0x005C": 0,
+                    "arc_count": 1
                 },
                 {
                     "index": 10,
@@ -274,15 +254,13 @@
                     "camera_shake_path": "0",
                     "particle_effect_path": "0",
                     "particle_linger_time": 0.25,
-                    "unk_uint32_0x003C": 0,
                     "explosion_effect_path": "7796303474030059700",
                     "hit_effect_damage_type": "3 <=> HitEffectDamageType_PiercingLarge",
                     "hit_audio_event": 0,
                     "bolt_path": "7616758381494621082",
                     "demolition_strength": 10,
-                    "unk_uint32_0x005C": 0,
-                    "arc_count": 1,
-                    "unk_uint32_0x0064": 0
+                    "unk_bool_0x005C": 0,
+                    "arc_count": 1
                 },
                 {
                     "index": 11,
@@ -299,15 +277,13 @@
                     "camera_shake_path": "0",
                     "particle_effect_path": "0",
                     "particle_linger_time": 0.10000000149011612,
-                    "unk_uint32_0x003C": 0,
                     "explosion_effect_path": "0",
                     "hit_effect_damage_type": "7 <=> HitEffectDamageType_BeamSmall",
                     "hit_audio_event": 4066763531,
                     "bolt_path": "7616758381494621082",
                     "demolition_strength": 10,
-                    "unk_uint32_0x005C": 0,
-                    "arc_count": 1,
-                    "unk_uint32_0x0064": 0
+                    "unk_bool_0x005C": 0,
+                    "arc_count": 1
                 },
                 {
                     "index": 12,
@@ -324,15 +300,13 @@
                     "camera_shake_path": "0",
                     "particle_effect_path": "0",
                     "particle_linger_time": 0.4000000059604645,
-                    "unk_uint32_0x003C": 0,
                     "explosion_effect_path": "0",
                     "hit_effect_damage_type": "7 <=> HitEffectDamageType_BeamSmall",
                     "hit_audio_event": 4066763531,
                     "bolt_path": "7616758381494621082",
                     "demolition_strength": 10,
-                    "unk_uint32_0x005C": 0,
-                    "arc_count": 1,
-                    "unk_uint32_0x0064": 0
+                    "unk_bool_0x005C": 0,
+                    "arc_count": 1
                 },
                 {
                     "index": 13,
@@ -345,19 +319,17 @@
                     "max_angle_spread_first_shot": 0.0,
                     "max_chain_length": 0,
                     "max_chain_split": 0,
-                    "damage_info_type": "523 <=> DamageInfoType_Unknown_523",
+                    "damage_info_type": "537 <=> DamageInfoType_Unknown_537",
                     "camera_shake_path": "0",
                     "particle_effect_path": "15611403668299239200",
                     "particle_linger_time": 0.75,
-                    "unk_uint32_0x003C": 0,
                     "explosion_effect_path": "7796303474030059700",
                     "hit_effect_damage_type": "0 <=> HitEffectDamageType_None",
                     "hit_audio_event": 0,
                     "bolt_path": "3348712636589073254",
                     "demolition_strength": 10,
-                    "unk_uint32_0x005C": 1,
-                    "arc_count": 1,
-                    "unk_uint32_0x0064": 0
+                    "unk_bool_0x005C": 1,
+                    "arc_count": 1
                 },
                 {
                     "index": 14,
@@ -370,19 +342,17 @@
                     "max_angle_spread_first_shot": 180.0,
                     "max_chain_length": 2,
                     "max_chain_split": 2,
-                    "damage_info_type": "194 <=> DamageInfoType_Unknown_194",
+                    "damage_info_type": "195 <=> DamageInfoType_Unknown_195",
                     "camera_shake_path": "0",
                     "particle_effect_path": "0",
                     "particle_linger_time": 0.25,
-                    "unk_uint32_0x003C": 0,
                     "explosion_effect_path": "7796303474030059700",
                     "hit_effect_damage_type": "3 <=> HitEffectDamageType_PiercingLarge",
                     "hit_audio_event": 3528384486,
                     "bolt_path": "7616758381494621082",
                     "demolition_strength": 10,
-                    "unk_uint32_0x005C": 1,
-                    "arc_count": 10,
-                    "unk_uint32_0x0064": 0
+                    "unk_bool_0x005C": 1,
+                    "arc_count": 10
                 },
                 {
                     "index": 15,
@@ -395,19 +365,17 @@
                     "max_angle_spread_first_shot": 180.0,
                     "max_chain_length": 2,
                     "max_chain_split": 2,
-                    "damage_info_type": "205 <=> DamageInfoType_Unknown_205",
+                    "damage_info_type": "206 <=> DamageInfoType_Unknown_206",
                     "camera_shake_path": "0",
                     "particle_effect_path": "0",
                     "particle_linger_time": 0.25,
-                    "unk_uint32_0x003C": 0,
                     "explosion_effect_path": "7796303474030059700",
                     "hit_effect_damage_type": "3 <=> HitEffectDamageType_PiercingLarge",
                     "hit_audio_event": 3528384486,
                     "bolt_path": "7616758381494621082",
                     "demolition_strength": 10,
-                    "unk_uint32_0x005C": 1,
-                    "arc_count": 10,
-                    "unk_uint32_0x0064": 0
+                    "unk_bool_0x005C": 1,
+                    "arc_count": 10
                 }
             ]
         }

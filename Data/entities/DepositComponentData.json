@@ -2,10 +2,10 @@
     "_metadata": {
         "struct_size": 152,
         "omitted_size": 14,
-        "exported_entity_count": 27,
-        "matched_bilingual_hash_count": 20,
-        "patch_date": "2026-07-07",
-        "game_version": "1.006.301"
+        "exported_entity_count": 28,
+        "matched_bilingual_hash_count": 21,
+        "patch_date": "2026-08-12",
+        "game_version": "1.007.000"
     },
     "entities": [
         {
@@ -240,8 +240,8 @@
                 "deduct_owner_vo_event": 0,
                 "last_deduct_owner_vo_event": 0,
                 "drone_path": "0",
-                "friendly_interact_ability": "2467 <=> AbilityId_Unknown_2467",
-                "self_interact_ability": "2468 <=> AbilityId_Unknown_2468",
+                "friendly_interact_ability": "2618 <=> AbilityId_Unknown_2618",
+                "self_interact_ability": "2619 <=> AbilityId_Unknown_2619",
                 "show_self_interact": 0,
                 "node_hiding_order": [
                     4061308872,
@@ -417,7 +417,7 @@
                 "last_deduct_owner_vo_event": 0,
                 "drone_path": "0",
                 "friendly_interact_ability": "0 <=> AbilityId_Unknown_0",
-                "self_interact_ability": "2471 <=> AbilityId_Unknown_2471",
+                "self_interact_ability": "2622 <=> AbilityId_Unknown_2622",
                 "show_self_interact": 0,
                 "node_hiding_order": [
                     0,
@@ -988,8 +988,8 @@
                 "deduct_owner_vo_event": 3471829629,
                 "last_deduct_owner_vo_event": 3471829629,
                 "drone_path": "0",
-                "friendly_interact_ability": "2469 <=> AbilityId_Unknown_2469",
-                "self_interact_ability": "2470 <=> AbilityId_Unknown_2470",
+                "friendly_interact_ability": "2620 <=> AbilityId_Unknown_2620",
+                "self_interact_ability": "2621 <=> AbilityId_Unknown_2621",
                 "show_self_interact": 0,
                 "node_hiding_order": [
                     4061308872,
@@ -1161,6 +1161,50 @@
                 "capacity": 8,
                 "start_amount": 8,
                 "refill_amount": 0,
+                "deduct_owner_vo_event": 0,
+                "last_deduct_owner_vo_event": 0,
+                "drone_path": "0",
+                "friendly_interact_ability": "0 <=> AbilityId_Unknown_0",
+                "self_interact_ability": "0 <=> AbilityId_Unknown_0",
+                "show_self_interact": 0,
+                "node_hiding_order": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "node_hiding_order_post_anim_event": 0,
+                "refill_style": "0 <=> DepositRefill_None",
+                "assisted_reload_weapon_path": "0",
+                "unk_uint32_0x0090": 1269087576,
+                "unk_bool_0x0094": 0
+            }
+        },
+        {
+            "0x0801B6B3C5D12EBC": {
+                "hash": "576943110514355900",
+                "name": "Ground All-Terrain Extraction Rig MK2",
+                "name_zh": "地面全地形采集钻机 MK2",
+                "index": 27,
+                "capacity": 10,
+                "start_amount": -1,
+                "refill_amount": 20,
                 "deduct_owner_vo_event": 0,
                 "last_deduct_owner_vo_event": 0,
                 "drone_path": "0",
