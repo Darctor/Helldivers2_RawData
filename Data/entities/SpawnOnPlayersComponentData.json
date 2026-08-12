@@ -2,10 +2,10 @@
     "_metadata": {
         "struct_size": 56,
         "omitted_size": 7,
-        "exported_entity_count": 19,
-        "matched_bilingual_hash_count": 19,
-        "patch_date": "2026-07-07",
-        "game_version": "1.006.301"
+        "exported_entity_count": 25,
+        "matched_bilingual_hash_count": 25,
+        "patch_date": "2026-08-12",
+        "game_version": "1.007.000"
     },
     "entities": [
         {
@@ -38,11 +38,69 @@
             }
         },
         {
+            "0xCBFCCAD8BDCED643": {
+                "hash": "14698846316076652099",
+                "name": "Tornado (Weather)",
+                "name_zh": "龙卷风 MK2（天气）",
+                "index": 1,
+                "spawn_timer_min": {
+                    "x": 60.0,
+                    "y": 60.0
+                },
+                "spawn_timer_max": {
+                    "x": 140.0,
+                    "y": 140.0
+                },
+                "spawned_entity": "2801421498225578227",
+                "random_offset_distance_range": {
+                    "x": 180.0,
+                    "y": 360.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 0,
+                "spawn_on_navmesh": 1,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 0,
+                "start_active": 1,
+                "avoid_objective_location_distance": 30.0
+            }
+        },
+        {
+            "0xE340D13561C7E39E": {
+                "hash": "16375318272323085214",
+                "name": "Whirlwinds MK2 (Weather)",
+                "name_zh": "旋风 MK2（天气）",
+                "index": 2,
+                "spawn_timer_min": {
+                    "x": 10.0,
+                    "y": 10.0
+                },
+                "spawn_timer_max": {
+                    "x": 20.0,
+                    "y": 20.0
+                },
+                "spawned_entity": "35395591269649594",
+                "random_offset_distance_range": {
+                    "x": 60.0,
+                    "y": 140.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 0,
+                "spawn_on_navmesh": 1,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 0,
+                "start_active": 1,
+                "avoid_objective_location_distance": 20.0
+            }
+        },
+        {
             "0xC4C0B055ACEA0C82": {
                 "hash": "14177525508982049922",
                 "name": "DSS Planetary Bombardment",
                 "name_zh": "星球轰炸（环境）",
-                "index": 1,
+                "index": 3,
                 "spawn_timer_min": {
                     "x": 38.0,
                     "y": 38.0
@@ -71,7 +129,7 @@
                 "hash": "6069338700713478060",
                 "name": "DSS Eagle Storm",
                 "name_zh": "飞鹰风暴（环境）",
-                "index": 2,
+                "index": 4,
                 "spawn_timer_min": {
                     "x": 110.0,
                     "y": 110.0
@@ -100,7 +158,7 @@
                 "hash": "10375802719390920449",
                 "name": "Enemy Orbital",
                 "name_zh": "敌人轨道轰炸（环境）",
-                "index": 3,
+                "index": 5,
                 "spawn_timer_min": {
                     "x": 90.0,
                     "y": 30.0
@@ -129,7 +187,7 @@
                 "hash": "780403294432782447",
                 "name": "Dust Devils (Weather)",
                 "name_zh": "尘卷风（天气）",
-                "index": 4,
+                "index": 6,
                 "spawn_timer_min": {
                     "x": 6.0,
                     "y": 6.0
@@ -158,7 +216,7 @@
                 "hash": "3312206059057944298",
                 "name": "Fire Tornado (Weather)",
                 "name_zh": "火龙卷（天气）",
-                "index": 5,
+                "index": 7,
                 "spawn_timer_min": {
                     "x": 7.0,
                     "y": 7.0
@@ -187,7 +245,7 @@
                 "hash": "6975936814670258217",
                 "name": "Acid Storm",
                 "name_zh": "酸雨风暴（环境）",
-                "index": 6,
+                "index": 8,
                 "spawn_timer_min": {
                     "x": 75.0,
                     "y": 75.0
@@ -216,7 +274,7 @@
                 "hash": "15364628378391745781",
                 "name": "Dust Devils",
                 "name_zh": "尘卷风（环境）",
-                "index": 7,
+                "index": 9,
                 "spawn_timer_min": {
                     "x": 90.0,
                     "y": 90.0
@@ -245,7 +303,7 @@
                 "hash": "10412515891379368875",
                 "name": "Earthquake",
                 "name_zh": "地震（环境）",
-                "index": 8,
+                "index": 10,
                 "spawn_timer_min": {
                     "x": 135.0,
                     "y": 135.0
@@ -274,7 +332,7 @@
                 "hash": "8912550789086281002",
                 "name": "Fire Tornado",
                 "name_zh": "火龙卷（环境）",
-                "index": 9,
+                "index": 11,
                 "spawn_timer_min": {
                     "x": 200.0,
                     "y": 200.0
@@ -303,7 +361,7 @@
                 "hash": "13716881457783327350",
                 "name": "Ion Storm",
                 "name_zh": "离子风暴（环境）",
-                "index": 10,
+                "index": 12,
                 "spawn_timer_min": {
                     "x": 255.0,
                     "y": 255.0
@@ -332,7 +390,7 @@
                 "hash": "4030485156009350934",
                 "name": "Meteor Shower",
                 "name_zh": "流星风暴（环境）",
-                "index": 11,
+                "index": 13,
                 "spawn_timer_min": {
                     "x": 255.0,
                     "y": 255.0
@@ -361,7 +419,7 @@
                 "hash": "9049165293479258496",
                 "name": "Sandstorm",
                 "name_zh": "沙尘暴（环境）",
-                "index": 12,
+                "index": 14,
                 "spawn_timer_min": {
                     "x": 330.0,
                     "y": 330.0
@@ -390,7 +448,7 @@
                 "hash": "15445992454365354016",
                 "name": "Snowstorm",
                 "name_zh": "暴风雪（环境）",
-                "index": 13,
+                "index": 15,
                 "spawn_timer_min": {
                     "x": 240.0,
                     "y": 240.0
@@ -415,11 +473,69 @@
             }
         },
         {
+            "0x70297863A00F38E5": {
+                "hash": "8082123375575513317",
+                "name": "Whirlwinds",
+                "name_zh": "旋风（环境）",
+                "index": 16,
+                "spawn_timer_min": {
+                    "x": 90.0,
+                    "y": 90.0
+                },
+                "spawn_timer_max": {
+                    "x": 780.0,
+                    "y": 780.0
+                },
+                "spawned_entity": "7466837680258892102",
+                "random_offset_distance_range": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 1,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 1,
+                "start_active": 1,
+                "avoid_objective_location_distance": -1.0
+            }
+        },
+        {
+            "0x641B469CBD1F5BD0": {
+                "hash": "7213436867165772752",
+                "name": "Tornado",
+                "name_zh": "龙卷风（环境）",
+                "index": 17,
+                "spawn_timer_min": {
+                    "x": 90.0,
+                    "y": 90.0
+                },
+                "spawn_timer_max": {
+                    "x": 780.0,
+                    "y": 780.0
+                },
+                "spawned_entity": "2925214134762726430",
+                "random_offset_distance_range": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 1,
+                "spawn_on_navmesh": 0,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 1,
+                "start_active": 1,
+                "avoid_objective_location_distance": -1.0
+            }
+        },
+        {
             "0x663FD31B0949A8E8": {
                 "hash": "7367839628474820840",
                 "name": "Volcanic Activity",
                 "name_zh": "火山喷发（环境）",
-                "index": 14,
+                "index": 18,
                 "spawn_timer_min": {
                     "x": 375.0,
                     "y": 375.0
@@ -444,11 +560,69 @@
             }
         },
         {
+            "0x679F894F27554146": {
+                "hash": "7466837680258892102",
+                "name": "Whirlwinds (Weather)",
+                "name_zh": "旋风（天气）",
+                "index": 19,
+                "spawn_timer_min": {
+                    "x": 8.0,
+                    "y": 8.0
+                },
+                "spawn_timer_max": {
+                    "x": 15.0,
+                    "y": 15.0
+                },
+                "spawned_entity": "17360135398080390291",
+                "random_offset_distance_range": {
+                    "x": 60.0,
+                    "y": 160.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 0,
+                "spawn_on_navmesh": 1,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 0,
+                "start_active": 1,
+                "avoid_objective_location_distance": 20.0
+            }
+        },
+        {
+            "0x289872C1D27BE41E": {
+                "hash": "2925214134762726430",
+                "name": "Tornado (Weather)",
+                "name_zh": "龙卷风（天气）",
+                "index": 20,
+                "spawn_timer_min": {
+                    "x": 60.0,
+                    "y": 60.0
+                },
+                "spawn_timer_max": {
+                    "x": 90.0,
+                    "y": 90.0
+                },
+                "spawned_entity": "9745469326959617942",
+                "random_offset_distance_range": {
+                    "x": 180.0,
+                    "y": 360.0
+                },
+                "scale_rate_on_objective_completion": 0.0,
+                "spawn_on_origin": 0,
+                "spawn_on_navmesh": 1,
+                "unk_float_0x0028": 0.0,
+                "unk_bool_0x002C": 0,
+                "paused_while_spawned": 0,
+                "start_active": 1,
+                "avoid_objective_location_distance": 30.0
+            }
+        },
+        {
             "0xCB1A204319FC2ADA": {
                 "hash": "14635045411664702170",
                 "name": "TCS Tremor",
                 "name_zh": "TCS 震颤（环境）",
-                "index": 15,
+                "index": 21,
                 "spawn_timer_min": {
                     "x": 1.0,
                     "y": 1.0
@@ -477,7 +651,7 @@
                 "hash": "5577427870907951727",
                 "name": "Large Exostorm",
                 "name_zh": "大型异界风暴（环境）",
-                "index": 16,
+                "index": 22,
                 "spawn_timer_min": {
                     "x": 1.0,
                     "y": 1.0
@@ -506,7 +680,7 @@
                 "hash": "1900190613275810077",
                 "name": "Exostorm MK2",
                 "name_zh": "异界风暴 MK2（环境）",
-                "index": 17,
+                "index": 23,
                 "spawn_timer_min": {
                     "x": 10.0,
                     "y": 10.0
@@ -535,7 +709,7 @@
                 "hash": "15232797065911638566",
                 "name": "Exostorm MK3",
                 "name_zh": "异界风暴 MK3（环境）",
-                "index": 18,
+                "index": 24,
                 "spawn_timer_min": {
                     "x": 5.0,
                     "y": 5.0

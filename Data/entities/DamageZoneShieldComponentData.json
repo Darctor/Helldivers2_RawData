@@ -1,11 +1,11 @@
 {
     "_metadata": {
         "struct_size": 4992,
-        "omitted_size": 3,
+        "omitted_size": 6,
         "exported_entity_count": 6,
         "matched_bilingual_hash_count": 3,
-        "patch_date": "2026-07-07",
-        "game_version": "1.006.301"
+        "patch_date": "2026-08-12",
+        "game_version": "1.007.000"
     },
     "entities": [
         {
@@ -15,14 +15,16 @@
                 "name_zh": "证真者",
                 "index": 0,
                 "start_offline": 0,
+                "unk_float_0x0004": 0.75,
                 "shieldable_zones": [
                     {
-                        "unk_float_r0x0000": 0.75,
                         "zone_name": 3323647717,
-                        "unk_uint32_r0x0008": 1278906229,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            1278906229,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 8.0,
                         "recharge_rate": 75.0,
@@ -58,10 +60,10 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 0
+                        "unk_uint32_about_zone_name": 0,
+                        "unk_uint32_r0x0084": 0
                     }
                 ],
-                "unk_uint32_0x1304": 0,
                 "shield_unit_activate_sound": 1460947290,
                 "shield_unit_deactivate_sound": 3072261008,
                 "default_shield_recharge_sound": 1460947290,
@@ -70,6 +72,7 @@
                 "hit_effect_receiver_type": "9 <=> HitEffectReceiverType_Unknown_9",
                 "inflict_pain": 0,
                 "block_melee_type": "0 <=> ShieldBlockMeleeType_None",
+                "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
                 "default_charge_event_triggers": [
                     {
                         "health_percent": 0.0,
@@ -110,14 +113,16 @@
                 "name_zh": "御门者",
                 "index": 1,
                 "start_offline": 0,
+                "unk_float_0x0004": 0.75,
                 "shieldable_zones": [
                     {
-                        "unk_float_r0x0000": 0.75,
                         "zone_name": 3323647717,
-                        "unk_uint32_r0x0008": 1278906229,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            1278906229,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 8.0,
                         "recharge_rate": 75.0,
@@ -153,10 +158,10 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 0
+                        "unk_uint32_about_zone_name": 0,
+                        "unk_uint32_r0x0084": 0
                     }
                 ],
-                "unk_uint32_0x1304": 0,
                 "shield_unit_activate_sound": 1460947290,
                 "shield_unit_deactivate_sound": 3072261008,
                 "default_shield_recharge_sound": 1460947290,
@@ -165,6 +170,7 @@
                 "hit_effect_receiver_type": "9 <=> HitEffectReceiverType_Unknown_9",
                 "inflict_pain": 0,
                 "block_melee_type": "0 <=> ShieldBlockMeleeType_None",
+                "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
                 "default_charge_event_triggers": [
                     {
                         "health_percent": 0.0,
@@ -205,14 +211,16 @@
                 "name_zh": "N/A",
                 "index": 2,
                 "start_offline": 1,
+                "unk_float_0x0004": 0.5,
                 "shieldable_zones": [
                     {
-                        "unk_float_r0x0000": 0.5,
                         "zone_name": 4177763943,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -248,15 +256,17 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 4177763943
+                        "unk_uint32_about_zone_name": 4177763943,
+                        "unk_uint32_r0x0084": 0
                     },
                     {
-                        "unk_float_r0x0000": 0.0,
                         "zone_name": 3864243383,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -292,15 +302,17 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 3864243383
+                        "unk_uint32_about_zone_name": 3864243383,
+                        "unk_uint32_r0x0084": 0
                     },
                     {
-                        "unk_float_r0x0000": 0.0,
                         "zone_name": 4248660730,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -336,15 +348,17 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 4248660730
+                        "unk_uint32_about_zone_name": 4248660730,
+                        "unk_uint32_r0x0084": 0
                     },
                     {
-                        "unk_float_r0x0000": 0.0,
                         "zone_name": 470746886,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -380,15 +394,17 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 470746886
+                        "unk_uint32_about_zone_name": 470746886,
+                        "unk_uint32_r0x0084": 0
                     },
                     {
-                        "unk_float_r0x0000": 0.0,
                         "zone_name": 3633817635,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -424,15 +440,17 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 3633817635
+                        "unk_uint32_about_zone_name": 3633817635,
+                        "unk_uint32_r0x0084": 0
                     },
                     {
-                        "unk_float_r0x0000": 0.0,
                         "zone_name": 299342052,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -468,15 +486,17 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 299342052
+                        "unk_uint32_about_zone_name": 299342052,
+                        "unk_uint32_r0x0084": 0
                     },
                     {
-                        "unk_float_r0x0000": 0.0,
                         "zone_name": 3937404331,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -512,15 +532,17 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 3937404331
+                        "unk_uint32_about_zone_name": 3937404331,
+                        "unk_uint32_r0x0084": 0
                     },
                     {
-                        "unk_float_r0x0000": 0.0,
                         "zone_name": 3401103892,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -556,15 +578,17 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 3401103892
+                        "unk_uint32_about_zone_name": 3401103892,
+                        "unk_uint32_r0x0084": 0
                     },
                     {
-                        "unk_float_r0x0000": 0.0,
                         "zone_name": 4008095580,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -600,15 +624,17 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 4008095580
+                        "unk_uint32_about_zone_name": 4008095580,
+                        "unk_uint32_r0x0084": 0
                     },
                     {
-                        "unk_float_r0x0000": 0.0,
                         "zone_name": 803832274,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -644,15 +670,17 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 803832274
+                        "unk_uint32_about_zone_name": 803832274,
+                        "unk_uint32_r0x0084": 0
                     },
                     {
-                        "unk_float_r0x0000": 0.0,
                         "zone_name": 2881381122,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -688,15 +716,17 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 2881381122
+                        "unk_uint32_about_zone_name": 2881381122,
+                        "unk_uint32_r0x0084": 0
                     },
                     {
-                        "unk_float_r0x0000": 0.0,
                         "zone_name": 4063631309,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -732,15 +762,17 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 4063631309
+                        "unk_uint32_about_zone_name": 4063631309,
+                        "unk_uint32_r0x0084": 0
                     },
                     {
-                        "unk_float_r0x0000": 0.0,
                         "zone_name": 2788132038,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -776,15 +808,17 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 2788132038
+                        "unk_uint32_about_zone_name": 2788132038,
+                        "unk_uint32_r0x0084": 0
                     },
                     {
-                        "unk_float_r0x0000": 0.0,
                         "zone_name": 2388956765,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -820,15 +854,17 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 2388956765
+                        "unk_uint32_about_zone_name": 2388956765,
+                        "unk_uint32_r0x0084": 0
                     },
                     {
-                        "unk_float_r0x0000": 0.0,
                         "zone_name": 1100503639,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -864,15 +900,17 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 1100503639
+                        "unk_uint32_about_zone_name": 1100503639,
+                        "unk_uint32_r0x0084": 0
                     },
                     {
-                        "unk_float_r0x0000": 0.0,
                         "zone_name": 534279985,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -908,15 +946,17 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 534279985
+                        "unk_uint32_about_zone_name": 534279985,
+                        "unk_uint32_r0x0084": 0
                     },
                     {
-                        "unk_float_r0x0000": 0.0,
                         "zone_name": 856869139,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -952,15 +992,17 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 856869139
+                        "unk_uint32_about_zone_name": 856869139,
+                        "unk_uint32_r0x0084": 0
                     },
                     {
-                        "unk_float_r0x0000": 0.0,
                         "zone_name": 564297210,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -996,10 +1038,10 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 564297210
+                        "unk_uint32_about_zone_name": 564297210,
+                        "unk_uint32_r0x0084": 0
                     }
                 ],
-                "unk_uint32_0x1304": 0,
                 "shield_unit_activate_sound": 4029015248,
                 "shield_unit_deactivate_sound": 3114071484,
                 "default_shield_recharge_sound": 0,
@@ -1008,6 +1050,7 @@
                 "hit_effect_receiver_type": "9 <=> HitEffectReceiverType_Unknown_9",
                 "inflict_pain": 0,
                 "block_melee_type": "0 <=> ShieldBlockMeleeType_None",
+                "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
                 "default_charge_event_triggers": [
                     {
                         "health_percent": 0.0,
@@ -1048,14 +1091,16 @@
                 "name_zh": "N/A",
                 "index": 3,
                 "start_offline": 1,
+                "unk_float_0x0004": 0.75,
                 "shieldable_zones": [
                     {
-                        "unk_float_r0x0000": 0.75,
                         "zone_name": 436174468,
-                        "unk_uint32_r0x0008": 2010998663,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            2010998663,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -1091,10 +1136,10 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 0
+                        "unk_uint32_about_zone_name": 0,
+                        "unk_uint32_r0x0084": 0
                     }
                 ],
-                "unk_uint32_0x1304": 0,
                 "shield_unit_activate_sound": 4029015248,
                 "shield_unit_deactivate_sound": 3114071484,
                 "default_shield_recharge_sound": 0,
@@ -1103,6 +1148,7 @@
                 "hit_effect_receiver_type": "9 <=> HitEffectReceiverType_Unknown_9",
                 "inflict_pain": 0,
                 "block_melee_type": "0 <=> ShieldBlockMeleeType_None",
+                "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
                 "default_charge_event_triggers": [
                     {
                         "health_percent": 0.0,
@@ -1143,14 +1189,16 @@
                 "name_zh": "监视者 手臂护盾",
                 "index": 4,
                 "start_offline": 1,
+                "unk_float_0x0004": 0.75,
                 "shieldable_zones": [
                     {
-                        "unk_float_r0x0000": 0.75,
                         "zone_name": 436174468,
-                        "unk_uint32_r0x0008": 2010998663,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            2010998663,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -1186,10 +1234,10 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 0
+                        "unk_uint32_about_zone_name": 0,
+                        "unk_uint32_r0x0084": 0
                     }
                 ],
-                "unk_uint32_0x1304": 0,
                 "shield_unit_activate_sound": 4029015248,
                 "shield_unit_deactivate_sound": 3114071484,
                 "default_shield_recharge_sound": 0,
@@ -1198,6 +1246,7 @@
                 "hit_effect_receiver_type": "9 <=> HitEffectReceiverType_Unknown_9",
                 "inflict_pain": 0,
                 "block_melee_type": "0 <=> ShieldBlockMeleeType_None",
+                "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
                 "default_charge_event_triggers": [
                     {
                         "health_percent": 0.0,
@@ -1238,14 +1287,16 @@
                 "name_zh": "N/A",
                 "index": 5,
                 "start_offline": 1,
+                "unk_float_0x0004": 0.5,
                 "shieldable_zones": [
                     {
-                        "unk_float_r0x0000": 0.5,
                         "zone_name": 508404510,
-                        "unk_uint32_r0x0008": 0,
-                        "unk_uint32_r0x000C": 0,
-                        "unk_uint32_r0x0010": 0,
-                        "unk_uint32_r0x0014": 0,
+                        "unk_array_r0x0004": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
                         "recharge_delay": 5.0,
                         "broken_recharge_delay": 7.0,
                         "recharge_rate": 75.0,
@@ -1281,10 +1332,10 @@
                                 "reverse_event_sound": 0
                             }
                         ],
-                        "unk_uint32_about_zone_name": 0
+                        "unk_uint32_about_zone_name": 0,
+                        "unk_uint32_r0x0084": 0
                     }
                 ],
-                "unk_uint32_0x1304": 0,
                 "shield_unit_activate_sound": 4029015248,
                 "shield_unit_deactivate_sound": 3114071484,
                 "default_shield_recharge_sound": 0,
@@ -1293,6 +1344,7 @@
                 "hit_effect_receiver_type": "9 <=> HitEffectReceiverType_Unknown_9",
                 "inflict_pain": 0,
                 "block_melee_type": "0 <=> ShieldBlockMeleeType_None",
+                "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
                 "default_charge_event_triggers": [
                     {
                         "health_percent": 0.0,

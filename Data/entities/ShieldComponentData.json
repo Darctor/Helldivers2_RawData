@@ -1,123 +1,19 @@
 {
     "_metadata": {
         "struct_size": 344,
-        "omitted_size": 11,
-        "exported_entity_count": 16,
-        "matched_bilingual_hash_count": 10,
-        "patch_date": "2026-07-07",
-        "game_version": "1.006.301"
+        "omitted_size": 21,
+        "exported_entity_count": 15,
+        "matched_bilingual_hash_count": 9,
+        "patch_date": "2026-08-12",
+        "game_version": "1.007.000"
     },
     "entities": [
-        {
-            "0x1AC08B50871F78B1": {
-                "hash": "1927693818495203505",
-                "name": "Illuminate Portal Shield",
-                "name_zh": "传送门 护盾",
-                "index": 0,
-                "radius": 0.0,
-                "shield_node": 0,
-                "unk_uint32_0x0008": 274991902,
-                "unk_array_0x000C": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "charge": 100.0,
-                "unk_float_0x0050": 0.0,
-                "unk_uint32_0x0054": 1,
-                "recharge_delay": 60.0,
-                "broken_recharge_delay": 120.0,
-                "recharge_rate": 0.0,
-                "starter_charge_on_recharge": 1.0,
-                "unk_float_0x0068": 0.0,
-                "unk_uint32_0x006C": 0,
-                "unk_float_0x0070": 1.0,
-                "unk_float_0x0074": 0.0,
-                "visual_sphere_path": "0",
-                "shield_break_particles": "947658372090170065",
-                "shield_break_sound": 1331846429,
-                "shield_unk_sound_0x008C": 0,
-                "shield_online_sound": 1412411401,
-                "shield_idle_loop_start_sound": 420191383,
-                "shield_idle_loop_stop_sound": 3876085629,
-                "shield_bubble_loop_start_sound": 0,
-                "shield_bubble_loop_stop_sound": 0,
-                "shield_surface_loop_start_sound": 1404604684,
-                "shield_surface_loop_stop_sound": 646176160,
-                "unk_bool_0x00AC": 0,
-                "unk_bool_0x00AD": 0,
-                "unk_bool_0x00AE": 0,
-                "start_offline": 0.0,
-                "shield_recharging_loop_start_sound": 2015300162,
-                "shield_recharging_loop_stop_sound": 1852415162,
-                "shield_pass_through_sound": 1718113561,
-                "shield_pass_through_sound_avatar": 978498350,
-                "shield_recharging_loop_event_node": 1053800011,
-                "shield_unit_coming_online_sound": 0,
-                "shield_unit_coming_online_node": 1176554573,
-                "shield_activate_animation_event": 3470895594,
-                "shield_deactivate_animation_event": 1922100775,
-                "hit_effect_receiver_type": "7 <=> HitEffectReceiverType_Unknown_7",
-                "inflict_pain": 0,
-                "block_melee_type": "0 <=> ShieldBlockMeleeType_None",
-                "inside_shield_opacity": 0.5,
-                "shield_color_type": "1 <=> ShieldColorFaction_Illuminate_Blue",
-                "linked_to_status_effect_volume": 1,
-                "charge_event_triggers": [
-                    {
-                        "health_percent": 0.75,
-                        "event_name": 0,
-                        "reverse_event_name": 0,
-                        "event_sound": 1465758328,
-                        "reverse_event_sound": 0
-                    },
-                    {
-                        "health_percent": 0.5,
-                        "event_name": 0,
-                        "reverse_event_name": 0,
-                        "event_sound": 1465758331,
-                        "reverse_event_sound": 0
-                    },
-                    {
-                        "health_percent": 0.25,
-                        "event_name": 0,
-                        "reverse_event_name": 0,
-                        "event_sound": 1465758330,
-                        "reverse_event_sound": 0
-                    },
-                    {
-                        "health_percent": 0.0,
-                        "event_name": 0,
-                        "reverse_event_name": 0,
-                        "event_sound": 0,
-                        "reverse_event_sound": 0
-                    }
-                ],
-                "charge_event_trigger_audio_node": 0,
-                "unk_uint32_0x0144": 2,
-                "unk_uint64_0x0148": "0",
-                "unk_uint32_0x0150": 1
-            }
-        },
         {
             "0x336AFDB6F784F639": {
                 "hash": "3705052605744215609",
                 "name": "Warp Ship Shield",
                 "name_zh": "穿梭舰护盾",
-                "index": 1,
+                "index": 0,
                 "radius": 0.0,
                 "shield_node": 0,
                 "unk_uint32_0x0008": 3822387819,
@@ -141,15 +37,14 @@
                 ],
                 "charge": 2500.0,
                 "unk_float_0x0050": 2.0,
-                "unk_uint32_0x0054": 1,
+                "unk_bool_0x0054": 1,
                 "recharge_delay": 1.0,
                 "broken_recharge_delay": 15.0,
                 "recharge_rate": 200.0,
                 "starter_charge_on_recharge": 1000.0,
                 "unk_float_0x0068": 0.0,
-                "unk_uint32_0x006C": 0,
+                "unk_enum_0x006C": "0 <=> StatusEffectType_None",
                 "unk_float_0x0070": 1.0,
-                "unk_float_0x0074": 0.0,
                 "visual_sphere_path": "0",
                 "shield_break_particles": "947658372090170065",
                 "shield_break_sound": 1331846429,
@@ -211,9 +106,9 @@
                     }
                 ],
                 "charge_event_trigger_audio_node": 0,
-                "unk_uint32_0x0144": 2,
+                "shield_shape": "2 <=> ShieldShapeType_Unknown_2",
                 "unk_uint64_0x0148": "0",
-                "unk_uint32_0x0150": 0
+                "unk_bool_0x0150": 0
             }
         },
         {
@@ -221,7 +116,7 @@
                 "hash": "5063301510688028056",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 2,
+                "index": 1,
                 "radius": 60.0,
                 "shield_node": 494311543,
                 "unk_uint32_0x0008": 0,
@@ -245,15 +140,14 @@
                 ],
                 "charge": 3000.0,
                 "unk_float_0x0050": 4.0,
-                "unk_uint32_0x0054": 0,
+                "unk_bool_0x0054": 0,
                 "recharge_delay": 5.0,
                 "broken_recharge_delay": 8.0,
                 "recharge_rate": 300.0,
                 "starter_charge_on_recharge": 900.0,
                 "unk_float_0x0068": 2.0,
-                "unk_uint32_0x006C": 23,
+                "unk_enum_0x006C": "23 <=> StatusEffectType_BushLarge",
                 "unk_float_0x0070": 1.0,
-                "unk_float_0x0074": 0.0,
                 "visual_sphere_path": "8303034821533817833",
                 "shield_break_particles": "14065866210723488381",
                 "shield_break_sound": 1576077053,
@@ -315,9 +209,9 @@
                     }
                 ],
                 "charge_event_trigger_audio_node": 0,
-                "unk_uint32_0x0144": 0,
+                "shield_shape": "0 <=> ShieldShapeType_Unknown_0",
                 "unk_uint64_0x0148": "0",
-                "unk_uint32_0x0150": 0
+                "unk_bool_0x0150": 0
             }
         },
         {
@@ -325,7 +219,7 @@
                 "hash": "17584175957253025303",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 3,
+                "index": 2,
                 "radius": 45.0,
                 "shield_node": 494311543,
                 "unk_uint32_0x0008": 0,
@@ -349,15 +243,14 @@
                 ],
                 "charge": 2000.0,
                 "unk_float_0x0050": 4.0,
-                "unk_uint32_0x0054": 0,
+                "unk_bool_0x0054": 0,
                 "recharge_delay": 5.0,
                 "broken_recharge_delay": 8.0,
                 "recharge_rate": 300.0,
                 "starter_charge_on_recharge": 900.0,
                 "unk_float_0x0068": 2.0,
-                "unk_uint32_0x006C": 23,
+                "unk_enum_0x006C": "23 <=> StatusEffectType_BushLarge",
                 "unk_float_0x0070": 1.0,
-                "unk_float_0x0074": 0.0,
                 "visual_sphere_path": "8303034821533817833",
                 "shield_break_particles": "14065866210723488381",
                 "shield_break_sound": 3918819773,
@@ -419,9 +312,9 @@
                     }
                 ],
                 "charge_event_trigger_audio_node": 0,
-                "unk_uint32_0x0144": 0,
+                "shield_shape": "0 <=> ShieldShapeType_Unknown_0",
                 "unk_uint64_0x0148": "0",
-                "unk_uint32_0x0150": 0
+                "unk_bool_0x0150": 0
             }
         },
         {
@@ -429,7 +322,7 @@
                 "hash": "9041652696601802783",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 4,
+                "index": 3,
                 "radius": 30.0,
                 "shield_node": 494311543,
                 "unk_uint32_0x0008": 0,
@@ -453,15 +346,14 @@
                 ],
                 "charge": 1400.0,
                 "unk_float_0x0050": 3.0,
-                "unk_uint32_0x0054": 0,
+                "unk_bool_0x0054": 0,
                 "recharge_delay": 5.0,
                 "broken_recharge_delay": 8.0,
                 "recharge_rate": 300.0,
                 "starter_charge_on_recharge": 900.0,
                 "unk_float_0x0068": 2.0,
-                "unk_uint32_0x006C": 23,
+                "unk_enum_0x006C": "23 <=> StatusEffectType_BushLarge",
                 "unk_float_0x0070": 1.0,
-                "unk_float_0x0074": 0.0,
                 "visual_sphere_path": "8303034821533817833",
                 "shield_break_particles": "14065866210723488381",
                 "shield_break_sound": 4191843541,
@@ -523,9 +415,9 @@
                     }
                 ],
                 "charge_event_trigger_audio_node": 0,
-                "unk_uint32_0x0144": 0,
+                "shield_shape": "0 <=> ShieldShapeType_Unknown_0",
                 "unk_uint64_0x0148": "0",
-                "unk_uint32_0x0150": 0
+                "unk_bool_0x0150": 0
             }
         },
         {
@@ -533,7 +425,7 @@
                 "hash": "13073848517301108907",
                 "name": "SH-51 Directional Shield (Shield)",
                 "name_zh": "SH-51 定向护盾（护盾）",
-                "index": 5,
+                "index": 4,
                 "radius": 0.0,
                 "shield_node": 0,
                 "unk_uint32_0x0008": 2748617169,
@@ -557,15 +449,14 @@
                 ],
                 "charge": 1000.0,
                 "unk_float_0x0050": 0.0,
-                "unk_uint32_0x0054": 1,
+                "unk_bool_0x0054": 1,
                 "recharge_delay": 3.0,
                 "broken_recharge_delay": 6.0,
                 "recharge_rate": 300.0,
                 "starter_charge_on_recharge": 200.0,
                 "unk_float_0x0068": 0.0,
-                "unk_uint32_0x006C": 0,
+                "unk_enum_0x006C": "0 <=> StatusEffectType_None",
                 "unk_float_0x0070": 1.0,
-                "unk_float_0x0074": 0.0,
                 "visual_sphere_path": "0",
                 "shield_break_particles": "9047050274914475086",
                 "shield_break_sound": 3940730025,
@@ -627,9 +518,9 @@
                     }
                 ],
                 "charge_event_trigger_audio_node": 0,
-                "unk_uint32_0x0144": 0,
+                "shield_shape": "0 <=> ShieldShapeType_Unknown_0",
                 "unk_uint64_0x0148": "0",
-                "unk_uint32_0x0150": 0
+                "unk_bool_0x0150": 0
             }
         },
         {
@@ -637,7 +528,7 @@
                 "hash": "10835289456440565066",
                 "name": "Harvester",
                 "name_zh": "猎杀器",
-                "index": 6,
+                "index": 5,
                 "radius": 8.0,
                 "shield_node": 494311543,
                 "unk_uint32_0x0008": 0,
@@ -661,15 +552,14 @@
                 ],
                 "charge": 1500.0,
                 "unk_float_0x0050": 0.0,
-                "unk_uint32_0x0054": 1,
+                "unk_bool_0x0054": 1,
                 "recharge_delay": 12.0,
                 "broken_recharge_delay": 12.0,
                 "recharge_rate": 2000.0,
                 "starter_charge_on_recharge": 100.0,
                 "unk_float_0x0068": 0.0,
-                "unk_uint32_0x006C": 0,
+                "unk_enum_0x006C": "0 <=> StatusEffectType_None",
                 "unk_float_0x0070": 1.0,
-                "unk_float_0x0074": 0.0,
                 "visual_sphere_path": "921313926881719885",
                 "shield_break_particles": "14190979477122405117",
                 "shield_break_sound": 1071365961,
@@ -731,9 +621,9 @@
                     }
                 ],
                 "charge_event_trigger_audio_node": 0,
-                "unk_uint32_0x0144": 0,
+                "shield_shape": "0 <=> ShieldShapeType_Unknown_0",
                 "unk_uint64_0x0148": "0",
-                "unk_uint32_0x0150": 0
+                "unk_bool_0x0150": 0
             }
         },
         {
@@ -741,7 +631,7 @@
                 "hash": "7495466072745681028",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 7,
+                "index": 6,
                 "radius": 6.0,
                 "shield_node": 494311543,
                 "unk_uint32_0x0008": 0,
@@ -765,15 +655,14 @@
                 ],
                 "charge": 2500.0,
                 "unk_float_0x0050": 0.0,
-                "unk_uint32_0x0054": 1,
+                "unk_bool_0x0054": 1,
                 "recharge_delay": 6.0,
                 "broken_recharge_delay": 8.0,
                 "recharge_rate": 2000.0,
                 "starter_charge_on_recharge": 100.0,
                 "unk_float_0x0068": 0.0,
-                "unk_uint32_0x006C": 0,
+                "unk_enum_0x006C": "0 <=> StatusEffectType_None",
                 "unk_float_0x0070": 1.0,
-                "unk_float_0x0074": 0.0,
                 "visual_sphere_path": "921313926881719885",
                 "shield_break_particles": "947658372090170065",
                 "shield_break_sound": 4071296792,
@@ -835,9 +724,9 @@
                     }
                 ],
                 "charge_event_trigger_audio_node": 0,
-                "unk_uint32_0x0144": 0,
+                "shield_shape": "0 <=> ShieldShapeType_Unknown_0",
                 "unk_uint64_0x0148": "0",
-                "unk_uint32_0x0150": 0
+                "unk_bool_0x0150": 0
             }
         },
         {
@@ -845,7 +734,7 @@
                 "hash": "14859865776029017841",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 8,
+                "index": 7,
                 "radius": 0.0,
                 "shield_node": 0,
                 "unk_uint32_0x0008": 3340321277,
@@ -869,15 +758,14 @@
                 ],
                 "charge": 100.0,
                 "unk_float_0x0050": 0.0,
-                "unk_uint32_0x0054": 1,
+                "unk_bool_0x0054": 1,
                 "recharge_delay": 20.0,
                 "broken_recharge_delay": 60.0,
                 "recharge_rate": 0.0,
                 "starter_charge_on_recharge": 2500.0,
                 "unk_float_0x0068": 0.0,
-                "unk_uint32_0x006C": 0,
+                "unk_enum_0x006C": "0 <=> StatusEffectType_None",
                 "unk_float_0x0070": 1.0,
-                "unk_float_0x0074": 0.0,
                 "visual_sphere_path": "0",
                 "shield_break_particles": "947658372090170065",
                 "shield_break_sound": 142715993,
@@ -939,9 +827,9 @@
                     }
                 ],
                 "charge_event_trigger_audio_node": 0,
-                "unk_uint32_0x0144": 2,
+                "shield_shape": "2 <=> ShieldShapeType_Unknown_2",
                 "unk_uint64_0x0148": "0",
-                "unk_uint32_0x0150": 1
+                "unk_bool_0x0150": 1
             }
         },
         {
@@ -949,7 +837,7 @@
                 "hash": "3090218646492570418",
                 "name": "Exospire Shield (Vista)",
                 "name_zh": "异界尖塔 护盾（视觉效果）",
-                "index": 9,
+                "index": 8,
                 "radius": 0.0,
                 "shield_node": 0,
                 "unk_uint32_0x0008": 3828124009,
@@ -973,15 +861,14 @@
                 ],
                 "charge": 100.0,
                 "unk_float_0x0050": 0.0,
-                "unk_uint32_0x0054": 1,
+                "unk_bool_0x0054": 1,
                 "recharge_delay": 60.0,
                 "broken_recharge_delay": 120.0,
                 "recharge_rate": 0.0,
                 "starter_charge_on_recharge": 1.0,
                 "unk_float_0x0068": 0.0,
-                "unk_uint32_0x006C": 0,
+                "unk_enum_0x006C": "0 <=> StatusEffectType_None",
                 "unk_float_0x0070": 1.0,
-                "unk_float_0x0074": 0.0,
                 "visual_sphere_path": "0",
                 "shield_break_particles": "10581002018273364443",
                 "shield_break_sound": 0,
@@ -1043,9 +930,9 @@
                     }
                 ],
                 "charge_event_trigger_audio_node": 0,
-                "unk_uint32_0x0144": 2,
+                "shield_shape": "2 <=> ShieldShapeType_Unknown_2",
                 "unk_uint64_0x0148": "0",
-                "unk_uint32_0x0150": 1
+                "unk_bool_0x0150": 1
             }
         },
         {
@@ -1053,7 +940,7 @@
                 "hash": "5790303516553754358",
                 "name": "Iluminate Overship Shield",
                 "name_zh": "统御舰 护盾",
-                "index": 10,
+                "index": 9,
                 "radius": 0.0,
                 "shield_node": 0,
                 "unk_uint32_0x0008": 4037424617,
@@ -1077,15 +964,14 @@
                 ],
                 "charge": 10000.0,
                 "unk_float_0x0050": 0.0,
-                "unk_uint32_0x0054": 1,
+                "unk_bool_0x0054": 1,
                 "recharge_delay": 20.0,
                 "broken_recharge_delay": 60.0,
                 "recharge_rate": 500.0,
                 "starter_charge_on_recharge": 2500.0,
                 "unk_float_0x0068": 0.0,
-                "unk_uint32_0x006C": 0,
+                "unk_enum_0x006C": "0 <=> StatusEffectType_None",
                 "unk_float_0x0070": 1.0,
-                "unk_float_0x0074": 0.0,
                 "visual_sphere_path": "0",
                 "shield_break_particles": "10629117614345748793",
                 "shield_break_sound": 3034367573,
@@ -1147,9 +1033,9 @@
                     }
                 ],
                 "charge_event_trigger_audio_node": 0,
-                "unk_uint32_0x0144": 2,
+                "shield_shape": "2 <=> ShieldShapeType_Unknown_2",
                 "unk_uint64_0x0148": "0",
-                "unk_uint32_0x0150": 0
+                "unk_bool_0x0150": 0
             }
         },
         {
@@ -1157,7 +1043,7 @@
                 "hash": "1353568197974522460",
                 "name": "SH-32 Shield Generator Pack (Model)",
                 "name_zh": "SH-32 防护罩生成包（模型）",
-                "index": 11,
+                "index": 10,
                 "radius": 1.2999999523162842,
                 "shield_node": 41183413,
                 "unk_uint32_0x0008": 0,
@@ -1181,15 +1067,14 @@
                 ],
                 "charge": 150.0,
                 "unk_float_0x0050": 0.0,
-                "unk_uint32_0x0054": 1,
+                "unk_bool_0x0054": 1,
                 "recharge_delay": 60.0,
                 "broken_recharge_delay": 12.0,
                 "recharge_rate": 150.0,
                 "starter_charge_on_recharge": 150.0,
                 "unk_float_0x0068": 0.0,
-                "unk_uint32_0x006C": 0,
+                "unk_enum_0x006C": "0 <=> StatusEffectType_None",
                 "unk_float_0x0070": 1.0,
-                "unk_float_0x0074": 0.0,
                 "visual_sphere_path": "6486423653808658757",
                 "shield_break_particles": "2070556612012210475",
                 "shield_break_sound": 1508389964,
@@ -1251,9 +1136,9 @@
                     }
                 ],
                 "charge_event_trigger_audio_node": 0,
-                "unk_uint32_0x0144": 0,
+                "shield_shape": "0 <=> ShieldShapeType_Unknown_0",
                 "unk_uint64_0x0148": "0",
-                "unk_uint32_0x0150": 0
+                "unk_bool_0x0150": 0
             }
         },
         {
@@ -1261,7 +1146,7 @@
                 "hash": "1989119436006646583",
                 "name": "G/SH-39 Shield (Model)",
                 "name_zh": "G/SH-39 盾雷（投掷物，模型）",
-                "index": 12,
+                "index": 11,
                 "radius": 1.7999999523162842,
                 "shield_node": 2420200265,
                 "unk_uint32_0x0008": 0,
@@ -1285,15 +1170,14 @@
                 ],
                 "charge": 1000.0,
                 "unk_float_0x0050": 0.0,
-                "unk_uint32_0x0054": 1,
+                "unk_bool_0x0054": 1,
                 "recharge_delay": 20.0,
                 "broken_recharge_delay": 20.0,
                 "recharge_rate": 0.0,
                 "starter_charge_on_recharge": 100.0,
                 "unk_float_0x0068": 0.0,
-                "unk_uint32_0x006C": 0,
+                "unk_enum_0x006C": "0 <=> StatusEffectType_None",
                 "unk_float_0x0070": 1.0,
-                "unk_float_0x0074": 0.0,
                 "visual_sphere_path": "2831989291537150476",
                 "shield_break_particles": "2986129125679064668",
                 "shield_break_sound": 192646497,
@@ -1355,9 +1239,9 @@
                     }
                 ],
                 "charge_event_trigger_audio_node": 0,
-                "unk_uint32_0x0144": 0,
+                "shield_shape": "0 <=> ShieldShapeType_Unknown_0",
                 "unk_uint64_0x0148": "13335755011025388070",
-                "unk_uint32_0x0150": 0
+                "unk_bool_0x0150": 0
             }
         },
         {
@@ -1365,7 +1249,7 @@
                 "hash": "17083241647592728848",
                 "name": "FX-12 Shield Generator Relay",
                 "name_zh": "FX-12防护罩中继器",
-                "index": 13,
+                "index": 12,
                 "radius": 15.0,
                 "shield_node": 1053800011,
                 "unk_uint32_0x0008": 0,
@@ -1389,15 +1273,14 @@
                 ],
                 "charge": 4000.0,
                 "unk_float_0x0050": 0.0,
-                "unk_uint32_0x0054": 1,
+                "unk_bool_0x0054": 1,
                 "recharge_delay": 0.009999999776482582,
                 "broken_recharge_delay": 45.0,
                 "recharge_rate": 400.0,
                 "starter_charge_on_recharge": 900.0,
                 "unk_float_0x0068": 0.0,
-                "unk_uint32_0x006C": 0,
+                "unk_enum_0x006C": "0 <=> StatusEffectType_None",
                 "unk_float_0x0070": 1.0,
-                "unk_float_0x0074": 0.0,
                 "visual_sphere_path": "14333060579494673929",
                 "shield_break_particles": "13667049458350994807",
                 "shield_break_sound": 3459901555,
@@ -1459,9 +1342,9 @@
                     }
                 ],
                 "charge_event_trigger_audio_node": 0,
-                "unk_uint32_0x0144": 0,
+                "shield_shape": "0 <=> ShieldShapeType_Unknown_0",
                 "unk_uint64_0x0148": "0",
-                "unk_uint32_0x0150": 0
+                "unk_bool_0x0150": 0
             }
         },
         {
@@ -1469,7 +1352,7 @@
                 "hash": "15438282343866021807",
                 "name": "Harvester MK2",
                 "name_zh": "猎杀器 MK2",
-                "index": 14,
+                "index": 13,
                 "radius": 8.0,
                 "shield_node": 494311543,
                 "unk_uint32_0x0008": 0,
@@ -1493,15 +1376,14 @@
                 ],
                 "charge": 1500.0,
                 "unk_float_0x0050": 0.0,
-                "unk_uint32_0x0054": 1,
+                "unk_bool_0x0054": 1,
                 "recharge_delay": 12.0,
                 "broken_recharge_delay": 12.0,
                 "recharge_rate": 2000.0,
                 "starter_charge_on_recharge": 100.0,
                 "unk_float_0x0068": 0.0,
-                "unk_uint32_0x006C": 0,
+                "unk_enum_0x006C": "0 <=> StatusEffectType_None",
                 "unk_float_0x0070": 1.0,
-                "unk_float_0x0074": 0.0,
                 "visual_sphere_path": "921313926881719885",
                 "shield_break_particles": "14190979477122405117",
                 "shield_break_sound": 1071365961,
@@ -1563,9 +1445,9 @@
                     }
                 ],
                 "charge_event_trigger_audio_node": 0,
-                "unk_uint32_0x0144": 0,
+                "shield_shape": "0 <=> ShieldShapeType_Unknown_0",
                 "unk_uint64_0x0148": "0",
-                "unk_uint32_0x0150": 0
+                "unk_bool_0x0150": 0
             }
         },
         {
@@ -1573,7 +1455,7 @@
                 "hash": "9514029060716333676",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 15,
+                "index": 14,
                 "radius": 0.0,
                 "shield_node": 0,
                 "unk_uint32_0x0008": 999895174,
@@ -1597,15 +1479,14 @@
                 ],
                 "charge": 100.0,
                 "unk_float_0x0050": 0.0,
-                "unk_uint32_0x0054": 1,
+                "unk_bool_0x0054": 1,
                 "recharge_delay": 20.0,
                 "broken_recharge_delay": 60.0,
                 "recharge_rate": 0.0,
                 "starter_charge_on_recharge": 2500.0,
                 "unk_float_0x0068": 0.0,
-                "unk_uint32_0x006C": 0,
+                "unk_enum_0x006C": "0 <=> StatusEffectType_None",
                 "unk_float_0x0070": 1.0,
-                "unk_float_0x0074": 0.0,
                 "visual_sphere_path": "0",
                 "shield_break_particles": "8774625658466295246",
                 "shield_break_sound": 1475922707,
@@ -1667,9 +1548,9 @@
                     }
                 ],
                 "charge_event_trigger_audio_node": 0,
-                "unk_uint32_0x0144": 2,
+                "shield_shape": "2 <=> ShieldShapeType_Unknown_2",
                 "unk_uint64_0x0148": "0",
-                "unk_uint32_0x0150": 1
+                "unk_bool_0x0150": 1
             }
         }
     ]
