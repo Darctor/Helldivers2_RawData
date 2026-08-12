@@ -8,3 +8,4 @@ DestructionTemplateType_Hellbomb
 DestructionTemplateType_ForceDestroyTrees
 DestructionTemplateType_ExplodingBarrel
 DestructionTemplateType_Script
+DestructionTemplateType_Unk10

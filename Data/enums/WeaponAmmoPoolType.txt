@@ -2,3 +2,4 @@ WeaponAmmoPoolType_AmmoLeft
 WeaponAmmoPoolType_AmmoLeftTotal
 WeaponAmmoPoolType_AmmoReserve
 WeaponAmmoPoolType_Unk3
+WeaponAmmoPoolType_Unk4

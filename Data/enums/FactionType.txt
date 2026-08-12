@@ -1,10 +1,7 @@
-FactionType_None
-FactionType_SuperEarth
-FactionType_Bugs
-FactionType_Unk3
-FactionType_Illuminate
-FactionType_Unk5
-FactionType_Unk6
-FactionType_Unk7
-FactionType_Cyborg
-FactionType_Wildlife
+0:FactionType_None
+1:FactionType_SuperEarth
+2:FactionType_Bugs
+4:FactionType_Illuminate
+8:FactionType_Cyborg
+16:FactionType_Wildlife
+32:FactionType_Citizens

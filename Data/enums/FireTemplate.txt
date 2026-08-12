@@ -1,4 +1,5 @@
 FireTemplate_None
+FireTemplate_ExtremeSmall（2秒）
 FireTemplate_Small（8秒）
 FireTemplate_Medium（15秒）
 FireTemplate_Large（21秒）

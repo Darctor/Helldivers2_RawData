@@ -1,11 +1,11 @@
 {
     "_metadata": {
         "struct_size": 224,
-        "omitted_size": 3,
+        "omitted_size": 7,
         "exported_entity_count": 23,
         "matched_bilingual_hash_count": 21,
-        "patch_date": "2026-07-07",
-        "game_version": "1.006.301"
+        "patch_date": "2026-08-12",
+        "game_version": "1.007.000"
     },
     "entities": [
         {
@@ -19,7 +19,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 989301601,
                 "spray_capsule_radius": 1.100000023841858,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "0",
@@ -63,13 +62,13 @@
                     "wind_template": "0 <=> WindEffectTemplate_None"
                 },
                 "ammo_cost": 0,
-                "projectile_type": "78 <=> ProjectileType_Unknown_78",
+                "projectile_type": "79 <=> ProjectileType_Unknown_79",
                 "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
                 "effect_type": "0 <=> HitEffectDamageType_None",
                 "particle_collision_trigger_mines": 0,
                 "last_drop_owner_vo_event": 2645484469,
                 "dry_fire_audio_event": 0,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         },
         {
@@ -83,7 +82,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 989301601,
                 "spray_capsule_radius": 1.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "0",
@@ -127,13 +125,13 @@
                     "wind_template": "0 <=> WindEffectTemplate_None"
                 },
                 "ammo_cost": 0,
-                "projectile_type": "138 <=> ProjectileType_Unknown_138",
+                "projectile_type": "140 <=> ProjectileType_Unknown_140",
                 "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
                 "effect_type": "0 <=> HitEffectDamageType_None",
                 "particle_collision_trigger_mines": 0,
                 "last_drop_owner_vo_event": 2645484469,
                 "dry_fire_audio_event": 0,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         },
         {
@@ -147,7 +145,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 989301601,
                 "spray_capsule_radius": 1.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "0",
@@ -197,7 +194,7 @@
                 "particle_collision_trigger_mines": 0,
                 "last_drop_owner_vo_event": 2645484469,
                 "dry_fire_audio_event": 0,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         },
         {
@@ -211,7 +208,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 0,
                 "spray_capsule_radius": 5.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "14900141230239011239",
@@ -255,8 +251,8 @@
                     "wind_template": "0 <=> WindEffectTemplate_None"
                 },
                 "ammo_cost": 0,
-                "projectile_type": "229 <=> ProjectileType_Unknown_229",
-                "damage_info_type": "555 <=> DamageInfoType_Unknown_555",
+                "projectile_type": "234 <=> ProjectileType_Unknown_234",
+                "damage_info_type": "569 <=> DamageInfoType_Unknown_569",
                 "effect_type": "0 <=> HitEffectDamageType_None",
                 "particle_collision_trigger_mines": 0,
                 "last_drop_owner_vo_event": 2645484469,
@@ -275,7 +271,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 989301601,
                 "spray_capsule_radius": 1.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "0",
@@ -319,13 +314,13 @@
                     "wind_template": "0 <=> WindEffectTemplate_None"
                 },
                 "ammo_cost": 0,
-                "projectile_type": "138 <=> ProjectileType_Unknown_138",
+                "projectile_type": "140 <=> ProjectileType_Unknown_140",
                 "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
                 "effect_type": "0 <=> HitEffectDamageType_None",
                 "particle_collision_trigger_mines": 0,
                 "last_drop_owner_vo_event": 2645484469,
                 "dry_fire_audio_event": 0,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         },
         {
@@ -339,7 +334,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 747556395,
                 "spray_capsule_radius": 0.25,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "0",
@@ -383,13 +377,13 @@
                     "wind_template": "0 <=> WindEffectTemplate_None"
                 },
                 "ammo_cost": 1,
-                "projectile_type": "49 <=> ProjectileType_Unknown_49",
+                "projectile_type": "50 <=> ProjectileType_Unknown_50",
                 "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
                 "effect_type": "0 <=> HitEffectDamageType_None",
                 "particle_collision_trigger_mines": 0,
                 "last_drop_owner_vo_event": 2645484469,
                 "dry_fire_audio_event": 0,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         },
         {
@@ -403,7 +397,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 747556395,
                 "spray_capsule_radius": 0.5,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "0",
@@ -447,13 +440,13 @@
                     "wind_template": "0 <=> WindEffectTemplate_None"
                 },
                 "ammo_cost": 1,
-                "projectile_type": "49 <=> ProjectileType_Unknown_49",
+                "projectile_type": "50 <=> ProjectileType_Unknown_50",
                 "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
                 "effect_type": "0 <=> HitEffectDamageType_None",
                 "particle_collision_trigger_mines": 0,
                 "last_drop_owner_vo_event": 2645484469,
                 "dry_fire_audio_event": 0,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         },
         {
@@ -467,7 +460,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 747556395,
                 "spray_capsule_radius": 0.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "14900141230239011239",
@@ -517,7 +509,7 @@
                 "particle_collision_trigger_mines": 1,
                 "last_drop_owner_vo_event": 3956223216,
                 "dry_fire_audio_event": 1926142422,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         },
         {
@@ -531,7 +523,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 989301601,
                 "spray_capsule_radius": 1.100000023841858,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "0",
@@ -575,13 +566,13 @@
                     "wind_template": "0 <=> WindEffectTemplate_None"
                 },
                 "ammo_cost": 0,
-                "projectile_type": "156 <=> ProjectileType_Unknown_156",
+                "projectile_type": "159 <=> ProjectileType_Unknown_159",
                 "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
                 "effect_type": "0 <=> HitEffectDamageType_None",
                 "particle_collision_trigger_mines": 0,
                 "last_drop_owner_vo_event": 2645484469,
                 "dry_fire_audio_event": 0,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         },
         {
@@ -595,7 +586,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 989301601,
                 "spray_capsule_radius": 1.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "0",
@@ -645,7 +635,7 @@
                 "particle_collision_trigger_mines": 0,
                 "last_drop_owner_vo_event": 2645484469,
                 "dry_fire_audio_event": 0,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         },
         {
@@ -659,7 +649,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 1454625704,
                 "spray_capsule_radius": 0.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "14900141230239011239",
@@ -709,7 +698,7 @@
                 "particle_collision_trigger_mines": 1,
                 "last_drop_owner_vo_event": 2645484469,
                 "dry_fire_audio_event": 0,
-                "particle_collision_fire_template": "1 <=> FireTemplate_Small（8秒）"
+                "particle_collision_fire_template": "2 <=> FireTemplate_Small（8秒）"
             }
         },
         {
@@ -723,7 +712,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 747556395,
                 "spray_capsule_radius": 0.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "14900141230239011239",
@@ -734,7 +722,7 @@
                     },
                     "muzzle_effect": "10048255496969202164",
                     "callout_event_start": 0,
-                    "audio_event_start": 2557993495,
+                    "audio_event_start": 1143652851,
                     "audio_event_stop": 0,
                     "wind_template": "0 <=> WindEffectTemplate_None"
                 },
@@ -748,8 +736,8 @@
                     },
                     "muzzle_effect": "16415996823525155780",
                     "callout_event_start": 418315309,
-                    "audio_event_start": 1153376687,
-                    "audio_event_stop": 783613635,
+                    "audio_event_start": 3147353857,
+                    "audio_event_stop": 1270155399,
                     "wind_template": "0 <=> WindEffectTemplate_None"
                 },
                 "cooldown": {
@@ -762,8 +750,8 @@
                     },
                     "muzzle_effect": "829875543123227408",
                     "callout_event_start": 0,
-                    "audio_event_start": 5338378,
-                    "audio_event_stop": 4213751115,
+                    "audio_event_start": 3284929155,
+                    "audio_event_stop": 333451710,
                     "wind_template": "0 <=> WindEffectTemplate_None"
                 },
                 "ammo_cost": 1,
@@ -772,8 +760,8 @@
                 "effect_type": "2 <=> HitEffectDamageType_PiercingMedium",
                 "particle_collision_trigger_mines": 1,
                 "last_drop_owner_vo_event": 3956223216,
-                "dry_fire_audio_event": 1926142422,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "dry_fire_audio_event": 0,
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         },
         {
@@ -787,7 +775,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 1803865503,
                 "spray_capsule_radius": 0.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "14900141230239011239",
@@ -831,13 +818,13 @@
                     "wind_template": "0 <=> WindEffectTemplate_None"
                 },
                 "ammo_cost": 1,
-                "projectile_type": "59 <=> ProjectileType_Unknown_59",
+                "projectile_type": "60 <=> ProjectileType_Unknown_60",
                 "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
                 "effect_type": "0 <=> HitEffectDamageType_None",
                 "particle_collision_trigger_mines": 1,
                 "last_drop_owner_vo_event": 2645484469,
                 "dry_fire_audio_event": 0,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         },
         {
@@ -851,7 +838,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 1803865503,
                 "spray_capsule_radius": 0.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "14900141230239011239",
@@ -901,7 +887,7 @@
                 "particle_collision_trigger_mines": 1,
                 "last_drop_owner_vo_event": 3956223216,
                 "dry_fire_audio_event": 2439407863,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         },
         {
@@ -915,7 +901,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 1803865503,
                 "spray_capsule_radius": 0.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "14900141230239011239",
@@ -959,13 +944,13 @@
                     "wind_template": "0 <=> WindEffectTemplate_None"
                 },
                 "ammo_cost": 1,
-                "projectile_type": "59 <=> ProjectileType_Unknown_59",
+                "projectile_type": "60 <=> ProjectileType_Unknown_60",
                 "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
                 "effect_type": "0 <=> HitEffectDamageType_None",
                 "particle_collision_trigger_mines": 1,
                 "last_drop_owner_vo_event": 2645484469,
                 "dry_fire_audio_event": 0,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         },
         {
@@ -979,7 +964,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 1803865503,
                 "spray_capsule_radius": 0.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "14900141230239011239",
@@ -1029,7 +1013,7 @@
                 "particle_collision_trigger_mines": 1,
                 "last_drop_owner_vo_event": 3956223216,
                 "dry_fire_audio_event": 2439407863,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         },
         {
@@ -1043,7 +1027,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 1803865503,
                 "spray_capsule_radius": 0.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "14900141230239011239",
@@ -1107,7 +1090,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 1803865503,
                 "spray_capsule_radius": 0.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "14900141230239011239",
@@ -1157,7 +1139,7 @@
                 "particle_collision_trigger_mines": 1,
                 "last_drop_owner_vo_event": 3956223216,
                 "dry_fire_audio_event": 2439407863,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         },
         {
@@ -1171,7 +1153,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 1803865503,
                 "spray_capsule_radius": 0.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "14900141230239011239",
@@ -1221,7 +1202,7 @@
                 "particle_collision_trigger_mines": 1,
                 "last_drop_owner_vo_event": 3956223216,
                 "dry_fire_audio_event": 2439407863,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         },
         {
@@ -1235,7 +1216,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 1803865503,
                 "spray_capsule_radius": 0.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "14900141230239011239",
@@ -1299,7 +1279,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 1803865503,
                 "spray_capsule_radius": 0.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "14900141230239011239",
@@ -1349,7 +1328,7 @@
                 "particle_collision_trigger_mines": 1,
                 "last_drop_owner_vo_event": 3956223216,
                 "dry_fire_audio_event": 2439407863,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         },
         {
@@ -1363,7 +1342,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 1803865503,
                 "spray_capsule_radius": 0.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "14900141230239011239",
@@ -1413,7 +1391,7 @@
                 "particle_collision_trigger_mines": 1,
                 "last_drop_owner_vo_event": 3956223216,
                 "dry_fire_audio_event": 2439407863,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         },
         {
@@ -1427,7 +1405,6 @@
                 "firenode_pose_limit": 0.0,
                 "audio_node": 1803865503,
                 "spray_capsule_radius": 0.0,
-                "unk_uint32_0x0014": 0,
                 "warmup": {
                     "shake": {
                         "world_shake_effect": "14900141230239011239",
@@ -1477,7 +1454,7 @@
                 "particle_collision_trigger_mines": 1,
                 "last_drop_owner_vo_event": 3956223216,
                 "dry_fire_audio_event": 2439407863,
-                "particle_collision_fire_template": "2 <=> FireTemplate_Medium（15秒）"
+                "particle_collision_fire_template": "3 <=> FireTemplate_Medium（15秒）"
             }
         }
     ]
