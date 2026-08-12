@@ -250,7 +250,7 @@ entry,进攻型-飞鹰类,"=""1962385103464102102""",Eagle Air Strike Smoke,飞�
 entry,进攻型-飞鹰类,"=""1975855328077769663""",Eagle Air Strike Smoke (Shell),飞鹰烟雾（占位符）
 entry,进攻型-飞鹰类,"=""11335415903596859741""",Eagle Cluster Bomb,飞鹰集束炸弹
 entry,进攻型-飞鹰类,"=""14299138964511222719""",Eagle Cluster Bomb (Shell),飞鹰集束炸弹（占位符）
-entry,进攻型-飞鹰类,"=""2862976050209719244""",Eagle Napalm Airstrike (Shell),飞鹰凝固汽油弹
+entry,进攻型-飞鹰类,"=""2862976050209719244""",Eagle Napalm Airstrike,飞鹰凝固汽油弹
 entry,进攻型-飞鹰类,"=""1992076762424765375""",Eagle Napalm Airstrike (Shell),飞鹰凝固汽油弹（占位符）
 entry,进攻型-飞鹰类,"=""15830863719876386710""",Eagle Gas Strike,飞鹰毒气空袭
 category,补给型-支援武器-近战,,,
@@ -832,6 +832,7 @@ entry,窃票者,"=""10401073942655502917""",Crusher,粉碎者
 entry,窃票者,"=""2705495182750959947""",Crusher Weapon (Model),粉碎者的武器
 category,光能族-杂项,,,
 entry,光能族-杂项,"=""143640464486532219""",Warp Ship Landed,营地的穿梭舰
+entry,光能族-杂项,"=""12955111991617354039""",Warp Ship Landed,营地的穿梭舰
 entry,光能族-杂项,"=""3085775354050256750""",Warp Ship Invasion,入侵的穿梭舰
 entry,光能族-杂项,"=""13473041482812368650""",Overship,统御舰
 entry,光能族-杂项,"=""6462953159517422692""",Iluminate Overship Tentacles,统御舰 触手
@@ -987,7 +988,8 @@ entry,瞄具,"=""17566682951508615626""",Support Scope,支援武器瞄具
 entry,瞄具,"=""13683130201431294801""",Railgun Scope,磁轨炮瞄具
 entry,瞄具,"=""6912227352617277315""",PISTOL REFLEX SIGHT,手枪反射式瞄具
 entry,瞄具,"=""11388768893657015391""",FAF SPEAR SCOPE,飞矛瞄具
-entry,瞄具,"=""9374165754576786577""",MORGUNSON HOLO-SIGHT,莫枪森Holo瞄具(Morgunson Holo)
+entry,瞄具,"=""9374165754576786577""",MORGUNSON HOLO-SIGHT,莫枪森Holo瞄具（Morgunson Holo）
+entry,瞄具,"=""11045926829781447020""",SNIPER SCOPE 10x SHARK,10倍瞄准镜（高能精确射手步枪）
 category,下挂,,,
 entry,下挂,"=""8377170608278245884""",Laser Sight,激光瞄准器
 entry,下挂,"=""3503658004598565718""",Laser Sight Flashlight,激光瞄准器与手电
@@ -1056,7 +1058,7 @@ entry,弹匣，弹鼓,"=""16780842349359893039""",RIFLE 9x70mm. Standard,9×70mm
 entry,弹匣，弹鼓,"=""13923078706375087587""",RIFLE 9x70mm. Extended,9×70mm 扩容步枪弹夹
 entry,弹匣，弹鼓,"=""15151942165455114152""",Jet Assisted Rifle 15mm. Drum Standard,15mm 喷气辅助步枪弹鼓
 category,枪口配件,,,
-entry,枪口配件,"=""8461770958804471754""",5.5mm. Naked,5.5mm无枪口
+entry,枪口配件,"=""8461770958804471754""",5.5mm. Naked,5.5mm 无枪口
 entry,枪口配件,"=""3375286472059951732""","5,5mm. Flash Hider",5.5mm 消焰器
 entry,枪口配件,"=""6637750995636466699""","5,5mm. Muzzle break",5.5mm 制退器
 entry,枪口配件,"=""2931537446798109347""","5,5mm. Compensator",5.5mm 补偿器
@@ -1191,7 +1193,6 @@ entry,未应用配件,"=""8673823970078857158""",Recoil Spring Liberator,解放�
 entry,未应用配件,"=""16808874559677504064""",Recoil Spring Patriot,爱国者复进簧
 entry,未应用配件,"=""14524092321344141906""",Tighter Breechblock,紧配合闭锁块
 entry,未应用配件,"=""8410798392120980739""",10g. Standard Choke,10号霰弹 无收束器
-entry,未应用配件,"=""11045926829781447020""",SNIPER SCOPE 10x SHARK,40K 热熔枪 10倍瞄准镜
 entry,未应用配件,"=""11437631575828482649""",Default,默认
 entry,未应用配件,"=""1622237458159582882""",Helldiver Classic Solid,地狱潜兵经典纯色
 entry,未应用配件,"=""9027607218564033524""",Forest Solid,森林纯色

@@ -58,6 +58,7 @@ StratagemType_OrbitalRailcannon
 StratagemType_GrenadierBattlement
 StratagemType_Tank_Reload_Canister
 StratagemType_Sterilizer
+StratagemType_WalkingBarrageSmoke
 StratagemType_LaserCannon
 StratagemType_TCS03Thumper
 StratagemType_EagleClusterbombs
@@ -76,6 +77,7 @@ StratagemType_HealthPackRack
 StratagemType_ShoulderMountedCamera
 StratagemType_CarryData
 StratagemType_GrenadeLauncher
+StratagemType_Meltagun
 StratagemType_Machinegun_PresidentReward
 StratagemType_OrbitalAirBurst
 StratagemType_JammedPinata
@@ -88,6 +90,7 @@ StratagemType_HealthPackRack_PresidentReward
 StratagemType_LumbererExosuit
 StratagemType_Machinegun
 StratagemType_Tutorial_ReinforcementBeacon
+StratagemType_Posion_Drill
 StratagemType_Tank_Reload_AT
 StratagemType_BallisticShield
 StratagemType_WASP
@@ -95,6 +98,7 @@ StratagemType_EmergencyExtractionBeacon
 StratagemType_BulletStorm
 StratagemType_BreachingHammer
 StratagemType_AmmoBackpack
+StratagemType_MobileCommsRelay
 StratagemType_CarpetBomb
 StratagemType_TurretTesla
 StratagemType_FRV
@@ -118,6 +122,7 @@ StratagemType_SpireSterilizer
 StratagemType_CallInSuperDestroyer
 StratagemType_ReinforcementBeacon
 StratagemType_Orbital380mmHEBarrage
+StratagemType_EagleGasStrike
 StratagemType_BeltFedGrenadeLauncher
 StratagemType_UploadDiscovery
 StratagemType_DrillingCharge

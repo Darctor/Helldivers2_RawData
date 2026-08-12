@@ -2,10 +2,10 @@
     "_metadata": {
         "struct_size": 12,
         "omitted_size": 0,
-        "exported_entity_count": 113,
-        "matched_bilingual_hash_count": 86,
-        "patch_date": "2026-07-07",
-        "game_version": "1.006.301"
+        "exported_entity_count": 115,
+        "matched_bilingual_hash_count": 87,
+        "patch_date": "2026-08-12",
+        "game_version": "1.007.000"
     },
     "entities": [
         {
@@ -16,7 +16,7 @@
                 "index": 0,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -27,7 +27,7 @@
                 "index": 1,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -38,7 +38,7 @@
                 "index": 2,
                 "remove_time": 2.5,
                 "life_time": 180.0,
-                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
             }
         },
         {
@@ -49,7 +49,7 @@
                 "index": 3,
                 "remove_time": 2.5,
                 "life_time": 40.0,
-                "on_retract_ability": "2265 <=> AbilityId_Unknown_2265"
+                "on_retract_ability": "2412 <=> AbilityId_Unknown_2412"
             }
         },
         {
@@ -60,7 +60,7 @@
                 "index": 4,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -71,7 +71,7 @@
                 "index": 5,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -82,7 +82,7 @@
                 "index": 6,
                 "remove_time": 2.5,
                 "life_time": 150.0,
-                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
             }
         },
         {
@@ -93,7 +93,7 @@
                 "index": 7,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -104,7 +104,7 @@
                 "index": 8,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -115,7 +115,7 @@
                 "index": 9,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -126,7 +126,7 @@
                 "index": 10,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -137,7 +137,7 @@
                 "index": 11,
                 "remove_time": 2.5,
                 "life_time": 180.0,
-                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
             }
         },
         {
@@ -148,7 +148,7 @@
                 "index": 12,
                 "remove_time": 2.5,
                 "life_time": 180.0,
-                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
             }
         },
         {
@@ -159,7 +159,7 @@
                 "index": 13,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -170,7 +170,7 @@
                 "index": 14,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -181,7 +181,7 @@
                 "index": 15,
                 "remove_time": 3.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1268 <=> AbilityId_Unknown_1268"
             }
         },
         {
@@ -192,7 +192,7 @@
                 "index": 16,
                 "remove_time": 3.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1268 <=> AbilityId_Unknown_1268"
             }
         },
         {
@@ -203,7 +203,7 @@
                 "index": 17,
                 "remove_time": 3.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1268 <=> AbilityId_Unknown_1268"
             }
         },
         {
@@ -214,7 +214,7 @@
                 "index": 18,
                 "remove_time": 3.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1268 <=> AbilityId_Unknown_1268"
             }
         },
         {
@@ -225,7 +225,7 @@
                 "index": 19,
                 "remove_time": 2.5,
                 "life_time": 180.0,
-                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
             }
         },
         {
@@ -236,7 +236,7 @@
                 "index": 20,
                 "remove_time": 2.5,
                 "life_time": 180.0,
-                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
             }
         },
         {
@@ -247,7 +247,7 @@
                 "index": 21,
                 "remove_time": 2.5,
                 "life_time": 180.0,
-                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
             }
         },
         {
@@ -258,7 +258,7 @@
                 "index": 22,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -269,7 +269,7 @@
                 "index": 23,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -280,7 +280,7 @@
                 "index": 24,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -291,7 +291,7 @@
                 "index": 25,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -302,7 +302,7 @@
                 "index": 26,
                 "remove_time": 2.5,
                 "life_time": 180.0,
-                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
             }
         },
         {
@@ -313,7 +313,7 @@
                 "index": 27,
                 "remove_time": 2.5,
                 "life_time": 150.0,
-                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
             }
         },
         {
@@ -324,7 +324,7 @@
                 "index": 28,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -335,7 +335,7 @@
                 "index": 29,
                 "remove_time": 2.5,
                 "life_time": 150.0,
-                "on_retract_ability": "2365 <=> AbilityId_Unknown_2365"
+                "on_retract_ability": "2514 <=> AbilityId_Unknown_2514"
             }
         },
         {
@@ -346,7 +346,7 @@
                 "index": 30,
                 "remove_time": 3.5,
                 "life_time": 150.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1268 <=> AbilityId_Unknown_1268"
             }
         },
         {
@@ -357,7 +357,7 @@
                 "index": 31,
                 "remove_time": 3.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1268 <=> AbilityId_Unknown_1268"
             }
         },
         {
@@ -368,7 +368,7 @@
                 "index": 32,
                 "remove_time": 3.5,
                 "life_time": -1.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1268 <=> AbilityId_Unknown_1268"
             }
         },
         {
@@ -379,7 +379,7 @@
                 "index": 33,
                 "remove_time": 2.5,
                 "life_time": 150.0,
-                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
             }
         },
         {
@@ -390,7 +390,7 @@
                 "index": 34,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -401,7 +401,7 @@
                 "index": 35,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -412,7 +412,7 @@
                 "index": 36,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -423,7 +423,7 @@
                 "index": 37,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -434,7 +434,7 @@
                 "index": 38,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -445,7 +445,7 @@
                 "index": 39,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -456,7 +456,7 @@
                 "index": 40,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -467,7 +467,7 @@
                 "index": 41,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -478,7 +478,7 @@
                 "index": 42,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -489,7 +489,7 @@
                 "index": 43,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -500,7 +500,7 @@
                 "index": 44,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -511,7 +511,7 @@
                 "index": 45,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -522,7 +522,7 @@
                 "index": 46,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -533,7 +533,7 @@
                 "index": 47,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -544,7 +544,7 @@
                 "index": 48,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -555,7 +555,7 @@
                 "index": 49,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -566,7 +566,7 @@
                 "index": 50,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -577,7 +577,7 @@
                 "index": 51,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -588,7 +588,7 @@
                 "index": 52,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -599,7 +599,7 @@
                 "index": 53,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -610,7 +610,7 @@
                 "index": 54,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -621,7 +621,7 @@
                 "index": 55,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -632,7 +632,7 @@
                 "index": 56,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -643,7 +643,18 @@
                 "index": 57,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+            }
+        },
+        {
+            "0x4E52F730432CDB1E": {
+                "hash": "5643845069706156830",
+                "name": "40-K Meltagun (Hellpod)",
+                "name_zh": "40K 热熔枪（支架）",
+                "index": 58,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -651,10 +662,10 @@
                 "hash": "14444545864073080978",
                 "name": "MGX-42 Bullet Storm (Hellpod)",
                 "name_zh": "MGX-42 子弹风暴（支架）",
-                "index": 58,
+                "index": 59,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -662,10 +673,10 @@
                 "hash": "9988513589272608914",
                 "name": "EAT-411 Leveller (Hellpod)",
                 "name_zh": "EAT-411 荡平者（支架）",
-                "index": 59,
+                "index": 60,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -673,10 +684,10 @@
                 "hash": "2353971082640043615",
                 "name": "EAT-700 Expendable Napalm (Hellpod)",
                 "name_zh": "EAT-700 消耗性凝固汽油弹（支架）",
-                "index": 60,
+                "index": 61,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -684,10 +695,10 @@
                 "hash": "14231239742203987259",
                 "name": "FAF-14 Spear (Hellpod)",
                 "name_zh": "FAF-14 飞矛（支架）",
-                "index": 61,
+                "index": 62,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -695,10 +706,10 @@
                 "hash": "747660740534049118",
                 "name": "StA-X3 W.A.S.P. Launcher (Hellpod)",
                 "name_zh": "StA-X3 WASP 发射器（支架）",
-                "index": 62,
+                "index": 63,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -706,10 +717,10 @@
                 "hash": "16793772489963160606",
                 "name": "FLAM-40 Flame Thrower (Hellpod)",
                 "name_zh": "FLAM-40 火焰喷射器（支架）",
-                "index": 63,
+                "index": 64,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -717,10 +728,10 @@
                 "hash": "2315516436421582687",
                 "name": "GL-21 Grenade Launcher (Hellpod)",
                 "name_zh": "GL-21 榴弹发射器（支架）",
-                "index": 64,
+                "index": 65,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -728,10 +739,10 @@
                 "hash": "3415909520450653186",
                 "name": "GL-52 De-Escalator (Hellpod)",
                 "name_zh": "GL-52 缓和使者（支架）",
-                "index": 65,
+                "index": 66,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -739,10 +750,10 @@
                 "hash": "6678650487122301993",
                 "name": "S-11 Speargun (Hellpod)",
                 "name_zh": "S-11 矛枪（支架）",
-                "index": 66,
+                "index": 67,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -750,10 +761,10 @@
                 "hash": "14577940623038630357",
                 "name": "B/FLAM-80 Cremator (Hellpod)",
                 "name_zh": "B/FLAM-80 焚燃者（支架）",
-                "index": 67,
+                "index": 68,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -761,10 +772,10 @@
                 "hash": "1141864099511539165",
                 "name": "MG-206 Heavy Machine Gun (Hellpod)",
                 "name_zh": "MG-206 重机枪（支架）",
-                "index": 68,
+                "index": 69,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -772,10 +783,10 @@
                 "hash": "8630355153153141386",
                 "name": "B-100 Portable Hellbomb (Hellpod)",
                 "name_zh": "B-100 便携式地狱火炸弹（支架）",
-                "index": 69,
+                "index": 70,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -783,10 +794,10 @@
                 "hash": "5970902984446543682",
                 "name": "LIFT-860 Hover Pack (Hellpod)",
                 "name_zh": "LIFT-860 悬浮背包（支架）",
-                "index": 70,
+                "index": 71,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -794,10 +805,10 @@
                 "hash": "1053057044002772930",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 71,
+                "index": 72,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -805,10 +816,10 @@
                 "hash": "12008891559002833673",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 72,
+                "index": 73,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -816,10 +827,10 @@
                 "hash": "7004572901293848370",
                 "name": "LIFT-850 Jump Pack (Hellpod)",
                 "name_zh": "LIFT-850 喷射背包（支架）",
-                "index": 73,
+                "index": 74,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -827,10 +838,10 @@
                 "hash": "18294292771580135983",
                 "name": "LAS-98 Laser Cannon (Hellpod)",
                 "name_zh": "LAS-98 激光大炮（支架）",
-                "index": 74,
+                "index": 75,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -838,10 +849,10 @@
                 "hash": "11594114104552493871",
                 "name": "MLS-4X Commando (Hellpod)",
                 "name_zh": "MLS-4X 突击兵（支架）",
-                "index": 75,
+                "index": 76,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -849,10 +860,10 @@
                 "hash": "7470354883998204659",
                 "name": "LAS-99 Quasar Cannon (Hellpod)",
                 "name_zh": "LAS-99 类星体加农炮（支架）",
-                "index": 76,
+                "index": 77,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -860,10 +871,10 @@
                 "hash": "992939827990506476",
                 "name": "EAT-17 Expendable Anti-Tank (Hellpod)",
                 "name_zh": "EAT-17 消耗性反坦克武器（支架）",
-                "index": 77,
+                "index": 78,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -871,10 +882,10 @@
                 "hash": "3586234782721573506",
                 "name": "M-105 Stalwart (Hellpod)",
                 "name_zh": "M-105 盟友（支架）",
-                "index": 78,
+                "index": 79,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -882,10 +893,10 @@
                 "hash": "10719993517856893473",
                 "name": "MG-43 Machine Gun (Hellpod)",
                 "name_zh": "MG-43 机枪（支架）",
-                "index": 79,
+                "index": 80,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -893,10 +904,10 @@
                 "hash": "6064640338382564399",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 80,
+                "index": 81,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -904,10 +915,10 @@
                 "hash": "12967812241745948652",
                 "name": "Medic Backpack (Hellpod)",
                 "name_zh": "医疗背包（支架）",
-                "index": 81,
+                "index": 82,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -915,10 +926,10 @@
                 "hash": "9196357621753489238",
                 "name": "CQC-9 Defoliation Tool (Hellpod)",
                 "name_zh": "CQC-9 除叶工具（支架）",
-                "index": 82,
+                "index": 83,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -926,10 +937,10 @@
                 "hash": "16975580601286218750",
                 "name": "CQC-1 One True Flag (Hellpod)",
                 "name_zh": "CQC-1 唯一真旗帜（支架）",
-                "index": 83,
+                "index": 84,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -937,10 +948,10 @@
                 "hash": "10212114617817310457",
                 "name": "CQC-20 Breaching Hammer (Hellpod)",
                 "name_zh": "CQC-20 破门锤（支架）",
-                "index": 84,
+                "index": 85,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -948,10 +959,10 @@
                 "hash": "8337919257571739556",
                 "name": "M-1000 Maxigun (Hellpod)",
                 "name_zh": "M-1000 重装机枪（支架）",
-                "index": 85,
+                "index": 86,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -959,10 +970,10 @@
                 "hash": "16003672528522815935",
                 "name": "Mini Missile Silo (Hellpod)",
                 "name_zh": "MS-11 单兵导弹发射井（发射井）",
-                "index": 86,
+                "index": 87,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -970,10 +981,10 @@
                 "hash": "5096354858712799022",
                 "name": "PLAS-45 Epoch (Hellpod)",
                 "name_zh": "PLAS-45 纪元（支架）",
-                "index": 87,
+                "index": 88,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -981,10 +992,10 @@
                 "hash": "13125214096466681673",
                 "name": "RS-422 Railgun (Hellpod)",
                 "name_zh": "RS-422 磁轨炮（支架）",
-                "index": 88,
+                "index": 89,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -992,10 +1003,10 @@
                 "hash": "15991884556147755475",
                 "name": "GR-8 Recoilless Rifle (Hellpod)",
                 "name_zh": "GR-8 无后坐力炮（支架）",
-                "index": 89,
+                "index": 90,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -1003,10 +1014,10 @@
                 "hash": "4971147757632036889",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 90,
+                "index": 91,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -1014,10 +1025,10 @@
                 "hash": "11376870716921492798",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 91,
+                "index": 92,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -1025,10 +1036,10 @@
                 "hash": "9879448964426328539",
                 "name": "APW-1 Anti-Materiel Rifle (Hellpod)",
                 "name_zh": "APW-1 反器材步枪（支架）",
-                "index": 92,
+                "index": 93,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -1036,10 +1047,10 @@
                 "hash": "13946543042552897732",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 93,
+                "index": 94,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -1047,10 +1058,10 @@
                 "hash": "10836035197107641878",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 94,
+                "index": 95,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -1058,10 +1069,10 @@
                 "hash": "15146612351663130407",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 95,
+                "index": 96,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -1069,10 +1080,10 @@
                 "hash": "13491377088706131080",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 96,
+                "index": 97,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -1080,10 +1091,10 @@
                 "hash": "344970826846105488",
                 "name": "A/G-16 Gatling Sentry MK2.1",
                 "name_zh": "A/G-16 加特林哨戒炮 MK2.1",
-                "index": 97,
+                "index": 98,
                 "remove_time": 3.5,
                 "life_time": -1.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1268 <=> AbilityId_Unknown_1268"
             }
         },
         {
@@ -1091,10 +1102,10 @@
                 "hash": "9796573205647524202",
                 "name": "A/G-16 Gatling Sentry MK3",
                 "name_zh": "A/G-16 加特林哨戒炮 MK3",
-                "index": 98,
+                "index": 99,
                 "remove_time": 2.5,
                 "life_time": -1.0,
-                "on_retract_ability": "2373 <=> AbilityId_Unknown_2373"
+                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
             }
         },
         {
@@ -1102,10 +1113,10 @@
                 "hash": "12765265282294763822",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 99,
+                "index": 100,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -1113,10 +1124,10 @@
                 "hash": "14394260739264934509",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 100,
+                "index": 101,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -1124,10 +1135,10 @@
                 "hash": "16116574862830205005",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 101,
+                "index": 102,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -1135,10 +1146,10 @@
                 "hash": "12424973596508546593",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 102,
+                "index": 103,
                 "remove_time": 6.0,
                 "life_time": 0.0,
-                "on_retract_ability": "1266 <=> AbilityId_Unknown_1266"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1146,10 +1157,10 @@
                 "hash": "16361817941812852399",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 103,
+                "index": 104,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -1157,10 +1168,21 @@
                 "hash": "1537696249448617261",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 104,
+                "index": 105,
                 "remove_time": 6.0,
                 "life_time": 0.0,
-                "on_retract_ability": "1277 <=> AbilityId_Unknown_1277"
+                "on_retract_ability": "1280 <=> AbilityId_Unknown_1280"
+            }
+        },
+        {
+            "0x3F2C34C69CFC94B2": {
+                "hash": "4552071351006696626",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 106,
+                "remove_time": 2.5,
+                "life_time": 0.0,
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -1168,10 +1190,10 @@
                 "hash": "5787948413593898778",
                 "name": "Supplies (Hellpod)",
                 "name_zh": "补给（支架）",
-                "index": 105,
+                "index": 107,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1261 <=> AbilityId_Unknown_1261"
+                "on_retract_ability": "1264 <=> AbilityId_Unknown_1264"
             }
         },
         {
@@ -1179,10 +1201,10 @@
                 "hash": "15560829713433970564",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 106,
+                "index": 108,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -1190,10 +1212,10 @@
                 "hash": "8315931884919593616",
                 "name": "Resupply Pod AR-23",
                 "name_zh": "补给上的解放者",
-                "index": 107,
+                "index": 109,
                 "remove_time": 0.0,
                 "life_time": 0.0,
-                "on_retract_ability": "1267 <=> AbilityId_Unknown_1267"
+                "on_retract_ability": "1270 <=> AbilityId_Unknown_1270"
             }
         },
         {
@@ -1201,10 +1223,10 @@
                 "hash": "6113742425058627513",
                 "name": "A/AC-8 Autocannon Sentry",
                 "name_zh": "A/AC-8 自动哨戒炮",
-                "index": 108,
+                "index": 110,
                 "remove_time": 2.5,
                 "life_time": 150.0,
-                "on_retract_ability": "1263 <=> AbilityId_Unknown_1263"
+                "on_retract_ability": "1266 <=> AbilityId_Unknown_1266"
             }
         },
         {
@@ -1212,10 +1234,10 @@
                 "hash": "12611223767334871581",
                 "name": "Medical Supply (Hellpod)",
                 "name_zh": "医疗补给（支架）",
-                "index": 109,
+                "index": 111,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -1223,10 +1245,10 @@
                 "hash": "3808429690324817690",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 110,
+                "index": 112,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -1234,10 +1256,10 @@
                 "hash": "16884914410677175712",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 111,
+                "index": 113,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1262 <=> AbilityId_Unknown_1262"
+                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
             }
         },
         {
@@ -1245,10 +1267,10 @@
                 "hash": "5617149288754513915",
                 "name": "M-103 Supply FRV AR Sentry",
                 "name_zh": "M-103 补给型 解放者炮塔",
-                "index": 112,
+                "index": 114,
                 "remove_time": 0.0,
                 "life_time": 0.0,
-                "on_retract_ability": "1267 <=> AbilityId_Unknown_1267"
+                "on_retract_ability": "1270 <=> AbilityId_Unknown_1270"
             }
         }
     ]

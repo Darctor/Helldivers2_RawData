@@ -1,11 +1,11 @@
 {
     "_metadata": {
         "struct_size": 272,
-        "omitted_size": 11,
+        "omitted_size": 17,
         "exported_entity_count": 27,
         "matched_bilingual_hash_count": 15,
-        "patch_date": "2026-07-07",
-        "game_version": "1.006.301"
+        "patch_date": "2026-08-12",
+        "game_version": "1.007.000"
     },
     "entities": [
         {
@@ -23,13 +23,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 15.0,
@@ -64,7 +62,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 0,
@@ -73,33 +72,35 @@
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 0,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -117,13 +118,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 30.0,
@@ -158,7 +157,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 0,
@@ -167,33 +167,35 @@
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 0,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -211,13 +213,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 30.0,
@@ -252,7 +252,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 2780259181,
@@ -261,33 +262,35 @@
                 "javelin_firing_mode": 1,
                 "movement_should_be_processed_by_projectile_system": 1,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -305,13 +308,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": -1.0,
                 "max_lifetime": 30.0,
@@ -346,7 +347,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 0,
@@ -355,33 +357,35 @@
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 1,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 1,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 1,
-                "unk_array_0x00E4": [
-                    5.0,
-                    0.009999999776482582,
-                    0.009999999776482582,
-                    0.009999999776482582,
-                    2.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 1,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 1,
+                    "unk_float_r0x0030": 5.0,
+                    "unk_float_r0x0034": 0.009999999776482582,
+                    "unk_float_r0x0038": 0.009999999776482582,
+                    "unk_float_r0x003C": 0.009999999776482582,
+                    "unk_float_r0x0040": 2.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.10000000149011612,
-                "unk_float_0x0108": 4.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 4.0
             }
         },
         {
@@ -399,13 +403,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 30.0,
@@ -440,7 +442,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 0,
@@ -449,33 +452,35 @@
                 "javelin_firing_mode": 1,
                 "movement_should_be_processed_by_projectile_system": 1,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 1,
-                "unk_array_0x00B8": [
-                    -15.0,
-                    15.0,
-                    10.0,
-                    15.0,
-                    10.0,
-                    20.0,
-                    10.0,
-                    10.0,
-                    20.0,
-                    10.0
-                ],
-                "unk_bool_0x00E0": 1,
-                "unk_array_0x00E4": [
-                    2.0,
-                    0.10000000149011612,
-                    0.05000000074505806,
-                    0.5,
-                    2.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 1,
+                    "unk_float_r0x0004": -15.0,
+                    "unk_float_r0x0008": 15.0,
+                    "unk_float_r0x000C": 10.0,
+                    "unk_float_r0x0010": 15.0,
+                    "unk_struct_r0x0014": {
+                        "x": 10.0,
+                        "y": 20.0,
+                        "z": 10.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 10.0,
+                        "y": 20.0,
+                        "z": 10.0
+                    },
+                    "unk_bool_r0x002C": 1,
+                    "unk_float_r0x0030": 2.0,
+                    "unk_float_r0x0034": 0.10000000149011612,
+                    "unk_float_r0x0038": 0.05000000074505806,
+                    "unk_float_r0x003C": 0.5,
+                    "unk_float_r0x0040": 2.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -493,13 +498,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 30.0,
@@ -534,7 +537,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 0,
@@ -543,33 +547,35 @@
                 "javelin_firing_mode": 1,
                 "movement_should_be_processed_by_projectile_system": 1,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -587,13 +593,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 30.0,
@@ -628,7 +632,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 2780259181,
@@ -637,33 +642,35 @@
                 "javelin_firing_mode": 1,
                 "movement_should_be_processed_by_projectile_system": 1,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -681,13 +688,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 30.0,
@@ -722,7 +727,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 2780259181,
@@ -731,33 +737,35 @@
                 "javelin_firing_mode": 1,
                 "movement_should_be_processed_by_projectile_system": 1,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 1,
-                "unk_array_0x00B8": [
-                    -8.0,
-                    8.0,
-                    60.0,
-                    75.0,
-                    5.0,
-                    10.0,
-                    5.0,
-                    10.0,
-                    15.0,
-                    10.0
-                ],
-                "unk_bool_0x00E0": 1,
-                "unk_array_0x00E4": [
-                    2.0,
-                    0.20000000298023224,
-                    0.05000000074505806,
-                    0.800000011920929,
-                    0.05000000074505806
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 1,
+                    "unk_float_r0x0004": -8.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 60.0,
+                    "unk_float_r0x0010": 75.0,
+                    "unk_struct_r0x0014": {
+                        "x": 5.0,
+                        "y": 10.0,
+                        "z": 5.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 10.0,
+                        "y": 15.0,
+                        "z": 10.0
+                    },
+                    "unk_bool_r0x002C": 1,
+                    "unk_float_r0x0030": 2.0,
+                    "unk_float_r0x0034": 0.20000000298023224,
+                    "unk_float_r0x0038": 0.05000000074505806,
+                    "unk_float_r0x003C": 0.800000011920929,
+                    "unk_float_r0x0040": 0.05000000074505806
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -775,13 +783,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 30.0,
@@ -816,7 +822,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 315345141,
@@ -825,33 +832,35 @@
                 "javelin_firing_mode": 1,
                 "movement_should_be_processed_by_projectile_system": 1,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 1,
-                "unk_array_0x00B8": [
-                    -75.0,
-                    75.0,
-                    40.0,
-                    55.0,
-                    20.0,
-                    40.0,
-                    20.0,
-                    30.0,
-                    50.0,
-                    30.0
-                ],
-                "unk_bool_0x00E0": 1,
-                "unk_array_0x00E4": [
-                    5.0,
-                    0.20000000298023224,
-                    0.05000000074505806,
-                    0.5,
-                    2.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 1,
+                    "unk_float_r0x0004": -75.0,
+                    "unk_float_r0x0008": 75.0,
+                    "unk_float_r0x000C": 40.0,
+                    "unk_float_r0x0010": 55.0,
+                    "unk_struct_r0x0014": {
+                        "x": 20.0,
+                        "y": 40.0,
+                        "z": 20.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 30.0,
+                        "y": 50.0,
+                        "z": 30.0
+                    },
+                    "unk_bool_r0x002C": 1,
+                    "unk_float_r0x0030": 5.0,
+                    "unk_float_r0x0034": 0.20000000298023224,
+                    "unk_float_r0x0038": 0.05000000074505806,
+                    "unk_float_r0x003C": 0.5,
+                    "unk_float_r0x0040": 2.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -869,13 +878,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 30.0,
@@ -910,7 +917,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 0,
@@ -919,33 +927,35 @@
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 1,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -963,13 +973,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": -1.0,
                 "time_to_enable_explosive": -1.0,
                 "max_lifetime": 15.0,
@@ -1004,7 +1012,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 281865650,
@@ -1013,33 +1022,35 @@
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 0,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -1057,13 +1068,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 30.0,
@@ -1098,7 +1107,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 0,
@@ -1107,33 +1117,35 @@
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 1,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -1151,13 +1163,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": -1.0,
                 "time_to_enable_explosive": -1.0,
                 "max_lifetime": 30.0,
@@ -1192,7 +1202,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 0,
@@ -1200,34 +1211,36 @@
                 "target_dot_minimum": 0.30000001192092896,
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 1,
-                "projectile_type_to_process": "287 <=> ProjectileType_Unknown_287",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "projectile_type_to_process": "292 <=> ProjectileType_Unknown_292",
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -1245,13 +1258,11 @@
                 "distance_to_disable_guidance": 2.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.5,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 10.0,
@@ -1286,7 +1297,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 0,
@@ -1295,33 +1307,35 @@
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 0,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -1339,13 +1353,11 @@
                 "distance_to_disable_guidance": 3.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 10.0,
@@ -1380,7 +1392,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 0,
@@ -1389,33 +1402,35 @@
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 0,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -1433,13 +1448,11 @@
                 "distance_to_disable_guidance": 2.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 10.0,
@@ -1474,7 +1487,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 0,
@@ -1483,33 +1497,35 @@
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 0,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -1527,13 +1543,11 @@
                 "distance_to_disable_guidance": 0.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 10.0,
@@ -1568,7 +1582,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 0,
@@ -1577,33 +1592,35 @@
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 0,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -1621,13 +1638,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 0.0,
@@ -1662,7 +1677,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 2421683242,
@@ -1671,33 +1687,35 @@
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 0,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -1715,13 +1733,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 10.0,
@@ -1756,7 +1772,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 2421683242,
@@ -1765,33 +1782,35 @@
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 0,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -1809,13 +1828,11 @@
                 "distance_to_disable_guidance": 0.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 10.0,
@@ -1850,7 +1867,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 0,
@@ -1859,33 +1877,35 @@
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 0,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -1903,13 +1923,11 @@
                 "distance_to_disable_guidance": 1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 10.0,
@@ -1944,7 +1962,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 0,
@@ -1953,33 +1972,35 @@
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 0,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -1997,13 +2018,11 @@
                 "distance_to_disable_guidance": 20.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 0.0,
@@ -2038,7 +2057,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 0,
@@ -2047,33 +2067,35 @@
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 0,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -2091,13 +2113,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 65.0,
                 "movement_prediction_accuracy": 0.800000011920929,
-                "unk_array_0x0024": [
-                    30.0,
-                    90.0,
-                    0.20000000298023224,
-                    1.2000000476837158,
-                    0.20000000298023224
-                ],
+                "unk_float_0x0024": 30.0,
+                "unk_float_0x0028": 90.0,
+                "unk_float_0x002C": 0.20000000298023224,
+                "unk_float_0x0030": 1.2000000476837158,
+                "unk_float_0x0034": 0.20000000298023224,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 3.0,
@@ -2132,7 +2152,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 4129501370,
@@ -2141,33 +2162,35 @@
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 1,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -2185,13 +2208,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 30.0,
@@ -2226,7 +2247,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 2780259181,
@@ -2235,33 +2257,35 @@
                 "javelin_firing_mode": 1,
                 "movement_should_be_processed_by_projectile_system": 1,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -2279,13 +2303,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 30.0,
@@ -2320,7 +2342,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 0,
@@ -2329,33 +2352,35 @@
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 1,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -2373,13 +2398,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": 0.0,
                 "time_to_enable_explosive": 0.0,
                 "max_lifetime": 30.0,
@@ -2414,7 +2437,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 0,
@@ -2423,33 +2447,35 @@
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 1,
                 "projectile_type_to_process": "0 <=> ProjectileType_Unknown_0",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         },
         {
@@ -2467,13 +2493,11 @@
                 "distance_to_disable_guidance": -1.0,
                 "angle_lost_guidance": 180.0,
                 "movement_prediction_accuracy": 0.0,
-                "unk_array_0x0024": [
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0,
-                    -1.0
-                ],
+                "unk_float_0x0024": -1.0,
+                "unk_float_0x0028": -1.0,
+                "unk_float_0x002C": -1.0,
+                "unk_float_0x0030": -1.0,
+                "unk_float_0x0034": -1.0,
                 "time_to_enable_movement": -1.0,
                 "time_to_enable_explosive": -1.0,
                 "max_lifetime": 30.0,
@@ -2508,7 +2532,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
                     }
                 },
                 "missile_trail_audio_event": 0,
@@ -2516,34 +2541,36 @@
                 "target_dot_minimum": 0.30000001192092896,
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 1,
-                "projectile_type_to_process": "287 <=> ProjectileType_Unknown_287",
-                "unk_bool_0x00B4": 0,
-                "unk_array_0x00B8": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "unk_bool_0x00E0": 0,
-                "unk_array_0x00E4": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
+                "projectile_type_to_process": "292 <=> ProjectileType_Unknown_292",
+                "seeking_missile_deviation": {
+                    "unk_bool_r0x0000": 0,
+                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0008": 0.0,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_float_r0x0010": 0.0,
+                    "unk_struct_r0x0014": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_struct_r0x0020": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "unk_bool_r0x002C": 0,
+                    "unk_float_r0x0030": 0.0,
+                    "unk_float_r0x0034": 0.0,
+                    "unk_float_r0x0038": 0.0,
+                    "unk_float_r0x003C": 0.0,
+                    "unk_float_r0x0040": 0.0
+                },
                 "unk_float_0x00F8": -1.0,
                 "unk_uint32_0x00FC": 0,
-                "unk_uint32_0x0100": 0,
+                "unk_bool_0x0100": 0,
+                "unk_bool_0x0101": 0,
                 "unk_float_0x0104": 0.0,
-                "unk_float_0x0108": 0.0,
-                "unk_float_0x010C": 0.0
+                "unk_float_0x0108": 0.0
             }
         }
     ]

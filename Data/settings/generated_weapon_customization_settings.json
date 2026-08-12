@@ -3,10 +3,10 @@
         "WeaponCustomizationSettings_Ammo": {
             "_metadata": {
                 "struct_size": 88,
-                "omitted_size": 44,
+                "omitted_size": 48,
                 "exported_type_count": 97,
-                "patch_date": "2026-07-07",
-                "game_version": "1.006.301"
+                "patch_date": "2026-08-12",
+                "game_version": "1.007.000"
             },
             "items": [
                 {
@@ -17,14 +17,13 @@
                     "name_cased": 2468465243,
                     "description": 3421912447,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "850458585731750803",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 1,
@@ -34,14 +33,13 @@
                     "name_cased": 4121854553,
                     "description": 3941183148,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "14363808857687781345",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 2,
@@ -51,14 +49,13 @@
                     "name_cased": 593823393,
                     "description": 2705561415,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "8094740713547056081",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 3,
@@ -68,14 +65,13 @@
                     "name_cased": 4219107198,
                     "description": 4068161721,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "5209856311545109809",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 4,
@@ -85,14 +81,13 @@
                     "name_cased": 1785353567,
                     "description": 2640791440,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "9240136906287372304",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 5,
@@ -102,14 +97,13 @@
                     "name_cased": 3781476342,
                     "description": 79988877,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "10333851492719329776",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 6,
@@ -119,14 +113,13 @@
                     "name_cased": 2189560651,
                     "description": 3235680264,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "6157227374233642402",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 7,
@@ -136,14 +129,13 @@
                     "name_cased": 1233005872,
                     "description": 1806734814,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "7910041181649433073",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 8,
@@ -153,14 +145,13 @@
                     "name_cased": 1514994279,
                     "description": 1498940309,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "3017520251559120449",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 9,
@@ -170,14 +161,13 @@
                     "name_cased": 2103607856,
                     "description": 2947925269,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "2599032621541645664",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 10,
@@ -187,14 +177,13 @@
                     "name_cased": 3480470718,
                     "description": 2668644242,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "9290043141086983594",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 11,
@@ -204,14 +193,13 @@
                     "name_cased": 404114273,
                     "description": 529509732,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "12646066975301281183",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 12,
@@ -221,14 +209,13 @@
                     "name_cased": 4111551447,
                     "description": 228387496,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "1870800911349018316",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 13,
@@ -238,14 +225,13 @@
                     "name_cased": 2463174816,
                     "description": 4157836433,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "4964499945670853068",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 14,
@@ -255,14 +241,13 @@
                     "name_cased": 3153142401,
                     "description": 540119038,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "6496346306736513044",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 15,
@@ -272,14 +257,13 @@
                     "name_cased": 1185995338,
                     "description": 263425924,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "3341808157293395105",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 16,
@@ -289,14 +273,13 @@
                     "name_cased": 3211200872,
                     "description": 2443515070,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "12104456316024842500",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 17,
@@ -306,14 +289,13 @@
                     "name_cased": 2775350519,
                     "description": 200853928,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11631927475746250127",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 18,
@@ -323,14 +305,13 @@
                     "name_cased": 3453969872,
                     "description": 457717387,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "13418391240371603175",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 19,
@@ -340,14 +321,13 @@
                     "name_cased": 3645480674,
                     "description": 4164753811,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "6125423136876178521",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 20,
@@ -357,14 +337,13 @@
                     "name_cased": 344072355,
                     "description": 587791022,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "4679347772048489606",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 21,
@@ -374,14 +353,13 @@
                     "name_cased": 1535909110,
                     "description": 3361147463,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "18411494561001321365",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 22,
@@ -391,14 +369,13 @@
                     "name_cased": 1727605984,
                     "description": 3574720897,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "484429952482723481",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 23,
@@ -408,14 +385,13 @@
                     "name_cased": 845341741,
                     "description": 620310861,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "14196770709344949467",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 24,
@@ -425,14 +401,13 @@
                     "name_cased": 575503280,
                     "description": 1450940959,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "8968605231332247284",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 25,
@@ -442,14 +417,13 @@
                     "name_cased": 1273786716,
                     "description": 478322734,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "2590701024829825335",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 26,
@@ -459,14 +433,13 @@
                     "name_cased": 2966570029,
                     "description": 3393375433,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "14178958771200617393",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 27,
@@ -476,14 +449,13 @@
                     "name_cased": 1729276638,
                     "description": 2060289137,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "12230740417430930824",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 28,
@@ -493,14 +465,13 @@
                     "name_cased": 74446152,
                     "description": 4222826444,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "5987903507891376719",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 29,
@@ -510,14 +481,13 @@
                     "name_cased": 1076076121,
                     "description": 1935678899,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11796490182876748967",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 30,
@@ -527,14 +497,13 @@
                     "name_cased": 1742246064,
                     "description": 2046000113,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "2979229929919037870",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 31,
@@ -544,14 +513,13 @@
                     "name_cased": 1694926820,
                     "description": 636890817,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "3809327539759296667",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 32,
@@ -561,14 +529,13 @@
                     "name_cased": 3317701550,
                     "description": 3806620662,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "7340713983800195365",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 33,
@@ -578,14 +545,13 @@
                     "name_cased": 980084344,
                     "description": 642810917,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "3167067251300074152",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 34,
@@ -595,14 +561,13 @@
                     "name_cased": 2058398893,
                     "description": 354342683,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "13781964383390459416",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 35,
@@ -612,14 +577,13 @@
                     "name_cased": 3996198327,
                     "description": 4290157837,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "5605033683682918620",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 36,
@@ -629,14 +593,13 @@
                     "name_cased": 2752003323,
                     "description": 2301067266,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "13303799493899699724",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 37,
@@ -646,14 +609,13 @@
                     "name_cased": 3339839144,
                     "description": 1030848953,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "2514802833646660466",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 38,
@@ -663,14 +625,13 @@
                     "name_cased": 1982995052,
                     "description": 651443607,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "4766109456072848689",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 39,
@@ -680,14 +641,13 @@
                     "name_cased": 4153504313,
                     "description": 3325866709,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "4293913785112827449",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 40,
@@ -697,14 +657,13 @@
                     "name_cased": 3106137081,
                     "description": 2694632238,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "12059633364471565545",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 41,
@@ -714,14 +673,13 @@
                     "name_cased": 1263422577,
                     "description": 2007558473,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "9920495001494124334",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 42,
@@ -731,14 +689,13 @@
                     "name_cased": 3324353248,
                     "description": 2859393955,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "2880865434863531074",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 43,
@@ -748,14 +705,13 @@
                     "name_cased": 2113093791,
                     "description": 340343574,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "3838212950392829402",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 44,
@@ -765,14 +721,13 @@
                     "name_cased": 1738034047,
                     "description": 3036529786,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "15291086148262744071",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 45,
@@ -782,14 +737,13 @@
                     "name_cased": 2756506409,
                     "description": 1613348934,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "9698011786116553554",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 46,
@@ -799,14 +753,13 @@
                     "name_cased": 3522846961,
                     "description": 2415477906,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "9564780761412965151",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 47,
@@ -816,14 +769,13 @@
                     "name_cased": 214199932,
                     "description": 3386199984,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "17579117517332156085",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 48,
@@ -833,14 +785,13 @@
                     "name_cased": 1386177237,
                     "description": 3756884059,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "3026084527245306979",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 49,
@@ -850,14 +801,13 @@
                     "name_cased": 1783580467,
                     "description": 3187541122,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "18187204295284363245",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 50,
@@ -867,14 +817,13 @@
                     "name_cased": 989431349,
                     "description": 1475714631,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "16615236272065661871",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 51,
@@ -884,14 +833,13 @@
                     "name_cased": 2281763433,
                     "description": 762864032,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "12577844419551998690",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 52,
@@ -901,14 +849,13 @@
                     "name_cased": 637719079,
                     "description": 3206495190,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "289982163976377481",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 53,
@@ -918,14 +865,13 @@
                     "name_cased": 142076512,
                     "description": 2518264073,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "16707922583032526000",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 54,
@@ -935,14 +881,13 @@
                     "name_cased": 588576062,
                     "description": 3632850067,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "3147715616679615072",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 55,
@@ -952,14 +897,13 @@
                     "name_cased": 540790024,
                     "description": 449763135,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11602396769084732948",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 56,
@@ -969,14 +913,13 @@
                     "name_cased": 2388228706,
                     "description": 420114395,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "16708371660254757709",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 57,
@@ -986,14 +929,13 @@
                     "name_cased": 115737347,
                     "description": 1189835008,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "7464899814204426196",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 58,
@@ -1003,14 +945,13 @@
                     "name_cased": 3741166472,
                     "description": 3920975554,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "9426047261326106827",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 59,
@@ -1020,14 +961,13 @@
                     "name_cased": 3741166472,
                     "description": 3920975554,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "12002370982831699593",
                     "icon": "0",
                     "slots": [
                         "7 <=> WeaponCustomizationSlot_AmmoTypeAlternate"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 60,
@@ -1037,14 +977,13 @@
                     "name_cased": 3127548814,
                     "description": 3417787436,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "17149704172731226520",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 61,
@@ -1054,14 +993,13 @@
                     "name_cased": 3127548814,
                     "description": 3417787436,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "8270706170311863943",
                     "icon": "0",
                     "slots": [
                         "7 <=> WeaponCustomizationSlot_AmmoTypeAlternate"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 62,
@@ -1071,14 +1009,13 @@
                     "name_cased": 2495515626,
                     "description": 994170633,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "239197801981926872",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 63,
@@ -1088,14 +1025,13 @@
                     "name_cased": 2495515626,
                     "description": 994170633,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "5965690808911126698",
                     "icon": "0",
                     "slots": [
                         "7 <=> WeaponCustomizationSlot_AmmoTypeAlternate"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 64,
@@ -1105,14 +1041,13 @@
                     "name_cased": 3875128073,
                     "description": 3066684437,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "2064851534101496352",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 65,
@@ -1122,14 +1057,13 @@
                     "name_cased": 3875128073,
                     "description": 3066684437,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "14634849344550817418",
                     "icon": "0",
                     "slots": [
                         "7 <=> WeaponCustomizationSlot_AmmoTypeAlternate"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 66,
@@ -1139,14 +1073,13 @@
                     "name_cased": 2731845108,
                     "description": 753216562,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "4195280840090515811",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 67,
@@ -1156,14 +1089,13 @@
                     "name_cased": 2731845108,
                     "description": 753216562,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "7327455783055875777",
                     "icon": "0",
                     "slots": [
                         "7 <=> WeaponCustomizationSlot_AmmoTypeAlternate"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 68,
@@ -1173,14 +1105,13 @@
                     "name_cased": 346739478,
                     "description": 4135924982,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11600043045010232814",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 69,
@@ -1190,14 +1121,13 @@
                     "name_cased": 346739478,
                     "description": 4135924982,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "4340813747243931178",
                     "icon": "0",
                     "slots": [
                         "7 <=> WeaponCustomizationSlot_AmmoTypeAlternate"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 70,
@@ -1207,14 +1137,13 @@
                     "name_cased": 566653809,
                     "description": 1351370825,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "2090008629295011340",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 71,
@@ -1224,14 +1153,13 @@
                     "name_cased": 566653809,
                     "description": 1351370825,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "1892083027011120031",
                     "icon": "0",
                     "slots": [
                         "7 <=> WeaponCustomizationSlot_AmmoTypeAlternate"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 72,
@@ -1241,14 +1169,13 @@
                     "name_cased": 648255169,
                     "description": 1257806917,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "14987259541096383553",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 73,
@@ -1258,14 +1185,13 @@
                     "name_cased": 648255169,
                     "description": 1257806917,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "14151396832999859003",
                     "icon": "0",
                     "slots": [
                         "7 <=> WeaponCustomizationSlot_AmmoTypeAlternate"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 74,
@@ -1275,14 +1201,13 @@
                     "name_cased": 3910397585,
                     "description": 1034677068,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "10610862023671609031",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 75,
@@ -1292,14 +1217,13 @@
                     "name_cased": 3910397585,
                     "description": 1034677068,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11431608920433270829",
                     "icon": "0",
                     "slots": [
                         "7 <=> WeaponCustomizationSlot_AmmoTypeAlternate"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 76,
@@ -1309,14 +1233,13 @@
                     "name_cased": 2111768563,
                     "description": 2790941913,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "4730815526250984143",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 77,
@@ -1326,14 +1249,13 @@
                     "name_cased": 2111768563,
                     "description": 2790941913,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "17416555602014346003",
                     "icon": "0",
                     "slots": [
                         "7 <=> WeaponCustomizationSlot_AmmoTypeAlternate"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 78,
@@ -1343,14 +1265,13 @@
                     "name_cased": 3780597010,
                     "description": 2431429260,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11212324065430847557",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 79,
@@ -1360,14 +1281,13 @@
                     "name_cased": 3780597010,
                     "description": 2431429260,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11575534867174269199",
                     "icon": "0",
                     "slots": [
                         "7 <=> WeaponCustomizationSlot_AmmoTypeAlternate"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 80,
@@ -1377,14 +1297,13 @@
                     "name_cased": 3282178145,
                     "description": 4177789033,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "17972556449471625637",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 81,
@@ -1394,14 +1313,13 @@
                     "name_cased": 3282178145,
                     "description": 4177789033,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "287489409911644495",
                     "icon": "0",
                     "slots": [
                         "7 <=> WeaponCustomizationSlot_AmmoTypeAlternate"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 82,
@@ -1411,14 +1329,13 @@
                     "name_cased": 1259065120,
                     "description": 2605785695,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "7934200689969124702",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 83,
@@ -1428,14 +1345,13 @@
                     "name_cased": 1259065120,
                     "description": 2605785695,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "18375895465450278103",
                     "icon": "0",
                     "slots": [
                         "7 <=> WeaponCustomizationSlot_AmmoTypeAlternate"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 84,
@@ -1445,14 +1361,13 @@
                     "name_cased": 1956039782,
                     "description": 3872962799,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "14979141397050578284",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 85,
@@ -1462,14 +1377,13 @@
                     "name_cased": 1956039782,
                     "description": 3872962799,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "18336379892682296833",
                     "icon": "0",
                     "slots": [
                         "7 <=> WeaponCustomizationSlot_AmmoTypeAlternate"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 86,
@@ -1479,14 +1393,13 @@
                     "name_cased": 2138837812,
                     "description": 479466402,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "12197413991147192027",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 87,
@@ -1496,14 +1409,13 @@
                     "name_cased": 2138837812,
                     "description": 479466402,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "14485739291695130526",
                     "icon": "0",
                     "slots": [
                         "7 <=> WeaponCustomizationSlot_AmmoTypeAlternate"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 88,
@@ -1513,14 +1425,13 @@
                     "name_cased": 4189160103,
                     "description": 3145895494,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "16162843298888959181",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 89,
@@ -1530,14 +1441,13 @@
                     "name_cased": 1037303660,
                     "description": 3896911009,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "3769047134538442866",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 90,
@@ -1547,14 +1457,13 @@
                     "name_cased": 2390010387,
                     "description": 4155490507,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "5740915416175624640",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 91,
@@ -1564,14 +1473,13 @@
                     "name_cased": 1491792151,
                     "description": 4271756345,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "18087320921323565766",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 92,
@@ -1581,14 +1489,13 @@
                     "name_cased": 3317762411,
                     "description": 3930404992,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "12579633305480492682",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 93,
@@ -1598,14 +1505,13 @@
                     "name_cased": 1880455446,
                     "description": 1272796201,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "18019357654418429894",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 94,
@@ -1615,14 +1521,13 @@
                     "name_cased": 3071879380,
                     "description": 4181196584,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "16547554515282762153",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 95,
@@ -1632,14 +1537,13 @@
                     "name_cased": 4201282979,
                     "description": 3435502087,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "3635091080574467542",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 96,
@@ -1649,14 +1553,13 @@
                     "name_cased": 4195408834,
                     "description": 2794364646,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "18084276770746759933",
                     "icon": "0",
                     "slots": [
                         "6 <=> WeaponCustomizationSlot_AmmoType"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 }
             ]
         }
@@ -1665,10 +1568,10 @@
         "WeaponCustomizationSettings_Default": {
             "_metadata": {
                 "struct_size": 88,
-                "omitted_size": 44,
+                "omitted_size": 48,
                 "exported_type_count": 3,
-                "patch_date": "2026-07-07",
-                "game_version": "1.006.301"
+                "patch_date": "2026-08-12",
+                "game_version": "1.007.000"
             },
             "items": [
                 {
@@ -1679,14 +1582,13 @@
                     "name_cased": 895229708,
                     "description": 812542269,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "0",
                     "icon": "0",
                     "slots": [
                         "2 <=> WeaponCustomizationSlot_Optics"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 1,
@@ -1696,14 +1598,13 @@
                     "name_cased": 3207559202,
                     "description": 369780100,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "0",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 2,
@@ -1713,14 +1614,13 @@
                     "name_cased": 1150030374,
                     "description": 125111073,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "0",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 }
             ]
         }
@@ -1729,10 +1629,10 @@
         "WeaponCustomizationSettings_Internals": {
             "_metadata": {
                 "struct_size": 88,
-                "omitted_size": 44,
+                "omitted_size": 48,
                 "exported_type_count": 4,
-                "patch_date": "2026-07-07",
-                "game_version": "1.006.301"
+                "patch_date": "2026-08-12",
+                "game_version": "1.007.000"
             },
             "items": [
                 {
@@ -1743,14 +1643,13 @@
                     "name_cased": 2884600217,
                     "description": 746161184,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "0",
                     "icon": "0",
                     "slots": [
                         "8 <=> WeaponCustomizationSlot_Internals"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 1,
@@ -1760,14 +1659,13 @@
                     "name_cased": 1187488181,
                     "description": 2261429945,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "8673823970078857158",
                     "icon": "0",
                     "slots": [
                         "8 <=> WeaponCustomizationSlot_Internals"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 2,
@@ -1777,14 +1675,13 @@
                     "name_cased": 1187488181,
                     "description": 2261429945,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "16808874559677504064",
                     "icon": "0",
                     "slots": [
                         "8 <=> WeaponCustomizationSlot_Internals"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 3,
@@ -1794,14 +1691,13 @@
                     "name_cased": 1448271014,
                     "description": 2767115525,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "14524092321344141906",
                     "icon": "0",
                     "slots": [
                         "8 <=> WeaponCustomizationSlot_Internals"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 }
             ]
         }
@@ -1810,10 +1706,10 @@
         "WeaponCustomizationSettings_Magazine": {
             "_metadata": {
                 "struct_size": 88,
-                "omitted_size": 44,
+                "omitted_size": 48,
                 "exported_type_count": 49,
-                "patch_date": "2026-07-07",
-                "game_version": "1.006.301"
+                "patch_date": "2026-08-12",
+                "game_version": "1.007.000"
             },
             "items": [
                 {
@@ -1824,14 +1720,13 @@
                     "name_cased": 3487124909,
                     "description": 1961315473,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11887883385073101999",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 1,
@@ -1841,14 +1736,13 @@
                     "name_cased": 2289976365,
                     "description": 197005611,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "8926662546857453171",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 2,
@@ -1858,14 +1752,13 @@
                     "name_cased": 740089886,
                     "description": 1896446197,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "16779953258782481441",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 3,
@@ -1875,14 +1768,13 @@
                     "name_cased": 3487124909,
                     "description": 1961315473,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "3768595176174354520",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 4,
@@ -1892,14 +1784,13 @@
                     "name_cased": 2289976365,
                     "description": 197005611,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "3275834919183443858",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 5,
@@ -1909,14 +1800,13 @@
                     "name_cased": 740089886,
                     "description": 1896446197,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "12970076301082985906",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 6,
@@ -1926,14 +1816,13 @@
                     "name_cased": 1733962030,
                     "description": 1163182299,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "1633441327921975190",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 7,
@@ -1943,14 +1832,13 @@
                     "name_cased": 69553895,
                     "description": 3294648062,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "10825187123122472636",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 8,
@@ -1960,14 +1848,13 @@
                     "name_cased": 3487124909,
                     "description": 1961315473,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "18256292185666700754",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 9,
@@ -1977,14 +1864,13 @@
                     "name_cased": 740089886,
                     "description": 1896446197,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "5276871085079694052",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 10,
@@ -1994,14 +1880,13 @@
                     "name_cased": 3487124909,
                     "description": 1961315473,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "6017251023115135062",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 11,
@@ -2011,14 +1896,13 @@
                     "name_cased": 2289976365,
                     "description": 197005611,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "5899481901079518310",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 12,
@@ -2028,14 +1912,13 @@
                     "name_cased": 740089886,
                     "description": 1896446197,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "8576817326083615795",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 13,
@@ -2045,14 +1928,13 @@
                     "name_cased": 3487124909,
                     "description": 1961315473,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "4328927270333669203",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 14,
@@ -2062,14 +1944,13 @@
                     "name_cased": 2289976365,
                     "description": 197005611,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "14741494689753229355",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 15,
@@ -2079,14 +1960,13 @@
                     "name_cased": 740089886,
                     "description": 1896446197,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "3445906922936249326",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 16,
@@ -2096,14 +1976,13 @@
                     "name_cased": 3487124909,
                     "description": 1961315473,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "4204314609786512989",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 17,
@@ -2113,14 +1992,13 @@
                     "name_cased": 2289976365,
                     "description": 197005611,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "2445649923648714608",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 18,
@@ -2130,14 +2008,13 @@
                     "name_cased": 3487124909,
                     "description": 1961315473,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "10309885318445593877",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 19,
@@ -2147,14 +2024,13 @@
                     "name_cased": 2289976365,
                     "description": 197005611,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "7691547289648837263",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 20,
@@ -2164,14 +2040,13 @@
                     "name_cased": 3487124909,
                     "description": 1961315473,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "10536115169655287074",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 21,
@@ -2181,14 +2056,13 @@
                     "name_cased": 740089886,
                     "description": 1896446197,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "9097122243967356002",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 22,
@@ -2198,14 +2072,13 @@
                     "name_cased": 2289976365,
                     "description": 1961315473,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "1954505123843284861",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 23,
@@ -2215,14 +2088,13 @@
                     "name_cased": 3487124909,
                     "description": 1961315473,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11066157384975603148",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 24,
@@ -2232,14 +2104,13 @@
                     "name_cased": 2289976365,
                     "description": 197005611,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "7546010150065048137",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 25,
@@ -2249,14 +2120,13 @@
                     "name_cased": 740089886,
                     "description": 1896446197,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "4457329115126715741",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 26,
@@ -2266,14 +2136,13 @@
                     "name_cased": 3487124909,
                     "description": 1961315473,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11794703064670336233",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 27,
@@ -2283,14 +2152,13 @@
                     "name_cased": 2289976365,
                     "description": 197005611,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "7452428864091236583",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 28,
@@ -2300,14 +2168,13 @@
                     "name_cased": 740089886,
                     "description": 1896446197,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "291864303212575658",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 29,
@@ -2317,14 +2184,13 @@
                     "name_cased": 3487124909,
                     "description": 1961315473,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "16780842349359893039",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 30,
@@ -2334,14 +2200,13 @@
                     "name_cased": 2289976365,
                     "description": 197005611,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "13923078706375087587",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 31,
@@ -2351,14 +2216,13 @@
                     "name_cased": 3487124909,
                     "description": 1961315473,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "5057481484420756285",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 32,
@@ -2368,14 +2232,13 @@
                     "name_cased": 2289976365,
                     "description": 197005611,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "4017924551403080839",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 33,
@@ -2385,14 +2248,13 @@
                     "name_cased": 3249225565,
                     "description": 1740037922,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "10983829338642417922",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 34,
@@ -2402,14 +2264,13 @@
                     "name_cased": 2289976365,
                     "description": 197005611,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "3700026632171386477",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 35,
@@ -2419,14 +2280,13 @@
                     "name_cased": 3487124909,
                     "description": 1961315473,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "7050869358615705019",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 36,
@@ -2436,14 +2296,13 @@
                     "name_cased": 2740898511,
                     "description": 2292887042,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "13122103107948030556",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 37,
@@ -2453,14 +2312,13 @@
                     "name_cased": 3283042119,
                     "description": 2884787603,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "6190751550629622522",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 38,
@@ -2470,14 +2328,13 @@
                     "name_cased": 2891850877,
                     "description": 2855610300,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "9708860688333598373",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 39,
@@ -2487,14 +2344,13 @@
                     "name_cased": 2740898511,
                     "description": 2292887042,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "13297375371974664299",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 40,
@@ -2504,14 +2360,13 @@
                     "name_cased": 3283042119,
                     "description": 2884787603,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "9064102588392836950",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 41,
@@ -2521,14 +2376,13 @@
                     "name_cased": 3491726516,
                     "description": 392655212,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "13036092446294397076",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 42,
@@ -2538,14 +2392,13 @@
                     "name_cased": 1916050994,
                     "description": 2946149573,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "1818307318784878249",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 43,
@@ -2555,14 +2408,13 @@
                     "name_cased": 3340570263,
                     "description": 1582946471,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "9291105500383269587",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 44,
@@ -2572,14 +2424,13 @@
                     "name_cased": 3862914062,
                     "description": 4092830997,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "12439365467465081873",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 45,
@@ -2589,14 +2440,13 @@
                     "name_cased": 4065126561,
                     "description": 3519143024,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11027915531501354241",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 46,
@@ -2606,14 +2456,13 @@
                     "name_cased": 1012577819,
                     "description": 3073650210,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "15151942165455114152",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 47,
@@ -2623,14 +2472,13 @@
                     "name_cased": 1868076099,
                     "description": 1885902222,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "14452522868562188951",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 48,
@@ -2640,14 +2488,13 @@
                     "name_cased": 3487124909,
                     "description": 1961315473,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "5729597501657769521",
                     "icon": "0",
                     "slots": [
                         "5 <=> WeaponCustomizationSlot_Magazine"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 }
             ]
         }
@@ -2656,10 +2503,10 @@
         "WeaponCustomizationSettings_Muzzle": {
             "_metadata": {
                 "struct_size": 88,
-                "omitted_size": 44,
+                "omitted_size": 48,
                 "exported_type_count": 34,
-                "patch_date": "2026-07-07",
-                "game_version": "1.006.301"
+                "patch_date": "2026-08-12",
+                "game_version": "1.007.000"
             },
             "items": [
                 {
@@ -2670,14 +2517,13 @@
                     "name_cased": 643498211,
                     "description": 3870315363,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "6294251159044593677",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 1,
@@ -2687,14 +2533,13 @@
                     "name_cased": 643498211,
                     "description": 3870315363,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "13467018118412292185",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 2,
@@ -2704,14 +2549,13 @@
                     "name_cased": 643498211,
                     "description": 3870315363,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "6854902929570205451",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 3,
@@ -2721,14 +2565,13 @@
                     "name_cased": 643498211,
                     "description": 3870315363,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "9479091149602704344",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 4,
@@ -2738,14 +2581,13 @@
                     "name_cased": 643498211,
                     "description": 3870315363,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "5061600508839293981",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 5,
@@ -2755,14 +2597,13 @@
                     "name_cased": 643498211,
                     "description": 3870315363,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "181294882810468657",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 6,
@@ -2772,14 +2613,13 @@
                     "name_cased": 643498211,
                     "description": 3870315363,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "6712204506474975956",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 7,
@@ -2789,14 +2629,13 @@
                     "name_cased": 3679645005,
                     "description": 3092875128,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "3375286472059951732",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 8,
@@ -2806,14 +2645,13 @@
                     "name_cased": 1286216626,
                     "description": 3152417024,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "2931537446798109347",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 9,
@@ -2823,14 +2661,13 @@
                     "name_cased": 643498211,
                     "description": 3870315363,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "6637750995636466699",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 10,
@@ -2840,14 +2677,13 @@
                     "name_cased": 1150030374,
                     "description": 125111073,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "8461770958804471754",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 11,
@@ -2857,14 +2693,13 @@
                     "name_cased": 3679645005,
                     "description": 3092875128,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "17998083042837534904",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 12,
@@ -2874,14 +2709,13 @@
                     "name_cased": 1286216626,
                     "description": 3152417024,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11580211633362345240",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 13,
@@ -2891,14 +2725,13 @@
                     "name_cased": 643498211,
                     "description": 3870315363,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "12795189377325640140",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 14,
@@ -2908,14 +2741,13 @@
                     "name_cased": 1150030374,
                     "description": 125111073,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "8869063222391656748",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 15,
@@ -2925,14 +2757,13 @@
                     "name_cased": 3679645005,
                     "description": 3092875128,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "13346297317041401928",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 16,
@@ -2942,14 +2773,13 @@
                     "name_cased": 1286216626,
                     "description": 3152417024,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "15893143384222030095",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 17,
@@ -2959,14 +2789,13 @@
                     "name_cased": 643498211,
                     "description": 3870315363,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "17412440896140003920",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 18,
@@ -2976,14 +2805,13 @@
                     "name_cased": 1150030374,
                     "description": 125111073,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11070612253882557865",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 19,
@@ -2993,14 +2821,13 @@
                     "name_cased": 3679645005,
                     "description": 3092875128,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "3560721596127226263",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 20,
@@ -3010,14 +2837,13 @@
                     "name_cased": 1286216626,
                     "description": 3152417024,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "17042267079945714520",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 21,
@@ -3027,14 +2853,13 @@
                     "name_cased": 643498211,
                     "description": 3870315363,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "2804704169649005861",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 22,
@@ -3044,14 +2869,13 @@
                     "name_cased": 1150030374,
                     "description": 125111073,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "7748723127387084686",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 23,
@@ -3061,14 +2885,13 @@
                     "name_cased": 4022404578,
                     "description": 2616985430,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "15622846233925959454",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 24,
@@ -3078,14 +2901,13 @@
                     "name_cased": 2390853194,
                     "description": 2773753195,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "769608404923492902",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 25,
@@ -3095,14 +2917,13 @@
                     "name_cased": 1223137345,
                     "description": 2853784115,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "8462610023518099908",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 26,
@@ -3112,14 +2933,13 @@
                     "name_cased": 2845474638,
                     "description": 3966364180,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "10147513372326869849",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 27,
@@ -3129,14 +2949,13 @@
                     "name_cased": 4022404578,
                     "description": 2616985430,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "8410798392120980739",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 28,
@@ -3146,14 +2965,13 @@
                     "name_cased": 2390853194,
                     "description": 2773753195,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "13074477769665559454",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 29,
@@ -3163,14 +2981,13 @@
                     "name_cased": 1223137345,
                     "description": 2853784115,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "4244847585173431214",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 30,
@@ -3180,14 +2997,13 @@
                     "name_cased": 2845474638,
                     "description": 3966364180,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "14340382343174070789",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 31,
@@ -3197,14 +3013,13 @@
                     "name_cased": 3831536216,
                     "description": 82268359,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "14897104891499249134",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 32,
@@ -3214,14 +3029,13 @@
                     "name_cased": 1955985682,
                     "description": 758164915,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "9063175003097027107",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 33,
@@ -3231,14 +3045,13 @@
                     "name_cased": 3359063774,
                     "description": 2594105648,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "5211183018200410695",
                     "icon": "0",
                     "slots": [
                         "4 <=> WeaponCustomizationSlot_Muzzle"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 }
             ]
         }
@@ -3247,10 +3060,10 @@
         "WeaponCustomizationSettings_Scope": {
             "_metadata": {
                 "struct_size": 88,
-                "omitted_size": 44,
-                "exported_type_count": 15,
-                "patch_date": "2026-07-07",
-                "game_version": "1.006.301"
+                "omitted_size": 48,
+                "exported_type_count": 16,
+                "patch_date": "2026-08-12",
+                "game_version": "1.007.000"
             },
             "items": [
                 {
@@ -3261,14 +3074,13 @@
                     "name_cased": 3366822638,
                     "description": 2748911653,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "2563338563221276096",
                     "icon": "0",
                     "slots": [
                         "2 <=> WeaponCustomizationSlot_Optics"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 1,
@@ -3278,14 +3090,13 @@
                     "name_cased": 1569145664,
                     "description": 1672483217,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "16463087638223290762",
                     "icon": "0",
                     "slots": [
                         "2 <=> WeaponCustomizationSlot_Optics"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 2,
@@ -3295,14 +3106,13 @@
                     "name_cased": 3322485573,
                     "description": 2437224263,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "18057548660621900050",
                     "icon": "0",
                     "slots": [
                         "2 <=> WeaponCustomizationSlot_Optics"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 3,
@@ -3312,14 +3122,13 @@
                     "name_cased": 303505535,
                     "description": 2086203058,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "16679248019497222760",
                     "icon": "0",
                     "slots": [
                         "2 <=> WeaponCustomizationSlot_Optics"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 4,
@@ -3329,14 +3138,13 @@
                     "name_cased": 4116153319,
                     "description": 2654556013,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "5263755883883179916",
                     "icon": "0",
                     "slots": [
                         "2 <=> WeaponCustomizationSlot_Optics"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 5,
@@ -3346,14 +3154,13 @@
                     "name_cased": 2940193716,
                     "description": 2863703793,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "4417202289749475664",
                     "icon": "0",
                     "slots": [
                         "2 <=> WeaponCustomizationSlot_Optics"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 6,
@@ -3363,14 +3170,13 @@
                     "name_cased": 3950887010,
                     "description": 781923061,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "4402481069132887772",
                     "icon": "0",
                     "slots": [
                         "2 <=> WeaponCustomizationSlot_Optics"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 7,
@@ -3380,14 +3186,13 @@
                     "name_cased": 361043407,
                     "description": 742449904,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "1872473091043117810",
                     "icon": "0",
                     "slots": [
                         "2 <=> WeaponCustomizationSlot_Optics"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 8,
@@ -3397,14 +3202,13 @@
                     "name_cased": 361043407,
                     "description": 742449904,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "8287102548341161912",
                     "icon": "0",
                     "slots": [
                         "2 <=> WeaponCustomizationSlot_Optics"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 9,
@@ -3414,99 +3218,109 @@
                     "name_cased": 361043407,
                     "description": 742449904,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11924539088601173343",
                     "icon": "0",
                     "slots": [
                         "2 <=> WeaponCustomizationSlot_Optics"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 10,
+                    "debug_name": "SNIPER SCOPE 10x SHARK",
+                    "id": 2702146973,
+                    "name_upper": 372370498,
+                    "name_cased": 361043407,
+                    "description": 742449904,
+                    "fluff": 0,
+                    "add_path": "11045926829781447020",
+                    "icon": "0",
+                    "slots": [
+                        "2 <=> WeaponCustomizationSlot_Optics"
+                    ],
+                    "unk_array_0x0040": [],
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
+                },
+                {
+                    "index": 11,
                     "debug_name": "Support Scope",
                     "id": 3708752448,
                     "name_upper": 3888529137,
                     "name_cased": 1202754851,
                     "description": 374820182,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "17566682951508615626",
                     "icon": "0",
                     "slots": [
                         "2 <=> WeaponCustomizationSlot_Optics"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 11,
+                    "index": 12,
                     "debug_name": "Railgun Scope",
                     "id": 1514045116,
                     "name_upper": 2112571438,
                     "name_cased": 1460477933,
                     "description": 3583903829,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "13683130201431294801",
                     "icon": "0",
                     "slots": [
                         "2 <=> WeaponCustomizationSlot_Optics"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 12,
+                    "index": 13,
                     "debug_name": "MORGUNSON HOLO-SIGHT",
                     "id": 245428325,
                     "name_upper": 1078107663,
                     "name_cased": 310277610,
                     "description": 1950059507,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "9374165754576786577",
                     "icon": "0",
                     "slots": [
                         "2 <=> WeaponCustomizationSlot_Optics"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 13,
+                    "index": 14,
                     "debug_name": "PISTOL REFLEX SIGHT",
                     "id": 1184838873,
                     "name_upper": 3967153159,
                     "name_cased": 1874486909,
                     "description": 164675201,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "6912227352617277315",
                     "icon": "0",
                     "slots": [
                         "2 <=> WeaponCustomizationSlot_Optics"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 14,
+                    "index": 15,
                     "debug_name": "FAF SPEAR SCOPE",
                     "id": 1941667008,
                     "name_upper": 1911335011,
                     "name_cased": 782847328,
                     "description": 1400345635,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11388768893657015391",
                     "icon": "0",
                     "slots": [
                         "2 <=> WeaponCustomizationSlot_Optics"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 }
             ]
         }
@@ -3515,10 +3329,10 @@
         "WeaponCustomizationSettings_PaintScheme": {
             "_metadata": {
                 "struct_size": 88,
-                "omitted_size": 44,
+                "omitted_size": 48,
                 "exported_type_count": 12,
-                "patch_date": "2026-07-07",
-                "game_version": "1.006.301"
+                "patch_date": "2026-08-12",
+                "game_version": "1.007.000"
             },
             "items": [
                 {
@@ -3529,14 +3343,13 @@
                     "name_cased": 247122230,
                     "description": 3402773896,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11437631575828482649",
                     "icon": "0",
                     "slots": [
                         "3 <=> WeaponCustomizationSlot_PaintScheme"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 1
+                    "unk_enum_0x0050": "1 <=> WeaponCustomizationSortGroups_Unknown_1"
                 },
                 {
                     "index": 1,
@@ -3546,19 +3359,34 @@
                     "name_cased": 4142297624,
                     "description": 588878433,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "1622237458159582882",
                     "icon": "0",
                     "slots": [
                         "3 <=> WeaponCustomizationSlot_PaintScheme"
                     ],
                     "unk_array_0x0040": [
-                        0.6000000238418579,
-                        0.5600000023841858,
-                        0.5450000166893005,
-                        0.6000000238418579
+                        {
+                            "x": 0.6000000238418579,
+                            "y": 0.5600000023841858,
+                            "z": 0.5450000166893005
+                        },
+                        {
+                            "x": 0.6000000238418579,
+                            "y": 0.5600000023841858,
+                            "z": 0.5450000166893005
+                        },
+                        {
+                            "x": 0.12099999934434891,
+                            "y": 0.11699999868869781,
+                            "z": 0.10100000351667404
+                        },
+                        {
+                            "x": 0.12099999934434891,
+                            "y": 0.11699999868869781,
+                            "z": 0.10100000351667404
+                        }
                     ],
-                    "unk_uint32_0x0050": 2
+                    "unk_enum_0x0050": "2 <=> WeaponCustomizationSortGroups_Unknown_2"
                 },
                 {
                     "index": 2,
@@ -3568,19 +3396,34 @@
                     "name_cased": 92703017,
                     "description": 1651892789,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "9027607218564033524",
                     "icon": "0",
                     "slots": [
                         "3 <=> WeaponCustomizationSlot_PaintScheme"
                     ],
                     "unk_array_0x0040": [
-                        0.44999998807907104,
-                        0.4699999988079071,
-                        0.3199999928474426,
-                        0.44999998807907104
+                        {
+                            "x": 0.44999998807907104,
+                            "y": 0.4699999988079071,
+                            "z": 0.3199999928474426
+                        },
+                        {
+                            "x": 0.44999998807907104,
+                            "y": 0.4699999988079071,
+                            "z": 0.32899999618530273
+                        },
+                        {
+                            "x": 0.20000000298023224,
+                            "y": 0.3400000035762787,
+                            "z": 0.12999999523162842
+                        },
+                        {
+                            "x": 0.20000000298023224,
+                            "y": 0.3400000035762787,
+                            "z": 0.12999999523162842
+                        }
                     ],
-                    "unk_uint32_0x0050": 2
+                    "unk_enum_0x0050": "2 <=> WeaponCustomizationSortGroups_Unknown_2"
                 },
                 {
                     "index": 3,
@@ -3590,19 +3433,34 @@
                     "name_cased": 1748550198,
                     "description": 4123602578,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "10171622125336297466",
                     "icon": "0",
                     "slots": [
                         "3 <=> WeaponCustomizationSlot_PaintScheme"
                     ],
                     "unk_array_0x0040": [
-                        0.44999998807907104,
-                        0.4699999988079071,
-                        0.3199999928474426,
-                        0.2199999988079071
+                        {
+                            "x": 0.44999998807907104,
+                            "y": 0.4699999988079071,
+                            "z": 0.3199999928474426
+                        },
+                        {
+                            "x": 0.2199999988079071,
+                            "y": 0.20000000298023224,
+                            "z": 0.1899999976158142
+                        },
+                        {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.18000000715255737
+                        },
+                        {
+                            "x": 0.3100000023841858,
+                            "y": 0.3100000023841858,
+                            "z": 0.1899999976158142
+                        }
                     ],
-                    "unk_uint32_0x0050": 3
+                    "unk_enum_0x0050": "3 <=> WeaponCustomizationSortGroups_Unknown_3"
                 },
                 {
                     "index": 4,
@@ -3612,19 +3470,34 @@
                     "name_cased": 447358952,
                     "description": 1450506817,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "5907160336990583167",
                     "icon": "0",
                     "slots": [
                         "3 <=> WeaponCustomizationSlot_PaintScheme"
                     ],
                     "unk_array_0x0040": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
+                        {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "x": 0.8579999804496765,
+                            "y": 0.8579999804496765,
+                            "z": 0.8539999723434448
+                        },
+                        {
+                            "x": 0.8579999804496765,
+                            "y": 0.8579999804496765,
+                            "z": 0.8539999723434448
+                        }
                     ],
-                    "unk_uint32_0x0050": 2
+                    "unk_enum_0x0050": "2 <=> WeaponCustomizationSortGroups_Unknown_2"
                 },
                 {
                     "index": 5,
@@ -3634,19 +3507,34 @@
                     "name_cased": 3409699922,
                     "description": 2908523052,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "17948943993955173133",
                     "icon": "0",
                     "slots": [
                         "3 <=> WeaponCustomizationSlot_PaintScheme"
                     ],
                     "unk_array_0x0040": [
-                        0.5680000185966492,
-                        0.5680000185966492,
-                        0.5600000023841858,
-                        0.28200000524520874
+                        {
+                            "x": 0.5680000185966492,
+                            "y": 0.5680000185966492,
+                            "z": 0.5600000023841858
+                        },
+                        {
+                            "x": 0.28200000524520874,
+                            "y": 0.31299999356269836,
+                            "z": 0.22699999809265137
+                        },
+                        {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "x": 0.8579999804496765,
+                            "y": 0.8579999804496765,
+                            "z": 0.8539999723434448
+                        }
                     ],
-                    "unk_uint32_0x0050": 3
+                    "unk_enum_0x0050": "3 <=> WeaponCustomizationSortGroups_Unknown_3"
                 },
                 {
                     "index": 6,
@@ -3656,19 +3544,34 @@
                     "name_cased": 1409097476,
                     "description": 1057583371,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "16222381778807891703",
                     "icon": "0",
                     "slots": [
                         "3 <=> WeaponCustomizationSlot_PaintScheme"
                     ],
                     "unk_array_0x0040": [
-                        0.8700000047683716,
-                        0.8100000023841858,
-                        0.7200000286102295,
-                        0.8700000047683716
+                        {
+                            "x": 0.8700000047683716,
+                            "y": 0.8100000023841858,
+                            "z": 0.7200000286102295
+                        },
+                        {
+                            "x": 0.8700000047683716,
+                            "y": 0.8100000023841858,
+                            "z": 0.7200000286102295
+                        },
+                        {
+                            "x": 0.7400000095367432,
+                            "y": 0.6499999761581421,
+                            "z": 0.5
+                        },
+                        {
+                            "x": 0.7400000095367432,
+                            "y": 0.6499999761581421,
+                            "z": 0.5
+                        }
                     ],
-                    "unk_uint32_0x0050": 2
+                    "unk_enum_0x0050": "2 <=> WeaponCustomizationSortGroups_Unknown_2"
                 },
                 {
                     "index": 7,
@@ -3678,19 +3581,34 @@
                     "name_cased": 1947264242,
                     "description": 2098089846,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "10324565671558012465",
                     "icon": "0",
                     "slots": [
                         "3 <=> WeaponCustomizationSlot_PaintScheme"
                     ],
                     "unk_array_0x0040": [
-                        0.5759999752044678,
-                        0.4819999933242798,
-                        0.3490000069141388,
-                        0.2199999988079071
+                        {
+                            "x": 0.5759999752044678,
+                            "y": 0.4819999933242798,
+                            "z": 0.3490000069141388
+                        },
+                        {
+                            "x": 0.2199999988079071,
+                            "y": 0.17000000178813934,
+                            "z": 0.14000000059604645
+                        },
+                        {
+                            "x": 0.8700000047683716,
+                            "y": 0.8100000023841858,
+                            "z": 0.7200000286102295
+                        },
+                        {
+                            "x": 0.7400000095367432,
+                            "y": 0.6499999761581421,
+                            "z": 0.5
+                        }
                     ],
-                    "unk_uint32_0x0050": 3
+                    "unk_enum_0x0050": "3 <=> WeaponCustomizationSortGroups_Unknown_3"
                 },
                 {
                     "index": 8,
@@ -3700,19 +3618,34 @@
                     "name_cased": 975672171,
                     "description": 3883362231,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "16124926598284115974",
                     "icon": "0",
                     "slots": [
                         "3 <=> WeaponCustomizationSlot_PaintScheme"
                     ],
                     "unk_array_0x0040": [
-                        0.24699999392032623,
-                        0.24699999392032623,
-                        0.24699999392032623,
-                        0.24699999392032623
+                        {
+                            "x": 0.24699999392032623,
+                            "y": 0.24699999392032623,
+                            "z": 0.24699999392032623
+                        },
+                        {
+                            "x": 0.24699999392032623,
+                            "y": 0.24699999392032623,
+                            "z": 0.24699999392032623
+                        },
+                        {
+                            "x": 0.5289999842643738,
+                            "y": 0.5289999842643738,
+                            "z": 0.5410000085830688
+                        },
+                        {
+                            "x": 0.5289999842643738,
+                            "y": 0.5289999842643738,
+                            "z": 0.5410000085830688
+                        }
                     ],
-                    "unk_uint32_0x0050": 2
+                    "unk_enum_0x0050": "2 <=> WeaponCustomizationSortGroups_Unknown_2"
                 },
                 {
                     "index": 9,
@@ -3722,19 +3655,34 @@
                     "name_cased": 2630981429,
                     "description": 3405992804,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11922880244874214807",
                     "icon": "0",
                     "slots": [
                         "3 <=> WeaponCustomizationSlot_PaintScheme"
                     ],
                     "unk_array_0x0040": [
-                        0.36399999260902405,
-                        0.35600000619888306,
-                        0.3919999897480011,
-                        0.24699999392032623
+                        {
+                            "x": 0.36399999260902405,
+                            "y": 0.35600000619888306,
+                            "z": 0.3919999897480011
+                        },
+                        {
+                            "x": 0.24699999392032623,
+                            "y": 0.24699999392032623,
+                            "z": 0.24699999392032623
+                        },
+                        {
+                            "x": 0.7799999713897705,
+                            "y": 0.7799999713897705,
+                            "z": 0.7799999713897705
+                        },
+                        {
+                            "x": 0.5289999842643738,
+                            "y": 0.5289999842643738,
+                            "z": 0.5410000085830688
+                        }
                     ],
-                    "unk_uint32_0x0050": 3
+                    "unk_enum_0x0050": "3 <=> WeaponCustomizationSortGroups_Unknown_3"
                 },
                 {
                     "index": 10,
@@ -3744,19 +3692,34 @@
                     "name_cased": 3726237995,
                     "description": 3434065534,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "8381211330462409119",
                     "icon": "0",
                     "slots": [
                         "3 <=> WeaponCustomizationSlot_PaintScheme"
                     ],
                     "unk_array_0x0040": [
-                        0.28999999165534973,
-                        0.28999999165534973,
-                        0.28999999165534973,
-                        0.28999999165534973
+                        {
+                            "x": 0.28999999165534973,
+                            "y": 0.28999999165534973,
+                            "z": 0.28999999165534973
+                        },
+                        {
+                            "x": 0.28999999165534973,
+                            "y": 0.28999999165534973,
+                            "z": 0.28999999165534973
+                        },
+                        {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
                     ],
-                    "unk_uint32_0x0050": 2
+                    "unk_enum_0x0050": "2 <=> WeaponCustomizationSortGroups_Unknown_2"
                 },
                 {
                     "index": 11,
@@ -3766,19 +3729,34 @@
                     "name_cased": 1828595582,
                     "description": 1079016720,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "8806876370553968256",
                     "icon": "0",
                     "slots": [
                         "3 <=> WeaponCustomizationSlot_PaintScheme"
                     ],
                     "unk_array_0x0040": [
-                        0.9210000038146973,
-                        0.8349999785423279,
-                        0.11299999803304672,
-                        0.9210000038146973
+                        {
+                            "x": 0.9210000038146973,
+                            "y": 0.8349999785423279,
+                            "z": 0.11299999803304672
+                        },
+                        {
+                            "x": 0.9210000038146973,
+                            "y": 0.8349999785423279,
+                            "z": 0.11299999803304672
+                        },
+                        {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
                     ],
-                    "unk_uint32_0x0050": 2
+                    "unk_enum_0x0050": "2 <=> WeaponCustomizationSortGroups_Unknown_2"
                 }
             ]
         }
@@ -3787,10 +3765,10 @@
         "WeaponCustomizationSettings_Triggers": {
             "_metadata": {
                 "struct_size": 88,
-                "omitted_size": 44,
+                "omitted_size": 48,
                 "exported_type_count": 3,
-                "patch_date": "2026-07-07",
-                "game_version": "1.006.301"
+                "patch_date": "2026-08-12",
+                "game_version": "1.007.000"
             },
             "items": [
                 {
@@ -3801,14 +3779,13 @@
                     "name_cased": 2471906021,
                     "description": 3647779562,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "15853858023476926424",
                     "icon": "0",
                     "slots": [
                         "9 <=> WeaponCustomizationSlot_Triggers"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 1,
@@ -3818,14 +3795,13 @@
                     "name_cased": 3094717709,
                     "description": 913090303,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "8376160989166120813",
                     "icon": "0",
                     "slots": [
                         "9 <=> WeaponCustomizationSlot_Triggers"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 2,
@@ -3835,14 +3811,13 @@
                     "name_cased": 3692999116,
                     "description": 1348015380,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "14294806289949965364",
                     "icon": "0",
                     "slots": [
                         "9 <=> WeaponCustomizationSlot_Triggers"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 }
             ]
         }
@@ -3851,10 +3826,10 @@
         "WeaponCustomizationSettings_UnderBarrel": {
             "_metadata": {
                 "struct_size": 88,
-                "omitted_size": 44,
+                "omitted_size": 48,
                 "exported_type_count": 17,
-                "patch_date": "2026-07-07",
-                "game_version": "1.006.301"
+                "patch_date": "2026-08-12",
+                "game_version": "1.007.000"
             },
             "items": [
                 {
@@ -3865,14 +3840,13 @@
                     "name_cased": 3062869501,
                     "description": 3363562662,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "8377170608278245884",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 1,
@@ -3882,14 +3856,13 @@
                     "name_cased": 2839874015,
                     "description": 1006830730,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "3503658004598565718",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 2,
@@ -3899,14 +3872,13 @@
                     "name_cased": 2071805061,
                     "description": 111832390,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "16624552526519423065",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 3,
@@ -3916,14 +3888,13 @@
                     "name_cased": 867992933,
                     "description": 3809290968,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "18005146981972618389",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 4,
@@ -3933,14 +3904,13 @@
                     "name_cased": 714973806,
                     "description": 526827858,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "10757409993037698465",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 5,
@@ -3950,14 +3920,13 @@
                     "name_cased": 1441132035,
                     "description": 3645832110,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "1691211542186203143",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 6,
@@ -3967,14 +3936,13 @@
                     "name_cased": 420168384,
                     "description": 1522649539,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "14869254156987147505",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 7,
@@ -3984,14 +3952,13 @@
                     "name_cased": 2856674401,
                     "description": 3886455139,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "4691712668585732061",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 8,
@@ -4001,14 +3968,13 @@
                     "name_cased": 2004735727,
                     "description": 1961076281,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "2075060160588494788",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 9,
@@ -4018,14 +3984,13 @@
                     "name_cased": 1512505369,
                     "description": 1029905686,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "4242942856953408323",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 10,
@@ -4035,14 +4000,13 @@
                     "name_cased": 2093504521,
                     "description": 4180408934,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "12223223486608688232",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 11,
@@ -4052,14 +4016,13 @@
                     "name_cased": 2093504521,
                     "description": 4180408934,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "17585969855336787973",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 12,
@@ -4069,14 +4032,13 @@
                     "name_cased": 3062869501,
                     "description": 3363562662,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11559192118362818531",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 13,
@@ -4086,14 +4048,13 @@
                     "name_cased": 3062869501,
                     "description": 3363562662,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "18227067380659170",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 14,
@@ -4103,14 +4064,13 @@
                     "name_cased": 3062869501,
                     "description": 3363562662,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "16615299789982261049",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 15,
@@ -4120,14 +4080,13 @@
                     "name_cased": 4117258824,
                     "description": 3708853653,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "201944147320653301",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
                     "index": 16,
@@ -4137,14 +4096,13 @@
                     "name_cased": 4150715923,
                     "description": 3052900159,
                     "fluff": 0,
-                    "unk_uint32_0x001C": 0,
                     "add_path": "11037037794164389181",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"
                     ],
                     "unk_array_0x0040": [],
-                    "unk_uint32_0x0050": 0
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 }
             ]
         }

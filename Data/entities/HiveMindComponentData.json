@@ -1,11 +1,11 @@
 {
     "_metadata": {
         "struct_size": 1080,
-        "omitted_size": 4,
+        "omitted_size": 6,
         "exported_entity_count": 19,
         "matched_bilingual_hash_count": 0,
-        "patch_date": "2026-07-07",
-        "game_version": "1.006.301"
+        "patch_date": "2026-08-12",
+        "game_version": "1.007.000"
     },
     "entities": [
         {
@@ -27,27 +27,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 0.0,
                     "unk_float_r0x0004": 0.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 0
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 0
                 },
                 "starting_time_limit": 2400.0,
                 "forced_encounter_point_amount": -1.0,
@@ -63,15 +69,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 1,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 1,
-                        "unk_uint32_r0x0020": 1,
-                        "unk_uint32_r0x0024": 1,
-                        "unk_float_r0x0028": 1.0,
-                        "unk_float_r0x002C": 1.0,
-                        "unk_uint32_r0x0030": 1,
-                        "unk_uint32_r0x0034": 0,
+                        "unk_array_r0x0014": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 1.0,
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint32_r0x0008": 1
+                        },
+                        "unk_bool_r0x0034": 0,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -434,7 +444,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 0
             }
         },
         {
@@ -456,27 +467,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 0.0,
                     "unk_float_r0x0004": 0.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 0
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 0
                 },
                 "starting_time_limit": 2400.0,
                 "forced_encounter_point_amount": -1.0,
@@ -492,15 +509,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 1,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 1,
-                        "unk_uint32_r0x0020": 1,
-                        "unk_uint32_r0x0024": 1,
-                        "unk_float_r0x0028": 1.0,
-                        "unk_float_r0x002C": 1.0,
-                        "unk_uint32_r0x0030": 1,
-                        "unk_uint32_r0x0034": 0,
+                        "unk_array_r0x0014": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 1.0,
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint32_r0x0008": 1
+                        },
+                        "unk_bool_r0x0034": 0,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -863,7 +884,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 0
             }
         },
         {
@@ -885,27 +907,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 0.0,
                     "unk_float_r0x0004": 0.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 0
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 0
                 },
                 "starting_time_limit": 2400.0,
                 "forced_encounter_point_amount": -1.0,
@@ -921,15 +949,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 1,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 1,
-                        "unk_uint32_r0x0020": 1,
-                        "unk_uint32_r0x0024": 1,
-                        "unk_float_r0x0028": 1.0,
-                        "unk_float_r0x002C": 1.0,
-                        "unk_uint32_r0x0030": 1,
-                        "unk_uint32_r0x0034": 0,
+                        "unk_array_r0x0014": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 1.0,
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint32_r0x0008": 1
+                        },
+                        "unk_bool_r0x0034": 0,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -1292,7 +1324,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 1
             }
         },
         {
@@ -1314,27 +1347,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 0.0,
                     "unk_float_r0x0004": 0.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 0
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 0
                 },
                 "starting_time_limit": 900.0,
                 "forced_encounter_point_amount": -1.0,
@@ -1350,15 +1389,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 1,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 1,
-                        "unk_uint32_r0x0020": 1,
-                        "unk_uint32_r0x0024": 1,
-                        "unk_float_r0x0028": 1.0,
-                        "unk_float_r0x002C": 1.0,
-                        "unk_uint32_r0x0030": 1,
-                        "unk_uint32_r0x0034": 0,
+                        "unk_array_r0x0014": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 1.0,
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint32_r0x0008": 1
+                        },
+                        "unk_bool_r0x0034": 0,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -1721,7 +1764,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 1
             }
         },
         {
@@ -1743,27 +1787,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 0.0,
                     "unk_float_r0x0004": 0.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 0
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 0
                 },
                 "starting_time_limit": 2400.0,
                 "forced_encounter_point_amount": 70.0,
@@ -1779,15 +1829,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 1,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 1,
-                        "unk_uint32_r0x0020": 1,
-                        "unk_uint32_r0x0024": 1,
-                        "unk_float_r0x0028": 1.0,
-                        "unk_float_r0x002C": 1.0,
-                        "unk_uint32_r0x0030": 1,
-                        "unk_uint32_r0x0034": 0,
+                        "unk_array_r0x0014": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 1.0,
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint32_r0x0008": 1
+                        },
+                        "unk_bool_r0x0034": 0,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -2150,7 +2204,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 0
             }
         },
         {
@@ -2172,27 +2227,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 0.0,
                     "unk_float_r0x0004": 0.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 0
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 0
                 },
                 "starting_time_limit": 2400.0,
                 "forced_encounter_point_amount": -1.0,
@@ -2208,15 +2269,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 0,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 2,
-                        "unk_uint32_r0x0020": 3,
-                        "unk_uint32_r0x0024": 4,
-                        "unk_float_r0x0028": 0.20000000298023224,
-                        "unk_float_r0x002C": 1.7999999523162842,
-                        "unk_uint32_r0x0030": 4,
-                        "unk_uint32_r0x0034": 1,
+                        "unk_array_r0x0014": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 0.20000000298023224,
+                            "unk_float_r0x0004": 1.7999999523162842,
+                            "unk_uint32_r0x0008": 4
+                        },
+                        "unk_bool_r0x0034": 1,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -2579,7 +2644,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 0
             }
         },
         {
@@ -2601,27 +2667,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 0.0,
                     "unk_float_r0x0004": 0.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 0
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 0
                 },
                 "starting_time_limit": 2400.0,
                 "forced_encounter_point_amount": -1.0,
@@ -2637,15 +2709,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 1,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 1,
-                        "unk_uint32_r0x0020": 1,
-                        "unk_uint32_r0x0024": 1,
-                        "unk_float_r0x0028": 1.0,
-                        "unk_float_r0x002C": 1.0,
-                        "unk_uint32_r0x0030": 1,
-                        "unk_uint32_r0x0034": 0,
+                        "unk_array_r0x0014": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 1.0,
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint32_r0x0008": 1
+                        },
+                        "unk_bool_r0x0034": 0,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -3008,7 +3084,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 1
             }
         },
         {
@@ -3030,27 +3107,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 0.0,
                     "unk_float_r0x0004": 0.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 0
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 0
                 },
                 "starting_time_limit": 900.0,
                 "forced_encounter_point_amount": -1.0,
@@ -3066,15 +3149,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 1,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 1,
-                        "unk_uint32_r0x0020": 1,
-                        "unk_uint32_r0x0024": 1,
-                        "unk_float_r0x0028": 1.0,
-                        "unk_float_r0x002C": 1.0,
-                        "unk_uint32_r0x0030": 1,
-                        "unk_uint32_r0x0034": 0,
+                        "unk_array_r0x0014": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 1.0,
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint32_r0x0008": 1
+                        },
+                        "unk_bool_r0x0034": 0,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -3437,7 +3524,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 1
             }
         },
         {
@@ -3459,27 +3547,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 0.0,
                     "unk_float_r0x0004": 0.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 0
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 0
                 },
                 "starting_time_limit": 2400.0,
                 "forced_encounter_point_amount": -1.0,
@@ -3495,15 +3589,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 1,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 1,
-                        "unk_uint32_r0x0020": 1,
-                        "unk_uint32_r0x0024": 1,
-                        "unk_float_r0x0028": 1.0,
-                        "unk_float_r0x002C": 1.0,
-                        "unk_uint32_r0x0030": 1,
-                        "unk_uint32_r0x0034": 0,
+                        "unk_array_r0x0014": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 1.0,
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint32_r0x0008": 1
+                        },
+                        "unk_bool_r0x0034": 0,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -3866,7 +3964,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 1
             }
         },
         {
@@ -3888,27 +3987,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 0.0,
                     "unk_float_r0x0004": 0.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 0
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 0
                 },
                 "starting_time_limit": 720.0,
                 "forced_encounter_point_amount": -1.0,
@@ -3924,15 +4029,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 1,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 1,
-                        "unk_uint32_r0x0020": 1,
-                        "unk_uint32_r0x0024": 1,
-                        "unk_float_r0x0028": 1.0,
-                        "unk_float_r0x002C": 1.0,
-                        "unk_uint32_r0x0030": 1,
-                        "unk_uint32_r0x0034": 0,
+                        "unk_array_r0x0014": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 1.0,
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint32_r0x0008": 1
+                        },
+                        "unk_bool_r0x0034": 0,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -4295,7 +4404,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 1
             }
         },
         {
@@ -4317,27 +4427,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 0.0,
                     "unk_float_r0x0004": 0.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 0
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 0
                 },
                 "starting_time_limit": 2400.0,
                 "forced_encounter_point_amount": -1.0,
@@ -4353,15 +4469,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 1,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 1,
-                        "unk_uint32_r0x0020": 1,
-                        "unk_uint32_r0x0024": 1,
-                        "unk_float_r0x0028": 1.0,
-                        "unk_float_r0x002C": 1.0,
-                        "unk_uint32_r0x0030": 1,
-                        "unk_uint32_r0x0034": 0,
+                        "unk_array_r0x0014": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 1.0,
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint32_r0x0008": 1
+                        },
+                        "unk_bool_r0x0034": 0,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -4724,7 +4844,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 1
             }
         },
         {
@@ -4746,27 +4867,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 0.0,
                     "unk_float_r0x0004": 0.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 1
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 1
                 },
                 "starting_time_limit": 900.0,
                 "forced_encounter_point_amount": -1.0,
@@ -4782,15 +4909,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 1,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 1,
-                        "unk_uint32_r0x0020": 1,
-                        "unk_uint32_r0x0024": 1,
-                        "unk_float_r0x0028": 1.0,
-                        "unk_float_r0x002C": 1.0,
-                        "unk_uint32_r0x0030": 1,
-                        "unk_uint32_r0x0034": 0,
+                        "unk_array_r0x0014": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 1.0,
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint32_r0x0008": 1
+                        },
+                        "unk_bool_r0x0034": 0,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -5153,7 +5284,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 1
             }
         },
         {
@@ -5175,27 +5307,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 0.0,
                     "unk_float_r0x0004": 0.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 0
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 0
                 },
                 "starting_time_limit": 720.0,
                 "forced_encounter_point_amount": -1.0,
@@ -5211,15 +5349,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 1,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 1,
-                        "unk_uint32_r0x0020": 1,
-                        "unk_uint32_r0x0024": 1,
-                        "unk_float_r0x0028": 1.0,
-                        "unk_float_r0x002C": 1.0,
-                        "unk_uint32_r0x0030": 1,
-                        "unk_uint32_r0x0034": 0,
+                        "unk_array_r0x0014": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 1.0,
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint32_r0x0008": 1
+                        },
+                        "unk_bool_r0x0034": 0,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -5582,7 +5724,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 1
             }
         },
         {
@@ -5604,27 +5747,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 0.0,
                     "unk_float_r0x0004": 0.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 1
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 1
                 },
                 "starting_time_limit": 900.0,
                 "forced_encounter_point_amount": -1.0,
@@ -5640,15 +5789,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 1,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 1,
-                        "unk_uint32_r0x0020": 1,
-                        "unk_uint32_r0x0024": 1,
-                        "unk_float_r0x0028": 1.0,
-                        "unk_float_r0x002C": 1.0,
-                        "unk_uint32_r0x0030": 1,
-                        "unk_uint32_r0x0034": 0,
+                        "unk_array_r0x0014": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 1.0,
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint32_r0x0008": 1
+                        },
+                        "unk_bool_r0x0034": 0,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -6011,7 +6164,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 1
             }
         },
         {
@@ -6033,27 +6187,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 300.0,
                     "unk_float_r0x0004": 600.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 0
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 0
                 },
                 "starting_time_limit": 2400.0,
                 "forced_encounter_point_amount": -1.0,
@@ -6069,15 +6229,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 1,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 1,
-                        "unk_uint32_r0x0020": 1,
-                        "unk_uint32_r0x0024": 1,
-                        "unk_float_r0x0028": 1.0,
-                        "unk_float_r0x002C": 1.0,
-                        "unk_uint32_r0x0030": 1,
-                        "unk_uint32_r0x0034": 0,
+                        "unk_array_r0x0014": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 1.0,
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint32_r0x0008": 1
+                        },
+                        "unk_bool_r0x0034": 0,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -6440,7 +6604,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 0
             }
         },
         {
@@ -6462,27 +6627,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 300.0,
                     "unk_float_r0x0004": 600.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 0
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 0
                 },
                 "starting_time_limit": 2400.0,
                 "forced_encounter_point_amount": -1.0,
@@ -6498,15 +6669,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 1,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 1,
-                        "unk_uint32_r0x0020": 1,
-                        "unk_uint32_r0x0024": 1,
-                        "unk_float_r0x0028": 1.0,
-                        "unk_float_r0x002C": 1.0,
-                        "unk_uint32_r0x0030": 1,
-                        "unk_uint32_r0x0034": 0,
+                        "unk_array_r0x0014": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 1.0,
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint32_r0x0008": 1
+                        },
+                        "unk_bool_r0x0034": 0,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -6869,7 +7044,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 1
             }
         },
         {
@@ -6891,27 +7067,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 300.0,
                     "unk_float_r0x0004": 600.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 0
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 0
                 },
                 "starting_time_limit": 900.0,
                 "forced_encounter_point_amount": -1.0,
@@ -6927,15 +7109,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 1,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 1,
-                        "unk_uint32_r0x0020": 1,
-                        "unk_uint32_r0x0024": 1,
-                        "unk_float_r0x0028": 1.0,
-                        "unk_float_r0x002C": 1.0,
-                        "unk_uint32_r0x0030": 1,
-                        "unk_uint32_r0x0034": 0,
+                        "unk_array_r0x0014": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 1.0,
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint32_r0x0008": 1
+                        },
+                        "unk_bool_r0x0034": 0,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -7298,7 +7484,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 1
             }
         },
         {
@@ -7320,27 +7507,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 300.0,
                     "unk_float_r0x0004": 600.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 0
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 0
                 },
                 "starting_time_limit": 720.0,
                 "forced_encounter_point_amount": -1.0,
@@ -7356,15 +7549,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 1,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 1,
-                        "unk_uint32_r0x0020": 1,
-                        "unk_uint32_r0x0024": 1,
-                        "unk_float_r0x0028": 1.0,
-                        "unk_float_r0x002C": 1.0,
-                        "unk_uint32_r0x0030": 1,
-                        "unk_uint32_r0x0034": 0,
+                        "unk_array_r0x0014": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 1.0,
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint32_r0x0008": 1
+                        },
+                        "unk_bool_r0x0034": 0,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -7727,7 +7924,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 1
             }
         },
         {
@@ -7749,27 +7947,33 @@
                     "patrol_massive": 1103945998,
                     "patrol_flying": 2618368861
                 },
-                "unk_struct": {
+                "0x862D83AA": {
                     "unk_float_r0x0000": 300.0,
                     "unk_float_r0x0004": 600.0,
-                    "unk_float_r0x0008": 700.0,
-                    "unk_uint32_r0x000C": 0,
-                    "unk_float_r0x0010": 100.0,
-                    "unk_float_r0x0014": 20.0,
-                    "unk_float_r0x0018": 40.0,
-                    "unk_float_r0x001C": 8.0,
-                    "unk_float_r0x0020": 14.0,
-                    "unk_uint32_r0x0024": 10,
-                    "unk_uint32_r0x0028": 6,
-                    "unk_uint32_r0x002C": 30,
-                    "unk_float_r0x0030": 1.0,
-                    "unk_float_r0x0034": 0.75,
-                    "unk_float_r0x0038": 0.5,
-                    "unk_float_r0x003C": 0.33000001311302185,
-                    "unk_float_r0x0040": 0.33000001311302185,
-                    "unk_float_r0x0044": 1.100000023841858,
-                    "unk_float_r0x0048": 1.25,
-                    "unk_bool_r0x004C": 1
+                    "unk_struct_r0x0008": {
+                        "x": 700.0,
+                        "y": 0.0,
+                        "z": 100.0
+                    }
+                },
+                "0x5F3EA0BF": {
+                    "unk_float_r0x0000": 20.0,
+                    "unk_float_r0x0004": 40.0,
+                    "unk_float_r0x0008": 8.0,
+                    "unk_float_r0x000C": 14.0,
+                    "unk_uint32_r0x0010": 10,
+                    "unk_uint32_r0x0014": 6,
+                    "unk_uint32_r0x0018": 30,
+                    "unk_array_r0x001C": [
+                        1.0,
+                        0.75,
+                        0.5,
+                        0.33000001311302185,
+                        0.33000001311302185,
+                        1.100000023841858,
+                        1.25
+                    ],
+                    "unk_bool_r0x0038": 1
                 },
                 "starting_time_limit": 900.0,
                 "forced_encounter_point_amount": -1.0,
@@ -7785,15 +7989,19 @@
                             0.44999998807907104,
                             0.699999988079071
                         ],
-                        "unk_uint32_r0x0014": 1,
-                        "unk_uint32_r0x0018": 1,
-                        "unk_uint32_r0x001C": 1,
-                        "unk_uint32_r0x0020": 1,
-                        "unk_uint32_r0x0024": 1,
-                        "unk_float_r0x0028": 1.0,
-                        "unk_float_r0x002C": 1.0,
-                        "unk_uint32_r0x0030": 1,
-                        "unk_uint32_r0x0034": 0,
+                        "unk_array_r0x0014": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "0x786C177B": {
+                            "unk_float_r0x0000": 1.0,
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint32_r0x0008": 1
+                        },
+                        "unk_bool_r0x0034": 0,
                         "step_radio_vo": [
                             3190257098,
                             2564403311,
@@ -8156,7 +8364,8 @@
                 },
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
-                "unk_bool_0x0436": 1
+                "unk_bool_0x0436": 1,
+                "unk_bool_0x0437": 1
             }
         }
     ]

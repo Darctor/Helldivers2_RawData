@@ -1,0 +1,5244 @@
+{
+    "_metadata": {
+        "struct_size": 36,
+        "omitted_size": 3,
+        "exported_entity_count": 218,
+        "matched_bilingual_hash_count": 198,
+        "patch_date": "2026-08-12",
+        "game_version": "1.007.000"
+    },
+    "entities": [
+        {
+            "0x0883366204E1CCC5": {
+                "hash": "613393768869121221",
+                "name": "Gazer",
+                "name_zh": "凝视者",
+                "index": 0,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.10000000149011612,
+                    "y": 0.20000000298023224
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.20000000298023224,
+                    "y": 0.30000001192092896
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x1448D494665D01A0": {
+                "hash": "1461651812919345568",
+                "name": "Gazer MK2",
+                "name_zh": "凝视者 MK2",
+                "index": 1,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.0010000000474974513,
+                    "y": 0.0010000000474974513
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 1,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x4F44BBCEA1AE0AFE": {
+                "hash": "5711896723562826494",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 2,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x36AA99CCE5E60146": {
+                "hash": "3939129929398354246",
+                "name": "Bile Spewer",
+                "name_zh": "胆汁喷涌虫",
+                "index": 3,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x960B48A421A3FAAA": {
+                "hash": "10811815200209238698",
+                "name": "Dragonroach",
+                "name_zh": "蟑龙",
+                "index": 4,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xD465D9C7F77A07CB": {
+                "hash": "15304878361562187723",
+                "name": "Hivelord",
+                "name_zh": "霸王虫",
+                "index": 5,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x9E2E17F2CCCCAFDD": {
+                "hash": "11398074038506794973",
+                "name": "Bile Titan",
+                "name_zh": "吐酸泰坦",
+                "index": 6,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xA6A68D8AF177F3A1": {
+                "hash": "12008441084326179745",
+                "name": "Berserker",
+                "name_zh": "狂暴者",
+                "index": 7,
+                "recoil_multiplier": 0.25,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 5.0,
+                    "y": 8.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x54E107DACF6929CB": {
+                "hash": "6116178405309884875",
+                "name": "Berserker MK2",
+                "name_zh": "狂暴者 MK2",
+                "index": 8,
+                "recoil_multiplier": 0.25,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 5.0,
+                    "y": 8.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x7ECE5304F868F6B3": {
+                "hash": "9137331974793918131",
+                "name": "Trooper (No Package)",
+                "name_zh": "装甲兵（无包裹）",
+                "index": 9,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x9D8827FED763650E": {
+                "hash": "11351366836276126990",
+                "name": "Male Agitator",
+                "name_zh": "惑乱者（男）",
+                "index": 10,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x96BA14C9EBB49CE1": {
+                "hash": "10861016308832836833",
+                "name": "Hulk",
+                "name_zh": "巨型者",
+                "index": 11,
+                "recoil_multiplier": 0.5,
+                "aim_interpolation_speed": 30.0,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xAE63E525853D7044": {
+                "hash": "12566139334605762628",
+                "name": "Devastator MK3",
+                "name_zh": "蹂躏者 MK3",
+                "index": 12,
+                "recoil_multiplier": 0.25,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 5.0,
+                    "y": 8.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xC626D2BB495A202D": {
+                "hash": "14278331370456096813",
+                "name": "Devastator",
+                "name_zh": "蹂躏者",
+                "index": 13,
+                "recoil_multiplier": 0.25,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 5.0,
+                    "y": 8.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xA98F8B559C7993D8": {
+                "hash": "12218137513893139416",
+                "name": "Automaton HMG Emplacement",
+                "name_zh": "机器人 营地重机枪",
+                "index": 14,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x2C1A7790C435FD67": {
+                "hash": "3177983950714174823",
+                "name": "Automaton LMG Emplacement",
+                "name_zh": "机器人 营地机枪",
+                "index": 15,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x16023E554FEE830E": {
+                "hash": "1585898554922009358",
+                "name": "Cyborg Tank LMG",
+                "name_zh": "坦克 轻机枪",
+                "index": 16,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xAEAEF7A1851E6C9D": {
+                "hash": "12587270281642273949",
+                "name": "Automaton AA Emplacement",
+                "name_zh": "机器人 防空炮塔",
+                "index": 17,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xFF5CC825B9571052": {
+                "hash": "18400802241877839954",
+                "name": "Automaton Mortar Emplacement",
+                "name_zh": "机器人 迫击炮塔",
+                "index": 18,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xABDB2E2A0479D8CA": {
+                "hash": "12383542358383909066",
+                "name": "Cannon Turret MK2",
+                "name_zh": "机器人 加农炮塔 MK2",
+                "index": 19,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xCD28A27A79BE53D5": {
+                "hash": "14783244423755879381",
+                "name": "Command Bunker HMG",
+                "name_zh": "指挥碉堡 碉堡重机枪",
+                "index": 20,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x9926876B2375A1BB": {
+                "hash": "11035656831144141243",
+                "name": "Bunker Turret",
+                "name_zh": "机器人 碉堡炮塔",
+                "index": 21,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x39114412B91C5FB8": {
+                "hash": "4112142781971718072",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 22,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x48C91E42B9F16512": {
+                "hash": "5244756512985933074",
+                "name": "Factory Strider Gatling MK3",
+                "name_zh": "移动工厂 加特林 MK3",
+                "index": 23,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xEF570293245A17C2": {
+                "hash": "17246256129031935938",
+                "name": "War Strider",
+                "name_zh": "战争纵步者",
+                "index": 24,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 5.0,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x282EB766C1FFA6A1": {
+                "hash": "2895453262415111841",
+                "name": "Gunship",
+                "name_zh": "炮艇",
+                "index": 25,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xBC242702FB46B7E7": {
+                "hash": "13557003672051169255",
+                "name": "Vox Engine",
+                "name_zh": "噪轰引擎",
+                "index": 26,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xD37E8D120D2836E3": {
+                "hash": "15239773297738004195",
+                "name": "Factory Strider",
+                "name_zh": "移动工厂",
+                "index": 27,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x31BAE74D2F064D8D": {
+                "hash": "3583430772214091149",
+                "name": "Annihilator Tank MK2",
+                "name_zh": "湮灭坦克 MK2",
+                "index": 28,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 30.0,
+                "sway_multiplier": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xF8131632AA867107": {
+                "hash": "17875655752828743943",
+                "name": "Scout Strider",
+                "name_zh": "侦察纵步者",
+                "index": 29,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 20.0,
+                "sway_multiplier": {
+                    "x": 3.0,
+                    "y": 5.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x4D1C334D294DFA97": {
+                "hash": "5556372446766824087",
+                "name": "Player Clone (Avatar)",
+                "name_zh": "玩家本体",
+                "index": 30,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 1,
+                "world_aim_position_as_target": 1,
+                "aim_use_interpolation": 1,
+                "smooth_aim_constraint": 1,
+                "use_animation_recoil": 1,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xC734373E4B3E1DF7": {
+                "hash": "14354158653026475511",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 31,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x3CB772E481DBE9F8": {
+                "hash": "4375091888770509304",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 32,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xDC0B7C25253A8255": {
+                "hash": "15855903412068188757",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 33,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x7956C174E9FAEFE0": {
+                "hash": "8743388434472300512",
+                "name": "AX/LAS-5 Rover MK2 (Drone)",
+                "name_zh": "AX/LAS-5 漫游车 MK2（无人机）",
+                "index": 34,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x9872EEB31A5F88FD": {
+                "hash": "10985104894119086333",
+                "name": "GATER Turret",
+                "name_zh": "地面全地形采集钻机 炮塔",
+                "index": 35,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x23A60681DD4383EC": {
+                "hash": "2568747792294183916",
+                "name": "Eagle Strafe Run",
+                "name_zh": "飞鹰机枪扫射",
+                "index": 36,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xD336BA1CAD16769F": {
+                "hash": "15219556623070951071",
+                "name": "APC Turret",
+                "name_zh": "装甲运兵车 炮塔",
+                "index": 37,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xB4CF4E52E9956087": {
+                "hash": "13028718365019299975",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 38,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xA12A30F44DB871DF": {
+                "hash": "11613148414962332127",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 39,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x3B49715551E4CCF1": {
+                "hash": "4272070332797734129",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 40,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xB6CAF17BA65A7147": {
+                "hash": "13171605573572653383",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 41,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x8365609B35EF6672": {
+                "hash": "9468080011357415026",
+                "name": "Pelican Turret",
+                "name_zh": "鹈鹕 40mm 穿甲高爆机炮",
+                "index": 42,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xC25DC40EDE0E2D16": {
+                "hash": "14005565984326167830",
+                "name": "GATER HMG Turret",
+                "name_zh": "地面全地形采集钻机 重机枪炮塔",
+                "index": 43,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xE8F19A0AA958E46D": {
+                "hash": "16785366656768074861",
+                "name": "Crescent Overseer",
+                "name_zh": "新月监视者",
+                "index": 44,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x453FE22C634EB30F": {
+                "hash": "4989955592422339343",
+                "name": "Gatekeeper",
+                "name_zh": "御门者",
+                "index": 45,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 5.0,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xDA40BB347C7447F2": {
+                "hash": "15726775732878460914",
+                "name": "Overseer",
+                "name_zh": "监视者",
+                "index": 46,
+                "recoil_multiplier": 0.6000000238418579,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 2.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x604A794EC45BB820": {
+                "hash": "6938491555126425632",
+                "name": "Elevated Overseer",
+                "name_zh": "崇高监视者",
+                "index": 47,
+                "recoil_multiplier": 0.6000000238418579,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 4.0,
+                    "y": 4.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xAC60E78435098C9D": {
+                "hash": "12421182327299345565",
+                "name": "Watcher",
+                "name_zh": "守望者",
+                "index": 48,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x34DFD23365472E9E": {
+                "hash": "3809994927963057822",
+                "name": "Obtruder",
+                "name_zh": "突入者",
+                "index": 49,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 20.0,
+                    "y": 10.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.5,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x965EAE5A51ACDD4A": {
+                "hash": "10835289456440565066",
+                "name": "Harvester",
+                "name_zh": "猎杀器",
+                "index": 50,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x2B09C5CC8F46B23B": {
+                "hash": "3101227300789072443",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 51,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x96110F9D6B010E02": {
+                "hash": "10813441349072784898",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 52,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x0D382AE7FFEA9D45": {
+                "hash": "952558497108237637",
+                "name": "Lightning Spire",
+                "name_zh": "光能族电塔 电弧发射器",
+                "index": 53,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x4E342031A9D5C4F9": {
+                "hash": "5635164431422178553",
+                "name": "Leviathan Beam Turret (Model)",
+                "name_zh": "利维坦 激光炮",
+                "index": 54,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.10000000149011612,
+                    "y": 0.20000000298023224
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.20000000298023224,
+                    "y": 0.30000001192092896
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x19E18B46EC55D94A": {
+                "hash": "1864924857437116746",
+                "name": "Stingray",
+                "name_zh": "刺魟",
+                "index": 55,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x75F7E96AF7DCD303": {
+                "hash": "8500519467319350019",
+                "name": "SEAF Support Payload",
+                "name_zh": "SEAF支援载荷一",
+                "index": 56,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x021EAECF4CA267DC": {
+                "hash": "152751642744350684",
+                "name": "SEAF (City)",
+                "name_zh": "SEAF（城市）",
+                "index": 57,
+                "recoil_multiplier": 0.8999999761581421,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 10.0,
+                    "y": 10.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x684284354532CC0E": {
+                "hash": "7512712492736498702",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 58,
+                "recoil_multiplier": 0.8999999761581421,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 10.0,
+                    "y": 10.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xF903A153F47AD10F": {
+                "hash": "17943362722330235151",
+                "name": "Extractable Worker Male",
+                "name_zh": "撤离的科学家 男",
+                "index": 59,
+                "recoil_multiplier": 0.8999999761581421,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 10.0,
+                    "y": 10.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x4828E14AEE6FA2CA": {
+                "hash": "5199653481743360714",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 60,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x1DB272DDA55199E0": {
+                "hash": "2139899069241334240",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 61,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xA1BDB3A13E3633DD": {
+                "hash": "11654668915819557853",
+                "name": "SAM Launcher",
+                "name_zh": "地对空导弹发射器",
+                "index": 62,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x9BFC8FCD68B09F28": {
+                "hash": "11240016882397388584",
+                "name": "SEAF Artillery",
+                "name_zh": "超级地球武装部队大炮",
+                "index": 63,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x2670E0047B2EB409": {
+                "hash": "2769960080684004361",
+                "name": "Detector Tower",
+                "name_zh": "探测塔",
+                "index": 64,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x6838D8C197CC9C78": {
+                "hash": "7509990704627358840",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 65,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xED12FA4BDA0BB76D": {
+                "hash": "17082991540257404781",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 66,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x60544E51EE260967": {
+                "hash": "6941259039479564647",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 67,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x262351741C53FF0C": {
+                "hash": "2748129756759457548",
+                "name": "Gazer Spire",
+                "name_zh": "凝视者 尖塔",
+                "index": 68,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.0010000000474974513,
+                    "y": 0.0010000000474974513
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 1,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xCCAE5264ACD591B7": {
+                "hash": "14748816422034837943",
+                "name": "Bile Spewer MK2",
+                "name_zh": "胆汁喷涌虫 MK2",
+                "index": 69,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xA381A11C07D3EB94": {
+                "hash": "11781875241940413332",
+                "name": "Rupture Spewer",
+                "name_zh": "爆裂喷涌虫",
+                "index": 70,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xCC7022FDD172089B": {
+                "hash": "14731312854664874139",
+                "name": "Nursing Spewer MK2",
+                "name_zh": "抚育喷涌虫 MK2",
+                "index": 71,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x6021E22338333D88": {
+                "hash": "6927066342767148424",
+                "name": "Nursing Spewer",
+                "name_zh": "抚育喷涌虫",
+                "index": 72,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x883401AF2A98A5F6": {
+                "hash": "9814471339792705014",
+                "name": "Predator Hunter",
+                "name_zh": "掠食追猎虫",
+                "index": 73,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x72A83E49CED6DB3D": {
+                "hash": "8261922003134896957",
+                "name": "Bile Spitter",
+                "name_zh": "胆汁吐沫虫",
+                "index": 74,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xEF04CB84D097A497": {
+                "hash": "17223114646267339927",
+                "name": "Spore Burst Bile Titan",
+                "name_zh": "孢裂泰坦",
+                "index": 75,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xB5DBC0C240C921AD": {
+                "hash": "13104279481307701677",
+                "name": "Incendiary Berserker",
+                "name_zh": "狂暴者 MK3（炽灼部队）",
+                "index": 76,
+                "recoil_multiplier": 0.25,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 5.0,
+                    "y": 8.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xD5792F6856B06BA4": {
+                "hash": "15382378127438146468",
+                "name": "Jet Brigade Berserker",
+                "name_zh": "喷气狂暴者",
+                "index": 77,
+                "recoil_multiplier": 0.25,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 5.0,
+                    "y": 8.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xB056F8FC74ABA02D": {
+                "hash": "12706617161845284909",
+                "name": "Cannon Trooper",
+                "name_zh": "激光炮装甲兵（废案）",
+                "index": 78,
+                "recoil_multiplier": 0.6000000238418579,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 10.0,
+                    "y": 5.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.5,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x7B48CACDBACB3881": {
+                "hash": "8883573249939290241",
+                "name": "Trooper MK2",
+                "name_zh": "装甲兵 MK2",
+                "index": 79,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xAE57FCDB49F74E98": {
+                "hash": "12562787704342269592",
+                "name": "Trooper MK2 MG",
+                "name_zh": "装甲兵 MK2（机枪版）",
+                "index": 80,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x82A87AD8D595B2BA": {
+                "hash": "9414910092732904122",
+                "name": "Pyro Trooper",
+                "name_zh": "炙焰装甲兵",
+                "index": 81,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x09DFB04B2E578BC3": {
+                "hash": "711481103094352835",
+                "name": "Incendiary Rocket Trooper",
+                "name_zh": "激光装甲兵",
+                "index": 82,
+                "recoil_multiplier": 0.6000000238418579,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 10.0,
+                    "y": 5.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.5,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x089833D2880D9E06": {
+                "hash": "619301928082185734",
+                "name": "Incendiary MG Raider",
+                "name_zh": "机枪奇袭者（炽灼部队）",
+                "index": 83,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x52018DEB9AB6827E": {
+                "hash": "5909160229139284606",
+                "name": "Jet Brigade Trooper (Crash)",
+                "name_zh": "喷气装甲兵（崩溃）",
+                "index": 84,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xAF0F9B3A163787A5": {
+                "hash": "12614471755071195045",
+                "name": "Jet Brigade Trooper",
+                "name_zh": "喷气装甲兵",
+                "index": 85,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x856E9710E45E760F": {
+                "hash": "9614788353289254415",
+                "name": "Jet Brigade Raider",
+                "name_zh": "特攻奇袭者",
+                "index": 86,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xB4ED319B39F5457B": {
+                "hash": "13037131039069521275",
+                "name": "MG Raider",
+                "name_zh": "机枪奇袭者",
+                "index": 87,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xA4552F97033392F4": {
+                "hash": "11841423120880866036",
+                "name": "Jet Brigade MG Raider",
+                "name_zh": "喷气机枪奇袭者",
+                "index": 88,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xD8CBC4A807A6D035": {
+                "hash": "15621795958426619957",
+                "name": "Brawler",
+                "name_zh": "乱斗者",
+                "index": 89,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x30CF04B2EC8C9BD4": {
+                "hash": "3517035000518974420",
+                "name": "Scout Raider",
+                "name_zh": "侦察奇袭者",
+                "index": 90,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xFB9937035D652C43": {
+                "hash": "18129582262547983427",
+                "name": "Trooper",
+                "name_zh": "装甲兵",
+                "index": 91,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x257D805CAA7E10C0": {
+                "hash": "2701456486977900736",
+                "name": "Shotgun Trooper",
+                "name_zh": "装甲兵 霰弹（废案）",
+                "index": 92,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x4019623142351CB6": {
+                "hash": "4618830856548850870",
+                "name": "Trooper MK3",
+                "name_zh": "装甲兵 MK3",
+                "index": 93,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x64BA5F030B114EC1": {
+                "hash": "7258218216136199873",
+                "name": "Raider",
+                "name_zh": "奇袭者",
+                "index": 94,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x0002BA767DF856F3": {
+                "hash": "767968035755763",
+                "name": "Marauder",
+                "name_zh": "劫掠者",
+                "index": 95,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xA71AAFD82C6EBC92": {
+                "hash": "12041129896721693842",
+                "name": "Commissar",
+                "name_zh": "机械统帅",
+                "index": 96,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x215CE160A17BE4CD": {
+                "hash": "2404044106251363533",
+                "name": "Jet Brigade Commissar",
+                "name_zh": "喷气机械统帅",
+                "index": 97,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x1B5B9AC4F96B36E5": {
+                "hash": "1971339432693544677",
+                "name": "Incendiary Commissar",
+                "name_zh": "机械统帅（炽灼部队）",
+                "index": 98,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x09FE0BE51A23396C": {
+                "hash": "720026069039790444",
+                "name": "Female Agiator",
+                "name_zh": "惑乱者（女）",
+                "index": 99,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x746A7F3BEDA32699": {
+                "hash": "8388657151297660569",
+                "name": "Male Radical",
+                "name_zh": "激进先锋（男）",
+                "index": 100,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xCBB1BA3366009C3A": {
+                "hash": "14677717390494571578",
+                "name": "Female Radical",
+                "name_zh": "激进先锋（女）",
+                "index": 101,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x1E66EE1F6F7FD00E": {
+                "hash": "2190700087544369166",
+                "name": "Hulk Obliterator",
+                "name_zh": "巨型抹煞者",
+                "index": 102,
+                "recoil_multiplier": 0.5,
+                "aim_interpolation_speed": 30.0,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x3E0537D606438FEA": {
+                "hash": "4469039597602705386",
+                "name": "Hulk Scorcher",
+                "name_zh": "巨型炙焰者",
+                "index": 103,
+                "recoil_multiplier": 0.5,
+                "aim_interpolation_speed": 30.0,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xE44EC9F9B3FE1D2A": {
+                "hash": "16451308563134815530",
+                "name": "Jet Brigade Hulk Scorcher",
+                "name_zh": "喷气巨型炙焰者",
+                "index": 104,
+                "recoil_multiplier": 0.5,
+                "aim_interpolation_speed": 30.0,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x6DAB2EADF5D8B692": {
+                "hash": "7902461295840507538",
+                "name": "Hulk Firebomber",
+                "name_zh": "巨型烈焰轰炸者",
+                "index": 105,
+                "recoil_multiplier": 0.5,
+                "aim_interpolation_speed": 30.0,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x1897BDD32105D2DC": {
+                "hash": "1772093692883358428",
+                "name": "Hulk Scorcher MK2",
+                "name_zh": "巨型炙焰者 MK2（炽灼部队）",
+                "index": 106,
+                "recoil_multiplier": 0.5,
+                "aim_interpolation_speed": 30.0,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x137988CEA16458F7": {
+                "hash": "1403303179954968823",
+                "name": "Hulk Bruiser",
+                "name_zh": "巨型碾压者",
+                "index": 107,
+                "recoil_multiplier": 0.5,
+                "aim_interpolation_speed": 30.0,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x32CDEADA234FB8DF": {
+                "hash": "3660840294738278623",
+                "name": "Jet Brigade Hulk Bruiser",
+                "name_zh": "喷气巨型碾压者",
+                "index": 108,
+                "recoil_multiplier": 0.5,
+                "aim_interpolation_speed": 30.0,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x57EED0EAC346CD9D": {
+                "hash": "6336231432473988509",
+                "name": "Incendiary Devastator",
+                "name_zh": "蹂躏者 MK3（炽灼部队）",
+                "index": 109,
+                "recoil_multiplier": 0.25,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 5.0,
+                    "y": 8.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xFC8DEC78BE8AB47D": {
+                "hash": "18198461672611034237",
+                "name": "Devastator MK2 Spawn",
+                "name_zh": "蹂躏者 MK2 移动工厂生产",
+                "index": 110,
+                "recoil_multiplier": 0.25,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 5.0,
+                    "y": 8.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xBE743B2FAA3A6E26": {
+                "hash": "13723659040410201638",
+                "name": "Jet Brigade Devastator",
+                "name_zh": "喷气蹂躏者",
+                "index": 111,
+                "recoil_multiplier": 0.25,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 5.0,
+                    "y": 8.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xB92435FBF60F0748": {
+                "hash": "13340847352459495240",
+                "name": "Heavy Devastator MK2",
+                "name_zh": "重型蹂躏者 MK2",
+                "index": 112,
+                "recoil_multiplier": 0.25,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 5.0,
+                    "y": 8.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xF8B5A81A86D5D4EB": {
+                "hash": "17921415124075533547",
+                "name": "Heavy Devastator",
+                "name_zh": "重型蹂躏者",
+                "index": 113,
+                "recoil_multiplier": 0.25,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 5.0,
+                    "y": 8.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x58B2B86C11369241": {
+                "hash": "6391373595476922945",
+                "name": "Incendiary MG Devastator",
+                "name_zh": "燃烧机枪蹂躏者",
+                "index": 114,
+                "recoil_multiplier": 0.25,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 5.0,
+                    "y": 8.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x91EBD77931110AFC": {
+                "hash": "10514734670540770044",
+                "name": "Heavy Devastator MK3",
+                "name_zh": "重型蹂躏者 MK3",
+                "index": 115,
+                "recoil_multiplier": 0.25,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 5.0,
+                    "y": 8.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x9647B00CC3A9D36F": {
+                "hash": "10828817397904429935",
+                "name": "Rocket Devastator",
+                "name_zh": "火箭蹂躏者",
+                "index": 116,
+                "recoil_multiplier": 0.25,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 5.0,
+                    "y": 8.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xF66D0BAD8693779A": {
+                "hash": "17756861745706792858",
+                "name": "Rocket Devastator MK2",
+                "name_zh": "火箭蹂躏者 MK2",
+                "index": 117,
+                "recoil_multiplier": 0.25,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 5.0,
+                    "y": 8.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xC9BCCCB0A54A82A4": {
+                "hash": "14536718756304552612",
+                "name": "Incendiary Rocket Devastator",
+                "name_zh": "火箭蹂躏者 MK3 （炽灼部队）",
+                "index": 118,
+                "recoil_multiplier": 0.25,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 5.0,
+                    "y": 8.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xE0353177F1329573": {
+                "hash": "16155873629479015795",
+                "name": "Conflagration Devastator",
+                "name_zh": "烈火蹂躏者",
+                "index": 119,
+                "recoil_multiplier": 0.25,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 5.0,
+                    "y": 8.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x843D18D4B5512B63": {
+                "hash": "9528799688439966563",
+                "name": "Factory Strider Cannon Turret",
+                "name_zh": "移动工厂 连发加农炮",
+                "index": 120,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x611BA777783B08A2": {
+                "hash": "6997370577610279074",
+                "name": "Vox Engine Cannon Turret",
+                "name_zh": "噪轰引擎 速射加农炮",
+                "index": 121,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x51C6132EC1D10E7E": {
+                "hash": "5892418254001999486",
+                "name": "Cyborg Tank Gatling",
+                "name_zh": "坦克 加特林",
+                "index": 122,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x2CF3488C4845F8BD": {
+                "hash": "3239012324354685117",
+                "name": "Cannon Turret",
+                "name_zh": "机器人 加农炮塔",
+                "index": 123,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x5D142C3A73EBC634": {
+                "hash": "6707034374626068020",
+                "name": "Barrager Tank Ballistic Missile",
+                "name_zh": "铁幕坦克 炮塔",
+                "index": 124,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xF2881F5807348116": {
+                "hash": "17476252816949674262",
+                "name": "Vox Engine Gatling Left",
+                "name_zh": "噪轰引擎 加特林机枪（左）",
+                "index": 125,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x356DE4A7808EF3E3": {
+                "hash": "3849984664539165667",
+                "name": "Vox Engine Gatling Right",
+                "name_zh": "噪轰引擎 加特林机枪（右）",
+                "index": 126,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x1C6981CA2FB69508": {
+                "hash": "2047310211000472840",
+                "name": "Factory Strider Gatling MK4",
+                "name_zh": "移动工厂 加特林 MK4",
+                "index": 127,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x6A7A54D5FB3A6D17": {
+                "hash": "7672538193198738711",
+                "name": "Factory Strider Gatling MK5",
+                "name_zh": "移动工厂 加特林 MK5",
+                "index": 128,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x390E6B3D2F26BD70": {
+                "hash": "4111341420364086640",
+                "name": "Factory Strider Gatling MK2 (Left)",
+                "name_zh": "移动工厂 加特林 MK2（左）",
+                "index": 129,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x3AAFBA89B53B0F63": {
+                "hash": "4228803675738017635",
+                "name": "Factory Strider Gatling MK1 (Right)",
+                "name_zh": "移动工厂 加特林 MK1（右）",
+                "index": 130,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x30F2DEE2333F227A": {
+                "hash": "3527126521288270458",
+                "name": "Jammer Factory Strider",
+                "name_zh": "移动工厂 带干扰塔",
+                "index": 131,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xC6449FFD9EA3779C": {
+                "hash": "14286719829563111324",
+                "name": "Shredder Tank",
+                "name_zh": "碎裂坦克",
+                "index": 132,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 30.0,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x53D8919D7B8ABD67": {
+                "hash": "6041739005686103399",
+                "name": "Annihilator Tank",
+                "name_zh": "湮灭坦克",
+                "index": 133,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 30.0,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x63DF3D07B7424588": {
+                "hash": "7196537832909981064",
+                "name": "Barrager Tank",
+                "name_zh": "铁幕坦克",
+                "index": 134,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 30.0,
+                "sway_multiplier": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x9076EEED17FCEE35": {
+                "hash": "10409770290790592053",
+                "name": "Reinforced Scout Strider",
+                "name_zh": "强化侦察纵步者",
+                "index": 135,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 20.0,
+                "sway_multiplier": {
+                    "x": 3.0,
+                    "y": 5.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xD25291CB6BBEAE8B": {
+                "hash": "15155335998927187595",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 136,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x37BACD53809F3A77": {
+                "hash": "4015747776278116983",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 137,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x847A06CA8885C6AB": {
+                "hash": "9545949827108816555",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 138,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x979E9BC6D48D1FC6": {
+                "hash": "10925341024319250374",
+                "name": "AX/FLAM-75 Hot Dog (Drone)",
+                "name_zh": "AX/FLAM-75 热狗（无人机）",
+                "index": 139,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xB9BAF571FC8F9959": {
+                "hash": "13383279112602229081",
+                "name": "AX/TX-13 Dog Breath (Drone)",
+                "name_zh": "AX/TX-13 腐息（无人机）",
+                "index": 140,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xA0FF2F9A0CA6992A": {
+                "hash": "11601043503813400874",
+                "name": "AX/AR-23 Guard Dog (Drone)",
+                "name_zh": "AX/AR-23 护卫犬（无人机）",
+                "index": 141,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x019544309FAC4508": {
+                "hash": "114072341195801864",
+                "name": "AX/AR-23 Guard Dog MK2 (Drone)",
+                "name_zh": "AX/AR-23 护卫犬 MK2（无人机）",
+                "index": 142,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xF800D5F62789246C": {
+                "hash": "17870518574608098412",
+                "name": "AX/AR-23 Guard Dog MK3 (Drone)",
+                "name_zh": "AX/AR-23 护卫犬 MK3（无人机）",
+                "index": 143,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xF9D5219640D65EF9": {
+                "hash": "18002332014700027641",
+                "name": "AX/AR-23 Guard Dog MK4 (Drone)",
+                "name_zh": "AX/AR-23 护卫犬 MK4（无人机）",
+                "index": 144,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x5BEEC97F4C7F4AE9": {
+                "hash": "6624453650490018537",
+                "name": "AX/LAS-5 Rover (Drone)",
+                "name_zh": "AX/LAS-5 漫游车（无人机）",
+                "index": 145,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x4B071633584E4594": {
+                "hash": "5406314287462237588",
+                "name": "AX/ARC-3 K-9 (Drone)",
+                "name_zh": "AX/ARC-3 K9（无人机）",
+                "index": 146,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x03F31CAF3A7D8F4E": {
+                "hash": "284602740380634958",
+                "name": "G-142 Pyrotech (Model)",
+                "name_zh": "G-142 烟花束（投掷物，模型）",
+                "index": 147,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x2B11C9E4980EC479": {
+                "hash": "3103483601875813497",
+                "name": "E/AT-12 Anti-Tank Emplacement",
+                "name_zh": "E/AT-12固定反坦克炮",
+                "index": 148,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x68A34D32A1025F04": {
+                "hash": "7539955080993332996",
+                "name": "A/G-16 Gatling Sentry MK5",
+                "name_zh": "A/G-16 加特林哨戒炮 MK5",
+                "index": 149,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x820CC3BAFE962858": {
+                "hash": "9371080132553746520",
+                "name": "A/FLAM-40 Flame Sentry",
+                "name_zh": "A/FLAM-40 火焰哨戒炮",
+                "index": 150,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x56070F36CFFFA8A8": {
+                "hash": "6198940140191066280",
+                "name": "A/LAS-98 Laser Sentry",
+                "name_zh": "A/LAS-98 激光哨戒炮",
+                "index": 151,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xAA4564F90CDBF5F1": {
+                "hash": "12269323780666160625",
+                "name": "A/MG-43 Machine Gun Sentry MK2",
+                "name_zh": "A/MG-43 哨戒机枪 MK2",
+                "index": 152,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x0E977C49DB7604F9": {
+                "hash": "1051445694670701817",
+                "name": "E/MG-101 HMG Emplacement",
+                "name_zh": "E/MG-101 固定重机枪",
+                "index": 153,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xA970CBA66FBEAA11": {
+                "hash": "12209482505501190673",
+                "name": "E/MG-101 HMG Emplacement MK2",
+                "name_zh": "E/MG-101 固定重机枪 MK2",
+                "index": 154,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x51A0812E3BCE2D74": {
+                "hash": "5881843148917714292",
+                "name": "A/M-12 Mortar Sentry",
+                "name_zh": "A/M-12 高爆迫击炮",
+                "index": 155,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x299C0D3DFD2F0994": {
+                "hash": "2998286011813792148",
+                "name": "A/GM-17 Gas Mortar Sentry",
+                "name_zh": "A/GM-17 瓦斯迫击炮",
+                "index": 156,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xB2053A1838092F8B": {
+                "hash": "12827722989328478091",
+                "name": "A/M-23 EMS Mortar Sentry",
+                "name_zh": "A/M-23 静电迫击炮",
+                "index": 157,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xE0E257B37526DBE3": {
+                "hash": "16204610837508709347",
+                "name": "E/MG-101 HMG Emplacement (Flamethrower)",
+                "name_zh": "E/MG-101 固定重机枪（火焰喷射器）",
+                "index": 158,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x1980D92B619FF5FE": {
+                "hash": "1837707428311856638",
+                "name": "E/MG-101 HMG Emplacement (Laser)",
+                "name_zh": "E/MG-101 固定重机枪（激光）",
+                "index": 159,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x24510E7B16B5F7A5": {
+                "hash": "2616888780303759269",
+                "name": "E/MG-101 HMG Emplacement (Railgun)",
+                "name_zh": "E/MG-101 固定重机枪（磁轨炮）",
+                "index": 160,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xEB91B90EEC279745": {
+                "hash": "16974551944278808389",
+                "name": "E/MG-101 HMG Emplacement (Rocket)",
+                "name_zh": "E/MG-101 固定重机枪（火箭哨戒炮）",
+                "index": 161,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x8633FF89EF4F6788": {
+                "hash": "9670353792785147784",
+                "name": "A/AC-8 Autocannon Sentry Plasma",
+                "name_zh": "A/AC-8 自动哨戒炮MK2（焦土射弹）",
+                "index": 162,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x37079568DC86E9C6": {
+                "hash": "3965302274531977670",
+                "name": "A/MLS-4X Rocket Sentry",
+                "name_zh": "A/MLS-4X 火箭哨戒炮",
+                "index": 163,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x74599E56F72F9D7E": {
+                "hash": "8383906277678357886",
+                "name": "A/ARC-3 Tesla Tower",
+                "name_zh": "A/ARC-3特斯拉塔",
+                "index": 164,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xEF85D6CF58E31D70": {
+                "hash": "17259437333005147504",
+                "name": "A/G-16 Gatling Sentry",
+                "name_zh": "A/G-16 加特林哨戒炮",
+                "index": 165,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x7FF0FD4572F5996F": {
+                "hash": "9219146911950674287",
+                "name": "A/G-16 Gatling Sentry MK2",
+                "name_zh": "A/G-16 加特林哨戒炮 MK2",
+                "index": 166,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x57F27CBD5B71B0CB": {
+                "hash": "6337264778388549835",
+                "name": "A/G-16 Gatling Sentry MK4",
+                "name_zh": "A/G-16 加特林哨戒炮 MK4",
+                "index": 167,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x37CDE43876BA26BB": {
+                "hash": "4021120973472933563",
+                "name": "A/MG-43 Machine Gun Sentry",
+                "name_zh": "A/MG-43 哨戒机枪",
+                "index": 168,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x2EA01CB1676ACA29": {
+                "hash": "3359716870288230953",
+                "name": "Eagle Airstrike",
+                "name_zh": "飞鹰空袭",
+                "index": 169,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x1B3BCADABC7EF8D6": {
+                "hash": "1962385103464102102",
+                "name": "Eagle Air Strike Smoke",
+                "name_zh": "飞鹰烟雾",
+                "index": 170,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xE44B691DC039A505": {
+                "hash": "16450357640400839941",
+                "name": "Eagle 500KG Bomb",
+                "name_zh": "飞鹰500KG炸弹",
+                "index": 171,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x9D4F7CB4EB34515D": {
+                "hash": "11335415903596859741",
+                "name": "Eagle Cluster Bomb",
+                "name_zh": "飞鹰集束炸弹",
+                "index": 172,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xDBB286AD7ED9DF96": {
+                "hash": "15830863719876386710",
+                "name": "Eagle Gas Strike",
+                "name_zh": "飞鹰毒气空袭",
+                "index": 173,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x0BD0F9D59048E9D1": {
+                "hash": "851455025217071569",
+                "name": "Eagle Fast Strike",
+                "name_zh": "飞鹰快速打击",
+                "index": 174,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xDFBB9A0D8FA27D85": {
+                "hash": "16121648674137865605",
+                "name": "Eagle Air-To-Air Missiles",
+                "name_zh": "飞鹰空对空导弹",
+                "index": 175,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x27BB558C893383CC": {
+                "hash": "2862976050209719244",
+                "name": "Eagle Napalm Airstrike",
+                "name_zh": "飞鹰凝固汽油弹",
+                "index": 176,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x397792815583DA29": {
+                "hash": "4140939466573601321",
+                "name": "Eagle 110MM Rocket Pods",
+                "name_zh": "飞鹰110火箭巢",
+                "index": 177,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xDE6CD49631940A14": {
+                "hash": "16027418915446721044",
+                "name": "APC Turret MK2",
+                "name_zh": "装甲运兵车 炮塔 MK2",
+                "index": 178,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xF1610AC48CDC5240": {
+                "hash": "17393195075174683200",
+                "name": "Overseer (No Package)",
+                "name_zh": "监视者（无包裹模型）",
+                "index": 179,
+                "recoil_multiplier": 0.6000000238418579,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 2.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x08E6FFC2474287BD": {
+                "hash": "641481206831155133",
+                "name": "Overseer MK2",
+                "name_zh": "监视者 MK2",
+                "index": 180,
+                "recoil_multiplier": 0.6000000238418579,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 2.0,
+                    "y": 2.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xD63FCBFF0851B7AF": {
+                "hash": "15438282343866021807",
+                "name": "Harvester MK2",
+                "name_zh": "猎杀器 MK2",
+                "index": 181,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xF196069E7E14C497": {
+                "hash": "17408108687437120663",
+                "name": "Leviathan Beam Turret Left (Model)",
+                "name_zh": "利维坦 激光炮 左",
+                "index": 182,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.10000000149011612,
+                    "y": 0.20000000298023224
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.20000000298023224,
+                    "y": 0.30000001192092896
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x7ACB4BD753B71DE0": {
+                "hash": "8848249281094032864",
+                "name": "Leviathan Beam Turret Right (Model)",
+                "name_zh": "利维坦 激光炮 右",
+                "index": 183,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.10000000149011612,
+                    "y": 0.20000000298023224
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.20000000298023224,
+                    "y": 0.30000001192092896
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xD87D04AACBC0269C": {
+                "hash": "15599629815890585244",
+                "name": "Officer MK3 (No Package)",
+                "name_zh": "舰长 MK3",
+                "index": 184,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xA45CFD1C3607EEC8": {
+                "hash": "11843619417684963016",
+                "name": "Personnel Generic MK3",
+                "name_zh": "舰船工人 MK3（穿护具）",
+                "index": 185,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xFA75F8DCBFFBA877": {
+                "hash": "18047604708754565239",
+                "name": "Personnel Generic MK4",
+                "name_zh": "舰船工人 MK4",
+                "index": 186,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x1E592FE6DAED807F": {
+                "hash": "2186831762627068031",
+                "name": "Personnel Generic MK5",
+                "name_zh": "舰船工人 MK5",
+                "index": 187,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x61EFB2D6A167F285": {
+                "hash": "7057055776013546117",
+                "name": "Personnel Generic MK6",
+                "name_zh": "舰船工人 MK6",
+                "index": 188,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x491E961533AFFC15": {
+                "hash": "5268813631875709973",
+                "name": "Personnel Generic MK7",
+                "name_zh": "舰船工人 MK7",
+                "index": 189,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xD4D4EAE659BC671C": {
+                "hash": "15336140906172278556",
+                "name": "Personnel Generic MK8",
+                "name_zh": "舰船工人 MK8",
+                "index": 190,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xC30B36E82086D814": {
+                "hash": "14054387432745785364",
+                "name": "Personnel Generic MK9",
+                "name_zh": "舰船工人 MK9",
+                "index": 191,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x6B22AE8E5F669D4F": {
+                "hash": "7719924637775600975",
+                "name": "SEAF With Backpack",
+                "name_zh": "背包SEAF",
+                "index": 192,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xA00331F24DEEF2EE": {
+                "hash": "11530114387757953774",
+                "name": "SEAF MK1",
+                "name_zh": "SEAF MK1",
+                "index": 193,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x548136F66F5C9B5C": {
+                "hash": "6089208603239816028",
+                "name": "SEAF MK2",
+                "name_zh": "SEAF MK2",
+                "index": 194,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xBCFC57848F206106": {
+                "hash": "13617855600110100742",
+                "name": "SEAF With Wireless MK1",
+                "name_zh": "无线电SEAF MK1",
+                "index": 195,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x78DABC7344E50234": {
+                "hash": "8708480032737395252",
+                "name": "SEAF With Wireless MK2",
+                "name_zh": "无线电SEAF MK2",
+                "index": 196,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x14453B8FCB040099": {
+                "hash": "1460639142923993241",
+                "name": "Medical SEAF MK1",
+                "name_zh": "医疗兵SEAF MK1",
+                "index": 197,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x6FB1E73E00A84329": {
+                "hash": "8048468262572802857",
+                "name": "Medical SEAF MK2",
+                "name_zh": "医疗兵SEAF MK2",
+                "index": 198,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xC47287D738BE91C3": {
+                "hash": "14155525937218621891",
+                "name": "Medical SEAF MK3",
+                "name_zh": "医疗兵SEAF MK3",
+                "index": 199,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xBFB5C88D557595D8": {
+                "hash": "13814167941378577880",
+                "name": "Mg/Anti-Tank SEAF MK1",
+                "name_zh": "机枪次抛SEAF MK1",
+                "index": 200,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xA6DCC225E1263606": {
+                "hash": "12023698573119337990",
+                "name": "Mg/Anti-Tank SEAF MK2",
+                "name_zh": "机枪次抛SEAF MK2",
+                "index": 201,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 2.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x04C99523A808EF90": {
+                "hash": "344970826846105488",
+                "name": "A/G-16 Gatling Sentry MK2.1",
+                "name_zh": "A/G-16 加特林哨戒炮 MK2.1",
+                "index": 202,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x87F46B6D12BB016A": {
+                "hash": "9796573205647524202",
+                "name": "A/G-16 Gatling Sentry MK3",
+                "name_zh": "A/G-16 加特林哨戒炮 MK3",
+                "index": 203,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x0E37A0FA0A978620": {
+                "hash": "1024464436030047776",
+                "name": "Extractable Worker Female",
+                "name_zh": "撤离的科学家 女",
+                "index": 204,
+                "recoil_multiplier": 0.8999999761581421,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 10.0,
+                    "y": 10.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x8661CA5CF58D8162": {
+                "hash": "9683243174428770658",
+                "name": "Extractable Worker Female MK2",
+                "name_zh": "撤离的科学家 女 MK2",
+                "index": 205,
+                "recoil_multiplier": 0.8999999761581421,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 10.0,
+                    "y": 10.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x8D435A5C9A304215": {
+                "hash": "10179078936557797909",
+                "name": "Extractable Worker Female MK3",
+                "name_zh": "撤离的科学家 女 MK3",
+                "index": 206,
+                "recoil_multiplier": 0.8999999761581421,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 10.0,
+                    "y": 10.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xD5A6ABA03479CFB8": {
+                "hash": "15395181080776134584",
+                "name": "Extractable Worker Female MK4",
+                "name_zh": "撤离的科学家 女 MK4",
+                "index": 207,
+                "recoil_multiplier": 0.8999999761581421,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 10.0,
+                    "y": 10.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xC2D93163FDBB14A1": {
+                "hash": "14040307618832651425",
+                "name": "Extractable Worker Male MK2",
+                "name_zh": "撤离的科学家 男 MK2",
+                "index": 208,
+                "recoil_multiplier": 0.8999999761581421,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 10.0,
+                    "y": 10.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x674FB0849F8A1140": {
+                "hash": "7444362792725516608",
+                "name": "Extractable Worker Male MK3",
+                "name_zh": "撤离的科学家 男 MK3",
+                "index": 209,
+                "recoil_multiplier": 0.8999999761581421,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 10.0,
+                    "y": 10.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x111BEED56922BF4C": {
+                "hash": "1232841523375292236",
+                "name": "Extractable Worker Male MK4",
+                "name_zh": "撤离的科学家 男 MK4",
+                "index": 210,
+                "recoil_multiplier": 0.8999999761581421,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 10.0,
+                    "y": 10.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x1312B769F47256D9": {
+                "hash": "1374362502002005721",
+                "name": "SAM Launcher MK2",
+                "name_zh": "地对空导弹发射器 MK2",
+                "index": 211,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x9F57782F00E6ED20": {
+                "hash": "11481777918278298912",
+                "name": "Incendiary Trooper",
+                "name_zh": "装甲兵（炽灼部队）",
+                "index": 212,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0xE683D2CA5618D74A": {
+                "hash": "16610351617142216522",
+                "name": "Incendiary Raider",
+                "name_zh": "奇袭者（炽灼部队）",
+                "index": 213,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.5,
+                    "y": 1.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 2.0,
+                    "y": 3.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x2A12104F2853AE16": {
+                "hash": "3031503431338798614",
+                "name": "Rocket Raider",
+                "name_zh": "火箭奇袭者",
+                "index": 214,
+                "recoil_multiplier": 0.6000000238418579,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 10.0,
+                    "y": 5.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.5,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x73681FFD58FA1A90": {
+                "hash": "8315931884919593616",
+                "name": "Resupply Pod AR-23",
+                "name_zh": "补给上的解放者",
+                "index": 215,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x54D86057F5DACFB9": {
+                "hash": "6113742425058627513",
+                "name": "A/AC-8 Autocannon Sentry",
+                "name_zh": "A/AC-8 自动哨戒炮",
+                "index": 216,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
+            "0x4DF41F84668D07FB": {
+                "hash": "5617149288754513915",
+                "name": "M-103 Supply FRV AR Sentry",
+                "name_zh": "M-103 补给型 解放者炮塔",
+                "index": 217,
+                "recoil_multiplier": 1.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 1.0,
+                    "y": 0.5
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        }
+    ]
+}

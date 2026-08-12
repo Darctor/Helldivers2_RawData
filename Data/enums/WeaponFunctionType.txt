@@ -8,7 +8,6 @@ WeaponFunctionType_LaserGuide
 WeaponFunctionType_MuzzleVelocity
 WeaponFunctionType_ProgrammableAmmo
 WeaponFunctionType_LaserPrism
-WeaponFunctionType_Unk10
 WeaponFunctionType_Detonate 
 WeaponFunctionType_UnderBarrelWeapon
 WeaponFunctionType_Count

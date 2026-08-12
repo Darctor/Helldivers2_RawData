@@ -1,11 +1,11 @@
 {
     "_metadata": {
-        "struct_size": 892,
+        "struct_size": 852,
         "omitted_size": 0,
         "exported_entity_count": 1,
         "matched_bilingual_hash_count": 1,
-        "patch_date": "2026-07-07",
-        "game_version": "1.006.301"
+        "patch_date": "2026-08-12",
+        "game_version": "1.007.000"
     },
     "entities": [
         {
@@ -126,18 +126,6 @@
                     "dirt_speed_crouching": 3.0,
                     "dirt_speed_prone": 10.0,
                     "dirt_speed_sliding": 20.0
-                },
-                "movement_haptics": {
-                    "left_sprinting": 2723938989,
-                    "right_sprinting": 2723938989,
-                    "left_jogging": 0,
-                    "right_jogging": 0,
-                    "left_walking": 0,
-                    "right_walking": 0,
-                    "left_crouching": 0,
-                    "right_crouching": 0,
-                    "left_crawling": 4156496004,
-                    "right_crawling": 4156496004
                 },
                 "exertion_levels": [
                     {
@@ -278,7 +266,7 @@
                 "ragdoll_damage_velocity_upper": 105.0,
                 "ragdoll_damage_min": 10.0,
                 "ragdoll_damage_max": 300.0,
-                "ragdoll_damage_snow_modifier": 0.6000000238418579,
+                "ragdoll_damage_snow_modifier": 0.75,
                 "min_aim_duration": 0.09000000357627869,
                 "max_aim_duration": 0.5,
                 "min_fire_ready_duration": 0.03999999910593033,

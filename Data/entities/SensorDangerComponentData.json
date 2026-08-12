@@ -1,11 +1,11 @@
 {
     "_metadata": {
         "struct_size": 12,
-        "omitted_size": 0,
-        "exported_entity_count": 183,
-        "matched_bilingual_hash_count": 179,
-        "patch_date": "2026-07-07",
-        "game_version": "1.006.301"
+        "omitted_size": 3,
+        "exported_entity_count": 189,
+        "matched_bilingual_hash_count": 184,
+        "patch_date": "2026-08-12",
+        "game_version": "1.007.000"
     },
     "entities": [
         {
@@ -416,11 +416,33 @@
             }
         },
         {
+            "0xCC188F0C80505C6C": {
+                "hash": "14706661867033484396",
+                "name": "Wretch",
+                "name_zh": "悲怜体",
+                "index": 37,
+                "danger_max": 20.0,
+                "danger_sphere_radius": 4.0,
+                "ignore_stance": 0
+            }
+        },
+        {
+            "0x905809A4C28D8A45": {
+                "hash": "10401073942655502917",
+                "name": "Crusher",
+                "name_zh": "粉碎者",
+                "index": 38,
+                "danger_max": 20.0,
+                "danger_sphere_radius": 4.0,
+                "ignore_stance": 0
+            }
+        },
+        {
             "0x78E1497571012C47": {
                 "hash": "8710323923067153479",
                 "name": "Voteless Light",
                 "name_zh": "无票者（轻型）",
-                "index": 37,
+                "index": 39,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 2.0,
                 "ignore_stance": 0
@@ -431,7 +453,7 @@
                 "hash": "2358135177943625061",
                 "name": "Veracitor",
                 "name_zh": "证真者",
-                "index": 38,
+                "index": 40,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -442,7 +464,7 @@
                 "hash": "4989955592422339343",
                 "name": "Gatekeeper",
                 "name_zh": "御门者",
-                "index": 39,
+                "index": 41,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -453,7 +475,7 @@
                 "hash": "15726775732878460914",
                 "name": "Overseer",
                 "name_zh": "监视者",
-                "index": 40,
+                "index": 42,
                 "danger_max": 15.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -464,7 +486,7 @@
                 "hash": "6938491555126425632",
                 "name": "Elevated Overseer",
                 "name_zh": "崇高监视者",
-                "index": 41,
+                "index": 43,
                 "danger_max": 15.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -475,7 +497,7 @@
                 "hash": "7483912604024319283",
                 "name": "Fleshmob",
                 "name_zh": "肉瘤体",
-                "index": 42,
+                "index": 44,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 2.0,
                 "ignore_stance": 0
@@ -486,7 +508,7 @@
                 "hash": "12421182327299345565",
                 "name": "Watcher",
                 "name_zh": "守望者",
-                "index": 43,
+                "index": 45,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 5.0,
                 "ignore_stance": 0
@@ -497,7 +519,7 @@
                 "hash": "3809994927963057822",
                 "name": "Obtruder",
                 "name_zh": "突入者",
-                "index": 44,
+                "index": 46,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -508,7 +530,7 @@
                 "hash": "10835289456440565066",
                 "name": "Harvester",
                 "name_zh": "猎杀器",
-                "index": 45,
+                "index": 47,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 8.0,
                 "ignore_stance": 0
@@ -519,7 +541,7 @@
                 "hash": "3480210643284562409",
                 "name": "Illuminate Drone",
                 "name_zh": "光能族无人机",
-                "index": 46,
+                "index": 48,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -530,7 +552,7 @@
                 "hash": "11133230925446715426",
                 "name": "Watcher (Crash)",
                 "name_zh": "守望者（废案，崩溃）",
-                "index": 47,
+                "index": 49,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -541,7 +563,7 @@
                 "hash": "3101227300789072443",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 48,
+                "index": 50,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -552,7 +574,7 @@
                 "hash": "10813441349072784898",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 49,
+                "index": 51,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -563,7 +585,7 @@
                 "hash": "5635164431422178553",
                 "name": "Leviathan Beam Turret (Model)",
                 "name_zh": "利维坦 激光炮",
-                "index": 50,
+                "index": 52,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -574,7 +596,7 @@
                 "hash": "1864924857437116746",
                 "name": "Stingray",
                 "name_zh": "刺魟",
-                "index": 51,
+                "index": 53,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -585,20 +607,20 @@
                 "hash": "17450606859370033415",
                 "name": "Leviathan",
                 "name_zh": "利维坦",
-                "index": 52,
+                "index": 54,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 40.0,
                 "ignore_stance": 0
             }
         },
         {
-            "0x7A3637CD33A54E4C": {
-                "hash": "8806287475843878476",
-                "name": "SEAF",
-                "name_zh": "SEAF",
-                "index": 53,
+            "0x75F7E96AF7DCD303": {
+                "hash": "8500519467319350019",
+                "name": "SEAF Support Payload",
+                "name_zh": "SEAF支援载荷一",
+                "index": 55,
                 "danger_max": 10.0,
-                "danger_sphere_radius": 2.0,
+                "danger_sphere_radius": 5.0,
                 "ignore_stance": 0
             }
         },
@@ -607,7 +629,7 @@
                 "hash": "5385448928519479034",
                 "name": "Civilian",
                 "name_zh": "平民",
-                "index": 54,
+                "index": 56,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -618,7 +640,7 @@
                 "hash": "152751642744350684",
                 "name": "SEAF (City)",
                 "name_zh": "SEAF（城市）",
-                "index": 55,
+                "index": 57,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 2.0,
                 "ignore_stance": 0
@@ -629,7 +651,7 @@
                 "hash": "7512712492736498702",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 56,
+                "index": 58,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 2.0,
                 "ignore_stance": 0
@@ -640,7 +662,7 @@
                 "hash": "17943362722330235151",
                 "name": "Extractable Worker Male",
                 "name_zh": "撤离的科学家 男",
-                "index": 57,
+                "index": 59,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 2.0,
                 "ignore_stance": 0
@@ -651,9 +673,20 @@
                 "hash": "2769960080684004361",
                 "name": "Detector Tower",
                 "name_zh": "探测塔",
-                "index": 58,
+                "index": 60,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 30.0,
+                "ignore_stance": 0
+            }
+        },
+        {
+            "0x262351741C53FF0C": {
+                "hash": "2748129756759457548",
+                "name": "Gazer Spire",
+                "name_zh": "凝视者 尖塔",
+                "index": 61,
+                "danger_max": 20.0,
+                "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
             }
         },
@@ -662,7 +695,7 @@
                 "hash": "7532632187257416932",
                 "name": "Tutorial Bug Hole Mechanical",
                 "name_zh": "新手教程虫洞",
-                "index": 59,
+                "index": 62,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 15.0,
                 "ignore_stance": 0
@@ -673,7 +706,7 @@
                 "hash": "6699176282901212749",
                 "name": "Tutorial Bug Hole Mechanical Scavenger",
                 "name_zh": "新手教程虫洞 MK2",
-                "index": 60,
+                "index": 63,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 15.0,
                 "ignore_stance": 0
@@ -684,7 +717,7 @@
                 "hash": "14748816422034837943",
                 "name": "Bile Spewer MK2",
                 "name_zh": "胆汁喷涌虫 MK2",
-                "index": 61,
+                "index": 64,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 5.0,
                 "ignore_stance": 0
@@ -695,7 +728,7 @@
                 "hash": "11781875241940413332",
                 "name": "Rupture Spewer",
                 "name_zh": "爆裂喷涌虫",
-                "index": 62,
+                "index": 65,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 5.0,
                 "ignore_stance": 0
@@ -706,7 +739,7 @@
                 "hash": "14731312854664874139",
                 "name": "Nursing Spewer MK2",
                 "name_zh": "抚育喷涌虫 MK2",
-                "index": 63,
+                "index": 66,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 5.0,
                 "ignore_stance": 0
@@ -717,7 +750,7 @@
                 "hash": "6927066342767148424",
                 "name": "Nursing Spewer",
                 "name_zh": "抚育喷涌虫",
-                "index": 64,
+                "index": 67,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 5.0,
                 "ignore_stance": 0
@@ -728,7 +761,7 @@
                 "hash": "7719208875390099550",
                 "name": "Spore Charger",
                 "name_zh": "孢子强袭虫",
-                "index": 65,
+                "index": 68,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 5.0,
                 "ignore_stance": 0
@@ -739,7 +772,18 @@
                 "hash": "4251221953861716889",
                 "name": "Charger Behemoth",
                 "name_zh": "巨兽级强袭虫",
-                "index": 66,
+                "index": 69,
+                "danger_max": 20.0,
+                "danger_sphere_radius": 5.0,
+                "ignore_stance": 0
+            }
+        },
+        {
+            "0xFD5247653C897803": {
+                "hash": "18253730739818952707",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 70,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 5.0,
                 "ignore_stance": 0
@@ -750,7 +794,7 @@
                 "hash": "4399458158766252490",
                 "name": "Hunter MK2",
                 "name_zh": "追猎虫 MK2",
-                "index": 67,
+                "index": 71,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 5.0,
                 "ignore_stance": 0
@@ -761,7 +805,7 @@
                 "hash": "6676641717166653626",
                 "name": "Hunter MK3",
                 "name_zh": "追猎虫 MK3",
-                "index": 68,
+                "index": 72,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 5.0,
                 "ignore_stance": 0
@@ -772,7 +816,7 @@
                 "hash": "9814471339792705014",
                 "name": "Predator Hunter",
                 "name_zh": "掠食追猎虫",
-                "index": 69,
+                "index": 73,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 5.0,
                 "ignore_stance": 0
@@ -783,7 +827,7 @@
                 "hash": "15125779956101896786",
                 "name": "Predator Stalker",
                 "name_zh": "掠食追踪虫",
-                "index": 70,
+                "index": 74,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -794,7 +838,7 @@
                 "hash": "5903841343181520462",
                 "name": "Scavenger MK2",
                 "name_zh": "食腐虫 MK2",
-                "index": 71,
+                "index": 75,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -805,7 +849,7 @@
                 "hash": "16121421951002036444",
                 "name": "Scavenger MK2 (Captive)",
                 "name_zh": "食腐虫 MK2（俘虏）",
-                "index": 72,
+                "index": 76,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -816,7 +860,7 @@
                 "hash": "11135777548304851724",
                 "name": "Scavenger MK3",
                 "name_zh": "食腐虫 MK3",
-                "index": 73,
+                "index": 77,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -827,7 +871,7 @@
                 "hash": "12300518439027380185",
                 "name": "Pouncer",
                 "name_zh": "猛扑虫",
-                "index": 74,
+                "index": 78,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -838,7 +882,7 @@
                 "hash": "8261922003134896957",
                 "name": "Bile Spitter",
                 "name_zh": "胆汁吐沫虫",
-                "index": 75,
+                "index": 79,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -849,7 +893,7 @@
                 "hash": "17344047887226579155",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 76,
+                "index": 80,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -860,7 +904,7 @@
                 "hash": "17223114646267339927",
                 "name": "Spore Burst Bile Titan",
                 "name_zh": "孢裂泰坦",
-                "index": 77,
+                "index": 81,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 12.0,
                 "ignore_stance": 0
@@ -871,7 +915,7 @@
                 "hash": "13707236614338800569",
                 "name": "Warrior MK2",
                 "name_zh": "武斗虫 MK2",
-                "index": 78,
+                "index": 82,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -882,7 +926,7 @@
                 "hash": "5663271064929335883",
                 "name": "Warrior MK2 (Captive)",
                 "name_zh": "武斗虫 MK2（俘虏）",
-                "index": 79,
+                "index": 83,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -893,7 +937,7 @@
                 "hash": "3626558530581732572",
                 "name": "Warrior MK3",
                 "name_zh": "武斗虫 MK3",
-                "index": 80,
+                "index": 84,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -904,7 +948,7 @@
                 "hash": "12873251592757102566",
                 "name": "Warrior (Spawned)",
                 "name_zh": "狂暴武斗虫",
-                "index": 81,
+                "index": 85,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -915,7 +959,7 @@
                 "hash": "1155202780614770422",
                 "name": "Bile Warrior",
                 "name_zh": "酸液武斗虫",
-                "index": 82,
+                "index": 86,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -926,7 +970,7 @@
                 "hash": "15358116161893188517",
                 "name": "Brood Commander",
                 "name_zh": "虫族指挥官",
-                "index": 83,
+                "index": 87,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -937,7 +981,7 @@
                 "hash": "17842374123104475103",
                 "name": "Alpha Commander",
                 "name_zh": "阿尔法指挥官",
-                "index": 84,
+                "index": 88,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -948,7 +992,7 @@
                 "hash": "11768477327318910982",
                 "name": "Rupture Warrior",
                 "name_zh": "爆裂武斗虫",
-                "index": 85,
+                "index": 89,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -959,7 +1003,7 @@
                 "hash": "11669807341511884260",
                 "name": "Hive Guard",
                 "name_zh": "虫窝护卫",
-                "index": 86,
+                "index": 90,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -970,7 +1014,7 @@
                 "hash": "13104279481307701677",
                 "name": "Incendiary Berserker",
                 "name_zh": "狂暴者 MK3（炽灼部队）",
-                "index": 87,
+                "index": 91,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -981,7 +1025,7 @@
                 "hash": "15382378127438146468",
                 "name": "Jet Brigade Berserker",
                 "name_zh": "喷气狂暴者",
-                "index": 88,
+                "index": 92,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -992,7 +1036,7 @@
                 "hash": "12706617161845284909",
                 "name": "Cannon Trooper",
                 "name_zh": "激光炮装甲兵（废案）",
-                "index": 89,
+                "index": 93,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1003,7 +1047,7 @@
                 "hash": "8883573249939290241",
                 "name": "Trooper MK2",
                 "name_zh": "装甲兵 MK2",
-                "index": 90,
+                "index": 94,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1014,7 +1058,7 @@
                 "hash": "12562787704342269592",
                 "name": "Trooper MK2 MG",
                 "name_zh": "装甲兵 MK2（机枪版）",
-                "index": 91,
+                "index": 95,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1025,7 +1069,7 @@
                 "hash": "9414910092732904122",
                 "name": "Pyro Trooper",
                 "name_zh": "炙焰装甲兵",
-                "index": 92,
+                "index": 96,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1036,7 +1080,7 @@
                 "hash": "711481103094352835",
                 "name": "Incendiary Rocket Trooper",
                 "name_zh": "激光装甲兵",
-                "index": 93,
+                "index": 97,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1047,7 +1091,7 @@
                 "hash": "619301928082185734",
                 "name": "Incendiary MG Raider",
                 "name_zh": "机枪奇袭者（炽灼部队）",
-                "index": 94,
+                "index": 98,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1058,7 +1102,7 @@
                 "hash": "5909160229139284606",
                 "name": "Jet Brigade Trooper (Crash)",
                 "name_zh": "喷气装甲兵（崩溃）",
-                "index": 95,
+                "index": 99,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1069,7 +1113,7 @@
                 "hash": "12614471755071195045",
                 "name": "Jet Brigade Trooper",
                 "name_zh": "喷气装甲兵",
-                "index": 96,
+                "index": 100,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1080,7 +1124,7 @@
                 "hash": "9614788353289254415",
                 "name": "Jet Brigade Raider",
                 "name_zh": "特攻奇袭者",
-                "index": 97,
+                "index": 101,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1091,7 +1135,7 @@
                 "hash": "13037131039069521275",
                 "name": "MG Raider",
                 "name_zh": "机枪奇袭者",
-                "index": 98,
+                "index": 102,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1102,7 +1146,7 @@
                 "hash": "11841423120880866036",
                 "name": "Jet Brigade MG Raider",
                 "name_zh": "喷气机枪奇袭者",
-                "index": 99,
+                "index": 103,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1113,7 +1157,7 @@
                 "hash": "15621795958426619957",
                 "name": "Brawler",
                 "name_zh": "乱斗者",
-                "index": 100,
+                "index": 104,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1124,7 +1168,7 @@
                 "hash": "3517035000518974420",
                 "name": "Scout Raider",
                 "name_zh": "侦察奇袭者",
-                "index": 101,
+                "index": 105,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1135,7 +1179,7 @@
                 "hash": "18129582262547983427",
                 "name": "Trooper",
                 "name_zh": "装甲兵",
-                "index": 102,
+                "index": 106,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1146,7 +1190,7 @@
                 "hash": "2701456486977900736",
                 "name": "Shotgun Trooper",
                 "name_zh": "装甲兵 霰弹（废案）",
-                "index": 103,
+                "index": 107,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1157,7 +1201,7 @@
                 "hash": "4618830856548850870",
                 "name": "Trooper MK3",
                 "name_zh": "装甲兵 MK3",
-                "index": 104,
+                "index": 108,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1168,7 +1212,7 @@
                 "hash": "7258218216136199873",
                 "name": "Raider",
                 "name_zh": "奇袭者",
-                "index": 105,
+                "index": 109,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1179,7 +1223,7 @@
                 "hash": "767968035755763",
                 "name": "Marauder",
                 "name_zh": "劫掠者",
-                "index": 106,
+                "index": 110,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1190,7 +1234,7 @@
                 "hash": "12041129896721693842",
                 "name": "Commissar",
                 "name_zh": "机械统帅",
-                "index": 107,
+                "index": 111,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1201,7 +1245,7 @@
                 "hash": "2404044106251363533",
                 "name": "Jet Brigade Commissar",
                 "name_zh": "喷气机械统帅",
-                "index": 108,
+                "index": 112,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1212,7 +1256,7 @@
                 "hash": "1971339432693544677",
                 "name": "Incendiary Commissar",
                 "name_zh": "机械统帅（炽灼部队）",
-                "index": 109,
+                "index": 113,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1223,7 +1267,7 @@
                 "hash": "720026069039790444",
                 "name": "Female Agiator",
                 "name_zh": "惑乱者（女）",
-                "index": 110,
+                "index": 114,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 2.0,
                 "ignore_stance": 0
@@ -1234,7 +1278,7 @@
                 "hash": "8388657151297660569",
                 "name": "Male Radical",
                 "name_zh": "激进先锋（男）",
-                "index": 111,
+                "index": 115,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 2.0,
                 "ignore_stance": 0
@@ -1245,7 +1289,7 @@
                 "hash": "14677717390494571578",
                 "name": "Female Radical",
                 "name_zh": "激进先锋（女）",
-                "index": 112,
+                "index": 116,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 2.0,
                 "ignore_stance": 0
@@ -1256,7 +1300,7 @@
                 "hash": "2190700087544369166",
                 "name": "Hulk Obliterator",
                 "name_zh": "巨型抹煞者",
-                "index": 113,
+                "index": 117,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 1
@@ -1267,7 +1311,7 @@
                 "hash": "4469039597602705386",
                 "name": "Hulk Scorcher",
                 "name_zh": "巨型炙焰者",
-                "index": 114,
+                "index": 118,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 1
@@ -1278,7 +1322,7 @@
                 "hash": "16451308563134815530",
                 "name": "Jet Brigade Hulk Scorcher",
                 "name_zh": "喷气巨型炙焰者",
-                "index": 115,
+                "index": 119,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 1
@@ -1289,7 +1333,7 @@
                 "hash": "7902461295840507538",
                 "name": "Hulk Firebomber",
                 "name_zh": "巨型烈焰轰炸者",
-                "index": 116,
+                "index": 120,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 1
@@ -1300,7 +1344,7 @@
                 "hash": "1772093692883358428",
                 "name": "Hulk Scorcher MK2",
                 "name_zh": "巨型炙焰者 MK2（炽灼部队）",
-                "index": 117,
+                "index": 121,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 1
@@ -1311,7 +1355,7 @@
                 "hash": "1403303179954968823",
                 "name": "Hulk Bruiser",
                 "name_zh": "巨型碾压者",
-                "index": 118,
+                "index": 122,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 1
@@ -1322,7 +1366,7 @@
                 "hash": "3660840294738278623",
                 "name": "Jet Brigade Hulk Bruiser",
                 "name_zh": "喷气巨型碾压者",
-                "index": 119,
+                "index": 123,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 1
@@ -1333,7 +1377,7 @@
                 "hash": "6336231432473988509",
                 "name": "Incendiary Devastator",
                 "name_zh": "蹂躏者 MK3（炽灼部队）",
-                "index": 120,
+                "index": 124,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 0
@@ -1344,7 +1388,7 @@
                 "hash": "18198461672611034237",
                 "name": "Devastator MK2 Spawn",
                 "name_zh": "蹂躏者 MK2 移动工厂生产",
-                "index": 121,
+                "index": 125,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 0
@@ -1355,7 +1399,7 @@
                 "hash": "13723659040410201638",
                 "name": "Jet Brigade Devastator",
                 "name_zh": "喷气蹂躏者",
-                "index": 122,
+                "index": 126,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 0
@@ -1366,7 +1410,7 @@
                 "hash": "13340847352459495240",
                 "name": "Heavy Devastator MK2",
                 "name_zh": "重型蹂躏者 MK2",
-                "index": 123,
+                "index": 127,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 0
@@ -1377,7 +1421,7 @@
                 "hash": "17921415124075533547",
                 "name": "Heavy Devastator",
                 "name_zh": "重型蹂躏者",
-                "index": 124,
+                "index": 128,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 0
@@ -1388,7 +1432,7 @@
                 "hash": "6391373595476922945",
                 "name": "Incendiary MG Devastator",
                 "name_zh": "燃烧机枪蹂躏者",
-                "index": 125,
+                "index": 129,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 0
@@ -1399,7 +1443,7 @@
                 "hash": "10514734670540770044",
                 "name": "Heavy Devastator MK3",
                 "name_zh": "重型蹂躏者 MK3",
-                "index": 126,
+                "index": 130,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 0
@@ -1410,7 +1454,7 @@
                 "hash": "10828817397904429935",
                 "name": "Rocket Devastator",
                 "name_zh": "火箭蹂躏者",
-                "index": 127,
+                "index": 131,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 0
@@ -1421,7 +1465,7 @@
                 "hash": "17756861745706792858",
                 "name": "Rocket Devastator MK2",
                 "name_zh": "火箭蹂躏者 MK2",
-                "index": 128,
+                "index": 132,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 0
@@ -1432,7 +1476,7 @@
                 "hash": "14536718756304552612",
                 "name": "Incendiary Rocket Devastator",
                 "name_zh": "火箭蹂躏者 MK3 （炽灼部队）",
-                "index": 129,
+                "index": 133,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 0
@@ -1443,7 +1487,7 @@
                 "hash": "16155873629479015795",
                 "name": "Conflagration Devastator",
                 "name_zh": "烈火蹂躏者",
-                "index": 130,
+                "index": 134,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 0
@@ -1454,7 +1498,7 @@
                 "hash": "9528799688439966563",
                 "name": "Factory Strider Cannon Turret",
                 "name_zh": "移动工厂 连发加农炮",
-                "index": 131,
+                "index": 135,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -1465,7 +1509,7 @@
                 "hash": "6997370577610279074",
                 "name": "Vox Engine Cannon Turret",
                 "name_zh": "噪轰引擎 速射加农炮",
-                "index": 132,
+                "index": 136,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -1476,7 +1520,7 @@
                 "hash": "5892418254001999486",
                 "name": "Cyborg Tank Gatling",
                 "name_zh": "坦克 加特林",
-                "index": 133,
+                "index": 137,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -1487,7 +1531,7 @@
                 "hash": "3239012324354685117",
                 "name": "Cannon Turret",
                 "name_zh": "机器人 加农炮塔",
-                "index": 134,
+                "index": 138,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -1498,7 +1542,7 @@
                 "hash": "6707034374626068020",
                 "name": "Barrager Tank Ballistic Missile",
                 "name_zh": "铁幕坦克 炮塔",
-                "index": 135,
+                "index": 139,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -1509,7 +1553,7 @@
                 "hash": "17476252816949674262",
                 "name": "Vox Engine Gatling Left",
                 "name_zh": "噪轰引擎 加特林机枪（左）",
-                "index": 136,
+                "index": 140,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -1520,7 +1564,7 @@
                 "hash": "3849984664539165667",
                 "name": "Vox Engine Gatling Right",
                 "name_zh": "噪轰引擎 加特林机枪（右）",
-                "index": 137,
+                "index": 141,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -1531,7 +1575,7 @@
                 "hash": "2047310211000472840",
                 "name": "Factory Strider Gatling MK4",
                 "name_zh": "移动工厂 加特林 MK4",
-                "index": 138,
+                "index": 142,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -1542,7 +1586,7 @@
                 "hash": "7672538193198738711",
                 "name": "Factory Strider Gatling MK5",
                 "name_zh": "移动工厂 加特林 MK5",
-                "index": 139,
+                "index": 143,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -1553,7 +1597,7 @@
                 "hash": "4111341420364086640",
                 "name": "Factory Strider Gatling MK2 (Left)",
                 "name_zh": "移动工厂 加特林 MK2（左）",
-                "index": 140,
+                "index": 144,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -1564,7 +1608,7 @@
                 "hash": "4228803675738017635",
                 "name": "Factory Strider Gatling MK1 (Right)",
                 "name_zh": "移动工厂 加特林 MK1（右）",
-                "index": 141,
+                "index": 145,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -1575,7 +1619,7 @@
                 "hash": "3527126521288270458",
                 "name": "Jammer Factory Strider",
                 "name_zh": "移动工厂 带干扰塔",
-                "index": 142,
+                "index": 146,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 20.0,
                 "ignore_stance": 0
@@ -1586,7 +1630,7 @@
                 "hash": "14286719829563111324",
                 "name": "Shredder Tank",
                 "name_zh": "碎裂坦克",
-                "index": 143,
+                "index": 147,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 1
@@ -1597,7 +1641,7 @@
                 "hash": "6041739005686103399",
                 "name": "Annihilator Tank",
                 "name_zh": "湮灭坦克",
-                "index": 144,
+                "index": 148,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 1
@@ -1608,7 +1652,7 @@
                 "hash": "7196537832909981064",
                 "name": "Barrager Tank",
                 "name_zh": "铁幕坦克",
-                "index": 145,
+                "index": 149,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.5,
                 "ignore_stance": 1
@@ -1619,7 +1663,7 @@
                 "hash": "10409770290790592053",
                 "name": "Reinforced Scout Strider",
                 "name_zh": "强化侦察纵步者",
-                "index": 146,
+                "index": 150,
                 "danger_max": 12.0,
                 "danger_sphere_radius": 5.0,
                 "ignore_stance": 0
@@ -1630,7 +1674,7 @@
                 "hash": "782675882315451933",
                 "name": "Voteless Medium",
                 "name_zh": "无票者（中型）",
-                "index": 147,
+                "index": 151,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 2.0,
                 "ignore_stance": 0
@@ -1641,7 +1685,7 @@
                 "hash": "4919490090942595835",
                 "name": "Voteless Heavy",
                 "name_zh": "无票者（重型）",
-                "index": 148,
+                "index": 152,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 2.0,
                 "ignore_stance": 0
@@ -1652,7 +1696,7 @@
                 "hash": "17393195075174683200",
                 "name": "Overseer (No Package)",
                 "name_zh": "监视者（无包裹模型）",
-                "index": 149,
+                "index": 153,
                 "danger_max": 15.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1663,7 +1707,7 @@
                 "hash": "641481206831155133",
                 "name": "Overseer MK2",
                 "name_zh": "监视者 MK2",
-                "index": 150,
+                "index": 154,
                 "danger_max": 15.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -1674,7 +1718,7 @@
                 "hash": "15438282343866021807",
                 "name": "Harvester MK2",
                 "name_zh": "猎杀器 MK2",
-                "index": 151,
+                "index": 155,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 8.0,
                 "ignore_stance": 0
@@ -1685,7 +1729,7 @@
                 "hash": "17408108687437120663",
                 "name": "Leviathan Beam Turret Left (Model)",
                 "name_zh": "利维坦 激光炮 左",
-                "index": 152,
+                "index": 156,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -1696,86 +1740,119 @@
                 "hash": "8848249281094032864",
                 "name": "Leviathan Beam Turret Right (Model)",
                 "name_zh": "利维坦 激光炮 右",
-                "index": 153,
+                "index": 157,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
             }
         },
         {
-            "0x7BB964A9DB5EE774": {
-                "hash": "8915267618049288052",
-                "name": "SEAF MK2",
-                "name_zh": "SEAF MK2",
-                "index": 154,
-                "danger_max": 10.0,
-                "danger_sphere_radius": 2.0,
-                "ignore_stance": 0
-            }
-        },
-        {
-            "0x76AC2C791CE6EB5B": {
-                "hash": "8551258691157289819",
-                "name": "SEAF MK3",
-                "name_zh": "SEAF MK3",
-                "index": 155,
-                "danger_max": 10.0,
-                "danger_sphere_radius": 2.0,
-                "ignore_stance": 0
-            }
-        },
-        {
-            "0x9ECFEA53BCB158BF": {
-                "hash": "11443622823540644031",
-                "name": "SEAF MK4",
-                "name_zh": "SEAF MK4",
-                "index": 156,
-                "danger_max": 10.0,
-                "danger_sphere_radius": 2.0,
-                "ignore_stance": 0
-            }
-        },
-        {
-            "0x76070813B0D1C473": {
-                "hash": "8504775301976409203",
-                "name": "SEAF MK5",
-                "name_zh": "SEAF MK5",
-                "index": 157,
-                "danger_max": 10.0,
-                "danger_sphere_radius": 2.0,
-                "ignore_stance": 0
-            }
-        },
-        {
-            "0xEA6959232BB47D4B": {
-                "hash": "16891129885021732171",
-                "name": "SEAF MK6",
-                "name_zh": "SEAF MK6",
+            "0x6B22AE8E5F669D4F": {
+                "hash": "7719924637775600975",
+                "name": "SEAF With Backpack",
+                "name_zh": "背包SEAF",
                 "index": 158,
                 "danger_max": 10.0,
-                "danger_sphere_radius": 2.0,
+                "danger_sphere_radius": 5.0,
                 "ignore_stance": 0
             }
         },
         {
-            "0x4EA134679A235BE0": {
-                "hash": "5665867425781079008",
-                "name": "SEAF MK7",
-                "name_zh": "SEAF MK7",
+            "0xA00331F24DEEF2EE": {
+                "hash": "11530114387757953774",
+                "name": "SEAF MK1",
+                "name_zh": "SEAF MK1",
                 "index": 159,
                 "danger_max": 10.0,
-                "danger_sphere_radius": 2.0,
+                "danger_sphere_radius": 5.0,
                 "ignore_stance": 0
             }
         },
         {
-            "0x975927D040D1543D": {
-                "hash": "10905791748048507965",
-                "name": "SEAF MK8",
-                "name_zh": "SEAF MK8",
+            "0x548136F66F5C9B5C": {
+                "hash": "6089208603239816028",
+                "name": "SEAF MK2",
+                "name_zh": "SEAF MK2",
                 "index": 160,
                 "danger_max": 10.0,
-                "danger_sphere_radius": 2.0,
+                "danger_sphere_radius": 5.0,
+                "ignore_stance": 0
+            }
+        },
+        {
+            "0xBCFC57848F206106": {
+                "hash": "13617855600110100742",
+                "name": "SEAF With Wireless MK1",
+                "name_zh": "无线电SEAF MK1",
+                "index": 161,
+                "danger_max": 10.0,
+                "danger_sphere_radius": 5.0,
+                "ignore_stance": 0
+            }
+        },
+        {
+            "0x78DABC7344E50234": {
+                "hash": "8708480032737395252",
+                "name": "SEAF With Wireless MK2",
+                "name_zh": "无线电SEAF MK2",
+                "index": 162,
+                "danger_max": 10.0,
+                "danger_sphere_radius": 5.0,
+                "ignore_stance": 0
+            }
+        },
+        {
+            "0x14453B8FCB040099": {
+                "hash": "1460639142923993241",
+                "name": "Medical SEAF MK1",
+                "name_zh": "医疗兵SEAF MK1",
+                "index": 163,
+                "danger_max": 10.0,
+                "danger_sphere_radius": 5.0,
+                "ignore_stance": 0
+            }
+        },
+        {
+            "0x6FB1E73E00A84329": {
+                "hash": "8048468262572802857",
+                "name": "Medical SEAF MK2",
+                "name_zh": "医疗兵SEAF MK2",
+                "index": 164,
+                "danger_max": 10.0,
+                "danger_sphere_radius": 5.0,
+                "ignore_stance": 0
+            }
+        },
+        {
+            "0xC47287D738BE91C3": {
+                "hash": "14155525937218621891",
+                "name": "Medical SEAF MK3",
+                "name_zh": "医疗兵SEAF MK3",
+                "index": 165,
+                "danger_max": 10.0,
+                "danger_sphere_radius": 5.0,
+                "ignore_stance": 0
+            }
+        },
+        {
+            "0xBFB5C88D557595D8": {
+                "hash": "13814167941378577880",
+                "name": "Mg/Anti-Tank SEAF MK1",
+                "name_zh": "机枪次抛SEAF MK1",
+                "index": 166,
+                "danger_max": 10.0,
+                "danger_sphere_radius": 5.0,
+                "ignore_stance": 0
+            }
+        },
+        {
+            "0xA6DCC225E1263606": {
+                "hash": "12023698573119337990",
+                "name": "Mg/Anti-Tank SEAF MK2",
+                "name_zh": "机枪次抛SEAF MK2",
+                "index": 167,
+                "danger_max": 10.0,
+                "danger_sphere_radius": 5.0,
                 "ignore_stance": 0
             }
         },
@@ -1784,7 +1861,7 @@
                 "hash": "5555647998940836938",
                 "name": "Civilian MK2",
                 "name_zh": "平民 MK2",
-                "index": 161,
+                "index": 168,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -1795,7 +1872,7 @@
                 "hash": "3836043307793934489",
                 "name": "Civilian MK3",
                 "name_zh": "平民 MK3",
-                "index": 162,
+                "index": 169,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -1806,7 +1883,7 @@
                 "hash": "7712844951779243309",
                 "name": "Civilian MK4",
                 "name_zh": "平民 MK4",
-                "index": 163,
+                "index": 170,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -1817,7 +1894,7 @@
                 "hash": "3754586476635072036",
                 "name": "Civilian MK5",
                 "name_zh": "平民 MK5",
-                "index": 164,
+                "index": 171,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -1828,7 +1905,7 @@
                 "hash": "14706222259390606723",
                 "name": "Civilian MK6",
                 "name_zh": "平民 MK6",
-                "index": 165,
+                "index": 172,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -1839,7 +1916,7 @@
                 "hash": "16507283781696478269",
                 "name": "Civilian MK7",
                 "name_zh": "平民 MK7",
-                "index": 166,
+                "index": 173,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
                 "ignore_stance": 0
@@ -1850,20 +1927,9 @@
                 "hash": "10665281465322007152",
                 "name": "Civilian MK8",
                 "name_zh": "平民 MK8",
-                "index": 167,
+                "index": 174,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 10.0,
-                "ignore_stance": 0
-            }
-        },
-        {
-            "0x9F0245AA414CA45C": {
-                "hash": "11457796999526261852",
-                "name": "SEAF MG",
-                "name_zh": "SEAF 机枪手",
-                "index": 168,
-                "danger_max": 10.0,
-                "danger_sphere_radius": 2.0,
                 "ignore_stance": 0
             }
         },
@@ -1872,7 +1938,7 @@
                 "hash": "1024464436030047776",
                 "name": "Extractable Worker Female",
                 "name_zh": "撤离的科学家 女",
-                "index": 169,
+                "index": 175,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 2.0,
                 "ignore_stance": 0
@@ -1883,7 +1949,7 @@
                 "hash": "9683243174428770658",
                 "name": "Extractable Worker Female MK2",
                 "name_zh": "撤离的科学家 女 MK2",
-                "index": 170,
+                "index": 176,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 2.0,
                 "ignore_stance": 0
@@ -1894,7 +1960,7 @@
                 "hash": "10179078936557797909",
                 "name": "Extractable Worker Female MK3",
                 "name_zh": "撤离的科学家 女 MK3",
-                "index": 171,
+                "index": 177,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 2.0,
                 "ignore_stance": 0
@@ -1905,7 +1971,7 @@
                 "hash": "15395181080776134584",
                 "name": "Extractable Worker Female MK4",
                 "name_zh": "撤离的科学家 女 MK4",
-                "index": 172,
+                "index": 178,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 2.0,
                 "ignore_stance": 0
@@ -1916,7 +1982,7 @@
                 "hash": "14040307618832651425",
                 "name": "Extractable Worker Male MK2",
                 "name_zh": "撤离的科学家 男 MK2",
-                "index": 173,
+                "index": 179,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 2.0,
                 "ignore_stance": 0
@@ -1927,7 +1993,7 @@
                 "hash": "7444362792725516608",
                 "name": "Extractable Worker Male MK3",
                 "name_zh": "撤离的科学家 男 MK3",
-                "index": 174,
+                "index": 180,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 2.0,
                 "ignore_stance": 0
@@ -1938,7 +2004,7 @@
                 "hash": "1232841523375292236",
                 "name": "Extractable Worker Male MK4",
                 "name_zh": "撤离的科学家 男 MK4",
-                "index": 175,
+                "index": 181,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 2.0,
                 "ignore_stance": 0
@@ -1949,7 +2015,7 @@
                 "hash": "11555060082231454796",
                 "name": "Charger Behemoth MK2",
                 "name_zh": "巨兽级强袭虫 MK2",
-                "index": 176,
+                "index": 182,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 5.0,
                 "ignore_stance": 0
@@ -1960,7 +2026,7 @@
                 "hash": "2236760086372418784",
                 "name": "Spore Burst Hunter",
                 "name_zh": "孢裂追猎虫",
-                "index": 177,
+                "index": 183,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 5.0,
                 "ignore_stance": 0
@@ -1971,7 +2037,7 @@
                 "hash": "15822911520269726977",
                 "name": "Spore Burst Scavenger",
                 "name_zh": "孢裂食腐虫",
-                "index": 178,
+                "index": 184,
                 "danger_max": 20.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -1982,7 +2048,7 @@
                 "hash": "8251756929257574076",
                 "name": "Spore Burst Warrior",
                 "name_zh": "孢裂武斗虫",
-                "index": 179,
+                "index": 185,
                 "danger_max": 5.0,
                 "danger_sphere_radius": 4.0,
                 "ignore_stance": 0
@@ -1993,7 +2059,7 @@
                 "hash": "11481777918278298912",
                 "name": "Incendiary Trooper",
                 "name_zh": "装甲兵（炽灼部队）",
-                "index": 180,
+                "index": 186,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -2004,7 +2070,7 @@
                 "hash": "16610351617142216522",
                 "name": "Incendiary Raider",
                 "name_zh": "奇袭者（炽灼部队）",
-                "index": 181,
+                "index": 187,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0
@@ -2015,7 +2081,7 @@
                 "hash": "3031503431338798614",
                 "name": "Rocket Raider",
                 "name_zh": "火箭奇袭者",
-                "index": 182,
+                "index": 188,
                 "danger_max": 10.0,
                 "danger_sphere_radius": 3.0,
                 "ignore_stance": 0

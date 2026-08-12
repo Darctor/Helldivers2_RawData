@@ -1,11 +1,11 @@
 {
     "_metadata": {
         "struct_size": 192,
-        "omitted_size": 11,
-        "exported_entity_count": 19,
-        "matched_bilingual_hash_count": 19,
-        "patch_date": "2026-07-07",
-        "game_version": "1.006.301"
+        "omitted_size": 14,
+        "exported_entity_count": 20,
+        "matched_bilingual_hash_count": 20,
+        "patch_date": "2026-08-12",
+        "game_version": "1.007.000"
     },
     "entities": [
         {
@@ -33,7 +33,7 @@
                 },
                 "fire_from_ship": 0,
                 "projectile_types": [
-                    "164 <=> ProjectileType_Unknown_164",
+                    "167 <=> ProjectileType_Unknown_167",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
@@ -46,7 +46,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "8422889626711056100",
                 "unk_float_0x0078": 0.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 0.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -54,11 +54,9 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 0,
                 "unk_uint32_0x0098": 0,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": -0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "2147483648",
+                    "0"
                 ],
                 "tag_avoidance_distance": 50.0,
                 "first_projectile_destroyed_audio_event": 0,
@@ -91,7 +89,7 @@
                 },
                 "fire_from_ship": 0,
                 "projectile_types": [
-                    "164 <=> ProjectileType_Unknown_164",
+                    "167 <=> ProjectileType_Unknown_167",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
@@ -104,7 +102,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "8422889626711056100",
                 "unk_float_0x0078": 0.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 0.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -112,11 +110,9 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 0,
                 "unk_uint32_0x0098": 0,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": -0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "2147483648",
+                    "0"
                 ],
                 "tag_avoidance_distance": 1.0,
                 "first_projectile_destroyed_audio_event": 0,
@@ -149,7 +145,7 @@
                 },
                 "fire_from_ship": 0,
                 "projectile_types": [
-                    "79 <=> ProjectileType_Unknown_79",
+                    "80 <=> ProjectileType_Unknown_80",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
@@ -162,7 +158,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "0",
                 "unk_float_0x0078": 0.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 10.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -170,11 +166,9 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 0,
                 "unk_uint32_0x0098": 0,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": 0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "0",
+                    "0"
                 ],
                 "tag_avoidance_distance": 0.0,
                 "first_projectile_destroyed_audio_event": 0,
@@ -207,9 +201,9 @@
                 },
                 "fire_from_ship": 0,
                 "projectile_types": [
-                    "83 <=> ProjectileType_Unknown_83",
-                    "91 <=> ProjectileType_Unknown_91",
-                    "91 <=> ProjectileType_Unknown_91",
+                    "84 <=> ProjectileType_Unknown_84",
+                    "93 <=> ProjectileType_Unknown_93",
+                    "93 <=> ProjectileType_Unknown_93",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
@@ -220,7 +214,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "0",
                 "unk_float_0x0078": 0.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 3.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -228,11 +222,9 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 0,
                 "unk_uint32_0x0098": 0,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": -0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "2147483648",
+                    "0"
                 ],
                 "tag_avoidance_distance": 20.0,
                 "first_projectile_destroyed_audio_event": 0,
@@ -265,7 +257,7 @@
                 },
                 "fire_from_ship": 0,
                 "projectile_types": [
-                    "85 <=> ProjectileType_Unknown_85",
+                    "87 <=> ProjectileType_Unknown_87",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
@@ -278,7 +270,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "2045597521769527435",
                 "unk_float_0x0078": 20.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 5.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -286,11 +278,9 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 0,
                 "unk_uint32_0x0098": 0,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": -0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "2147483648",
+                    "0"
                 ],
                 "tag_avoidance_distance": 16.0,
                 "first_projectile_destroyed_audio_event": 0,
@@ -323,7 +313,7 @@
                 },
                 "fire_from_ship": 0,
                 "projectile_types": [
-                    "305 <=> ProjectileType_Unknown_305",
+                    "310 <=> ProjectileType_Unknown_310",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
@@ -336,7 +326,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "2045597521769527435",
                 "unk_float_0x0078": 20.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 10.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -344,11 +334,9 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 0,
                 "unk_uint32_0x0098": 0,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": -0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "2147483648",
+                    "0"
                 ],
                 "tag_avoidance_distance": 16.0,
                 "first_projectile_destroyed_audio_event": 0,
@@ -381,7 +369,7 @@
                 },
                 "fire_from_ship": 0,
                 "projectile_types": [
-                    "120 <=> ProjectileType_Unknown_120",
+                    "122 <=> ProjectileType_Unknown_122",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
@@ -394,7 +382,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "0",
                 "unk_float_0x0078": 0.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 0.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -402,11 +390,9 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 0,
                 "unk_uint32_0x0098": 0,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": 0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "0",
+                    "0"
                 ],
                 "tag_avoidance_distance": 0.0,
                 "first_projectile_destroyed_audio_event": 0,
@@ -439,9 +425,9 @@
                 },
                 "fire_from_ship": 1,
                 "projectile_types": [
-                    "79 <=> ProjectileType_Unknown_79",
-                    "258 <=> ProjectileType_Unknown_258",
-                    "258 <=> ProjectileType_Unknown_258",
+                    "80 <=> ProjectileType_Unknown_80",
+                    "263 <=> ProjectileType_Unknown_263",
+                    "263 <=> ProjectileType_Unknown_263",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
@@ -452,7 +438,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "0",
                 "unk_float_0x0078": 0.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 0.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -460,11 +446,9 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 0,
                 "unk_uint32_0x0098": 0,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": 0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "0",
+                    "0"
                 ],
                 "tag_avoidance_distance": 0.0,
                 "first_projectile_destroyed_audio_event": 0,
@@ -497,7 +481,7 @@
                 },
                 "fire_from_ship": 1,
                 "projectile_types": [
-                    "193 <=> ProjectileType_Unknown_193",
+                    "197 <=> ProjectileType_Unknown_197",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
@@ -510,7 +494,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "0",
                 "unk_float_0x0078": 0.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 0.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -518,11 +502,9 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 0,
                 "unk_uint32_0x0098": 0,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": 0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "0",
+                    "0"
                 ],
                 "tag_avoidance_distance": 0.0,
                 "first_projectile_destroyed_audio_event": 0,
@@ -555,7 +537,7 @@
                 },
                 "fire_from_ship": 1,
                 "projectile_types": [
-                    "76 <=> ProjectileType_Unknown_76",
+                    "77 <=> ProjectileType_Unknown_77",
                     "42 <=> ProjectileType_Unknown_42",
                     "42 <=> ProjectileType_Unknown_42",
                     "42 <=> ProjectileType_Unknown_42",
@@ -568,7 +550,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "0",
                 "unk_float_0x0078": 0.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 0.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -576,11 +558,9 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 2586731142,
                 "unk_uint32_0x0098": 2645525231,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": 0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "0",
+                    "0"
                 ],
                 "tag_avoidance_distance": 0.0,
                 "first_projectile_destroyed_audio_event": 1149590576,
@@ -613,7 +593,7 @@
                 },
                 "fire_from_ship": 1,
                 "projectile_types": [
-                    "186 <=> ProjectileType_Unknown_186",
+                    "190 <=> ProjectileType_Unknown_190",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
@@ -626,7 +606,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "0",
                 "unk_float_0x0078": 0.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 0.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -634,11 +614,9 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 0,
                 "unk_uint32_0x0098": 0,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": 0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "0",
+                    "0"
                 ],
                 "tag_avoidance_distance": 0.0,
                 "first_projectile_destroyed_audio_event": 0,
@@ -671,9 +649,9 @@
                 },
                 "fire_from_ship": 1,
                 "projectile_types": [
-                    "228 <=> ProjectileType_Unknown_228",
-                    "231 <=> ProjectileType_Unknown_231",
-                    "231 <=> ProjectileType_Unknown_231",
+                    "233 <=> ProjectileType_Unknown_233",
+                    "236 <=> ProjectileType_Unknown_236",
+                    "236 <=> ProjectileType_Unknown_236",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
@@ -684,7 +662,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "0",
                 "unk_float_0x0078": 0.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 0.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -692,11 +670,9 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 0,
                 "unk_uint32_0x0098": 0,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": 0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "0",
+                    "0"
                 ],
                 "tag_avoidance_distance": 0.0,
                 "first_projectile_destroyed_audio_event": 0,
@@ -729,7 +705,7 @@
                 },
                 "fire_from_ship": 1,
                 "projectile_types": [
-                    "79 <=> ProjectileType_Unknown_79",
+                    "80 <=> ProjectileType_Unknown_80",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
@@ -742,7 +718,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "0",
                 "unk_float_0x0078": 0.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 0.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -750,11 +726,9 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 0,
                 "unk_uint32_0x0098": 0,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": 0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "0",
+                    "0"
                 ],
                 "tag_avoidance_distance": 0.0,
                 "first_projectile_destroyed_audio_event": 0,
@@ -787,7 +761,7 @@
                 },
                 "fire_from_ship": 1,
                 "projectile_types": [
-                    "98 <=> ProjectileType_Unknown_98",
+                    "100 <=> ProjectileType_Unknown_100",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
@@ -800,7 +774,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "0",
                 "unk_float_0x0078": 0.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 0.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -808,11 +782,9 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 0,
                 "unk_uint32_0x0098": 0,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": 0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "0",
+                    "0"
                 ],
                 "tag_avoidance_distance": 0.0,
                 "first_projectile_destroyed_audio_event": 0,
@@ -845,7 +817,7 @@
                 },
                 "fire_from_ship": 1,
                 "projectile_types": [
-                    "155 <=> ProjectileType_Unknown_155",
+                    "158 <=> ProjectileType_Unknown_158",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
@@ -858,7 +830,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "0",
                 "unk_float_0x0078": 0.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 0.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -866,11 +838,9 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 0,
                 "unk_uint32_0x0098": 0,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": 0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "0",
+                    "0"
                 ],
                 "tag_avoidance_distance": 0.0,
                 "first_projectile_destroyed_audio_event": 0,
@@ -903,7 +873,7 @@
                 },
                 "fire_from_ship": 1,
                 "projectile_types": [
-                    "240 <=> ProjectileType_Unknown_240",
+                    "245 <=> ProjectileType_Unknown_245",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
@@ -916,7 +886,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "0",
                 "unk_float_0x0078": 0.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 0.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -924,11 +894,9 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 0,
                 "unk_uint32_0x0098": 0,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": 0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "0",
+                    "0"
                 ],
                 "tag_avoidance_distance": 0.0,
                 "first_projectile_destroyed_audio_event": 0,
@@ -961,9 +929,9 @@
                 },
                 "fire_from_ship": 1,
                 "projectile_types": [
-                    "190 <=> ProjectileType_Unknown_190",
-                    "135 <=> ProjectileType_Unknown_135",
-                    "135 <=> ProjectileType_Unknown_135",
+                    "194 <=> ProjectileType_Unknown_194",
+                    "137 <=> ProjectileType_Unknown_137",
+                    "137 <=> ProjectileType_Unknown_137",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
@@ -974,7 +942,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "0",
                 "unk_float_0x0078": 0.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 0.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -982,11 +950,9 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 0,
                 "unk_uint32_0x0098": 0,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": 0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "0",
+                    "0"
                 ],
                 "tag_avoidance_distance": 0.0,
                 "first_projectile_destroyed_audio_event": 0,
@@ -1019,7 +985,7 @@
                 },
                 "fire_from_ship": 1,
                 "projectile_types": [
-                    "73 <=> ProjectileType_Unknown_73",
+                    "74 <=> ProjectileType_Unknown_74",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
@@ -1032,7 +998,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "0",
                 "unk_float_0x0078": 0.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 0.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -1040,11 +1006,9 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 0,
                 "unk_uint32_0x0098": 0,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": 0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "0",
+                    "0"
                 ],
                 "tag_avoidance_distance": 0.0,
                 "first_projectile_destroyed_audio_event": 0,
@@ -1077,9 +1041,9 @@
                 },
                 "fire_from_ship": 1,
                 "projectile_types": [
-                    "79 <=> ProjectileType_Unknown_79",
-                    "258 <=> ProjectileType_Unknown_258",
-                    "258 <=> ProjectileType_Unknown_258",
+                    "80 <=> ProjectileType_Unknown_80",
+                    "263 <=> ProjectileType_Unknown_263",
+                    "263 <=> ProjectileType_Unknown_263",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
                     "0 <=> ProjectileType_Unknown_0",
@@ -1090,7 +1054,7 @@
                 "muzzle_flash": "7036949873247378259",
                 "unk_uint64_0x0070": "0",
                 "unk_float_0x0078": 0.0,
-                "unk_uint32_0x007C": 1,
+                "unk_bool_0x007C": 1,
                 "start_delay": 0.0,
                 "walk_angle": 0.0,
                 "walk_offset_fraction": 0.0,
@@ -1098,11 +1062,65 @@
                 "destroyer_stratagem_fire_stop": 948676210,
                 "unk_uint32_0x0094": 0,
                 "unk_uint32_0x0098": 0,
-                "unk_uint32_0x009C": 0,
-                "unk_float_0x00A0": 0.0,
                 "tag_avoidances": [
-                    "Tag_Unknown_0",
-                    "Tag_Unknown_0"
+                    "0",
+                    "0"
+                ],
+                "tag_avoidance_distance": 0.0,
+                "first_projectile_destroyed_audio_event": 0,
+                "projectile_destroyed_audio_event": 0,
+                "final_projectile_destroyed_audio_event": 0
+            }
+        },
+        {
+            "0x08D58CB1BF65F7A9": {
+                "hash": "636569617391024041",
+                "name": "Orbital Walking Barrage Smoke",
+                "name_zh": "轨道游走烟雾火力网",
+                "index": 19,
+                "initial_delay": 0.0,
+                "num_bombs": 1,
+                "bomb_interval": 1.0,
+                "bomb_interval_random_offset": 0.0,
+                "wander_offset_radius_min": 0.0,
+                "wander_offset_radius_max": 0.0,
+                "num_salvos": 6,
+                "salvo_interval": 1.0,
+                "salvo_interval_random_offset": 0.0,
+                "area_size": 5.0,
+                "wander_start_area_radius": 0.0,
+                "fire_height": 3000.0,
+                "fire_angle_offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "fire_from_ship": 1,
+                "projectile_types": [
+                    "245 <=> ProjectileType_Unknown_245",
+                    "0 <=> ProjectileType_Unknown_0",
+                    "0 <=> ProjectileType_Unknown_0",
+                    "0 <=> ProjectileType_Unknown_0",
+                    "0 <=> ProjectileType_Unknown_0",
+                    "0 <=> ProjectileType_Unknown_0",
+                    "0 <=> ProjectileType_Unknown_0",
+                    "0 <=> ProjectileType_Unknown_0"
+                ],
+                "speed": 15.0,
+                "muzzle_flash": "7036949873247378259",
+                "unk_uint64_0x0070": "0",
+                "unk_float_0x0078": 0.0,
+                "unk_bool_0x007C": 1,
+                "start_delay": 0.0,
+                "walk_angle": 0.0,
+                "walk_offset_fraction": 0.0,
+                "destroyer_stratagem_fire": 3511619768,
+                "destroyer_stratagem_fire_stop": 948676210,
+                "unk_uint32_0x0094": 0,
+                "unk_uint32_0x0098": 0,
+                "tag_avoidances": [
+                    "0",
+                    "0"
                 ],
                 "tag_avoidance_distance": 0.0,
                 "first_projectile_destroyed_audio_event": 0,

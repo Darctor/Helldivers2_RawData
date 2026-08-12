@@ -1,11 +1,11 @@
 {
     "_metadata": {
         "struct_size": 592,
-        "omitted_size": 12,
-        "exported_entity_count": 27,
-        "matched_bilingual_hash_count": 22,
-        "patch_date": "2026-07-07",
-        "game_version": "1.006.301"
+        "omitted_size": 15,
+        "exported_entity_count": 28,
+        "matched_bilingual_hash_count": 23,
+        "patch_date": "2026-08-12",
+        "game_version": "1.007.000"
     },
     "entities": [
         {
@@ -14,24 +14,24 @@
                 "name": "Gazer",
                 "name_zh": "凝视者",
                 "index": 0,
-                "overheat_stages": [
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -69,9 +69,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -100,10 +100,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -132,10 +132,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -164,10 +164,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -196,7 +196,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 0,
@@ -227,24 +227,24 @@
                 "name": "Gazer MK2",
                 "name_zh": "凝视者 MK2",
                 "index": 1,
-                "overheat_stages": [
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -282,9 +282,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -313,10 +313,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -345,10 +345,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -377,10 +377,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -409,7 +409,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 0,
@@ -440,24 +440,24 @@
                 "name": "N/A",
                 "name_zh": "N/A",
                 "index": 2,
-                "overheat_stages": [
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -495,9 +495,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -526,10 +526,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -558,10 +558,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -590,10 +590,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -622,7 +622,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 0,
@@ -653,24 +653,24 @@
                 "name": "Automaton HMG Emplacement",
                 "name_zh": "机器人 营地重机枪",
                 "index": 3,
-                "overheat_stages": [
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -708,9 +708,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -739,10 +739,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -771,10 +771,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -803,10 +803,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -835,7 +835,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 600843021,
@@ -856,7 +856,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2680 <=> AbilityId_Unknown_2680",
+                "overheat_ability": "2841 <=> AbilityId_Unknown_2841",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -866,24 +866,24 @@
                 "name": "Automaton LMG Emplacement",
                 "name_zh": "机器人 营地机枪",
                 "index": 4,
-                "overheat_stages": [
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -921,9 +921,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -952,10 +952,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -984,10 +984,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -1016,10 +1016,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -1048,7 +1048,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 0,
@@ -1069,7 +1069,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2680 <=> AbilityId_Unknown_2680",
+                "overheat_ability": "2841 <=> AbilityId_Unknown_2841",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -1079,24 +1079,24 @@
                 "name": "N/A",
                 "name_zh": "N/A",
                 "index": 5,
-                "overheat_stages": [
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -1134,9 +1134,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -1165,10 +1165,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -1197,10 +1197,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -1229,10 +1229,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -1261,7 +1261,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 0,
@@ -1292,24 +1292,24 @@
                 "name": "N/A",
                 "name_zh": "N/A",
                 "index": 6,
-                "overheat_stages": [
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -1347,9 +1347,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -1378,10 +1378,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -1410,10 +1410,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -1442,10 +1442,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -1474,7 +1474,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 0,
@@ -1505,24 +1505,24 @@
                 "name": "N/A",
                 "name_zh": "N/A",
                 "index": 7,
-                "overheat_stages": [
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -1560,9 +1560,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -1591,10 +1591,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -1623,10 +1623,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -1655,10 +1655,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -1687,7 +1687,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 0,
@@ -1718,24 +1718,24 @@
                 "name": "Harvester Beam Weapon (Model)",
                 "name_zh": "猎杀器 激光武器",
                 "index": 8,
-                "overheat_stages": [
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -1773,9 +1773,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -1804,10 +1804,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -1836,10 +1836,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -1868,10 +1868,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -1900,7 +1900,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 0,
@@ -1931,24 +1931,24 @@
                 "name": "Leviathan Beam Turret (Model)",
                 "name_zh": "利维坦 激光炮",
                 "index": 9,
-                "overheat_stages": [
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -1986,9 +1986,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2017,10 +2017,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2049,10 +2049,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2081,10 +2081,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2113,7 +2113,220 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
+                    }
+                ],
+                "charging_start_audio_event": 0,
+                "charging_complete_audio_event": 0,
+                "discharging_start_audio_event": 0,
+                "discharging_complete_audio_event": 0,
+                "charge_source_node": 0,
+                "on_temp_yellow_start_sound_event": 0,
+                "on_temp_yellow_stop_sound_event": 0,
+                "on_overheat_start_sound_event": 0,
+                "on_overheat_stop_sound_event": 0,
+                "on_overheat_anim_event": 0,
+                "on_overheat_alarm_start_sound_event": 0,
+                "on_overheat_alarm_stop_sound_event": 0,
+                "camera_shake_on_charging_start": "0",
+                "camera_shake_on_firing_start": "0",
+                "camera_shake_on_yellow_temp_start": "0",
+                "camera_shake_on_red_temp_start": "0",
+                "camera_shake_on_fire_stop_constant": "0",
+                "camera_shake_on_fire_stop_kick": "0",
+                "overheat_ability": "0 <=> AbilityId_Unknown_0",
+                "unk_float_0x024C": 100.0
+            }
+        },
+        {
+            "0x262351741C53FF0C": {
+                "hash": "2748129756759457548",
+                "name": "Gazer Spire",
+                "name_zh": "凝视者 尖塔",
+                "index": 10,
+                "heat_Level_setting": [
+                    {
+                        "temperature_threshold": 0.0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                        "unk_particle_effect": "0",
+                        "unk_uint32_r0x0010": 0,
+                        "status_effect_to_user": "0 <=> StatusEffectType_None"
+                    },
+                    {
+                        "temperature_threshold": 0.0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                        "unk_particle_effect": "0",
+                        "unk_uint32_r0x0010": 0,
+                        "status_effect_to_user": "0 <=> StatusEffectType_None"
+                    },
+                    {
+                        "temperature_threshold": 0.0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                        "unk_particle_effect": "0",
+                        "unk_uint32_r0x0010": 0,
+                        "status_effect_to_user": "0 <=> StatusEffectType_None"
+                    }
+                ],
+                "rpm_multiplier": 1.0,
+                "unk_float_0x004C": 1.0,
+                "forbid_shoot_after_overheated": 1,
+                "magazines": 6,
+                "magazines_refill": 6,
+                "magazines_max": 12,
+                "overheat_temperature": 2000.0,
+                "overheat_temperature_recover": 0.0,
+                "warning_temperature": 1500.0,
+                "emission_temperature": 1000.0,
+                "rtpc_temperature": 1000.0,
+                "temp_gain_per_shot": 2.0,
+                "temp_gain_per_second": 0.10000000149011612,
+                "temp_gain_per_second_modifier": 100.0,
+                "temp_loss_per_second": 10.0,
+                "temp_loss_modifier_extreme_heat": 0.75,
+                "temp_loss_modifier_extreme_cold": 1.5,
+                "temp_loss_per_second_overheated": 400.0,
+                "needs_reload_after_overheat": 1,
+                "firing_charge": 0.0,
+                "charge_gain_per_second": 100.0,
+                "charge_loss_per_second": 100.0,
+                "reset_charge_after_shot": 0,
+                "charging_triggers_dry_fire_events": 0,
+                "owner_warning_vo_event": 267052615,
+                "owner_overheat_vo_event": 3049724096,
+                "min_reload_temperature": 0.0,
+                "charge_mesh": 0,
+                "charge_material": 0,
+                "charge_variable": 0,
+                "overheat_variable": 0,
+                "unk_bool_about_shear": 0,
+                "heat_material_setting": [
+                    {
+                        "0x6386883C": [
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            }
+                        ],
+                        "unk_float_r0x003C": 1.0,
+                        "unk_float_r0x0040": 1.0,
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
+                    },
+                    {
+                        "0x6386883C": [
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            }
+                        ],
+                        "unk_float_r0x003C": 1.0,
+                        "unk_float_r0x0040": 1.0,
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
+                    },
+                    {
+                        "0x6386883C": [
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            }
+                        ],
+                        "unk_float_r0x003C": 1.0,
+                        "unk_float_r0x0040": 1.0,
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
+                    },
+                    {
+                        "0x6386883C": [
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            }
+                        ],
+                        "unk_float_r0x003C": 1.0,
+                        "unk_float_r0x0040": 1.0,
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 0,
@@ -2143,25 +2356,25 @@
                 "hash": "6198940140191066280",
                 "name": "A/LAS-98 Laser Sentry",
                 "name_zh": "A/LAS-98 激光哨戒炮",
-                "index": 10,
-                "overheat_stages": [
+                "index": 11,
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -2199,9 +2412,9 @@
                 "charge_variable": 3379599616,
                 "overheat_variable": 92240865,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2230,10 +2443,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2262,10 +2475,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2294,10 +2507,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2326,7 +2539,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 288323536,
@@ -2347,7 +2560,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2682 <=> AbilityId_Unknown_2682",
+                "overheat_ability": "2843 <=> AbilityId_Unknown_2843",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -2356,25 +2569,25 @@
                 "hash": "1837707428311856638",
                 "name": "E/MG-101 HMG Emplacement (Laser)",
                 "name_zh": "E/MG-101 固定重机枪（激光）",
-                "index": 11,
-                "overheat_stages": [
+                "index": 12,
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -2412,9 +2625,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2443,10 +2656,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2475,10 +2688,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2507,10 +2720,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2539,7 +2752,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 3093813414,
@@ -2569,25 +2782,25 @@
                 "hash": "16763036627779227620",
                 "name": "Harvester Beam Weapon Broken Eye (Model)",
                 "name_zh": "猎杀器 激光武器（眼部破损）",
-                "index": 12,
-                "overheat_stages": [
+                "index": 13,
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -2625,9 +2838,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2656,10 +2869,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2688,10 +2901,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2720,10 +2933,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2752,7 +2965,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 0,
@@ -2782,25 +2995,25 @@
                 "hash": "17408108687437120663",
                 "name": "Leviathan Beam Turret Left (Model)",
                 "name_zh": "利维坦 激光炮 左",
-                "index": 13,
-                "overheat_stages": [
+                "index": 14,
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -2838,9 +3051,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2869,10 +3082,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2901,10 +3114,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2933,10 +3146,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -2965,7 +3178,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 0,
@@ -2995,25 +3208,25 @@
                 "hash": "8848249281094032864",
                 "name": "Leviathan Beam Turret Right (Model)",
                 "name_zh": "利维坦 激光炮 右",
-                "index": 14,
-                "overheat_stages": [
+                "index": 15,
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -3051,9 +3264,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3082,10 +3295,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3114,10 +3327,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3146,10 +3359,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3178,7 +3391,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 0,
@@ -3208,25 +3421,25 @@
                 "hash": "3973443609256024694",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 15,
-                "overheat_stages": [
+                "index": 16,
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -3264,9 +3477,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3295,10 +3508,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3327,10 +3540,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3359,10 +3572,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3391,13 +3604,13 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
-                "charging_start_audio_event": 1499643994,
-                "charging_complete_audio_event": 4192112882,
-                "discharging_start_audio_event": 796668497,
-                "discharging_complete_audio_event": 4145034059,
+                "charging_start_audio_event": 3143154768,
+                "charging_complete_audio_event": 346255420,
+                "discharging_start_audio_event": 4105687643,
+                "discharging_complete_audio_event": 3301223993,
                 "charge_source_node": 2601604451,
                 "on_temp_yellow_start_sound_event": 0,
                 "on_temp_yellow_stop_sound_event": 0,
@@ -3421,25 +3634,25 @@
                 "hash": "3199457897835937068",
                 "name": "AX/LAS-5 Rover Gun (Model)",
                 "name_zh": "AX/LAS-5 漫游车（武器）",
-                "index": 16,
-                "overheat_stages": [
+                "index": 17,
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -3477,9 +3690,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3508,10 +3721,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3540,10 +3753,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3572,10 +3785,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3604,7 +3817,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 0,
@@ -3625,7 +3838,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2672 <=> AbilityId_Unknown_2672",
+                "overheat_ability": "2833 <=> AbilityId_Unknown_2833",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -3634,25 +3847,25 @@
                 "hash": "2877271129141764950",
                 "name": "LAS-5 Scythe (Model)",
                 "name_zh": "LAS-5 长柄镰（主武器，模型）",
-                "index": 17,
-                "overheat_stages": [
+                "index": 18,
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -3690,9 +3903,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3721,10 +3934,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3753,10 +3966,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3785,10 +3998,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3817,7 +4030,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 219714567,
@@ -3838,7 +4051,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2672 <=> AbilityId_Unknown_2672",
+                "overheat_ability": "2833 <=> AbilityId_Unknown_2833",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -3847,25 +4060,25 @@
                 "hash": "9093125700741019976",
                 "name": "LAS-22 Shear (Model)",
                 "name_zh": "LAS-22 切变（主武器，模型）",
-                "index": 18,
-                "overheat_stages": [
+                "index": 19,
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -3903,9 +4116,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3934,10 +4147,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3966,10 +4179,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -3998,10 +4211,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -4030,7 +4243,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 1934415059,
@@ -4051,7 +4264,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2676 <=> AbilityId_Unknown_2676",
+                "overheat_ability": "2837 <=> AbilityId_Unknown_2837",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -4060,25 +4273,25 @@
                 "hash": "9675404802175538082",
                 "name": "LAS-16 Sickle (Model)",
                 "name_zh": "LAS-16 镰刀（主武器，模型）",
-                "index": 19,
-                "overheat_stages": [
+                "index": 20,
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -4116,9 +4329,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -4147,10 +4360,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -4179,10 +4392,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -4211,10 +4424,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -4243,7 +4456,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 1290041671,
@@ -4264,7 +4477,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2673 <=> AbilityId_Unknown_2673",
+                "overheat_ability": "2834 <=> AbilityId_Unknown_2834",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -4273,25 +4486,25 @@
                 "hash": "2980234130573201393",
                 "name": "LAS-17 Double-Edge Sickle (Model)",
                 "name_zh": "LAS-17 双刃镰刀（主武器，模型）",
-                "index": 20,
-                "overheat_stages": [
+                "index": 21,
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 50.0,
-                        "projectile_type": 182,
+                        "projectile_type": "185 <=> ProjectileType_Unknown_185",
                         "unk_particle_effect": "1129534616093560801",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "60 <=> StatusEffectType_Hotshot_Laser_Rifle_RL1"
                     },
                     {
                         "temperature_threshold": 100.0,
-                        "projectile_type": 213,
+                        "projectile_type": "218 <=> ProjectileType_Unknown_218",
                         "unk_particle_effect": "3373217330028412957",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "61 <=> StatusEffectType_Hotshot_Laser_Rifle_RL2"
                     },
                     {
                         "temperature_threshold": 190.0,
-                        "projectile_type": 25,
+                        "projectile_type": "25 <=> ProjectileType_Unknown_25",
                         "unk_particle_effect": "17739782388901165193",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "62 <=> StatusEffectType_Hotshot_Laser_Rifle_RL3"
@@ -4329,9 +4542,9 @@
                 "charge_variable": 3379599616,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -4360,10 +4573,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -4392,10 +4605,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -4424,10 +4637,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -4456,7 +4669,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 3010839028,
@@ -4477,7 +4690,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2673 <=> AbilityId_Unknown_2673",
+                "overheat_ability": "2834 <=> AbilityId_Unknown_2834",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -4486,25 +4699,25 @@
                 "hash": "4361428863637469552",
                 "name": "LAS-13 Trident (Model)",
                 "name_zh": "LAS-13 三叉戟（主武器，模型）",
-                "index": 21,
-                "overheat_stages": [
+                "index": 22,
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -4542,9 +4755,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -4573,10 +4786,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -4605,10 +4818,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -4637,10 +4850,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -4669,7 +4882,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 0,
@@ -4690,7 +4903,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2683 <=> AbilityId_Unknown_2683",
+                "overheat_ability": "2844 <=> AbilityId_Unknown_2844",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -4699,25 +4912,25 @@
                 "hash": "5731472083741485993",
                 "name": "Physical Gun (Model)",
                 "name_zh": "物理枪",
-                "index": 22,
-                "overheat_stages": [
+                "index": 23,
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -4755,9 +4968,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -4786,10 +4999,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -4818,10 +5031,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -4850,10 +5063,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -4882,7 +5095,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 219714567,
@@ -4912,25 +5125,25 @@
                 "hash": "4714430103453754419",
                 "name": "LAS-58 Talon (Model)",
                 "name_zh": "LAS-58 猛爪（副武器，模型）",
-                "index": 23,
-                "overheat_stages": [
+                "index": 24,
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -4968,9 +5181,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -4999,10 +5212,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -5031,10 +5244,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -5063,10 +5276,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -5095,7 +5308,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 0,
@@ -5116,7 +5329,7 @@
                 "camera_shake_on_red_temp_start": "0",
                 "camera_shake_on_fire_stop_constant": "0",
                 "camera_shake_on_fire_stop_kick": "0",
-                "overheat_ability": "2681 <=> AbilityId_Unknown_2681",
+                "overheat_ability": "2842 <=> AbilityId_Unknown_2842",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -5125,25 +5338,25 @@
                 "hash": "8864800879179811976",
                 "name": "LAS-7 Dagger (Model)",
                 "name_zh": "LAS-7 匕首（副武器，模型）",
-                "index": 24,
-                "overheat_stages": [
+                "index": 25,
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -5181,9 +5394,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -5212,10 +5425,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -5244,10 +5457,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -5276,10 +5489,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -5308,7 +5521,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 41885984,
@@ -5329,7 +5542,7 @@
                 "camera_shake_on_red_temp_start": "11110671436500898607",
                 "camera_shake_on_fire_stop_constant": "0",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2675 <=> AbilityId_Unknown_2675",
+                "overheat_ability": "2836 <=> AbilityId_Unknown_2836",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -5338,25 +5551,25 @@
                 "hash": "15369542005276747891",
                 "name": "LAS-98 Laser Cannon (Model)",
                 "name_zh": "LAS-98 激光大炮（模型）",
-                "index": 25,
-                "overheat_stages": [
+                "index": 26,
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -5394,9 +5607,9 @@
                 "charge_variable": 0,
                 "overheat_variable": 0,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -5425,10 +5638,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -5457,10 +5670,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -5489,10 +5702,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -5521,7 +5734,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 3093813414,
@@ -5542,7 +5755,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2678 <=> AbilityId_Unknown_2678",
+                "overheat_ability": "2839 <=> AbilityId_Unknown_2839",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -5551,25 +5764,25 @@
                 "hash": "3865797767236207742",
                 "name": "LAS-99 Quasar Cannon (Model)",
                 "name_zh": "LAS-99 类星体加农炮（模型）",
-                "index": 26,
-                "overheat_stages": [
+                "index": 27,
+                "heat_Level_setting": [
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
                     },
                     {
                         "temperature_threshold": 0.0,
-                        "projectile_type": 0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
                         "unk_particle_effect": "0",
                         "unk_uint32_r0x0010": 0,
                         "status_effect_to_user": "0 <=> StatusEffectType_None"
@@ -5607,9 +5820,9 @@
                 "charge_variable": 3379599616,
                 "overheat_variable": 92240865,
                 "unk_bool_about_shear": 0,
-                "weapon_custom_override": [
+                "heat_material_setting": [
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -5638,10 +5851,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -5670,10 +5883,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -5702,10 +5915,10 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     },
                     {
-                        "unk_entries": [
+                        "0x6386883C": [
                             {
                                 "unk_uint32_r0x0000": 0,
                                 "unk_uint32_r0x0004": 0,
@@ -5734,7 +5947,7 @@
                         ],
                         "unk_float_r0x003C": 1.0,
                         "unk_float_r0x0040": 1.0,
-                        "unk_uint32_r0x0044": 0
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
                     }
                 ],
                 "charging_start_audio_event": 655006436,
@@ -5755,7 +5968,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2679 <=> AbilityId_Unknown_2679",
+                "overheat_ability": "2840 <=> AbilityId_Unknown_2840",
                 "unk_float_0x024C": 100.0
             }
         }

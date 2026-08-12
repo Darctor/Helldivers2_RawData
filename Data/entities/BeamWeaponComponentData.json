@@ -1,11 +1,11 @@
 {
     "_metadata": {
-        "struct_size": 128,
-        "omitted_size": 11,
-        "exported_entity_count": 21,
-        "matched_bilingual_hash_count": 16,
-        "patch_date": "2026-07-07",
-        "game_version": "1.006.301"
+        "struct_size": 120,
+        "omitted_size": 3,
+        "exported_entity_count": 23,
+        "matched_bilingual_hash_count": 18,
+        "patch_date": "2026-08-12",
+        "game_version": "1.007.000"
     },
     "entities": [
         {
@@ -14,23 +14,18 @@
                 "name": "Gazer",
                 "name_zh": "凝视者",
                 "index": 0,
-                "beam_type": "13 <=> BeamType_Gazer",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "beam_type": "14 <=> BeamType_Gazer",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -46,11 +41,14 @@
                 "fire_source_node": 747556395,
                 "dry_fire_audio_event": 0,
                 "dry_fire_repeat_audio_event": 0,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 0,
                 "on_fire_stopped_wielder_anim_event": 0,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -59,23 +57,18 @@
                 "name": "Gazer MK2",
                 "name_zh": "凝视者 MK2",
                 "index": 1,
-                "beam_type": "26 <=> BeamType_Gazer_MK2",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "beam_type": "29 <=> BeamType_Gazer_MK2",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -91,11 +84,14 @@
                 "fire_source_node": 747556395,
                 "dry_fire_audio_event": 0,
                 "dry_fire_repeat_audio_event": 0,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 0,
                 "on_fire_stopped_wielder_anim_event": 0,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -104,23 +100,18 @@
                 "name": "N/A",
                 "name_zh": "N/A",
                 "index": 2,
-                "beam_type": "11 <=> BeamType_TripodEye",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "beam_type": "12 <=> BeamType_TripodEye",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -136,11 +127,14 @@
                 "fire_source_node": 1243096897,
                 "dry_fire_audio_event": 0,
                 "dry_fire_repeat_audio_event": 0,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 0,
                 "on_fire_stopped_wielder_anim_event": 0,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -150,22 +144,17 @@
                 "name_zh": "N/A",
                 "index": 3,
                 "beam_type": "2 <=> BeamType_BotTorch",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 0.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -181,11 +170,14 @@
                 "fire_source_node": 2601604451,
                 "dry_fire_audio_event": 0,
                 "dry_fire_repeat_audio_event": 0,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 0,
                 "on_fire_stopped_wielder_anim_event": 0,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -194,23 +186,18 @@
                 "name": "N/A",
                 "name_zh": "N/A",
                 "index": 4,
-                "beam_type": "4 <=> BeamType_TripodEye_MK3",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "beam_type": "5 <=> BeamType_TripodEye_MK3",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -226,11 +213,14 @@
                 "fire_source_node": 1243096897,
                 "dry_fire_audio_event": 0,
                 "dry_fire_repeat_audio_event": 0,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 0,
                 "on_fire_stopped_wielder_anim_event": 0,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -239,23 +229,18 @@
                 "name": "N/A",
                 "name_zh": "N/A",
                 "index": 5,
-                "beam_type": "8 <=> BeamType_ObserverEye",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "beam_type": "9 <=> BeamType_ObserverEye",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -271,11 +256,14 @@
                 "fire_source_node": 2601604451,
                 "dry_fire_audio_event": 0,
                 "dry_fire_repeat_audio_event": 0,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 0,
                 "on_fire_stopped_wielder_anim_event": 0,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -284,23 +272,18 @@
                 "name": "Harvester Beam Weapon (Model)",
                 "name_zh": "猎杀器 激光武器",
                 "index": 6,
-                "beam_type": "11 <=> BeamType_TripodEye",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "beam_type": "12 <=> BeamType_TripodEye",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -316,11 +299,14 @@
                 "fire_source_node": 1243096897,
                 "dry_fire_audio_event": 0,
                 "dry_fire_repeat_audio_event": 0,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 0,
                 "on_fire_stopped_wielder_anim_event": 0,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -329,23 +315,18 @@
                 "name": "Leviathan Beam Turret (Model)",
                 "name_zh": "利维坦 激光炮",
                 "index": 7,
-                "beam_type": "20 <=> BeamType_Leviathan",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "beam_type": "22 <=> BeamType_Leviathan",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -361,11 +342,57 @@
                 "fire_source_node": 747556395,
                 "dry_fire_audio_event": 0,
                 "dry_fire_repeat_audio_event": 0,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 0,
                 "on_fire_stopped_wielder_anim_event": 0,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
+            }
+        },
+        {
+            "0x262351741C53FF0C": {
+                "hash": "2748129756759457548",
+                "name": "Gazer Spire",
+                "name_zh": "凝视者 尖塔",
+                "index": 8,
+                "beam_type": "29 <=> BeamType_Gazer_MK2",
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 0,
+                "fire_loop_stop_audio_event": 0,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "1972006519445982030",
+                "noise_timer": 0.25,
+                "fire_source_node": 747556395,
+                "dry_fire_audio_event": 0,
+                "dry_fire_repeat_audio_event": 0,
+                "unk_event_0x0058": 2925928830,
+                "on_fire_started_wielder_anim_event": 0,
+                "on_fire_stopped_wielder_anim_event": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
+                "rounds_per_minute": 60,
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -373,24 +400,19 @@
                 "hash": "6198940140191066280",
                 "name": "A/LAS-98 Laser Sentry",
                 "name_zh": "A/LAS-98 激光哨戒炮",
-                "index": 8,
-                "beam_type": "9 <=> BeamType_LaserSentry",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "index": 9,
+                "beam_type": "10 <=> BeamType_LaserSentry",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -406,11 +428,14 @@
                 "fire_source_node": 747556395,
                 "dry_fire_audio_event": 1972314068,
                 "dry_fire_repeat_audio_event": 619824322,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 2631304082,
                 "on_fire_stopped_wielder_anim_event": 489713550,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -418,24 +443,19 @@
                 "hash": "1837707428311856638",
                 "name": "E/MG-101 HMG Emplacement (Laser)",
                 "name_zh": "E/MG-101 固定重机枪（激光）",
-                "index": 9,
-                "beam_type": "22 <=> BeamType_Large",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "index": 10,
+                "beam_type": "24 <=> BeamType_Large",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -451,11 +471,14 @@
                 "fire_source_node": 2601604451,
                 "dry_fire_audio_event": 0,
                 "dry_fire_repeat_audio_event": 0,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 0,
                 "on_fire_stopped_wielder_anim_event": 0,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -463,24 +486,19 @@
                 "hash": "16763036627779227620",
                 "name": "Harvester Beam Weapon Broken Eye (Model)",
                 "name_zh": "猎杀器 激光武器（眼部破损）",
-                "index": 10,
-                "beam_type": "21 <=> BeamType_TripodBrokenEye",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "index": 11,
+                "beam_type": "23 <=> BeamType_TripodBrokenEye",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -496,11 +514,14 @@
                 "fire_source_node": 1243096897,
                 "dry_fire_audio_event": 0,
                 "dry_fire_repeat_audio_event": 0,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 0,
                 "on_fire_stopped_wielder_anim_event": 0,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -508,24 +529,19 @@
                 "hash": "17408108687437120663",
                 "name": "Leviathan Beam Turret Left (Model)",
                 "name_zh": "利维坦 激光炮 左",
-                "index": 11,
-                "beam_type": "20 <=> BeamType_Leviathan",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "index": 12,
+                "beam_type": "22 <=> BeamType_Leviathan",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -541,11 +557,14 @@
                 "fire_source_node": 747556395,
                 "dry_fire_audio_event": 0,
                 "dry_fire_repeat_audio_event": 0,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 0,
                 "on_fire_stopped_wielder_anim_event": 0,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -553,24 +572,19 @@
                 "hash": "8848249281094032864",
                 "name": "Leviathan Beam Turret Right (Model)",
                 "name_zh": "利维坦 激光炮 右",
-                "index": 12,
-                "beam_type": "20 <=> BeamType_Leviathan",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "index": 13,
+                "beam_type": "22 <=> BeamType_Leviathan",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -586,11 +600,14 @@
                 "fire_source_node": 747556395,
                 "dry_fire_audio_event": 0,
                 "dry_fire_repeat_audio_event": 0,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 0,
                 "on_fire_stopped_wielder_anim_event": 0,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -598,32 +615,27 @@
                 "hash": "3973443609256024694",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 13,
-                "beam_type": "3 <=> BeamType_ShoulderMountedCamera",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "index": 14,
+                "beam_type": "4 <=> BeamType_ShoulderMountedCamera",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
                     "y": 0.0
                 },
                 "midi_stop_delay": 0.0,
-                "fire_loop_start_audio_event": 3440814238,
-                "fire_loop_stop_audio_event": 2553182014,
+                "fire_loop_start_audio_event": 3467980648,
+                "fire_loop_stop_audio_event": 3544646964,
                 "fire_single_audio_event": 0,
                 "fire_all_barrel_audio_event": 0,
                 "muzzle_flash": "0",
@@ -631,11 +643,14 @@
                 "fire_source_node": 2601604451,
                 "dry_fire_audio_event": 1972314068,
                 "dry_fire_repeat_audio_event": 619824322,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 0,
                 "on_fire_stopped_wielder_anim_event": 0,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -643,24 +658,19 @@
                 "hash": "3199457897835937068",
                 "name": "AX/LAS-5 Rover Gun (Model)",
                 "name_zh": "AX/LAS-5 漫游车（武器）",
-                "index": 14,
-                "beam_type": "23 <=> BeamType_MediumDrone",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "index": 15,
+                "beam_type": "25 <=> BeamType_MediumDrone",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 0.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -676,11 +686,14 @@
                 "fire_source_node": 2601604451,
                 "dry_fire_audio_event": 0,
                 "dry_fire_repeat_audio_event": 0,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 0,
                 "on_fire_stopped_wielder_anim_event": 0,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -688,24 +701,19 @@
                 "hash": "2877271129141764950",
                 "name": "LAS-5 Scythe (Model)",
                 "name_zh": "LAS-5 长柄镰（主武器，模型）",
-                "index": 15,
-                "beam_type": "7 <=> BeamType_Medium",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "index": 16,
+                "beam_type": "8 <=> BeamType_Medium",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -721,11 +729,14 @@
                 "fire_source_node": 2601604451,
                 "dry_fire_audio_event": 1972314068,
                 "dry_fire_repeat_audio_event": 619824322,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 1694094985,
                 "on_fire_stopped_wielder_anim_event": 1786122532,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -733,24 +744,19 @@
                 "hash": "9093125700741019976",
                 "name": "LAS-22 Shear (Model)",
                 "name_zh": "LAS-22 切变（主武器，模型）",
-                "index": 16,
-                "beam_type": "7 <=> BeamType_Medium",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "index": 17,
+                "beam_type": "8 <=> BeamType_Medium",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -766,11 +772,14 @@
                 "fire_source_node": 2601604451,
                 "dry_fire_audio_event": 1972314068,
                 "dry_fire_repeat_audio_event": 619824322,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 1694094985,
                 "on_fire_stopped_wielder_anim_event": 1786122532,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -778,24 +787,19 @@
                 "hash": "4361428863637469552",
                 "name": "LAS-13 Trident (Model)",
                 "name_zh": "LAS-13 三叉戟（主武器，模型）",
-                "index": 17,
-                "beam_type": "5 <=> BeamType_Trident",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "index": 18,
+                "beam_type": "6 <=> BeamType_Trident",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -811,11 +815,14 @@
                 "fire_source_node": 2601604451,
                 "dry_fire_audio_event": 1972314068,
                 "dry_fire_repeat_audio_event": 619824322,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 1694094985,
                 "on_fire_stopped_wielder_anim_event": 1786122532,
-                "blaster_mode": 1,
+                "weapon_firing_mode": "6 <=> BeamFireMode_Unknown_6",
                 "rounds_per_minute": 300,
-                "beam_count_per_barrel": 2
+                "beam_count_per_barrel": 2,
+                "beam_persists_per_shot": 0.15000000596046448,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -823,24 +830,19 @@
                 "hash": "5731472083741485993",
                 "name": "Physical Gun (Model)",
                 "name_zh": "物理枪",
-                "index": 18,
-                "beam_type": "12 <=> BeamType_PhysGun",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "index": 19,
+                "beam_type": "13 <=> BeamType_PhysGun",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -856,11 +858,14 @@
                 "fire_source_node": 1464994495,
                 "dry_fire_audio_event": 0,
                 "dry_fire_repeat_audio_event": 0,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 0,
                 "on_fire_stopped_wielder_anim_event": 0,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         },
         {
@@ -868,24 +873,19 @@
                 "hash": "8864800879179811976",
                 "name": "LAS-7 Dagger (Model)",
                 "name_zh": "LAS-7 匕首（副武器，模型）",
-                "index": 19,
-                "beam_type": "10 <=> BeamType_Small",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
+                "index": 20,
+                "beam_type": "11 <=> BeamType_Small",
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -901,11 +901,57 @@
                 "fire_source_node": 2601604451,
                 "dry_fire_audio_event": 779413565,
                 "dry_fire_repeat_audio_event": 4027796040,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 182456922,
                 "on_fire_stopped_wielder_anim_event": 2458244727,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
+            }
+        },
+        {
+            "0x6CFCC7F8801A0266": {
+                "hash": "7853371720342307430",
+                "name": "40-K Meltagun (Model)",
+                "name_zh": "40K 热熔枪（模型）",
+                "index": 21,
+                "beam_type": "18 <=> BeamType_Meltagun",
+                "scope_crosshair": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "firenode_pose_limit": 0.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 0.10000000149011612,
+                    "maximum_heat": 8.0,
+                    "heat_bleed_speed": 2.5999999046325684,
+                    "heat_bleed_delay": 1.0
+                },
+                "use_midi_event_system": 0,
+                "midi_timing_randomisation": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "midi_stop_delay": 0.0,
+                "fire_loop_start_audio_event": 284994746,
+                "fire_loop_stop_audio_event": 1684076996,
+                "fire_single_audio_event": 0,
+                "fire_all_barrel_audio_event": 0,
+                "muzzle_flash": "17247506939014683571",
+                "noise_timer": 0.25,
+                "fire_source_node": 2601604451,
+                "dry_fire_audio_event": 1972314068,
+                "dry_fire_repeat_audio_event": 619824322,
+                "unk_event_0x0058": 3956223216,
+                "on_fire_started_wielder_anim_event": 1694094985,
+                "on_fire_stopped_wielder_anim_event": 1786122532,
+                "weapon_firing_mode": "5 <=> BeamFireMode_Unknown_5",
+                "rounds_per_minute": 50,
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 1.399999976158142,
+                "unk_uint32_about_meltagun": 3916164692
             }
         },
         {
@@ -913,24 +959,19 @@
                 "hash": "15369542005276747891",
                 "name": "LAS-98 Laser Cannon (Model)",
                 "name_zh": "LAS-98 激光大炮（模型）",
-                "index": 20,
+                "index": 22,
                 "beam_type": "1 <=> BeamType_LaserCannon",
-                "beam_prisms": {
-                    "light_beam_type": "0 <=> BeamType_None",
-                    "light_heat_generation_mul": 1.0,
-                    "heavy_beam_type": "0 <=> BeamType_None",
-                    "heavy_heat_generation_mul": 1.0
-                },
                 "scope_crosshair": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "focal_distances": {
-                    "x": 50.0,
-                    "y": 100.0,
-                    "z": 200.0
-                },
                 "firenode_pose_limit": 180.0,
+                "heat_buildup": {
+                    "heat_build_per_shot": 1.0,
+                    "maximum_heat": 0.0,
+                    "heat_bleed_speed": 10.0,
+                    "heat_bleed_delay": 5.0
+                },
                 "use_midi_event_system": 0,
                 "midi_timing_randomisation": {
                     "x": 0.0,
@@ -946,11 +987,14 @@
                 "fire_source_node": 2601604451,
                 "dry_fire_audio_event": 1972314068,
                 "dry_fire_repeat_audio_event": 619824322,
+                "unk_event_0x0058": 2925928830,
                 "on_fire_started_wielder_anim_event": 2631304082,
                 "on_fire_stopped_wielder_anim_event": 489713550,
-                "blaster_mode": 0,
+                "weapon_firing_mode": "4 <=> BeamFireMode_Unknown_4",
                 "rounds_per_minute": 60,
-                "beam_count_per_barrel": 1
+                "beam_count_per_barrel": 1,
+                "beam_persists_per_shot": 0.0,
+                "unk_uint32_about_meltagun": 0
             }
         }
     ]

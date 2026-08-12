@@ -1,144 +1,195 @@
-# 项目更新说明与阅读指南
+# 数据说明
 
-> 本文面向希望自行查证游戏数值的普通玩家。它介绍本项目导出的 JSON 数据如何获取、如何打开，以及怎样避免常见的误读。  
-> 数据来自游戏运行时的内存转储与解析，并非 Arrowhead 官方源码；它能反映转储时对应版本的配置，但不应单独作为机制结论或版本前瞻的唯一依据。  
+> 这里说明怎么打开、检索和看懂本项目导出的 JSON。  
+> 数据来自对应版本的游戏内存，不是 Arrowhead 的官方源码，也不能单独当成机制结论。  
 > **注：可能有少量泄露内容。**
 
 ## 项目简介
 
-社区可依赖游戏内附带的元数据（枚举名称、各组件配置表等）批量导出数值的项目为 [HelldiversData](https://github.com/shalzuth/HelldiversData)。官方移除这些元数据后，该项目停止更新。
-本项目是以运行时内存转储并建立结构解析，通过参考过往数据与游戏中实际测试，尽量导出关键数据。因字段布局与语义已大幅变化，结果中含 `unk` / `unknown` 及待核实内容。
+[HelldiversData](https://github.com/shalzuth/HelldiversData) 原先可以依据游戏自带的枚举名和组件配置表批量导出数值。官方移除这些元数据后，该项目停止更新。
 
-## 结论：
+本项目改为直接读取运行中的游戏内存。从 `v1.007.000`（2026-08-12）开始，结构体大小、字段偏移、数据类型、数组长度和嵌套关系都以游戏的 typelib 为准。字段原名仍然可能缺失，因此 JSON 中会保留 `unk`，或使用 4 字节类型哈希作为键名。
 
-可查找以下内容：
+`2026-07-07`（`v1.006.301`）及更早的数据由手工测量得到。其中存在切分错误的结构、被误记为 padding 的有效字段，以及仅凭全零数据推断的数组。查阅数值和对照字段时，应使用 2026-08-12 及以后的数据。
 
-- 伤害、爆炸、射弹、光束、电弧、状态效果、战备等基础配置；
-- 武器自定义中可用的配件、弹匣、瞄具、涂装等条目与修改内容；
-- 实体的生命、状态接收器、武器、装填等组件数据；
-- 相同数据在不同版本的变化。
+目前可以查：
 
-但请注意以下限制：
+- 伤害、爆炸、射弹、光束、电弧、状态效果、战备等公共配置；
+- 武器配件、弹匣、瞄具、涂装等自定义条目；
+- 生命、状态接收、武器、装填等组件；
+- 同一份数据在不同版本之间的变化。
 
-1. **数据是配置，不一定等于最终实战结果。** 实际效果还可能受游戏机制、部分硬编码数据、服务器逻辑及其他组件共同影响。
-2. **名称不等于功能说明。** 字段名能说明的部分会尽量保留；`unk`、`unknown` 或只有数字的字段，表示其含义尚未确认。
-3. **版本必须匹配。** 游戏更新后，字段位置、枚举编号和数值都有可能变化。讨论数值时，请同时注明游戏版本和转储日期。
+限制：
 
-## 一、如何获取指定版本的数据
+1. 这是配置，不是结算结果。实战还受机制、硬编码、服务器和其他组件影响。
+2. 字段名不是功能说明。`unk` 表示布局已知、用途未知；`0x` 后接 8 位十六进制的键名，是缺失原名的结构或枚举，保留了它的 4 字节类型哈希。
+3. 版本必须对应。游戏更新后，字段位置、枚举编号和数值都可能变化。引用时注明 `game_version` 和 `patch_date`。
 
-每次更新转储时，项目会同时提供两种获取方式：
+## Typelib
 
-- **提交记录（Commit）**：适合查看改动。
-- **发布包（Release）**：适合直接下载和阅读。
+typelib 是游戏 DataLibrary 的类型库，文件头是 `LTLD`。[filediver](https://github.com/xypwn/filediver) 可以把它从游戏资源里解出来。
 
-建议的使用方式：
+它写明了每个结构在 64 位进程里的总大小、对齐、成员偏移和存储类型，也写明了成员是普通值、定长内嵌数组、运行时数组、位域还是嵌套结构。官方大约在 2024 年 11 月删掉了其中的 `typeinfo_strings`，字段名、注释和一部分枚举名不在文件里，布局还在。
 
-1. 想看某一次更新后的数据：下载对应的 Release 压缩包并解压。
-2. 想对比变化：在仓库中比较相邻 Commit 的同名 JSON 文件。
+据此可以确定一个 4 字节区域是整数、浮点、枚举还是对齐空隙，也可以确定一大段数据由哪些嵌套结构组成，而不会因为整段数值为零就将其视为无意义数据。游戏更新后，可以先比较新 typelib 中哪些结构变长、哪些成员位移，再修改配置。测试用于确认字段用途，不再用于推断结构边界。
 
-不要只根据文件名日期判断版本。每个导出 JSON 的开头通常有 `_metadata`，其中的 `game_version` 与 `patch_date` 才是该文件自身记录的版本信息。例如：
+当前数据中的 `unk` 表示位置和类型已经确定，原名或用途尚未确认。2026-07-07 数据中的 `unk` 经常连字节边界也未确定，二者含义不同。
+
+### 类型对应
+
+| typelib 类型 | 项目中的读法 | JSON 中的样子 |
+| --- | --- | --- |
+| `uint8` / `uint16` / `uint32` | `B` / `H` / `I` | 非负整数 |
+| `int8` / `int16` / `int32` | `b` / `h` / `i` | 整数，可以是负数 |
+| `uint64` / `int64` | `Q` / `q`，8 字节 | 十进制字符串，避免大整数丢精度 |
+| `fp32` / `fp64` | `f` / `d` | 小数 |
+| `enum_uint32`、`enum_int32` 等 | 对应宽度的整数，再附上枚举名 | `1 <=> HitReactEventType_Light` |
+| `bitfield` | 某个整数里的一个二进制位 | `*_detail` 里的 `0` 或 `1` |
+| `struct` | `type: struct` | `{ ... }` |
+| `inline_array` | `type: array`，`storage: inline` | 长度固定的数组 |
+| `array` | 指针数组，`storage: pointer` | 长度不固定的数组 |
+| `ptr` | 8 字节地址，或继续读取它指向的数据 | 地址字符串，或解析后的对象 |
+| `str` | `type: string` | 文本 |
+| 没有成员的空隙 | `padding` | 不导出 |
+
+`array` 和 `inline_array` 只是内存位置不同。导出后通常都是普通的 `[ ... ]`。
+
+### 键名或枚举名是 4 字节哈希
+
+JSON 里的 `0x` 有两种：
+
+- 很长的那串是 64 位资源哈希，例如实体键 `0xAA28CAF964D05500`，用来标识某一把武器、某一只敌人或某一个模型。
+- 8 位十六进制是 32 位类型哈希，例如 `0xD6AB4E79`，用来标识某一种结构体或枚举。
+
+类型哈希由类型原名计算。类型名称不变，哈希也不变。typelib 仍提供该类型的大小和内部字段；若原名已被删除且名称表中也没有记录，导出时就使用这个哈希，不再另行编造英文名称。
+
+键名为哈希时，表示该嵌套结构的布局已知，原名未知。`HitReactComponentData` 中的例子：
+
+```json
+"0xD6AB4E79": [
+    {
+        "0xD34E38FB": [
+            {
+                "event_type": "1 <=> HitReactEventType_Light",
+                "force_strength_threshold": 15,
+                "0x4A423019": [
+```
+
+`0xD6AB4E79`、`0xD34E38FB`、`0x4A423019` 都是没有原名的嵌套结构。同一记录中的 `event_type` 可以写成 `HitReactEventType_Light`，因为该枚举名称已经匹配。
+
+枚举名为哈希时，表示数值已经读出，枚举类型的原名缺失。`ProjectileWeaponComponentData` 中的例子：
+
+```json
+"aim_zeroing_quality": "3 <=> ProjectileZeroingQuality_High",
+"unk_silence_type": "2 <=> 0xC60F6AF4_Unknown_2"
+```
+
+`aim_zeroing_quality` 的枚举类型和枚举项都有名称。`unk_silence_type` 的值是 `2`，typelib 只提供枚举类型哈希 `0xC60F6AF4`，因此写作 `0xC60F6AF4_Unknown_2`。它不是实体哈希，也不能依据相邻的已知枚举推断其含义。
+
+## 获取数据
+
+每次转储有两种入口：
+
+- **Release**：直接下载阅读。
+- **Commit**：看这次改了什么。
+
+看某一版，下载对应 Release。对比变化，比较相邻 Commit 里的同名 JSON。
+
+文件名上的日期不够。Component 的 `_metadata` 在文件根上，Settings 的 `_metadata` 在每张表里面：
 
 ```json
 {
   "_metadata": {
-    "patch_date": "2026-07-07",
-    "game_version": "1.006.301"
+    "patch_date": "2026-08-12",
+    "game_version": "1.007.000"
   }
 }
 ```
 
-`patch_date` 和 `game_version` 用于核对它对应的游戏更新，优先看文件内元数据。
+以这里的 `patch_date` 和 `game_version` 为准。
 
-## 二、怎样打开 JSON 文件
+## 打开 JSON
 
-JSON 是纯文本格式，不需要专用游戏工具。较大的文件可能有几十万行，请使用能处理大文件的编辑器。
+JSON 是文本，不需要专用游戏工具。较大的文件可能有几十万行，应使用能够处理大文件的编辑器。
 
-### 推荐方式
+- **VS Code**：搜索、折叠、大文件都够用。
+- **Notepad++**：搜索和复制片段。
+- 网页 JSON 工具只适合小文件。不要上传未公开数据或包含个人信息的文件。大文件在网页中可能卡顿或截断，应改用 VS Code。
 
-- **Visual Studio Code（推荐）**：免费，支持折叠、搜索、格式化和大文件阅读。安装后直接拖入 JSON 文件即可。
-- **Notepad++**：适合只做搜索、快速浏览或复制片段。
-- **网页 JSON 查看器/格式化器**：适合小文件或临时查看。请勿上传未公开的数据、带有个人信息的日志或来源不明的文件。
+常用操作：
 
-### 最实用的阅读操作
+1. `Ctrl + F` 搜武器、敌人或字段名。
+2. 只展开正在看的那一层。
+3. 搜 `0xAA28CAF964D05500` 这种十六进制哈希，可以直接定位实体。
+4. 看一个数时，连同它的父对象、所在数组和相邻字段一起看。
+5. 大文件先搜 `name`、`name_zh`、`debug_name`、`type`、`hash_hex`。
 
-1. 用 `Ctrl + F` 搜索武器、敌人或字段名。
-2. 点击对象左侧的折叠箭头，只展开当前需要的层级。
-3. 搜索十六进制哈希，例如 `0xAA28CAF964D05500`，可精确定位实体。
-4. 阅读一个数值时，同时查看它所在的对象、父级数组及同级字段，避免断章取义。
-5. 如果文件很大，优先搜索 `name`、`name_zh`、`debug_name`、`type` 或 `hash_hex`，不要从头手动翻阅。
-
-网页编辑器对超大文件可能卡顿、截断或导致浏览器崩溃；这种情况请改用 VS Code。
-
-## 三、先认识一条数据
-
-以下是经过简化的实体记录形状：
+## 一条实体记录
 
 ```json
 {
-  "0xAA28CAF964D05500": {
-    "hash": "12261273158003217664",
-    "name": "Spore Spewer",
-    "name_zh": "孢子喷涌虫",
-    "index": 0,
-    "health": 2500,
-    "unit_size": "3 <=> UnitSize_Massive"
-  }
+  "_metadata": { "...": "..." },
+  "entities": [
+    {
+      "0xAA28CAF964D05500": {
+        "hash": "12261273158003217664",
+        "name": "Spore Spewer",
+        "name_zh": "孢子喷涌虫",
+        "index": 0,
+        "health": 2500,
+        "unit_size": "3 <=> UnitSize_Massive"
+      }
+    }
+  ]
 }
 ```
 
-- 最外层的 `0x...` 是十六进制哈希，适合精确检索。
-- `hash` 是同一个哈希的十进制写法。大整数用字符串保存，以避免部分软件丢失精度。
-- `name` / `name_zh` 是已匹配到的英文/中文名称；显示 `N/A` 只表示目前没有匹配到名称，不代表该实体无效。
-- `index` 是此条目在对应哈希表中的内部索引。它主要用于解析与排查，通常不是游戏内的“编号”。
-- 其他字段才是该组件导出的配置值。
+- 外层 `0x...` 是这个实体的十六进制资源哈希。
+- `hash` 是同一个数值的十进制写法。大整数保存为字符串，以避免精度丢失。
+- `name` / `name_zh` 为 `N/A`，只说明名称表里还没有这条，不说明实体无效。
+- `index` 是这张哈希表里的槽位，一般不是游戏里的编号。
+- 其余字段才是这个组件的配置。
 
-## 四、什么是哈希值
+## 资源哈希
 
-哈希值可以把它理解为游戏给一个对象分配的“长编号”。《绝地潜兵 2》会将内部资源路径，例如：
+游戏用资源路径计算一个 64 位编号，再用这个编号引用武器、敌人、模型、配件和音效。例如：
 
 ```text
 content/fac_helldivers/equipment/throwables/caltrops_grenade/caltrops_mine
 ```
 
-按 **MurmurHash64A** 算法计算为一个 64 位数字，再用该数字引用武器、敌人、模型、配件、音效或其他资源。当前已验证的规则是：使用标准 MurmurHash64A、`seed = 0`，且路径末尾不附加空字符。
+算法是标准 MurmurHash64A，`seed = 0`，路径末尾不加空字符。
 
-发布包会附带 `Hash.csv`，它是人工维护的对照表，常见格式为：
-
-```text
-10845250369047350884    AR-23 解放者（主武器，模型）    AR-23 Liberator (Model)
-```
-
-左边是十进制哈希，中间是中文名称，右边是英文名称。同一个值也可能在 JSON 中显示为十六进制形式，例如：
+发布包里的 `Hash.csv` 是手工维护的对照表，列为 `row_type,category,hash,name,name_zh`。只有 `row_type=entry` 的行是名称：
 
 ```text
-10845250369047350884  =  0x968211C0033DCE64（示意）
+entry,主武器-突击步枪,10845250369047350884,AR-23 Liberator (Model),AR-23 解放者（主武器，模型）
 ```
 
-### 查哈希时的注意事项
+`category` 是人工分类，不参与匹配。同一个哈希也可能写成十六进制，例如 `10845250369047350884 = 0x968211C0033DCE64`（示意）。
 
-- 同一个实体可能存在“本体”“模型”“支架(即空投仓)”“射弹”“占位符”等多个哈希；名称相近不表示它们是同一个对象。
-- 很多字段存的只是对其他资源的引用，例如 `payload`。把该数值再到 `Hash.csv` 中搜索，才可能知道它指向什么。
-- `name` / `name_zh` 显示为 `N/A`，通常只表示该哈希尚未被手动收录到名称对照表，不表示该实体不存在、无效或没有名称。
-- 名称表只记录了部分哈希，出现 `N/A` 是正常现象；也不应凭相邻条目猜测其含义。
-- 名称对照也可能有遗漏、旧名称或待核实名称；以游戏内行为、数据位置和多版本对比为准。
+检索时注意：
 
-## 五、Settings：游戏的“公共配置表”
+- 同一对象可能分别拥有本体、模型、支架（空投仓）、射弹、占位符等多个哈希。名称相近并不表示它们是同一个对象。
+- `payload` 等字段通常只保存另一个资源的哈希，需要再在 `Hash.csv` 中检索。
+- 名称表并不完整，出现 `N/A` 是正常情况。不应依据相邻条目推断含义。
+- 已收录的名称也可能过时或有误，仍需结合数据位置和游戏内的实际表现判断。
 
-路径：`data/settings/`
+## Settings
 
-Settings 可以理解为一批按类型排列、可被许多对象共同引用的全局配置表。它不直接描述“某一只具体敌人”或“某一把具体武器实例”，而是保存通用规则和条目定义。
+发布包路径：`data/settings/`。
 
-当前目录主要包括：
+Settings 是多处共用的配置表，不是某一只敌人或某一把枪的实例。当前有：
 
-- `generated_damage_settings.json`：伤害相关配置；
-- `generated_explosion_settings.json`：爆炸相关配置；
-- `generated_projectile_settings.json`：射弹相关配置；
-- `generated_beam_settings.json`、`generated_arc_settings.json`：光束与电弧相关配置；
-- `generated_status_effect_settings.json`：状态效果及其模板；
-- `generated_stratagem_settings.json`：战备条目；
-- `generated_weapon_customization_settings.json`：武器自定义条目。
+- `generated_damage_settings.json`：伤害；
+- `generated_explosion_settings.json`：爆炸；
+- `generated_projectile_settings.json`：射弹；
+- `generated_beam_settings.json`、`generated_arc_settings.json`：光束、电弧；
+- `generated_status_effect_settings.json`：状态效果和模板；
+- `generated_stratagem_settings.json`：战备；
+- `generated_weapon_customization_settings.json`：武器自定义。
 
-Settings 文件通常由一个或多个“表”组成。常见层级如下：
+一个文件里可以有多张表：
 
 ```json
 [
@@ -158,47 +209,45 @@ Settings 文件通常由一个或多个“表”组成。常见层级如下：
 ]
 ```
 
-阅读顺序是：**表名 → `items` 中的一条记录 → 字段值**。
+阅读顺序是表名、`items` 中的单条记录，然后是字段值。
 
-同一份 Settings 中，请务必分清 `type` 与 `index`：
+`type` 和 `index` 不是一回事：
 
-- **`type`**：该条目在游戏中的**类型编号**。例如上面的 `3 <=> StratagemType_EagleBomb`，表示“飞鹰500KG”这个战备的类型是 `3`；本项目尽量把它翻译成可读名称。跨文件引用时（例如射弹表里的 `damage_info_type`、武器组件里的 `projectile_type`），应始终按这个 `type` 数值去另一张表里查找。
-- **`index`**：该条目在**当前这张导出表**中的排列位置，从 `0` 开始计数。它只说明“这条记录排在第几个”，**不是**类型编号，也不能拿来跨表检索。
+- **`type`** 是该条目在游戏中的类型编号。上面的 `3 <=> StratagemType_EagleBomb` 表示飞鹰 500KG 的类型是 `3`。其他表引用它时，例如射弹的 `damage_info_type`、武器的 `projectile_type`，也应使用这个数值查找。
+- **`index`** 只表示该记录在当前导出表中的位置，从 `0` 开始，不能用于跨表检索。
 
-因此：搜索时必须找 `"type": "3`，绝不能找 `"index": 3`。同一张表里，`type` 与 `index` 的数字有时碰巧接近，但二者含义完全不同。
+应搜索 `"type": "3`，不要搜索 `"index": 3`。两者的数字有时接近，但含义不同。
 
-#### 为什么枚举的数字会变？
+### 枚举数字为什么会变
 
-在游戏开发过程中，官方源码里保存的是**枚举名**（例如 `StratagemType_AmmoBackpack`），开发者按名称引用，名称本身通常稳定。正式发布后的游戏客户端里，这些名称大多已被去掉，内存中只剩下对应的**整数编号**。
+源码中使用的是枚举名，例如 `StratagemType_AmmoBackpack`。发布后的客户端通常不再保留这些名称，内存中只剩下整数。若官方在枚举中间插入新项，其后的编号会顺延；源码中的名称引用不受影响，但从内存读取到的数字会发生变化。
 
-如果官方在某个枚举类型中间插入了新选项，其后条目的编号往往会整体顺延；开发者不受影响，因为他们看的仍是枚举名。玩家和社区读到的却是变化后的数字，所以跨版本对比时会出现“同一个东西，数字变了”的情况。这也是本项目尽可能同时导出 `数值 <=> 名称`、并在名称不确定时保留 `Unknown` 的原因：数字可能随版本漂移，名称才是尽量对齐语义的线索，但人工补回的名称仍可能有误。
+因此导出值尽量写作 `数值 <=> 名称`。无法匹配名称时保留 `Unknown`。数字可能随版本变化，名称用于对应其含义，但后补的名称仍可能有误。
 
-### 战备与武器自定义数据
+### 战备和武器自定义
 
-`generated_stratagem_settings.json` 增加了战备相关资料，可查看战备类别、指令、冷却、呼叫时间、投送内容与若干标志位。它很适合核对“表面说明之外是否存在某项配置”，但不应据此直接推断全部实战逻辑。
+`generated_stratagem_settings.json` 包含战备类别、指令、冷却、呼叫时间和投送内容。它可以用来核对某项配置是否存在，但不能据此推断全部实战逻辑。
 
-`generated_weapon_customization_settings.json` 记录武器自定义相关条目，例如配件、弹匣、瞄具、枪口、下挂、扳机与涂装等。它通过`id` 与 `add_path` 进行匹配，可以通过后者的哈希值在 entity deltas 中查看配件的具体修改效果。
+`generated_weapon_customization_settings.json` 记录配件、弹匣、瞄具、枪口、下挂、扳机和涂装。条目通过 `id` 与 `add_path` 关联；`add_path` 中的哈希可在 entity deltas 中查看该配件修改的字段。
 
-## 六、Component：实体身上的“模块数据”
+## Component
 
-路径：`data/entities/`
+发布包路径：`data/entities/`。
 
-可以把实体想成一台由多个模块拼成的机器。`Component`（组件）就是其中一个模块：生命模块负责生命相关参数，武器模块负责武器相关参数，感知模块负责视听/危险感知相关参数。一个实体可以同时拥有多个组件。
+一个实体包含多份组件数据。生命、武器、感知等组件各自独立，不能互相替代。
 
-与 Settings 的核心区别如下：
-
-- **Settings**：全局、按类型排列的公共配置表；一条表项可以被多个对象引用。
-- **Component**：按实体导出的组件记录；同一组件文件中会列出很多实体各自的参数。
+- Settings 是公共表，一条可以被很多对象引用。
+- Component 按实体列出同一类组件的参数。
 
 例如：
 
-- `HealthComponentData.json`：实体生命、耐久度、爆炸伤害乘数等生命系统数据；
-- `StatusEffectReceiverComponentData.json`：实体或部位对燃烧、毒气、眩晕等状态效果的触发阈值；
-- `WeaponDataComponentData.json`、`WeaponMagazineComponentData.json`、`WeaponHeatComponentData.json`：武器本体、弹匣、散热等数据；
-- `SensorEyeComponent.json`、`SensorEarComponent.json`、`SensorDangerComponent.json`：实体感知相关数据；
-- `ShieldComponentData.json`、`DamageZoneShieldComponentData.json`：护盾相关数据。
+- `HealthComponentData.json`：生命、耐久、爆炸伤害乘数；
+- `StatusEffectReceiverComponentData.json`：部位对燃烧、毒气、眩晕等效果的阈值；
+- `WeaponDataComponentData.json`、`WeaponMagazineComponentData.json`、`WeaponHeatComponentData.json`：武器本体、弹匣、散热；
+- `SensorEyeComponentData.json`、`SensorEarComponentData.json`、`SensorDangerComponentData.json`：感知；
+- `ShieldComponentData.json`、`DamageZoneShieldComponentData.json`：护盾。
 
-组件文件通常采用“哈希作为键”的形式：
+组件文件用资源哈希当键：
 
 ```json
 {
@@ -215,100 +264,88 @@ Settings 文件通常由一个或多个“表”组成。常见层级如下：
 }
 ```
 
-这表示：在 `HealthComponentData` 这张组件表里，某个哈希对应的实体被解析出了 `health` 等字段。它不表示该实体只有生命组件，也不表示这个文件包含该实体的全部数据。
+这里只包含该实体在当前组件表中的字段。该实体的其他组件需要到对应文件中查看。
 
-### 为什么有些组件文件特别长、特别复杂
+`HealthComponentData.json` 和 `StatusEffectReceiverComponentData.json` 特别大，是因为里面有部位、效果和多层固定数组。这些层级现在按 typelib 切分；剩下的 `unk` 是用途还没确认。
 
-`HealthComponentData.json` 与 `StatusEffectReceiverComponentData.json` 包含多层结构、部位、效果与固定长度列表，因此体积显著大于简单组件。这一批长期缺少公开更新的复杂结构现已纳入导出，不过存在不少的未知字段。
+### 从“焦土”查到射弹、直击和爆炸
 
-### 完整示例：从“焦土”查到射弹、直击伤害与爆炸
+其他武器也按同一路径查询：取得字段值后，到下一张表中匹配 `type`。
 
-下面以 `PLAS-1 焦土`为例，演示如何沿着引用关系查询。这个过程同样适用于其他武器；关键是每次都根据字段值进入下一张表。
-
-1. 在 `Hash.csv` 中搜索“焦土”，可找到：
+1. 在 `Hash.csv` 搜“焦土”：
 
    ```text
-   能量武器,"=""17196401230144941076""",PLAS-1 焦土（主武器，模型）,PLAS-1 Scorcher (Model)
+   entry,能量武器,"=""17196401230144941076""",PLAS-1 Scorcher (Model),PLAS-1 焦土（主武器，模型）
    ```
 
-   取得十进制哈希 `17196401230144941076`。
+   十进制哈希是 `17196401230144941076`。
 
-2. 打开 `entities/ProjectileWeaponComponentData.json`，搜索这个哈希，或搜索“焦土”。对应记录的 `projectile_type` 为：
+2. 打开 `entities/ProjectileWeaponComponentData.json`，搜这个哈希或“焦土”。其中：
 
    ```json
-   "projectile_type": "140 <=> ProjectileType_Unknown_140"
+   "projectile_type": "142 <=> ProjectileType_Unknown_142"
    ```
 
-3. 打开 `settings/generated_projectile_settings.json`，搜索完整的字段值 `"type": "140`，定位到射弹类型 140。**务必按 `type` 查找，绝不是查找 `index: 140`。** `index` 只是该表中的记录位置，不能代替类型编号。
-
-   此射弹记录中可继续读到：
+3. 打开 `settings/generated_projectile_settings.json`，搜 `"type": "142`。不要搜 `"index": 142`。这条射弹里还有：
 
    ```json
    "damage_info_type": "54 <=> DamageInfoType_Unknown_54",
-   "explosion_type_on_impact": "146 <=> ExplosionType_Unknown_146"
+   "explosion_type_on_impact": "152 <=> ExplosionType_Unknown_152"
    ```
 
-   前者是直击伤害类型，后者是命中时触发的爆炸类型。
+4. 打开 `settings/generated_damage_settings.json`，搜 `"type": "54`。类型 54 的 `damage` 是 `[100, 50]`，也就是标准伤害 100、耐久伤害 50。
 
-4. 打开 `settings/generated_damage_settings.json`，按 `"type": "54` 搜索（注意空格），即可查看伤害类型 54 的 `damage`、穿甲、拆毁值、元素和状态效果等字段。当前记录的 `damage` 为 `[100, 50]`；代表焦土的直击标准伤害为100，耐久伤害为50。
-
-5. 打开 `settings/generated_explosion_settings.json`，按 `"type": "146` 搜索，即可查看爆炸类型 146 的范围、爆炸标志等字段。该爆炸记录还会以 `damage_type` 引用自己的伤害类型（当前为 `298 <=> DamageInfoType_Unknown_298`）；再按 `"type": "298` 到伤害表查询，才能得到这部分爆炸伤害的具体配置。
-
-这条链路可以概括为：
+5. 打开 `settings/generated_explosion_settings.json`，搜 `"type": "152`，看范围和爆炸标志。这条爆炸自己的 `damage_type` 当前是 `300 <=> DamageInfoType_Unknown_300`，再回伤害表搜 `"type": "300`。
 
 ```text
 名称表 → 射弹武器组件 → projectile_type
       → 射弹 Settings → damage_info_type / explosion_type_on_impact
-      → 伤害 Settings / 爆炸 Settings → 爆炸引用的 damage_type
+      → 伤害 Settings / 爆炸 Settings → 爆炸自己的 damage_type
 ```
 
-射弹、伤害、爆炸的枚举名仍显示为 `Unknown`，因为射弹、伤害、爆炸的枚举类型达到了数百个，手动维护过于耗时，因此没有对上述三个枚举值进行有效名称的映射。（尽管我们知道焦土的射弹叫`ProjectileType_Plasma_Bolt_Medium"`）
+射弹、伤害、爆炸各有数百个枚举项，目前尚未逐项补全名称，因此会显示 `Unknown`。焦土这发射弹的原名是 `ProjectileType_Plasma_Bolt_Medium`。
 
-## 七、entity deltas：为什么它和普通 JSON 不一样
+## entity deltas
 
-路径：`data/entity_deltas`
+发布包路径：`data/entity_deltas/`。
 
-这组文件记录的不是一个完整 Component，而是**实体相对于基础数据的差异补丁**。其中相当一部分记录与武器配件有关：它们会为具体武器覆写配件、弹匣、瞄具、枪口、下挂等关联组件的部分字段值。可以把它理解为：
+这些文件不是完整组件，而是相对基础数据的修改。其中很多记录属于武器配件，用于修改特定武器的配件、弹匣、瞄具、枪口或下挂字段。基础模板提供默认值，delta 只列出该实体被修改的位置。
 
-> 基础模板说“默认值是什么”；Delta 说“这个具体实体把模板中的哪些位置改成了什么”。
+### `entity_deltas_raw.json`
 
-### `entity_deltas_raw.json`：原始差异
+保留原始字节：
 
-该文件保留差异的原始字节内容，关键字段包括：
+- `modified_components`：被改过的组件；
+- `component_index`：组件类型索引；
+- `type_name` / `type_hash_hex`：识别出来的组件名和类型哈希；
+- `offset`：改动在组件内的字节位置；
+- `size`：改了多少字节；
+- `data_hex`：原始十六进制。
 
-- `modified_components`：被修改的组件列表；
-- `component_index`：组件的内部索引；
-- `type_name` / `type_hash_hex`：已识别时的组件名称与类型哈希；
-- `offset`：改动在组件结构中的字节位置；
-- `size`：改动字节数；
-- `data_hex`：原始十六进制字节。
+`data_hex: "00003444"` 本身不是可以直接阅读的数值。需要先确定组件、偏移和数据类型，才能解释其含义。
 
-例如 `data_hex: "00003444"` 本身不是一个可直接阅读的“伤害数值”。必须先知道它在什么组件、哪个偏移、按什么数据类型解释，才能还原其意义。
+### `entity_deltas_decoded.json`
 
-### `entity_deltas_decoded.json`：已解码差异
-
-该文件会使用本项目已经配置好的组件结构，把能识别的原始差异翻译成可读路径：
+能识别的差异会写成字段路径：
 
 ```json
 {
   "WeaponDataComponentData.visibility_modifier": 0.5,
   "WeaponDataComponentData.weapon_stat_modifiers[0].type": "0 <=> WeaponStatModifierType_Add_Ergonomics",
-  "WeaponDataComponentData.weapon_stat_modifiers[0].value": -3.0,
+  "WeaponDataComponentData.weapon_stat_modifiers[0].value": -3.0
 }
 ```
 
-这里的点号路径表示层级；带 `[0]` 的部分表示数组的第一个元素。它比 raw 文件更适合玩家阅读，但仍有两个限制：
+点号表示层级，`[0]` 表示数组的第一项。它比 raw 文件易于阅读，但有两处限制：
 
-1. 当前这份 decoded 文件只加载了 15 类组件的结构配置，而 raw 文件中实际出现了 27 类组件。
-2. 没有配置、无法判断类型或尚未解析的部分会被跳过；本次元数据记录了 `patches_skipped_no_config": 1867`。这类内容仍可在 raw 文件中查看原始字节。
+1. `2026-08-12` 这份 decoded 生成时只加载了 18 类组件；raw 里的组件类型更多。
+2. 没有配置的差异会跳过，元数据里是 `"patches_skipped_no_config": 1982`。这些字节仍在 raw 里。后来的结构又按 typelib 校正过，decoded 路径和最新配置不一致时，以最新配置和 raw 为准。
 
-因此，查询武器配件效果时，**优先阅读 `entity_deltas_decoded.json`；只有需要验证、补充解析或排查未知字段时，才回到 `entity_deltas_raw.json`。** 不能把 Delta 当作实体的完整面板，也不能把某条配件 Delta 当作整把武器的全部属性；它只列出相对基础模板不同的内容。
+查询配件效果时优先查看 decoded。需要核对原始字节或补充未解码的部分时，再查看 raw。delta 不是武器的完整属性，只包含与模板不同的内容。
 
-## 八、读 JSON 必备的四个概念
+## JSON 里的几种形状
 
-### 1. 对象：`{ }`
-
-花括号表示一组“字段名：值”。例如：
+### 对象 `{ }`
 
 ```json
 {
@@ -317,11 +354,9 @@ Settings 文件通常由一个或多个“表”组成。常见层级如下：
 }
 ```
 
-它可以理解成一张小表：生命值是 2500，护甲值是 2。
+一组字段名和值。
 
-### 2. 数组：`[ ]`
-
-方括号表示按顺序排放的多个值。例如：
+### 数组 `[ ]`
 
 ```json
 "button_combination": [
@@ -330,113 +365,95 @@ Settings 文件通常由一个或多个“表”组成。常见层级如下：
 ]
 ```
 
-这表示一串有顺序的战备指令。数组从第 0 项开始计数，所以 `items[0]` 指第一项，`items[1]` 指第二项。
+数组保持顺序。`items[0]` 是第一项，`items[1]` 是第二项。相邻的相似项目可能对应不同部位、阶段或状态。固定长度数组末尾成片的 `None` 或全零项，通常是预留的空槽。
 
-数组中出现多个相似对象时，应注意每一项可能对应不同部位、不同阶段或不同状态。固定长度数组中，后面大量全零的`None` 项常常只是预留槽位，不视为有效条目。
+### 内联数组和指针数组
 
-### 3. 内联数组与指针数组：为什么有两种
+- **inline**：数据直接排列在当前结构中，长度通常固定。
+- **pointer**：当前位置只保存地址和数量，实际数组位于其他地址，长度可以变化。
 
-这是转储格式为了还原游戏内存结构而保留的技术差异；普通阅读时不必纠结，但理解它能避免误读。
+导出后，两者通常都会还原为普通数组。只有在检查空数组的原因或修改转储配置时，才需要区分它们。
 
-- **内联（inline）数组**：数据直接紧跟在当前结构中，长度通常固定。可理解为“表格里预先留好的几格”。
-- **指针（pointer）数组**：当前位置只存“数据在哪里、共有多少项”，真正的数组在另一个位置，长度可以变化。可理解为“表格里放了一张写有地址和数量的便签”。
+### 结构体
 
-导出的 JSON 会尽量把两者都还原为普通的 `[ ... ]`。因此玩家只需阅读结果；只有在复现转储、检查配置或理解为什么某个数组为空时，才需要关心它原本是 inline 还是 pointer。
-
-### 4. 结构体：有层级的一组固定字段
-
-结构体可以简单理解为“打包在一起的一组相关数据”。JSON 中通常表现为嵌套对象：
+相关字段包在一起，JSON 里就是嵌套对象：
 
 ```json
 "spread_info": {
   "horizontal": 10.0,
   "vertical": 10.0
-},
+}
 ```
 
-这里 `spread_info` 是一个结构体，内部两项共同描述武器的散布（水平方向与垂直方向）。结构体嵌套并不代表每一层都是独立游戏对象；很多时候它只是为了把相关字段归类。
+增加一层嵌套并不一定表示另一个独立对象，多数情况下只是将相关数值组合在一起。
 
-## 九、什么是枚举，怎样读枚举值
+## 枚举
 
-枚举（enum）就是“用数字代表固定选项”。例如某个字段的数字 `3` 不只是任意数字，而可能代表“巨大体型” “状态类型” “开火模式”。
-
-本项目会尽可能把数字翻译为名称，常见格式是：
+枚举是用整数表示固定选项。导出时尽量写成：
 
 ```text
 3 <=> UnitSize_Massive
 ```
 
-读法是：该字段原始数值为 `3`，目前映射到 `UnitSize_Massive`。数字和名称同时保留，方便核对。
+左边是内存中的数值，右边是当前匹配到的名称。两者同时保留，便于核对。
 
-还可能看到：
+也可能是：
 
 ```text
 HitEffectReceiverType_Unknown_27
 ```
 
-这表示数值 `27` 已被读到，但当前枚举表没有可靠名称。请不要因为它排在已知枚举附近，就自行断言它一定代表某种效果。
+数值 `27` 已经读出，但枚举表中没有可靠名称。不能因为它位于某个已知枚举项附近，就认定其含义。
 
-### 枚举名称的可靠性说明
+官方大约一年半前移除了原来的枚举元数据，现在的名字是用旧资料、游戏表现和手工表补回来的。
 
-官方在约一年半前移除了原有的枚举字段与元数据。现在的枚举名由项目根据旧资料、行为验证和人工维护逐步补回。因此：
+- 已有名称以后仍可能修正；
+- `Unknown` 表示该枚举项没有匹配到名称，也可能是版本更新后新增的值；
+- 枚举类型显示为 `0x` 加 8 位十六进制时，表示类型原名缺失，只保留 4 字节类型哈希；
+- `unk` 表示用途尚未确认；键名本身为 8 位类型哈希时，表示整个嵌套结构或数组没有原名；
+- 引用时保留原始数值，例如 `4 <=> StatusEffectSusceptibilityType_Fire`。
 
-- 已知枚举名称也可能需要修正；
-- `unknown` 代表该枚举值目前没有映射到对应的名称，也可能是游戏更新后，枚举值超出了有效的枚举项；
-- 字段名中的 `unk` 同样表示官方后续加入、目前功能未知或尚未证实的内容；
-- 引用时请优先同时保留原始数值，例如 `4 <=> StatusEffectSusceptibilityType_Fire`，而不是只写名称。
+## 未确认字段
 
-## 十、如何正确解读不熟悉的字段
+先确认文件、`game_version` 和 `patch_date`，再确认 `name`、`name_zh`、`debug_name` 和哈希。字段应查看完整路径，例如 `zones[0].susceptibilities[0].damage_multiplier`，不要只截取最后一级名称。
 
-建议按以下顺序判断：
+随后在同一组件中比较不同敌人或武器，并用相邻版本的差异确认实际变化。该数值是否影响实战，仍需通过游戏内测试验证。
 
-1. **先确认文件与版本**：它来自哪个组件/Settings 表，元数据是什么版本。
-2. **确认对象是谁**：看 `name`、`name_zh`、`debug_name` 和哈希。
-3. **确认字段的完整路径**：例如 `zones[0].susceptibilities[0].damage_multiplier`，不要只截取最后的 `damage_multiplier`。
-4. **与同类对象横向比较**：同一组件内比较不同敌人/武器。
-5. **与相邻版本纵向比较**：用 Git diff 或 JSON 对比工具确认真正变化的字段。
-6. **回到实测验证**：是否影响实战，仍应通过游戏内测试或可靠机制资料交叉验证。
+字段名包含 `damage`，并不表示它就是面板上的最终伤害。数组中存在一项，也不表示游戏一定会使用它。
 
-尤其要避免以下推论：
+## 当前进度
 
-- “字段名有 `damage`，所以它一定是最终伤害。”
-- “数组里有一项，所以游戏一定会用到它。”
-
-## 十一、当前完成情况
-
-### 已完成并可直接阅读的内容
-
-截至 `v1.006.301`，已导出并随版本归档的资料包括：
+`v1.007.000`（2026-08-12）已归档：
 
 - 8 类 Settings：伤害、爆炸、射弹、光束、电弧、状态效果、战备、武器自定义；
-- 32 类实体组件：生命、状态接收器、武器相关组件、护盾、感知、挂载等；
-- 复杂的 `HealthComponentData` 与 `StatusEffectReceiverComponentData` 结构；
-- entity deltas 的原始差异、组件索引使用情况、索引到类型的对照，以及可解码组件的可读差异结果；
-- 部分枚举名称与 flags（位标志）的可读展开。
+- 46 类实体组件，配置和 JSON 都按这份 typelib 的布局导出；
+- entity deltas 的原始差异、组件索引、索引到类型的对照，以及当时能解码的可读结果；
+- 一部分枚举名和 flags 展开。
 
-此外，有组件仍在继续核对
+还在核对未知字段的用途、数组里哪些槽位真正有效，以及更多组件的 delta 解码。射弹、伤害、爆炸的枚举项以后可能会补。
 
-- 已有组件中的未知字段、嵌套结构、数组实际有效长度和枚举映射；
-- 更多 Component 在 entity deltas 中的字段解码。
-- 如果有时间，可能会更新射弹、伤害、爆炸的枚举表，Not today but maybe one day
+## 速查
 
-## 十二、速查
-
-- **JSON**：一种文本数据格式；`{}` 是对象，`[]` 是数组。
-- **Settings**：游戏共用的全局配置表。
-- **Entity / 实体**：敌人、武器、射弹、战备投送物、环境物体等游戏对象。
-- **Component / 组件**：实体身上的一类功能数据，例如生命、状态接收器、武器散热。
-- **Hash / 哈希**：用于识别或关联资源的长编号。
-- **Struct / 结构体**：一组按固定布局组合的相关字段。
-- **Enum / 枚举**：数字与固定名称之间的对照。
-- **Flags / 位标志**：一个数字中每一位分别代表开/关状态；`*_detail` 是本项目展开后的可读结果。
-- **Delta / 差异补丁**：相对基础模板被单独改写的部分，不是完整实体数据。
-- **`unk` / `unknown`**：含义尚未确认；请保留怀疑，不要当作已知机制。
+- **JSON**：文本数据；`{}` 是对象，`[]` 是数组。
+- **Settings**：多处共用的配置表。
+- **Entity / 实体**：敌人、武器、射弹、战备投送物、环境物体等。
+- **Component / 组件**：实体身上的一类数据，例如生命、状态接收、武器散热。
+- **资源哈希**：64 位编号，标识一个具体资源或实体。
+- **类型哈希**：32 位编号，JSON 中通常写作 8 位十六进制，用于标识一种结构体或枚举。原名缺失时，以该哈希作为键名。
+- **Typelib**：游戏的 `LTLD` 类型库。它给出大小、偏移和数据类型；字段名已经被官方删掉。
+- **结构体**：按固定布局放在一起的一组字段。
+- **枚举**：整数和固定名称的对照。
+- **Flags / 位标志**：一个整数的各个二进制位；`*_detail` 是拆开后的结果。
+- **Delta**：相对基础模板改过的部分，不是完整实体。
+- **`unk` / `Unknown`**：布局或数值已知，名字或用途还没有确认。
 
 ## 问题反馈
 
-如果发现名称匹配、枚举映射、字段名称、数据类型等存在错误，欢迎反馈：
-- [哔哩哔哩个人主页] (https://space.bilibili.com/300385406)
+名称、枚举、字段名或数据类型有错，可以反馈：
 
-特此致谢：
-- [HelldiversData] (https://github.com/shalzuth/HelldiversData)
-- [filediver] (https://github.com/xypwn/filediver)
+- [哔哩哔哩个人主页](https://space.bilibili.com/300385406)
+
+致谢：
+
+- [HelldiversData](https://github.com/shalzuth/HelldiversData)
+- [filediver](https://github.com/xypwn/filediver)

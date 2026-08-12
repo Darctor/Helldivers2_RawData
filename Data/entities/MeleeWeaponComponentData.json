@@ -1,11 +1,11 @@
 {
     "_metadata": {
         "struct_size": 192,
-        "omitted_size": 0,
+        "omitted_size": 15,
         "exported_entity_count": 11,
         "matched_bilingual_hash_count": 10,
-        "patch_date": "2026-07-07",
-        "game_version": "1.006.301"
+        "patch_date": "2026-08-12",
+        "game_version": "1.007.000"
     },
     "entities": [
         {
@@ -15,54 +15,61 @@
                 "name_zh": "N/A",
                 "index": 0,
                 "unk_uint32_0x0000": 0,
-                "unk_uint32_0x0004": 1,
+                "unk_enum_0x0004": "1 <=> 0x8D8816B3_Unknown_1",
                 "stamina_cost": 0.0,
                 "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
-                "unk_uint32_0x0010": 3,
-                "wielder_animation_type_stand": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "0xAE76DD5D": [
+                    {
+                        "unk_enum_r0x0000": "3 <=> 0xAE7D1593_Unknown_3",
+                        "wielder_animation_type": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "3 <=> 0xAE7D1593_Unknown_3",
+                        "wielder_animation_type": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "3 <=> 0xAE7D1593_Unknown_3",
+                        "wielder_animation_type": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
                 ],
-                "unk_uint32_0x0034": 3,
-                "wielder_animation_type_prone": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "0xCDD41459": [
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    },
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    }
                 ],
-                "unk_uint32_0x0058": 3,
-                "wielder_animation_type_aim": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_uint32_0x007C": 0,
-                "unk_wielder_animation_type_1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_wielder_animation_type_2": [
+                "unk_array_0x00A0": [
                     0,
                     0,
                     0,
@@ -81,54 +88,61 @@
                 "name_zh": "CQC-20 破门锤（模型）",
                 "index": 1,
                 "unk_uint32_0x0000": 0,
-                "unk_uint32_0x0004": 2,
+                "unk_enum_0x0004": "2 <=> 0x8D8816B3_Unknown_2",
                 "stamina_cost": 0.05000000074505806,
-                "damage_info_type": "536 <=> DamageInfoType_Unknown_536",
-                "unk_uint32_0x0010": 0,
-                "wielder_animation_type_stand": [
-                    39,
-                    40,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "damage_info_type": "550 <=> DamageInfoType_Unknown_550",
+                "0xAE76DD5D": [
+                    {
+                        "unk_enum_r0x0000": "0 <=> 0xAE7D1593_Unknown_0",
+                        "wielder_animation_type": [
+                            39,
+                            40,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "1 <=> 0xAE7D1593_Unknown_1",
+                        "wielder_animation_type": [
+                            41,
+                            42,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "3 <=> 0xAE7D1593_Unknown_3",
+                        "wielder_animation_type": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
                 ],
-                "unk_uint32_0x0034": 1,
-                "wielder_animation_type_prone": [
-                    41,
-                    42,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "0xCDD41459": [
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    },
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    }
                 ],
-                "unk_uint32_0x0058": 3,
-                "wielder_animation_type_aim": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_uint32_0x007C": 0,
-                "unk_wielder_animation_type_1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_wielder_animation_type_2": [
+                "unk_array_0x00A0": [
                     38,
                     0,
                     0,
@@ -147,54 +161,61 @@
                 "name_zh": "CQC-19 眩晕长矛（副武器，模型）",
                 "index": 2,
                 "unk_uint32_0x0000": 0,
-                "unk_uint32_0x0004": 1,
+                "unk_enum_0x0004": "1 <=> 0x8D8816B3_Unknown_1",
                 "stamina_cost": 0.029999999329447746,
-                "damage_info_type": "534 <=> DamageInfoType_Unknown_534",
-                "unk_uint32_0x0010": 0,
-                "wielder_animation_type_stand": [
-                    43,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "damage_info_type": "548 <=> DamageInfoType_Unknown_548",
+                "0xAE76DD5D": [
+                    {
+                        "unk_enum_r0x0000": "0 <=> 0xAE7D1593_Unknown_0",
+                        "wielder_animation_type": [
+                            43,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "1 <=> 0xAE7D1593_Unknown_1",
+                        "wielder_animation_type": [
+                            44,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "3 <=> 0xAE7D1593_Unknown_3",
+                        "wielder_animation_type": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
                 ],
-                "unk_uint32_0x0034": 1,
-                "wielder_animation_type_prone": [
-                    44,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "0xCDD41459": [
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    },
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    }
                 ],
-                "unk_uint32_0x0058": 3,
-                "wielder_animation_type_aim": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_uint32_0x007C": 0,
-                "unk_wielder_animation_type_1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_wielder_animation_type_2": [
+                "unk_array_0x00A0": [
                     0,
                     0,
                     0,
@@ -213,54 +234,61 @@
                 "name_zh": "堑壕工具（三号位，模型）",
                 "index": 3,
                 "unk_uint32_0x0000": 0,
-                "unk_uint32_0x0004": 0,
+                "unk_enum_0x0004": "0 <=> 0x8D8816B3_Unknown_0",
                 "stamina_cost": 0.029999999329447746,
-                "damage_info_type": "530 <=> DamageInfoType_Unknown_530",
-                "unk_uint32_0x0010": 0,
-                "wielder_animation_type_stand": [
-                    45,
-                    46,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "damage_info_type": "544 <=> DamageInfoType_Unknown_544",
+                "0xAE76DD5D": [
+                    {
+                        "unk_enum_r0x0000": "0 <=> 0xAE7D1593_Unknown_0",
+                        "wielder_animation_type": [
+                            45,
+                            46,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "1 <=> 0xAE7D1593_Unknown_1",
+                        "wielder_animation_type": [
+                            47,
+                            48,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "2 <=> 0xAE7D1593_Unknown_2",
+                        "wielder_animation_type": [
+                            49,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
                 ],
-                "unk_uint32_0x0034": 1,
-                "wielder_animation_type_prone": [
-                    47,
-                    48,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "0xCDD41459": [
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    },
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    }
                 ],
-                "unk_uint32_0x0058": 2,
-                "wielder_animation_type_aim": [
-                    49,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_uint32_0x007C": 0,
-                "unk_wielder_animation_type_1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_wielder_animation_type_2": [
+                "unk_array_0x00A0": [
                     0,
                     0,
                     0,
@@ -279,54 +307,61 @@
                 "name_zh": "CQC-72 堑壕工具（副武器，模型）",
                 "index": 4,
                 "unk_uint32_0x0000": 0,
-                "unk_uint32_0x0004": 0,
+                "unk_enum_0x0004": "0 <=> 0x8D8816B3_Unknown_0",
                 "stamina_cost": 0.029999999329447746,
-                "damage_info_type": "530 <=> DamageInfoType_Unknown_530",
-                "unk_uint32_0x0010": 0,
-                "wielder_animation_type_stand": [
-                    45,
-                    46,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "damage_info_type": "544 <=> DamageInfoType_Unknown_544",
+                "0xAE76DD5D": [
+                    {
+                        "unk_enum_r0x0000": "0 <=> 0xAE7D1593_Unknown_0",
+                        "wielder_animation_type": [
+                            45,
+                            46,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "1 <=> 0xAE7D1593_Unknown_1",
+                        "wielder_animation_type": [
+                            47,
+                            48,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "2 <=> 0xAE7D1593_Unknown_2",
+                        "wielder_animation_type": [
+                            49,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
                 ],
-                "unk_uint32_0x0034": 1,
-                "wielder_animation_type_prone": [
-                    47,
-                    48,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "0xCDD41459": [
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    },
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    }
                 ],
-                "unk_uint32_0x0058": 2,
-                "wielder_animation_type_aim": [
-                    49,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_uint32_0x007C": 0,
-                "unk_wielder_animation_type_1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_wielder_animation_type_2": [
+                "unk_array_0x00A0": [
                     0,
                     0,
                     0,
@@ -345,54 +380,61 @@
                 "name_zh": "CQC-2 军刀（副武器，模型）",
                 "index": 5,
                 "unk_uint32_0x0000": 0,
-                "unk_uint32_0x0004": 0,
+                "unk_enum_0x0004": "0 <=> 0x8D8816B3_Unknown_0",
                 "stamina_cost": 0.029999999329447746,
-                "damage_info_type": "528 <=> DamageInfoType_Unknown_528",
-                "unk_uint32_0x0010": 0,
-                "wielder_animation_type_stand": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    0,
-                    0,
-                    0,
-                    0
+                "damage_info_type": "542 <=> DamageInfoType_Unknown_542",
+                "0xAE76DD5D": [
+                    {
+                        "unk_enum_r0x0000": "0 <=> 0xAE7D1593_Unknown_0",
+                        "wielder_animation_type": [
+                            1,
+                            2,
+                            3,
+                            4,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "1 <=> 0xAE7D1593_Unknown_1",
+                        "wielder_animation_type": [
+                            5,
+                            6,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "3 <=> 0xAE7D1593_Unknown_3",
+                        "wielder_animation_type": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
                 ],
-                "unk_uint32_0x0034": 1,
-                "wielder_animation_type_prone": [
-                    5,
-                    6,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "0xCDD41459": [
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    },
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    }
                 ],
-                "unk_uint32_0x0058": 3,
-                "wielder_animation_type_aim": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_uint32_0x007C": 0,
-                "unk_wielder_animation_type_1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_wielder_animation_type_2": [
+                "unk_array_0x00A0": [
                     0,
                     0,
                     0,
@@ -411,54 +453,61 @@
                 "name_zh": "CQC-9 除叶工具（模型）",
                 "index": 6,
                 "unk_uint32_0x0000": 0,
-                "unk_uint32_0x0004": 2,
+                "unk_enum_0x0004": "2 <=> 0x8D8816B3_Unknown_2",
                 "stamina_cost": 0.05000000074505806,
-                "damage_info_type": "526 <=> DamageInfoType_Unknown_526",
-                "unk_uint32_0x0010": 0,
-                "wielder_animation_type_stand": [
-                    8,
-                    9,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "damage_info_type": "540 <=> DamageInfoType_Unknown_540",
+                "0xAE76DD5D": [
+                    {
+                        "unk_enum_r0x0000": "0 <=> 0xAE7D1593_Unknown_0",
+                        "wielder_animation_type": [
+                            8,
+                            9,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "1 <=> 0xAE7D1593_Unknown_1",
+                        "wielder_animation_type": [
+                            10,
+                            11,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "3 <=> 0xAE7D1593_Unknown_3",
+                        "wielder_animation_type": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
                 ],
-                "unk_uint32_0x0034": 1,
-                "wielder_animation_type_prone": [
-                    10,
-                    11,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "0xCDD41459": [
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    },
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    }
                 ],
-                "unk_uint32_0x0058": 3,
-                "wielder_animation_type_aim": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_uint32_0x007C": 0,
-                "unk_wielder_animation_type_1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_wielder_animation_type_2": [
+                "unk_array_0x00A0": [
                     0,
                     0,
                     0,
@@ -477,54 +526,61 @@
                 "name_zh": "CQC-30 眩晕短棍（副武器，模型）",
                 "index": 7,
                 "unk_uint32_0x0000": 0,
-                "unk_uint32_0x0004": 0,
+                "unk_enum_0x0004": "0 <=> 0x8D8816B3_Unknown_0",
                 "stamina_cost": 0.029999999329447746,
-                "damage_info_type": "535 <=> DamageInfoType_Unknown_535",
-                "unk_uint32_0x0010": 0,
-                "wielder_animation_type_stand": [
-                    12,
-                    13,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "damage_info_type": "549 <=> DamageInfoType_Unknown_549",
+                "0xAE76DD5D": [
+                    {
+                        "unk_enum_r0x0000": "0 <=> 0xAE7D1593_Unknown_0",
+                        "wielder_animation_type": [
+                            12,
+                            13,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "1 <=> 0xAE7D1593_Unknown_1",
+                        "wielder_animation_type": [
+                            16,
+                            17,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "3 <=> 0xAE7D1593_Unknown_3",
+                        "wielder_animation_type": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
                 ],
-                "unk_uint32_0x0034": 1,
-                "wielder_animation_type_prone": [
-                    16,
-                    17,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "0xCDD41459": [
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    },
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    }
                 ],
-                "unk_uint32_0x0058": 3,
-                "wielder_animation_type_aim": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_uint32_0x007C": 0,
-                "unk_wielder_animation_type_1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_wielder_animation_type_2": [
+                "unk_array_0x00A0": [
                     0,
                     0,
                     0,
@@ -543,54 +599,61 @@
                 "name_zh": "CQC-1 唯一真旗帜（模型）",
                 "index": 8,
                 "unk_uint32_0x0000": 0,
-                "unk_uint32_0x0004": 1,
+                "unk_enum_0x0004": "1 <=> 0x8D8816B3_Unknown_1",
                 "stamina_cost": 0.029999999329447746,
-                "damage_info_type": "533 <=> DamageInfoType_Unknown_533",
-                "unk_uint32_0x0010": 0,
-                "wielder_animation_type_stand": [
-                    18,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "damage_info_type": "547 <=> DamageInfoType_Unknown_547",
+                "0xAE76DD5D": [
+                    {
+                        "unk_enum_r0x0000": "0 <=> 0xAE7D1593_Unknown_0",
+                        "wielder_animation_type": [
+                            18,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "1 <=> 0xAE7D1593_Unknown_1",
+                        "wielder_animation_type": [
+                            19,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "2 <=> 0xAE7D1593_Unknown_2",
+                        "wielder_animation_type": [
+                            18,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
                 ],
-                "unk_uint32_0x0034": 1,
-                "wielder_animation_type_prone": [
-                    19,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "0xCDD41459": [
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    },
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    }
                 ],
-                "unk_uint32_0x0058": 2,
-                "wielder_animation_type_aim": [
-                    18,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_uint32_0x007C": 0,
-                "unk_wielder_animation_type_1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_wielder_animation_type_2": [
+                "unk_array_0x00A0": [
                     0,
                     0,
                     0,
@@ -609,54 +672,61 @@
                 "name_zh": "CQC-5 战斗短柄斧（副武器，模型）",
                 "index": 9,
                 "unk_uint32_0x0000": 0,
-                "unk_uint32_0x0004": 1,
+                "unk_enum_0x0004": "1 <=> 0x8D8816B3_Unknown_1",
                 "stamina_cost": 0.03999999910593033,
-                "damage_info_type": "527 <=> DamageInfoType_Unknown_527",
-                "unk_uint32_0x0010": 0,
-                "wielder_animation_type_stand": [
-                    22,
-                    23,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "damage_info_type": "541 <=> DamageInfoType_Unknown_541",
+                "0xAE76DD5D": [
+                    {
+                        "unk_enum_r0x0000": "0 <=> 0xAE7D1593_Unknown_0",
+                        "wielder_animation_type": [
+                            22,
+                            23,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "1 <=> 0xAE7D1593_Unknown_1",
+                        "wielder_animation_type": [
+                            24,
+                            25,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "3 <=> 0xAE7D1593_Unknown_3",
+                        "wielder_animation_type": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
                 ],
-                "unk_uint32_0x0034": 1,
-                "wielder_animation_type_prone": [
-                    24,
-                    25,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "0xCDD41459": [
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    },
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    }
                 ],
-                "unk_uint32_0x0058": 3,
-                "wielder_animation_type_aim": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_uint32_0x007C": 0,
-                "unk_wielder_animation_type_1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_wielder_animation_type_2": [
+                "unk_array_0x00A0": [
                     0,
                     0,
                     0,
@@ -675,54 +745,61 @@
                 "name_zh": "CQC-42 砍刀（副武器，模型）",
                 "index": 10,
                 "unk_uint32_0x0000": 0,
-                "unk_uint32_0x0004": 2,
+                "unk_enum_0x0004": "2 <=> 0x8D8816B3_Unknown_2",
                 "stamina_cost": 0.05000000074505806,
-                "damage_info_type": "529 <=> DamageInfoType_Unknown_529",
-                "unk_uint32_0x0010": 0,
-                "wielder_animation_type_stand": [
-                    26,
-                    27,
-                    28,
-                    29,
-                    0,
-                    0,
-                    0,
-                    0
+                "damage_info_type": "543 <=> DamageInfoType_Unknown_543",
+                "0xAE76DD5D": [
+                    {
+                        "unk_enum_r0x0000": "0 <=> 0xAE7D1593_Unknown_0",
+                        "wielder_animation_type": [
+                            26,
+                            27,
+                            28,
+                            29,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "1 <=> 0xAE7D1593_Unknown_1",
+                        "wielder_animation_type": [
+                            30,
+                            31,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "unk_enum_r0x0000": "3 <=> 0xAE7D1593_Unknown_3",
+                        "wielder_animation_type": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
                 ],
-                "unk_uint32_0x0034": 1,
-                "wielder_animation_type_prone": [
-                    30,
-                    31,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                "0xCDD41459": [
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    },
+                    {
+                        "unk_uint64_0x0000": "0",
+                        "unk_uint32_0x0008": 0
+                    }
                 ],
-                "unk_uint32_0x0058": 3,
-                "wielder_animation_type_aim": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_uint32_0x007C": 0,
-                "unk_wielder_animation_type_1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unk_wielder_animation_type_2": [
+                "unk_array_0x00A0": [
                     0,
                     0,
                     0,

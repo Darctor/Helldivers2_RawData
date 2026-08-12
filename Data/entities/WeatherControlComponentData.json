@@ -1,0 +1,183 @@
+{
+    "_metadata": {
+        "struct_size": 40,
+        "omitted_size": 2,
+        "exported_entity_count": 9,
+        "matched_bilingual_hash_count": 9,
+        "patch_date": "2026-08-12",
+        "game_version": "1.007.000"
+    },
+    "entities": [
+        {
+            "0x826643D4EAF3B508": {
+                "hash": "9396272254309086472",
+                "name": "Exostorm MK1",
+                "name_zh": "异界风暴 MK1（环境）",
+                "index": 0,
+                "previous_weather_out_time": 1.0,
+                "target_weather_in_time": 1.0,
+                "target_weather_active_hold_time": 9999.0,
+                "target_weather_out_time": 15.0,
+                "weather_catch_up_time": 30.0,
+                "gameplay_effect_activation_point": 0.6000000238418579,
+                "remove_entity_on_completion": 1,
+                "start_active": 1,
+                "weather_name": 3635620873,
+                "on_activate_script_event": 0,
+                "on_deactivate_script_event": 0
+            }
+        },
+        {
+            "0xEAF660CC1C611C46": {
+                "hash": "16930826278911679558",
+                "name": "Acid Storm (Weather)",
+                "name_zh": "酸雨风暴（天气）",
+                "index": 1,
+                "previous_weather_out_time": 30.0,
+                "target_weather_in_time": 30.0,
+                "target_weather_active_hold_time": 90.0,
+                "target_weather_out_time": 30.0,
+                "weather_catch_up_time": 45.0,
+                "gameplay_effect_activation_point": 0.6000000238418579,
+                "remove_entity_on_completion": 1,
+                "start_active": 1,
+                "weather_name": 2072796801,
+                "on_activate_script_event": 0,
+                "on_deactivate_script_event": 0
+            }
+        },
+        {
+            "0x0AD48CA95A35E86F": {
+                "hash": "780403294432782447",
+                "name": "Dust Devils (Weather)",
+                "name_zh": "尘卷风（天气）",
+                "index": 2,
+                "previous_weather_out_time": 25.0,
+                "target_weather_in_time": 35.0,
+                "target_weather_active_hold_time": 150.0,
+                "target_weather_out_time": 60.0,
+                "weather_catch_up_time": 30.0,
+                "gameplay_effect_activation_point": 0.6000000238418579,
+                "remove_entity_on_completion": 1,
+                "start_active": 1,
+                "weather_name": 1310870936,
+                "on_activate_script_event": 0,
+                "on_deactivate_script_event": 0
+            }
+        },
+        {
+            "0x2DF751DCA50B96EA": {
+                "hash": "3312206059057944298",
+                "name": "Fire Tornado (Weather)",
+                "name_zh": "火龙卷（天气）",
+                "index": 3,
+                "previous_weather_out_time": 25.0,
+                "target_weather_in_time": 35.0,
+                "target_weather_active_hold_time": 190.0,
+                "target_weather_out_time": 120.0,
+                "weather_catch_up_time": 30.0,
+                "gameplay_effect_activation_point": 0.6000000238418579,
+                "remove_entity_on_completion": 1,
+                "start_active": 1,
+                "weather_name": 1835104222,
+                "on_activate_script_event": 0,
+                "on_deactivate_script_event": 0
+            }
+        },
+        {
+            "0x55FF5142981119AD": {
+                "hash": "6196760958746040749",
+                "name": "Ion Storm (Weather)",
+                "name_zh": "离子风暴（天气）",
+                "index": 4,
+                "previous_weather_out_time": 15.0,
+                "target_weather_in_time": 15.0,
+                "target_weather_active_hold_time": 30.0,
+                "target_weather_out_time": 15.0,
+                "weather_catch_up_time": 30.0,
+                "gameplay_effect_activation_point": 0.6000000238418579,
+                "remove_entity_on_completion": 1,
+                "start_active": 1,
+                "weather_name": 4002753097,
+                "on_activate_script_event": 0,
+                "on_deactivate_script_event": 0
+            }
+        },
+        {
+            "0xD7B60E973B295882": {
+                "hash": "15543627206611261570",
+                "name": "Sandstorm (Entity)",
+                "name_zh": "沙尘暴（天气）",
+                "index": 5,
+                "previous_weather_out_time": 30.0,
+                "target_weather_in_time": 30.0,
+                "target_weather_active_hold_time": 95.0,
+                "target_weather_out_time": 15.0,
+                "weather_catch_up_time": 45.0,
+                "gameplay_effect_activation_point": 0.5,
+                "remove_entity_on_completion": 1,
+                "start_active": 1,
+                "weather_name": 303626376,
+                "on_activate_script_event": 0,
+                "on_deactivate_script_event": 0
+            }
+        },
+        {
+            "0xF4226B0EB28E94FB": {
+                "hash": "17591740805331981563",
+                "name": "Snowstorm (Weather)",
+                "name_zh": "暴风雪（天气）",
+                "index": 6,
+                "previous_weather_out_time": 30.0,
+                "target_weather_in_time": 30.0,
+                "target_weather_active_hold_time": 155.0,
+                "target_weather_out_time": 15.0,
+                "weather_catch_up_time": 45.0,
+                "gameplay_effect_activation_point": 0.5,
+                "remove_entity_on_completion": 1,
+                "start_active": 1,
+                "weather_name": 93964209,
+                "on_activate_script_event": 0,
+                "on_deactivate_script_event": 0
+            }
+        },
+        {
+            "0x1A5ED54B8DD6191D": {
+                "hash": "1900190613275810077",
+                "name": "Exostorm MK2",
+                "name_zh": "异界风暴 MK2（环境）",
+                "index": 7,
+                "previous_weather_out_time": 1.0,
+                "target_weather_in_time": 1.0,
+                "target_weather_active_hold_time": 9999.0,
+                "target_weather_out_time": 15.0,
+                "weather_catch_up_time": 30.0,
+                "gameplay_effect_activation_point": 0.6000000238418579,
+                "remove_entity_on_completion": 1,
+                "start_active": 1,
+                "weather_name": 3627826758,
+                "on_activate_script_event": 0,
+                "on_deactivate_script_event": 0
+            }
+        },
+        {
+            "0xD365C43981469A26": {
+                "hash": "15232797065911638566",
+                "name": "Exostorm MK3",
+                "name_zh": "异界风暴 MK3（环境）",
+                "index": 8,
+                "previous_weather_out_time": 1.0,
+                "target_weather_in_time": 1.0,
+                "target_weather_active_hold_time": 9999.0,
+                "target_weather_out_time": 15.0,
+                "weather_catch_up_time": 30.0,
+                "gameplay_effect_activation_point": 0.6000000238418579,
+                "remove_entity_on_completion": 1,
+                "start_active": 1,
+                "weather_name": 222222883,
+                "on_activate_script_event": 0,
+                "on_deactivate_script_event": 0
+            }
+        }
+    ]
+}

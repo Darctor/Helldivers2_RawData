@@ -1,11 +1,11 @@
 {
     "_metadata": {
         "struct_size": 132,
-        "omitted_size": 0,
-        "exported_entity_count": 22,
-        "matched_bilingual_hash_count": 21,
-        "patch_date": "2026-07-07",
-        "game_version": "1.006.301"
+        "omitted_size": 3,
+        "exported_entity_count": 23,
+        "matched_bilingual_hash_count": 22,
+        "patch_date": "2026-08-12",
+        "game_version": "1.007.000"
     },
     "entities": [
         {
@@ -41,7 +41,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "67 <=> ProjectileType_Unknown_67",
+                    "primary_projectile_type": "68 <=> ProjectileType_Unknown_68",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -98,8 +98,8 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "252 <=> ProjectileType_Unknown_252",
-                    "alternate_projectile_type": "252 <=> ProjectileType_Unknown_252"
+                    "primary_projectile_type": "257 <=> ProjectileType_Unknown_257",
+                    "alternate_projectile_type": "257 <=> ProjectileType_Unknown_257"
                 },
                 "magazine_capacity": {
                     "x": 8.0,
@@ -155,8 +155,8 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "252 <=> ProjectileType_Unknown_252",
-                    "alternate_projectile_type": "252 <=> ProjectileType_Unknown_252"
+                    "primary_projectile_type": "257 <=> ProjectileType_Unknown_257",
+                    "alternate_projectile_type": "257 <=> ProjectileType_Unknown_257"
                 },
                 "magazine_capacity": {
                     "x": 8.0,
@@ -212,8 +212,8 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "233 <=> ProjectileType_Unknown_233",
-                    "alternate_projectile_type": "233 <=> ProjectileType_Unknown_233"
+                    "primary_projectile_type": "238 <=> ProjectileType_Unknown_238",
+                    "alternate_projectile_type": "238 <=> ProjectileType_Unknown_238"
                 },
                 "magazine_capacity": {
                     "x": 8.0,
@@ -269,8 +269,8 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "180 <=> ProjectileType_Unknown_180",
-                    "alternate_projectile_type": "187 <=> ProjectileType_Unknown_187"
+                    "primary_projectile_type": "183 <=> ProjectileType_Unknown_183",
+                    "alternate_projectile_type": "191 <=> ProjectileType_Unknown_191"
                 },
                 "magazine_capacity": {
                     "x": 8.0,
@@ -326,8 +326,8 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "334 <=> ProjectileType_Unknown_334",
-                    "alternate_projectile_type": "334 <=> ProjectileType_Unknown_334"
+                    "primary_projectile_type": "340 <=> ProjectileType_Unknown_340",
+                    "alternate_projectile_type": "340 <=> ProjectileType_Unknown_340"
                 },
                 "magazine_capacity": {
                     "x": 8.0,
@@ -383,7 +383,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "254 <=> ProjectileType_Unknown_254",
+                    "primary_projectile_type": "259 <=> ProjectileType_Unknown_259",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -440,7 +440,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "306 <=> ProjectileType_Unknown_306",
+                    "primary_projectile_type": "311 <=> ProjectileType_Unknown_311",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -497,7 +497,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "61 <=> ProjectileType_Unknown_61",
+                    "primary_projectile_type": "62 <=> ProjectileType_Unknown_62",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -554,7 +554,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "307 <=> ProjectileType_Unknown_307",
+                    "primary_projectile_type": "312 <=> ProjectileType_Unknown_312",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -579,10 +579,10 @@
             }
         },
         {
-            "0x52071F49263415E4": {
-                "hash": "5910727434981086692",
-                "name": "SG-88 Break-Action Shotgun",
-                "name_zh": "中折式霰弹枪",
+            "0x03271411D3D0BAB9": {
+                "hash": "227172373006170809",
+                "name": "SEAF's Stim Pistol",
+                "name_zh": "SEAF的治疗手枪",
                 "index": 10,
                 "ammo_infos": {
                     "primary_recoil_modifiers": {
@@ -611,16 +611,16 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "211 <=> ProjectileType_Unknown_211",
+                    "primary_projectile_type": "312 <=> ProjectileType_Unknown_312",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
-                    "x": 2.0,
+                    "x": 6.0,
                     "y": 0.0
                 },
-                "ammo_capacity": 40,
-                "ammo_refill": 20,
-                "ammo": 20,
+                "ammo_capacity": 24,
+                "ammo_refill": 18,
+                "ammo": 18,
                 "reload_amount": 1,
                 "reload_thresholds": {
                     "x": 0.0,
@@ -636,10 +636,10 @@
             }
         },
         {
-            "0x02CD7321CD8445F5": {
-                "hash": "201944147320653301",
-                "name": "Grenade Launcher Grenadier",
-                "name_zh": "AR/GL-21 幺二 下挂榴弹发射器",
+            "0x52071F49263415E4": {
+                "hash": "5910727434981086692",
+                "name": "SG-88 Break-Action Shotgun",
+                "name_zh": "中折式霰弹枪",
                 "index": 11,
                 "ammo_infos": {
                     "primary_recoil_modifiers": {
@@ -668,22 +668,22 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "255 <=> ProjectileType_Unknown_255",
+                    "primary_projectile_type": "216 <=> ProjectileType_Unknown_216",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
-                    "x": 1.0,
+                    "x": 2.0,
                     "y": 0.0
                 },
-                "ammo_capacity": 3,
-                "ammo_refill": 3,
-                "ammo": 2,
+                "ammo_capacity": 40,
+                "ammo_refill": 20,
+                "ammo": 20,
                 "reload_amount": 1,
                 "reload_thresholds": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "chambered": 1,
+                "chambered": 0,
                 "magazine_switch_audio": 0,
                 "magazine_0_weapon_anim": 0,
                 "magazine_0_wielder_anim": 0,
@@ -693,10 +693,10 @@
             }
         },
         {
-            "0x51F50D6321F52F3D": {
-                "hash": "5905641205788913469",
-                "name": "B/MD C4 Pack Detonator (Model)",
-                "name_zh": "B/MD C4 背包 引爆器（武器，模型）",
+            "0x02CD7321CD8445F5": {
+                "hash": "201944147320653301",
+                "name": "Grenade Launcher Grenadier",
+                "name_zh": "AR/GL-21 幺二 下挂榴弹发射器",
                 "index": 12,
                 "ammo_infos": {
                     "primary_recoil_modifiers": {
@@ -725,16 +725,16 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "54 <=> ProjectileType_Unknown_54",
+                    "primary_projectile_type": "260 <=> ProjectileType_Unknown_260",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
                     "x": 1.0,
                     "y": 0.0
                 },
-                "ammo_capacity": 0,
-                "ammo_refill": 1,
-                "ammo": 0,
+                "ammo_capacity": 3,
+                "ammo_refill": 3,
+                "ammo": 2,
                 "reload_amount": 1,
                 "reload_thresholds": {
                     "x": 0.0,
@@ -750,10 +750,10 @@
             }
         },
         {
-            "0x7B75E5132FFD4CA6": {
-                "hash": "8896268509512551590",
-                "name": "R-2124 Constitution (Model)",
-                "name_zh": "R-2124 宪法（主武器，模型）",
+            "0x51F50D6321F52F3D": {
+                "hash": "5905641205788913469",
+                "name": "B/MD C4 Pack Detonator (Model)",
+                "name_zh": "B/MD C4 背包 引爆器（武器，模型）",
                 "index": 13,
                 "ammo_infos": {
                     "primary_recoil_modifiers": {
@@ -782,16 +782,16 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "273 <=> ProjectileType_Unknown_273",
+                    "primary_projectile_type": "55 <=> ProjectileType_Unknown_55",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
-                    "x": 5.0,
+                    "x": 1.0,
                     "y": 0.0
                 },
-                "ammo_capacity": 99,
-                "ammo_refill": 99,
-                "ammo": 60,
+                "ammo_capacity": 0,
+                "ammo_refill": 1,
+                "ammo": 0,
                 "reload_amount": 1,
                 "reload_thresholds": {
                     "x": 0.0,
@@ -807,10 +807,10 @@
             }
         },
         {
-            "0xE6D932BE83729076": {
-                "hash": "16634382492500136054",
-                "name": "R-6 Deadeye (Model)",
-                "name_zh": "R-6 鹰眼（主武器，模型）",
+            "0x7B75E5132FFD4CA6": {
+                "hash": "8896268509512551590",
+                "name": "R-2124 Constitution (Model)",
+                "name_zh": "R-2124 宪法（主武器，模型）",
                 "index": 14,
                 "ammo_infos": {
                     "primary_recoil_modifiers": {
@@ -839,22 +839,22 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "288 <=> ProjectileType_Unknown_288",
+                    "primary_projectile_type": "278 <=> ProjectileType_Unknown_278",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
-                    "x": 8.0,
+                    "x": 5.0,
                     "y": 0.0
                 },
-                "ammo_capacity": 60,
-                "ammo_refill": 60,
-                "ammo": 32,
+                "ammo_capacity": 100,
+                "ammo_refill": 100,
+                "ammo": 60,
                 "reload_amount": 1,
                 "reload_thresholds": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "chambered": 1,
+                "chambered": 0,
                 "magazine_switch_audio": 0,
                 "magazine_0_weapon_anim": 0,
                 "magazine_0_wielder_anim": 0,
@@ -864,10 +864,10 @@
             }
         },
         {
-            "0x2B28E17FFED05F7C": {
-                "hash": "3109983482551492476",
-                "name": "SG-22 Bushwhacker (Model)",
-                "name_zh": "SG-22 游击兵（副武器，模型）",
+            "0xE6D932BE83729076": {
+                "hash": "16634382492500136054",
+                "name": "R-6 Deadeye (Model)",
+                "name_zh": "R-6 鹰眼（主武器，模型）",
                 "index": 15,
                 "ammo_infos": {
                     "primary_recoil_modifiers": {
@@ -896,22 +896,22 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "252 <=> ProjectileType_Unknown_252",
+                    "primary_projectile_type": "293 <=> ProjectileType_Unknown_293",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
-                    "x": 3.0,
+                    "x": 8.0,
                     "y": 0.0
                 },
-                "ammo_capacity": 30,
-                "ammo_refill": 30,
-                "ammo": 30,
+                "ammo_capacity": 60,
+                "ammo_refill": 60,
+                "ammo": 32,
                 "reload_amount": 1,
                 "reload_thresholds": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "chambered": 0,
+                "chambered": 1,
                 "magazine_switch_audio": 0,
                 "magazine_0_weapon_anim": 0,
                 "magazine_0_wielder_anim": 0,
@@ -921,10 +921,10 @@
             }
         },
         {
-            "0x52E4334E6A128CAF": {
-                "hash": "5972955417680186543",
-                "name": "GP-31 Grenade Pistol (Model)",
-                "name_zh": "GP-31 榴弹手枪（副武器，模型）",
+            "0x2B28E17FFED05F7C": {
+                "hash": "3109983482551492476",
+                "name": "SG-22 Bushwhacker (Model)",
+                "name_zh": "SG-22 游击兵（副武器，模型）",
                 "index": 16,
                 "ammo_infos": {
                     "primary_recoil_modifiers": {
@@ -953,22 +953,22 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "255 <=> ProjectileType_Unknown_255",
+                    "primary_projectile_type": "257 <=> ProjectileType_Unknown_257",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
-                    "x": 1.0,
+                    "x": 3.0,
                     "y": 0.0
                 },
-                "ammo_capacity": 6,
-                "ammo_refill": 4,
-                "ammo": 4,
+                "ammo_capacity": 30,
+                "ammo_refill": 30,
+                "ammo": 30,
                 "reload_amount": 1,
                 "reload_thresholds": {
                     "x": 0.0,
                     "y": 0.0
                 },
-                "chambered": 1,
+                "chambered": 0,
                 "magazine_switch_audio": 0,
                 "magazine_0_weapon_anim": 0,
                 "magazine_0_wielder_anim": 0,
@@ -978,10 +978,10 @@
             }
         },
         {
-            "0xC780BCD79547DA0F": {
-                "hash": "14375697644675127823",
-                "name": "P-69 Veto (Model)",
-                "name_zh": "P-69 否决者（副武器，模型）",
+            "0x52E4334E6A128CAF": {
+                "hash": "5972955417680186543",
+                "name": "GP-31 Grenade Pistol (Model)",
+                "name_zh": "GP-31 榴弹手枪（副武器，模型）",
                 "index": 17,
                 "ammo_infos": {
                     "primary_recoil_modifiers": {
@@ -1010,22 +1010,22 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "230 <=> ProjectileType_Unknown_230",
+                    "primary_projectile_type": "260 <=> ProjectileType_Unknown_260",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
-                    "x": 12.0,
+                    "x": 1.0,
                     "y": 0.0
                 },
-                "ammo_capacity": 90,
-                "ammo_refill": 90,
-                "ammo": 52,
-                "reload_amount": 6,
+                "ammo_capacity": 6,
+                "ammo_refill": 4,
+                "ammo": 4,
+                "reload_amount": 1,
                 "reload_thresholds": {
-                    "x": 7.0,
+                    "x": 0.0,
                     "y": 0.0
                 },
-                "chambered": 0,
+                "chambered": 1,
                 "magazine_switch_audio": 0,
                 "magazine_0_weapon_anim": 0,
                 "magazine_0_wielder_anim": 0,
@@ -1035,10 +1035,10 @@
             }
         },
         {
-            "0x8D3D52A3B2F19402": {
-                "hash": "10177381595962512386",
-                "name": "P-4 Senator (Model)",
-                "name_zh": "P-4 参议员（副武器，模型）",
+            "0xC780BCD79547DA0F": {
+                "hash": "14375697644675127823",
+                "name": "P-69 Veto (Model)",
+                "name_zh": "P-69 否决者（副武器，模型）",
                 "index": 18,
                 "ammo_infos": {
                     "primary_recoil_modifiers": {
@@ -1067,19 +1067,19 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "298 <=> ProjectileType_Unknown_298",
+                    "primary_projectile_type": "235 <=> ProjectileType_Unknown_235",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
-                    "x": 6.0,
+                    "x": 12.0,
                     "y": 0.0
                 },
-                "ammo_capacity": 40,
-                "ammo_refill": 40,
-                "ammo": 32,
-                "reload_amount": 1,
+                "ammo_capacity": 90,
+                "ammo_refill": 90,
+                "ammo": 52,
+                "reload_amount": 6,
                 "reload_thresholds": {
-                    "x": 0.0,
+                    "x": 7.0,
                     "y": 0.0
                 },
                 "chambered": 0,
@@ -1092,10 +1092,10 @@
             }
         },
         {
-            "0xBDE1F2534280300D": {
-                "hash": "13682483582340182029",
-                "name": "P-41 Ombudsman (Model)",
-                "name_zh": "P-41 巡察者（副武器，模型）",
+            "0x8D3D52A3B2F19402": {
+                "hash": "10177381595962512386",
+                "name": "P-4 Senator (Model)",
+                "name_zh": "P-4 参议员（副武器，模型）",
                 "index": 19,
                 "ammo_infos": {
                     "primary_recoil_modifiers": {
@@ -1124,7 +1124,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "62 <=> ProjectileType_Unknown_62",
+                    "primary_projectile_type": "303 <=> ProjectileType_Unknown_303",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -1149,10 +1149,10 @@
             }
         },
         {
-            "0xA8CFFB316F0B5C5F": {
-                "hash": "12164217308285983839",
-                "name": "AC-8 Autocannon (Model)",
-                "name_zh": "AC-8 机炮（武器，模型）",
+            "0xBDE1F2534280300D": {
+                "hash": "13682483582340182029",
+                "name": "P-41 Ombudsman (Model)",
+                "name_zh": "P-41 巡察者（副武器，模型）",
                 "index": 20,
                 "ammo_infos": {
                     "primary_recoil_modifiers": {
@@ -1181,22 +1181,22 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "113 <=> ProjectileType_Unknown_113",
+                    "primary_projectile_type": "63 <=> ProjectileType_Unknown_63",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
-                    "x": 10.0,
-                    "y": 0.0
-                },
-                "ammo_capacity": 0,
-                "ammo_refill": 0,
-                "ammo": 0,
-                "reload_amount": 5,
-                "reload_thresholds": {
                     "x": 6.0,
                     "y": 0.0
                 },
-                "chambered": 1,
+                "ammo_capacity": 40,
+                "ammo_refill": 40,
+                "ammo": 32,
+                "reload_amount": 1,
+                "reload_thresholds": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "chambered": 0,
                 "magazine_switch_audio": 0,
                 "magazine_0_weapon_anim": 0,
                 "magazine_0_wielder_anim": 0,
@@ -1206,10 +1206,10 @@
             }
         },
         {
-            "0xFE3B29B2CFA63F9B": {
-                "hash": "18319281757224320923",
-                "name": "GL-52 De-Escalator (Model)",
-                "name_zh": "GL-52 缓和使者（模型）",
+            "0xA8CFFB316F0B5C5F": {
+                "hash": "12164217308285983839",
+                "name": "AC-8 Autocannon (Model)",
+                "name_zh": "AC-8 机炮（武器，模型）",
                 "index": 21,
                 "ammo_infos": {
                     "primary_recoil_modifiers": {
@@ -1238,7 +1238,64 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "216 <=> ProjectileType_Unknown_216",
+                    "primary_projectile_type": "115 <=> ProjectileType_Unknown_115",
+                    "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
+                },
+                "magazine_capacity": {
+                    "x": 10.0,
+                    "y": 0.0
+                },
+                "ammo_capacity": 0,
+                "ammo_refill": 0,
+                "ammo": 0,
+                "reload_amount": 5,
+                "reload_thresholds": {
+                    "x": 6.0,
+                    "y": 0.0
+                },
+                "chambered": 1,
+                "magazine_switch_audio": 0,
+                "magazine_0_weapon_anim": 0,
+                "magazine_0_wielder_anim": 0,
+                "magazine_1_weapon_anim": 0,
+                "magazine_1_wielder_anim": 0,
+                "magazine_anim_variable": 0
+            }
+        },
+        {
+            "0xFE3B29B2CFA63F9B": {
+                "hash": "18319281757224320923",
+                "name": "GL-52 De-Escalator (Model)",
+                "name_zh": "GL-52 缓和使者（模型）",
+                "index": 22,
+                "ammo_infos": {
+                    "primary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "primary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    },
+                    "secondary_recoil_modifiers": {
+                        "horizontal_multiplier": 1.0,
+                        "vertical_multiplier": 1.0,
+                        "drift_horizontal_multiplier": 1.0,
+                        "drift_vertical_multiplier": 1.0,
+                        "climb_horizontal_multiplier": 1.0,
+                        "climb_vertical_multiplier": 1.0
+                    },
+                    "secondary_spread_modifiers": {
+                        "horizontal": 1.0,
+                        "vertical": 1.0
+                    }
+                },
+                "ammo_types": {
+                    "primary_projectile_type": "221 <=> ProjectileType_Unknown_221",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
