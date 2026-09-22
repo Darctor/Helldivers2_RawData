@@ -1,11 +1,11 @@
 {
     "_metadata": {
-        "struct_size": 45192,
-        "omitted_size": 9984,
-        "exported_entity_count": 322,
-        "matched_bilingual_hash_count": 282,
-        "patch_date": "2026-08-12",
-        "game_version": "1.007.000"
+        "struct_size": 46600,
+        "omitted_size": 10296,
+        "exported_entity_count": 324,
+        "matched_bilingual_hash_count": 284,
+        "patch_date": "2026-09-22",
+        "game_version": "1.007.100"
     },
     "entities": [
         {
@@ -18331,6 +18331,53 @@
                                 "max_threshold": 1.0,
                                 "audio_event_start": 3757311348,
                                 "audio_event_stop": 1690117574,
+                                "animation_event_start": 0,
+                                "animation_event_stop": 0,
+                                "damage_multiplier": 1.0,
+                                "unk_multiplier_about_gloom": 1.0
+                            },
+                            {
+                                "effects": [
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    }
+                                ],
+                                "unk_enum_r0x0070": "0 <=> Booster_Unknown_0",
+                                "unk_effect": {
+                                    "particle_effect_path": "0",
+                                    "node_id": 0
+                                },
+                                "unk_bool_r0x0088": 0,
+                                "type": "37 <=> StatusEffectSusceptibilityType_Poison",
+                                "min_threshold": 100.0,
+                                "max_threshold": 150.0,
+                                "audio_event_start": 0,
+                                "audio_event_stop": 0,
                                 "animation_event_start": 0,
                                 "animation_event_stop": 0,
                                 "damage_multiplier": 1.0,
@@ -115782,11 +115829,486 @@
             }
         },
         {
+            "0xB0C9FAF4AF8903F9": {
+                "hash": "12738988949818115065",
+                "name": "TD-110 Maelstrom",
+                "name_zh": "TD-110 风暴漩涡",
+                "index": 258,
+                "zones": [
+                    {
+                        "damageable_zone_name": 4067820803,
+                        "effect_node_name": 0,
+                        "susceptibilities": [
+                            {
+                                "effects": [
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    }
+                                ],
+                                "unk_enum_r0x0070": "0 <=> Booster_Unknown_0",
+                                "unk_effect": {
+                                    "particle_effect_path": "0",
+                                    "node_id": 0
+                                },
+                                "unk_bool_r0x0088": 0,
+                                "type": "10 <=> StatusEffectSusceptibilityType_Acid",
+                                "min_threshold": 0.5,
+                                "max_threshold": 1.0,
+                                "audio_event_start": 0,
+                                "audio_event_stop": 0,
+                                "animation_event_start": 0,
+                                "animation_event_stop": 0,
+                                "damage_multiplier": 1.0,
+                                "unk_multiplier_about_gloom": 1.0
+                            },
+                            {
+                                "effects": [
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    }
+                                ],
+                                "unk_enum_r0x0070": "0 <=> Booster_Unknown_0",
+                                "unk_effect": {
+                                    "particle_effect_path": "0",
+                                    "node_id": 0
+                                },
+                                "unk_bool_r0x0088": 0,
+                                "type": "8 <=> StatusEffectSusceptibilityType_Submerged",
+                                "min_threshold": 0.0,
+                                "max_threshold": 1.0,
+                                "audio_event_start": 0,
+                                "audio_event_stop": 0,
+                                "animation_event_start": 0,
+                                "animation_event_stop": 0,
+                                "damage_multiplier": 1.0,
+                                "unk_multiplier_about_gloom": 1.0
+                            },
+                            {
+                                "effects": [
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    }
+                                ],
+                                "unk_enum_r0x0070": "0 <=> Booster_Unknown_0",
+                                "unk_effect": {
+                                    "particle_effect_path": "0",
+                                    "node_id": 0
+                                },
+                                "unk_bool_r0x0088": 0,
+                                "type": "4 <=> StatusEffectSusceptibilityType_Fire",
+                                "min_threshold": 0.5,
+                                "max_threshold": 1.0,
+                                "audio_event_start": 0,
+                                "audio_event_stop": 0,
+                                "animation_event_start": 0,
+                                "animation_event_stop": 0,
+                                "damage_multiplier": 1.0,
+                                "unk_multiplier_about_gloom": 1.0
+                            },
+                            {
+                                "effects": [
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    }
+                                ],
+                                "unk_enum_r0x0070": "0 <=> Booster_Unknown_0",
+                                "unk_effect": {
+                                    "particle_effect_path": "0",
+                                    "node_id": 0
+                                },
+                                "unk_bool_r0x0088": 0,
+                                "type": "14 <=> StatusEffectSusceptibilityType_Mud",
+                                "min_threshold": 0.0,
+                                "max_threshold": 1.0,
+                                "audio_event_start": 0,
+                                "audio_event_stop": 0,
+                                "animation_event_start": 0,
+                                "animation_event_stop": 0,
+                                "damage_multiplier": 1.0,
+                                "unk_multiplier_about_gloom": 1.0
+                            },
+                            {
+                                "effects": [
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    }
+                                ],
+                                "unk_enum_r0x0070": "0 <=> Booster_Unknown_0",
+                                "unk_effect": {
+                                    "particle_effect_path": "0",
+                                    "node_id": 0
+                                },
+                                "unk_bool_r0x0088": 0,
+                                "type": "16 <=> StatusEffectSusceptibilityType_Pure_Damage",
+                                "min_threshold": 0.0,
+                                "max_threshold": 1.0,
+                                "audio_event_start": 0,
+                                "audio_event_stop": 0,
+                                "animation_event_start": 0,
+                                "animation_event_stop": 0,
+                                "damage_multiplier": 1.0,
+                                "unk_multiplier_about_gloom": 1.0
+                            },
+                            {
+                                "effects": [
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    }
+                                ],
+                                "unk_enum_r0x0070": "0 <=> Booster_Unknown_0",
+                                "unk_effect": {
+                                    "particle_effect_path": "0",
+                                    "node_id": 0
+                                },
+                                "unk_bool_r0x0088": 0,
+                                "type": "13 <=> StatusEffectSusceptibilityType_Sand",
+                                "min_threshold": 0.0,
+                                "max_threshold": 1.0,
+                                "audio_event_start": 0,
+                                "audio_event_stop": 0,
+                                "animation_event_start": 0,
+                                "animation_event_stop": 0,
+                                "damage_multiplier": 1.0,
+                                "unk_multiplier_about_gloom": 1.0
+                            },
+                            {
+                                "effects": [
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    }
+                                ],
+                                "unk_enum_r0x0070": "0 <=> Booster_Unknown_0",
+                                "unk_effect": {
+                                    "particle_effect_path": "0",
+                                    "node_id": 0
+                                },
+                                "unk_bool_r0x0088": 0,
+                                "type": "15 <=> StatusEffectSusceptibilityType_Snow",
+                                "min_threshold": 0.0,
+                                "max_threshold": 1.0,
+                                "audio_event_start": 0,
+                                "audio_event_stop": 0,
+                                "animation_event_start": 0,
+                                "animation_event_stop": 0,
+                                "damage_multiplier": 1.0,
+                                "unk_multiplier_about_gloom": 1.0
+                            },
+                            {
+                                "effects": [
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    }
+                                ],
+                                "unk_enum_r0x0070": "0 <=> Booster_Unknown_0",
+                                "unk_effect": {
+                                    "particle_effect_path": "0",
+                                    "node_id": 0
+                                },
+                                "unk_bool_r0x0088": 0,
+                                "type": "11 <=> StatusEffectSusceptibilityType_Thermite",
+                                "min_threshold": 0.0,
+                                "max_threshold": 1.0,
+                                "audio_event_start": 0,
+                                "audio_event_stop": 0,
+                                "animation_event_start": 0,
+                                "animation_event_stop": 0,
+                                "damage_multiplier": 1.0,
+                                "unk_multiplier_about_gloom": 1.0
+                            },
+                            {
+                                "effects": [
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    }
+                                ],
+                                "unk_enum_r0x0070": "0 <=> Booster_Unknown_0",
+                                "unk_effect": {
+                                    "particle_effect_path": "0",
+                                    "node_id": 0
+                                },
+                                "unk_bool_r0x0088": 0,
+                                "type": "6 <=> StatusEffectSusceptibilityType_Lava",
+                                "min_threshold": 0.5,
+                                "max_threshold": 1.0,
+                                "audio_event_start": 0,
+                                "audio_event_stop": 0,
+                                "animation_event_start": 0,
+                                "animation_event_stop": 0,
+                                "damage_multiplier": 1.0,
+                                "unk_multiplier_about_gloom": 1.0
+                            }
+                        ]
+                    }
+                ],
+                "volume_query_node_name": 0,
+                "volume_query_size_radius": 0.0,
+                "status_effect_resistances": [
+                    {
+                        "susceptibilities_type": "0 <=> StatusEffectSusceptibilityType_None",
+                        "duration_scale": 1.0
+                    },
+                    {
+                        "susceptibilities_type": "0 <=> StatusEffectSusceptibilityType_None",
+                        "duration_scale": 1.0
+                    },
+                    {
+                        "susceptibilities_type": "0 <=> StatusEffectSusceptibilityType_None",
+                        "duration_scale": 1.0
+                    },
+                    {
+                        "susceptibilities_type": "0 <=> StatusEffectSusceptibilityType_None",
+                        "duration_scale": 1.0
+                    },
+                    {
+                        "susceptibilities_type": "0 <=> StatusEffectSusceptibilityType_None",
+                        "duration_scale": 1.0
+                    },
+                    {
+                        "susceptibilities_type": "0 <=> StatusEffectSusceptibilityType_None",
+                        "duration_scale": 1.0
+                    },
+                    {
+                        "susceptibilities_type": "0 <=> StatusEffectSusceptibilityType_None",
+                        "duration_scale": 1.0
+                    },
+                    {
+                        "susceptibilities_type": "0 <=> StatusEffectSusceptibilityType_None",
+                        "duration_scale": 1.0
+                    }
+                ]
+            }
+        },
+        {
             "0x0ADC9F9173AD8E1D": {
                 "hash": "782675882315451933",
                 "name": "Voteless Medium",
                 "name_zh": "无票者（中型）",
-                "index": 258,
+                "index": 259,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -116543,7 +117065,7 @@
                 "hash": "4919490090942595835",
                 "name": "Voteless Heavy",
                 "name_zh": "无票者（重型）",
-                "index": 259,
+                "index": 260,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -117300,7 +117822,7 @@
                 "hash": "17393195075174683200",
                 "name": "Overseer (No Package)",
                 "name_zh": "监视者（无包裹模型）",
-                "index": 260,
+                "index": 261,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -118057,7 +118579,7 @@
                 "hash": "641481206831155133",
                 "name": "Overseer MK2",
                 "name_zh": "监视者 MK2",
-                "index": 261,
+                "index": 262,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -118814,7 +119336,7 @@
                 "hash": "15438282343866021807",
                 "name": "Harvester MK2",
                 "name_zh": "猎杀器 MK2",
-                "index": 262,
+                "index": 263,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -119430,7 +119952,7 @@
                 "hash": "7719924637775600975",
                 "name": "SEAF With Backpack",
                 "name_zh": "背包SEAF",
-                "index": 263,
+                "index": 264,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -119999,7 +120521,7 @@
                 "hash": "11530114387757953774",
                 "name": "SEAF MK1",
                 "name_zh": "SEAF MK1",
-                "index": 264,
+                "index": 265,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -120568,7 +121090,7 @@
                 "hash": "6089208603239816028",
                 "name": "SEAF MK2",
                 "name_zh": "SEAF MK2",
-                "index": 265,
+                "index": 266,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -121137,7 +121659,7 @@
                 "hash": "13617855600110100742",
                 "name": "SEAF With Wireless MK1",
                 "name_zh": "无线电SEAF MK1",
-                "index": 266,
+                "index": 267,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -121706,7 +122228,7 @@
                 "hash": "8708480032737395252",
                 "name": "SEAF With Wireless MK2",
                 "name_zh": "无线电SEAF MK2",
-                "index": 267,
+                "index": 268,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -122275,7 +122797,7 @@
                 "hash": "1460639142923993241",
                 "name": "Medical SEAF MK1",
                 "name_zh": "医疗兵SEAF MK1",
-                "index": 268,
+                "index": 269,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -122844,7 +123366,7 @@
                 "hash": "8048468262572802857",
                 "name": "Medical SEAF MK2",
                 "name_zh": "医疗兵SEAF MK2",
-                "index": 269,
+                "index": 270,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -123413,7 +123935,7 @@
                 "hash": "14155525937218621891",
                 "name": "Medical SEAF MK3",
                 "name_zh": "医疗兵SEAF MK3",
-                "index": 270,
+                "index": 271,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -123982,7 +124504,7 @@
                 "hash": "13814167941378577880",
                 "name": "Mg/Anti-Tank SEAF MK1",
                 "name_zh": "机枪次抛SEAF MK1",
-                "index": 271,
+                "index": 272,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -124551,7 +125073,7 @@
                 "hash": "12023698573119337990",
                 "name": "Mg/Anti-Tank SEAF MK2",
                 "name_zh": "机枪次抛SEAF MK2",
-                "index": 272,
+                "index": 273,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -125120,7 +125642,7 @@
                 "hash": "5555647998940836938",
                 "name": "Civilian MK2",
                 "name_zh": "平民 MK2",
-                "index": 273,
+                "index": 274,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -125736,7 +126258,7 @@
                 "hash": "3836043307793934489",
                 "name": "Civilian MK3",
                 "name_zh": "平民 MK3",
-                "index": 274,
+                "index": 275,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -126352,7 +126874,7 @@
                 "hash": "7712844951779243309",
                 "name": "Civilian MK4",
                 "name_zh": "平民 MK4",
-                "index": 275,
+                "index": 276,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -126968,7 +127490,7 @@
                 "hash": "3754586476635072036",
                 "name": "Civilian MK5",
                 "name_zh": "平民 MK5",
-                "index": 276,
+                "index": 277,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -127584,7 +128106,7 @@
                 "hash": "14706222259390606723",
                 "name": "Civilian MK6",
                 "name_zh": "平民 MK6",
-                "index": 277,
+                "index": 278,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -128200,7 +128722,7 @@
                 "hash": "16507283781696478269",
                 "name": "Civilian MK7",
                 "name_zh": "平民 MK7",
-                "index": 278,
+                "index": 279,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -128816,7 +129338,7 @@
                 "hash": "10665281465322007152",
                 "name": "Civilian MK8",
                 "name_zh": "平民 MK8",
-                "index": 279,
+                "index": 280,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -129432,7 +129954,7 @@
                 "hash": "344970826846105488",
                 "name": "A/G-16 Gatling Sentry MK2.1",
                 "name_zh": "A/G-16 加特林哨戒炮 MK2.1",
-                "index": 280,
+                "index": 281,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -129625,7 +130147,7 @@
                 "hash": "9796573205647524202",
                 "name": "A/G-16 Gatling Sentry MK3",
                 "name_zh": "A/G-16 加特林哨戒炮 MK3",
-                "index": 281,
+                "index": 282,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -129818,7 +130340,7 @@
                 "hash": "12765265282294763822",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 282,
+                "index": 283,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -130011,7 +130533,7 @@
                 "hash": "14394260739264934509",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 283,
+                "index": 284,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -130204,7 +130726,7 @@
                 "hash": "1024464436030047776",
                 "name": "Extractable Worker Female",
                 "name_zh": "撤离的科学家 女",
-                "index": 284,
+                "index": 285,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -130820,7 +131342,7 @@
                 "hash": "9683243174428770658",
                 "name": "Extractable Worker Female MK2",
                 "name_zh": "撤离的科学家 女 MK2",
-                "index": 285,
+                "index": 286,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -131436,7 +131958,7 @@
                 "hash": "10179078936557797909",
                 "name": "Extractable Worker Female MK3",
                 "name_zh": "撤离的科学家 女 MK3",
-                "index": 286,
+                "index": 287,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -132052,7 +132574,7 @@
                 "hash": "15395181080776134584",
                 "name": "Extractable Worker Female MK4",
                 "name_zh": "撤离的科学家 女 MK4",
-                "index": 287,
+                "index": 288,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -132668,7 +133190,7 @@
                 "hash": "14040307618832651425",
                 "name": "Extractable Worker Male MK2",
                 "name_zh": "撤离的科学家 男 MK2",
-                "index": 288,
+                "index": 289,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -133284,7 +133806,7 @@
                 "hash": "7444362792725516608",
                 "name": "Extractable Worker Male MK3",
                 "name_zh": "撤离的科学家 男 MK3",
-                "index": 289,
+                "index": 290,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -133900,7 +134422,7 @@
                 "hash": "1232841523375292236",
                 "name": "Extractable Worker Male MK4",
                 "name_zh": "撤离的科学家 男 MK4",
-                "index": 290,
+                "index": 291,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -134516,7 +135038,7 @@
                 "hash": "16116574862830205005",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 291,
+                "index": 292,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -134709,7 +135231,7 @@
                 "hash": "12424973596508546593",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 292,
+                "index": 293,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -134902,7 +135424,7 @@
                 "hash": "16361817941812852399",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 293,
+                "index": 294,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -135095,7 +135617,7 @@
                 "hash": "576943110514355900",
                 "name": "Ground All-Terrain Extraction Rig MK2",
                 "name_zh": "地面全地形采集钻机 MK2",
-                "index": 294,
+                "index": 295,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -135570,7 +136092,7 @@
                 "hash": "1537696249448617261",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 295,
+                "index": 296,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -135763,7 +136285,7 @@
                 "hash": "4552071351006696626",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 296,
+                "index": 297,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -135956,7 +136478,7 @@
                 "hash": "11555060082231454796",
                 "name": "Charger Behemoth MK2",
                 "name_zh": "巨兽级强袭虫 MK2",
-                "index": 297,
+                "index": 298,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -136760,7 +137282,7 @@
                 "hash": "2236760086372418784",
                 "name": "Spore Burst Hunter",
                 "name_zh": "孢裂追猎虫",
-                "index": 298,
+                "index": 299,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -137658,7 +138180,7 @@
                 "hash": "15822911520269726977",
                 "name": "Spore Burst Scavenger",
                 "name_zh": "孢裂食腐虫",
-                "index": 299,
+                "index": 300,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -138556,7 +139078,7 @@
                 "hash": "8251756929257574076",
                 "name": "Spore Burst Warrior",
                 "name_zh": "孢裂武斗虫",
-                "index": 300,
+                "index": 301,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -139454,7 +139976,7 @@
                 "hash": "11481777918278298912",
                 "name": "Incendiary Trooper",
                 "name_zh": "装甲兵（炽灼部队）",
-                "index": 301,
+                "index": 302,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -140258,7 +140780,7 @@
                 "hash": "16610351617142216522",
                 "name": "Incendiary Raider",
                 "name_zh": "奇袭者（炽灼部队）",
-                "index": 302,
+                "index": 303,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -141062,7 +141584,7 @@
                 "hash": "3031503431338798614",
                 "name": "Rocket Raider",
                 "name_zh": "火箭奇袭者",
-                "index": 303,
+                "index": 304,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -141866,7 +142388,7 @@
                 "hash": "3199457897835937068",
                 "name": "AX/LAS-5 Rover Gun (Model)",
                 "name_zh": "AX/LAS-5 漫游车（武器）",
-                "index": 304,
+                "index": 305,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -141965,7 +142487,7 @@
                 "hash": "2877271129141764950",
                 "name": "LAS-5 Scythe (Model)",
                 "name_zh": "LAS-5 长柄镰（主武器，模型）",
-                "index": 305,
+                "index": 306,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -142064,7 +142586,7 @@
                 "hash": "9093125700741019976",
                 "name": "LAS-22 Shear (Model)",
                 "name_zh": "LAS-22 切变（主武器，模型）",
-                "index": 306,
+                "index": 307,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -142163,7 +142685,7 @@
                 "hash": "9675404802175538082",
                 "name": "LAS-16 Sickle (Model)",
                 "name_zh": "LAS-16 镰刀（主武器，模型）",
-                "index": 307,
+                "index": 308,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -142262,7 +142784,7 @@
                 "hash": "2980234130573201393",
                 "name": "LAS-17 Double-Edge Sickle (Model)",
                 "name_zh": "LAS-17 双刃镰刀（主武器，模型）",
-                "index": 308,
+                "index": 309,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -142361,7 +142883,106 @@
                 "hash": "4361428863637469552",
                 "name": "LAS-13 Trident (Model)",
                 "name_zh": "LAS-13 三叉戟（主武器，模型）",
-                "index": 309,
+                "index": 310,
+                "zones": [
+                    {
+                        "damageable_zone_name": 4067820803,
+                        "effect_node_name": 0,
+                        "susceptibilities": [
+                            {
+                                "effects": [
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    },
+                                    {
+                                        "particle_effect_path": "0",
+                                        "node_id": 0
+                                    }
+                                ],
+                                "unk_enum_r0x0070": "0 <=> Booster_Unknown_0",
+                                "unk_effect": {
+                                    "particle_effect_path": "0",
+                                    "node_id": 0
+                                },
+                                "unk_bool_r0x0088": 0,
+                                "type": "30 <=> StatusEffectSusceptibilityType_ExtremeCold",
+                                "min_threshold": 0.0,
+                                "max_threshold": 1.0,
+                                "audio_event_start": 0,
+                                "audio_event_stop": 0,
+                                "animation_event_start": 0,
+                                "animation_event_stop": 0,
+                                "damage_multiplier": 1.0,
+                                "unk_multiplier_about_gloom": 1.0
+                            }
+                        ]
+                    }
+                ],
+                "volume_query_node_name": 0,
+                "volume_query_size_radius": 0.0,
+                "status_effect_resistances": [
+                    {
+                        "susceptibilities_type": "0 <=> StatusEffectSusceptibilityType_None",
+                        "duration_scale": 1.0
+                    },
+                    {
+                        "susceptibilities_type": "0 <=> StatusEffectSusceptibilityType_None",
+                        "duration_scale": 1.0
+                    },
+                    {
+                        "susceptibilities_type": "0 <=> StatusEffectSusceptibilityType_None",
+                        "duration_scale": 1.0
+                    },
+                    {
+                        "susceptibilities_type": "0 <=> StatusEffectSusceptibilityType_None",
+                        "duration_scale": 1.0
+                    },
+                    {
+                        "susceptibilities_type": "0 <=> StatusEffectSusceptibilityType_None",
+                        "duration_scale": 1.0
+                    },
+                    {
+                        "susceptibilities_type": "0 <=> StatusEffectSusceptibilityType_None",
+                        "duration_scale": 1.0
+                    },
+                    {
+                        "susceptibilities_type": "0 <=> StatusEffectSusceptibilityType_None",
+                        "duration_scale": 1.0
+                    },
+                    {
+                        "susceptibilities_type": "0 <=> StatusEffectSusceptibilityType_None",
+                        "duration_scale": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "0xC85F576D5E086147": {
+                "hash": "14438355057613758791",
+                "name": "LAS-12 SAI (Model)",
+                "name_zh": "LAS-12 钗（主武器，模型）",
+                "index": 311,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -142460,7 +143081,7 @@
                 "hash": "4714430103453754419",
                 "name": "LAS-58 Talon (Model)",
                 "name_zh": "LAS-58 猛爪（副武器，模型）",
-                "index": 310,
+                "index": 312,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -142559,7 +143180,7 @@
                 "hash": "8864800879179811976",
                 "name": "LAS-7 Dagger (Model)",
                 "name_zh": "LAS-7 匕首（副武器，模型）",
-                "index": 311,
+                "index": 313,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -142658,7 +143279,7 @@
                 "hash": "15369542005276747891",
                 "name": "LAS-98 Laser Cannon (Model)",
                 "name_zh": "LAS-98 激光大炮（模型）",
-                "index": 312,
+                "index": 314,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -142757,7 +143378,7 @@
                 "hash": "3865797767236207742",
                 "name": "LAS-99 Quasar Cannon (Model)",
                 "name_zh": "LAS-99 类星体加农炮（模型）",
-                "index": 313,
+                "index": 315,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -142856,7 +143477,7 @@
                 "hash": "5787948413593898778",
                 "name": "Supplies (Hellpod)",
                 "name_zh": "补给（支架）",
-                "index": 314,
+                "index": 316,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -143049,7 +143670,7 @@
                 "hash": "15560829713433970564",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 315,
+                "index": 317,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -143242,7 +143863,7 @@
                 "hash": "8315931884919593616",
                 "name": "Resupply Pod AR-23",
                 "name_zh": "补给上的解放者",
-                "index": 316,
+                "index": 318,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -143435,7 +144056,7 @@
                 "hash": "6113742425058627513",
                 "name": "A/AC-8 Autocannon Sentry",
                 "name_zh": "A/AC-8 自动哨戒炮",
-                "index": 317,
+                "index": 319,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -143628,7 +144249,7 @@
                 "hash": "12611223767334871581",
                 "name": "Medical Supply (Hellpod)",
                 "name_zh": "医疗补给（支架）",
-                "index": 318,
+                "index": 320,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -143821,7 +144442,7 @@
                 "hash": "3808429690324817690",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 319,
+                "index": 321,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -144014,7 +144635,7 @@
                 "hash": "16884914410677175712",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 320,
+                "index": 322,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,
@@ -144207,7 +144828,7 @@
                 "hash": "5617149288754513915",
                 "name": "M-103 Supply FRV AR Sentry",
                 "name_zh": "M-103 补给型 解放者炮塔",
-                "index": 321,
+                "index": 323,
                 "zones": [
                     {
                         "damageable_zone_name": 4067820803,

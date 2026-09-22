@@ -4,8 +4,8 @@
         "omitted_size": 15,
         "exported_entity_count": 11,
         "matched_bilingual_hash_count": 10,
-        "patch_date": "2026-08-12",
-        "game_version": "1.007.000"
+        "patch_date": "2026-09-22",
+        "game_version": "1.007.100"
     },
     "entities": [
         {
@@ -90,7 +90,7 @@
                 "unk_uint32_0x0000": 0,
                 "unk_enum_0x0004": "2 <=> 0x8D8816B3_Unknown_2",
                 "stamina_cost": 0.05000000074505806,
-                "damage_info_type": "550 <=> DamageInfoType_Unknown_550",
+                "damage_info_type": "560 <=> DamageInfoType_Unknown_560",
                 "0xAE76DD5D": [
                     {
                         "avatar_stance": "0 <=> 0xAE7D1593_Unknown_0",
@@ -163,7 +163,7 @@
                 "unk_uint32_0x0000": 0,
                 "unk_enum_0x0004": "1 <=> 0x8D8816B3_Unknown_1",
                 "stamina_cost": 0.029999999329447746,
-                "damage_info_type": "548 <=> DamageInfoType_Unknown_548",
+                "damage_info_type": "558 <=> DamageInfoType_Unknown_558",
                 "0xAE76DD5D": [
                     {
                         "avatar_stance": "0 <=> 0xAE7D1593_Unknown_0",
@@ -236,7 +236,7 @@
                 "unk_uint32_0x0000": 0,
                 "unk_enum_0x0004": "0 <=> 0x8D8816B3_Unknown_0",
                 "stamina_cost": 0.029999999329447746,
-                "damage_info_type": "544 <=> DamageInfoType_Unknown_544",
+                "damage_info_type": "554 <=> DamageInfoType_Unknown_554",
                 "0xAE76DD5D": [
                     {
                         "avatar_stance": "0 <=> 0xAE7D1593_Unknown_0",
@@ -309,7 +309,7 @@
                 "unk_uint32_0x0000": 0,
                 "unk_enum_0x0004": "0 <=> 0x8D8816B3_Unknown_0",
                 "stamina_cost": 0.029999999329447746,
-                "damage_info_type": "544 <=> DamageInfoType_Unknown_544",
+                "damage_info_type": "554 <=> DamageInfoType_Unknown_554",
                 "0xAE76DD5D": [
                     {
                         "avatar_stance": "0 <=> 0xAE7D1593_Unknown_0",
@@ -382,7 +382,7 @@
                 "unk_uint32_0x0000": 0,
                 "unk_enum_0x0004": "0 <=> 0x8D8816B3_Unknown_0",
                 "stamina_cost": 0.029999999329447746,
-                "damage_info_type": "542 <=> DamageInfoType_Unknown_542",
+                "damage_info_type": "552 <=> DamageInfoType_Unknown_552",
                 "0xAE76DD5D": [
                     {
                         "avatar_stance": "0 <=> 0xAE7D1593_Unknown_0",
@@ -455,7 +455,7 @@
                 "unk_uint32_0x0000": 0,
                 "unk_enum_0x0004": "2 <=> 0x8D8816B3_Unknown_2",
                 "stamina_cost": 0.05000000074505806,
-                "damage_info_type": "540 <=> DamageInfoType_Unknown_540",
+                "damage_info_type": "550 <=> DamageInfoType_Unknown_550",
                 "0xAE76DD5D": [
                     {
                         "avatar_stance": "0 <=> 0xAE7D1593_Unknown_0",
@@ -528,7 +528,7 @@
                 "unk_uint32_0x0000": 0,
                 "unk_enum_0x0004": "0 <=> 0x8D8816B3_Unknown_0",
                 "stamina_cost": 0.029999999329447746,
-                "damage_info_type": "549 <=> DamageInfoType_Unknown_549",
+                "damage_info_type": "559 <=> DamageInfoType_Unknown_559",
                 "0xAE76DD5D": [
                     {
                         "avatar_stance": "0 <=> 0xAE7D1593_Unknown_0",
@@ -601,7 +601,7 @@
                 "unk_uint32_0x0000": 0,
                 "unk_enum_0x0004": "1 <=> 0x8D8816B3_Unknown_1",
                 "stamina_cost": 0.029999999329447746,
-                "damage_info_type": "547 <=> DamageInfoType_Unknown_547",
+                "damage_info_type": "557 <=> DamageInfoType_Unknown_557",
                 "0xAE76DD5D": [
                     {
                         "avatar_stance": "0 <=> 0xAE7D1593_Unknown_0",
@@ -674,7 +674,7 @@
                 "unk_uint32_0x0000": 0,
                 "unk_enum_0x0004": "1 <=> 0x8D8816B3_Unknown_1",
                 "stamina_cost": 0.03999999910593033,
-                "damage_info_type": "541 <=> DamageInfoType_Unknown_541",
+                "damage_info_type": "551 <=> DamageInfoType_Unknown_551",
                 "0xAE76DD5D": [
                     {
                         "avatar_stance": "0 <=> 0xAE7D1593_Unknown_0",
@@ -747,7 +747,7 @@
                 "unk_uint32_0x0000": 0,
                 "unk_enum_0x0004": "2 <=> 0x8D8816B3_Unknown_2",
                 "stamina_cost": 0.05000000074505806,
-                "damage_info_type": "543 <=> DamageInfoType_Unknown_543",
+                "damage_info_type": "553 <=> DamageInfoType_Unknown_553",
                 "0xAE76DD5D": [
                     {
                         "avatar_stance": "0 <=> 0xAE7D1593_Unknown_0",

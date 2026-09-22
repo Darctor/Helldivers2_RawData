@@ -4,8 +4,8 @@
         "omitted_size": 12,
         "exported_entity_count": 158,
         "matched_bilingual_hash_count": 154,
-        "patch_date": "2026-08-12",
-        "game_version": "1.007.000"
+        "patch_date": "2026-09-22",
+        "game_version": "1.007.100"
     },
     "entities": [
         {
@@ -170,7 +170,7 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "2040 <=> AbilityId_Unknown_2040",
+                        "ability": "2046 <=> AbilityId_Unknown_2046",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "suspicious_stop": {
@@ -190,7 +190,7 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "target_acquired": {
-                        "ability": "2041 <=> AbilityId_Unknown_2041",
+                        "ability": "2047 <=> AbilityId_Unknown_2047",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "target_changed": {
@@ -450,7 +450,7 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "2040 <=> AbilityId_Unknown_2040",
+                        "ability": "2046 <=> AbilityId_Unknown_2046",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "suspicious_stop": {
@@ -470,7 +470,7 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "target_acquired": {
-                        "ability": "2041 <=> AbilityId_Unknown_2041",
+                        "ability": "2047 <=> AbilityId_Unknown_2047",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "target_changed": {
@@ -821,7 +821,7 @@
                 "combat_value": 5.0,
                 "spot_time_close": 0.30000001192092896,
                 "spot_time_far": 3.0,
-                "voiceover_speaker_id": 0,
+                "voiceover_speaker_id": 2705606598,
                 "move_to_goal_when_rotating": 0,
                 "rotate_to_nav_goal": 0,
                 "rotate_to_navigate": 0,
@@ -2781,7 +2781,7 @@
                 "combat_value": 1.0,
                 "spot_time_close": 0.30000001192092896,
                 "spot_time_far": 3.0,
-                "voiceover_speaker_id": 0,
+                "voiceover_speaker_id": 3041355449,
                 "move_to_goal_when_rotating": 0,
                 "rotate_to_nav_goal": 0,
                 "rotate_to_navigate": 0,
@@ -4141,7 +4141,7 @@
                     "override_idle_ability": "0 <=> AbilityId_Unknown_0"
                 },
                 "obstacle_abilities": {
-                    "small": "2632 <=> AbilityId_Unknown_2632",
+                    "small": "2642 <=> AbilityId_Unknown_2642",
                     "large": "0 <=> AbilityId_Unknown_0",
                     "length": 1.5,
                     "radius": 0.6000000238418579,
@@ -4421,7 +4421,7 @@
                     "override_idle_ability": "0 <=> AbilityId_Unknown_0"
                 },
                 "obstacle_abilities": {
-                    "small": "2632 <=> AbilityId_Unknown_2632",
+                    "small": "2642 <=> AbilityId_Unknown_2642",
                     "large": "0 <=> AbilityId_Unknown_0",
                     "length": 1.5,
                     "radius": 0.6000000238418579,
@@ -5262,7 +5262,7 @@
                 },
                 "obstacle_abilities": {
                     "small": "829 <=> AbilityId_Unknown_829",
-                    "large": "2714 <=> AbilityId_Unknown_2714",
+                    "large": "2730 <=> AbilityId_Unknown_2730",
                     "length": 1.5,
                     "radius": 0.6000000238418579,
                     "use_for_motion_constraints": 0
@@ -7545,22 +7545,22 @@
                 "move_to_goal_when_rotating": 0,
                 "rotate_to_nav_goal": 0,
                 "rotate_to_navigate": 0,
-                "can_return_fire": 0,
+                "can_return_fire": 1,
                 "is_flying": 0,
                 "always_update": 0,
                 "probability_increase_for_taunt": 0.009999999776482582,
                 "taunt_vo_id": 0,
                 "death_hit_marker_audio_event": 0,
                 "attach_to_guard_force": 1,
-                "unk_float_0x02B0": 0.0,
+                "unk_float_0x02B0": 0.20000000298023224,
                 "unk_float_0x02B4": 0.30000001192092896,
                 "unk_float_0x02B8": 1.0,
-                "unk_float_0x02BC": 1.0,
+                "unk_float_0x02BC": 1.5,
                 "unk_bool_0x02C0": 1,
                 "unk_bool_0x02C1": 1,
                 "unk_bool_0x02C2": 0,
                 "unk_bool_0x02C3": 0,
-                "unk_float_0x02C4": 2.0,
+                "unk_float_0x02C4": 0.20000000298023224,
                 "unk_float_0x02C8": 15.0,
                 "unk_uint32_0x02CC": "0 <=> GroupSoundType_Unknown_0",
                 "unk_uint32_0x02D0": 0,
@@ -8570,8 +8570,8 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "1369 <=> AbilityId_Unknown_1369",
-                        "leader_ability": "1369 <=> AbilityId_Unknown_1369"
+                        "ability": "1374 <=> AbilityId_Unknown_1374",
+                        "leader_ability": "1374 <=> AbilityId_Unknown_1374"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -8582,16 +8582,16 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "1371 <=> AbilityId_Unknown_1371",
-                        "leader_ability": "1371 <=> AbilityId_Unknown_1371"
+                        "ability": "1376 <=> AbilityId_Unknown_1376",
+                        "leader_ability": "1376 <=> AbilityId_Unknown_1376"
                     },
                     "investigating_search_stop": {
-                        "ability": "1372 <=> AbilityId_Unknown_1372",
-                        "leader_ability": "1372 <=> AbilityId_Unknown_1372"
+                        "ability": "1377 <=> AbilityId_Unknown_1377",
+                        "leader_ability": "1377 <=> AbilityId_Unknown_1377"
                     },
                     "target_acquired": {
-                        "ability": "1373 <=> AbilityId_Unknown_1373",
-                        "leader_ability": "1373 <=> AbilityId_Unknown_1373"
+                        "ability": "1378 <=> AbilityId_Unknown_1378",
+                        "leader_ability": "1378 <=> AbilityId_Unknown_1378"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -8621,7 +8621,7 @@
                     "override_idle_ability": "0 <=> AbilityId_Unknown_0"
                 },
                 "obstacle_abilities": {
-                    "small": "1352 <=> AbilityId_Unknown_1352",
+                    "small": "1357 <=> AbilityId_Unknown_1357",
                     "large": "0 <=> AbilityId_Unknown_0",
                     "length": 1.0,
                     "radius": 1.0,
@@ -8850,36 +8850,36 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "1396 <=> AbilityId_Unknown_1396",
-                        "leader_ability": "1396 <=> AbilityId_Unknown_1396"
+                        "ability": "1401 <=> AbilityId_Unknown_1401",
+                        "leader_ability": "1401 <=> AbilityId_Unknown_1401"
                     },
                     "suspicious_stop": {
-                        "ability": "1397 <=> AbilityId_Unknown_1397",
-                        "leader_ability": "1397 <=> AbilityId_Unknown_1397"
+                        "ability": "1402 <=> AbilityId_Unknown_1402",
+                        "leader_ability": "1402 <=> AbilityId_Unknown_1402"
                     },
                     "investigating_start": {
-                        "ability": "1394 <=> AbilityId_Unknown_1394",
-                        "leader_ability": "1394 <=> AbilityId_Unknown_1394"
-                    },
-                    "investigating_search_start": {
-                        "ability": "1394 <=> AbilityId_Unknown_1394",
-                        "leader_ability": "1394 <=> AbilityId_Unknown_1394"
-                    },
-                    "investigating_search_stop": {
-                        "ability": "1395 <=> AbilityId_Unknown_1395",
-                        "leader_ability": "1395 <=> AbilityId_Unknown_1395"
-                    },
-                    "target_acquired": {
                         "ability": "1399 <=> AbilityId_Unknown_1399",
                         "leader_ability": "1399 <=> AbilityId_Unknown_1399"
                     },
-                    "target_changed": {
+                    "investigating_search_start": {
+                        "ability": "1399 <=> AbilityId_Unknown_1399",
+                        "leader_ability": "1399 <=> AbilityId_Unknown_1399"
+                    },
+                    "investigating_search_stop": {
                         "ability": "1400 <=> AbilityId_Unknown_1400",
                         "leader_ability": "1400 <=> AbilityId_Unknown_1400"
                     },
+                    "target_acquired": {
+                        "ability": "1404 <=> AbilityId_Unknown_1404",
+                        "leader_ability": "1404 <=> AbilityId_Unknown_1404"
+                    },
+                    "target_changed": {
+                        "ability": "1405 <=> AbilityId_Unknown_1405",
+                        "leader_ability": "1405 <=> AbilityId_Unknown_1405"
+                    },
                     "surprise": {
-                        "ability": "1398 <=> AbilityId_Unknown_1398",
-                        "leader_ability": "1398 <=> AbilityId_Unknown_1398"
+                        "ability": "1403 <=> AbilityId_Unknown_1403",
+                        "leader_ability": "1403 <=> AbilityId_Unknown_1403"
                     }
                 },
                 "flank": {
@@ -8901,7 +8901,7 @@
                     "override_idle_ability": "0 <=> AbilityId_Unknown_0"
                 },
                 "obstacle_abilities": {
-                    "small": "1388 <=> AbilityId_Unknown_1388",
+                    "small": "1393 <=> AbilityId_Unknown_1393",
                     "large": "0 <=> AbilityId_Unknown_0",
                     "length": 3.0,
                     "radius": 1.600000023841858,
@@ -9130,36 +9130,36 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "1427 <=> AbilityId_Unknown_1427",
-                        "leader_ability": "1427 <=> AbilityId_Unknown_1427"
+                        "ability": "1432 <=> AbilityId_Unknown_1432",
+                        "leader_ability": "1432 <=> AbilityId_Unknown_1432"
                     },
                     "suspicious_stop": {
-                        "ability": "1428 <=> AbilityId_Unknown_1428",
-                        "leader_ability": "1428 <=> AbilityId_Unknown_1428"
+                        "ability": "1433 <=> AbilityId_Unknown_1433",
+                        "leader_ability": "1433 <=> AbilityId_Unknown_1433"
                     },
                     "investigating_start": {
-                        "ability": "1424 <=> AbilityId_Unknown_1424",
-                        "leader_ability": "1424 <=> AbilityId_Unknown_1424"
-                    },
-                    "investigating_search_start": {
-                        "ability": "1424 <=> AbilityId_Unknown_1424",
-                        "leader_ability": "1424 <=> AbilityId_Unknown_1424"
-                    },
-                    "investigating_search_stop": {
-                        "ability": "1425 <=> AbilityId_Unknown_1425",
-                        "leader_ability": "1425 <=> AbilityId_Unknown_1425"
-                    },
-                    "target_acquired": {
                         "ability": "1429 <=> AbilityId_Unknown_1429",
                         "leader_ability": "1429 <=> AbilityId_Unknown_1429"
                     },
-                    "target_changed": {
+                    "investigating_search_start": {
+                        "ability": "1429 <=> AbilityId_Unknown_1429",
+                        "leader_ability": "1429 <=> AbilityId_Unknown_1429"
+                    },
+                    "investigating_search_stop": {
                         "ability": "1430 <=> AbilityId_Unknown_1430",
                         "leader_ability": "1430 <=> AbilityId_Unknown_1430"
                     },
+                    "target_acquired": {
+                        "ability": "1434 <=> AbilityId_Unknown_1434",
+                        "leader_ability": "1434 <=> AbilityId_Unknown_1434"
+                    },
+                    "target_changed": {
+                        "ability": "1435 <=> AbilityId_Unknown_1435",
+                        "leader_ability": "1435 <=> AbilityId_Unknown_1435"
+                    },
                     "surprise": {
-                        "ability": "1426 <=> AbilityId_Unknown_1426",
-                        "leader_ability": "1426 <=> AbilityId_Unknown_1426"
+                        "ability": "1431 <=> AbilityId_Unknown_1431",
+                        "leader_ability": "1431 <=> AbilityId_Unknown_1431"
                     }
                 },
                 "flank": {
@@ -9181,8 +9181,8 @@
                     "override_idle_ability": "0 <=> AbilityId_Unknown_0"
                 },
                 "obstacle_abilities": {
-                    "small": "1418 <=> AbilityId_Unknown_1418",
-                    "large": "1419 <=> AbilityId_Unknown_1419",
+                    "small": "1423 <=> AbilityId_Unknown_1423",
+                    "large": "1424 <=> AbilityId_Unknown_1424",
                     "length": 2.5,
                     "radius": 1.0,
                     "use_for_motion_constraints": 0
@@ -9410,8 +9410,8 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "1466 <=> AbilityId_Unknown_1466",
-                        "leader_ability": "1466 <=> AbilityId_Unknown_1466"
+                        "ability": "1471 <=> AbilityId_Unknown_1471",
+                        "leader_ability": "1471 <=> AbilityId_Unknown_1471"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -9422,24 +9422,24 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "1468 <=> AbilityId_Unknown_1468",
-                        "leader_ability": "1468 <=> AbilityId_Unknown_1468"
+                        "ability": "1473 <=> AbilityId_Unknown_1473",
+                        "leader_ability": "1473 <=> AbilityId_Unknown_1473"
                     },
                     "investigating_search_stop": {
-                        "ability": "1469 <=> AbilityId_Unknown_1469",
-                        "leader_ability": "1469 <=> AbilityId_Unknown_1469"
+                        "ability": "1474 <=> AbilityId_Unknown_1474",
+                        "leader_ability": "1474 <=> AbilityId_Unknown_1474"
                     },
                     "target_acquired": {
-                        "ability": "1470 <=> AbilityId_Unknown_1470",
-                        "leader_ability": "1470 <=> AbilityId_Unknown_1470"
+                        "ability": "1475 <=> AbilityId_Unknown_1475",
+                        "leader_ability": "1475 <=> AbilityId_Unknown_1475"
                     },
                     "target_changed": {
-                        "ability": "1470 <=> AbilityId_Unknown_1470",
-                        "leader_ability": "1470 <=> AbilityId_Unknown_1470"
+                        "ability": "1475 <=> AbilityId_Unknown_1475",
+                        "leader_ability": "1475 <=> AbilityId_Unknown_1475"
                     },
                     "surprise": {
-                        "ability": "1471 <=> AbilityId_Unknown_1471",
-                        "leader_ability": "1471 <=> AbilityId_Unknown_1471"
+                        "ability": "1476 <=> AbilityId_Unknown_1476",
+                        "leader_ability": "1476 <=> AbilityId_Unknown_1476"
                     }
                 },
                 "flank": {
@@ -9649,9 +9649,9 @@
                     "turn_rate_interpolation_speed": 3.0,
                     "charge_angle": 55.0,
                     "passed_stop_time": 0.20000000298023224,
-                    "stop_charge_ability": "1561 <=> AbilityId_Unknown_1561",
+                    "stop_charge_ability": "1566 <=> AbilityId_Unknown_1566",
                     "lock_rotation_distance": 10.0,
-                    "lock_rotation_ability": "1566 <=> AbilityId_Unknown_1566"
+                    "lock_rotation_ability": "1571 <=> AbilityId_Unknown_1571"
                 },
                 "follow_curve": {
                     "curve_template": "2 <=> AttackCurveTemplate_ShriekerAttack",
@@ -9690,35 +9690,35 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "1569 <=> AbilityId_Unknown_1569",
-                        "leader_ability": "0 <=> AbilityId_Unknown_0"
-                    },
-                    "suspicious_stop": {
-                        "ability": "1570 <=> AbilityId_Unknown_1570",
-                        "leader_ability": "0 <=> AbilityId_Unknown_0"
-                    },
-                    "investigating_start": {
-                        "ability": "1571 <=> AbilityId_Unknown_1571",
-                        "leader_ability": "0 <=> AbilityId_Unknown_0"
-                    },
-                    "investigating_search_start": {
-                        "ability": "1572 <=> AbilityId_Unknown_1572",
-                        "leader_ability": "0 <=> AbilityId_Unknown_0"
-                    },
-                    "investigating_search_stop": {
-                        "ability": "1573 <=> AbilityId_Unknown_1573",
-                        "leader_ability": "0 <=> AbilityId_Unknown_0"
-                    },
-                    "target_acquired": {
                         "ability": "1574 <=> AbilityId_Unknown_1574",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
-                    "target_changed": {
+                    "suspicious_stop": {
                         "ability": "1575 <=> AbilityId_Unknown_1575",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
-                    "surprise": {
+                    "investigating_start": {
                         "ability": "1576 <=> AbilityId_Unknown_1576",
+                        "leader_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    "investigating_search_start": {
+                        "ability": "1577 <=> AbilityId_Unknown_1577",
+                        "leader_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    "investigating_search_stop": {
+                        "ability": "1578 <=> AbilityId_Unknown_1578",
+                        "leader_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    "target_acquired": {
+                        "ability": "1579 <=> AbilityId_Unknown_1579",
+                        "leader_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    "target_changed": {
+                        "ability": "1580 <=> AbilityId_Unknown_1580",
+                        "leader_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    "surprise": {
+                        "ability": "1581 <=> AbilityId_Unknown_1581",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     }
                 },
@@ -9742,7 +9742,7 @@
                 },
                 "obstacle_abilities": {
                     "small": "0 <=> AbilityId_Unknown_0",
-                    "large": "1557 <=> AbilityId_Unknown_1557",
+                    "large": "1562 <=> AbilityId_Unknown_1562",
                     "length": 4.0,
                     "radius": 2.0,
                     "use_for_motion_constraints": 1
@@ -9970,35 +9970,35 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "1569 <=> AbilityId_Unknown_1569",
-                        "leader_ability": "0 <=> AbilityId_Unknown_0"
-                    },
-                    "suspicious_stop": {
-                        "ability": "1570 <=> AbilityId_Unknown_1570",
-                        "leader_ability": "0 <=> AbilityId_Unknown_0"
-                    },
-                    "investigating_start": {
-                        "ability": "1571 <=> AbilityId_Unknown_1571",
-                        "leader_ability": "0 <=> AbilityId_Unknown_0"
-                    },
-                    "investigating_search_start": {
-                        "ability": "1572 <=> AbilityId_Unknown_1572",
-                        "leader_ability": "0 <=> AbilityId_Unknown_0"
-                    },
-                    "investigating_search_stop": {
-                        "ability": "1573 <=> AbilityId_Unknown_1573",
-                        "leader_ability": "0 <=> AbilityId_Unknown_0"
-                    },
-                    "target_acquired": {
                         "ability": "1574 <=> AbilityId_Unknown_1574",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
-                    "target_changed": {
+                    "suspicious_stop": {
                         "ability": "1575 <=> AbilityId_Unknown_1575",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
-                    "surprise": {
+                    "investigating_start": {
                         "ability": "1576 <=> AbilityId_Unknown_1576",
+                        "leader_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    "investigating_search_start": {
+                        "ability": "1577 <=> AbilityId_Unknown_1577",
+                        "leader_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    "investigating_search_stop": {
+                        "ability": "1578 <=> AbilityId_Unknown_1578",
+                        "leader_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    "target_acquired": {
+                        "ability": "1579 <=> AbilityId_Unknown_1579",
+                        "leader_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    "target_changed": {
+                        "ability": "1580 <=> AbilityId_Unknown_1580",
+                        "leader_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    "surprise": {
+                        "ability": "1581 <=> AbilityId_Unknown_1581",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     }
                 },
@@ -10022,7 +10022,7 @@
                 },
                 "obstacle_abilities": {
                     "small": "0 <=> AbilityId_Unknown_0",
-                    "large": "1588 <=> AbilityId_Unknown_1588",
+                    "large": "1593 <=> AbilityId_Unknown_1593",
                     "length": 4.0,
                     "radius": 2.0,
                     "use_for_motion_constraints": 1
@@ -10250,8 +10250,8 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "1671 <=> AbilityId_Unknown_1671",
-                        "leader_ability": "1671 <=> AbilityId_Unknown_1671"
+                        "ability": "1676 <=> AbilityId_Unknown_1676",
+                        "leader_ability": "1676 <=> AbilityId_Unknown_1676"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -10262,16 +10262,16 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "1672 <=> AbilityId_Unknown_1672",
-                        "leader_ability": "1672 <=> AbilityId_Unknown_1672"
+                        "ability": "1677 <=> AbilityId_Unknown_1677",
+                        "leader_ability": "1677 <=> AbilityId_Unknown_1677"
                     },
                     "investigating_search_stop": {
-                        "ability": "1673 <=> AbilityId_Unknown_1673",
-                        "leader_ability": "1673 <=> AbilityId_Unknown_1673"
+                        "ability": "1678 <=> AbilityId_Unknown_1678",
+                        "leader_ability": "1678 <=> AbilityId_Unknown_1678"
                     },
                     "target_acquired": {
-                        "ability": "1674 <=> AbilityId_Unknown_1674",
-                        "leader_ability": "1674 <=> AbilityId_Unknown_1674"
+                        "ability": "1679 <=> AbilityId_Unknown_1679",
+                        "leader_ability": "1679 <=> AbilityId_Unknown_1679"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -10301,7 +10301,7 @@
                     "override_idle_ability": "0 <=> AbilityId_Unknown_0"
                 },
                 "obstacle_abilities": {
-                    "small": "1635 <=> AbilityId_Unknown_1635",
+                    "small": "1640 <=> AbilityId_Unknown_1640",
                     "large": "0 <=> AbilityId_Unknown_0",
                     "length": 3.0,
                     "radius": 0.699999988079071,
@@ -10530,36 +10530,36 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "1746 <=> AbilityId_Unknown_1746",
-                        "leader_ability": "1746 <=> AbilityId_Unknown_1746"
+                        "ability": "1751 <=> AbilityId_Unknown_1751",
+                        "leader_ability": "1751 <=> AbilityId_Unknown_1751"
                     },
                     "suspicious_stop": {
-                        "ability": "1747 <=> AbilityId_Unknown_1747",
-                        "leader_ability": "1747 <=> AbilityId_Unknown_1747"
+                        "ability": "1752 <=> AbilityId_Unknown_1752",
+                        "leader_ability": "1752 <=> AbilityId_Unknown_1752"
                     },
                     "investigating_start": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "1748 <=> AbilityId_Unknown_1748",
-                        "leader_ability": "1748 <=> AbilityId_Unknown_1748"
+                        "ability": "1753 <=> AbilityId_Unknown_1753",
+                        "leader_ability": "1753 <=> AbilityId_Unknown_1753"
                     },
                     "investigating_search_stop": {
-                        "ability": "1749 <=> AbilityId_Unknown_1749",
-                        "leader_ability": "1749 <=> AbilityId_Unknown_1749"
+                        "ability": "1754 <=> AbilityId_Unknown_1754",
+                        "leader_ability": "1754 <=> AbilityId_Unknown_1754"
                     },
                     "target_acquired": {
-                        "ability": "1750 <=> AbilityId_Unknown_1750",
-                        "leader_ability": "1750 <=> AbilityId_Unknown_1750"
+                        "ability": "1755 <=> AbilityId_Unknown_1755",
+                        "leader_ability": "1755 <=> AbilityId_Unknown_1755"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "surprise": {
-                        "ability": "1745 <=> AbilityId_Unknown_1745",
-                        "leader_ability": "1745 <=> AbilityId_Unknown_1745"
+                        "ability": "1750 <=> AbilityId_Unknown_1750",
+                        "leader_ability": "1750 <=> AbilityId_Unknown_1750"
                     }
                 },
                 "flank": {
@@ -10769,9 +10769,9 @@
                     "turn_rate_interpolation_speed": 1.0,
                     "charge_angle": 65.0,
                     "passed_stop_time": 2.0,
-                    "stop_charge_ability": "1772 <=> AbilityId_Unknown_1772",
+                    "stop_charge_ability": "1777 <=> AbilityId_Unknown_1777",
                     "lock_rotation_distance": 4.25,
-                    "lock_rotation_ability": "1778 <=> AbilityId_Unknown_1778"
+                    "lock_rotation_ability": "1783 <=> AbilityId_Unknown_1783"
                 },
                 "follow_curve": {
                     "curve_template": "2 <=> AttackCurveTemplate_ShriekerAttack",
@@ -10810,8 +10810,8 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "1779 <=> AbilityId_Unknown_1779",
-                        "leader_ability": "1779 <=> AbilityId_Unknown_1779"
+                        "ability": "1784 <=> AbilityId_Unknown_1784",
+                        "leader_ability": "1784 <=> AbilityId_Unknown_1784"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -10822,24 +10822,24 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "1781 <=> AbilityId_Unknown_1781",
-                        "leader_ability": "1781 <=> AbilityId_Unknown_1781"
+                        "ability": "1786 <=> AbilityId_Unknown_1786",
+                        "leader_ability": "1786 <=> AbilityId_Unknown_1786"
                     },
                     "investigating_search_stop": {
-                        "ability": "1782 <=> AbilityId_Unknown_1782",
-                        "leader_ability": "1782 <=> AbilityId_Unknown_1782"
+                        "ability": "1787 <=> AbilityId_Unknown_1787",
+                        "leader_ability": "1787 <=> AbilityId_Unknown_1787"
                     },
                     "target_acquired": {
-                        "ability": "1783 <=> AbilityId_Unknown_1783",
-                        "leader_ability": "1783 <=> AbilityId_Unknown_1783"
+                        "ability": "1788 <=> AbilityId_Unknown_1788",
+                        "leader_ability": "1788 <=> AbilityId_Unknown_1788"
                     },
                     "target_changed": {
-                        "ability": "1783 <=> AbilityId_Unknown_1783",
-                        "leader_ability": "1783 <=> AbilityId_Unknown_1783"
+                        "ability": "1788 <=> AbilityId_Unknown_1788",
+                        "leader_ability": "1788 <=> AbilityId_Unknown_1788"
                     },
                     "surprise": {
-                        "ability": "1784 <=> AbilityId_Unknown_1784",
-                        "leader_ability": "1784 <=> AbilityId_Unknown_1784"
+                        "ability": "1789 <=> AbilityId_Unknown_1789",
+                        "leader_ability": "1789 <=> AbilityId_Unknown_1789"
                     }
                 },
                 "flank": {
@@ -10861,7 +10861,7 @@
                     "override_idle_ability": "0 <=> AbilityId_Unknown_0"
                 },
                 "obstacle_abilities": {
-                    "small": "1761 <=> AbilityId_Unknown_1761",
+                    "small": "1766 <=> AbilityId_Unknown_1766",
                     "large": "0 <=> AbilityId_Unknown_0",
                     "length": 3.0,
                     "radius": 2.200000047683716,
@@ -10905,7 +10905,7 @@
                 "move_to_goal_when_rotating": 0,
                 "rotate_to_nav_goal": 0,
                 "rotate_to_navigate": 0,
-                "can_return_fire": 0,
+                "can_return_fire": 1,
                 "is_flying": 0,
                 "always_update": 0,
                 "probability_increase_for_taunt": 0.009999999776482582,
@@ -10920,7 +10920,7 @@
                 "unk_bool_0x02C1": 0,
                 "unk_bool_0x02C2": 0,
                 "unk_bool_0x02C3": 0,
-                "unk_float_0x02C4": 1.2000000476837158,
+                "unk_float_0x02C4": 0.699999988079071,
                 "unk_float_0x02C8": 15.0,
                 "unk_uint32_0x02CC": "1 <=> GroupSoundType_Unknown_1",
                 "unk_uint32_0x02D0": 0,
@@ -11090,36 +11090,36 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "1807 <=> AbilityId_Unknown_1807",
-                        "leader_ability": "1807 <=> AbilityId_Unknown_1807"
+                        "ability": "1812 <=> AbilityId_Unknown_1812",
+                        "leader_ability": "1812 <=> AbilityId_Unknown_1812"
                     },
                     "suspicious_stop": {
-                        "ability": "1808 <=> AbilityId_Unknown_1808",
-                        "leader_ability": "1808 <=> AbilityId_Unknown_1808"
+                        "ability": "1813 <=> AbilityId_Unknown_1813",
+                        "leader_ability": "1813 <=> AbilityId_Unknown_1813"
                     },
                     "investigating_start": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "1809 <=> AbilityId_Unknown_1809",
-                        "leader_ability": "1809 <=> AbilityId_Unknown_1809"
+                        "ability": "1814 <=> AbilityId_Unknown_1814",
+                        "leader_ability": "1814 <=> AbilityId_Unknown_1814"
                     },
                     "investigating_search_stop": {
-                        "ability": "1810 <=> AbilityId_Unknown_1810",
-                        "leader_ability": "1810 <=> AbilityId_Unknown_1810"
+                        "ability": "1815 <=> AbilityId_Unknown_1815",
+                        "leader_ability": "1815 <=> AbilityId_Unknown_1815"
                     },
                     "target_acquired": {
-                        "ability": "1811 <=> AbilityId_Unknown_1811",
-                        "leader_ability": "1811 <=> AbilityId_Unknown_1811"
+                        "ability": "1816 <=> AbilityId_Unknown_1816",
+                        "leader_ability": "1816 <=> AbilityId_Unknown_1816"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "surprise": {
-                        "ability": "1812 <=> AbilityId_Unknown_1812",
-                        "leader_ability": "1812 <=> AbilityId_Unknown_1812"
+                        "ability": "1817 <=> AbilityId_Unknown_1817",
+                        "leader_ability": "1817 <=> AbilityId_Unknown_1817"
                     }
                 },
                 "flank": {
@@ -11370,36 +11370,36 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "1807 <=> AbilityId_Unknown_1807",
-                        "leader_ability": "1807 <=> AbilityId_Unknown_1807"
+                        "ability": "1812 <=> AbilityId_Unknown_1812",
+                        "leader_ability": "1812 <=> AbilityId_Unknown_1812"
                     },
                     "suspicious_stop": {
-                        "ability": "1808 <=> AbilityId_Unknown_1808",
-                        "leader_ability": "1808 <=> AbilityId_Unknown_1808"
+                        "ability": "1813 <=> AbilityId_Unknown_1813",
+                        "leader_ability": "1813 <=> AbilityId_Unknown_1813"
                     },
                     "investigating_start": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "1809 <=> AbilityId_Unknown_1809",
-                        "leader_ability": "1809 <=> AbilityId_Unknown_1809"
+                        "ability": "1814 <=> AbilityId_Unknown_1814",
+                        "leader_ability": "1814 <=> AbilityId_Unknown_1814"
                     },
                     "investigating_search_stop": {
-                        "ability": "1810 <=> AbilityId_Unknown_1810",
-                        "leader_ability": "1810 <=> AbilityId_Unknown_1810"
+                        "ability": "1815 <=> AbilityId_Unknown_1815",
+                        "leader_ability": "1815 <=> AbilityId_Unknown_1815"
                     },
                     "target_acquired": {
-                        "ability": "1811 <=> AbilityId_Unknown_1811",
-                        "leader_ability": "1811 <=> AbilityId_Unknown_1811"
+                        "ability": "1816 <=> AbilityId_Unknown_1816",
+                        "leader_ability": "1816 <=> AbilityId_Unknown_1816"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "surprise": {
-                        "ability": "1812 <=> AbilityId_Unknown_1812",
-                        "leader_ability": "1812 <=> AbilityId_Unknown_1812"
+                        "ability": "1817 <=> AbilityId_Unknown_1817",
+                        "leader_ability": "1817 <=> AbilityId_Unknown_1817"
                     }
                 },
                 "flank": {
@@ -11650,8 +11650,8 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "1962 <=> AbilityId_Unknown_1962",
-                        "leader_ability": "1962 <=> AbilityId_Unknown_1962"
+                        "ability": "1967 <=> AbilityId_Unknown_1967",
+                        "leader_ability": "1967 <=> AbilityId_Unknown_1967"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -11670,8 +11670,8 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "target_acquired": {
-                        "ability": "1963 <=> AbilityId_Unknown_1963",
-                        "leader_ability": "1963 <=> AbilityId_Unknown_1963"
+                        "ability": "1968 <=> AbilityId_Unknown_1968",
+                        "leader_ability": "1968 <=> AbilityId_Unknown_1968"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -12484,14 +12484,14 @@
                     "unk_uint32_r0x0008": 0,
                     "unk_uint32_r0x000C": 0
                 },
-                "landing_ability": "2353 <=> AbilityId_Unknown_2353",
-                "migrate_ability": "2341 <=> AbilityId_Unknown_2341",
+                "landing_ability": "2359 <=> AbilityId_Unknown_2359",
+                "migrate_ability": "2347 <=> AbilityId_Unknown_2347",
                 "despawn_ability": "1169 <=> AbilityId_Unknown_1169",
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "2348 <=> AbilityId_Unknown_2348",
-                        "leader_ability": "2348 <=> AbilityId_Unknown_2348"
+                        "ability": "2354 <=> AbilityId_Unknown_2354",
+                        "leader_ability": "2354 <=> AbilityId_Unknown_2354"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -12502,23 +12502,23 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "2350 <=> AbilityId_Unknown_2350",
-                        "leader_ability": "2350 <=> AbilityId_Unknown_2350"
+                        "ability": "2356 <=> AbilityId_Unknown_2356",
+                        "leader_ability": "2356 <=> AbilityId_Unknown_2356"
                     },
                     "investigating_search_stop": {
-                        "ability": "2351 <=> AbilityId_Unknown_2351",
-                        "leader_ability": "2351 <=> AbilityId_Unknown_2351"
+                        "ability": "2357 <=> AbilityId_Unknown_2357",
+                        "leader_ability": "2357 <=> AbilityId_Unknown_2357"
                     },
                     "target_acquired": {
-                        "ability": "2349 <=> AbilityId_Unknown_2349",
-                        "leader_ability": "2349 <=> AbilityId_Unknown_2349"
+                        "ability": "2355 <=> AbilityId_Unknown_2355",
+                        "leader_ability": "2355 <=> AbilityId_Unknown_2355"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "surprise": {
-                        "ability": "2352 <=> AbilityId_Unknown_2352",
+                        "ability": "2358 <=> AbilityId_Unknown_2358",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     }
                 },
@@ -13050,8 +13050,8 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "2348 <=> AbilityId_Unknown_2348",
-                        "leader_ability": "2348 <=> AbilityId_Unknown_2348"
+                        "ability": "2354 <=> AbilityId_Unknown_2354",
+                        "leader_ability": "2354 <=> AbilityId_Unknown_2354"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -13062,23 +13062,23 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "2350 <=> AbilityId_Unknown_2350",
-                        "leader_ability": "2350 <=> AbilityId_Unknown_2350"
+                        "ability": "2356 <=> AbilityId_Unknown_2356",
+                        "leader_ability": "2356 <=> AbilityId_Unknown_2356"
                     },
                     "investigating_search_stop": {
-                        "ability": "2351 <=> AbilityId_Unknown_2351",
-                        "leader_ability": "2351 <=> AbilityId_Unknown_2351"
+                        "ability": "2357 <=> AbilityId_Unknown_2357",
+                        "leader_ability": "2357 <=> AbilityId_Unknown_2357"
                     },
                     "target_acquired": {
-                        "ability": "2349 <=> AbilityId_Unknown_2349",
-                        "leader_ability": "2349 <=> AbilityId_Unknown_2349"
+                        "ability": "2355 <=> AbilityId_Unknown_2355",
+                        "leader_ability": "2355 <=> AbilityId_Unknown_2355"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "surprise": {
-                        "ability": "2352 <=> AbilityId_Unknown_2352",
+                        "ability": "2358 <=> AbilityId_Unknown_2358",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     }
                 },
@@ -13330,8 +13330,8 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "2348 <=> AbilityId_Unknown_2348",
-                        "leader_ability": "2348 <=> AbilityId_Unknown_2348"
+                        "ability": "2354 <=> AbilityId_Unknown_2354",
+                        "leader_ability": "2354 <=> AbilityId_Unknown_2354"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -13342,23 +13342,23 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "2350 <=> AbilityId_Unknown_2350",
-                        "leader_ability": "2350 <=> AbilityId_Unknown_2350"
+                        "ability": "2356 <=> AbilityId_Unknown_2356",
+                        "leader_ability": "2356 <=> AbilityId_Unknown_2356"
                     },
                     "investigating_search_stop": {
-                        "ability": "2351 <=> AbilityId_Unknown_2351",
-                        "leader_ability": "2351 <=> AbilityId_Unknown_2351"
+                        "ability": "2357 <=> AbilityId_Unknown_2357",
+                        "leader_ability": "2357 <=> AbilityId_Unknown_2357"
                     },
                     "target_acquired": {
-                        "ability": "2349 <=> AbilityId_Unknown_2349",
-                        "leader_ability": "2349 <=> AbilityId_Unknown_2349"
+                        "ability": "2355 <=> AbilityId_Unknown_2355",
+                        "leader_ability": "2355 <=> AbilityId_Unknown_2355"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "surprise": {
-                        "ability": "2352 <=> AbilityId_Unknown_2352",
+                        "ability": "2358 <=> AbilityId_Unknown_2358",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     }
                 },
@@ -13610,7 +13610,7 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "2040 <=> AbilityId_Unknown_2040",
+                        "ability": "2046 <=> AbilityId_Unknown_2046",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "suspicious_stop": {
@@ -13630,7 +13630,7 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "target_acquired": {
-                        "ability": "2041 <=> AbilityId_Unknown_2041",
+                        "ability": "2047 <=> AbilityId_Unknown_2047",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "target_changed": {
@@ -13981,7 +13981,7 @@
                 "combat_value": 5.0,
                 "spot_time_close": 0.30000001192092896,
                 "spot_time_far": 3.0,
-                "voiceover_speaker_id": 0,
+                "voiceover_speaker_id": 2705606598,
                 "move_to_goal_when_rotating": 0,
                 "rotate_to_nav_goal": 0,
                 "rotate_to_navigate": 0,
@@ -14261,7 +14261,7 @@
                 "combat_value": 5.0,
                 "spot_time_close": 0.30000001192092896,
                 "spot_time_far": 3.0,
-                "voiceover_speaker_id": 0,
+                "voiceover_speaker_id": 2705606598,
                 "move_to_goal_when_rotating": 0,
                 "rotate_to_nav_goal": 0,
                 "rotate_to_navigate": 0,
@@ -14541,7 +14541,7 @@
                 "combat_value": 5.0,
                 "spot_time_close": 0.30000001192092896,
                 "spot_time_far": 3.0,
-                "voiceover_speaker_id": 0,
+                "voiceover_speaker_id": 2705606598,
                 "move_to_goal_when_rotating": 0,
                 "rotate_to_nav_goal": 0,
                 "rotate_to_navigate": 0,
@@ -14821,7 +14821,7 @@
                 "combat_value": 5.0,
                 "spot_time_close": 0.30000001192092896,
                 "spot_time_far": 3.0,
-                "voiceover_speaker_id": 0,
+                "voiceover_speaker_id": 2705606598,
                 "move_to_goal_when_rotating": 0,
                 "rotate_to_nav_goal": 0,
                 "rotate_to_navigate": 0,
@@ -17061,7 +17061,7 @@
                 "combat_value": 1.0,
                 "spot_time_close": 0.30000001192092896,
                 "spot_time_far": 3.0,
-                "voiceover_speaker_id": 0,
+                "voiceover_speaker_id": 3041355449,
                 "move_to_goal_when_rotating": 0,
                 "rotate_to_nav_goal": 0,
                 "rotate_to_navigate": 0,
@@ -17341,7 +17341,7 @@
                 "combat_value": 1.0,
                 "spot_time_close": 0.30000001192092896,
                 "spot_time_far": 3.0,
-                "voiceover_speaker_id": 0,
+                "voiceover_speaker_id": 3041355449,
                 "move_to_goal_when_rotating": 0,
                 "rotate_to_nav_goal": 0,
                 "rotate_to_navigate": 0,
@@ -17621,7 +17621,7 @@
                 "combat_value": 1.0,
                 "spot_time_close": 0.30000001192092896,
                 "spot_time_far": 3.0,
-                "voiceover_speaker_id": 0,
+                "voiceover_speaker_id": 3041355449,
                 "move_to_goal_when_rotating": 0,
                 "rotate_to_nav_goal": 0,
                 "rotate_to_navigate": 0,
@@ -17901,7 +17901,7 @@
                 "combat_value": 1.0,
                 "spot_time_close": 0.30000001192092896,
                 "spot_time_far": 3.0,
-                "voiceover_speaker_id": 0,
+                "voiceover_speaker_id": 3041355449,
                 "move_to_goal_when_rotating": 0,
                 "rotate_to_nav_goal": 0,
                 "rotate_to_navigate": 0,
@@ -18181,7 +18181,7 @@
                 "combat_value": 1.0,
                 "spot_time_close": 0.30000001192092896,
                 "spot_time_far": 3.0,
-                "voiceover_speaker_id": 0,
+                "voiceover_speaker_id": 3041355449,
                 "move_to_goal_when_rotating": 0,
                 "rotate_to_nav_goal": 0,
                 "rotate_to_navigate": 0,
@@ -21501,7 +21501,7 @@
                     "override_idle_ability": "0 <=> AbilityId_Unknown_0"
                 },
                 "obstacle_abilities": {
-                    "small": "2632 <=> AbilityId_Unknown_2632",
+                    "small": "2642 <=> AbilityId_Unknown_2642",
                     "large": "0 <=> AbilityId_Unknown_0",
                     "length": 1.5,
                     "radius": 0.6000000238418579,
@@ -21781,7 +21781,7 @@
                     "override_idle_ability": "0 <=> AbilityId_Unknown_0"
                 },
                 "obstacle_abilities": {
-                    "small": "2632 <=> AbilityId_Unknown_2632",
+                    "small": "2642 <=> AbilityId_Unknown_2642",
                     "large": "0 <=> AbilityId_Unknown_0",
                     "length": 1.5,
                     "radius": 0.6000000238418579,
@@ -28782,7 +28782,7 @@
                 },
                 "obstacle_abilities": {
                     "small": "829 <=> AbilityId_Unknown_829",
-                    "large": "2714 <=> AbilityId_Unknown_2714",
+                    "large": "2730 <=> AbilityId_Unknown_2730",
                     "length": 1.5,
                     "radius": 0.6000000238418579,
                     "use_for_motion_constraints": 0
@@ -29062,7 +29062,7 @@
                 },
                 "obstacle_abilities": {
                     "small": "829 <=> AbilityId_Unknown_829",
-                    "large": "2714 <=> AbilityId_Unknown_2714",
+                    "large": "2730 <=> AbilityId_Unknown_2730",
                     "length": 1.5,
                     "radius": 0.6000000238418579,
                     "use_for_motion_constraints": 0
@@ -29342,7 +29342,7 @@
                 },
                 "obstacle_abilities": {
                     "small": "829 <=> AbilityId_Unknown_829",
-                    "large": "2714 <=> AbilityId_Unknown_2714",
+                    "large": "2730 <=> AbilityId_Unknown_2730",
                     "length": 1.5,
                     "radius": 0.6000000238418579,
                     "use_for_motion_constraints": 0
@@ -29622,7 +29622,7 @@
                 },
                 "obstacle_abilities": {
                     "small": "829 <=> AbilityId_Unknown_829",
-                    "large": "2714 <=> AbilityId_Unknown_2714",
+                    "large": "2730 <=> AbilityId_Unknown_2730",
                     "length": 1.5,
                     "radius": 0.6000000238418579,
                     "use_for_motion_constraints": 0
@@ -29902,7 +29902,7 @@
                 },
                 "obstacle_abilities": {
                     "small": "829 <=> AbilityId_Unknown_829",
-                    "large": "2714 <=> AbilityId_Unknown_2714",
+                    "large": "2730 <=> AbilityId_Unknown_2730",
                     "length": 1.5,
                     "radius": 0.6000000238418579,
                     "use_for_motion_constraints": 0
@@ -30182,7 +30182,7 @@
                 },
                 "obstacle_abilities": {
                     "small": "829 <=> AbilityId_Unknown_829",
-                    "large": "2714 <=> AbilityId_Unknown_2714",
+                    "large": "2730 <=> AbilityId_Unknown_2730",
                     "length": 1.5,
                     "radius": 0.6000000238418579,
                     "use_for_motion_constraints": 0
@@ -30462,7 +30462,7 @@
                 },
                 "obstacle_abilities": {
                     "small": "829 <=> AbilityId_Unknown_829",
-                    "large": "2714 <=> AbilityId_Unknown_2714",
+                    "large": "2730 <=> AbilityId_Unknown_2730",
                     "length": 1.5,
                     "radius": 0.6000000238418579,
                     "use_for_motion_constraints": 0
@@ -36290,8 +36290,8 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "1466 <=> AbilityId_Unknown_1466",
-                        "leader_ability": "1466 <=> AbilityId_Unknown_1466"
+                        "ability": "1471 <=> AbilityId_Unknown_1471",
+                        "leader_ability": "1471 <=> AbilityId_Unknown_1471"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -36302,24 +36302,24 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "1468 <=> AbilityId_Unknown_1468",
-                        "leader_ability": "1468 <=> AbilityId_Unknown_1468"
+                        "ability": "1473 <=> AbilityId_Unknown_1473",
+                        "leader_ability": "1473 <=> AbilityId_Unknown_1473"
                     },
                     "investigating_search_stop": {
-                        "ability": "1469 <=> AbilityId_Unknown_1469",
-                        "leader_ability": "1469 <=> AbilityId_Unknown_1469"
+                        "ability": "1474 <=> AbilityId_Unknown_1474",
+                        "leader_ability": "1474 <=> AbilityId_Unknown_1474"
                     },
                     "target_acquired": {
-                        "ability": "1470 <=> AbilityId_Unknown_1470",
-                        "leader_ability": "1470 <=> AbilityId_Unknown_1470"
+                        "ability": "1475 <=> AbilityId_Unknown_1475",
+                        "leader_ability": "1475 <=> AbilityId_Unknown_1475"
                     },
                     "target_changed": {
-                        "ability": "1470 <=> AbilityId_Unknown_1470",
-                        "leader_ability": "1470 <=> AbilityId_Unknown_1470"
+                        "ability": "1475 <=> AbilityId_Unknown_1475",
+                        "leader_ability": "1475 <=> AbilityId_Unknown_1475"
                     },
                     "surprise": {
-                        "ability": "1471 <=> AbilityId_Unknown_1471",
-                        "leader_ability": "1471 <=> AbilityId_Unknown_1471"
+                        "ability": "1476 <=> AbilityId_Unknown_1476",
+                        "leader_ability": "1476 <=> AbilityId_Unknown_1476"
                     }
                 },
                 "flank": {
@@ -36570,8 +36570,8 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "1466 <=> AbilityId_Unknown_1466",
-                        "leader_ability": "1466 <=> AbilityId_Unknown_1466"
+                        "ability": "1471 <=> AbilityId_Unknown_1471",
+                        "leader_ability": "1471 <=> AbilityId_Unknown_1471"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -36582,24 +36582,24 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "1468 <=> AbilityId_Unknown_1468",
-                        "leader_ability": "1468 <=> AbilityId_Unknown_1468"
+                        "ability": "1473 <=> AbilityId_Unknown_1473",
+                        "leader_ability": "1473 <=> AbilityId_Unknown_1473"
                     },
                     "investigating_search_stop": {
-                        "ability": "1469 <=> AbilityId_Unknown_1469",
-                        "leader_ability": "1469 <=> AbilityId_Unknown_1469"
+                        "ability": "1474 <=> AbilityId_Unknown_1474",
+                        "leader_ability": "1474 <=> AbilityId_Unknown_1474"
                     },
                     "target_acquired": {
-                        "ability": "1470 <=> AbilityId_Unknown_1470",
-                        "leader_ability": "1470 <=> AbilityId_Unknown_1470"
+                        "ability": "1475 <=> AbilityId_Unknown_1475",
+                        "leader_ability": "1475 <=> AbilityId_Unknown_1475"
                     },
                     "target_changed": {
-                        "ability": "1470 <=> AbilityId_Unknown_1470",
-                        "leader_ability": "1470 <=> AbilityId_Unknown_1470"
+                        "ability": "1475 <=> AbilityId_Unknown_1475",
+                        "leader_ability": "1475 <=> AbilityId_Unknown_1475"
                     },
                     "surprise": {
-                        "ability": "1471 <=> AbilityId_Unknown_1471",
-                        "leader_ability": "1471 <=> AbilityId_Unknown_1471"
+                        "ability": "1476 <=> AbilityId_Unknown_1476",
+                        "leader_ability": "1476 <=> AbilityId_Unknown_1476"
                     }
                 },
                 "flank": {
@@ -36850,36 +36850,36 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "1655 <=> AbilityId_Unknown_1655",
-                        "leader_ability": "1656 <=> AbilityId_Unknown_1656"
+                        "ability": "1660 <=> AbilityId_Unknown_1660",
+                        "leader_ability": "1661 <=> AbilityId_Unknown_1661"
                     },
                     "suspicious_stop": {
-                        "ability": "1655 <=> AbilityId_Unknown_1655",
-                        "leader_ability": "1656 <=> AbilityId_Unknown_1656"
+                        "ability": "1660 <=> AbilityId_Unknown_1660",
+                        "leader_ability": "1661 <=> AbilityId_Unknown_1661"
                     },
                     "investigating_start": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "1655 <=> AbilityId_Unknown_1655",
-                        "leader_ability": "1656 <=> AbilityId_Unknown_1656"
+                        "ability": "1660 <=> AbilityId_Unknown_1660",
+                        "leader_ability": "1661 <=> AbilityId_Unknown_1661"
                     },
                     "investigating_search_stop": {
-                        "ability": "1655 <=> AbilityId_Unknown_1655",
-                        "leader_ability": "1656 <=> AbilityId_Unknown_1656"
+                        "ability": "1660 <=> AbilityId_Unknown_1660",
+                        "leader_ability": "1661 <=> AbilityId_Unknown_1661"
                     },
                     "target_acquired": {
-                        "ability": "1655 <=> AbilityId_Unknown_1655",
-                        "leader_ability": "1656 <=> AbilityId_Unknown_1656"
+                        "ability": "1660 <=> AbilityId_Unknown_1660",
+                        "leader_ability": "1661 <=> AbilityId_Unknown_1661"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "surprise": {
-                        "ability": "1655 <=> AbilityId_Unknown_1655",
-                        "leader_ability": "1656 <=> AbilityId_Unknown_1656"
+                        "ability": "1660 <=> AbilityId_Unknown_1660",
+                        "leader_ability": "1661 <=> AbilityId_Unknown_1661"
                     }
                 },
                 "flank": {
@@ -36901,7 +36901,7 @@
                     "override_idle_ability": "0 <=> AbilityId_Unknown_0"
                 },
                 "obstacle_abilities": {
-                    "small": "1635 <=> AbilityId_Unknown_1635",
+                    "small": "1640 <=> AbilityId_Unknown_1640",
                     "large": "0 <=> AbilityId_Unknown_0",
                     "length": 3.0,
                     "radius": 0.699999988079071,
@@ -37130,8 +37130,8 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "1671 <=> AbilityId_Unknown_1671",
-                        "leader_ability": "1671 <=> AbilityId_Unknown_1671"
+                        "ability": "1676 <=> AbilityId_Unknown_1676",
+                        "leader_ability": "1676 <=> AbilityId_Unknown_1676"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -37142,16 +37142,16 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "1672 <=> AbilityId_Unknown_1672",
-                        "leader_ability": "1672 <=> AbilityId_Unknown_1672"
+                        "ability": "1677 <=> AbilityId_Unknown_1677",
+                        "leader_ability": "1677 <=> AbilityId_Unknown_1677"
                     },
                     "investigating_search_stop": {
-                        "ability": "1673 <=> AbilityId_Unknown_1673",
-                        "leader_ability": "1673 <=> AbilityId_Unknown_1673"
+                        "ability": "1678 <=> AbilityId_Unknown_1678",
+                        "leader_ability": "1678 <=> AbilityId_Unknown_1678"
                     },
                     "target_acquired": {
-                        "ability": "1674 <=> AbilityId_Unknown_1674",
-                        "leader_ability": "1674 <=> AbilityId_Unknown_1674"
+                        "ability": "1679 <=> AbilityId_Unknown_1679",
+                        "leader_ability": "1679 <=> AbilityId_Unknown_1679"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -37181,7 +37181,7 @@
                     "override_idle_ability": "0 <=> AbilityId_Unknown_0"
                 },
                 "obstacle_abilities": {
-                    "small": "1635 <=> AbilityId_Unknown_1635",
+                    "small": "1640 <=> AbilityId_Unknown_1640",
                     "large": "0 <=> AbilityId_Unknown_0",
                     "length": 3.0,
                     "radius": 0.699999988079071,
@@ -37410,8 +37410,8 @@
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "1962 <=> AbilityId_Unknown_1962",
-                        "leader_ability": "1962 <=> AbilityId_Unknown_1962"
+                        "ability": "1967 <=> AbilityId_Unknown_1967",
+                        "leader_ability": "1967 <=> AbilityId_Unknown_1967"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -37430,8 +37430,8 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "target_acquired": {
-                        "ability": "1963 <=> AbilityId_Unknown_1963",
-                        "leader_ability": "1963 <=> AbilityId_Unknown_1963"
+                        "ability": "1968 <=> AbilityId_Unknown_1968",
+                        "leader_ability": "1968 <=> AbilityId_Unknown_1968"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -37684,14 +37684,14 @@
                     "unk_uint32_r0x0008": 0,
                     "unk_uint32_r0x000C": 0
                 },
-                "landing_ability": "2353 <=> AbilityId_Unknown_2353",
-                "migrate_ability": "2341 <=> AbilityId_Unknown_2341",
+                "landing_ability": "2359 <=> AbilityId_Unknown_2359",
+                "migrate_ability": "2347 <=> AbilityId_Unknown_2347",
                 "despawn_ability": "1169 <=> AbilityId_Unknown_1169",
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "2348 <=> AbilityId_Unknown_2348",
-                        "leader_ability": "2348 <=> AbilityId_Unknown_2348"
+                        "ability": "2354 <=> AbilityId_Unknown_2354",
+                        "leader_ability": "2354 <=> AbilityId_Unknown_2354"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -37702,23 +37702,23 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "2350 <=> AbilityId_Unknown_2350",
-                        "leader_ability": "2350 <=> AbilityId_Unknown_2350"
+                        "ability": "2356 <=> AbilityId_Unknown_2356",
+                        "leader_ability": "2356 <=> AbilityId_Unknown_2356"
                     },
                     "investigating_search_stop": {
-                        "ability": "2351 <=> AbilityId_Unknown_2351",
-                        "leader_ability": "2351 <=> AbilityId_Unknown_2351"
+                        "ability": "2357 <=> AbilityId_Unknown_2357",
+                        "leader_ability": "2357 <=> AbilityId_Unknown_2357"
                     },
                     "target_acquired": {
-                        "ability": "2349 <=> AbilityId_Unknown_2349",
-                        "leader_ability": "2349 <=> AbilityId_Unknown_2349"
+                        "ability": "2355 <=> AbilityId_Unknown_2355",
+                        "leader_ability": "2355 <=> AbilityId_Unknown_2355"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "surprise": {
-                        "ability": "2352 <=> AbilityId_Unknown_2352",
+                        "ability": "2358 <=> AbilityId_Unknown_2358",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     }
                 },
@@ -37964,14 +37964,14 @@
                     "unk_uint32_r0x0008": 0,
                     "unk_uint32_r0x000C": 0
                 },
-                "landing_ability": "2353 <=> AbilityId_Unknown_2353",
-                "migrate_ability": "2341 <=> AbilityId_Unknown_2341",
+                "landing_ability": "2359 <=> AbilityId_Unknown_2359",
+                "migrate_ability": "2347 <=> AbilityId_Unknown_2347",
                 "despawn_ability": "1169 <=> AbilityId_Unknown_1169",
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "2348 <=> AbilityId_Unknown_2348",
-                        "leader_ability": "2348 <=> AbilityId_Unknown_2348"
+                        "ability": "2354 <=> AbilityId_Unknown_2354",
+                        "leader_ability": "2354 <=> AbilityId_Unknown_2354"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -37982,23 +37982,23 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "2350 <=> AbilityId_Unknown_2350",
-                        "leader_ability": "2350 <=> AbilityId_Unknown_2350"
+                        "ability": "2356 <=> AbilityId_Unknown_2356",
+                        "leader_ability": "2356 <=> AbilityId_Unknown_2356"
                     },
                     "investigating_search_stop": {
-                        "ability": "2351 <=> AbilityId_Unknown_2351",
-                        "leader_ability": "2351 <=> AbilityId_Unknown_2351"
+                        "ability": "2357 <=> AbilityId_Unknown_2357",
+                        "leader_ability": "2357 <=> AbilityId_Unknown_2357"
                     },
                     "target_acquired": {
-                        "ability": "2349 <=> AbilityId_Unknown_2349",
-                        "leader_ability": "2349 <=> AbilityId_Unknown_2349"
+                        "ability": "2355 <=> AbilityId_Unknown_2355",
+                        "leader_ability": "2355 <=> AbilityId_Unknown_2355"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "surprise": {
-                        "ability": "2352 <=> AbilityId_Unknown_2352",
+                        "ability": "2358 <=> AbilityId_Unknown_2358",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     }
                 },
@@ -38244,14 +38244,14 @@
                     "unk_uint32_r0x0008": 0,
                     "unk_uint32_r0x000C": 0
                 },
-                "landing_ability": "2353 <=> AbilityId_Unknown_2353",
-                "migrate_ability": "2341 <=> AbilityId_Unknown_2341",
+                "landing_ability": "2359 <=> AbilityId_Unknown_2359",
+                "migrate_ability": "2347 <=> AbilityId_Unknown_2347",
                 "despawn_ability": "1169 <=> AbilityId_Unknown_1169",
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "2348 <=> AbilityId_Unknown_2348",
-                        "leader_ability": "2348 <=> AbilityId_Unknown_2348"
+                        "ability": "2354 <=> AbilityId_Unknown_2354",
+                        "leader_ability": "2354 <=> AbilityId_Unknown_2354"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -38262,23 +38262,23 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "2350 <=> AbilityId_Unknown_2350",
-                        "leader_ability": "2350 <=> AbilityId_Unknown_2350"
+                        "ability": "2356 <=> AbilityId_Unknown_2356",
+                        "leader_ability": "2356 <=> AbilityId_Unknown_2356"
                     },
                     "investigating_search_stop": {
-                        "ability": "2351 <=> AbilityId_Unknown_2351",
-                        "leader_ability": "2351 <=> AbilityId_Unknown_2351"
+                        "ability": "2357 <=> AbilityId_Unknown_2357",
+                        "leader_ability": "2357 <=> AbilityId_Unknown_2357"
                     },
                     "target_acquired": {
-                        "ability": "2349 <=> AbilityId_Unknown_2349",
-                        "leader_ability": "2349 <=> AbilityId_Unknown_2349"
+                        "ability": "2355 <=> AbilityId_Unknown_2355",
+                        "leader_ability": "2355 <=> AbilityId_Unknown_2355"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "surprise": {
-                        "ability": "2352 <=> AbilityId_Unknown_2352",
+                        "ability": "2358 <=> AbilityId_Unknown_2358",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     }
                 },
@@ -38524,14 +38524,14 @@
                     "unk_uint32_r0x0008": 0,
                     "unk_uint32_r0x000C": 0
                 },
-                "landing_ability": "2353 <=> AbilityId_Unknown_2353",
-                "migrate_ability": "2341 <=> AbilityId_Unknown_2341",
+                "landing_ability": "2359 <=> AbilityId_Unknown_2359",
+                "migrate_ability": "2347 <=> AbilityId_Unknown_2347",
                 "despawn_ability": "1169 <=> AbilityId_Unknown_1169",
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "2348 <=> AbilityId_Unknown_2348",
-                        "leader_ability": "2348 <=> AbilityId_Unknown_2348"
+                        "ability": "2354 <=> AbilityId_Unknown_2354",
+                        "leader_ability": "2354 <=> AbilityId_Unknown_2354"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -38542,23 +38542,23 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "2350 <=> AbilityId_Unknown_2350",
-                        "leader_ability": "2350 <=> AbilityId_Unknown_2350"
+                        "ability": "2356 <=> AbilityId_Unknown_2356",
+                        "leader_ability": "2356 <=> AbilityId_Unknown_2356"
                     },
                     "investigating_search_stop": {
-                        "ability": "2351 <=> AbilityId_Unknown_2351",
-                        "leader_ability": "2351 <=> AbilityId_Unknown_2351"
+                        "ability": "2357 <=> AbilityId_Unknown_2357",
+                        "leader_ability": "2357 <=> AbilityId_Unknown_2357"
                     },
                     "target_acquired": {
-                        "ability": "2349 <=> AbilityId_Unknown_2349",
-                        "leader_ability": "2349 <=> AbilityId_Unknown_2349"
+                        "ability": "2355 <=> AbilityId_Unknown_2355",
+                        "leader_ability": "2355 <=> AbilityId_Unknown_2355"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "surprise": {
-                        "ability": "2352 <=> AbilityId_Unknown_2352",
+                        "ability": "2358 <=> AbilityId_Unknown_2358",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     }
                 },
@@ -38804,14 +38804,14 @@
                     "unk_uint32_r0x0008": 0,
                     "unk_uint32_r0x000C": 0
                 },
-                "landing_ability": "2353 <=> AbilityId_Unknown_2353",
-                "migrate_ability": "2341 <=> AbilityId_Unknown_2341",
+                "landing_ability": "2359 <=> AbilityId_Unknown_2359",
+                "migrate_ability": "2347 <=> AbilityId_Unknown_2347",
                 "despawn_ability": "1169 <=> AbilityId_Unknown_1169",
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "2348 <=> AbilityId_Unknown_2348",
-                        "leader_ability": "2348 <=> AbilityId_Unknown_2348"
+                        "ability": "2354 <=> AbilityId_Unknown_2354",
+                        "leader_ability": "2354 <=> AbilityId_Unknown_2354"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -38822,23 +38822,23 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "2350 <=> AbilityId_Unknown_2350",
-                        "leader_ability": "2350 <=> AbilityId_Unknown_2350"
+                        "ability": "2356 <=> AbilityId_Unknown_2356",
+                        "leader_ability": "2356 <=> AbilityId_Unknown_2356"
                     },
                     "investigating_search_stop": {
-                        "ability": "2351 <=> AbilityId_Unknown_2351",
-                        "leader_ability": "2351 <=> AbilityId_Unknown_2351"
+                        "ability": "2357 <=> AbilityId_Unknown_2357",
+                        "leader_ability": "2357 <=> AbilityId_Unknown_2357"
                     },
                     "target_acquired": {
-                        "ability": "2349 <=> AbilityId_Unknown_2349",
-                        "leader_ability": "2349 <=> AbilityId_Unknown_2349"
+                        "ability": "2355 <=> AbilityId_Unknown_2355",
+                        "leader_ability": "2355 <=> AbilityId_Unknown_2355"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "surprise": {
-                        "ability": "2352 <=> AbilityId_Unknown_2352",
+                        "ability": "2358 <=> AbilityId_Unknown_2358",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     }
                 },
@@ -39084,14 +39084,14 @@
                     "unk_uint32_r0x0008": 0,
                     "unk_uint32_r0x000C": 0
                 },
-                "landing_ability": "2353 <=> AbilityId_Unknown_2353",
-                "migrate_ability": "2341 <=> AbilityId_Unknown_2341",
+                "landing_ability": "2359 <=> AbilityId_Unknown_2359",
+                "migrate_ability": "2347 <=> AbilityId_Unknown_2347",
                 "despawn_ability": "1169 <=> AbilityId_Unknown_1169",
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "2348 <=> AbilityId_Unknown_2348",
-                        "leader_ability": "2348 <=> AbilityId_Unknown_2348"
+                        "ability": "2354 <=> AbilityId_Unknown_2354",
+                        "leader_ability": "2354 <=> AbilityId_Unknown_2354"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -39102,23 +39102,23 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "2350 <=> AbilityId_Unknown_2350",
-                        "leader_ability": "2350 <=> AbilityId_Unknown_2350"
+                        "ability": "2356 <=> AbilityId_Unknown_2356",
+                        "leader_ability": "2356 <=> AbilityId_Unknown_2356"
                     },
                     "investigating_search_stop": {
-                        "ability": "2351 <=> AbilityId_Unknown_2351",
-                        "leader_ability": "2351 <=> AbilityId_Unknown_2351"
+                        "ability": "2357 <=> AbilityId_Unknown_2357",
+                        "leader_ability": "2357 <=> AbilityId_Unknown_2357"
                     },
                     "target_acquired": {
-                        "ability": "2349 <=> AbilityId_Unknown_2349",
-                        "leader_ability": "2349 <=> AbilityId_Unknown_2349"
+                        "ability": "2355 <=> AbilityId_Unknown_2355",
+                        "leader_ability": "2355 <=> AbilityId_Unknown_2355"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "surprise": {
-                        "ability": "2352 <=> AbilityId_Unknown_2352",
+                        "ability": "2358 <=> AbilityId_Unknown_2358",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     }
                 },
@@ -39364,14 +39364,14 @@
                     "unk_uint32_r0x0008": 0,
                     "unk_uint32_r0x000C": 0
                 },
-                "landing_ability": "2353 <=> AbilityId_Unknown_2353",
-                "migrate_ability": "2341 <=> AbilityId_Unknown_2341",
+                "landing_ability": "2359 <=> AbilityId_Unknown_2359",
+                "migrate_ability": "2347 <=> AbilityId_Unknown_2347",
                 "despawn_ability": "1169 <=> AbilityId_Unknown_1169",
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "2348 <=> AbilityId_Unknown_2348",
-                        "leader_ability": "2348 <=> AbilityId_Unknown_2348"
+                        "ability": "2354 <=> AbilityId_Unknown_2354",
+                        "leader_ability": "2354 <=> AbilityId_Unknown_2354"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -39382,23 +39382,23 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "2350 <=> AbilityId_Unknown_2350",
-                        "leader_ability": "2350 <=> AbilityId_Unknown_2350"
+                        "ability": "2356 <=> AbilityId_Unknown_2356",
+                        "leader_ability": "2356 <=> AbilityId_Unknown_2356"
                     },
                     "investigating_search_stop": {
-                        "ability": "2351 <=> AbilityId_Unknown_2351",
-                        "leader_ability": "2351 <=> AbilityId_Unknown_2351"
+                        "ability": "2357 <=> AbilityId_Unknown_2357",
+                        "leader_ability": "2357 <=> AbilityId_Unknown_2357"
                     },
                     "target_acquired": {
-                        "ability": "2349 <=> AbilityId_Unknown_2349",
-                        "leader_ability": "2349 <=> AbilityId_Unknown_2349"
+                        "ability": "2355 <=> AbilityId_Unknown_2355",
+                        "leader_ability": "2355 <=> AbilityId_Unknown_2355"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "surprise": {
-                        "ability": "2352 <=> AbilityId_Unknown_2352",
+                        "ability": "2358 <=> AbilityId_Unknown_2358",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     }
                 },
@@ -39644,14 +39644,14 @@
                     "unk_uint32_r0x0008": 0,
                     "unk_uint32_r0x000C": 0
                 },
-                "landing_ability": "2353 <=> AbilityId_Unknown_2353",
-                "migrate_ability": "2341 <=> AbilityId_Unknown_2341",
+                "landing_ability": "2359 <=> AbilityId_Unknown_2359",
+                "migrate_ability": "2347 <=> AbilityId_Unknown_2347",
                 "despawn_ability": "1169 <=> AbilityId_Unknown_1169",
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "2348 <=> AbilityId_Unknown_2348",
-                        "leader_ability": "2348 <=> AbilityId_Unknown_2348"
+                        "ability": "2354 <=> AbilityId_Unknown_2354",
+                        "leader_ability": "2354 <=> AbilityId_Unknown_2354"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -39662,23 +39662,23 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "2350 <=> AbilityId_Unknown_2350",
-                        "leader_ability": "2350 <=> AbilityId_Unknown_2350"
+                        "ability": "2356 <=> AbilityId_Unknown_2356",
+                        "leader_ability": "2356 <=> AbilityId_Unknown_2356"
                     },
                     "investigating_search_stop": {
-                        "ability": "2351 <=> AbilityId_Unknown_2351",
-                        "leader_ability": "2351 <=> AbilityId_Unknown_2351"
+                        "ability": "2357 <=> AbilityId_Unknown_2357",
+                        "leader_ability": "2357 <=> AbilityId_Unknown_2357"
                     },
                     "target_acquired": {
-                        "ability": "2349 <=> AbilityId_Unknown_2349",
-                        "leader_ability": "2349 <=> AbilityId_Unknown_2349"
+                        "ability": "2355 <=> AbilityId_Unknown_2355",
+                        "leader_ability": "2355 <=> AbilityId_Unknown_2355"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "surprise": {
-                        "ability": "2352 <=> AbilityId_Unknown_2352",
+                        "ability": "2358 <=> AbilityId_Unknown_2358",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     }
                 },
@@ -39924,14 +39924,14 @@
                     "unk_uint32_r0x0008": 0,
                     "unk_uint32_r0x000C": 0
                 },
-                "landing_ability": "2353 <=> AbilityId_Unknown_2353",
-                "migrate_ability": "2341 <=> AbilityId_Unknown_2341",
+                "landing_ability": "2359 <=> AbilityId_Unknown_2359",
+                "migrate_ability": "2347 <=> AbilityId_Unknown_2347",
                 "despawn_ability": "1169 <=> AbilityId_Unknown_1169",
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "2348 <=> AbilityId_Unknown_2348",
-                        "leader_ability": "2348 <=> AbilityId_Unknown_2348"
+                        "ability": "2354 <=> AbilityId_Unknown_2354",
+                        "leader_ability": "2354 <=> AbilityId_Unknown_2354"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -39942,23 +39942,23 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "2350 <=> AbilityId_Unknown_2350",
-                        "leader_ability": "2350 <=> AbilityId_Unknown_2350"
+                        "ability": "2356 <=> AbilityId_Unknown_2356",
+                        "leader_ability": "2356 <=> AbilityId_Unknown_2356"
                     },
                     "investigating_search_stop": {
-                        "ability": "2351 <=> AbilityId_Unknown_2351",
-                        "leader_ability": "2351 <=> AbilityId_Unknown_2351"
+                        "ability": "2357 <=> AbilityId_Unknown_2357",
+                        "leader_ability": "2357 <=> AbilityId_Unknown_2357"
                     },
                     "target_acquired": {
-                        "ability": "2349 <=> AbilityId_Unknown_2349",
-                        "leader_ability": "2349 <=> AbilityId_Unknown_2349"
+                        "ability": "2355 <=> AbilityId_Unknown_2355",
+                        "leader_ability": "2355 <=> AbilityId_Unknown_2355"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "surprise": {
-                        "ability": "2352 <=> AbilityId_Unknown_2352",
+                        "ability": "2358 <=> AbilityId_Unknown_2358",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     }
                 },
@@ -40204,14 +40204,14 @@
                     "unk_uint32_r0x0008": 0,
                     "unk_uint32_r0x000C": 0
                 },
-                "landing_ability": "2353 <=> AbilityId_Unknown_2353",
-                "migrate_ability": "2341 <=> AbilityId_Unknown_2341",
+                "landing_ability": "2359 <=> AbilityId_Unknown_2359",
+                "migrate_ability": "2347 <=> AbilityId_Unknown_2347",
                 "despawn_ability": "1169 <=> AbilityId_Unknown_1169",
                 "unk_ability": "0 <=> AbilityId_Unknown_0",
                 "barks": {
                     "suspicious_start": {
-                        "ability": "2348 <=> AbilityId_Unknown_2348",
-                        "leader_ability": "2348 <=> AbilityId_Unknown_2348"
+                        "ability": "2354 <=> AbilityId_Unknown_2354",
+                        "leader_ability": "2354 <=> AbilityId_Unknown_2354"
                     },
                     "suspicious_stop": {
                         "ability": "0 <=> AbilityId_Unknown_0",
@@ -40222,23 +40222,23 @@
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "investigating_search_start": {
-                        "ability": "2350 <=> AbilityId_Unknown_2350",
-                        "leader_ability": "2350 <=> AbilityId_Unknown_2350"
+                        "ability": "2356 <=> AbilityId_Unknown_2356",
+                        "leader_ability": "2356 <=> AbilityId_Unknown_2356"
                     },
                     "investigating_search_stop": {
-                        "ability": "2351 <=> AbilityId_Unknown_2351",
-                        "leader_ability": "2351 <=> AbilityId_Unknown_2351"
+                        "ability": "2357 <=> AbilityId_Unknown_2357",
+                        "leader_ability": "2357 <=> AbilityId_Unknown_2357"
                     },
                     "target_acquired": {
-                        "ability": "2349 <=> AbilityId_Unknown_2349",
-                        "leader_ability": "2349 <=> AbilityId_Unknown_2349"
+                        "ability": "2355 <=> AbilityId_Unknown_2355",
+                        "leader_ability": "2355 <=> AbilityId_Unknown_2355"
                     },
                     "target_changed": {
                         "ability": "0 <=> AbilityId_Unknown_0",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     },
                     "surprise": {
-                        "ability": "2352 <=> AbilityId_Unknown_2352",
+                        "ability": "2358 <=> AbilityId_Unknown_2358",
                         "leader_ability": "0 <=> AbilityId_Unknown_0"
                     }
                 },
@@ -43101,7 +43101,7 @@
                 "combat_value": 1.0,
                 "spot_time_close": 0.30000001192092896,
                 "spot_time_far": 3.0,
-                "voiceover_speaker_id": 0,
+                "voiceover_speaker_id": 3041355449,
                 "move_to_goal_when_rotating": 0,
                 "rotate_to_nav_goal": 0,
                 "rotate_to_navigate": 0,
