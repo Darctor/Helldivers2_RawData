@@ -1,0 +1,5 @@
+AiCharacterMode_None
+AiCharacterMode_Flying
+AiCharacterMode_SteamRoll
+AiCharacterMode_RunToGoal
+AiCharacterMode_Havok

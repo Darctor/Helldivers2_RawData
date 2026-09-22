@@ -4,8 +4,8 @@
         "omitted_size": 3,
         "exported_entity_count": 189,
         "matched_bilingual_hash_count": 184,
-        "patch_date": "2026-08-12",
-        "game_version": "1.007.000"
+        "patch_date": "2026-09-22",
+        "game_version": "1.007.100"
     },
     "entities": [
         {
@@ -355,8 +355,8 @@
                 "name": "Vox Engine",
                 "name_zh": "噪轰引擎",
                 "index": 31,
-                "danger_max": 10.0,
-                "danger_sphere_radius": 3.5,
+                "danger_max": 5.0,
+                "danger_sphere_radius": 20.0,
                 "ignore_stance": 1
             }
         },

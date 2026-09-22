@@ -4,8 +4,8 @@
         "omitted_size": 22,
         "exported_entity_count": 10,
         "matched_bilingual_hash_count": 9,
-        "patch_date": "2026-08-12",
-        "game_version": "1.007.000"
+        "patch_date": "2026-09-22",
+        "game_version": "1.007.100"
     },
     "entities": [
         {
@@ -66,7 +66,7 @@
                 "extra_projectiles": 0,
                 "extra_projectiles_interval": 0.0,
                 "dry_fire_audio_event": 0,
-                "overcharge_explosion_type": "264 <=> ExplosionType_Unknown_264",
+                "overcharge_explosion_type": "269 <=> ExplosionType_Unknown_269",
                 "0xE5073B6A": {
                     "charge_state": "2 <=> ChargeState_Unknown_2",
                     "overcharge_explosion_time": 0.0
@@ -131,7 +131,7 @@
                 "extra_projectiles": 0,
                 "extra_projectiles_interval": 0.0,
                 "dry_fire_audio_event": 0,
-                "overcharge_explosion_type": "264 <=> ExplosionType_Unknown_264",
+                "overcharge_explosion_type": "269 <=> ExplosionType_Unknown_269",
                 "0xE5073B6A": {
                     "charge_state": "2 <=> ChargeState_Unknown_2",
                     "overcharge_explosion_time": 0.0
@@ -196,7 +196,7 @@
                 "extra_projectiles": 2,
                 "extra_projectiles_interval": 0.11999999731779099,
                 "dry_fire_audio_event": 1837771762,
-                "overcharge_explosion_type": "319 <=> ExplosionType_Unknown_319",
+                "overcharge_explosion_type": "326 <=> ExplosionType_Unknown_326",
                 "0xE5073B6A": {
                     "charge_state": "2 <=> ChargeState_Unknown_2",
                     "overcharge_explosion_time": 0.0
@@ -261,7 +261,7 @@
                 "extra_projectiles": 0,
                 "extra_projectiles_interval": 0.0,
                 "dry_fire_audio_event": 0,
-                "overcharge_explosion_type": "264 <=> ExplosionType_Unknown_264",
+                "overcharge_explosion_type": "269 <=> ExplosionType_Unknown_269",
                 "0xE5073B6A": {
                     "charge_state": "2 <=> ChargeState_Unknown_2",
                     "overcharge_explosion_time": 0.0
@@ -283,13 +283,13 @@
                     },
                     {
                         "charge_time": 1.0,
-                        "projectile_type": "291 <=> ProjectileType_Unknown_291",
+                        "projectile_type": "296 <=> ProjectileType_Unknown_296",
                         "muzzle_flash_effect": "8143194268241733506",
                         "fire_single_audio": 0
                     },
                     {
                         "charge_time": 1.0,
-                        "projectile_type": "291 <=> ProjectileType_Unknown_291",
+                        "projectile_type": "296 <=> ProjectileType_Unknown_296",
                         "muzzle_flash_effect": "0",
                         "fire_single_audio": 0
                     }
@@ -326,7 +326,7 @@
                 "extra_projectiles": 0,
                 "extra_projectiles_interval": 0.0,
                 "dry_fire_audio_event": 1837771762,
-                "overcharge_explosion_type": "264 <=> ExplosionType_Unknown_264",
+                "overcharge_explosion_type": "269 <=> ExplosionType_Unknown_269",
                 "0xE5073B6A": {
                     "charge_state": "2 <=> ChargeState_Unknown_2",
                     "overcharge_explosion_time": 0.0
@@ -348,13 +348,13 @@
                     },
                     {
                         "charge_time": 0.75,
-                        "projectile_type": "334 <=> ProjectileType_Unknown_334",
+                        "projectile_type": "341 <=> ProjectileType_Unknown_341",
                         "muzzle_flash_effect": "8143194268241733506",
                         "fire_single_audio": 0
                     },
                     {
                         "charge_time": 3.0,
-                        "projectile_type": "334 <=> ProjectileType_Unknown_334",
+                        "projectile_type": "341 <=> ProjectileType_Unknown_341",
                         "muzzle_flash_effect": "0",
                         "fire_single_audio": 0
                     }
@@ -391,7 +391,7 @@
                 "extra_projectiles": 0,
                 "extra_projectiles_interval": 0.0,
                 "dry_fire_audio_event": 1837771762,
-                "overcharge_explosion_type": "264 <=> ExplosionType_Unknown_264",
+                "overcharge_explosion_type": "269 <=> ExplosionType_Unknown_269",
                 "0xE5073B6A": {
                     "charge_state": "2 <=> ChargeState_Unknown_2",
                     "overcharge_explosion_time": 0.0
@@ -456,7 +456,7 @@
                 "extra_projectiles": 0,
                 "extra_projectiles_interval": 0.0,
                 "dry_fire_audio_event": 0,
-                "overcharge_explosion_type": "264 <=> ExplosionType_Unknown_264",
+                "overcharge_explosion_type": "269 <=> ExplosionType_Unknown_269",
                 "0xE5073B6A": {
                     "charge_state": "2 <=> ChargeState_Unknown_2",
                     "overcharge_explosion_time": 0.0
@@ -521,7 +521,7 @@
                 "extra_projectiles": 0,
                 "extra_projectiles_interval": 0.0,
                 "dry_fire_audio_event": 0,
-                "overcharge_explosion_type": "315 <=> ExplosionType_Unknown_315",
+                "overcharge_explosion_type": "321 <=> ExplosionType_Unknown_321",
                 "0xE5073B6A": {
                     "charge_state": "2 <=> ChargeState_Unknown_2",
                     "overcharge_explosion_time": 2.5
@@ -586,7 +586,7 @@
                 "extra_projectiles": 0,
                 "extra_projectiles_interval": 0.0,
                 "dry_fire_audio_event": 1837771762,
-                "overcharge_explosion_type": "315 <=> ExplosionType_Unknown_315",
+                "overcharge_explosion_type": "321 <=> ExplosionType_Unknown_321",
                 "0xE5073B6A": {
                     "charge_state": "2 <=> ChargeState_Unknown_2",
                     "overcharge_explosion_time": 3.25
@@ -651,7 +651,7 @@
                 "extra_projectiles": 0,
                 "extra_projectiles_interval": 0.0,
                 "dry_fire_audio_event": 1837771762,
-                "overcharge_explosion_type": "319 <=> ExplosionType_Unknown_319",
+                "overcharge_explosion_type": "326 <=> ExplosionType_Unknown_326",
                 "0xE5073B6A": {
                     "charge_state": "2 <=> ChargeState_Unknown_2",
                     "overcharge_explosion_time": 0.0

@@ -2,10 +2,10 @@
     "_metadata": {
         "struct_size": 120,
         "omitted_size": 10,
-        "exported_entity_count": 161,
-        "matched_bilingual_hash_count": 154,
-        "patch_date": "2026-08-12",
-        "game_version": "1.007.000"
+        "exported_entity_count": 162,
+        "matched_bilingual_hash_count": 155,
+        "patch_date": "2026-09-22",
+        "game_version": "1.007.100"
     },
     "entities": [
         {
@@ -6159,11 +6159,61 @@
             }
         },
         {
+            "0xB0C9FAF4AF8903F9": {
+                "hash": "12738988949818115065",
+                "name": "TD-110 Maelstrom",
+                "name_zh": "TD-110 风暴漩涡",
+                "index": 123,
+                "info": [
+                    {
+                        "path": "15387364653056856286",
+                        "attach_node": 3809236753,
+                        "mount_side": "2 <=> MountSide_Left",
+                        "name": 3413768791,
+                        "unk_bool_r0x0014": 1,
+                        "unk_bool_r0x0015": 1
+                    },
+                    {
+                        "path": "14081448954912365533",
+                        "attach_node": 3085546557,
+                        "mount_side": "1 <=> MountSide_Right",
+                        "name": 3037160110,
+                        "unk_bool_r0x0014": 1,
+                        "unk_bool_r0x0015": 0
+                    },
+                    {
+                        "path": "4181046937756232139",
+                        "attach_node": 2043430274,
+                        "mount_side": "2 <=> MountSide_Left",
+                        "name": 1083593468,
+                        "unk_bool_r0x0014": 1,
+                        "unk_bool_r0x0015": 1
+                    },
+                    {
+                        "path": "10015863766813883629",
+                        "attach_node": 2649639360,
+                        "mount_side": "2 <=> MountSide_Left",
+                        "name": 3892560830,
+                        "unk_bool_r0x0014": 1,
+                        "unk_bool_r0x0015": 1
+                    },
+                    {
+                        "path": "10015863766813883629",
+                        "attach_node": 668704437,
+                        "mount_side": "1 <=> MountSide_Right",
+                        "name": 1017159590,
+                        "unk_bool_r0x0014": 1,
+                        "unk_bool_r0x0015": 1
+                    }
+                ]
+            }
+        },
+        {
             "0xF1610AC48CDC5240": {
                 "hash": "17393195075174683200",
                 "name": "Overseer (No Package)",
                 "name_zh": "监视者（无包裹模型）",
-                "index": 123,
+                "index": 124,
                 "info": [
                     {
                         "path": "9125797115691269161",
@@ -6213,7 +6263,7 @@
                 "hash": "641481206831155133",
                 "name": "Overseer MK2",
                 "name_zh": "监视者 MK2",
-                "index": 124,
+                "index": 125,
                 "info": [
                     {
                         "path": "9125797115691269161",
@@ -6263,7 +6313,7 @@
                 "hash": "15438282343866021807",
                 "name": "Harvester MK2",
                 "name_zh": "猎杀器 MK2",
-                "index": 125,
+                "index": 126,
                 "info": [
                     {
                         "path": "14314053197173495724",
@@ -6313,7 +6363,7 @@
                 "hash": "15599629815890585244",
                 "name": "Officer MK3 (No Package)",
                 "name_zh": "舰长 MK3",
-                "index": 126,
+                "index": 127,
                 "info": [
                     {
                         "path": "3969673985818503563",
@@ -6363,7 +6413,7 @@
                 "hash": "16841371283351459334",
                 "name": "Officer MK2 (No Package)",
                 "name_zh": "舰长 MK2",
-                "index": 127,
+                "index": 128,
                 "info": [
                     {
                         "path": "0",
@@ -6413,7 +6463,7 @@
                 "hash": "2210598302234166538",
                 "name": "Ship Quartermaster",
                 "name_zh": "民主官",
-                "index": 128,
+                "index": 129,
                 "info": [
                     {
                         "path": "0",
@@ -6463,7 +6513,7 @@
                 "hash": "7587445649108074590",
                 "name": "Officer (No Package)",
                 "name_zh": "舰长",
-                "index": 129,
+                "index": 130,
                 "info": [
                     {
                         "path": "14970376349450767867",
@@ -6513,7 +6563,7 @@
                 "hash": "850711056443892715",
                 "name": "Personal Officer",
                 "name_zh": "技术员",
-                "index": 130,
+                "index": 131,
                 "info": [
                     {
                         "path": "0",
@@ -6563,7 +6613,7 @@
                 "hash": "13575269880792024885",
                 "name": "Eagle Pilot",
                 "name_zh": "飞鹰驾驶员（废案）",
-                "index": 131,
+                "index": 132,
                 "info": [
                     {
                         "path": "0",
@@ -6613,7 +6663,7 @@
                 "hash": "15701184648926402687",
                 "name": "Personnel Generic MK1",
                 "name_zh": "舰船工人 MK1",
-                "index": 132,
+                "index": 133,
                 "info": [
                     {
                         "path": "0",
@@ -6663,7 +6713,7 @@
                 "hash": "5938625030399109341",
                 "name": "Personnel Generic MK2",
                 "name_zh": "舰船工人 MK2",
-                "index": 133,
+                "index": 134,
                 "info": [
                     {
                         "path": "0",
@@ -6713,7 +6763,7 @@
                 "hash": "11843619417684963016",
                 "name": "Personnel Generic MK3",
                 "name_zh": "舰船工人 MK3（穿护具）",
-                "index": 134,
+                "index": 135,
                 "info": [
                     {
                         "path": "3969673985818503563",
@@ -6763,7 +6813,7 @@
                 "hash": "18047604708754565239",
                 "name": "Personnel Generic MK4",
                 "name_zh": "舰船工人 MK4",
-                "index": 135,
+                "index": 136,
                 "info": [
                     {
                         "path": "3969673985818503563",
@@ -6813,7 +6863,7 @@
                 "hash": "2186831762627068031",
                 "name": "Personnel Generic MK5",
                 "name_zh": "舰船工人 MK5",
-                "index": 136,
+                "index": 137,
                 "info": [
                     {
                         "path": "3969673985818503563",
@@ -6863,7 +6913,7 @@
                 "hash": "7057055776013546117",
                 "name": "Personnel Generic MK6",
                 "name_zh": "舰船工人 MK6",
-                "index": 137,
+                "index": 138,
                 "info": [
                     {
                         "path": "3969673985818503563",
@@ -6913,7 +6963,7 @@
                 "hash": "5268813631875709973",
                 "name": "Personnel Generic MK7",
                 "name_zh": "舰船工人 MK7",
-                "index": 138,
+                "index": 139,
                 "info": [
                     {
                         "path": "3969673985818503563",
@@ -6963,7 +7013,7 @@
                 "hash": "15336140906172278556",
                 "name": "Personnel Generic MK8",
                 "name_zh": "舰船工人 MK8",
-                "index": 139,
+                "index": 140,
                 "info": [
                     {
                         "path": "3969673985818503563",
@@ -7013,7 +7063,7 @@
                 "hash": "14054387432745785364",
                 "name": "Personnel Generic MK9",
                 "name_zh": "舰船工人 MK9",
-                "index": 140,
+                "index": 141,
                 "info": [
                     {
                         "path": "3969673985818503563",
@@ -7063,7 +7113,7 @@
                 "hash": "11353844921854370643",
                 "name": "Personnel Generic MK10",
                 "name_zh": "舰船工人 MK10",
-                "index": 141,
+                "index": 142,
                 "info": [
                     {
                         "path": "0",
@@ -7113,7 +7163,7 @@
                 "hash": "4960479884336891143",
                 "name": "Personnel Generic MK11",
                 "name_zh": "舰船工人 MK11",
-                "index": 142,
+                "index": 143,
                 "info": [
                     {
                         "path": "0",
@@ -7163,7 +7213,7 @@
                 "hash": "12165351853986040244",
                 "name": "Personnel Generic MK12",
                 "name_zh": "舰船工人 MK12",
-                "index": 143,
+                "index": 144,
                 "info": [
                     {
                         "path": "0",
@@ -7213,7 +7263,7 @@
                 "hash": "15691978653806246852",
                 "name": "Personnel Generic MK13",
                 "name_zh": "舰船工人 MK13",
-                "index": 144,
+                "index": 145,
                 "info": [
                     {
                         "path": "0",
@@ -7263,7 +7313,7 @@
                 "hash": "5077454099412397096",
                 "name": "Personnel Generic MK14",
                 "name_zh": "舰船工人 MK14",
-                "index": 145,
+                "index": 146,
                 "info": [
                     {
                         "path": "0",
@@ -7313,7 +7363,7 @@
                 "hash": "8785151313511435740",
                 "name": "Personnel Generic MK15",
                 "name_zh": "舰船工人 MK15",
-                "index": 146,
+                "index": 147,
                 "info": [
                     {
                         "path": "0",
@@ -7363,7 +7413,7 @@
                 "hash": "9576485996670470682",
                 "name": "Personnel Generic MK16",
                 "name_zh": "舰船工人 MK16",
-                "index": 147,
+                "index": 148,
                 "info": [
                     {
                         "path": "0",
@@ -7413,7 +7463,7 @@
                 "hash": "9513169167295339035",
                 "name": "Personnel Generic MK17",
                 "name_zh": "舰船工人 MK17",
-                "index": 148,
+                "index": 149,
                 "info": [
                     {
                         "path": "0",
@@ -7463,7 +7513,7 @@
                 "hash": "552747719338665864",
                 "name": "Personnel Generic MK18",
                 "name_zh": "舰船工人 MK18",
-                "index": 149,
+                "index": 150,
                 "info": [
                     {
                         "path": "0",
@@ -7513,7 +7563,7 @@
                 "hash": "8604848163181421628",
                 "name": "Personnel Generic MK19",
                 "name_zh": "舰船工人 MK19",
-                "index": 150,
+                "index": 151,
                 "info": [
                     {
                         "path": "0",
@@ -7563,7 +7613,7 @@
                 "hash": "1239378520908923324",
                 "name": "Personnel Generic MK20",
                 "name_zh": "舰船工人 MK20",
-                "index": 151,
+                "index": 152,
                 "info": [
                     {
                         "path": "0",
@@ -7613,7 +7663,7 @@
                 "hash": "6674443306042095289",
                 "name": "Personnel Generic MK21",
                 "name_zh": "舰船工人 MK21",
-                "index": 152,
+                "index": 153,
                 "info": [
                     {
                         "path": "0",
@@ -7663,7 +7713,7 @@
                 "hash": "5650246641905721936",
                 "name": "Personnel Generic MK22",
                 "name_zh": "舰船工人 MK22",
-                "index": 153,
+                "index": 154,
                 "info": [
                     {
                         "path": "0",
@@ -7713,7 +7763,7 @@
                 "hash": "11297499216687771913",
                 "name": "Personnel Generic MK23",
                 "name_zh": "舰船工人 MK23",
-                "index": 154,
+                "index": 155,
                 "info": [
                     {
                         "path": "0",
@@ -7763,7 +7813,7 @@
                 "hash": "14828710641940459992",
                 "name": "Personnel Generic MK24",
                 "name_zh": "舰船工人 MK24",
-                "index": 155,
+                "index": 156,
                 "info": [
                     {
                         "path": "0",
@@ -7813,7 +7863,7 @@
                 "hash": "576943110514355900",
                 "name": "Ground All-Terrain Extraction Rig MK2",
                 "name_zh": "地面全地形采集钻机 MK2",
-                "index": 156,
+                "index": 157,
                 "info": [
                     {
                         "path": "10985104894119086333",
@@ -7863,7 +7913,7 @@
                 "hash": "12013007335500498924",
                 "name": "Officer MK4",
                 "name_zh": "舰长 MK4",
-                "index": 157,
+                "index": 158,
                 "info": [
                     {
                         "path": "0",
@@ -7913,7 +7963,7 @@
                 "hash": "3128706810926128882",
                 "name": "Officer MK5",
                 "name_zh": "舰长 MK5",
-                "index": 158,
+                "index": 159,
                 "info": [
                     {
                         "path": "0",
@@ -7963,7 +8013,7 @@
                 "hash": "15809454270358060682",
                 "name": "Personnel Generic MK25",
                 "name_zh": "舰船工人 MK25",
-                "index": 159,
+                "index": 160,
                 "info": [
                     {
                         "path": "0",
@@ -8013,7 +8063,7 @@
                 "hash": "2108432737919758797",
                 "name": "Personnel Generic MK26",
                 "name_zh": "舰船工人 MK26",
-                "index": 160,
+                "index": 161,
                 "info": [
                     {
                         "path": "0",

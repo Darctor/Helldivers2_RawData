@@ -1,0 +1,54 @@
+{
+    "_metadata": {
+        "struct_size": 24,
+        "omitted_size": 0,
+        "exported_entity_count": 3,
+        "matched_bilingual_hash_count": 3,
+        "patch_date": "2026-09-22",
+        "game_version": "1.007.100"
+    },
+    "entities": [
+        {
+            "0x86DBDB83634F153C": {
+                "hash": "9717601978335302972",
+                "name": "DSS Eagle Storm (Entity)",
+                "name_zh": "飞鹰风暴 机枪扫射（实体）",
+                "index": 0,
+                "min_lifetime": 30.0,
+                "max_lifetime": 45.0,
+                "min_spawn_cooldown": 3.0,
+                "max_spawn_cooldown": 5.0,
+                "eagle_storm_radius": 160.0,
+                "eagle_type": "35 <=> StratagemType_EagleStrafingRun_DSS"
+            }
+        },
+        {
+            "0xFA52B73C2D97DD72": {
+                "hash": "18037680926663105906",
+                "name": "Eagle Storm - Gas (Entity)",
+                "name_zh": "飞鹰风暴 毒气空袭（实体）",
+                "index": 1,
+                "min_lifetime": 30.0,
+                "max_lifetime": 45.0,
+                "min_spawn_cooldown": 3.0,
+                "max_spawn_cooldown": 5.0,
+                "eagle_storm_radius": 160.0,
+                "eagle_type": "126 <=> StratagemType_EagleGasStrike"
+            }
+        },
+        {
+            "0x4CDE8B230AA4EAB0": {
+                "hash": "5539017574330985136",
+                "name": "Eagle Storm - Napalm (Entity)",
+                "name_zh": "飞鹰风暴 凝固汽油弹（实体）",
+                "index": 2,
+                "min_lifetime": 30.0,
+                "max_lifetime": 45.0,
+                "min_spawn_cooldown": 3.0,
+                "max_spawn_cooldown": 5.0,
+                "eagle_storm_radius": 160.0,
+                "eagle_type": "133 <=> StratagemType_EagleAirstrikeNapalm"
+            }
+        }
+    ]
+}

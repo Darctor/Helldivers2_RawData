@@ -68,4 +68,6 @@ StatusEffectType_Post_Mortem_Explosion
 StatusEffectType_FlamerSlowed
 StatusEffectType_Gloom
 StatusEffectType_Dark_Fluid_MK2
+StatusEffectType_Poison
+StatusEffectType_PoisonVulnerability
 StatusEffectType_Count

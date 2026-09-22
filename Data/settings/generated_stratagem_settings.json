@@ -5,13 +5,13 @@
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 13,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "99 <=> StratagemType_AmmoBackpack",
+                    "type": "101 <=> StratagemType_AmmoBackpack",
                     "id": 1907808218,
                     "video_id": 2631438937,
                     "debug_name": "BACKPACK. SUPPLY BACKPACK",
@@ -146,13 +146,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "21 <=> 0x6011FA2B_Unknown_21"
                 },
                 {
                     "index": 1,
-                    "type": "94 <=> StratagemType_BallisticShield",
+                    "type": "96 <=> StratagemType_BallisticShield",
                     "id": 3353508219,
                     "video_id": 1732777349,
                     "debug_name": "BACKPACK. BALLISTIC SHIELD BACKPACK",
@@ -287,13 +287,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "23 <=> 0x6011FA2B_Unknown_23"
                 },
                 {
                     "index": 2,
-                    "type": "65 <=> StratagemType_Directional_Shield",
+                    "type": "67 <=> StratagemType_Directional_Shield",
                     "id": 272480476,
                     "video_id": 2412024011,
                     "debug_name": "BACKPACK. DIRECTIONAL ENERGY SHIELD",
@@ -428,13 +428,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "23 <=> 0x6011FA2B_Unknown_23"
                 },
                 {
                     "index": 3,
-                    "type": "42 <=> StratagemType_ShieldGeneratorPack",
+                    "type": "43 <=> StratagemType_ShieldGeneratorPack",
                     "id": 3843705076,
                     "video_id": 4291165010,
                     "debug_name": "BACKPACK.  GENERATOR PACK",
@@ -569,13 +569,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "23 <=> 0x6011FA2B_Unknown_23"
                 },
                 {
                     "index": 4,
-                    "type": "132 <=> StratagemType_Jumppack",
+                    "type": "134 <=> StratagemType_Jumppack",
                     "id": 1753436707,
                     "video_id": 4285917866,
                     "debug_name": "BACKPACK. JUMPPACK BACKPACK",
@@ -709,13 +709,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "22 <=> 0x6011FA2B_Unknown_22"
                 },
                 {
                     "index": 5,
-                    "type": "53 <=> StratagemType_HoverPack",
+                    "type": "55 <=> StratagemType_HoverPack",
                     "id": 73468749,
                     "video_id": 939188707,
                     "debug_name": "BACKPACK. HOVERPACK BACKPACK",
@@ -850,13 +850,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "22 <=> 0x6011FA2B_Unknown_22"
                 },
                 {
                     "index": 6,
-                    "type": "71 <=> StratagemType_DroneMG",
+                    "type": "73 <=> StratagemType_DroneMG",
                     "id": 485866824,
                     "video_id": 380277557,
                     "debug_name": "BACKPACK. GUARD DOG (Drone)",
@@ -993,13 +993,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "24 <=> 0x6011FA2B_Unknown_24"
                 },
                 {
                     "index": 7,
-                    "type": "113 <=> StratagemType_Drone_Laser_Rifle",
+                    "type": "115 <=> StratagemType_Drone_Laser_Rifle",
                     "id": 951988742,
                     "video_id": 221425740,
                     "debug_name": "BACKPACK. Laser Rifle (Drone)",
@@ -1136,13 +1136,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "24 <=> 0x6011FA2B_Unknown_24"
                 },
                 {
                     "index": 8,
-                    "type": "140 <=> StratagemType_Drone_Gas",
+                    "type": "142 <=> StratagemType_Drone_Gas",
                     "id": 5185868,
                     "video_id": 1312777691,
                     "debug_name": "BACKPACK. GUARD DOG GAS PROJECTOR (Drone)",
@@ -1279,13 +1279,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "24 <=> 0x6011FA2B_Unknown_24"
                 },
                 {
                     "index": 9,
-                    "type": "55 <=> StratagemType_Drone_Flamer",
+                    "type": "57 <=> StratagemType_Drone_Flamer",
                     "id": 1125307795,
                     "video_id": 1159927551,
                     "debug_name": "BACKPACK. GUARD DOG FLAMETHROWER (Drone)",
@@ -1422,13 +1422,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "24 <=> 0x6011FA2B_Unknown_24"
                 },
                 {
                     "index": 10,
-                    "type": "118 <=> StratagemType_PortableHellbomb",
+                    "type": "120 <=> StratagemType_PortableHellbomb",
                     "id": 45875024,
                     "video_id": 3593822142,
                     "debug_name": "BACKPACK. HELLBOMB",
@@ -1562,13 +1562,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "21 <=> 0x6011FA2B_Unknown_21"
                 },
                 {
                     "index": 11,
-                    "type": "23 <=> StratagemType_WarpPack",
+                    "type": "24 <=> StratagemType_WarpPack",
                     "id": 2185045091,
                     "video_id": 3164488397,
                     "debug_name": "BACKPACK. DISPLACEMENT BACKPACK",
@@ -1703,7 +1703,7 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "22 <=> 0x6011FA2B_Unknown_22"
                 },
@@ -1846,7 +1846,7 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "24 <=> 0x6011FA2B_Unknown_24"
                 }
@@ -1859,13 +1859,13 @@
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 2,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "32 <=> StratagemType_AmmoRack",
+                    "type": "33 <=> StratagemType_AmmoRack",
                     "id": 867876502,
                     "video_id": 0,
                     "debug_name": "CONSUMABLES. RESUPPLY",
@@ -2021,13 +2021,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 1,
-                    "type": "75 <=> StratagemType_HealthPackRack",
+                    "type": "77 <=> StratagemType_HealthPackRack",
                     "id": 2229216190,
                     "video_id": 0,
                     "debug_name": "CONSUMABLES. HEALTH PACK RACK",
@@ -2160,7 +2160,7 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 }
@@ -2173,13 +2173,13 @@
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 11,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "29 <=> StratagemType_EagleStrafingRun",
+                    "type": "30 <=> StratagemType_EagleStrafingRun",
                     "id": 2808191861,
                     "video_id": 717369399,
                     "debug_name": "EAGLE. AIR SUPPORT",
@@ -2236,7 +2236,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "48 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -2313,7 +2313,7 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "7 <=> 0x6011FA2B_Unknown_7"
                 },
@@ -2378,7 +2378,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "48 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -2456,13 +2456,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "7 <=> 0x6011FA2B_Unknown_7"
                 },
                 {
                     "index": 2,
-                    "type": "138 <=> StratagemType_Eagle110mmRocket",
+                    "type": "140 <=> StratagemType_Eagle110mmRocket",
                     "id": 1979913877,
                     "video_id": 1695931029,
                     "debug_name": "EAGLE. 110mm ROCKET PODS",
@@ -2520,7 +2520,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "48 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -2598,13 +2598,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "8 <=> 0x6011FA2B_Unknown_8"
                 },
                 {
                     "index": 3,
-                    "type": "17 <=> StratagemType_EagleAirstrike",
+                    "type": "18 <=> StratagemType_EagleAirstrike",
                     "id": 1238358532,
                     "video_id": 3844243751,
                     "debug_name": "EAGLE. AIRSTRIKE",
@@ -2662,7 +2662,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "48 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -2739,13 +2739,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "9 <=> 0x6011FA2B_Unknown_9"
                 },
                 {
                     "index": 4,
-                    "type": "131 <=> StratagemType_EagleAirstrikeNapalm",
+                    "type": "133 <=> StratagemType_EagleAirstrikeNapalm",
                     "id": 2040137691,
                     "video_id": 457411092,
                     "debug_name": "EAGLE. NAPALM AIRSTRIKE",
@@ -2803,7 +2803,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "48 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -2880,13 +2880,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "9 <=> 0x6011FA2B_Unknown_9"
                 },
                 {
                     "index": 5,
-                    "type": "63 <=> StratagemType_EagleClusterbombs",
+                    "type": "65 <=> StratagemType_EagleClusterbombs",
                     "id": 3656370131,
                     "video_id": 3081672756,
                     "debug_name": "EAGLE. CLUSTERBOMBS",
@@ -2945,7 +2945,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "48 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -3022,13 +3022,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "9 <=> 0x6011FA2B_Unknown_9"
                 },
                 {
                     "index": 6,
-                    "type": "37 <=> StratagemType_EagleAirstrikeSmoke",
+                    "type": "38 <=> StratagemType_EagleAirstrikeSmoke",
                     "id": 1685231450,
                     "video_id": 2631025559,
                     "debug_name": "EAGLE. AIRSTRIKE SMOKE",
@@ -3086,7 +3086,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "48 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -3163,13 +3163,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "10 <=> 0x6011FA2B_Unknown_10"
                 },
                 {
                     "index": 7,
-                    "type": "124 <=> StratagemType_EagleGasStrike",
+                    "type": "126 <=> StratagemType_EagleGasStrike",
                     "id": 4196275240,
                     "video_id": 4061728311,
                     "debug_name": "EAGLE. Gas AIRSTRIKE",
@@ -3227,7 +3227,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "48 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -3304,13 +3304,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "9 <=> 0x6011FA2B_Unknown_9"
                 },
                 {
                     "index": 8,
-                    "type": "48 <=> StratagemType_EagleRearm",
+                    "type": "49 <=> StratagemType_EagleRearm",
                     "id": 3837064536,
                     "video_id": 0,
                     "debug_name": "EAGLE. REARM",
@@ -3321,7 +3321,7 @@
                     "description": 830421671,
                     "fluff": 3518225628,
                     "loading_loc": 764869094,
-                    "category": "0 <=> StratagemCategoryType_CloseAirSupport",
+                    "category": "7 <=> StratagemCategoryType_Count",
                     "button_combination": [
                         "1 <=> StratagemButtonDirection_Up [↑]",
                         "1 <=> StratagemButtonDirection_Up [↑]",
@@ -3366,7 +3366,7 @@
                     "hud_type": "1 <=> StratagemHUDType_Mission",
                     "cost": 0,
                     "enabled": 1,
-                    "depends_on": "29 <=> StratagemType_EagleStrafingRun",
+                    "depends_on": "30 <=> StratagemType_EagleStrafingRun",
                     "additional_stratagem": "0 <=> StratagemType_None",
                     "max_in_loadout": 1,
                     "has_shared_uses_pool": 0,
@@ -3414,7 +3414,7 @@
                         "stun 眩晕弹": 0
                     },
                     "spottable_vo_line": 580584596,
-                    "shared_stratagem_upgrades_type": "29 <=> StratagemType_EagleStrafingRun",
+                    "shared_stratagem_upgrades_type": "30 <=> StratagemType_EagleStrafingRun",
                     "shared_stratagem_upgrades_categories_flags": 2,
                     "shared_stratagem_upgrades_categories_flags_detail": {
                         "extra_uses": 0,
@@ -3441,13 +3441,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "7 <=> 0x6011FA2B_Unknown_7"
                 },
                 {
                     "index": 9,
-                    "type": "34 <=> StratagemType_EagleStrafingRun_DSS",
+                    "type": "35 <=> StratagemType_EagleStrafingRun_DSS",
                     "id": 929878807,
                     "video_id": 0,
                     "debug_name": "EAGLE. (NOT USED) ADDITIONAL STRAFING RUNS",
@@ -3504,7 +3504,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "48 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -3578,13 +3578,13 @@
                         "allow_for_button_overlap": 1,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "7 <=> 0x6011FA2B_Unknown_7"
                 },
                 {
                     "index": 10,
-                    "type": "144 <=> StratagemType_EagleAirToAirMissile",
+                    "type": "146 <=> StratagemType_EagleAirToAirMissile",
                     "id": 3001049275,
                     "video_id": 0,
                     "debug_name": "EAGLE. (NOT USED) AIR-TO-AIR MISSLES",
@@ -3642,7 +3642,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "48 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -3720,7 +3720,7 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "7 <=> 0x6011FA2B_Unknown_7"
                 }
@@ -3733,13 +3733,13 @@
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 9,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "57 <=> StratagemType_GrenadierBattlement",
+                    "type": "59 <=> StratagemType_GrenadierBattlement",
                     "id": 2480128092,
                     "video_id": 2888845076,
                     "debug_name": "EMPLACEMENTS. DEFENSE WALL GRENADE LAUNCHER",
@@ -3895,11 +3895,11 @@
                     },
                     "payload_unit_customization": "2 <=> UnitCustomizationCollectionType_HellpodRack",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "31 <=> 0x6011FA2B_Unknown_31"
+                    "unk_enum_0x0188": "33 <=> 0x6011FA2B_Unknown_33"
                 },
                 {
                     "index": 1,
-                    "type": "21 <=> StratagemType_ShieldGeneratorRelay",
+                    "type": "22 <=> StratagemType_ShieldGeneratorRelay",
                     "id": 2281932031,
                     "video_id": 572333910,
                     "debug_name": "EMPLACEMENTS. SHIELD GENERATOR RELAY",
@@ -4034,13 +4034,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "31 <=> 0x6011FA2B_Unknown_31"
+                    "unk_enum_0x0188": "33 <=> 0x6011FA2B_Unknown_33"
                 },
                 {
                     "index": 2,
-                    "type": "142 <=> StratagemType_HMG_Emplacement",
+                    "type": "144 <=> StratagemType_HMG_Emplacement",
                     "id": 2919842659,
                     "video_id": 1326707506,
                     "debug_name": "EMPLACEMENTS. HEAVY MACHINEGUN EMPLACEMENT",
@@ -4177,13 +4177,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "32 <=> 0x6011FA2B_Unknown_32"
+                    "unk_enum_0x0188": "34 <=> 0x6011FA2B_Unknown_34"
                 },
                 {
                     "index": 3,
-                    "type": "117 <=> StratagemType_AntiPersonnalMine",
+                    "type": "119 <=> StratagemType_AntiPersonnalMine",
                     "id": 12688472,
                     "video_id": 3690601241,
                     "debug_name": "EMPLACEMENTS. ANTI-PERSONNEL MINE DEPLOYER",
@@ -4316,13 +4316,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "34 <=> 0x6011FA2B_Unknown_34"
+                    "unk_enum_0x0188": "36 <=> 0x6011FA2B_Unknown_36"
                 },
                 {
                     "index": 4,
-                    "type": "137 <=> StratagemType_IncendiaryMines",
+                    "type": "139 <=> StratagemType_IncendiaryMines",
                     "id": 2742141597,
                     "video_id": 1354726713,
                     "debug_name": "EMPLACEMENTS. INCENDIARY MINE DEPLOYER",
@@ -4455,9 +4455,9 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "34 <=> 0x6011FA2B_Unknown_34"
+                    "unk_enum_0x0188": "36 <=> 0x6011FA2B_Unknown_36"
                 },
                 {
                     "index": 5,
@@ -4597,13 +4597,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "34 <=> 0x6011FA2B_Unknown_34"
+                    "unk_enum_0x0188": "36 <=> 0x6011FA2B_Unknown_36"
                 },
                 {
                     "index": 6,
-                    "type": "45 <=> StratagemType_GasMines",
+                    "type": "46 <=> StratagemType_GasMines",
                     "id": 644090457,
                     "video_id": 878542088,
                     "debug_name": "EMPLACEMENTS. GAS MINE DEPLOYER",
@@ -4736,13 +4736,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "34 <=> 0x6011FA2B_Unknown_34"
+                    "unk_enum_0x0188": "36 <=> 0x6011FA2B_Unknown_36"
                 },
                 {
                     "index": 7,
-                    "type": "102 <=> StratagemType_TurretTesla",
+                    "type": "104 <=> StratagemType_TurretTesla",
                     "id": 2402590523,
                     "video_id": 3303546069,
                     "debug_name": "EMPLACEMENTS. TESLA TOWER",
@@ -4879,9 +4879,9 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "33 <=> 0x6011FA2B_Unknown_33"
+                    "unk_enum_0x0188": "35 <=> 0x6011FA2B_Unknown_35"
                 },
                 {
                     "index": 8,
@@ -5022,9 +5022,9 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "32 <=> 0x6011FA2B_Unknown_32"
+                    "unk_enum_0x0188": "34 <=> 0x6011FA2B_Unknown_34"
                 }
             ]
         }
@@ -5035,13 +5035,13 @@
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 36,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "76 <=> StratagemType_ShoulderMountedCamera",
+                    "type": "78 <=> StratagemType_ShoulderMountedCamera",
                     "id": 2186648412,
                     "video_id": 0,
                     "debug_name": "MISSIONS. SHOULDER MOUNTED CAMERA",
@@ -5177,13 +5177,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 1,
-                    "type": "74 <=> StratagemType_CyborgCarryData",
+                    "type": "76 <=> StratagemType_CyborgCarryData",
                     "id": 3928947721,
                     "video_id": 0,
                     "debug_name": "MISSIONS. Cyborg Carry Data",
@@ -5319,13 +5319,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 2,
-                    "type": "77 <=> StratagemType_CarryData",
+                    "type": "79 <=> StratagemType_CarryData",
                     "id": 2319566343,
                     "video_id": 0,
                     "debug_name": "MISSIONS. Carry Data",
@@ -5459,13 +5459,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 3,
-                    "type": "127 <=> StratagemType_DrillingCharge",
+                    "type": "129 <=> StratagemType_DrillingCharge",
                     "id": 716273285,
                     "video_id": 0,
                     "debug_name": "MISSIONS. DRILLING CHARGE",
@@ -5597,13 +5597,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 4,
-                    "type": "146 <=> StratagemType_ExtractBeacon",
+                    "type": "148 <=> StratagemType_ExtractBeacon",
                     "id": 115737856,
                     "video_id": 0,
                     "debug_name": "MISSIONS. EXTRACTION",
@@ -5737,13 +5737,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 5,
-                    "type": "41 <=> StratagemType_DropoffHellbomb",
+                    "type": "42 <=> StratagemType_DropoffHellbomb",
                     "id": 3989310204,
                     "video_id": 0,
                     "debug_name": "MISSIONS. HELLBOMB",
@@ -5880,13 +5880,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 6,
-                    "type": "70 <=> StratagemType_DropoffBugPlug",
+                    "type": "72 <=> StratagemType_DropoffBugPlug",
                     "id": 1503060624,
                     "video_id": 0,
                     "debug_name": "MISSIONS. BUG PLUG",
@@ -6021,13 +6021,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 7,
-                    "type": "69 <=> StratagemType_DropoffCargoContainer",
+                    "type": "71 <=> StratagemType_DropoffCargoContainer",
                     "id": 1606251952,
                     "video_id": 0,
                     "debug_name": "MISSIONS. CARGO CONTAINER",
@@ -6162,13 +6162,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 8,
-                    "type": "136 <=> StratagemType_CargoContainer",
+                    "type": "138 <=> StratagemType_CargoContainer",
                     "id": 2670122272,
                     "video_id": 0,
                     "debug_name": "MISSIONS. CARGO CONTAINER",
@@ -6303,13 +6303,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 9,
-                    "type": "100 <=> StratagemType_MobileCommsRelay",
+                    "type": "102 <=> StratagemType_MobileCommsRelay",
                     "id": 705279885,
                     "video_id": 0,
                     "debug_name": "MISSIONS. MOBILE COMMS RELAY",
@@ -6445,13 +6445,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 10,
-                    "type": "120 <=> StratagemType_SpireSterilizer",
+                    "type": "122 <=> StratagemType_SpireSterilizer",
                     "id": 1824787072,
                     "video_id": 0,
                     "debug_name": "MISSIONS. SPIRE STERILIZER",
@@ -6587,7 +6587,7 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
@@ -6726,13 +6726,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 12,
-                    "type": "83 <=> StratagemType_SuperEarthFlag",
+                    "type": "85 <=> StratagemType_SuperEarthFlag",
                     "id": 599201298,
                     "video_id": 0,
                     "debug_name": "MISSIONS. RAISE FLAG NO CLEAR AREA",
@@ -6865,7 +6865,7 @@
                         "allow_for_button_overlap": 1,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [
                         383387061
                     ],
@@ -6873,7 +6873,7 @@
                 },
                 {
                     "index": 13,
-                    "type": "16 <=> StratagemType_BugThumper",
+                    "type": "17 <=> StratagemType_BugThumper",
                     "id": 2720892179,
                     "video_id": 0,
                     "debug_name": "MISSIONS. BUG THUMPER",
@@ -7008,13 +7008,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 14,
-                    "type": "68 <=> StratagemType_ProspectingDrill",
+                    "type": "70 <=> StratagemType_ProspectingDrill",
                     "id": 685210453,
                     "video_id": 0,
                     "debug_name": "MISSIONS. PROSPECTING DRILL",
@@ -7149,13 +7149,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 15,
-                    "type": "18 <=> StratagemType_SeismicProbe",
+                    "type": "19 <=> StratagemType_SeismicProbe",
                     "id": 650447969,
                     "video_id": 0,
                     "debug_name": "MISSIONS. SEISMIC PROBE",
@@ -7290,13 +7290,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 16,
-                    "type": "106 <=> StratagemType_Scrambler",
+                    "type": "108 <=> StratagemType_Scrambler",
                     "id": 1005987791,
                     "video_id": 0,
                     "debug_name": "MISSIONS. Scrambler",
@@ -7434,7 +7434,7 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
@@ -7576,13 +7576,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 18,
-                    "type": "109 <=> StratagemType_ImmediateExtractionBeacon",
+                    "type": "111 <=> StratagemType_ImmediateExtractionBeacon",
                     "id": 509712523,
                     "video_id": 0,
                     "debug_name": "MISSIONS. IMMEDIATE EXTRACTION BEACON",
@@ -7719,13 +7719,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 19,
-                    "type": "96 <=> StratagemType_EmergencyExtractionBeacon",
+                    "type": "98 <=> StratagemType_EmergencyExtractionBeacon",
                     "id": 716088572,
                     "video_id": 0,
                     "debug_name": "MISSIONS. EMERGENCY EXTRACTION BEACON",
@@ -7861,13 +7861,13 @@
                         "allow_for_button_overlap": 1,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 20,
-                    "type": "122 <=> StratagemType_ReinforcementBeacon",
+                    "type": "124 <=> StratagemType_ReinforcementBeacon",
                     "id": 2266266587,
                     "video_id": 0,
                     "debug_name": "MISSIONS. REINFORCEMENT BEACON",
@@ -8000,7 +8000,7 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
@@ -8138,13 +8138,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 22,
-                    "type": "143 <=> StratagemType_SOSBeacon",
+                    "type": "145 <=> StratagemType_SOSBeacon",
                     "id": 3193487269,
                     "video_id": 0,
                     "debug_name": "MISSIONS. SOS Beacon",
@@ -8277,13 +8277,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 23,
-                    "type": "126 <=> StratagemType_UploadDiscovery",
+                    "type": "128 <=> StratagemType_UploadDiscovery",
                     "id": 3300666223,
                     "video_id": 0,
                     "debug_name": "MISSIONS. Upload Discovery",
@@ -8414,13 +8414,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 24,
-                    "type": "130 <=> StratagemType_Nuke",
+                    "type": "132 <=> StratagemType_Nuke",
                     "id": 2663642538,
                     "video_id": 0,
                     "debug_name": "MISSIONS CLAN STATION. Nuke",
@@ -8555,13 +8555,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 25,
-                    "type": "101 <=> StratagemType_CarpetBomb",
+                    "type": "103 <=> StratagemType_CarpetBomb",
                     "id": 905054095,
                     "video_id": 0,
                     "debug_name": "MISSIONS CLAN STATION. Carpet Bombing Run",
@@ -8695,13 +8695,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 26,
-                    "type": "84 <=> StratagemType_RemoteExplosives",
+                    "type": "86 <=> StratagemType_RemoteExplosives",
                     "id": 1232978203,
                     "video_id": 0,
                     "debug_name": "MISSIONS. REMOTE EXPLOSIVES",
@@ -8838,13 +8838,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 27,
-                    "type": "82 <=> StratagemType_JammedPinata",
+                    "type": "84 <=> StratagemType_JammedPinata",
                     "id": 3868299561,
                     "video_id": 0,
                     "debug_name": "MISSIONS. JAMMED PINATA",
@@ -8977,13 +8977,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 28,
-                    "type": "27 <=> StratagemType_SEAF_Artillery",
+                    "type": "28 <=> StratagemType_SEAF_Artillery",
                     "id": 2985177386,
                     "video_id": 0,
                     "debug_name": "MISSIONS. SEAF GUN",
@@ -9113,13 +9113,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 29,
-                    "type": "28 <=> StratagemType_DarkFluidBackpack",
+                    "type": "29 <=> StratagemType_DarkFluidBackpack",
                     "id": 1042447730,
                     "video_id": 0,
                     "debug_name": "MISSIONS. DARK FLUID BACKPACK",
@@ -9254,13 +9254,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 30,
-                    "type": "62 <=> StratagemType_TCS03Thumper",
+                    "type": "64 <=> StratagemType_TCS03Thumper",
                     "id": 1426041086,
                     "video_id": 0,
                     "debug_name": "MISSIONS. TCS 03 THUMPER",
@@ -9395,13 +9395,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 31,
-                    "type": "47 <=> StratagemType_MissionDataJack",
+                    "type": "48 <=> StratagemType_MissionDataJack",
                     "id": 681028671,
                     "video_id": 0,
                     "debug_name": "MISSIONS. DATA JACK",
@@ -9537,13 +9537,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 32,
-                    "type": "30 <=> StratagemType_MissionHellbombBackpack",
+                    "type": "31 <=> StratagemType_MissionHellbombBackpack",
                     "id": 1053576110,
                     "video_id": 3593822142,
                     "debug_name": "BACKPACK. HELLBOMB",
@@ -9677,13 +9677,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "21 <=> 0x6011FA2B_Unknown_21"
                 },
                 {
                     "index": 33,
-                    "type": "35 <=> StratagemType_OilRigExtract",
+                    "type": "36 <=> StratagemType_OilRigExtract",
                     "id": 65564476,
                     "video_id": 0,
                     "debug_name": "MISSIONS. OIL RIG EXTRACT",
@@ -9815,13 +9815,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 34,
-                    "type": "121 <=> StratagemType_CallInSuperDestroyer",
+                    "type": "123 <=> StratagemType_CallInSuperDestroyer",
                     "id": 4177070437,
                     "video_id": 0,
                     "debug_name": "MISSIONS. CALL IN DESTROYER",
@@ -9955,13 +9955,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 35,
-                    "type": "92 <=> StratagemType_Posion_Drill",
+                    "type": "94 <=> StratagemType_Posion_Drill",
                     "id": 913592461,
                     "video_id": 0,
                     "debug_name": "MISSIONS. POISON DRILL",
@@ -10098,7 +10098,7 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 }
@@ -10111,13 +10111,13 @@
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 13,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "116 <=> StratagemType_OrbitalPrecisionStrike",
+                    "type": "118 <=> StratagemType_OrbitalPrecisionStrike",
                     "id": 3523620028,
                     "video_id": 241502779,
                     "debug_name": "ORBITAL. PRECISION STRIKE",
@@ -10140,7 +10140,7 @@
                     "unk_float_0x005C": 0.0,
                     "beacon_linger_time": 0.0,
                     "extra_travel_time": 0.0,
-                    "cooldown_duration_success": 90.0,
+                    "cooldown_duration_success": 80.0,
                     "cooldown_duration_fail": 0.0,
                     "origin_type": "0 <=> StratagemOriginType_ShipSpecific",
                     "call_in_type": "0 <=> StratagemCallInType_Throw",
@@ -10252,13 +10252,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "1 <=> 0x6011FA2B_Unknown_1"
                 },
                 {
                     "index": 1,
-                    "type": "40 <=> StratagemType_OrbitalGas",
+                    "type": "41 <=> StratagemType_OrbitalGas",
                     "id": 3193297673,
                     "video_id": 4138095836,
                     "debug_name": "ORBITAL. GAS STRIKE",
@@ -10394,13 +10394,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "6 <=> 0x6011FA2B_Unknown_6"
                 },
                 {
                     "index": 2,
-                    "type": "81 <=> StratagemType_OrbitalAirBurst",
+                    "type": "83 <=> StratagemType_OrbitalAirBurst",
                     "id": 1560416221,
                     "video_id": 4084788822,
                     "debug_name": "ORBITAL. AIRBURST STRIKE",
@@ -10535,7 +10535,7 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "2 <=> 0x6011FA2B_Unknown_2"
                 },
@@ -10677,13 +10677,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "2 <=> 0x6011FA2B_Unknown_2"
                 },
                 {
                     "index": 4,
-                    "type": "134 <=> StratagemType_Orbital120mmHEBarrage",
+                    "type": "136 <=> StratagemType_Orbital120mmHEBarrage",
                     "id": 1063322614,
                     "video_id": 156926384,
                     "debug_name": "ORBITAL. 120MM HE STRIKE",
@@ -10821,13 +10821,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "3 <=> 0x6011FA2B_Unknown_3"
                 },
                 {
                     "index": 5,
-                    "type": "104 <=> StratagemType_OrbitalNapalmBarrage",
+                    "type": "106 <=> StratagemType_OrbitalNapalmBarrage",
                     "id": 2902516083,
                     "video_id": 2881064247,
                     "debug_name": "ORBITAL. NAPALM BARRAGE",
@@ -10966,13 +10966,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "3 <=> 0x6011FA2B_Unknown_3"
                 },
                 {
                     "index": 6,
-                    "type": "123 <=> StratagemType_Orbital380mmHEBarrage",
+                    "type": "125 <=> StratagemType_Orbital380mmHEBarrage",
                     "id": 3108516875,
                     "video_id": 1521915005,
                     "debug_name": "ORBITAL. 380MM HE BARRAGE",
@@ -11110,13 +11110,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "4 <=> 0x6011FA2B_Unknown_4"
                 },
                 {
                     "index": 7,
-                    "type": "20 <=> StratagemType_OrbitalWalkingBarrage",
+                    "type": "21 <=> StratagemType_OrbitalWalkingBarrage",
                     "id": 3279813377,
                     "video_id": 3932659165,
                     "debug_name": "ORBITAL. WALKING BARRAGE",
@@ -11253,13 +11253,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "4 <=> 0x6011FA2B_Unknown_4"
                 },
                 {
                     "index": 8,
-                    "type": "60 <=> StratagemType_WalkingBarrageSmoke",
+                    "type": "62 <=> StratagemType_WalkingBarrageSmoke",
                     "id": 3796132384,
                     "video_id": 3793839349,
                     "debug_name": "ORBITAL. WALKING BARRAGE SMOKE",
@@ -11396,13 +11396,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "4 <=> 0x6011FA2B_Unknown_4"
                 },
                 {
                     "index": 9,
-                    "type": "72 <=> StratagemType_OrbitalSmoke",
+                    "type": "74 <=> StratagemType_OrbitalSmoke",
                     "id": 3713568312,
                     "video_id": 3093214207,
                     "debug_name": "ORBITAL. SMOKE STRIKE",
@@ -11537,13 +11537,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "6 <=> 0x6011FA2B_Unknown_6"
                 },
                 {
                     "index": 10,
-                    "type": "33 <=> StratagemType_Orbital_EMS_Strike",
+                    "type": "34 <=> StratagemType_Orbital_EMS_Strike",
                     "id": 1280711447,
                     "video_id": 1732796450,
                     "debug_name": "ORBITAL. STATIC FIELD CONDUTORS",
@@ -11678,13 +11678,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "6 <=> 0x6011FA2B_Unknown_6"
                 },
                 {
                     "index": 11,
-                    "type": "105 <=> StratagemType_OrbitalLaser",
+                    "type": "107 <=> StratagemType_OrbitalLaser",
                     "id": 970450596,
                     "video_id": 759856207,
                     "debug_name": "ORBITAL. LASER",
@@ -11821,13 +11821,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "5 <=> 0x6011FA2B_Unknown_5"
                 },
                 {
                     "index": 12,
-                    "type": "56 <=> StratagemType_OrbitalRailcannon",
+                    "type": "58 <=> StratagemType_OrbitalRailcannon",
                     "id": 2744472229,
                     "video_id": 3428463213,
                     "debug_name": "ORBITAL. RAILCANNON",
@@ -11965,7 +11965,7 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "5 <=> 0x6011FA2B_Unknown_5"
                 }
@@ -11978,13 +11978,13 @@
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 7,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "107 <=> StratagemType_AmmoRack_PresidentReward",
+                    "type": "109 <=> StratagemType_AmmoRack_PresidentReward",
                     "id": 1295431756,
                     "video_id": 0,
                     "debug_name": "PRESIDENT REWARDS. AMMO CACHE",
@@ -12117,13 +12117,13 @@
                         "allow_for_button_overlap": 1,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 1,
-                    "type": "88 <=> StratagemType_HealthPackRack_PresidentReward",
+                    "type": "90 <=> StratagemType_HealthPackRack_PresidentReward",
                     "id": 255298804,
                     "video_id": 0,
                     "debug_name": "PRESIDENT REWARDS. HEALTH PACK RACK",
@@ -12256,13 +12256,13 @@
                         "allow_for_button_overlap": 1,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 2,
-                    "type": "36 <=> StratagemType_PatriotExosuit_PresidentReward",
+                    "type": "37 <=> StratagemType_PatriotExosuit_PresidentReward",
                     "id": 2587901119,
                     "video_id": 0,
                     "debug_name": "PRESIDENT REWARDS. COMBAT WALKER",
@@ -12398,13 +12398,13 @@
                         "allow_for_button_overlap": 1,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 3,
-                    "type": "19 <=> StratagemType_MedicBackpack_PresidentReward",
+                    "type": "20 <=> StratagemType_MedicBackpack_PresidentReward",
                     "id": 1091253198,
                     "video_id": 0,
                     "debug_name": "PRESIDENT REWARDS. MEDIC BACKPACK",
@@ -12538,13 +12538,13 @@
                         "allow_for_button_overlap": 1,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 4,
-                    "type": "141 <=> StratagemType_Jumppack_PresidentReward",
+                    "type": "143 <=> StratagemType_Jumppack_PresidentReward",
                     "id": 3316399568,
                     "video_id": 0,
                     "debug_name": "PRESIDENT REWARDS. JUMPPACK BACKPACK",
@@ -12678,13 +12678,13 @@
                         "allow_for_button_overlap": 1,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 5,
-                    "type": "67 <=> StratagemType_TurretRocket_PresidentReward",
+                    "type": "69 <=> StratagemType_TurretRocket_PresidentReward",
                     "id": 3275255096,
                     "video_id": 0,
                     "debug_name": "PRESIDENT REWARDS. ROCKET SENTRY",
@@ -12818,13 +12818,13 @@
                         "allow_for_button_overlap": 1,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 6,
-                    "type": "80 <=> StratagemType_Machinegun_PresidentReward",
+                    "type": "82 <=> StratagemType_Machinegun_PresidentReward",
                     "id": 1567517764,
                     "video_id": 0,
                     "debug_name": "PRESIDENT REWARDS. MACHINEGUN",
@@ -12958,7 +12958,7 @@
                         "allow_for_button_overlap": 1,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 }
@@ -12970,14 +12970,14 @@
             "_metadata": {
                 "struct_size": 400,
                 "omitted_size": 183,
-                "exported_type_count": 33,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "exported_type_count": 34,
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "24 <=> StratagemType_Autocannon",
+                    "type": "25 <=> StratagemType_Autocannon",
                     "id": 875551083,
                     "video_id": 3182975593,
                     "debug_name": "TEAM WEAPONS. AUTOMATIC CANNON",
@@ -13119,13 +13119,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "20 <=> 0x6011FA2B_Unknown_20"
                 },
                 {
                     "index": 1,
-                    "type": "78 <=> StratagemType_GrenadeLauncher",
+                    "type": "80 <=> StratagemType_GrenadeLauncher",
                     "id": 3343676429,
                     "video_id": 2719600676,
                     "debug_name": "TEAM WEAPONS. GRENADE LAUNCHER",
@@ -13262,13 +13262,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "15 <=> 0x6011FA2B_Unknown_15"
                 },
                 {
                     "index": 2,
-                    "type": "129 <=> StratagemType_De-Escalator",
+                    "type": "131 <=> StratagemType_De-Escalator",
                     "id": 153819019,
                     "video_id": 1079549052,
                     "debug_name": "TEAM WEAPONS. GRENADE LAUNCHER TACTICAL",
@@ -13405,13 +13405,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "15 <=> 0x6011FA2B_Unknown_15"
                 },
                 {
                     "index": 3,
-                    "type": "125 <=> StratagemType_BeltFedGrenadeLauncher",
+                    "type": "127 <=> StratagemType_BeltFedGrenadeLauncher",
                     "id": 512147393,
                     "video_id": 3948360446,
                     "debug_name": "TEAM WEAPONS. BELT FED GRENADE LAUNCHER",
@@ -13549,13 +13549,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "20 <=> 0x6011FA2B_Unknown_20"
                 },
                 {
                     "index": 4,
-                    "type": "54 <=> StratagemType_Railgun",
+                    "type": "56 <=> StratagemType_Railgun",
                     "id": 3078242205,
                     "video_id": 2727780022,
                     "debug_name": "TEAM WEAPONS. RAILGUN ",
@@ -13694,13 +13694,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "14 <=> 0x6011FA2B_Unknown_14"
                 },
                 {
                     "index": 5,
-                    "type": "111 <=> StratagemType_Speargun",
+                    "type": "113 <=> StratagemType_Speargun",
                     "id": 336693041,
                     "video_id": 2632959974,
                     "debug_name": "TEAM WEAPONS. HARPOON GUN ",
@@ -13839,13 +13839,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "14 <=> 0x6011FA2B_Unknown_14"
                 },
                 {
                     "index": 6,
-                    "type": "128 <=> StratagemType_Recoilless",
+                    "type": "130 <=> StratagemType_Recoilless",
                     "id": 1298599997,
                     "video_id": 2718204526,
                     "debug_name": "TEAM WEAPONS. RECOILLESS RIFLE",
@@ -13983,13 +13983,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "20 <=> 0x6011FA2B_Unknown_20"
                 },
                 {
                     "index": 7,
-                    "type": "61 <=> StratagemType_LaserCannon",
+                    "type": "63 <=> StratagemType_LaserCannon",
                     "id": 2822568285,
                     "video_id": 1468504979,
                     "debug_name": "TEAM WEAPONS. LASER CANNON",
@@ -14129,13 +14129,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "17 <=> 0x6011FA2B_Unknown_17"
                 },
                 {
                     "index": 8,
-                    "type": "147 <=> StratagemType_QuasarCannon",
+                    "type": "149 <=> StratagemType_QuasarCannon",
                     "id": 2625074523,
                     "video_id": 1803597048,
                     "debug_name": "TEAM WEAPONS. LASER PULSE CANNON",
@@ -14274,13 +14274,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "17 <=> 0x6011FA2B_Unknown_17"
                 },
                 {
                     "index": 9,
-                    "type": "139 <=> StratagemType_AntiMaterielRifle",
+                    "type": "141 <=> StratagemType_AntiMaterielRifle",
                     "id": 2207713849,
                     "video_id": 3756988628,
                     "debug_name": "TEAM WEAPONS. SNIPER",
@@ -14418,13 +14418,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "14 <=> 0x6011FA2B_Unknown_14"
                 },
                 {
                     "index": 10,
-                    "type": "145 <=> StratagemType_ExpendableAntiTank",
+                    "type": "147 <=> StratagemType_ExpendableAntiTank",
                     "id": 3413606544,
                     "video_id": 3409016668,
                     "debug_name": "TEAM WEAPONS. EXPENDABLE ANTI-TANK",
@@ -14563,13 +14563,158 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "19 <=> 0x6011FA2B_Unknown_19"
                 },
                 {
                     "index": 11,
-                    "type": "38 <=> StratagemType_ExpendableNapalmLauncher",
+                    "type": "15 <=> StratagemType_ExpendableAntiTank_Booster",
+                    "id": 3753216434,
+                    "video_id": 3409016668,
+                    "debug_name": "TEAM WEAPONS. EXPENDABLE ANTI-TANK (Booster)",
+                    "nui_name": "",
+                    "nui_desc": "",
+                    "name_upper": 2093520486,
+                    "name_cased": 1885509695,
+                    "description": 2066801016,
+                    "fluff": 3154833986,
+                    "loading_loc": 764869094,
+                    "category": "2 <=> StratagemCategoryType_HellpodDeployment",
+                    "button_combination": [
+                        "3 <=> StratagemButtonDirection_Down [↓]",
+                        "3 <=> StratagemButtonDirection_Down [↓]",
+                        "4 <=> StratagemButtonDirection_Left [←]",
+                        "1 <=> StratagemButtonDirection_Up [↑]",
+                        "1 <=> StratagemButtonDirection_Up [↑]"
+                    ],
+                    "use": 2,
+                    "spawn_time": 2.0,
+                    "spawn_radius": 0.0,
+                    "unk_float_0x005C": 0.0,
+                    "beacon_linger_time": 3.0,
+                    "extra_travel_time": 0.0,
+                    "cooldown_duration_success": 0.0,
+                    "cooldown_duration_fail": 0.0,
+                    "origin_type": "0 <=> StratagemOriginType_ShipSpecific",
+                    "call_in_type": "0 <=> StratagemCallInType_Throw",
+                    "call_in_logic_flags": 192,
+                    "call_in_logic_flags_detail": {
+                        "unk_bit_0": 0,
+                        "use_objective_position": 0,
+                        "objective_owner": 0,
+                        "host_confirmation": 0,
+                        "host_confirm_unique_instance": 0,
+                        "host_confirm_objective_stratagem_usage": 0,
+                        "blocked_by_stratagem_blocker": 1,
+                        "unk_bit_7": 1,
+                        "available_after_mission_end": 0
+                    },
+                    "objective_drop_requirement": "0 <=> StratagemObjectiveDropRequirement_None",
+                    "stratagem_flags_1": 1,
+                    "stratagem_flags_1_detail": {
+                        "mission_specific": 1,
+                        "selectable": 0
+                    },
+                    "unk_uint64_0x0088": "0",
+                    "triggers_war": 0,
+                    "cooldown_type": "1 <=> StratagemCooldownType_SharedTeam",
+                    "payload": [
+                        "992939827990506476",
+                        "8356509974227907605"
+                    ],
+                    "package": "0",
+                    "icon": "14925087547784141990",
+                    "hud_type": "2 <=> StratagemHUDType_Supply",
+                    "cost": 1,
+                    "enabled": 1,
+                    "depends_on": "0 <=> StratagemType_None",
+                    "additional_stratagem": "0 <=> StratagemType_None",
+                    "max_in_loadout": 0,
+                    "has_shared_uses_pool": 0,
+                    "beacon_color": "2 <=> StratagemBeaconColor_Blue",
+                    "ship_laser_pointer": 0,
+                    "ready_vo": 0,
+                    "denied_vo": 648592619,
+                    "confirmation_vo_owner": 213621228,
+                    "callout_vo": 1267079926,
+                    "off_cooldown_vo": 0,
+                    "damage_dealer": "0",
+                    "matching_support_weapon": 3413606544,
+                    "dlc_pack_id": 0,
+                    "is_clan_stratagem": 0,
+                    "info_flags": 69635,
+                    "info_flags_detail": {
+                        "support_weapon 支援武器": 1,
+                        "hellpod 绝地喷射舱": 1,
+                        "explosive 爆炸品": 0,
+                        "backpack 背包": 0,
+                        "orbital 轨道武器": 0,
+                        "vehicle 载具": 0,
+                        "fire 燃烧弹": 0,
+                        "aerial 飞鹰": 0,
+                        "turret 哨戒炮": 0,
+                        "straight_beacon 直信标 (游戏内无中译)": 0,
+                        "gas 腐蚀气体": 0,
+                        "light_antitank 重甲穿透": 0,
+                        "antitank 反坦克": 1,
+                        "lightantipersonnel 轻甲穿透": 0,
+                        "antipersonnel 中甲穿透": 0,
+                        "stationaryreload 固定填弹": 0,
+                        "expendable 消耗品": 1,
+                        "heat 高温": 0,
+                        "beam 激光束": 0,
+                        "charge 充能": 0,
+                        "unk_trait_20 未知特性1": 0,
+                        "unk_trait_21 未知特征2": 0,
+                        "unk_trait_22 未知特征3": 0,
+                        "melee 近战": 0,
+                        "one_handed 单手操作": 0,
+                        "guided 制导": 0,
+                        "sticky 粘性": 0,
+                        "arc 电弧": 0,
+                        "stun 眩晕弹": 0
+                    },
+                    "spottable_vo_line": 85101770,
+                    "shared_stratagem_upgrades_type": "0 <=> StratagemType_None",
+                    "shared_stratagem_upgrades_categories_flags": 0,
+                    "shared_stratagem_upgrades_categories_flags_detail": {
+                        "extra_uses": 0,
+                        "cooldown_reduction": 0,
+                        "cooldown_reduction_alternate": 0,
+                        "spawn_time_reduction": 0,
+                        "entity_delta": 0,
+                        "entity_swap": 0,
+                        "multi_hellpod": 0
+                    },
+                    "0xB6CAFF2E": [],
+                    "stratagem_flags_2": 0,
+                    "stratagem_flags_2_detail": {
+                        "use_alternate_cooldown": 0,
+                        "unk_bit_2": 0
+                    },
+                    "extra_hellpods": 0,
+                    "hellpod_target_offset": [],
+                    "hellpod_additional_rotation_in_tau": [],
+                    "equipment_tags": [
+                        119576005,
+                        4104165606,
+                        658390125,
+                        3591930318
+                    ],
+                    "customizations": [],
+                    "stratagem_flags_3": 2,
+                    "stratagem_flags_3_detail": {
+                        "allow_for_button_overlap": 0,
+                        "deploy_on_navmesh_only": 1
+                    },
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
+                    "0xB24E0C4B": [],
+                    "unk_enum_0x0188": "19 <=> 0x6011FA2B_Unknown_19"
+                },
+                {
+                    "index": 12,
+                    "type": "39 <=> StratagemType_ExpendableNapalmLauncher",
                     "id": 1813634375,
                     "video_id": 4086868936,
                     "debug_name": "TEAM WEAPONS. EXPENDABLE NAPALM LAUNCHER",
@@ -14708,13 +14853,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "19 <=> 0x6011FA2B_Unknown_19"
                 },
                 {
-                    "index": 12,
-                    "type": "15 <=> StratagemType_Leveller",
+                    "index": 13,
+                    "type": "16 <=> StratagemType_Leveller",
                     "id": 2934950455,
                     "video_id": 3530166978,
                     "debug_name": "TEAM WEAPONS. EXPENDABLE MASSIVE ROCKET LAUNCHER",
@@ -14853,12 +14998,12 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "19 <=> 0x6011FA2B_Unknown_19"
                 },
                 {
-                    "index": 13,
+                    "index": 14,
                     "type": "6 <=> StratagemType_Commando",
                     "id": 2232989803,
                     "video_id": 2720887372,
@@ -14998,13 +15143,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "19 <=> 0x6011FA2B_Unknown_19"
                 },
                 {
-                    "index": 14,
-                    "type": "110 <=> StratagemType_Flamethrower",
+                    "index": 15,
+                    "type": "112 <=> StratagemType_Flamethrower",
                     "id": 1432571981,
                     "video_id": 947794889,
                     "debug_name": "TEAM WEAPONS. FLAMETHROWER",
@@ -15142,13 +15287,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "16 <=> 0x6011FA2B_Unknown_16"
                 },
                 {
-                    "index": 15,
-                    "type": "31 <=> StratagemType_HeavyMachineGun",
+                    "index": 16,
+                    "type": "32 <=> StratagemType_HeavyMachineGun",
                     "id": 533318241,
                     "video_id": 2838332761,
                     "debug_name": "TEAM WEAPONS. HEAVY MACHINEGUN",
@@ -15286,13 +15431,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "13 <=> 0x6011FA2B_Unknown_13"
                 },
                 {
-                    "index": 16,
-                    "type": "90 <=> StratagemType_Machinegun",
+                    "index": 17,
+                    "type": "92 <=> StratagemType_Machinegun",
                     "id": 458198946,
                     "video_id": 2929112146,
                     "debug_name": "TEAM WEAPONS. MACHINEGUN",
@@ -15429,12 +15574,12 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "12 <=> 0x6011FA2B_Unknown_12"
                 },
                 {
-                    "index": 17,
+                    "index": 18,
                     "type": "13 <=> StratagemType_Stalwart",
                     "id": 14345846,
                     "video_id": 3390564477,
@@ -15570,13 +15715,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "13 <=> 0x6011FA2B_Unknown_13"
                 },
                 {
-                    "index": 18,
-                    "type": "97 <=> StratagemType_BulletStorm",
+                    "index": 19,
+                    "type": "99 <=> StratagemType_BulletStorm",
                     "id": 3288352984,
                     "video_id": 1527898184,
                     "debug_name": "TEAM WEAPONS. EXPENDABLE MACHINEGUN",
@@ -15714,13 +15859,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "19 <=> 0x6011FA2B_Unknown_19"
                 },
                 {
-                    "index": 19,
-                    "type": "52 <=> StratagemType_AirBurstRocket",
+                    "index": 20,
+                    "type": "54 <=> StratagemType_AirBurstRocket",
                     "id": 2007887745,
                     "video_id": 3672540179,
                     "debug_name": "TEAM WEAPONS. AIR BURST ROCKET LAUNCHER",
@@ -15859,12 +16004,12 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "20 <=> 0x6011FA2B_Unknown_20"
                 },
                 {
-                    "index": 20,
+                    "index": 21,
                     "type": "14 <=> StratagemType_C4_Backpack",
                     "id": 3748434442,
                     "video_id": 1978024925,
@@ -16000,13 +16145,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "21 <=> 0x6011FA2B_Unknown_21"
                 },
                 {
-                    "index": 21,
-                    "type": "87 <=> StratagemType_SoloSilo",
+                    "index": 22,
+                    "type": "89 <=> StratagemType_SoloSilo",
                     "id": 1337271929,
                     "video_id": 917491533,
                     "debug_name": "TEAM WEAPONS. MINI MISSILE SILO",
@@ -16143,13 +16288,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "19 <=> 0x6011FA2B_Unknown_19"
                 },
                 {
-                    "index": 22,
-                    "type": "73 <=> StratagemType_Spear",
+                    "index": 23,
+                    "type": "75 <=> StratagemType_Spear",
                     "id": 3923676543,
                     "video_id": 3243376618,
                     "debug_name": "TEAM WEAPONS. SPEAR",
@@ -16287,13 +16432,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "20 <=> 0x6011FA2B_Unknown_20"
                 },
                 {
-                    "index": 23,
-                    "type": "95 <=> StratagemType_WASP",
+                    "index": 24,
+                    "type": "97 <=> StratagemType_WASP",
                     "id": 890972990,
                     "video_id": 2572809942,
                     "debug_name": "TEAM WEAPONS. WASP",
@@ -16431,13 +16576,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "20 <=> 0x6011FA2B_Unknown_20"
                 },
                 {
-                    "index": 24,
-                    "type": "66 <=> StratagemType_ArcThrower",
+                    "index": 25,
+                    "type": "68 <=> StratagemType_ArcThrower",
                     "id": 992079466,
                     "video_id": 733709352,
                     "debug_name": "TEAM WEAPONS. ARC THROWER ",
@@ -16577,13 +16722,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "18 <=> 0x6011FA2B_Unknown_18"
                 },
                 {
-                    "index": 25,
-                    "type": "59 <=> StratagemType_Sterilizer",
+                    "index": 26,
+                    "type": "61 <=> StratagemType_Sterilizer",
                     "id": 4152191751,
                     "video_id": 2841659442,
                     "debug_name": "TEAM WEAPONS. CHEM GUN",
@@ -16721,13 +16866,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "16 <=> 0x6011FA2B_Unknown_16"
                 },
                 {
-                    "index": 26,
-                    "type": "112 <=> StratagemType_OneTrueFlag",
+                    "index": 27,
+                    "type": "114 <=> StratagemType_OneTrueFlag",
                     "id": 2265180087,
                     "video_id": 790127675,
                     "debug_name": "TEAM WEAPONS. MELEE FLAG",
@@ -16864,13 +17009,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "11 <=> 0x6011FA2B_Unknown_11"
                 },
                 {
-                    "index": 27,
-                    "type": "49 <=> StratagemType_DefoliationTool",
+                    "index": 28,
+                    "type": "51 <=> StratagemType_DefoliationTool",
                     "id": 3572024208,
                     "video_id": 826246738,
                     "debug_name": "TEAM WEAPONS. CHAINSAW GREATSWORD",
@@ -17007,13 +17152,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "11 <=> 0x6011FA2B_Unknown_11"
                 },
                 {
-                    "index": 28,
-                    "type": "98 <=> StratagemType_BreachingHammer",
+                    "index": 29,
+                    "type": "100 <=> StratagemType_BreachingHammer",
                     "id": 3330450692,
                     "video_id": 3342204955,
                     "debug_name": "TEAM WEAPONS. SLEDGE HAMMER",
@@ -17150,13 +17295,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "11 <=> 0x6011FA2B_Unknown_11"
                 },
                 {
-                    "index": 29,
-                    "type": "44 <=> StratagemType_Epoch",
+                    "index": 30,
+                    "type": "45 <=> StratagemType_Epoch",
                     "id": 4261593827,
                     "video_id": 3023735307,
                     "debug_name": "TEAM WEAPONS. PLASMA BLASTER",
@@ -17295,13 +17440,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "15 <=> 0x6011FA2B_Unknown_15"
                 },
                 {
-                    "index": 30,
-                    "type": "108 <=> StratagemType_Maxigun",
+                    "index": 31,
+                    "type": "110 <=> StratagemType_Maxigun",
                     "id": 3455841218,
                     "video_id": 1386352772,
                     "debug_name": "TEAM WEAPONS. MINIGUN",
@@ -17439,13 +17584,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "20 <=> 0x6011FA2B_Unknown_20"
                 },
                 {
-                    "index": 31,
-                    "type": "85 <=> StratagemType_Cremator",
+                    "index": 32,
+                    "type": "87 <=> StratagemType_Cremator",
                     "id": 2271469939,
                     "video_id": 1807067877,
                     "debug_name": "TEAM WEAPONS. HEAVY FLAMETHROWER",
@@ -17583,13 +17728,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "20 <=> 0x6011FA2B_Unknown_20"
                 },
                 {
-                    "index": 32,
-                    "type": "79 <=> StratagemType_Meltagun",
+                    "index": 33,
+                    "type": "81 <=> StratagemType_Meltagun",
                     "id": 774795224,
                     "video_id": 3838733730,
                     "debug_name": "TEAM WEAPONS. SHARK ENERGY WEAPON",
@@ -17729,7 +17874,7 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "15 <=> 0x6011FA2B_Unknown_15"
                 }
@@ -17742,13 +17887,13 @@
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 9,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "119 <=> StratagemType_TurretMachinegun",
+                    "type": "121 <=> StratagemType_TurretMachinegun",
                     "id": 4239785897,
                     "video_id": 15262472,
                     "debug_name": "SENTRYS. MACHINEGUN",
@@ -17885,13 +18030,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "27 <=> 0x6011FA2B_Unknown_27"
+                    "unk_enum_0x0188": "29 <=> 0x6011FA2B_Unknown_29"
                 },
                 {
                     "index": 1,
-                    "type": "64 <=> StratagemType_TurretGatling",
+                    "type": "66 <=> StratagemType_TurretGatling",
                     "id": 623391597,
                     "video_id": 1470935605,
                     "debug_name": "SENTRYS. GATLING",
@@ -18026,13 +18171,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "27 <=> 0x6011FA2B_Unknown_27"
+                    "unk_enum_0x0188": "29 <=> 0x6011FA2B_Unknown_29"
                 },
                 {
                     "index": 2,
-                    "type": "115 <=> StratagemType_TurretMortar",
+                    "type": "117 <=> StratagemType_TurretMortar",
                     "id": 1582497738,
                     "video_id": 2169791102,
                     "debug_name": "SENTRYS. MORTAR",
@@ -18170,13 +18315,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "30 <=> 0x6011FA2B_Unknown_30"
+                    "unk_enum_0x0188": "32 <=> 0x6011FA2B_Unknown_32"
                 },
                 {
                     "index": 3,
-                    "type": "43 <=> StratagemType_TurretMortarStaticField",
+                    "type": "44 <=> StratagemType_TurretMortarStaticField",
                     "id": 3085503322,
                     "video_id": 3593926172,
                     "debug_name": "SENTRYS. MORTAR STATICFIELD",
@@ -18313,13 +18458,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "30 <=> 0x6011FA2B_Unknown_30"
+                    "unk_enum_0x0188": "32 <=> 0x6011FA2B_Unknown_32"
                 },
                 {
                     "index": 4,
-                    "type": "50 <=> StratagemType_TurretMortarGas",
+                    "type": "52 <=> StratagemType_TurretMortarGas",
                     "id": 3183339606,
                     "video_id": 157635013,
                     "debug_name": "SENTRYS. MORTAR GAS",
@@ -18456,13 +18601,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "30 <=> 0x6011FA2B_Unknown_30"
+                    "unk_enum_0x0188": "32 <=> 0x6011FA2B_Unknown_32"
                 },
                 {
                     "index": 5,
-                    "type": "51 <=> StratagemType_TurretRocket",
+                    "type": "53 <=> StratagemType_TurretRocket",
                     "id": 717707279,
                     "video_id": 1328508526,
                     "debug_name": "SENTRYS. ROCKET",
@@ -18600,13 +18745,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "29 <=> 0x6011FA2B_Unknown_29"
+                    "unk_enum_0x0188": "31 <=> 0x6011FA2B_Unknown_31"
                 },
                 {
                     "index": 6,
-                    "type": "135 <=> StratagemType_TurretAutocannon",
+                    "type": "137 <=> StratagemType_TurretAutocannon",
                     "id": 854563507,
                     "video_id": 109485570,
                     "debug_name": "SENTRYS. AUTOCANNON",
@@ -18745,9 +18890,9 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "29 <=> 0x6011FA2B_Unknown_29"
+                    "unk_enum_0x0188": "31 <=> 0x6011FA2B_Unknown_31"
                 },
                 {
                     "index": 7,
@@ -18890,13 +19035,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "28 <=> 0x6011FA2B_Unknown_28"
+                    "unk_enum_0x0188": "30 <=> 0x6011FA2B_Unknown_30"
                 },
                 {
                     "index": 8,
-                    "type": "22 <=> StratagemType_TurretLaserCannon",
+                    "type": "23 <=> StratagemType_TurretLaserCannon",
                     "id": 960389145,
                     "video_id": 1783577870,
                     "debug_name": "SENTRIES. LASER CANNON SENTRY",
@@ -19035,9 +19180,9 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "28 <=> 0x6011FA2B_Unknown_28"
+                    "unk_enum_0x0188": "30 <=> 0x6011FA2B_Unknown_30"
                 }
             ]
         }
@@ -19048,13 +19193,13 @@
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 2,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "91 <=> StratagemType_Tutorial_ReinforcementBeacon",
+                    "type": "93 <=> StratagemType_Tutorial_ReinforcementBeacon",
                     "id": 863373678,
                     "video_id": 0,
                     "debug_name": "TUTORIAL REINFORCEMENT BEACON",
@@ -19188,13 +19333,13 @@
                         "allow_for_button_overlap": 1,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
                     "index": 1,
-                    "type": "39 <=> StratagemType_Tutorial_ExtractBeacon",
+                    "type": "40 <=> StratagemType_Tutorial_ExtractBeacon",
                     "id": 2230051894,
                     "video_id": 0,
                     "debug_name": "[TUTORIAL] EXTRACTION",
@@ -19330,7 +19475,7 @@
                         "allow_for_button_overlap": 1,
                         "deploy_on_navmesh_only": 0
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 }
@@ -19342,14 +19487,14 @@
             "_metadata": {
                 "struct_size": 400,
                 "omitted_size": 183,
-                "exported_type_count": 12,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "exported_type_count": 13,
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "103 <=> StratagemType_FRV",
+                    "type": "105 <=> StratagemType_FRV",
                     "id": 3935317067,
                     "video_id": 4157955717,
                     "debug_name": "VEHICLES. FAST RECON VEHICLE (FRV)",
@@ -19487,11 +19632,11 @@
                     },
                     "payload_unit_customization": "7 <=> UnitCustomizationCollectionType_FRV",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "25 <=> 0x6011FA2B_Unknown_25"
+                    "unk_enum_0x0188": "26 <=> 0x6011FA2B_Unknown_26"
                 },
                 {
                     "index": 1,
-                    "type": "25 <=> StratagemType_FRV_Supply",
+                    "type": "26 <=> StratagemType_FRV_Supply",
                     "id": 2636699686,
                     "video_id": 2496690503,
                     "debug_name": "VEHICLES. FAST RECON VEHICLE (Resupply Auto Turret)",
@@ -19629,11 +19774,11 @@
                     },
                     "payload_unit_customization": "9 <=> UnitCustomizationCollectionType_FRV_Supply",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "25 <=> 0x6011FA2B_Unknown_25"
+                    "unk_enum_0x0188": "26 <=> 0x6011FA2B_Unknown_26"
                 },
                 {
                     "index": 2,
-                    "type": "133 <=> StratagemType_FRV_Incinerator",
+                    "type": "135 <=> StratagemType_FRV_Incinerator",
                     "id": 2846457047,
                     "video_id": 273555367,
                     "debug_name": "VEHICLES. FAST RECON VEHICLE (Ramming Flamethrower)",
@@ -19771,11 +19916,11 @@
                     },
                     "payload_unit_customization": "8 <=> UnitCustomizationCollectionType_FRV_Incinerator",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "25 <=> 0x6011FA2B_Unknown_25"
+                    "unk_enum_0x0188": "26 <=> 0x6011FA2B_Unknown_26"
                 },
                 {
                     "index": 3,
-                    "type": "26 <=> StratagemType_PatriotExosuit",
+                    "type": "27 <=> StratagemType_PatriotExosuit",
                     "id": 295629711,
                     "video_id": 3243906746,
                     "debug_name": "VEHICLES. COMBAT WALKER",
@@ -19915,7 +20060,7 @@
                     },
                     "payload_unit_customization": "3 <=> UnitCustomizationCollectionType_CombatWalker",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "26 <=> 0x6011FA2B_Unknown_26"
+                    "unk_enum_0x0188": "28 <=> 0x6011FA2B_Unknown_28"
                 },
                 {
                     "index": 4,
@@ -20057,11 +20202,11 @@
                     },
                     "payload_unit_customization": "4 <=> UnitCustomizationCollectionType_CombatWalkerEmancipator",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "26 <=> 0x6011FA2B_Unknown_26"
+                    "unk_enum_0x0188": "28 <=> 0x6011FA2B_Unknown_28"
                 },
                 {
                     "index": 5,
-                    "type": "89 <=> StratagemType_LumbererExosuit",
+                    "type": "91 <=> StratagemType_LumbererExosuit",
                     "id": 3086305673,
                     "video_id": 3557641311,
                     "debug_name": "VEHICLES. COMBAT WALKER LUMBERER",
@@ -20201,11 +20346,11 @@
                     },
                     "payload_unit_customization": "5 <=> UnitCustomizationCollectionType_CombatWalkerLumberer",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "26 <=> 0x6011FA2B_Unknown_26"
+                    "unk_enum_0x0188": "28 <=> 0x6011FA2B_Unknown_28"
                 },
                 {
                     "index": 6,
-                    "type": "86 <=> StratagemType_BreakthroughExosuit",
+                    "type": "88 <=> StratagemType_BreakthroughExosuit",
                     "id": 563851843,
                     "video_id": 1111780085,
                     "debug_name": "VEHICLES. COMBAT WALKER BREACHER",
@@ -20343,11 +20488,11 @@
                     },
                     "payload_unit_customization": "6 <=> UnitCustomizationCollectionType_CombatWalkerBreakthrough",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "26 <=> 0x6011FA2B_Unknown_26"
+                    "unk_enum_0x0188": "28 <=> 0x6011FA2B_Unknown_28"
                 },
                 {
                     "index": 7,
-                    "type": "114 <=> StratagemType_ClanStationSEAFSquad",
+                    "type": "116 <=> StratagemType_ClanStationSEAFSquad",
                     "id": 1449420233,
                     "video_id": 0,
                     "debug_name": "SEAF Squad",
@@ -20482,7 +20627,7 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
@@ -20628,11 +20773,155 @@
                     },
                     "payload_unit_customization": "10 <=> UnitCustomizationCollectionType_BastionTank",
                     "0xB24E0C4B": [],
-                    "unk_enum_0x0188": "25 <=> 0x6011FA2B_Unknown_25"
+                    "unk_enum_0x0188": "27 <=> 0x6011FA2B_Unknown_27"
                 },
                 {
                     "index": 9,
-                    "type": "46 <=> StratagemType_Tank_Reload_HE",
+                    "type": "50 <=> StratagemType_StormTank",
+                    "id": 460870572,
+                    "video_id": 2405106895,
+                    "debug_name": "VEHICLES. STORM(tank)",
+                    "nui_name": "",
+                    "nui_desc": "",
+                    "name_upper": 1825935594,
+                    "name_cased": 2149115198,
+                    "description": 4267625524,
+                    "fluff": 2121474545,
+                    "loading_loc": 2229511592,
+                    "category": "3 <=> StratagemCategoryType_TactialAirInsertion",
+                    "button_combination": [
+                        "4 <=> StratagemButtonDirection_Left [←]",
+                        "3 <=> StratagemButtonDirection_Down [↓]",
+                        "2 <=> StratagemButtonDirection_Right [→]",
+                        "3 <=> StratagemButtonDirection_Down [↓]",
+                        "4 <=> StratagemButtonDirection_Left [←]",
+                        "3 <=> StratagemButtonDirection_Down [↓]",
+                        "1 <=> StratagemButtonDirection_Up [↑]",
+                        "4 <=> StratagemButtonDirection_Left [←]",
+                        "2 <=> StratagemButtonDirection_Right [→]"
+                    ],
+                    "use": 4294967295,
+                    "spawn_time": 0.0,
+                    "spawn_radius": 5.0,
+                    "unk_float_0x005C": 25.0,
+                    "beacon_linger_time": 13.0,
+                    "extra_travel_time": 10.5,
+                    "cooldown_duration_success": 780.0,
+                    "cooldown_duration_fail": 0.0,
+                    "origin_type": "0 <=> StratagemOriginType_ShipSpecific",
+                    "call_in_type": "0 <=> StratagemCallInType_Throw",
+                    "call_in_logic_flags": 192,
+                    "call_in_logic_flags_detail": {
+                        "unk_bit_0": 0,
+                        "use_objective_position": 0,
+                        "objective_owner": 0,
+                        "host_confirmation": 0,
+                        "host_confirm_unique_instance": 0,
+                        "host_confirm_objective_stratagem_usage": 0,
+                        "blocked_by_stratagem_blocker": 1,
+                        "unk_bit_7": 1,
+                        "available_after_mission_end": 0
+                    },
+                    "objective_drop_requirement": "0 <=> StratagemObjectiveDropRequirement_None",
+                    "stratagem_flags_1": 3,
+                    "stratagem_flags_1_detail": {
+                        "mission_specific": 1,
+                        "selectable": 1
+                    },
+                    "unk_uint64_0x0088": "0",
+                    "triggers_war": 0,
+                    "cooldown_type": "0 <=> StratagemCooldownType_Individual",
+                    "payload": [
+                        "12738988949818115065",
+                        "8484362704672433843"
+                    ],
+                    "package": "7344939414368582836",
+                    "icon": "16862558693802040848",
+                    "hud_type": "2 <=> StratagemHUDType_Supply",
+                    "cost": 1,
+                    "enabled": 1,
+                    "depends_on": "0 <=> StratagemType_None",
+                    "additional_stratagem": "0 <=> StratagemType_None",
+                    "max_in_loadout": 0,
+                    "has_shared_uses_pool": 0,
+                    "beacon_color": "2 <=> StratagemBeaconColor_Blue",
+                    "ship_laser_pointer": 0,
+                    "ready_vo": 0,
+                    "denied_vo": 648592619,
+                    "confirmation_vo_owner": 2755542361,
+                    "callout_vo": 553926517,
+                    "off_cooldown_vo": 0,
+                    "damage_dealer": "0",
+                    "matching_support_weapon": 0,
+                    "dlc_pack_id": 0,
+                    "is_clan_stratagem": 0,
+                    "info_flags": 4200480,
+                    "info_flags_detail": {
+                        "support_weapon 支援武器": 0,
+                        "hellpod 绝地喷射舱": 0,
+                        "explosive 爆炸品": 0,
+                        "backpack 背包": 0,
+                        "orbital 轨道武器": 0,
+                        "vehicle 载具": 1,
+                        "fire 燃烧弹": 0,
+                        "aerial 飞鹰": 0,
+                        "turret 哨戒炮": 0,
+                        "straight_beacon 直信标 (游戏内无中译)": 0,
+                        "gas 腐蚀气体": 0,
+                        "light_antitank 重甲穿透": 1,
+                        "antitank 反坦克": 1,
+                        "lightantipersonnel 轻甲穿透": 0,
+                        "antipersonnel 中甲穿透": 0,
+                        "stationaryreload 固定填弹": 0,
+                        "expendable 消耗品": 0,
+                        "heat 高温": 0,
+                        "beam 激光束": 0,
+                        "charge 充能": 0,
+                        "unk_trait_20 未知特性1": 0,
+                        "unk_trait_21 未知特征2": 0,
+                        "unk_trait_22 未知特征3": 1,
+                        "melee 近战": 0,
+                        "one_handed 单手操作": 0,
+                        "guided 制导": 0,
+                        "sticky 粘性": 0,
+                        "arc 电弧": 0,
+                        "stun 眩晕弹": 0
+                    },
+                    "spottable_vo_line": 3318106385,
+                    "shared_stratagem_upgrades_type": "0 <=> StratagemType_None",
+                    "shared_stratagem_upgrades_categories_flags": 0,
+                    "shared_stratagem_upgrades_categories_flags_detail": {
+                        "extra_uses": 0,
+                        "cooldown_reduction": 0,
+                        "cooldown_reduction_alternate": 0,
+                        "spawn_time_reduction": 0,
+                        "entity_delta": 0,
+                        "entity_swap": 0,
+                        "multi_hellpod": 0
+                    },
+                    "0xB6CAFF2E": [],
+                    "stratagem_flags_2": 0,
+                    "stratagem_flags_2_detail": {
+                        "use_alternate_cooldown": 0,
+                        "unk_bit_2": 0
+                    },
+                    "extra_hellpods": 0,
+                    "hellpod_target_offset": [],
+                    "hellpod_additional_rotation_in_tau": [],
+                    "equipment_tags": [],
+                    "customizations": [],
+                    "stratagem_flags_3": 2,
+                    "stratagem_flags_3_detail": {
+                        "allow_for_button_overlap": 0,
+                        "deploy_on_navmesh_only": 1
+                    },
+                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_StormTank",
+                    "0xB24E0C4B": [],
+                    "unk_enum_0x0188": "27 <=> 0x6011FA2B_Unknown_27"
+                },
+                {
+                    "index": 10,
+                    "type": "47 <=> StratagemType_Tank_Reload_HE",
                     "id": 101457192,
                     "video_id": 0,
                     "debug_name": "TANK. TANK RELOAD HE",
@@ -20764,13 +21053,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
-                    "index": 10,
-                    "type": "93 <=> StratagemType_Tank_Reload_AT",
+                    "index": 11,
+                    "type": "95 <=> StratagemType_Tank_Reload_AT",
                     "id": 3702563421,
                     "video_id": 0,
                     "debug_name": "TANK. TANK RELOAD AT",
@@ -20902,13 +21191,13 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 },
                 {
-                    "index": 11,
-                    "type": "58 <=> StratagemType_Tank_Reload_Canister",
+                    "index": 12,
+                    "type": "60 <=> StratagemType_Tank_Reload_Canister",
                     "id": 4264661046,
                     "video_id": 0,
                     "debug_name": "TANK. TANK RELOAD CANISTER",
@@ -21040,7 +21329,7 @@
                         "allow_for_button_overlap": 0,
                         "deploy_on_navmesh_only": 1
                     },
-                    "payload_unit_customization": "11 <=> UnitCustomizationCollectionType_Count",
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "0 <=> 0x6011FA2B_Unknown_0"
                 }

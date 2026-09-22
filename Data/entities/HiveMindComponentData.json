@@ -1,11 +1,11 @@
 {
     "_metadata": {
-        "struct_size": 1080,
+        "struct_size": 1084,
         "omitted_size": 6,
         "exported_entity_count": 19,
         "matched_bilingual_hash_count": 0,
-        "patch_date": "2026-08-12",
-        "game_version": "1.007.000"
+        "patch_date": "2026-09-22",
+        "game_version": "1.007.100"
     },
     "entities": [
         {
@@ -445,7 +445,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 0
+                "unk_bool_0x0437": 0,
+                "unk_float_0x0438": 1.0
             }
         },
         {
@@ -885,7 +886,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 0
+                "unk_bool_0x0437": 0,
+                "unk_float_0x0438": 1.0
             }
         },
         {
@@ -1325,7 +1327,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 1
+                "unk_bool_0x0437": 1,
+                "unk_float_0x0438": 1.0
             }
         },
         {
@@ -1765,7 +1768,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 1
+                "unk_bool_0x0437": 1,
+                "unk_float_0x0438": 1.0
             }
         },
         {
@@ -2205,7 +2209,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 0
+                "unk_bool_0x0437": 0,
+                "unk_float_0x0438": 1.0
             }
         },
         {
@@ -2645,7 +2650,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 0
+                "unk_bool_0x0437": 0,
+                "unk_float_0x0438": 1.0
             }
         },
         {
@@ -3085,7 +3091,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 1
+                "unk_bool_0x0437": 1,
+                "unk_float_0x0438": 1.0
             }
         },
         {
@@ -3525,7 +3532,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 1
+                "unk_bool_0x0437": 1,
+                "unk_float_0x0438": 1.0
             }
         },
         {
@@ -3965,7 +3973,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 1
+                "unk_bool_0x0437": 1,
+                "unk_float_0x0438": 1.0
             }
         },
         {
@@ -4405,7 +4414,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 1
+                "unk_bool_0x0437": 1,
+                "unk_float_0x0438": 1.0
             }
         },
         {
@@ -4845,7 +4855,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 1
+                "unk_bool_0x0437": 1,
+                "unk_float_0x0438": 1.0
             }
         },
         {
@@ -5285,7 +5296,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 1
+                "unk_bool_0x0437": 1,
+                "unk_float_0x0438": 1.0
             }
         },
         {
@@ -5725,7 +5737,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 1
+                "unk_bool_0x0437": 1,
+                "unk_float_0x0438": 1.0
             }
         },
         {
@@ -6165,7 +6178,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 1
+                "unk_bool_0x0437": 1,
+                "unk_float_0x0438": 1.0
             }
         },
         {
@@ -6605,7 +6619,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 0
+                "unk_bool_0x0437": 0,
+                "unk_float_0x0438": 1.0
             }
         },
         {
@@ -7045,7 +7060,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 1
+                "unk_bool_0x0437": 1,
+                "unk_float_0x0438": 1.0
             }
         },
         {
@@ -7485,7 +7501,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 1
+                "unk_bool_0x0437": 1,
+                "unk_float_0x0438": 1.0
             }
         },
         {
@@ -7925,7 +7942,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 1
+                "unk_bool_0x0437": 1,
+                "unk_float_0x0438": 1.0
             }
         },
         {
@@ -8365,7 +8383,8 @@
                 "mission_time_start_paused": 0,
                 "wild_encounters_enabled": 1,
                 "unk_bool_0x0436": 1,
-                "unk_bool_0x0437": 1
+                "unk_bool_0x0437": 1,
+                "unk_float_0x0438": 1.0
             }
         }
     ]

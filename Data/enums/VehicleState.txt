@@ -1,0 +1,4 @@
+VehicleState_None
+VehicleState_Driving_Default
+VehicleState_Combat_Walker_Default
+VehicleState_Shuttle_Default

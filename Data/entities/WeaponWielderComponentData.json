@@ -2,10 +2,10 @@
     "_metadata": {
         "struct_size": 36,
         "omitted_size": 3,
-        "exported_entity_count": 218,
+        "exported_entity_count": 219,
         "matched_bilingual_hash_count": 198,
-        "patch_date": "2026-08-12",
-        "game_version": "1.007.000"
+        "patch_date": "2026-09-22",
+        "game_version": "1.007.100"
     },
     "entities": [
         {
@@ -5097,11 +5097,35 @@
             }
         },
         {
+            "0xFFB4A0F6A52719E1": {
+                "hash": "18425528956672743905",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 212,
+                "recoil_multiplier": 0.0,
+                "aim_interpolation_speed": 3.140000104904175,
+                "sway_multiplier": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sway_frequency_multiplier": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "correct_world_aim_position": 0,
+                "world_aim_position_as_target": 0,
+                "aim_use_interpolation": 0,
+                "smooth_aim_constraint": 0,
+                "use_animation_recoil": 0,
+                "smooth_aim_constraint_limit": 0.30000001192092896
+            }
+        },
+        {
             "0x9F57782F00E6ED20": {
                 "hash": "11481777918278298912",
                 "name": "Incendiary Trooper",
                 "name_zh": "装甲兵（炽灼部队）",
-                "index": 212,
+                "index": 213,
                 "recoil_multiplier": 1.0,
                 "aim_interpolation_speed": 3.140000104904175,
                 "sway_multiplier": {
@@ -5125,7 +5149,7 @@
                 "hash": "16610351617142216522",
                 "name": "Incendiary Raider",
                 "name_zh": "奇袭者（炽灼部队）",
-                "index": 213,
+                "index": 214,
                 "recoil_multiplier": 1.0,
                 "aim_interpolation_speed": 3.140000104904175,
                 "sway_multiplier": {
@@ -5149,7 +5173,7 @@
                 "hash": "3031503431338798614",
                 "name": "Rocket Raider",
                 "name_zh": "火箭奇袭者",
-                "index": 214,
+                "index": 215,
                 "recoil_multiplier": 0.6000000238418579,
                 "aim_interpolation_speed": 3.140000104904175,
                 "sway_multiplier": {
@@ -5173,7 +5197,7 @@
                 "hash": "8315931884919593616",
                 "name": "Resupply Pod AR-23",
                 "name_zh": "补给上的解放者",
-                "index": 215,
+                "index": 216,
                 "recoil_multiplier": 1.0,
                 "aim_interpolation_speed": 3.140000104904175,
                 "sway_multiplier": {
@@ -5197,7 +5221,7 @@
                 "hash": "6113742425058627513",
                 "name": "A/AC-8 Autocannon Sentry",
                 "name_zh": "A/AC-8 自动哨戒炮",
-                "index": 216,
+                "index": 217,
                 "recoil_multiplier": 1.0,
                 "aim_interpolation_speed": 3.140000104904175,
                 "sway_multiplier": {
@@ -5221,7 +5245,7 @@
                 "hash": "5617149288754513915",
                 "name": "M-103 Supply FRV AR Sentry",
                 "name_zh": "M-103 补给型 解放者炮塔",
-                "index": 217,
+                "index": 218,
                 "recoil_multiplier": 1.0,
                 "aim_interpolation_speed": 3.140000104904175,
                 "sway_multiplier": {
