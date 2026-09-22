@@ -1,0 +1,677 @@
+{
+    "_metadata": {
+        "struct_size": 76,
+        "omitted_size": 5,
+        "exported_entity_count": 19,
+        "matched_bilingual_hash_count": 18,
+        "patch_date": "2026-09-22",
+        "game_version": "1.007.100"
+    },
+    "entities": [
+        {
+            "0xCED70B42C32CBED1": {
+                "hash": "14904393873176182481",
+                "name": "Rupture Spewer Acid Grenade",
+                "name_zh": "爆裂喷涌虫 酸液投掷物",
+                "index": 0,
+                "unk_enum_0x0000": "0 <=> 0xD79FD938_Unknown_0",
+                "unk_bool_0x0004": 0,
+                "unk_bool_0x0005": 0,
+                "unk_bool_0x0006": 0,
+                "unk_struct_0x0008": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_bool_0x0020": 0,
+                "unk_bool_0x0021": 0,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 0,
+                "on_stick_audio_event": 0,
+                "damage_type": "0 <=> DamageInfoType_Unknown_0",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "47 <=> SurfaceImpactType_Unknown_47",
+                "unk_uint32_0x0038": 3301478587,
+                "unk_ability_1": "0 <=> AbilityId_Unknown_0",
+                "unk_ability_2": "0 <=> AbilityId_Unknown_0",
+                "unk_bool_0x0044": 0,
+                "unk_uint32_0x0048": 180.0
+            }
+        },
+        {
+            "0xCCFAE6D4A601C741": {
+                "hash": "14770371728907552577",
+                "name": "Snowball",
+                "name_zh": "雪球",
+                "index": 1,
+                "unk_enum_0x0000": "0 <=> 0xD79FD938_Unknown_0",
+                "unk_bool_0x0004": 0,
+                "unk_bool_0x0005": 0,
+                "unk_bool_0x0006": 0,
+                "unk_struct_0x0008": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_bool_0x0020": 0,
+                "unk_bool_0x0021": 0,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 0,
+                "on_stick_audio_event": 0,
+                "damage_type": "0 <=> DamageInfoType_Unknown_0",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "47 <=> SurfaceImpactType_Unknown_47",
+                "unk_uint32_0x0038": 3301478587,
+                "unk_ability_1": "0 <=> AbilityId_Unknown_0",
+                "unk_ability_2": "0 <=> AbilityId_Unknown_0",
+                "unk_bool_0x0044": 0,
+                "unk_uint32_0x0048": 180.0
+            }
+        },
+        {
+            "0xDB922A7AFC42894B": {
+                "hash": "15821755148612569419",
+                "name": "G-31 Arc (Model)",
+                "name_zh": "G-31 电弧雷（投掷物，模型）",
+                "index": 2,
+                "unk_enum_0x0000": "0 <=> 0xD79FD938_Unknown_0",
+                "unk_bool_0x0004": 0,
+                "unk_bool_0x0005": 0,
+                "unk_bool_0x0006": 0,
+                "unk_struct_0x0008": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_bool_0x0020": 0,
+                "unk_bool_0x0021": 0,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 0,
+                "on_stick_audio_event": 0,
+                "damage_type": "0 <=> DamageInfoType_Unknown_0",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "47 <=> SurfaceImpactType_Unknown_47",
+                "unk_uint32_0x0038": 3301478587,
+                "unk_ability_1": "0 <=> AbilityId_Unknown_0",
+                "unk_ability_2": "0 <=> AbilityId_Unknown_0",
+                "unk_bool_0x0044": 0,
+                "unk_uint32_0x0048": 180.0
+            }
+        },
+        {
+            "0x46333FC9E3D4BD34": {
+                "hash": "5058456942810545460",
+                "name": "G-48 Giga Grenade (Model)",
+                "name_zh": "G-48 千兆级榴弹（投掷物，模型）",
+                "index": 3,
+                "unk_enum_0x0000": "0 <=> 0xD79FD938_Unknown_0",
+                "unk_bool_0x0004": 0,
+                "unk_bool_0x0005": 0,
+                "unk_bool_0x0006": 0,
+                "unk_struct_0x0008": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_bool_0x0020": 0,
+                "unk_bool_0x0021": 0,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 0,
+                "on_stick_audio_event": 0,
+                "damage_type": "0 <=> DamageInfoType_Unknown_0",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "47 <=> SurfaceImpactType_Unknown_47",
+                "unk_uint32_0x0038": 3301478587,
+                "unk_ability_1": "0 <=> AbilityId_Unknown_0",
+                "unk_ability_2": "0 <=> AbilityId_Unknown_0",
+                "unk_bool_0x0044": 0,
+                "unk_uint32_0x0048": 180.0
+            }
+        },
+        {
+            "0x7686544F539BB9B7": {
+                "hash": "8540606443036588471",
+                "name": "G-16 Impact (Model)",
+                "name_zh": "G-16 冲击弹（投掷物，模型）",
+                "index": 4,
+                "unk_enum_0x0000": "0 <=> 0xD79FD938_Unknown_0",
+                "unk_bool_0x0004": 0,
+                "unk_bool_0x0005": 0,
+                "unk_bool_0x0006": 0,
+                "unk_struct_0x0008": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_bool_0x0020": 0,
+                "unk_bool_0x0021": 0,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 0,
+                "on_stick_audio_event": 0,
+                "damage_type": "0 <=> DamageInfoType_Unknown_0",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "47 <=> SurfaceImpactType_Unknown_47",
+                "unk_uint32_0x0038": 3301478587,
+                "unk_ability_1": "0 <=> AbilityId_Unknown_0",
+                "unk_ability_2": "0 <=> AbilityId_Unknown_0",
+                "unk_bool_0x0044": 0,
+                "unk_uint32_0x0048": 180.0
+            }
+        },
+        {
+            "0xDAB81B0D80B511C7": {
+                "hash": "15760376640790925767",
+                "name": "G-89 Smokescreen (Model)",
+                "name_zh": "G-89 烟幕（投掷物，模型）",
+                "index": 5,
+                "unk_enum_0x0000": "0 <=> 0xD79FD938_Unknown_0",
+                "unk_bool_0x0004": 0,
+                "unk_bool_0x0005": 0,
+                "unk_bool_0x0006": 0,
+                "unk_struct_0x0008": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_bool_0x0020": 0,
+                "unk_bool_0x0021": 0,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 0,
+                "on_stick_audio_event": 0,
+                "damage_type": "0 <=> DamageInfoType_Unknown_0",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "47 <=> SurfaceImpactType_Unknown_47",
+                "unk_uint32_0x0038": 3301478587,
+                "unk_ability_1": "0 <=> AbilityId_Unknown_0",
+                "unk_ability_2": "0 <=> AbilityId_Unknown_0",
+                "unk_bool_0x0044": 0,
+                "unk_uint32_0x0048": 180.0
+            }
+        },
+        {
+            "0xEB725C39FC38B87C": {
+                "hash": "16965724150372546684",
+                "name": "G-13 Incendiary Impact (Model)",
+                "name_zh": "G-13 燃烧冲击弹（投掷物，模型）",
+                "index": 6,
+                "unk_enum_0x0000": "0 <=> 0xD79FD938_Unknown_0",
+                "unk_bool_0x0004": 0,
+                "unk_bool_0x0005": 0,
+                "unk_bool_0x0006": 0,
+                "unk_struct_0x0008": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_bool_0x0020": 0,
+                "unk_bool_0x0021": 0,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 0,
+                "on_stick_audio_event": 0,
+                "damage_type": "0 <=> DamageInfoType_Unknown_0",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "47 <=> SurfaceImpactType_Unknown_47",
+                "unk_uint32_0x0038": 3301478587,
+                "unk_ability_1": "0 <=> AbilityId_Unknown_0",
+                "unk_ability_2": "0 <=> AbilityId_Unknown_0",
+                "unk_bool_0x0044": 0,
+                "unk_uint32_0x0048": 180.0
+            }
+        },
+        {
+            "0x5C14F27759DD3BE0": {
+                "hash": "6635194745446284256",
+                "name": "G-8 Immolation (Model)",
+                "name_zh": "G-8 焚身（投掷物，模型）",
+                "index": 7,
+                "unk_enum_0x0000": "0 <=> 0xD79FD938_Unknown_0",
+                "unk_bool_0x0004": 0,
+                "unk_bool_0x0005": 0,
+                "unk_bool_0x0006": 0,
+                "unk_struct_0x0008": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_bool_0x0020": 0,
+                "unk_bool_0x0021": 0,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 0,
+                "on_stick_audio_event": 0,
+                "damage_type": "0 <=> DamageInfoType_Unknown_0",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "47 <=> SurfaceImpactType_Unknown_47",
+                "unk_uint32_0x0038": 3301478587,
+                "unk_ability_1": "0 <=> AbilityId_Unknown_0",
+                "unk_ability_2": "0 <=> AbilityId_Unknown_0",
+                "unk_bool_0x0044": 0,
+                "unk_uint32_0x0048": 180.0
+            }
+        },
+        {
+            "0x9B75217D8312DD67": {
+                "hash": "11201896471107657063",
+                "name": "C4 (Model)",
+                "name_zh": "B/MD C4 背包（C4实体）",
+                "index": 8,
+                "unk_enum_0x0000": "1 <=> 0xD79FD938_Unknown_1",
+                "unk_bool_0x0004": 1,
+                "unk_bool_0x0005": 0,
+                "unk_bool_0x0006": 1,
+                "unk_struct_0x0008": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_bool_0x0020": 1,
+                "unk_bool_0x0021": 1,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 3212518394,
+                "on_stick_audio_event": 0,
+                "damage_type": "0 <=> DamageInfoType_Unknown_0",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "43 <=> SurfaceImpactType_Unknown_43",
+                "unk_uint32_0x0038": 3301478587,
+                "unk_ability_1": "518 <=> AbilityId_Unknown_518",
+                "unk_ability_2": "519 <=> AbilityId_Unknown_519",
+                "unk_bool_0x0044": 0,
+                "unk_uint32_0x0048": 180.0
+            }
+        },
+        {
+            "0x87A8A187B6FD68FD": {
+                "hash": "9775240595470379261",
+                "name": "P-34 Breacher (Projectile)",
+                "name_zh": "P-34 爆破者（射弹）",
+                "index": 9,
+                "unk_enum_0x0000": "2 <=> 0xD79FD938_Unknown_2",
+                "unk_bool_0x0004": 0,
+                "unk_bool_0x0005": 0,
+                "unk_bool_0x0006": 0,
+                "unk_struct_0x0008": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_bool_0x0020": 0,
+                "unk_bool_0x0021": 1,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 0,
+                "on_stick_audio_event": 3053923312,
+                "damage_type": "68 <=> DamageInfoType_Unknown_68",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "47 <=> SurfaceImpactType_Unknown_47",
+                "unk_uint32_0x0038": 3301478587,
+                "unk_ability_1": "0 <=> AbilityId_Unknown_0",
+                "unk_ability_2": "0 <=> AbilityId_Unknown_0",
+                "unk_bool_0x0044": 0,
+                "unk_uint32_0x0048": 180.0
+            }
+        },
+        {
+            "0x2968DEBA6D6C2F09": {
+                "hash": "2983879645414043401",
+                "name": "G-11 Caltrops (Model)",
+                "name_zh": "G-11 铁蒺藜（投掷物，模型）",
+                "index": 10,
+                "unk_enum_0x0000": "0 <=> 0xD79FD938_Unknown_0",
+                "unk_bool_0x0004": 1,
+                "unk_bool_0x0005": 0,
+                "unk_bool_0x0006": 1,
+                "unk_struct_0x0008": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_bool_0x0020": 1,
+                "unk_bool_0x0021": 1,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 0,
+                "on_stick_audio_event": 0,
+                "damage_type": "0 <=> DamageInfoType_Unknown_0",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "43 <=> SurfaceImpactType_Unknown_43",
+                "unk_uint32_0x0038": 3301478587,
+                "unk_ability_1": "523 <=> AbilityId_Unknown_523",
+                "unk_ability_2": "0 <=> AbilityId_Unknown_0",
+                "unk_bool_0x0044": 1,
+                "unk_uint32_0x0048": 180.0
+            }
+        },
+        {
+            "0x1B9AC59697006337": {
+                "hash": "1989119436006646583",
+                "name": "G/SH-39 Shield (Model)",
+                "name_zh": "G/SH-39 盾雷（投掷物，模型）",
+                "index": 11,
+                "unk_enum_0x0000": "0 <=> 0xD79FD938_Unknown_0",
+                "unk_bool_0x0004": 1,
+                "unk_bool_0x0005": 0,
+                "unk_bool_0x0006": 1,
+                "unk_struct_0x0008": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_bool_0x0020": 1,
+                "unk_bool_0x0021": 1,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 0,
+                "on_stick_audio_event": 0,
+                "damage_type": "0 <=> DamageInfoType_Unknown_0",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "43 <=> SurfaceImpactType_Unknown_43",
+                "unk_uint32_0x0038": 3301478587,
+                "unk_ability_1": "1241 <=> AbilityId_Unknown_1241",
+                "unk_ability_2": "2071 <=> AbilityId_Unknown_2071",
+                "unk_bool_0x0044": 1,
+                "unk_uint32_0x0048": 180.0
+            }
+        },
+        {
+            "0x8D1F833F6A16DE1A": {
+                "hash": "10168990792011931162",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 12,
+                "unk_enum_0x0000": "0 <=> 0xD79FD938_Unknown_0",
+                "unk_bool_0x0004": 1,
+                "unk_bool_0x0005": 0,
+                "unk_bool_0x0006": 1,
+                "unk_struct_0x0008": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_bool_0x0020": 1,
+                "unk_bool_0x0021": 0,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 0,
+                "on_stick_audio_event": 0,
+                "damage_type": "0 <=> DamageInfoType_Unknown_0",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "47 <=> SurfaceImpactType_Unknown_47",
+                "unk_uint32_0x0038": 3301478587,
+                "unk_ability_1": "0 <=> AbilityId_Unknown_0",
+                "unk_ability_2": "0 <=> AbilityId_Unknown_0",
+                "unk_bool_0x0044": 0,
+                "unk_uint32_0x0048": 180.0
+            }
+        },
+        {
+            "0xA20683199DFC19E8": {
+                "hash": "11675163230052555240",
+                "name": "TM-1 Lure Mine (Model)",
+                "name_zh": "TM-1 诱饵地雷（投掷物，模型）",
+                "index": 13,
+                "unk_enum_0x0000": "0 <=> 0xD79FD938_Unknown_0",
+                "unk_bool_0x0004": 1,
+                "unk_bool_0x0005": 0,
+                "unk_bool_0x0006": 1,
+                "unk_struct_0x0008": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_bool_0x0020": 1,
+                "unk_bool_0x0021": 1,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 854210618,
+                "on_stick_audio_event": 0,
+                "damage_type": "0 <=> DamageInfoType_Unknown_0",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "43 <=> SurfaceImpactType_Unknown_43",
+                "unk_uint32_0x0038": 3301478587,
+                "unk_ability_1": "2070 <=> AbilityId_Unknown_2070",
+                "unk_ability_2": "2071 <=> AbilityId_Unknown_2071",
+                "unk_bool_0x0044": 0,
+                "unk_uint32_0x0048": 180.0
+            }
+        },
+        {
+            "0xEE4C107B941AB7F4": {
+                "hash": "17171117602208659444",
+                "name": "G-40-K Meltamine (Model)",
+                "name_zh": "G/40K 热熔地雷（投掷物，模型）",
+                "index": 14,
+                "unk_enum_0x0000": "0 <=> 0xD79FD938_Unknown_0",
+                "unk_bool_0x0004": 1,
+                "unk_bool_0x0005": 0,
+                "unk_bool_0x0006": 1,
+                "unk_struct_0x0008": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_bool_0x0020": 1,
+                "unk_bool_0x0021": 1,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 0,
+                "on_stick_audio_event": 0,
+                "damage_type": "0 <=> DamageInfoType_Unknown_0",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "43 <=> SurfaceImpactType_Unknown_43",
+                "unk_uint32_0x0038": 3301478587,
+                "unk_ability_1": "2083 <=> AbilityId_Unknown_2083",
+                "unk_ability_2": "2084 <=> AbilityId_Unknown_2084",
+                "unk_bool_0x0044": 1,
+                "unk_uint32_0x0048": 60.0
+            }
+        },
+        {
+            "0xC5C05FCB5747C799": {
+                "hash": "14249494547947571097",
+                "name": "G-123 Thermite (Model)",
+                "name_zh": "G-123 铝热剂（投掷物，模型）",
+                "index": 15,
+                "unk_enum_0x0000": "0 <=> 0xD79FD938_Unknown_0",
+                "unk_bool_0x0004": 0,
+                "unk_bool_0x0005": 0,
+                "unk_bool_0x0006": 0,
+                "unk_struct_0x0008": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_bool_0x0020": 1,
+                "unk_bool_0x0021": 0,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 0,
+                "on_stick_audio_event": 0,
+                "damage_type": "0 <=> DamageInfoType_Unknown_0",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "47 <=> SurfaceImpactType_Unknown_47",
+                "unk_uint32_0x0038": 3301478587,
+                "unk_ability_1": "0 <=> AbilityId_Unknown_0",
+                "unk_ability_2": "0 <=> AbilityId_Unknown_0",
+                "unk_bool_0x0044": 0,
+                "unk_uint32_0x0048": 180.0
+            }
+        },
+        {
+            "0x3FA94F58F596BC0B": {
+                "hash": "4587284938949573643",
+                "name": "G-109 Urchin (Model)",
+                "name_zh": "G-109 海胆雷（投掷物，模型）",
+                "index": 16,
+                "unk_enum_0x0000": "0 <=> 0xD79FD938_Unknown_0",
+                "unk_bool_0x0004": 0,
+                "unk_bool_0x0005": 0,
+                "unk_bool_0x0006": 0,
+                "unk_struct_0x0008": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_bool_0x0020": 1,
+                "unk_bool_0x0021": 0,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 0,
+                "on_stick_audio_event": 0,
+                "damage_type": "0 <=> DamageInfoType_Unknown_0",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "47 <=> SurfaceImpactType_Unknown_47",
+                "unk_uint32_0x0038": 3301478587,
+                "unk_ability_1": "0 <=> AbilityId_Unknown_0",
+                "unk_ability_2": "0 <=> AbilityId_Unknown_0",
+                "unk_bool_0x0044": 0,
+                "unk_uint32_0x0048": 180.0
+            }
+        },
+        {
+            "0xF7B35A9C5AE340B6": {
+                "hash": "17848709375785648310",
+                "name": "K-2 Throwing Knife (Model)",
+                "name_zh": "K-2 飞刀（投掷物，模型）",
+                "index": 17,
+                "unk_enum_0x0000": "0 <=> 0xD79FD938_Unknown_0",
+                "unk_bool_0x0004": 1,
+                "unk_bool_0x0005": 0,
+                "unk_bool_0x0006": 0,
+                "unk_struct_0x0008": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_bool_0x0020": 1,
+                "unk_bool_0x0021": 0,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 0,
+                "on_stick_audio_event": 3053923312,
+                "damage_type": "636 <=> DamageInfoType_Unknown_636",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "47 <=> SurfaceImpactType_Unknown_47",
+                "unk_uint32_0x0038": 0,
+                "unk_ability_1": "0 <=> AbilityId_Unknown_0",
+                "unk_ability_2": "0 <=> AbilityId_Unknown_0",
+                "unk_bool_0x0044": 0,
+                "unk_uint32_0x0048": 180.0
+            }
+        },
+        {
+            "0xB0F1B354BA1D38D8": {
+                "hash": "12750169196543686872",
+                "name": "CQC-1 One True Flag (Model)",
+                "name_zh": "CQC-1 唯一真旗帜（模型）",
+                "index": 18,
+                "unk_enum_0x0000": "1 <=> 0xD79FD938_Unknown_1",
+                "unk_bool_0x0004": 1,
+                "unk_bool_0x0005": 1,
+                "unk_bool_0x0006": 0,
+                "unk_struct_0x0008": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "unk_struct_0x0014": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.125
+                },
+                "unk_bool_0x0020": 1,
+                "unk_bool_0x0021": 1,
+                "unk_bool_0x0022": 0,
+                "unk_uint32_0x0024": 0,
+                "on_stick_audio_event": 3053923312,
+                "damage_type": "557 <=> DamageInfoType_Unknown_557",
+                "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
+                "surface_impact_type": "47 <=> SurfaceImpactType_Unknown_47",
+                "unk_uint32_0x0038": 3301478587,
+                "unk_ability_1": "0 <=> AbilityId_Unknown_0",
+                "unk_ability_2": "0 <=> AbilityId_Unknown_0",
+                "unk_bool_0x0044": 0,
+                "unk_uint32_0x0048": 180.0
+            }
+        }
+    ]
+}

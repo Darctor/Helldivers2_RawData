@@ -4,8 +4,8 @@
         "omitted_size": 7,
         "exported_entity_count": 23,
         "matched_bilingual_hash_count": 21,
-        "patch_date": "2026-08-12",
-        "game_version": "1.007.000"
+        "patch_date": "2026-09-22",
+        "game_version": "1.007.100"
     },
     "entities": [
         {
@@ -251,8 +251,8 @@
                     "wind_template": "0 <=> WindEffectTemplate_None"
                 },
                 "ammo_cost": 0,
-                "projectile_type": "234 <=> ProjectileType_Unknown_234",
-                "damage_info_type": "569 <=> DamageInfoType_Unknown_569",
+                "projectile_type": "235 <=> ProjectileType_Unknown_235",
+                "damage_info_type": "579 <=> DamageInfoType_Unknown_579",
                 "effect_type": "0 <=> HitEffectDamageType_None",
                 "particle_collision_trigger_mines": 0,
                 "last_drop_owner_vo_event": 2645484469,
