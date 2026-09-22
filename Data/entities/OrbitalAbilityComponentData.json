@@ -4,8 +4,8 @@
         "omitted_size": 16,
         "exported_entity_count": 2,
         "matched_bilingual_hash_count": 2,
-        "patch_date": "2026-08-12",
-        "game_version": "1.007.000"
+        "patch_date": "2026-09-22",
+        "game_version": "1.007.100"
     },
     "entities": [
         {
@@ -248,7 +248,7 @@
                 "movement_speed": 10.0,
                 "search_radius": 50.0,
                 "damage_dealer_zone": {
-                    "damage_info_type": "504 <=> DamageInfoType_Unknown_504",
+                    "damage_info_type": "513 <=> DamageInfoType_Unknown_513",
                     "interval": 0.10000000149011612,
                     "shape": "0 <=> DamageDealerZoneShape_Sphere",
                     "size": {
@@ -526,7 +526,7 @@
                 "ship_effect_is_laser_pointer": 1,
                 "audio_event_start": 3732618020,
                 "audio_event_stop": 1843908931,
-                "projectile_type": "273 <=> ProjectileType_Unknown_273",
+                "projectile_type": "277 <=> ProjectileType_Unknown_277",
                 "projectile_spawn_height": 3000.0,
                 "projectile_spawn_delay": 1.7000000476837158,
                 "target_list_update_time": 0.0

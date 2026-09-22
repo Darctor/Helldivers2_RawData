@@ -100,8 +100,8 @@ JSON 里的 `0x` 有两种：
 ```json
 {
   "_metadata": {
-    "patch_date": "2026-08-12",
-    "game_version": "1.007.000"
+    "patch_date": "2026-09-22",
+    "game_version": "1.007.100"
   }
 }
 ```
@@ -304,13 +304,13 @@ Settings 是多处共用的配置表，不是某一只敌人或某一把枪的�
 3. 打开 `settings/generated_projectile_settings.json`，搜 `"type": "142`。不要搜 `"index": 142`。这条射弹里还有：
 
    ```json
-   "damage_info_type": "54 <=> DamageInfoType_Unknown_54",
-   "explosion_type_on_impact": "152 <=> ExplosionType_Unknown_152"
+   "damage_info_type": "56 <=> DamageInfoType_Unknown_56",
+   "explosion_type_on_impact": "155 <=> ExplosionType_Unknown_155"
    ```
 
-4. 打开 `settings/generated_damage_settings.json`，搜 `"type": "54`。类型 54 的 `damage` 是 `[100, 50]`，也就是标准伤害 100、耐久伤害 50。
+4. 打开 `settings/generated_damage_settings.json`，搜 `"type": "56`。类型 56 的 `damage` 是 `[100, 50]`，也就是标准伤害 100、耐久伤害 50。
 
-5. 打开 `settings/generated_explosion_settings.json`，搜 `"type": "152`，看范围和爆炸标志。这条爆炸自己的 `damage_type` 当前是 `300 <=> DamageInfoType_Unknown_300`，再回伤害表搜 `"type": "300`。
+5. 打开 `settings/generated_explosion_settings.json`，搜 `"type": "155`，看范围和爆炸标志。这条爆炸自己的 `damage_type` 当前是 `306 <=> DamageInfoType_Unknown_306`，再回伤害表搜 `"type": "306`。
 
 ```text
 名称表 → 射弹武器组件 → projectile_type
@@ -353,7 +353,7 @@ Settings 是多处共用的配置表，不是某一只敌人或某一把枪的�
 
 点号表示层级，`[0]` 表示数组的第一项。它比 raw 文件易于阅读，但有两处限制：
 
-1. decoded 生成时只加载了部分组件；raw 里的组件类型更多。
+1. decoded 生成时只加载了大部分组件；raw 里的组件类型更多。
 2. 没有配置的差异会跳过，元数据里是 `"patches_skipped_no_config": 1982`。这些字节仍在 raw 里。后来的结构又按 typelib 校正过，decoded 路径和最新配置不一致时，以最新配置和 raw 为准。
 
 查询配件效果时优先查看 decoded。需要核对原始字节或补充未解码的部分时，再查看 raw。delta 不是武器的完整属性，只包含与模板不同的内容。
@@ -438,10 +438,10 @@ HitEffectReceiverType_Unknown_27
 
 ## 当前进度
 
-`v1.007.000`（2026-08-12）已归档：
+`v1.007.100`（2026-09-22）已归档：
 
 - 9 类 Settings：伤害、爆炸、射弹、光束、电弧、状态效果、战备、武器自定义、实体设置；
-- 46 类实体组件，配置和 JSON 都按这份 typelib 的布局导出；
+- 48 类实体组件，配置和 JSON 都按这份 typelib 的布局导出；
 - entity deltas 的原始差异、组件索引、索引到类型的对照，以及当时能解码的可读结果；
 - 一部分枚举名和 flags 展开。
 

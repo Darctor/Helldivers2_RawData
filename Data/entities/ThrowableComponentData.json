@@ -1,11 +1,11 @@
 {
     "_metadata": {
-        "struct_size": 352,
-        "omitted_size": 64,
-        "exported_entity_count": 44,
-        "matched_bilingual_hash_count": 37,
-        "patch_date": "2026-08-12",
-        "game_version": "1.007.000"
+        "struct_size": 360,
+        "omitted_size": 63,
+        "exported_entity_count": 46,
+        "matched_bilingual_hash_count": 39,
+        "patch_date": "2026-09-22",
+        "game_version": "1.007.100"
     },
     "entities": [
         {
@@ -117,7 +117,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -229,7 +232,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -341,7 +347,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -453,7 +462,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -565,7 +577,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -677,7 +692,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -789,7 +807,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -901,7 +922,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -1013,7 +1037,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -1125,7 +1152,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -1237,7 +1267,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -1349,7 +1382,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -1461,7 +1497,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "0 <=> 0xC60F6AF4_Unknown_0"
+                "unk_enum_0x0158": "0 <=> 0xC60F6AF4_Unknown_0",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -1573,7 +1612,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -1685,7 +1727,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -1797,7 +1842,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -1909,7 +1957,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -2021,7 +2072,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -2133,7 +2187,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -2245,7 +2302,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -2357,7 +2417,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -2469,7 +2532,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -2581,7 +2647,240 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "0 <=> 0xC60F6AF4_Unknown_0"
+                "unk_enum_0x0158": "0 <=> 0xC60F6AF4_Unknown_0",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
+            }
+        },
+        {
+            "0x87A8A187B6FD68FD": {
+                "hash": "9775240595470379261",
+                "name": "P-34 Breacher (Projectile)",
+                "name_zh": "P-34 爆破者（射弹）",
+                "index": 23,
+                "dynamic_actor": 975499119,
+                "delayed_dynamic_actor": 0,
+                "delayed_dynamic_actor_duration": 0.0,
+                "throw_distance_min": 0.10000000149011612,
+                "throw_distance_max": 20.0,
+                "use_angular_velocity": 0,
+                "angular_velocity_in_motion_space": 1,
+                "custom_angular_velocity_min": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "custom_angular_velocity_max": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "vo_release": 1961573452,
+                "animation_event_arm": 802787461,
+                "animation_event": 780071362,
+                "animation_event_short": 4192910305,
+                "unk_ability": "0 <=> AbilityId_Unknown_0",
+                "unk_uint32_0x0044": 0,
+                "thrower_velocity_addition": 0.4000000059604645,
+                "thrower_velocity_subtraction": 0.20000000298023224,
+                "thrower_velocity_deadzone": 1.0,
+                "sticky": 1,
+                "sticky_delay": 0.25,
+                "is_impact_trigger": 0,
+                "ignore_thrower_impact_trigger": 0,
+                "drop_on_cancelled": 1,
+                "enable_interaction_delay": 0.5,
+                "start_amount": 2,
+                "max_amount": 3,
+                "refill_amount": 2,
+                "on_thrown_audio_event": 0,
+                "on_deflect_audio_event": 0,
+                "thrown_trail_effect": {
+                    "particle_effect": "0",
+                    "offset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation_offset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "node_id": 0,
+                    "trigger_emit_event": 0,
+                    "link_option": "0 <=> UnitEffectOrphanStrategy_None",
+                    "effect_flags": 2,
+                    "effect_flags_detail": {
+                        "inherit_rotation": 0,
+                        "linked": 1,
+                        "spawn_on_camera": 0,
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
+                    }
+                },
+                "destroy_thrown_trail_effect_on_attach": 1,
+                "max_spawned_amount": -1,
+                "0x62C74EDA": {
+                    "unk_enum_r0x0000": "0 <=> 0x62CD8710_Unknown_0",
+                    "unk_enum_r0x0004": "0 <=> 0x62CD8710_Unknown_0"
+                },
+                "fuse_settings": [
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    }
+                ],
+                "unk_event_0x0148": 0,
+                "unk_event_0x014C": 0,
+                "unk_event_0x0150": 0,
+                "unk_bool_0x0155": 1,
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 1000.0,
+                "unk_bool_0x0160": 1,
+                "unk_uint32_0x0164": 3295225606
+            }
+        },
+        {
+            "0x8E325C933E55BF62": {
+                "hash": "10246353889697054562",
+                "name": "G-60 Anti-Tank Seeker",
+                "name_zh": "G-60 反坦克追踪雷（投掷物，模型）",
+                "index": 24,
+                "dynamic_actor": 2748617169,
+                "delayed_dynamic_actor": 0,
+                "delayed_dynamic_actor_duration": 0.0,
+                "throw_distance_min": 0.10000000149011612,
+                "throw_distance_max": 20.0,
+                "use_angular_velocity": 1,
+                "angular_velocity_in_motion_space": 1,
+                "custom_angular_velocity_min": {
+                    "x": -4.0,
+                    "y": 0.0,
+                    "z": -2.0
+                },
+                "custom_angular_velocity_max": {
+                    "x": -5.0,
+                    "y": 0.0,
+                    "z": -5.0
+                },
+                "vo_release": 2853716018,
+                "animation_event_arm": 802787461,
+                "animation_event": 780071362,
+                "animation_event_short": 4192910305,
+                "unk_ability": "0 <=> AbilityId_Unknown_0",
+                "unk_uint32_0x0044": 0,
+                "thrower_velocity_addition": 0.4000000059604645,
+                "thrower_velocity_subtraction": 0.20000000298023224,
+                "thrower_velocity_deadzone": 1.0,
+                "sticky": 0,
+                "sticky_delay": 0.0,
+                "is_impact_trigger": 0,
+                "ignore_thrower_impact_trigger": 0,
+                "drop_on_cancelled": 1,
+                "enable_interaction_delay": 0.5,
+                "start_amount": 2,
+                "max_amount": 3,
+                "refill_amount": 2,
+                "on_thrown_audio_event": 0,
+                "on_deflect_audio_event": 0,
+                "thrown_trail_effect": {
+                    "particle_effect": "0",
+                    "offset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation_offset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "node_id": 0,
+                    "trigger_emit_event": 0,
+                    "link_option": "0 <=> UnitEffectOrphanStrategy_None",
+                    "effect_flags": 2,
+                    "effect_flags_detail": {
+                        "inherit_rotation": 0,
+                        "linked": 1,
+                        "spawn_on_camera": 0,
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
+                    }
+                },
+                "destroy_thrown_trail_effect_on_attach": 1,
+                "max_spawned_amount": -1,
+                "0x62C74EDA": {
+                    "unk_enum_r0x0000": "0 <=> 0x62CD8710_Unknown_0",
+                    "unk_enum_r0x0004": "0 <=> 0x62CD8710_Unknown_0"
+                },
+                "fuse_settings": [
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    }
+                ],
+                "unk_event_0x0148": 0,
+                "unk_event_0x014C": 0,
+                "unk_event_0x0150": 0,
+                "unk_bool_0x0155": 1,
+                "unk_enum_0x0158": "4 <=> 0xC60F6AF4_Unknown_4",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -2589,7 +2888,7 @@
                 "hash": "2983879645414043401",
                 "name": "G-11 Caltrops (Model)",
                 "name_zh": "G-11 铁蒺藜（投掷物，模型）",
-                "index": 23,
+                "index": 25,
                 "dynamic_actor": 975499119,
                 "delayed_dynamic_actor": 0,
                 "delayed_dynamic_actor_duration": 0.0,
@@ -2693,7 +2992,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 0,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -2701,7 +3003,7 @@
                 "hash": "530045626612387909",
                 "name": "G-7 Pineapple (Model)",
                 "name_zh": "G-7 菠萝雷（投掷物，模型）",
-                "index": 24,
+                "index": 26,
                 "dynamic_actor": 975499119,
                 "delayed_dynamic_actor": 0,
                 "delayed_dynamic_actor_duration": 0.0,
@@ -2805,7 +3107,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -2813,7 +3118,7 @@
                 "hash": "1456507421651509424",
                 "name": "TED-63 Dynamite(Model)",
                 "name_zh": "TED-63 炸药（投掷物，模型）",
-                "index": 25,
+                "index": 27,
                 "dynamic_actor": 975499119,
                 "delayed_dynamic_actor": 0,
                 "delayed_dynamic_actor_duration": 0.0,
@@ -2885,17 +3190,17 @@
                     {
                         "fuse_time": 5.0,
                         "unk_uint32_r0x0008": "4160209270155261412",
-                        "unk_ability": "1231 <=> AbilityId_Unknown_1231"
+                        "unk_ability": "1235 <=> AbilityId_Unknown_1235"
                     },
                     {
                         "fuse_time": 15.0,
                         "unk_uint32_r0x0008": "5402093273241786794",
-                        "unk_ability": "1232 <=> AbilityId_Unknown_1232"
+                        "unk_ability": "1236 <=> AbilityId_Unknown_1236"
                     },
                     {
                         "fuse_time": 60.0,
                         "unk_uint32_r0x0008": "2918027136439598990",
-                        "unk_ability": "1233 <=> AbilityId_Unknown_1233"
+                        "unk_ability": "1237 <=> AbilityId_Unknown_1237"
                     },
                     {
                         "fuse_time": -1.0,
@@ -2917,7 +3222,10 @@
                 "unk_event_0x014C": 3383551167,
                 "unk_event_0x0150": 3795054545,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -2925,7 +3233,7 @@
                 "hash": "1989119436006646583",
                 "name": "G/SH-39 Shield (Model)",
                 "name_zh": "G/SH-39 盾雷（投掷物，模型）",
-                "index": 26,
+                "index": 28,
                 "dynamic_actor": 975499119,
                 "delayed_dynamic_actor": 0,
                 "delayed_dynamic_actor_duration": 0.0,
@@ -3029,7 +3337,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -3037,7 +3348,7 @@
                 "hash": "36176771630602099",
                 "name": "G-23 Stun (Model)",
                 "name_zh": "G-23 眩晕弹（投掷物，模型）",
-                "index": 27,
+                "index": 29,
                 "dynamic_actor": 975499119,
                 "delayed_dynamic_actor": 0,
                 "delayed_dynamic_actor_duration": 0.0,
@@ -3141,7 +3452,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "0 <=> 0xC60F6AF4_Unknown_0"
+                "unk_enum_0x0158": "0 <=> 0xC60F6AF4_Unknown_0",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -3149,7 +3463,7 @@
                 "hash": "5542218890398374779",
                 "name": "G-6 Frag (Model)",
                 "name_zh": "G-6 破片弹（投掷物，模型）",
-                "index": 28,
+                "index": 30,
                 "dynamic_actor": 975499119,
                 "delayed_dynamic_actor": 0,
                 "delayed_dynamic_actor_duration": 0.0,
@@ -3253,7 +3567,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -3261,7 +3578,7 @@
                 "hash": "294590291936179579",
                 "name": "G-4 Gas (Model)",
                 "name_zh": "G-4 毒气雷（投掷物，模型）",
-                "index": 29,
+                "index": 31,
                 "dynamic_actor": 975499119,
                 "delayed_dynamic_actor": 0,
                 "delayed_dynamic_actor_duration": 0.0,
@@ -3365,7 +3682,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "0 <=> 0xC60F6AF4_Unknown_0"
+                "unk_enum_0x0158": "0 <=> 0xC60F6AF4_Unknown_0",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -3373,7 +3693,7 @@
                 "hash": "7715225218085078398",
                 "name": "G-12 High Explosive (Model)",
                 "name_zh": "G-12 高爆弹（投掷物，模型）",
-                "index": 30,
+                "index": 32,
                 "dynamic_actor": 975499119,
                 "delayed_dynamic_actor": 0,
                 "delayed_dynamic_actor_duration": 0.0,
@@ -3477,7 +3797,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -3485,7 +3808,7 @@
                 "hash": "316723890334202692",
                 "name": "G-10 Incendiary (Model)",
                 "name_zh": "G-10 燃烧弹（投掷物，模型）",
-                "index": 31,
+                "index": 33,
                 "dynamic_actor": 975499119,
                 "delayed_dynamic_actor": 0,
                 "delayed_dynamic_actor_duration": 0.0,
@@ -3589,7 +3912,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -3597,7 +3923,7 @@
                 "hash": "10168990792011931162",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 32,
+                "index": 34,
                 "dynamic_actor": 975499119,
                 "delayed_dynamic_actor": 0,
                 "delayed_dynamic_actor_duration": 0.0,
@@ -3701,7 +4027,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -3709,7 +4038,7 @@
                 "hash": "11675163230052555240",
                 "name": "TM-1 Lure Mine (Model)",
                 "name_zh": "TM-1 诱饵地雷（投掷物，模型）",
-                "index": 33,
+                "index": 35,
                 "dynamic_actor": 975499119,
                 "delayed_dynamic_actor": 0,
                 "delayed_dynamic_actor_duration": 0.0,
@@ -3813,7 +4142,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 0,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -3821,7 +4153,7 @@
                 "hash": "17171117602208659444",
                 "name": "G-40-K Meltamine (Model)",
                 "name_zh": "G/40K 热熔地雷（投掷物，模型）",
-                "index": 34,
+                "index": 36,
                 "dynamic_actor": 975499119,
                 "delayed_dynamic_actor": 0,
                 "delayed_dynamic_actor_duration": 0.0,
@@ -3925,7 +4257,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 0,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 432516423
             }
         },
         {
@@ -3933,7 +4268,7 @@
                 "hash": "3258790968645519416",
                 "name": "G-50 Seeker (Model)",
                 "name_zh": "G-50 寻踪者（投掷物，模型）",
-                "index": 35,
+                "index": 37,
                 "dynamic_actor": 2748617169,
                 "delayed_dynamic_actor": 0,
                 "delayed_dynamic_actor_duration": 0.0,
@@ -4037,7 +4372,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "4 <=> 0xC60F6AF4_Unknown_4"
+                "unk_enum_0x0158": "4 <=> 0xC60F6AF4_Unknown_4",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -4045,7 +4383,7 @@
                 "hash": "6766936627846269706",
                 "name": "G-3 Smole (Model)",
                 "name_zh": "G-3 烟雾弹（投掷物，模型）",
-                "index": 36,
+                "index": 38,
                 "dynamic_actor": 975499119,
                 "delayed_dynamic_actor": 0,
                 "delayed_dynamic_actor_duration": 0.0,
@@ -4149,7 +4487,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "0 <=> 0xC60F6AF4_Unknown_0"
+                "unk_enum_0x0158": "0 <=> 0xC60F6AF4_Unknown_0",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -4157,7 +4498,7 @@
                 "hash": "14249494547947571097",
                 "name": "G-123 Thermite (Model)",
                 "name_zh": "G-123 铝热剂（投掷物，模型）",
-                "index": 37,
+                "index": 39,
                 "dynamic_actor": 975499119,
                 "delayed_dynamic_actor": 0,
                 "delayed_dynamic_actor_duration": 0.0,
@@ -4261,7 +4602,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -4269,7 +4613,7 @@
                 "hash": "4587284938949573643",
                 "name": "G-109 Urchin (Model)",
                 "name_zh": "G-109 海胆雷（投掷物，模型）",
-                "index": 38,
+                "index": 40,
                 "dynamic_actor": 975499119,
                 "delayed_dynamic_actor": 0,
                 "delayed_dynamic_actor_duration": 0.0,
@@ -4373,7 +4717,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "0 <=> 0xC60F6AF4_Unknown_0"
+                "unk_enum_0x0158": "0 <=> 0xC60F6AF4_Unknown_0",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -4381,7 +4728,7 @@
                 "hash": "17848709375785648310",
                 "name": "K-2 Throwing Knife (Model)",
                 "name_zh": "K-2 飞刀（投掷物，模型）",
-                "index": 39,
+                "index": 41,
                 "dynamic_actor": 2748617169,
                 "delayed_dynamic_actor": 0,
                 "delayed_dynamic_actor_duration": 0.0,
@@ -4485,7 +4832,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "0 <=> 0xC60F6AF4_Unknown_0"
+                "unk_enum_0x0158": "0 <=> 0xC60F6AF4_Unknown_0",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -4493,7 +4843,7 @@
                 "hash": "284602740380634958",
                 "name": "G-142 Pyrotech (Model)",
                 "name_zh": "G-142 烟花束（投掷物，模型）",
-                "index": 40,
+                "index": 42,
                 "dynamic_actor": 2748617169,
                 "delayed_dynamic_actor": 0,
                 "delayed_dynamic_actor_duration": 0.0,
@@ -4597,7 +4947,10 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "0 <=> 0xC60F6AF4_Unknown_0"
+                "unk_enum_0x0158": "0 <=> 0xC60F6AF4_Unknown_0",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         },
         {
@@ -4605,230 +4958,6 @@
                 "hash": "13988996217395781253",
                 "name": "Elevated Overseer Grenade (Model)",
                 "name_zh": "崇高监视者 手榴弹",
-                "index": 41,
-                "dynamic_actor": 975499119,
-                "delayed_dynamic_actor": 0,
-                "delayed_dynamic_actor_duration": 0.0,
-                "throw_distance_min": 0.10000000149011612,
-                "throw_distance_max": 20.0,
-                "use_angular_velocity": 1,
-                "angular_velocity_in_motion_space": 1,
-                "custom_angular_velocity_min": {
-                    "x": -4.0,
-                    "y": 0.0,
-                    "z": -2.0
-                },
-                "custom_angular_velocity_max": {
-                    "x": -5.0,
-                    "y": 0.0,
-                    "z": -5.0
-                },
-                "vo_release": 2853716018,
-                "animation_event_arm": 802787461,
-                "animation_event": 780071362,
-                "animation_event_short": 4192910305,
-                "unk_ability": "0 <=> AbilityId_Unknown_0",
-                "unk_uint32_0x0044": 0,
-                "thrower_velocity_addition": 0.4000000059604645,
-                "thrower_velocity_subtraction": 0.20000000298023224,
-                "thrower_velocity_deadzone": 1.0,
-                "sticky": 0,
-                "sticky_delay": 0.0,
-                "is_impact_trigger": 0,
-                "ignore_thrower_impact_trigger": 0,
-                "drop_on_cancelled": 1,
-                "enable_interaction_delay": 0.5,
-                "start_amount": 3,
-                "max_amount": 4,
-                "refill_amount": 2,
-                "on_thrown_audio_event": 0,
-                "on_deflect_audio_event": 0,
-                "thrown_trail_effect": {
-                    "particle_effect": "0",
-                    "offset": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    },
-                    "rotation_offset": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    },
-                    "node_id": 0,
-                    "trigger_emit_event": 0,
-                    "link_option": "0 <=> UnitEffectOrphanStrategy_None",
-                    "effect_flags": 2,
-                    "effect_flags_detail": {
-                        "inherit_rotation": 0,
-                        "linked": 1,
-                        "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
-                    }
-                },
-                "destroy_thrown_trail_effect_on_attach": 1,
-                "max_spawned_amount": -1,
-                "0x62C74EDA": {
-                    "unk_enum_r0x0000": "0 <=> 0x62CD8710_Unknown_0",
-                    "unk_enum_r0x0004": "0 <=> 0x62CD8710_Unknown_0"
-                },
-                "fuse_settings": [
-                    {
-                        "fuse_time": -1.0,
-                        "unk_uint32_r0x0008": "0",
-                        "unk_ability": "0 <=> AbilityId_Unknown_0"
-                    },
-                    {
-                        "fuse_time": -1.0,
-                        "unk_uint32_r0x0008": "0",
-                        "unk_ability": "0 <=> AbilityId_Unknown_0"
-                    },
-                    {
-                        "fuse_time": -1.0,
-                        "unk_uint32_r0x0008": "0",
-                        "unk_ability": "0 <=> AbilityId_Unknown_0"
-                    },
-                    {
-                        "fuse_time": -1.0,
-                        "unk_uint32_r0x0008": "0",
-                        "unk_ability": "0 <=> AbilityId_Unknown_0"
-                    },
-                    {
-                        "fuse_time": -1.0,
-                        "unk_uint32_r0x0008": "0",
-                        "unk_ability": "0 <=> AbilityId_Unknown_0"
-                    },
-                    {
-                        "fuse_time": -1.0,
-                        "unk_uint32_r0x0008": "0",
-                        "unk_ability": "0 <=> AbilityId_Unknown_0"
-                    }
-                ],
-                "unk_event_0x0148": 0,
-                "unk_event_0x014C": 0,
-                "unk_event_0x0150": 0,
-                "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
-            }
-        },
-        {
-            "0x4747668D063EEC06": {
-                "hash": "5136186655920548870",
-                "name": "N/A",
-                "name_zh": "N/A",
-                "index": 42,
-                "dynamic_actor": 975499119,
-                "delayed_dynamic_actor": 0,
-                "delayed_dynamic_actor_duration": 0.0,
-                "throw_distance_min": 0.10000000149011612,
-                "throw_distance_max": 20.0,
-                "use_angular_velocity": 1,
-                "angular_velocity_in_motion_space": 1,
-                "custom_angular_velocity_min": {
-                    "x": -4.0,
-                    "y": 0.0,
-                    "z": -2.0
-                },
-                "custom_angular_velocity_max": {
-                    "x": -5.0,
-                    "y": 0.0,
-                    "z": -5.0
-                },
-                "vo_release": 2853716018,
-                "animation_event_arm": 727692725,
-                "animation_event": 780071362,
-                "animation_event_short": 4192910305,
-                "unk_ability": "0 <=> AbilityId_Unknown_0",
-                "unk_uint32_0x0044": 0,
-                "thrower_velocity_addition": 0.4000000059604645,
-                "thrower_velocity_subtraction": 0.20000000298023224,
-                "thrower_velocity_deadzone": 1.0,
-                "sticky": 0,
-                "sticky_delay": 0.0,
-                "is_impact_trigger": 0,
-                "ignore_thrower_impact_trigger": 0,
-                "drop_on_cancelled": 1,
-                "enable_interaction_delay": 0.5,
-                "start_amount": 3,
-                "max_amount": 3,
-                "refill_amount": 2,
-                "on_thrown_audio_event": 2943191812,
-                "on_deflect_audio_event": 0,
-                "thrown_trail_effect": {
-                    "particle_effect": "0",
-                    "offset": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    },
-                    "rotation_offset": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    },
-                    "node_id": 0,
-                    "trigger_emit_event": 0,
-                    "link_option": "0 <=> UnitEffectOrphanStrategy_None",
-                    "effect_flags": 2,
-                    "effect_flags_detail": {
-                        "inherit_rotation": 0,
-                        "linked": 1,
-                        "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
-                    }
-                },
-                "destroy_thrown_trail_effect_on_attach": 1,
-                "max_spawned_amount": -1,
-                "0x62C74EDA": {
-                    "unk_enum_r0x0000": "0 <=> 0x62CD8710_Unknown_0",
-                    "unk_enum_r0x0004": "1 <=> 0x62CD8710_Unknown_1"
-                },
-                "fuse_settings": [
-                    {
-                        "fuse_time": 5.0,
-                        "unk_uint32_r0x0008": "4160209270155261412",
-                        "unk_ability": "1231 <=> AbilityId_Unknown_1231"
-                    },
-                    {
-                        "fuse_time": 15.0,
-                        "unk_uint32_r0x0008": "5402093273241786794",
-                        "unk_ability": "1232 <=> AbilityId_Unknown_1232"
-                    },
-                    {
-                        "fuse_time": 60.0,
-                        "unk_uint32_r0x0008": "2918027136439598990",
-                        "unk_ability": "1233 <=> AbilityId_Unknown_1233"
-                    },
-                    {
-                        "fuse_time": -1.0,
-                        "unk_uint32_r0x0008": "0",
-                        "unk_ability": "0 <=> AbilityId_Unknown_0"
-                    },
-                    {
-                        "fuse_time": -1.0,
-                        "unk_uint32_r0x0008": "0",
-                        "unk_ability": "0 <=> AbilityId_Unknown_0"
-                    },
-                    {
-                        "fuse_time": -1.0,
-                        "unk_uint32_r0x0008": "0",
-                        "unk_ability": "0 <=> AbilityId_Unknown_0"
-                    }
-                ],
-                "unk_event_0x0148": 2461485563,
-                "unk_event_0x014C": 3383551167,
-                "unk_event_0x0150": 3795054545,
-                "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
-            }
-        },
-        {
-            "0xC69DC4EA37395D13": {
-                "hash": "14311811701081201939",
-                "name": "SEAF's HE Grenade",
-                "name_zh": "SEAF的高爆手雷",
                 "index": 43,
                 "dynamic_actor": 975499119,
                 "delayed_dynamic_actor": 0,
@@ -4933,7 +5062,240 @@
                 "unk_event_0x014C": 0,
                 "unk_event_0x0150": 0,
                 "unk_bool_0x0155": 1,
-                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2"
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
+            }
+        },
+        {
+            "0x4747668D063EEC06": {
+                "hash": "5136186655920548870",
+                "name": "N/A",
+                "name_zh": "N/A",
+                "index": 44,
+                "dynamic_actor": 975499119,
+                "delayed_dynamic_actor": 0,
+                "delayed_dynamic_actor_duration": 0.0,
+                "throw_distance_min": 0.10000000149011612,
+                "throw_distance_max": 20.0,
+                "use_angular_velocity": 1,
+                "angular_velocity_in_motion_space": 1,
+                "custom_angular_velocity_min": {
+                    "x": -4.0,
+                    "y": 0.0,
+                    "z": -2.0
+                },
+                "custom_angular_velocity_max": {
+                    "x": -5.0,
+                    "y": 0.0,
+                    "z": -5.0
+                },
+                "vo_release": 2853716018,
+                "animation_event_arm": 727692725,
+                "animation_event": 780071362,
+                "animation_event_short": 4192910305,
+                "unk_ability": "0 <=> AbilityId_Unknown_0",
+                "unk_uint32_0x0044": 0,
+                "thrower_velocity_addition": 0.4000000059604645,
+                "thrower_velocity_subtraction": 0.20000000298023224,
+                "thrower_velocity_deadzone": 1.0,
+                "sticky": 0,
+                "sticky_delay": 0.0,
+                "is_impact_trigger": 0,
+                "ignore_thrower_impact_trigger": 0,
+                "drop_on_cancelled": 1,
+                "enable_interaction_delay": 0.5,
+                "start_amount": 3,
+                "max_amount": 3,
+                "refill_amount": 2,
+                "on_thrown_audio_event": 2943191812,
+                "on_deflect_audio_event": 0,
+                "thrown_trail_effect": {
+                    "particle_effect": "0",
+                    "offset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation_offset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "node_id": 0,
+                    "trigger_emit_event": 0,
+                    "link_option": "0 <=> UnitEffectOrphanStrategy_None",
+                    "effect_flags": 2,
+                    "effect_flags_detail": {
+                        "inherit_rotation": 0,
+                        "linked": 1,
+                        "spawn_on_camera": 0,
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
+                    }
+                },
+                "destroy_thrown_trail_effect_on_attach": 1,
+                "max_spawned_amount": -1,
+                "0x62C74EDA": {
+                    "unk_enum_r0x0000": "0 <=> 0x62CD8710_Unknown_0",
+                    "unk_enum_r0x0004": "1 <=> 0x62CD8710_Unknown_1"
+                },
+                "fuse_settings": [
+                    {
+                        "fuse_time": 5.0,
+                        "unk_uint32_r0x0008": "4160209270155261412",
+                        "unk_ability": "1235 <=> AbilityId_Unknown_1235"
+                    },
+                    {
+                        "fuse_time": 15.0,
+                        "unk_uint32_r0x0008": "5402093273241786794",
+                        "unk_ability": "1236 <=> AbilityId_Unknown_1236"
+                    },
+                    {
+                        "fuse_time": 60.0,
+                        "unk_uint32_r0x0008": "2918027136439598990",
+                        "unk_ability": "1237 <=> AbilityId_Unknown_1237"
+                    },
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    }
+                ],
+                "unk_event_0x0148": 2461485563,
+                "unk_event_0x014C": 3383551167,
+                "unk_event_0x0150": 3795054545,
+                "unk_bool_0x0155": 1,
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
+            }
+        },
+        {
+            "0xC69DC4EA37395D13": {
+                "hash": "14311811701081201939",
+                "name": "SEAF's HE Grenade",
+                "name_zh": "SEAF的高爆手雷",
+                "index": 45,
+                "dynamic_actor": 975499119,
+                "delayed_dynamic_actor": 0,
+                "delayed_dynamic_actor_duration": 0.0,
+                "throw_distance_min": 0.10000000149011612,
+                "throw_distance_max": 20.0,
+                "use_angular_velocity": 1,
+                "angular_velocity_in_motion_space": 1,
+                "custom_angular_velocity_min": {
+                    "x": -4.0,
+                    "y": 0.0,
+                    "z": -2.0
+                },
+                "custom_angular_velocity_max": {
+                    "x": -5.0,
+                    "y": 0.0,
+                    "z": -5.0
+                },
+                "vo_release": 2853716018,
+                "animation_event_arm": 802787461,
+                "animation_event": 780071362,
+                "animation_event_short": 4192910305,
+                "unk_ability": "0 <=> AbilityId_Unknown_0",
+                "unk_uint32_0x0044": 0,
+                "thrower_velocity_addition": 0.4000000059604645,
+                "thrower_velocity_subtraction": 0.20000000298023224,
+                "thrower_velocity_deadzone": 1.0,
+                "sticky": 0,
+                "sticky_delay": 0.0,
+                "is_impact_trigger": 0,
+                "ignore_thrower_impact_trigger": 0,
+                "drop_on_cancelled": 1,
+                "enable_interaction_delay": 0.5,
+                "start_amount": 3,
+                "max_amount": 4,
+                "refill_amount": 2,
+                "on_thrown_audio_event": 0,
+                "on_deflect_audio_event": 0,
+                "thrown_trail_effect": {
+                    "particle_effect": "0",
+                    "offset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation_offset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "node_id": 0,
+                    "trigger_emit_event": 0,
+                    "link_option": "0 <=> UnitEffectOrphanStrategy_None",
+                    "effect_flags": 2,
+                    "effect_flags_detail": {
+                        "inherit_rotation": 0,
+                        "linked": 1,
+                        "spawn_on_camera": 0,
+                        "effect_unk_bit_4": 0,
+                        "effect_unk_bit_5": 0
+                    }
+                },
+                "destroy_thrown_trail_effect_on_attach": 1,
+                "max_spawned_amount": -1,
+                "0x62C74EDA": {
+                    "unk_enum_r0x0000": "0 <=> 0x62CD8710_Unknown_0",
+                    "unk_enum_r0x0004": "0 <=> 0x62CD8710_Unknown_0"
+                },
+                "fuse_settings": [
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    },
+                    {
+                        "fuse_time": -1.0,
+                        "unk_uint32_r0x0008": "0",
+                        "unk_ability": "0 <=> AbilityId_Unknown_0"
+                    }
+                ],
+                "unk_event_0x0148": 0,
+                "unk_event_0x014C": 0,
+                "unk_event_0x0150": 0,
+                "unk_bool_0x0155": 1,
+                "unk_enum_0x0158": "2 <=> 0xC60F6AF4_Unknown_2",
+                "unk_float_0x015C": 0.0,
+                "unk_bool_0x0160": 0,
+                "unk_uint32_0x0164": 3295225606
             }
         }
     ]

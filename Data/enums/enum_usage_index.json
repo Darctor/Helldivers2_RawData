@@ -1,13 +1,30 @@
 {
   "_metadata": {
-    "patch_date": "2026-08-12",
-    "game_version": "1.007.000",
-    "enum_type_count": 83,
-    "file_existing_enum_type_count": 60,
-    "component_count": 46,
+    "patch_date": "2026-09-22",
+    "game_version": "1.007.100",
+    "enum_type_count": 86,
+    "file_existing_enum_type_count": 61,
+    "component_count": 49,
     "settings_count": 8
   },
   "existing_enum_types": [
+    {
+      "enum_name": "AiCharacterMode",
+      "file_exists": true,
+      "values": [
+        "0 <=> AiCharacterMode_None",
+        "1 <=> AiCharacterMode_Flying",
+        "2 <=> AiCharacterMode_SteamRoll",
+        "3 <=> AiCharacterMode_RunToGoal",
+        "4 <=> AiCharacterMode_Havok"
+      ],
+      "usages": [
+        {
+          "config_file": "AiCharacterComponentData",
+          "count": 1
+        }
+      ]
+    },
     {
       "enum_name": "ArcType",
       "file_exists": true,
@@ -438,6 +455,10 @@
         {
           "config_file": "HiveMindComponentData",
           "count": 1
+        },
+        {
+          "config_file": "OverlapDamageComponentData",
+          "count": 1
         }
       ]
     },
@@ -538,6 +559,10 @@
         },
         {
           "config_file": "SprayWeaponComponentData",
+          "count": 1
+        },
+        {
+          "config_file": "StickyComponentData",
           "count": 1
         }
       ]
@@ -862,7 +887,8 @@
         "34 <=> StatusEffectSusceptibilityType_Unk34",
         "35 <=> StatusEffectSusceptibilityType_Unk35",
         "36 <=> StatusEffectSusceptibilityType_Gloom",
-        "37 <=> StatusEffectSusceptibilityType_Count"
+        "37 <=> StatusEffectSusceptibilityType_Poison",
+        "38 <=> StatusEffectSusceptibilityType_Count"
       ],
       "usages": [
         {
@@ -1000,7 +1026,9 @@
         "67 <=> StatusEffectType_FlamerSlowed",
         "68 <=> StatusEffectType_Gloom",
         "69 <=> StatusEffectType_Dark_Fluid_MK2",
-        "70 <=> StatusEffectType_Count"
+        "70 <=> StatusEffectType_Poison",
+        "71 <=> StatusEffectType_PoisonVulnerability",
+        "72 <=> StatusEffectType_Count"
       ],
       "usages": [
         {
@@ -1222,142 +1250,148 @@
         "12 <=> StratagemType_AntiTankMines",
         "13 <=> StratagemType_Stalwart",
         "14 <=> StratagemType_C4_Backpack",
-        "15 <=> StratagemType_Leveller",
-        "16 <=> StratagemType_BugThumper",
-        "17 <=> StratagemType_EagleAirstrike",
-        "18 <=> StratagemType_SeismicProbe",
-        "19 <=> StratagemType_MedicBackpack_PresidentReward",
-        "20 <=> StratagemType_OrbitalWalkingBarrage",
-        "21 <=> StratagemType_ShieldGeneratorRelay",
-        "22 <=> StratagemType_TurretLaserCannon",
-        "23 <=> StratagemType_WarpPack",
-        "24 <=> StratagemType_Autocannon",
-        "25 <=> StratagemType_FRV_Supply",
-        "26 <=> StratagemType_PatriotExosuit",
-        "27 <=> StratagemType_SEAF_Artillery",
-        "28 <=> StratagemType_DarkFluidBackpack",
-        "29 <=> StratagemType_EagleStrafingRun",
-        "30 <=> StratagemType_MissionHellbombBackpack",
-        "31 <=> StratagemType_HeavyMachineGun",
-        "32 <=> StratagemType_AmmoRack",
-        "33 <=> StratagemType_Orbital_EMS_Strike",
-        "34 <=> StratagemType_EagleStrafingRun_DSS",
-        "35 <=> StratagemType_OilRigExtract",
-        "36 <=> StratagemType_PatriotExosuit_PresidentReward",
-        "37 <=> StratagemType_EagleAirstrikeSmoke",
-        "38 <=> StratagemType_ExpendableNapalmLauncher",
-        "39 <=> StratagemType_Tutorial_ExtractBeacon",
-        "40 <=> StratagemType_OrbitalGas",
-        "41 <=> StratagemType_DropoffHellbomb",
-        "42 <=> StratagemType_ShieldGeneratorPack",
-        "43 <=> StratagemType_TurretMortarStaticField",
-        "44 <=> StratagemType_Epoch",
-        "45 <=> StratagemType_GasMines",
-        "46 <=> StratagemType_Tank_Reload_HE",
-        "47 <=> StratagemType_MissionDataJack",
-        "48 <=> StratagemType_EagleRearm",
-        "49 <=> StratagemType_DefoliationTool",
-        "50 <=> StratagemType_TurretMortarGas",
-        "51 <=> StratagemType_TurretRocket",
-        "52 <=> StratagemType_AirBurstRocket",
-        "53 <=> StratagemType_HoverPack",
-        "54 <=> StratagemType_Railgun",
-        "55 <=> StratagemType_Drone_Flamer",
-        "56 <=> StratagemType_OrbitalRailcannon",
-        "57 <=> StratagemType_GrenadierBattlement",
-        "58 <=> StratagemType_Tank_Reload_Canister",
-        "59 <=> StratagemType_Sterilizer",
-        "60 <=> StratagemType_WalkingBarrageSmoke",
-        "61 <=> StratagemType_LaserCannon",
-        "62 <=> StratagemType_TCS03Thumper",
-        "63 <=> StratagemType_EagleClusterbombs",
-        "64 <=> StratagemType_TurretGatling",
-        "65 <=> StratagemType_Directional_Shield",
-        "66 <=> StratagemType_ArcThrower",
-        "67 <=> StratagemType_TurretRocket_PresidentReward",
-        "68 <=> StratagemType_ProspectingDrill",
-        "69 <=> StratagemType_DropoffCargoContainer",
-        "70 <=> StratagemType_DropoffBugPlug",
-        "71 <=> StratagemType_DroneMG",
-        "72 <=> StratagemType_OrbitalSmoke",
-        "73 <=> StratagemType_Spear",
-        "74 <=> StratagemType_CyborgCarryData",
-        "75 <=> StratagemType_HealthPackRack",
-        "76 <=> StratagemType_ShoulderMountedCamera",
-        "77 <=> StratagemType_CarryData",
-        "78 <=> StratagemType_GrenadeLauncher",
-        "79 <=> StratagemType_Meltagun",
-        "80 <=> StratagemType_Machinegun_PresidentReward",
-        "81 <=> StratagemType_OrbitalAirBurst",
-        "82 <=> StratagemType_JammedPinata",
-        "83 <=> StratagemType_SuperEarthFlag",
-        "84 <=> StratagemType_RemoteExplosives",
-        "85 <=> StratagemType_Cremator",
-        "86 <=> StratagemType_BreakthroughExosuit",
-        "87 <=> StratagemType_SoloSilo",
-        "88 <=> StratagemType_HealthPackRack_PresidentReward",
-        "89 <=> StratagemType_LumbererExosuit",
-        "90 <=> StratagemType_Machinegun",
-        "91 <=> StratagemType_Tutorial_ReinforcementBeacon",
-        "92 <=> StratagemType_Posion_Drill",
-        "93 <=> StratagemType_Tank_Reload_AT",
-        "94 <=> StratagemType_BallisticShield",
-        "95 <=> StratagemType_WASP",
-        "96 <=> StratagemType_EmergencyExtractionBeacon",
-        "97 <=> StratagemType_BulletStorm",
-        "98 <=> StratagemType_BreachingHammer",
-        "99 <=> StratagemType_AmmoBackpack",
-        "100 <=> StratagemType_MobileCommsRelay",
-        "101 <=> StratagemType_CarpetBomb",
-        "102 <=> StratagemType_TurretTesla",
-        "103 <=> StratagemType_FRV",
-        "104 <=> StratagemType_OrbitalNapalmBarrage",
-        "105 <=> StratagemType_OrbitalLaser",
-        "106 <=> StratagemType_Scrambler",
-        "107 <=> StratagemType_AmmoRack_PresidentReward",
-        "108 <=> StratagemType_Maxigun",
-        "109 <=> StratagemType_ImmediateExtractionBeacon",
-        "110 <=> StratagemType_Flamethrower",
-        "111 <=> StratagemType_Speargun",
-        "112 <=> StratagemType_OneTrueFlag",
-        "113 <=> StratagemType_Drone_Laser_Rifle",
-        "114 <=> StratagemType_ClanStationSEAFSquad",
-        "115 <=> StratagemType_TurretMortar",
-        "116 <=> StratagemType_OrbitalPrecisionStrike",
-        "117 <=> StratagemType_AntiPersonnalMine",
-        "118 <=> StratagemType_PortableHellbomb",
-        "119 <=> StratagemType_TurretMachinegun",
-        "120 <=> StratagemType_SpireSterilizer",
-        "121 <=> StratagemType_CallInSuperDestroyer",
-        "122 <=> StratagemType_ReinforcementBeacon",
-        "123 <=> StratagemType_Orbital380mmHEBarrage",
-        "124 <=> StratagemType_EagleGasStrike",
-        "125 <=> StratagemType_BeltFedGrenadeLauncher",
-        "126 <=> StratagemType_UploadDiscovery",
-        "127 <=> StratagemType_DrillingCharge",
-        "128 <=> StratagemType_Recoilless",
-        "129 <=> StratagemType_De-Escalator",
-        "130 <=> StratagemType_Nuke",
-        "131 <=> StratagemType_EagleAirstrikeNapalm",
-        "132 <=> StratagemType_Jumppack",
-        "133 <=> StratagemType_FRV_Incinerator",
-        "134 <=> StratagemType_Orbital120mmHEBarrage",
-        "135 <=> StratagemType_TurretAutocannon",
-        "136 <=> StratagemType_CargoContainer",
-        "137 <=> StratagemType_IncendiaryMines",
-        "138 <=> StratagemType_Eagle110mmRocket",
-        "139 <=> StratagemType_AntiMaterielRifle",
-        "140 <=> StratagemType_Drone_Gas",
-        "141 <=> StratagemType_Jumppack_PresidentReward",
-        "142 <=> StratagemType_HMG_Emplacement",
-        "143 <=> StratagemType_SOSBeacon",
-        "144 <=> StratagemType_EagleAirToAirMissile",
-        "145 <=> StratagemType_ExpendableAntiTank",
-        "146 <=> StratagemType_ExtractBeacon",
-        "147 <=> StratagemType_QuasarCannon",
-        "148 <=> StratagemType_Count"
+        "15 <=> StratagemType_ExpendableAntiTank_Booster",
+        "16 <=> StratagemType_Leveller",
+        "17 <=> StratagemType_BugThumper",
+        "18 <=> StratagemType_EagleAirstrike",
+        "19 <=> StratagemType_SeismicProbe",
+        "20 <=> StratagemType_MedicBackpack_PresidentReward",
+        "21 <=> StratagemType_OrbitalWalkingBarrage",
+        "22 <=> StratagemType_ShieldGeneratorRelay",
+        "23 <=> StratagemType_TurretLaserCannon",
+        "24 <=> StratagemType_WarpPack",
+        "25 <=> StratagemType_Autocannon",
+        "26 <=> StratagemType_FRV_Supply",
+        "27 <=> StratagemType_PatriotExosuit",
+        "28 <=> StratagemType_SEAF_Artillery",
+        "29 <=> StratagemType_DarkFluidBackpack",
+        "30 <=> StratagemType_EagleStrafingRun",
+        "31 <=> StratagemType_MissionHellbombBackpack",
+        "32 <=> StratagemType_HeavyMachineGun",
+        "33 <=> StratagemType_AmmoRack",
+        "34 <=> StratagemType_Orbital_EMS_Strike",
+        "35 <=> StratagemType_EagleStrafingRun_DSS",
+        "36 <=> StratagemType_OilRigExtract",
+        "37 <=> StratagemType_PatriotExosuit_PresidentReward",
+        "38 <=> StratagemType_EagleAirstrikeSmoke",
+        "39 <=> StratagemType_ExpendableNapalmLauncher",
+        "40 <=> StratagemType_Tutorial_ExtractBeacon",
+        "41 <=> StratagemType_OrbitalGas",
+        "42 <=> StratagemType_DropoffHellbomb",
+        "43 <=> StratagemType_ShieldGeneratorPack",
+        "44 <=> StratagemType_TurretMortarStaticField",
+        "45 <=> StratagemType_Epoch",
+        "46 <=> StratagemType_GasMines",
+        "47 <=> StratagemType_Tank_Reload_HE",
+        "48 <=> StratagemType_MissionDataJack",
+        "49 <=> StratagemType_EagleRearm",
+        "50 <=> StratagemType_StormTank",
+        "51 <=> StratagemType_DefoliationTool",
+        "52 <=> StratagemType_TurretMortarGas",
+        "53 <=> StratagemType_TurretRocket",
+        "54 <=> StratagemType_AirBurstRocket",
+        "55 <=> StratagemType_HoverPack",
+        "56 <=> StratagemType_Railgun",
+        "57 <=> StratagemType_Drone_Flamer",
+        "58 <=> StratagemType_OrbitalRailcannon",
+        "59 <=> StratagemType_GrenadierBattlement",
+        "60 <=> StratagemType_Tank_Reload_Canister",
+        "61 <=> StratagemType_Sterilizer",
+        "62 <=> StratagemType_WalkingBarrageSmoke",
+        "63 <=> StratagemType_LaserCannon",
+        "64 <=> StratagemType_TCS03Thumper",
+        "65 <=> StratagemType_EagleClusterbombs",
+        "66 <=> StratagemType_TurretGatling",
+        "67 <=> StratagemType_Directional_Shield",
+        "68 <=> StratagemType_ArcThrower",
+        "69 <=> StratagemType_TurretRocket_PresidentReward",
+        "70 <=> StratagemType_ProspectingDrill",
+        "71 <=> StratagemType_DropoffCargoContainer",
+        "72 <=> StratagemType_DropoffBugPlug",
+        "73 <=> StratagemType_DroneMG",
+        "74 <=> StratagemType_OrbitalSmoke",
+        "75 <=> StratagemType_Spear",
+        "76 <=> StratagemType_CyborgCarryData",
+        "77 <=> StratagemType_HealthPackRack",
+        "78 <=> StratagemType_ShoulderMountedCamera",
+        "79 <=> StratagemType_CarryData",
+        "80 <=> StratagemType_GrenadeLauncher",
+        "81 <=> StratagemType_Meltagun",
+        "82 <=> StratagemType_Machinegun_PresidentReward",
+        "83 <=> StratagemType_OrbitalAirBurst",
+        "84 <=> StratagemType_JammedPinata",
+        "85 <=> StratagemType_SuperEarthFlag",
+        "86 <=> StratagemType_RemoteExplosives",
+        "87 <=> StratagemType_Cremator",
+        "88 <=> StratagemType_BreakthroughExosuit",
+        "89 <=> StratagemType_SoloSilo",
+        "90 <=> StratagemType_HealthPackRack_PresidentReward",
+        "91 <=> StratagemType_LumbererExosuit",
+        "92 <=> StratagemType_Machinegun",
+        "93 <=> StratagemType_Tutorial_ReinforcementBeacon",
+        "94 <=> StratagemType_Posion_Drill",
+        "95 <=> StratagemType_Tank_Reload_AT",
+        "96 <=> StratagemType_BallisticShield",
+        "97 <=> StratagemType_WASP",
+        "98 <=> StratagemType_EmergencyExtractionBeacon",
+        "99 <=> StratagemType_BulletStorm",
+        "100 <=> StratagemType_BreachingHammer",
+        "101 <=> StratagemType_AmmoBackpack",
+        "102 <=> StratagemType_MobileCommsRelay",
+        "103 <=> StratagemType_CarpetBomb",
+        "104 <=> StratagemType_TurretTesla",
+        "105 <=> StratagemType_FRV",
+        "106 <=> StratagemType_OrbitalNapalmBarrage",
+        "107 <=> StratagemType_OrbitalLaser",
+        "108 <=> StratagemType_Scrambler",
+        "109 <=> StratagemType_AmmoRack_PresidentReward",
+        "110 <=> StratagemType_Maxigun",
+        "111 <=> StratagemType_ImmediateExtractionBeacon",
+        "112 <=> StratagemType_Flamethrower",
+        "113 <=> StratagemType_Speargun",
+        "114 <=> StratagemType_OneTrueFlag",
+        "115 <=> StratagemType_Drone_Laser_Rifle",
+        "116 <=> StratagemType_ClanStationSEAFSquad",
+        "117 <=> StratagemType_TurretMortar",
+        "118 <=> StratagemType_OrbitalPrecisionStrike",
+        "119 <=> StratagemType_AntiPersonnalMine",
+        "120 <=> StratagemType_PortableHellbomb",
+        "121 <=> StratagemType_TurretMachinegun",
+        "122 <=> StratagemType_SpireSterilizer",
+        "123 <=> StratagemType_CallInSuperDestroyer",
+        "124 <=> StratagemType_ReinforcementBeacon",
+        "125 <=> StratagemType_Orbital380mmHEBarrage",
+        "126 <=> StratagemType_EagleGasStrike",
+        "127 <=> StratagemType_BeltFedGrenadeLauncher",
+        "128 <=> StratagemType_UploadDiscovery",
+        "129 <=> StratagemType_DrillingCharge",
+        "130 <=> StratagemType_Recoilless",
+        "131 <=> StratagemType_De-Escalator",
+        "132 <=> StratagemType_Nuke",
+        "133 <=> StratagemType_EagleAirstrikeNapalm",
+        "134 <=> StratagemType_Jumppack",
+        "135 <=> StratagemType_FRV_Incinerator",
+        "136 <=> StratagemType_Orbital120mmHEBarrage",
+        "137 <=> StratagemType_TurretAutocannon",
+        "138 <=> StratagemType_CargoContainer",
+        "139 <=> StratagemType_IncendiaryMines",
+        "140 <=> StratagemType_Eagle110mmRocket",
+        "141 <=> StratagemType_AntiMaterielRifle",
+        "142 <=> StratagemType_Drone_Gas",
+        "143 <=> StratagemType_Jumppack_PresidentReward",
+        "144 <=> StratagemType_HMG_Emplacement",
+        "145 <=> StratagemType_SOSBeacon",
+        "146 <=> StratagemType_EagleAirToAirMissile",
+        "147 <=> StratagemType_ExpendableAntiTank",
+        "148 <=> StratagemType_ExtractBeacon",
+        "149 <=> StratagemType_QuasarCannon",
+        "150 <=> StratagemType_Count"
       ],
       "usages": [
+        {
+          "config_file": "EagleSpawnerComponentData",
+          "count": 1
+        },
         {
           "config_file": "StratagemSettings",
           "count": 4
@@ -1406,7 +1440,8 @@
         "8 <=> UnitCustomizationCollectionType_FRV_Incinerator",
         "9 <=> UnitCustomizationCollectionType_FRV_Supply",
         "10 <=> UnitCustomizationCollectionType_BastionTank",
-        "11 <=> UnitCustomizationCollectionType_Count"
+        "11 <=> UnitCustomizationCollectionType_StormTank",
+        "12 <=> UnitCustomizationCollectionType_Count"
       ],
       "usages": [
         {
@@ -1722,6 +1757,17 @@
       ]
     },
     {
+      "enum_name": "0xB97958C4",
+      "file_exists": false,
+      "values": [],
+      "usages": [
+        {
+          "config_file": "StatusEffectSettings",
+          "count": 1
+        }
+      ]
+    },
+    {
       "enum_name": "0xC60F6AF4",
       "file_exists": false,
       "values": [],
@@ -1743,6 +1789,17 @@
       "usages": [
         {
           "config_file": "AiEnemyComponentData",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "enum_name": "0xD79FD938",
+      "file_exists": false,
+      "values": [],
+      "usages": [
+        {
+          "config_file": "StickyComponentData",
           "count": 1
         }
       ]
@@ -1778,6 +1835,10 @@
         },
         {
           "config_file": "MeleeWeaponComponentData",
+          "count": 2
+        },
+        {
+          "config_file": "StickyComponentData",
           "count": 2
         },
         {
@@ -1878,6 +1939,10 @@
         },
         {
           "config_file": "StatusEffectSettings",
+          "count": 1
+        },
+        {
+          "config_file": "StickyComponentData",
           "count": 1
         }
       ]
@@ -2056,6 +2121,10 @@
         {
           "config_file": "ProjectileWeaponComponentData",
           "count": 2
+        },
+        {
+          "config_file": "StickyComponentData",
+          "count": 1
         }
       ]
     },

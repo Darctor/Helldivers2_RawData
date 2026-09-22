@@ -4,8 +4,8 @@
         "omitted_size": 0,
         "exported_entity_count": 115,
         "matched_bilingual_hash_count": 88,
-        "patch_date": "2026-08-12",
-        "game_version": "1.007.000"
+        "patch_date": "2026-09-22",
+        "game_version": "1.007.100"
     },
     "entities": [
         {
@@ -16,7 +16,7 @@
                 "index": 0,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -27,7 +27,7 @@
                 "index": 1,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -38,7 +38,7 @@
                 "index": 2,
                 "remove_time": 2.5,
                 "life_time": 180.0,
-                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
+                "on_retract_ability": "2531 <=> AbilityId_Unknown_2531"
             }
         },
         {
@@ -49,7 +49,7 @@
                 "index": 3,
                 "remove_time": 2.5,
                 "life_time": 40.0,
-                "on_retract_ability": "2412 <=> AbilityId_Unknown_2412"
+                "on_retract_ability": "2418 <=> AbilityId_Unknown_2418"
             }
         },
         {
@@ -60,7 +60,7 @@
                 "index": 4,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -71,7 +71,7 @@
                 "index": 5,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -82,7 +82,7 @@
                 "index": 6,
                 "remove_time": 2.5,
                 "life_time": 150.0,
-                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
+                "on_retract_ability": "2531 <=> AbilityId_Unknown_2531"
             }
         },
         {
@@ -93,7 +93,7 @@
                 "index": 7,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -104,7 +104,7 @@
                 "index": 8,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -115,7 +115,7 @@
                 "index": 9,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -126,7 +126,7 @@
                 "index": 10,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -137,7 +137,7 @@
                 "index": 11,
                 "remove_time": 2.5,
                 "life_time": 180.0,
-                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
+                "on_retract_ability": "2531 <=> AbilityId_Unknown_2531"
             }
         },
         {
@@ -148,7 +148,7 @@
                 "index": 12,
                 "remove_time": 2.5,
                 "life_time": 180.0,
-                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
+                "on_retract_ability": "2531 <=> AbilityId_Unknown_2531"
             }
         },
         {
@@ -159,7 +159,7 @@
                 "index": 13,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -170,7 +170,7 @@
                 "index": 14,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -181,7 +181,7 @@
                 "index": 15,
                 "remove_time": 3.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1268 <=> AbilityId_Unknown_1268"
+                "on_retract_ability": "1272 <=> AbilityId_Unknown_1272"
             }
         },
         {
@@ -192,7 +192,7 @@
                 "index": 16,
                 "remove_time": 3.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1268 <=> AbilityId_Unknown_1268"
+                "on_retract_ability": "1272 <=> AbilityId_Unknown_1272"
             }
         },
         {
@@ -203,7 +203,7 @@
                 "index": 17,
                 "remove_time": 3.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1268 <=> AbilityId_Unknown_1268"
+                "on_retract_ability": "1272 <=> AbilityId_Unknown_1272"
             }
         },
         {
@@ -214,7 +214,7 @@
                 "index": 18,
                 "remove_time": 3.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1268 <=> AbilityId_Unknown_1268"
+                "on_retract_ability": "1272 <=> AbilityId_Unknown_1272"
             }
         },
         {
@@ -225,7 +225,7 @@
                 "index": 19,
                 "remove_time": 2.5,
                 "life_time": 180.0,
-                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
+                "on_retract_ability": "2531 <=> AbilityId_Unknown_2531"
             }
         },
         {
@@ -236,7 +236,7 @@
                 "index": 20,
                 "remove_time": 2.5,
                 "life_time": 180.0,
-                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
+                "on_retract_ability": "2531 <=> AbilityId_Unknown_2531"
             }
         },
         {
@@ -247,7 +247,7 @@
                 "index": 21,
                 "remove_time": 2.5,
                 "life_time": 180.0,
-                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
+                "on_retract_ability": "2531 <=> AbilityId_Unknown_2531"
             }
         },
         {
@@ -258,7 +258,7 @@
                 "index": 22,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -269,7 +269,7 @@
                 "index": 23,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -280,7 +280,7 @@
                 "index": 24,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -291,7 +291,7 @@
                 "index": 25,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -302,7 +302,7 @@
                 "index": 26,
                 "remove_time": 2.5,
                 "life_time": 180.0,
-                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
+                "on_retract_ability": "2531 <=> AbilityId_Unknown_2531"
             }
         },
         {
@@ -313,7 +313,7 @@
                 "index": 27,
                 "remove_time": 2.5,
                 "life_time": 150.0,
-                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
+                "on_retract_ability": "2531 <=> AbilityId_Unknown_2531"
             }
         },
         {
@@ -324,7 +324,7 @@
                 "index": 28,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -335,7 +335,7 @@
                 "index": 29,
                 "remove_time": 2.5,
                 "life_time": 150.0,
-                "on_retract_ability": "2514 <=> AbilityId_Unknown_2514"
+                "on_retract_ability": "2523 <=> AbilityId_Unknown_2523"
             }
         },
         {
@@ -346,7 +346,7 @@
                 "index": 30,
                 "remove_time": 3.5,
                 "life_time": 150.0,
-                "on_retract_ability": "1268 <=> AbilityId_Unknown_1268"
+                "on_retract_ability": "1272 <=> AbilityId_Unknown_1272"
             }
         },
         {
@@ -357,7 +357,7 @@
                 "index": 31,
                 "remove_time": 3.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1268 <=> AbilityId_Unknown_1268"
+                "on_retract_ability": "1272 <=> AbilityId_Unknown_1272"
             }
         },
         {
@@ -368,7 +368,7 @@
                 "index": 32,
                 "remove_time": 3.5,
                 "life_time": -1.0,
-                "on_retract_ability": "1268 <=> AbilityId_Unknown_1268"
+                "on_retract_ability": "1272 <=> AbilityId_Unknown_1272"
             }
         },
         {
@@ -379,7 +379,7 @@
                 "index": 33,
                 "remove_time": 2.5,
                 "life_time": 150.0,
-                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
+                "on_retract_ability": "2531 <=> AbilityId_Unknown_2531"
             }
         },
         {
@@ -390,7 +390,7 @@
                 "index": 34,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -401,7 +401,7 @@
                 "index": 35,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -412,7 +412,7 @@
                 "index": 36,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -423,7 +423,7 @@
                 "index": 37,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -434,7 +434,7 @@
                 "index": 38,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -445,7 +445,7 @@
                 "index": 39,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -456,7 +456,7 @@
                 "index": 40,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -467,7 +467,7 @@
                 "index": 41,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -478,7 +478,7 @@
                 "index": 42,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -489,7 +489,7 @@
                 "index": 43,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -500,7 +500,7 @@
                 "index": 44,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -511,7 +511,7 @@
                 "index": 45,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -522,7 +522,7 @@
                 "index": 46,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -533,7 +533,7 @@
                 "index": 47,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -544,7 +544,7 @@
                 "index": 48,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -555,7 +555,7 @@
                 "index": 49,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -566,7 +566,7 @@
                 "index": 50,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -577,7 +577,7 @@
                 "index": 51,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -588,7 +588,7 @@
                 "index": 52,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -599,7 +599,7 @@
                 "index": 53,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -610,7 +610,7 @@
                 "index": 54,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -621,7 +621,7 @@
                 "index": 55,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -632,7 +632,7 @@
                 "index": 56,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -643,7 +643,7 @@
                 "index": 57,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -654,7 +654,7 @@
                 "index": 58,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -665,7 +665,7 @@
                 "index": 59,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -676,7 +676,7 @@
                 "index": 60,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -687,7 +687,7 @@
                 "index": 61,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -698,7 +698,7 @@
                 "index": 62,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -709,7 +709,7 @@
                 "index": 63,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -720,7 +720,7 @@
                 "index": 64,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -731,7 +731,7 @@
                 "index": 65,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -742,7 +742,7 @@
                 "index": 66,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -753,7 +753,7 @@
                 "index": 67,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -764,7 +764,7 @@
                 "index": 68,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -775,7 +775,7 @@
                 "index": 69,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -786,7 +786,7 @@
                 "index": 70,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -797,7 +797,7 @@
                 "index": 71,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -808,7 +808,7 @@
                 "index": 72,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -819,7 +819,7 @@
                 "index": 73,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -830,7 +830,7 @@
                 "index": 74,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -841,7 +841,7 @@
                 "index": 75,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -852,7 +852,7 @@
                 "index": 76,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -863,7 +863,7 @@
                 "index": 77,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -874,7 +874,7 @@
                 "index": 78,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -885,7 +885,7 @@
                 "index": 79,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -896,7 +896,7 @@
                 "index": 80,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -907,7 +907,7 @@
                 "index": 81,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -918,7 +918,7 @@
                 "index": 82,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -929,7 +929,7 @@
                 "index": 83,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -940,7 +940,7 @@
                 "index": 84,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -951,7 +951,7 @@
                 "index": 85,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -962,7 +962,7 @@
                 "index": 86,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -973,7 +973,7 @@
                 "index": 87,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -984,7 +984,7 @@
                 "index": 88,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -995,7 +995,7 @@
                 "index": 89,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1006,7 +1006,7 @@
                 "index": 90,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1017,7 +1017,7 @@
                 "index": 91,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1028,7 +1028,7 @@
                 "index": 92,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1039,7 +1039,7 @@
                 "index": 93,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1050,7 +1050,7 @@
                 "index": 94,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1061,7 +1061,7 @@
                 "index": 95,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1072,7 +1072,7 @@
                 "index": 96,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1083,7 +1083,7 @@
                 "index": 97,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1094,7 +1094,7 @@
                 "index": 98,
                 "remove_time": 3.5,
                 "life_time": -1.0,
-                "on_retract_ability": "1268 <=> AbilityId_Unknown_1268"
+                "on_retract_ability": "1272 <=> AbilityId_Unknown_1272"
             }
         },
         {
@@ -1105,7 +1105,7 @@
                 "index": 99,
                 "remove_time": 2.5,
                 "life_time": -1.0,
-                "on_retract_ability": "2522 <=> AbilityId_Unknown_2522"
+                "on_retract_ability": "2531 <=> AbilityId_Unknown_2531"
             }
         },
         {
@@ -1116,7 +1116,7 @@
                 "index": 100,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1127,7 +1127,7 @@
                 "index": 101,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1138,7 +1138,7 @@
                 "index": 102,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1149,7 +1149,7 @@
                 "index": 103,
                 "remove_time": 6.0,
                 "life_time": 0.0,
-                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
+                "on_retract_ability": "1273 <=> AbilityId_Unknown_1273"
             }
         },
         {
@@ -1160,7 +1160,7 @@
                 "index": 104,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1171,7 +1171,7 @@
                 "index": 105,
                 "remove_time": 6.0,
                 "life_time": 0.0,
-                "on_retract_ability": "1280 <=> AbilityId_Unknown_1280"
+                "on_retract_ability": "1284 <=> AbilityId_Unknown_1284"
             }
         },
         {
@@ -1182,7 +1182,7 @@
                 "index": 106,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1193,7 +1193,7 @@
                 "index": 107,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1264 <=> AbilityId_Unknown_1264"
+                "on_retract_ability": "1268 <=> AbilityId_Unknown_1268"
             }
         },
         {
@@ -1204,7 +1204,7 @@
                 "index": 108,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1215,7 +1215,7 @@
                 "index": 109,
                 "remove_time": 0.0,
                 "life_time": 0.0,
-                "on_retract_ability": "1270 <=> AbilityId_Unknown_1270"
+                "on_retract_ability": "1274 <=> AbilityId_Unknown_1274"
             }
         },
         {
@@ -1226,7 +1226,7 @@
                 "index": 110,
                 "remove_time": 2.5,
                 "life_time": 150.0,
-                "on_retract_ability": "1266 <=> AbilityId_Unknown_1266"
+                "on_retract_ability": "1270 <=> AbilityId_Unknown_1270"
             }
         },
         {
@@ -1237,7 +1237,7 @@
                 "index": 111,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1248,7 +1248,7 @@
                 "index": 112,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1259,7 +1259,7 @@
                 "index": 113,
                 "remove_time": 2.5,
                 "life_time": 0.0,
-                "on_retract_ability": "1265 <=> AbilityId_Unknown_1265"
+                "on_retract_ability": "1269 <=> AbilityId_Unknown_1269"
             }
         },
         {
@@ -1270,7 +1270,7 @@
                 "index": 114,
                 "remove_time": 0.0,
                 "life_time": 0.0,
-                "on_retract_ability": "1270 <=> AbilityId_Unknown_1270"
+                "on_retract_ability": "1274 <=> AbilityId_Unknown_1274"
             }
         }
     ]

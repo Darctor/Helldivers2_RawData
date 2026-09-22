@@ -2,11 +2,11 @@
     {
         "StatusEffectSettings": {
             "_metadata": {
-                "struct_size": 128,
-                "omitted_size": 39,
-                "exported_type_count": 69,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "struct_size": 152,
+                "omitted_size": 58,
+                "exported_type_count": 71,
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
@@ -39,7 +39,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 1,
@@ -50,7 +53,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 5.0,
                     "duration": 9999.0,
-                    "damage_info_type": "531 <=> DamageInfoType_Unknown_531",
+                    "damage_info_type": "540 <=> DamageInfoType_Unknown_540",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "0",
                     "script_event_start": 0,
@@ -71,7 +74,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 2,
@@ -103,7 +109,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 3,
@@ -135,7 +144,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 4,
@@ -146,7 +158,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 5.0,
                     "duration": 3.0,
-                    "damage_info_type": "510 <=> DamageInfoType_Unknown_510",
+                    "damage_info_type": "519 <=> DamageInfoType_Unknown_519",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "0",
                     "script_event_start": 1912561169,
@@ -167,7 +179,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 4224911188,
-                    "notify_event_on_removed": 47623951
+                    "notify_event_on_removed": 47623951,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 5,
@@ -178,7 +193,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 0.15000000596046448,
                     "duration": 1.0,
-                    "damage_info_type": "511 <=> DamageInfoType_Unknown_511",
+                    "damage_info_type": "520 <=> DamageInfoType_Unknown_520",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "0",
                     "script_event_start": 0,
@@ -199,7 +214,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 6,
@@ -231,7 +249,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 2343002388,
-                    "notify_event_on_removed": 1086274594
+                    "notify_event_on_removed": 1086274594,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 7,
@@ -240,8 +261,8 @@
                     "shader_variable_preset": "0 <=> StatusEffectShaderVariablePreset_None",
                     "shading_environment": "0",
                     "shading_environment_fade_time": 0.0,
-                    "strength": 3.0,
-                    "duration": 0.5,
+                    "strength": 0.4000000059604645,
+                    "duration": 4.0,
                     "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "0",
@@ -263,7 +284,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 8,
@@ -295,7 +319,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 9,
@@ -306,7 +333,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 0.30000001192092896,
                     "duration": 4.0,
-                    "damage_info_type": "513 <=> DamageInfoType_Unknown_513",
+                    "damage_info_type": "522 <=> DamageInfoType_Unknown_522",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "15732881546721521284",
                     "script_event_start": 1034147453,
@@ -327,7 +354,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 10,
@@ -338,7 +368,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 1.0,
                     "duration": 0.5,
-                    "damage_info_type": "514 <=> DamageInfoType_Unknown_514",
+                    "damage_info_type": "523 <=> DamageInfoType_Unknown_523",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "15732881546721521284",
                     "script_event_start": 1034147453,
@@ -359,7 +389,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 11,
@@ -370,7 +403,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 1.0,
                     "duration": 1.0,
-                    "damage_info_type": "512 <=> DamageInfoType_Unknown_512",
+                    "damage_info_type": "521 <=> DamageInfoType_Unknown_521",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "0",
                     "script_event_start": 0,
@@ -391,7 +424,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 12,
@@ -402,7 +438,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 1.0,
                     "duration": 5.0,
-                    "damage_info_type": "515 <=> DamageInfoType_Unknown_515",
+                    "damage_info_type": "524 <=> DamageInfoType_Unknown_524",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "11680611848941944870",
                     "script_event_start": 0,
@@ -423,7 +459,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 13,
@@ -455,7 +494,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 14,
@@ -487,7 +529,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 15,
@@ -519,7 +564,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 16,
@@ -551,7 +599,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 17,
@@ -583,7 +634,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 18,
@@ -594,7 +648,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 0.44999998807907104,
                     "duration": 0.10000000149011612,
-                    "damage_info_type": "521 <=> DamageInfoType_Unknown_521",
+                    "damage_info_type": "530 <=> DamageInfoType_Unknown_530",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "0",
                     "script_event_start": 0,
@@ -615,7 +669,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 19,
@@ -626,7 +683,7 @@
                     "shading_environment_fade_time": 1.0,
                     "strength": 0.20000000298023224,
                     "duration": 0.10000000149011612,
-                    "damage_info_type": "522 <=> DamageInfoType_Unknown_522",
+                    "damage_info_type": "531 <=> DamageInfoType_Unknown_531",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "0",
                     "script_event_start": 0,
@@ -647,7 +704,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 20,
@@ -658,7 +718,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 0.30000001192092896,
                     "duration": 0.10000000149011612,
-                    "damage_info_type": "521 <=> DamageInfoType_Unknown_521",
+                    "damage_info_type": "530 <=> DamageInfoType_Unknown_530",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "0",
                     "script_event_start": 0,
@@ -679,7 +739,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 21,
@@ -711,7 +774,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 22,
@@ -743,7 +809,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 23,
@@ -754,7 +823,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 1.3300000429153442,
                     "duration": 1.0,
-                    "damage_info_type": "516 <=> DamageInfoType_Unknown_516",
+                    "damage_info_type": "525 <=> DamageInfoType_Unknown_525",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "0",
                     "script_event_start": 0,
@@ -775,7 +844,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 24,
@@ -807,7 +879,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 25,
@@ -839,7 +914,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 26,
@@ -871,7 +949,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 27,
@@ -903,7 +984,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 28,
@@ -940,7 +1024,10 @@
                         }
                     ],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 29,
@@ -972,7 +1059,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 30,
@@ -983,7 +1073,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 1.0,
                     "duration": 1.0,
-                    "damage_info_type": "634 <=> DamageInfoType_Unknown_634",
+                    "damage_info_type": "644 <=> DamageInfoType_Unknown_644",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "0",
                     "script_event_start": 2555083099,
@@ -1004,7 +1094,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 31,
@@ -1015,7 +1108,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 1.0,
                     "duration": 1.0,
-                    "damage_info_type": "517 <=> DamageInfoType_Unknown_517",
+                    "damage_info_type": "526 <=> DamageInfoType_Unknown_526",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "0",
                     "script_event_start": 2555083099,
@@ -1036,7 +1129,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 32,
@@ -1047,7 +1143,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 1.0,
                     "duration": 10.0,
-                    "damage_info_type": "518 <=> DamageInfoType_Unknown_518",
+                    "damage_info_type": "527 <=> DamageInfoType_Unknown_527",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "0",
                     "script_event_start": 0,
@@ -1068,7 +1164,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 33,
@@ -1079,7 +1178,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 0.5,
                     "duration": 10.0,
-                    "damage_info_type": "519 <=> DamageInfoType_Unknown_519",
+                    "damage_info_type": "528 <=> DamageInfoType_Unknown_528",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "0",
                     "script_event_start": 0,
@@ -1100,7 +1199,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 34,
@@ -1111,7 +1213,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 1.3300000429153442,
                     "duration": 5.0,
-                    "damage_info_type": "520 <=> DamageInfoType_Unknown_520",
+                    "damage_info_type": "529 <=> DamageInfoType_Unknown_529",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "0",
                     "script_event_start": 0,
@@ -1132,7 +1234,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 35,
@@ -1164,7 +1269,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 36,
@@ -1196,7 +1304,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 37,
@@ -1228,7 +1339,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 38,
@@ -1260,7 +1374,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 39,
@@ -1292,7 +1409,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 40,
@@ -1324,7 +1444,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 41,
@@ -1335,7 +1458,7 @@
                     "shading_environment_fade_time": 1.5,
                     "strength": 0.25,
                     "duration": 6.0,
-                    "damage_info_type": "523 <=> DamageInfoType_Unknown_523",
+                    "damage_info_type": "532 <=> DamageInfoType_Unknown_532",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "0",
                     "script_event_start": 0,
@@ -1356,7 +1479,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 42,
@@ -1367,7 +1493,7 @@
                     "shading_environment_fade_time": 1.5,
                     "strength": 0.25,
                     "duration": 10.0,
-                    "damage_info_type": "523 <=> DamageInfoType_Unknown_523",
+                    "damage_info_type": "532 <=> DamageInfoType_Unknown_532",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "0",
                     "script_event_start": 0,
@@ -1388,7 +1514,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 43,
@@ -1420,7 +1549,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 1079087720,
-                    "notify_event_on_removed": 503020676
+                    "notify_event_on_removed": 503020676,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 44,
@@ -1452,7 +1584,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 1079087720,
-                    "notify_event_on_removed": 503020676
+                    "notify_event_on_removed": 503020676,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 45,
@@ -1484,7 +1619,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 46,
@@ -1516,7 +1654,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 47,
@@ -1548,7 +1689,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 48,
@@ -1580,7 +1724,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 49,
@@ -1612,7 +1759,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 50,
@@ -1644,7 +1794,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 51,
@@ -1676,7 +1829,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 52,
@@ -1708,7 +1864,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 53,
@@ -1740,7 +1899,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 54,
@@ -1772,7 +1934,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 55,
@@ -1804,7 +1969,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 56,
@@ -1836,7 +2004,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 57,
@@ -1868,7 +2039,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 58,
@@ -1879,7 +2053,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 0.0,
                     "duration": 0.15000000596046448,
-                    "damage_info_type": "532 <=> DamageInfoType_Unknown_532",
+                    "damage_info_type": "541 <=> DamageInfoType_Unknown_541",
                     "damage_ignore_avatar_armor": 1,
                     "particle_effect_path": "0",
                     "script_event_start": 0,
@@ -1900,7 +2074,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 59,
@@ -1911,7 +2088,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 0.0,
                     "duration": 0.15000000596046448,
-                    "damage_info_type": "533 <=> DamageInfoType_Unknown_533",
+                    "damage_info_type": "542 <=> DamageInfoType_Unknown_542",
                     "damage_ignore_avatar_armor": 1,
                     "particle_effect_path": "0",
                     "script_event_start": 0,
@@ -1932,7 +2109,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 60,
@@ -1943,7 +2123,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 2.0,
                     "duration": 0.15000000596046448,
-                    "damage_info_type": "534 <=> DamageInfoType_Unknown_534",
+                    "damage_info_type": "543 <=> DamageInfoType_Unknown_543",
                     "damage_ignore_avatar_armor": 1,
                     "particle_effect_path": "0",
                     "script_event_start": 0,
@@ -1964,7 +2144,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 61,
@@ -1975,7 +2158,7 @@
                     "shading_environment_fade_time": 0.0,
                     "strength": 2.0,
                     "duration": 0.15000000596046448,
-                    "damage_info_type": "535 <=> DamageInfoType_Unknown_535",
+                    "damage_info_type": "544 <=> DamageInfoType_Unknown_544",
                     "damage_ignore_avatar_armor": 1,
                     "particle_effect_path": "0",
                     "script_event_start": 0,
@@ -1996,7 +2179,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 62,
@@ -2028,7 +2214,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 63,
@@ -2039,7 +2228,7 @@
                     "shading_environment_fade_time": 0.20000000298023224,
                     "strength": 1.0,
                     "duration": 999999.0,
-                    "damage_info_type": "536 <=> DamageInfoType_Unknown_536",
+                    "damage_info_type": "545 <=> DamageInfoType_Unknown_545",
                     "damage_ignore_avatar_armor": 1,
                     "particle_effect_path": "0",
                     "script_event_start": 0,
@@ -2060,7 +2249,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 64,
@@ -2097,7 +2289,10 @@
                         }
                     ],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 65,
@@ -2129,7 +2324,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 66,
@@ -2161,7 +2359,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 67,
@@ -2172,7 +2373,7 @@
                     "shading_environment_fade_time": 1.5,
                     "strength": 4.0,
                     "duration": 6.0,
-                    "damage_info_type": "523 <=> DamageInfoType_Unknown_523",
+                    "damage_info_type": "532 <=> DamageInfoType_Unknown_532",
                     "damage_ignore_avatar_armor": 0,
                     "particle_effect_path": "0",
                     "script_event_start": 0,
@@ -2193,7 +2394,10 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 2415833742,
-                    "notify_event_on_removed": 4083836255
+                    "notify_event_on_removed": 4083836255,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
                 },
                 {
                     "index": 68,
@@ -2225,7 +2429,144 @@
                     },
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
-                    "notify_event_on_removed": 0
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
+                },
+                {
+                    "index": 69,
+                    "type": "70 <=> StatusEffectType_Poison",
+                    "debug_name": "Poison",
+                    "shader_variable_preset": "0 <=> StatusEffectShaderVariablePreset_None",
+                    "shading_environment": "9531806250974619533",
+                    "shading_environment_fade_time": 1.5,
+                    "strength": 5.0,
+                    "duration": 6.0,
+                    "damage_info_type": "546 <=> DamageInfoType_Unknown_546",
+                    "damage_ignore_avatar_armor": 0,
+                    "particle_effect_path": "0",
+                    "script_event_start": 0,
+                    "script_event_stop": 0,
+                    "audio_event_start": 3401745313,
+                    "audio_event_stop": 3240233624,
+                    "audio_event_enter": 0,
+                    "audio_event_exit": 0,
+                    "animation_event_start": 0,
+                    "animation_event_stop": 0,
+                    "difficult_terrain_amount": 0.0,
+                    "status_effect_flags": 0,
+                    "status_effect_flags_detail": {
+                        "unique_effect": 0,
+                        "no_susceptibility_required": 0,
+                        "audio_event_master_only": 0,
+                        "block_sprint": 0
+                    },
+                    "modified_stats_multipliers": [],
+                    "notify_event_on_added": 0,
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 0,
+                    "unk_uint32_0x0084": 1,
+                    "0x9DDD1BE2": []
+                },
+                {
+                    "index": 70,
+                    "type": "71 <=> StatusEffectType_PoisonVulnerability",
+                    "debug_name": "PoisonVulnerability",
+                    "shader_variable_preset": "0 <=> StatusEffectShaderVariablePreset_None",
+                    "shading_environment": "0",
+                    "shading_environment_fade_time": 0.0,
+                    "strength": 10.0,
+                    "duration": 2400.0,
+                    "damage_info_type": "0 <=> DamageInfoType_Unknown_0",
+                    "damage_ignore_avatar_armor": 0,
+                    "particle_effect_path": "0",
+                    "script_event_start": 0,
+                    "script_event_stop": 0,
+                    "audio_event_start": 0,
+                    "audio_event_stop": 0,
+                    "audio_event_enter": 0,
+                    "audio_event_exit": 0,
+                    "animation_event_start": 0,
+                    "animation_event_stop": 0,
+                    "difficult_terrain_amount": 0.0,
+                    "status_effect_flags": 0,
+                    "status_effect_flags_detail": {
+                        "unique_effect": 0,
+                        "no_susceptibility_required": 0,
+                        "audio_event_master_only": 0,
+                        "block_sprint": 0
+                    },
+                    "modified_stats_multipliers": [],
+                    "notify_event_on_added": 0,
+                    "notify_event_on_removed": 0,
+                    "unk_bool_0x0080": 1,
+                    "unk_uint32_0x0084": 5,
+                    "0x9DDD1BE2": [
+                        {
+                            "unk_enum_r0x0000": "0 <=> 0xB97958C4_Unknown_0",
+                            "unk_float_r0x0004": 50.0,
+                            "unk_uint64_r0x0008": "0",
+                            "unk_uint32_r0x0010": 1,
+                            "unk_uint64_r0x0014": 3
+                        },
+                        {
+                            "unk_enum_r0x0000": "0 <=> 0xB97958C4_Unknown_0",
+                            "unk_float_r0x0004": 80.0,
+                            "unk_uint64_r0x0008": "0",
+                            "unk_uint32_r0x0010": 4,
+                            "unk_uint64_r0x0014": 4
+                        },
+                        {
+                            "unk_enum_r0x0000": "0 <=> 0xB97958C4_Unknown_0",
+                            "unk_float_r0x0004": 100.0,
+                            "unk_uint64_r0x0008": "0",
+                            "unk_uint32_r0x0010": 5,
+                            "unk_uint64_r0x0014": 5
+                        },
+                        {
+                            "unk_enum_r0x0000": "1 <=> 0xB97958C4_Unknown_1",
+                            "unk_float_r0x0004": 10.0,
+                            "unk_uint64_r0x0008": "0",
+                            "unk_uint32_r0x0010": 1,
+                            "unk_uint64_r0x0014": 5
+                        },
+                        {
+                            "unk_enum_r0x0000": "2 <=> 0xB97958C4_Unknown_2",
+                            "unk_float_r0x0004": 3.0,
+                            "unk_uint64_r0x0008": "0",
+                            "unk_uint32_r0x0010": 0,
+                            "unk_uint64_r0x0014": 0
+                        },
+                        {
+                            "unk_enum_r0x0000": "3 <=> 0xB97958C4_Unknown_3",
+                            "unk_float_r0x0004": 1.0,
+                            "unk_uint64_r0x0008": "0",
+                            "unk_uint32_r0x0010": 0,
+                            "unk_uint64_r0x0014": 0
+                        },
+                        {
+                            "unk_enum_r0x0000": "4 <=> 0xB97958C4_Unknown_4",
+                            "unk_float_r0x0004": 0.0,
+                            "unk_uint64_r0x0008": "8730259830699633664",
+                            "unk_uint32_r0x0010": 1,
+                            "unk_uint64_r0x0014": 2
+                        },
+                        {
+                            "unk_enum_r0x0000": "4 <=> 0xB97958C4_Unknown_4",
+                            "unk_float_r0x0004": 0.0,
+                            "unk_uint64_r0x0008": "4815615718361908922",
+                            "unk_uint32_r0x0010": 3,
+                            "unk_uint64_r0x0014": 4
+                        },
+                        {
+                            "unk_enum_r0x0000": "4 <=> 0xB97958C4_Unknown_4",
+                            "unk_float_r0x0004": 0.0,
+                            "unk_uint64_r0x0008": "4780360227018991282",
+                            "unk_uint32_r0x0010": 5,
+                            "unk_uint64_r0x0014": 5
+                        }
+                    ]
                 }
             ]
         }
@@ -2236,8 +2577,8 @@
                 "struct_size": 40,
                 "omitted_size": 3,
                 "exported_type_count": 29,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {

@@ -13,6 +13,7 @@ StratagemType_RaiseFlag
 StratagemType_AntiTankMines
 StratagemType_Stalwart
 StratagemType_C4_Backpack
+StratagemType_ExpendableAntiTank_Booster
 StratagemType_Leveller
 StratagemType_BugThumper
 StratagemType_EagleAirstrike
@@ -47,6 +48,7 @@ StratagemType_GasMines
 StratagemType_Tank_Reload_HE
 StratagemType_MissionDataJack
 StratagemType_EagleRearm
+StratagemType_StormTank
 StratagemType_DefoliationTool
 StratagemType_TurretMortarGas
 StratagemType_TurretRocket
