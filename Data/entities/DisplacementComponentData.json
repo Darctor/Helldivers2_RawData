@@ -1,0 +1,214 @@
+{
+    "_metadata": {
+        "struct_size": 632,
+        "omitted_size": 10,
+        "exported_entity_count": 1,
+        "matched_bilingual_hash_count": 1,
+        "patch_date": "2026-09-22",
+        "game_version": "1.007.100"
+    },
+    "entities": [
+        {
+            "0xB49756795D9B0E68": {
+                "hash": "13012964727571811944",
+                "name": "LIFT-182 Warp Pack (Model)",
+                "name_zh": "LIFT-182 传送背包（模型）",
+                "index": 0,
+                "unk_uint32_0x0000": 0,
+                "unk_uint32_0x0004": 2693893514,
+                "unk_uint32_0x0008": 924102979,
+                "unk_struct_0x000C": {
+                    "x": 0.0,
+                    "y": -0.75,
+                    "z": 0.4000000059604645
+                },
+                "unk_uint64_0x0018": "14022363717843297651",
+                "unk_float_0x0020": 0.0,
+                "unk_uint32_0x0024": 379630579,
+                "unk_uint64_0x0028": "11001308654216370169",
+                "unk_float_0x0030": -1.0,
+                "unk_uint32_0x0034": 898141976,
+                "explosion_type": "254 <=> ExplosionType_Unknown_254",
+                "unk_uint64_0x0040": "1570976849327562653",
+                "unk_enum_0x0048": "1 <=> UnitSize_Medium",
+                "teleportation_delay": 0.20000000298023224,
+                "delay_between_uses": 0.20000000298023224,
+                "unk_float_0x0054": 1.0,
+                "unk_uint32_0x0058": 4290361375,
+                "unk_struct_0x005C": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 0.20000000298023224
+                },
+                "unk_struct_0x0068": {
+                    "x": 2.0,
+                    "y": 2.0,
+                    "z": 3.0
+                },
+                "unk_float_0x0074": 1.0,
+                "teleportation_distance ": 10.0,
+                "unk_uint32_0x007C": 5,
+                "teleportation_upward_bias": 1.399999976158142,
+                "teleportation_downward_bias": 4.0,
+                "unk_bool_0x0088": 1,
+                "unk_bool_0x0089": 0,
+                "safe_usage_threshold": 15.0,
+                "explosion_threshold": 45.0,
+                "heat_per_use": 33.0,
+                "heat_lose_per_second": 6.0,
+                "heat_injury_info": [
+                    {
+                        "unk_uint32_r0x0000": 2354409673,
+                        "unk_float_r0x0004": 10.0,
+                        "unk_uint64_r0x0008": "15819917579702815207",
+                        "unk_uint32_r0x0010": 2354409673,
+                        "unk_enum_r0x0014": "0 <=> StatusEffectType_None"
+                    },
+                    {
+                        "unk_uint32_r0x0000": 1544317139,
+                        "unk_float_r0x0004": 35.0,
+                        "unk_uint64_r0x0008": "15819917579702815207",
+                        "unk_uint32_r0x0010": 480431462,
+                        "unk_enum_r0x0014": "0 <=> StatusEffectType_None"
+                    },
+                    {
+                        "unk_uint32_r0x0000": 612369653,
+                        "unk_float_r0x0004": 35.0,
+                        "unk_uint64_r0x0008": "15819917579702815207",
+                        "unk_uint32_r0x0010": 836980140,
+                        "unk_enum_r0x0014": "0 <=> StatusEffectType_None"
+                    },
+                    {
+                        "unk_uint32_r0x0000": 2412961772,
+                        "unk_float_r0x0004": 45.0,
+                        "unk_uint64_r0x0008": "15819917579702815207",
+                        "unk_uint32_r0x0010": 2412961772,
+                        "unk_enum_r0x0014": "0 <=> StatusEffectType_None"
+                    },
+                    {
+                        "unk_uint32_r0x0000": 986191178,
+                        "unk_float_r0x0004": 45.0,
+                        "unk_uint64_r0x0008": "15819917579702815207",
+                        "unk_uint32_r0x0010": 986191178,
+                        "unk_enum_r0x0014": "0 <=> StatusEffectType_None"
+                    },
+                    {
+                        "unk_uint32_r0x0000": 938412064,
+                        "unk_float_r0x0004": 0.0,
+                        "unk_uint64_r0x0008": "0",
+                        "unk_uint32_r0x0010": 0,
+                        "unk_enum_r0x0014": "5 <=> StatusEffectType_Fire"
+                    },
+                    {
+                        "unk_uint32_r0x0000": 0,
+                        "unk_float_r0x0004": 10.0,
+                        "unk_uint64_r0x0008": "0",
+                        "unk_uint32_r0x0010": 0,
+                        "unk_enum_r0x0014": "0 <=> StatusEffectType_None"
+                    },
+                    {
+                        "unk_uint32_r0x0000": 0,
+                        "unk_float_r0x0004": 10.0,
+                        "unk_uint64_r0x0008": "0",
+                        "unk_uint32_r0x0010": 0,
+                        "unk_enum_r0x0014": "0 <=> StatusEffectType_None"
+                    },
+                    {
+                        "unk_uint32_r0x0000": 0,
+                        "unk_float_r0x0004": 10.0,
+                        "unk_uint64_r0x0008": "0",
+                        "unk_uint32_r0x0010": 0,
+                        "unk_enum_r0x0014": "0 <=> StatusEffectType_None"
+                    },
+                    {
+                        "unk_uint32_r0x0000": 0,
+                        "unk_float_r0x0004": 10.0,
+                        "unk_uint64_r0x0008": "0",
+                        "unk_uint32_r0x0010": 0,
+                        "unk_enum_r0x0014": "0 <=> StatusEffectType_None"
+                    },
+                    {
+                        "unk_uint32_r0x0000": 0,
+                        "unk_float_r0x0004": 10.0,
+                        "unk_uint64_r0x0008": "0",
+                        "unk_uint32_r0x0010": 0,
+                        "unk_enum_r0x0014": "0 <=> StatusEffectType_None"
+                    },
+                    {
+                        "unk_uint32_r0x0000": 0,
+                        "unk_float_r0x0004": 10.0,
+                        "unk_uint64_r0x0008": "0",
+                        "unk_uint32_r0x0010": 0,
+                        "unk_enum_r0x0014": "0 <=> StatusEffectType_None"
+                    }
+                ],
+                "heat_effect_set": [
+                    {
+                        "unk_enum_r0x0000": "0 <=> 0xCDE44AD3_Unknown_0",
+                        "unk_array_r0x0004": [
+                            2131351665,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "unk_array_r0x0018": [
+                            4051466939,
+                            1629433405,
+                            0,
+                            0,
+                            0
+                        ],
+                        "unk_uint32_r0x002C": 0,
+                        "unk_uint32_r0x0030": 388975518
+                    },
+                    {
+                        "unk_enum_r0x0000": "1 <=> 0xCDE44AD3_Unknown_1",
+                        "unk_array_r0x0004": [
+                            4051466939,
+                            1629433405,
+                            0,
+                            0,
+                            0
+                        ],
+                        "unk_array_r0x0018": [
+                            2131351665,
+                            4234300025,
+                            2130411424,
+                            3811243770,
+                            0
+                        ],
+                        "unk_uint32_r0x002C": 2593298643,
+                        "unk_uint32_r0x0030": 0
+                    },
+                    {
+                        "unk_enum_r0x0000": "2 <=> 0xCDE44AD3_Unknown_2",
+                        "unk_array_r0x0004": [
+                            4234300025,
+                            2130411424,
+                            3811243770,
+                            0,
+                            0
+                        ],
+                        "unk_array_r0x0018": [
+                            2131351665,
+                            4051466939,
+                            0,
+                            0,
+                            0
+                        ],
+                        "unk_uint32_r0x002C": 0,
+                        "unk_uint32_r0x0030": 0
+                    }
+                ],
+                "unk_uint32_0x025C": 4244241910,
+                "unk_uint32_0x0260": 3732338588,
+                "unk_uint32_0x0264": 450287375,
+                "unk_uint32_0x0268": 49732699,
+                "unk_float_0x026C": 30.0,
+                "unk_float_0x0270": 20.0,
+                "unk_float_0x0274": 0.30000001192092896
+            }
+        }
+    ]
+}

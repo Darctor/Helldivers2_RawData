@@ -5,8 +5,8 @@
                 "struct_size": 88,
                 "omitted_size": 48,
                 "exported_type_count": 97,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
@@ -1570,8 +1570,8 @@
                 "struct_size": 88,
                 "omitted_size": 48,
                 "exported_type_count": 3,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
@@ -1631,8 +1631,8 @@
                 "struct_size": 88,
                 "omitted_size": 48,
                 "exported_type_count": 4,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
@@ -1707,9 +1707,9 @@
             "_metadata": {
                 "struct_size": 88,
                 "omitted_size": 48,
-                "exported_type_count": 49,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "exported_type_count": 52,
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
@@ -2070,7 +2070,7 @@
                     "id": 3950366798,
                     "name_upper": 2416744569,
                     "name_cased": 2289976365,
-                    "description": 1961315473,
+                    "description": 197005611,
                     "fluff": 0,
                     "add_path": "1954505123843284861",
                     "icon": "0",
@@ -2386,6 +2386,54 @@
                 },
                 {
                     "index": 42,
+                    "debug_name": "Laser Heatsink (Blaster). Standard",
+                    "id": 968619308,
+                    "name_upper": 3681591456,
+                    "name_cased": 2740898511,
+                    "description": 2292887042,
+                    "fluff": 0,
+                    "add_path": "8524929439937645385",
+                    "icon": "0",
+                    "slots": [
+                        "5 <=> WeaponCustomizationSlot_Magazine"
+                    ],
+                    "unk_array_0x0040": [],
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
+                },
+                {
+                    "index": 43,
+                    "debug_name": "Laser Heatsink (Blaster). Improved Heatcapacity",
+                    "id": 2276900410,
+                    "name_upper": 3799349087,
+                    "name_cased": 3283042119,
+                    "description": 2884787603,
+                    "fluff": 0,
+                    "add_path": "609496194502010810",
+                    "icon": "0",
+                    "slots": [
+                        "5 <=> WeaponCustomizationSlot_Magazine"
+                    ],
+                    "unk_array_0x0040": [],
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
+                },
+                {
+                    "index": 44,
+                    "debug_name": "Laser Heatsink (Blaster). Improved Cooldown",
+                    "id": 1681023692,
+                    "name_upper": 1691987288,
+                    "name_cased": 2891850877,
+                    "description": 2855610300,
+                    "fluff": 0,
+                    "add_path": "11750933216013246987",
+                    "icon": "0",
+                    "slots": [
+                        "5 <=> WeaponCustomizationSlot_Magazine"
+                    ],
+                    "unk_array_0x0040": [],
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
+                },
+                {
+                    "index": 45,
                     "debug_name": "Plasma Medium. Canister Standard",
                     "id": 2212187482,
                     "name_upper": 2948490704,
@@ -2401,7 +2449,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 43,
+                    "index": 46,
                     "debug_name": "Plasma Medium. Canister Extended",
                     "id": 1891970284,
                     "name_upper": 3236359595,
@@ -2417,7 +2465,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 44,
+                    "index": 47,
                     "debug_name": "Plasma Pistol. Canister Pistol",
                     "id": 1794183093,
                     "name_upper": 1057191056,
@@ -2433,7 +2481,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 45,
+                    "index": 48,
                     "debug_name": "Plasma Pistol. Canister Extended",
                     "id": 2173281941,
                     "name_upper": 287000771,
@@ -2449,7 +2497,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 46,
+                    "index": 49,
                     "debug_name": "Jet Assisted Rifle 15mm. Drum Standard ",
                     "id": 342335342,
                     "name_upper": 2367164855,
@@ -2465,7 +2513,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 47,
+                    "index": 50,
                     "debug_name": "Pistol 9x20mm. Extended ",
                     "id": 2993266867,
                     "name_upper": 2293927390,
@@ -2481,7 +2529,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 48,
+                    "index": 51,
                     "debug_name": "Pistol 12x20mm. Standard",
                     "id": 292456975,
                     "name_upper": 1621453557,
@@ -2504,9 +2552,9 @@
             "_metadata": {
                 "struct_size": 88,
                 "omitted_size": 48,
-                "exported_type_count": 34,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "exported_type_count": 36,
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
@@ -3039,6 +3087,38 @@
                 },
                 {
                     "index": 33,
+                    "debug_name": "Laser. Blaster Standard",
+                    "id": 1317769276,
+                    "name_upper": 3478978019,
+                    "name_cased": 765795814,
+                    "description": 1828041057,
+                    "fluff": 0,
+                    "add_path": "7466430846132341352",
+                    "icon": "0",
+                    "slots": [
+                        "4 <=> WeaponCustomizationSlot_Muzzle"
+                    ],
+                    "unk_array_0x0040": [],
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
+                },
+                {
+                    "index": 34,
+                    "debug_name": "Laser. Blaster Focus",
+                    "id": 2909392648,
+                    "name_upper": 3461671349,
+                    "name_cased": 3695350269,
+                    "description": 3313966979,
+                    "fluff": 0,
+                    "add_path": "11639777217625439587",
+                    "icon": "0",
+                    "slots": [
+                        "4 <=> WeaponCustomizationSlot_Muzzle"
+                    ],
+                    "unk_array_0x0040": [],
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
+                },
+                {
+                    "index": 35,
                     "debug_name": "Revolver. Medium Barrel",
                     "id": 4006988227,
                     "name_upper": 1221303241,
@@ -3062,8 +3142,8 @@
                 "struct_size": 88,
                 "omitted_size": 48,
                 "exported_type_count": 16,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
@@ -3331,8 +3411,8 @@
                 "struct_size": 88,
                 "omitted_size": 48,
                 "exported_type_count": 12,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
@@ -3767,8 +3847,8 @@
                 "struct_size": 88,
                 "omitted_size": 48,
                 "exported_type_count": 3,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
@@ -3827,9 +3907,9 @@
             "_metadata": {
                 "struct_size": 88,
                 "omitted_size": 48,
-                "exported_type_count": 17,
-                "patch_date": "2026-08-12",
-                "game_version": "1.007.000"
+                "exported_type_count": 18,
+                "patch_date": "2026-09-22",
+                "game_version": "1.007.100"
             },
             "items": [
                 {
@@ -4097,6 +4177,22 @@
                     "description": 3052900159,
                     "fluff": 0,
                     "add_path": "11037037794164389181",
+                    "icon": "0",
+                    "slots": [
+                        "1 <=> WeaponCustomizationSlot_Underbarrel"
+                    ],
+                    "unk_array_0x0040": [],
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
+                },
+                {
+                    "index": 17,
+                    "debug_name": "shotgun risk",
+                    "id": 4228274624,
+                    "name_upper": 1948530451,
+                    "name_cased": 4137243012,
+                    "description": 3423109258,
+                    "fluff": 0,
+                    "add_path": "13385271715385004853",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"

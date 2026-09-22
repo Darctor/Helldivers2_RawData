@@ -4,8 +4,8 @@
         "omitted_size": 7,
         "exported_entity_count": 10,
         "matched_bilingual_hash_count": 10,
-        "patch_date": "2026-08-12",
-        "game_version": "1.007.000"
+        "patch_date": "2026-09-22",
+        "game_version": "1.007.100"
     },
     "entities": [
         {
@@ -152,7 +152,7 @@
                 "flyby_cooldown": 3.0,
                 "payload": "5 <=> EaglePayload_Airstrike",
                 "airstrike_pattern": "6 <=> EagleAirstrikePattern_5line_Napalm_MK3",
-                "projectile_type": "237 <=> ProjectileType_Unknown_237",
+                "projectile_type": "239 <=> ProjectileType_Unknown_239",
                 "target_angle": 180.0,
                 "unk_bool_0x0020": 0,
                 "search_radius": 60.0,
@@ -196,7 +196,7 @@
                 "flyby_cooldown": 3.0,
                 "payload": "5 <=> EaglePayload_Airstrike",
                 "airstrike_pattern": "3 <=> EagleAirstrikePattern_8line_ClusterBomb",
-                "projectile_type": "282 <=> ProjectileType_Unknown_282",
+                "projectile_type": "286 <=> ProjectileType_Unknown_286",
                 "target_angle": 90.0,
                 "unk_bool_0x0020": 0,
                 "search_radius": 60.0,
