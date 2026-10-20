@@ -2,10 +2,10 @@
     "_metadata": {
         "struct_size": 592,
         "omitted_size": 15,
-        "exported_entity_count": 29,
-        "matched_bilingual_hash_count": 25,
-        "patch_date": "2026-09-22",
-        "game_version": "1.007.100"
+        "exported_entity_count": 30,
+        "matched_bilingual_hash_count": 26,
+        "patch_date": "2026-10-20",
+        "game_version": "1.007.200"
     },
     "entities": [
         {
@@ -856,7 +856,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2864 <=> AbilityId_Unknown_2864",
+                "overheat_ability": "2882 <=> AbilityId_Unknown_2882",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -1069,7 +1069,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2864 <=> AbilityId_Unknown_2864",
+                "overheat_ability": "2882 <=> AbilityId_Unknown_2882",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -2560,7 +2560,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2866 <=> AbilityId_Unknown_2866",
+                "overheat_ability": "2884 <=> AbilityId_Unknown_2884",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -3838,7 +3838,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2855 <=> AbilityId_Unknown_2855",
+                "overheat_ability": "2872 <=> AbilityId_Unknown_2872",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -4051,7 +4051,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2855 <=> AbilityId_Unknown_2855",
+                "overheat_ability": "2872 <=> AbilityId_Unknown_2872",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -4264,7 +4264,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2860 <=> AbilityId_Unknown_2860",
+                "overheat_ability": "2877 <=> AbilityId_Unknown_2877",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -4308,7 +4308,7 @@
                 "warning_temperature": 80.0,
                 "emission_temperature": 65.0,
                 "rtpc_temperature": 0.0,
-                "temp_gain_per_shot": 1.149999976158142,
+                "temp_gain_per_shot": 0.949999988079071,
                 "temp_gain_per_second": 0.0,
                 "temp_gain_per_second_modifier": 100.0,
                 "temp_loss_per_second": 8.0,
@@ -4317,8 +4317,8 @@
                 "temp_loss_per_second_overheated": 400.0,
                 "needs_reload_after_overheat": 1,
                 "firing_charge": 100.0,
-                "charge_gain_per_second": 200.0,
-                "charge_loss_per_second": 75.0,
+                "charge_gain_per_second": 300.0,
+                "charge_loss_per_second": 150.0,
                 "reset_charge_after_shot": 0,
                 "charging_triggers_dry_fire_events": 0,
                 "owner_warning_vo_event": 267052615,
@@ -4477,7 +4477,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2856 <=> AbilityId_Unknown_2856",
+                "overheat_ability": "2873 <=> AbilityId_Unknown_2873",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -4490,24 +4490,24 @@
                 "heat_Level_setting": [
                     {
                         "temperature_threshold": 50.0,
-                        "projectile_type": "185 <=> ProjectileType_Unknown_185",
+                        "projectile_type": "189 <=> ProjectileType_Unknown_189",
                         "unk_particle_effect": "1129534616093560801",
                         "unk_uint32_r0x0010": 0,
-                        "status_effect_to_user": "60 <=> StatusEffectType_Hotshot_Laser_Rifle_RL1"
+                        "status_effect_to_user": "61 <=> StatusEffectType_Hotshot_Laser_Rifle_RL1"
                     },
                     {
                         "temperature_threshold": 100.0,
-                        "projectile_type": "219 <=> ProjectileType_Unknown_219",
+                        "projectile_type": "222 <=> ProjectileType_Unknown_222",
                         "unk_particle_effect": "3373217330028412957",
                         "unk_uint32_r0x0010": 0,
-                        "status_effect_to_user": "61 <=> StatusEffectType_Hotshot_Laser_Rifle_RL2"
+                        "status_effect_to_user": "62 <=> StatusEffectType_Hotshot_Laser_Rifle_RL2"
                     },
                     {
                         "temperature_threshold": 190.0,
-                        "projectile_type": "25 <=> ProjectileType_Unknown_25",
+                        "projectile_type": "26 <=> ProjectileType_Unknown_26",
                         "unk_particle_effect": "17739782388901165193",
                         "unk_uint32_r0x0010": 0,
-                        "status_effect_to_user": "62 <=> StatusEffectType_Hotshot_Laser_Rifle_RL3"
+                        "status_effect_to_user": "63 <=> StatusEffectType_Hotshot_Laser_Rifle_RL3"
                     }
                 ],
                 "rpm_multiplier": 1.100000023841858,
@@ -4530,8 +4530,8 @@
                 "temp_loss_per_second_overheated": 400.0,
                 "needs_reload_after_overheat": 1,
                 "firing_charge": 100.0,
-                "charge_gain_per_second": 200.0,
-                "charge_loss_per_second": 75.0,
+                "charge_gain_per_second": 300.0,
+                "charge_loss_per_second": 150.0,
                 "reset_charge_after_shot": 0,
                 "charging_triggers_dry_fire_events": 0,
                 "owner_warning_vo_event": 267052615,
@@ -4690,7 +4690,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2856 <=> AbilityId_Unknown_2856",
+                "overheat_ability": "2873 <=> AbilityId_Unknown_2873",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -4903,7 +4903,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2867 <=> AbilityId_Unknown_2867",
+                "overheat_ability": "2885 <=> AbilityId_Unknown_2885",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -5116,7 +5116,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2857 <=> AbilityId_Unknown_2857",
+                "overheat_ability": "2874 <=> AbilityId_Unknown_2874",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -5542,7 +5542,7 @@
                 "camera_shake_on_red_temp_start": "0",
                 "camera_shake_on_fire_stop_constant": "0",
                 "camera_shake_on_fire_stop_kick": "0",
-                "overheat_ability": "2865 <=> AbilityId_Unknown_2865",
+                "overheat_ability": "2883 <=> AbilityId_Unknown_2883",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -5755,7 +5755,7 @@
                 "camera_shake_on_red_temp_start": "11110671436500898607",
                 "camera_shake_on_fire_stop_constant": "0",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2859 <=> AbilityId_Unknown_2859",
+                "overheat_ability": "2876 <=> AbilityId_Unknown_2876",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -5968,7 +5968,7 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2862 <=> AbilityId_Unknown_2862",
+                "overheat_ability": "2879 <=> AbilityId_Unknown_2879",
                 "unk_float_0x024C": 100.0
             }
         },
@@ -6181,7 +6181,220 @@
                 "camera_shake_on_red_temp_start": "2053840757796948444",
                 "camera_shake_on_fire_stop_constant": "9691622786665766942",
                 "camera_shake_on_fire_stop_kick": "13773329586626171602",
-                "overheat_ability": "2863 <=> AbilityId_Unknown_2863",
+                "overheat_ability": "2880 <=> AbilityId_Unknown_2880",
+                "unk_float_0x024C": 100.0
+            }
+        },
+        {
+            "0x73D84EAAE8C75342": {
+                "hash": "8347508405287998274",
+                "name": "LAS-44 Nova (Model)",
+                "name_zh": "LAS-44 新星（模型）",
+                "index": 29,
+                "heat_Level_setting": [
+                    {
+                        "temperature_threshold": 0.0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                        "unk_particle_effect": "0",
+                        "unk_uint32_r0x0010": 0,
+                        "status_effect_to_user": "0 <=> StatusEffectType_None"
+                    },
+                    {
+                        "temperature_threshold": 0.0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                        "unk_particle_effect": "0",
+                        "unk_uint32_r0x0010": 0,
+                        "status_effect_to_user": "0 <=> StatusEffectType_None"
+                    },
+                    {
+                        "temperature_threshold": 0.0,
+                        "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                        "unk_particle_effect": "0",
+                        "unk_uint32_r0x0010": 0,
+                        "status_effect_to_user": "0 <=> StatusEffectType_None"
+                    }
+                ],
+                "rpm_multiplier": 1.0,
+                "unk_float_0x004C": 1.0,
+                "forbid_shoot_after_overheated": 1,
+                "magazines": 0,
+                "magazines_refill": 6,
+                "magazines_max": 0,
+                "overheat_temperature": 100.0,
+                "overheat_temperature_recover": 0.0,
+                "warning_temperature": 5.0,
+                "emission_temperature": 45.0,
+                "rtpc_temperature": 0.0,
+                "temp_gain_per_shot": 100.0,
+                "temp_gain_per_second": 0.0,
+                "temp_gain_per_second_modifier": 100.0,
+                "temp_loss_per_second": 28.0,
+                "temp_loss_modifier_extreme_heat": 0.8579999804496765,
+                "temp_loss_modifier_extreme_cold": 1.2000000476837158,
+                "temp_loss_per_second_overheated": 28.0,
+                "needs_reload_after_overheat": 0,
+                "firing_charge": 100.0,
+                "charge_gain_per_second": 63.0,
+                "charge_loss_per_second": 500.0,
+                "reset_charge_after_shot": 1,
+                "charging_triggers_dry_fire_events": 1,
+                "owner_warning_vo_event": 267052615,
+                "owner_overheat_vo_event": 3049724096,
+                "min_reload_temperature": 0.0,
+                "charge_mesh": 4221645464,
+                "charge_material": 2113163872,
+                "charge_variable": 3379599616,
+                "overheat_variable": 92240865,
+                "unk_bool_about_shear": 0,
+                "heat_material_setting": [
+                    {
+                        "0x6386883C": [
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            }
+                        ],
+                        "unk_float_r0x003C": 1.0,
+                        "unk_float_r0x0040": 1.0,
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
+                    },
+                    {
+                        "0x6386883C": [
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            }
+                        ],
+                        "unk_float_r0x003C": 1.0,
+                        "unk_float_r0x0040": 1.0,
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
+                    },
+                    {
+                        "0x6386883C": [
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            }
+                        ],
+                        "unk_float_r0x003C": 1.0,
+                        "unk_float_r0x0040": 1.0,
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
+                    },
+                    {
+                        "0x6386883C": [
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            },
+                            {
+                                "unk_uint32_r0x0000": 0,
+                                "unk_uint32_r0x0004": 0,
+                                "unk_uint32_r0x0008": 0
+                            }
+                        ],
+                        "unk_float_r0x003C": 1.0,
+                        "unk_float_r0x0040": 1.0,
+                        "unk_enum_r0x0044": "0 <=> 0x48521B2E_Unknown_0"
+                    }
+                ],
+                "charging_start_audio_event": 1425825777,
+                "charging_complete_audio_event": 2718817447,
+                "discharging_start_audio_event": 2935788464,
+                "discharging_complete_audio_event": 1284270418,
+                "charge_source_node": 747556395,
+                "on_temp_yellow_start_sound_event": 0,
+                "on_temp_yellow_stop_sound_event": 0,
+                "on_overheat_start_sound_event": 0,
+                "on_overheat_stop_sound_event": 0,
+                "on_overheat_anim_event": 0,
+                "on_overheat_alarm_start_sound_event": 0,
+                "on_overheat_alarm_stop_sound_event": 0,
+                "camera_shake_on_charging_start": "4909833865920806954",
+                "camera_shake_on_firing_start": "3845868865019897506",
+                "camera_shake_on_yellow_temp_start": "8810920703403139181",
+                "camera_shake_on_red_temp_start": "2053840757796948444",
+                "camera_shake_on_fire_stop_constant": "9691622786665766942",
+                "camera_shake_on_fire_stop_kick": "13773329586626171602",
+                "overheat_ability": "2881 <=> AbilityId_Unknown_2881",
                 "unk_float_0x024C": 100.0
             }
         }

@@ -16,4 +16,5 @@ HitEffectDamageType_Unk14
 HitEffectDamageType_Unk15
 HitEffectDamageType_Unk16
 HitEffectDamageType_Unk17
+HitEffectDamageType_Unk18
 HitEffectDamageType_Count

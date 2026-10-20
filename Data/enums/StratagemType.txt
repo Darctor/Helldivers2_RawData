@@ -26,6 +26,7 @@ StratagemType_WarpPack
 StratagemType_Autocannon
 StratagemType_FRV_Supply
 StratagemType_PatriotExosuit
+StratagemType_SniperRifle_Apex
 StratagemType_SEAF_Artillery
 StratagemType_DarkFluidBackpack
 StratagemType_EagleStrafingRun
@@ -47,6 +48,7 @@ StratagemType_Epoch
 StratagemType_GasMines
 StratagemType_Tank_Reload_HE
 StratagemType_MissionDataJack
+StratagemType_EagleFlyBy
 StratagemType_EagleRearm
 StratagemType_StormTank
 StratagemType_DefoliationTool
@@ -62,6 +64,7 @@ StratagemType_Tank_Reload_Canister
 StratagemType_Sterilizer
 StratagemType_WalkingBarrageSmoke
 StratagemType_LaserCannon
+StratagemType_LaserRifle_Nova
 StratagemType_TCS03Thumper
 StratagemType_EagleClusterbombs
 StratagemType_TurretGatling
@@ -140,6 +143,7 @@ StratagemType_CargoContainer
 StratagemType_IncendiaryMines
 StratagemType_Eagle110mmRocket
 StratagemType_AntiMaterielRifle
+StratagemType_OrbitalConfetti
 StratagemType_Drone_Gas
 StratagemType_Jumppack_PresidentReward
 StratagemType_HMG_Emplacement

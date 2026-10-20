@@ -2,10 +2,10 @@
     "_metadata": {
         "struct_size": 1544,
         "omitted_size": 84,
-        "exported_entity_count": 63,
-        "matched_bilingual_hash_count": 53,
-        "patch_date": "2026-09-22",
-        "game_version": "1.007.100"
+        "exported_entity_count": 64,
+        "matched_bilingual_hash_count": 54,
+        "patch_date": "2026-10-20",
+        "game_version": "1.007.200"
     },
     "entities": [
         {
@@ -15158,8 +15158,8 @@
         {
             "0x6B202392F4AB605E": {
                 "hash": "7719208875390099550",
-                "name": "Spore Charger",
-                "name_zh": "孢子强袭虫",
+                "name": "Caustic Charger",
+                "name_zh": "腐蚀强袭虫",
                 "index": 33,
                 "damage_dealer_zones": [
                     {
@@ -22959,11 +22959,470 @@
             }
         },
         {
+            "0x2A275BB78BB20148": {
+                "hash": "3037497317565530440",
+                "name": "Eagle Fly By",
+                "name_zh": "飞鹰掠过",
+                "index": 50,
+                "damage_dealer_zones": [
+                    {
+                        "name": 1497315624,
+                        "shape": "1 <=> DamageDealerZoneShape_Box",
+                        "node": 2601604451,
+                        "size": {
+                            "x": 2.0,
+                            "y": 7.0,
+                            "z": 1.0
+                        },
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "knockback_force_base": 5.0,
+                        "knockback_force_max": 50.0,
+                        "damage_angle": 90.0,
+                        "mode": "0 <=> OverlapDamageMode_ImpactDamage",
+                        "graze_damage_multiplier": 0.5,
+                        "base_impact_damage_speed": 3.0,
+                        "max_impact_damage_speed": 40.0,
+                        "base_imparted_impact_damage": 2.0,
+                        "max_imparted_impact_damage": 500.0,
+                        "killable_threshold": "1 <=> UnitSize_Medium",
+                        "base_demolition_strength": 35.0,
+                        "max_demolition_strength": 45.0,
+                        "hit_interval": 0.10000000149011612,
+                        "activation_threshold_kmh": 0.0,
+                        "deactivation_threshold_kmh": 0.0,
+                        "on_vehicle_speed_forward": 1,
+                        "on_vehicle_speed_reverse": 1,
+                        "unk_bool_r0x0062": 0,
+                        "unk_bool_r0x0063": 0,
+                        "corpse_unit_size_mod": 0,
+                        "track_node_velocity": 0,
+                        "ignore_allies": 0,
+                        "faction_type": "0 <=> FactionType_None",
+                        "unk_bool_about_bastion_tank_r0x0070": 0,
+                        "unk_bool_about_bastion_tank_r0x0071": 0,
+                        "unk_bool_about_cyborg_tank": 0,
+                        "overlap_ignored_entities": [
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0"
+                        ],
+                        "avatar_only": 0,
+                        "only_damage_avatar_and_enemies": 0,
+                        "only_damage_corpses": 0,
+                        "only_hit_main_damage_zone": 0,
+                        "unk_bool_r0x00BC": 1
+                    },
+                    {
+                        "name": 2027635676,
+                        "shape": "1 <=> DamageDealerZoneShape_Box",
+                        "node": 1730560639,
+                        "size": {
+                            "x": 1.0,
+                            "y": 5.0,
+                            "z": 1.0
+                        },
+                        "offset": {
+                            "x": 0.0,
+                            "y": 4.0,
+                            "z": 0.0
+                        },
+                        "knockback_force_base": 5.0,
+                        "knockback_force_max": 20.0,
+                        "damage_angle": 45.0,
+                        "mode": "0 <=> OverlapDamageMode_ImpactDamage",
+                        "graze_damage_multiplier": 0.20000000298023224,
+                        "base_impact_damage_speed": 3.0,
+                        "max_impact_damage_speed": 40.0,
+                        "base_imparted_impact_damage": 2.0,
+                        "max_imparted_impact_damage": 500.0,
+                        "killable_threshold": "1 <=> UnitSize_Medium",
+                        "base_demolition_strength": 35.0,
+                        "max_demolition_strength": 45.0,
+                        "hit_interval": 0.10000000149011612,
+                        "activation_threshold_kmh": 0.0,
+                        "deactivation_threshold_kmh": 0.0,
+                        "on_vehicle_speed_forward": 1,
+                        "on_vehicle_speed_reverse": 1,
+                        "unk_bool_r0x0062": 0,
+                        "unk_bool_r0x0063": 0,
+                        "corpse_unit_size_mod": 0,
+                        "track_node_velocity": 0,
+                        "ignore_allies": 0,
+                        "faction_type": "0 <=> FactionType_None",
+                        "unk_bool_about_bastion_tank_r0x0070": 0,
+                        "unk_bool_about_bastion_tank_r0x0071": 0,
+                        "unk_bool_about_cyborg_tank": 0,
+                        "overlap_ignored_entities": [
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0"
+                        ],
+                        "avatar_only": 0,
+                        "only_damage_avatar_and_enemies": 0,
+                        "only_damage_corpses": 0,
+                        "only_hit_main_damage_zone": 0,
+                        "unk_bool_r0x00BC": 1
+                    },
+                    {
+                        "name": 1271099317,
+                        "shape": "1 <=> DamageDealerZoneShape_Box",
+                        "node": 2814378194,
+                        "size": {
+                            "x": 1.0,
+                            "y": 5.0,
+                            "z": 1.0
+                        },
+                        "offset": {
+                            "x": 0.0,
+                            "y": 4.0,
+                            "z": 0.0
+                        },
+                        "knockback_force_base": 5.0,
+                        "knockback_force_max": 20.0,
+                        "damage_angle": 45.0,
+                        "mode": "0 <=> OverlapDamageMode_ImpactDamage",
+                        "graze_damage_multiplier": 0.20000000298023224,
+                        "base_impact_damage_speed": 3.0,
+                        "max_impact_damage_speed": 40.0,
+                        "base_imparted_impact_damage": 2.0,
+                        "max_imparted_impact_damage": 500.0,
+                        "killable_threshold": "1 <=> UnitSize_Medium",
+                        "base_demolition_strength": 35.0,
+                        "max_demolition_strength": 45.0,
+                        "hit_interval": 0.10000000149011612,
+                        "activation_threshold_kmh": 0.0,
+                        "deactivation_threshold_kmh": 0.0,
+                        "on_vehicle_speed_forward": 1,
+                        "on_vehicle_speed_reverse": 1,
+                        "unk_bool_r0x0062": 0,
+                        "unk_bool_r0x0063": 0,
+                        "corpse_unit_size_mod": 0,
+                        "track_node_velocity": 0,
+                        "ignore_allies": 0,
+                        "faction_type": "0 <=> FactionType_None",
+                        "unk_bool_about_bastion_tank_r0x0070": 0,
+                        "unk_bool_about_bastion_tank_r0x0071": 0,
+                        "unk_bool_about_cyborg_tank": 0,
+                        "overlap_ignored_entities": [
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0"
+                        ],
+                        "avatar_only": 0,
+                        "only_damage_avatar_and_enemies": 0,
+                        "only_damage_corpses": 0,
+                        "only_hit_main_damage_zone": 0,
+                        "unk_bool_r0x00BC": 1
+                    },
+                    {
+                        "name": 662741706,
+                        "shape": "1 <=> DamageDealerZoneShape_Box",
+                        "node": 2601604451,
+                        "size": {
+                            "x": 0.10000000149011612,
+                            "y": 0.75,
+                            "z": 3.0
+                        },
+                        "offset": {
+                            "x": 0.0,
+                            "y": -1.0,
+                            "z": -2.0
+                        },
+                        "knockback_force_base": 5.0,
+                        "knockback_force_max": 50.0,
+                        "damage_angle": 90.0,
+                        "mode": "0 <=> OverlapDamageMode_ImpactDamage",
+                        "graze_damage_multiplier": 0.5,
+                        "base_impact_damage_speed": 3.0,
+                        "max_impact_damage_speed": 40.0,
+                        "base_imparted_impact_damage": 2.0,
+                        "max_imparted_impact_damage": 500.0,
+                        "killable_threshold": "1 <=> UnitSize_Medium",
+                        "base_demolition_strength": 35.0,
+                        "max_demolition_strength": 45.0,
+                        "hit_interval": 0.10000000149011612,
+                        "activation_threshold_kmh": 0.0,
+                        "deactivation_threshold_kmh": 0.0,
+                        "on_vehicle_speed_forward": 1,
+                        "on_vehicle_speed_reverse": 1,
+                        "unk_bool_r0x0062": 0,
+                        "unk_bool_r0x0063": 0,
+                        "corpse_unit_size_mod": 0,
+                        "track_node_velocity": 0,
+                        "ignore_allies": 0,
+                        "faction_type": "0 <=> FactionType_None",
+                        "unk_bool_about_bastion_tank_r0x0070": 0,
+                        "unk_bool_about_bastion_tank_r0x0071": 0,
+                        "unk_bool_about_cyborg_tank": 0,
+                        "overlap_ignored_entities": [
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0"
+                        ],
+                        "avatar_only": 0,
+                        "only_damage_avatar_and_enemies": 0,
+                        "only_damage_corpses": 0,
+                        "only_hit_main_damage_zone": 0,
+                        "unk_bool_r0x00BC": 1
+                    },
+                    {
+                        "name": 2089514249,
+                        "shape": "1 <=> DamageDealerZoneShape_Box",
+                        "node": 2601604451,
+                        "size": {
+                            "x": 10.0,
+                            "y": 1.0,
+                            "z": 0.25
+                        },
+                        "offset": {
+                            "x": 0.0,
+                            "y": -1.5,
+                            "z": 0.0
+                        },
+                        "knockback_force_base": 5.0,
+                        "knockback_force_max": 50.0,
+                        "damage_angle": 90.0,
+                        "mode": "0 <=> OverlapDamageMode_ImpactDamage",
+                        "graze_damage_multiplier": 0.5,
+                        "base_impact_damage_speed": 3.0,
+                        "max_impact_damage_speed": 40.0,
+                        "base_imparted_impact_damage": 2.0,
+                        "max_imparted_impact_damage": 500.0,
+                        "killable_threshold": "1 <=> UnitSize_Medium",
+                        "base_demolition_strength": 35.0,
+                        "max_demolition_strength": 45.0,
+                        "hit_interval": 0.10000000149011612,
+                        "activation_threshold_kmh": 0.0,
+                        "deactivation_threshold_kmh": 0.0,
+                        "on_vehicle_speed_forward": 1,
+                        "on_vehicle_speed_reverse": 1,
+                        "unk_bool_r0x0062": 0,
+                        "unk_bool_r0x0063": 0,
+                        "corpse_unit_size_mod": 0,
+                        "track_node_velocity": 0,
+                        "ignore_allies": 0,
+                        "faction_type": "0 <=> FactionType_None",
+                        "unk_bool_about_bastion_tank_r0x0070": 0,
+                        "unk_bool_about_bastion_tank_r0x0071": 0,
+                        "unk_bool_about_cyborg_tank": 0,
+                        "overlap_ignored_entities": [
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0"
+                        ],
+                        "avatar_only": 0,
+                        "only_damage_avatar_and_enemies": 0,
+                        "only_damage_corpses": 0,
+                        "only_hit_main_damage_zone": 0,
+                        "unk_bool_r0x00BC": 1
+                    },
+                    {
+                        "name": 0,
+                        "shape": "0 <=> DamageDealerZoneShape_Sphere",
+                        "node": 1243096897,
+                        "size": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "knockback_force_base": 5.0,
+                        "knockback_force_max": 5.0,
+                        "damage_angle": 360.0,
+                        "mode": "0 <=> OverlapDamageMode_ImpactDamage",
+                        "graze_damage_multiplier": 1.0,
+                        "base_impact_damage_speed": 1.0,
+                        "max_impact_damage_speed": 20.0,
+                        "base_imparted_impact_damage": 1.0,
+                        "max_imparted_impact_damage": 100.0,
+                        "killable_threshold": "1 <=> UnitSize_Medium",
+                        "base_demolition_strength": 10.0,
+                        "max_demolition_strength": 45.0,
+                        "hit_interval": 0.10000000149011612,
+                        "activation_threshold_kmh": 0.0,
+                        "deactivation_threshold_kmh": 0.0,
+                        "on_vehicle_speed_forward": 1,
+                        "on_vehicle_speed_reverse": 1,
+                        "unk_bool_r0x0062": 0,
+                        "unk_bool_r0x0063": 0,
+                        "corpse_unit_size_mod": 0,
+                        "track_node_velocity": 0,
+                        "ignore_allies": 0,
+                        "faction_type": "0 <=> FactionType_None",
+                        "unk_bool_about_bastion_tank_r0x0070": 0,
+                        "unk_bool_about_bastion_tank_r0x0071": 0,
+                        "unk_bool_about_cyborg_tank": 0,
+                        "overlap_ignored_entities": [
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0"
+                        ],
+                        "avatar_only": 0,
+                        "only_damage_avatar_and_enemies": 0,
+                        "only_damage_corpses": 0,
+                        "only_hit_main_damage_zone": 0,
+                        "unk_bool_r0x00BC": 1
+                    },
+                    {
+                        "name": 0,
+                        "shape": "0 <=> DamageDealerZoneShape_Sphere",
+                        "node": 1243096897,
+                        "size": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "knockback_force_base": 5.0,
+                        "knockback_force_max": 5.0,
+                        "damage_angle": 360.0,
+                        "mode": "0 <=> OverlapDamageMode_ImpactDamage",
+                        "graze_damage_multiplier": 1.0,
+                        "base_impact_damage_speed": 1.0,
+                        "max_impact_damage_speed": 20.0,
+                        "base_imparted_impact_damage": 1.0,
+                        "max_imparted_impact_damage": 100.0,
+                        "killable_threshold": "1 <=> UnitSize_Medium",
+                        "base_demolition_strength": 10.0,
+                        "max_demolition_strength": 45.0,
+                        "hit_interval": 0.10000000149011612,
+                        "activation_threshold_kmh": 0.0,
+                        "deactivation_threshold_kmh": 0.0,
+                        "on_vehicle_speed_forward": 1,
+                        "on_vehicle_speed_reverse": 1,
+                        "unk_bool_r0x0062": 0,
+                        "unk_bool_r0x0063": 0,
+                        "corpse_unit_size_mod": 0,
+                        "track_node_velocity": 0,
+                        "ignore_allies": 0,
+                        "faction_type": "0 <=> FactionType_None",
+                        "unk_bool_about_bastion_tank_r0x0070": 0,
+                        "unk_bool_about_bastion_tank_r0x0071": 0,
+                        "unk_bool_about_cyborg_tank": 0,
+                        "overlap_ignored_entities": [
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0"
+                        ],
+                        "avatar_only": 0,
+                        "only_damage_avatar_and_enemies": 0,
+                        "only_damage_corpses": 0,
+                        "only_hit_main_damage_zone": 0,
+                        "unk_bool_r0x00BC": 1
+                    },
+                    {
+                        "name": 0,
+                        "shape": "0 <=> DamageDealerZoneShape_Sphere",
+                        "node": 1243096897,
+                        "size": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "knockback_force_base": 5.0,
+                        "knockback_force_max": 5.0,
+                        "damage_angle": 360.0,
+                        "mode": "0 <=> OverlapDamageMode_ImpactDamage",
+                        "graze_damage_multiplier": 1.0,
+                        "base_impact_damage_speed": 1.0,
+                        "max_impact_damage_speed": 20.0,
+                        "base_imparted_impact_damage": 1.0,
+                        "max_imparted_impact_damage": 100.0,
+                        "killable_threshold": "1 <=> UnitSize_Medium",
+                        "base_demolition_strength": 10.0,
+                        "max_demolition_strength": 45.0,
+                        "hit_interval": 0.10000000149011612,
+                        "activation_threshold_kmh": 0.0,
+                        "deactivation_threshold_kmh": 0.0,
+                        "on_vehicle_speed_forward": 1,
+                        "on_vehicle_speed_reverse": 1,
+                        "unk_bool_r0x0062": 0,
+                        "unk_bool_r0x0063": 0,
+                        "corpse_unit_size_mod": 0,
+                        "track_node_velocity": 0,
+                        "ignore_allies": 0,
+                        "faction_type": "0 <=> FactionType_None",
+                        "unk_bool_about_bastion_tank_r0x0070": 0,
+                        "unk_bool_about_bastion_tank_r0x0071": 0,
+                        "unk_bool_about_cyborg_tank": 0,
+                        "overlap_ignored_entities": [
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "0"
+                        ],
+                        "avatar_only": 0,
+                        "only_damage_avatar_and_enemies": 0,
+                        "only_damage_corpses": 0,
+                        "only_hit_main_damage_zone": 0,
+                        "unk_bool_r0x00BC": 1
+                    }
+                ],
+                "hit_effect_damage_type": "9 <=> HitEffectDamageType_Blunt"
+            }
+        },
+        {
             "0xDBB286AD7ED9DF96": {
                 "hash": "15830863719876386710",
                 "name": "Eagle Gas Strike",
                 "name_zh": "飞鹰毒气空袭",
-                "index": 50,
+                "index": 51,
                 "damage_dealer_zones": [
                     {
                         "name": 1497315624,
@@ -23422,7 +23881,7 @@
                 "hash": "851455025217071569",
                 "name": "Eagle Fast Strike",
                 "name_zh": "飞鹰快速打击",
-                "index": 51,
+                "index": 52,
                 "damage_dealer_zones": [
                     {
                         "name": 1497315624,
@@ -23881,7 +24340,7 @@
                 "hash": "16121648674137865605",
                 "name": "Eagle Air-To-Air Missiles",
                 "name_zh": "飞鹰空对空导弹",
-                "index": 52,
+                "index": 53,
                 "damage_dealer_zones": [
                     {
                         "name": 1497315624,
@@ -24340,7 +24799,7 @@
                 "hash": "2862976050209719244",
                 "name": "Eagle Napalm Airstrike",
                 "name_zh": "飞鹰凝固汽油弹",
-                "index": 53,
+                "index": 54,
                 "damage_dealer_zones": [
                     {
                         "name": 1497315624,
@@ -24799,7 +25258,7 @@
                 "hash": "4140939466573601321",
                 "name": "Eagle 110MM Rocket Pods",
                 "name_zh": "飞鹰110火箭巢",
-                "index": 54,
+                "index": 55,
                 "damage_dealer_zones": [
                     {
                         "name": 1497315624,
@@ -25258,7 +25717,7 @@
                 "hash": "8867451643782573472",
                 "name": "Pelican MK2",
                 "name_zh": "鹈鹕 MK2(撤离)",
-                "index": 55,
+                "index": 56,
                 "damage_dealer_zones": [
                     {
                         "name": 2027635676,
@@ -25717,7 +26176,7 @@
                 "hash": "17238162226885792459",
                 "name": "Pelican",
                 "name_zh": "鹈鹕 (撤离)",
-                "index": 56,
+                "index": 57,
                 "damage_dealer_zones": [
                     {
                         "name": 2027635676,
@@ -26176,7 +26635,7 @@
                 "hash": "4571403555494335481",
                 "name": "Pelican MK4",
                 "name_zh": "带货柜的鹈鹕",
-                "index": 57,
+                "index": 58,
                 "damage_dealer_zones": [
                     {
                         "name": 2027635676,
@@ -26635,7 +27094,7 @@
                 "hash": "12738988949818115065",
                 "name": "TD-110 Maelstrom",
                 "name_zh": "TD-110 风暴漩涡",
-                "index": 58,
+                "index": 59,
                 "damage_dealer_zones": [
                     {
                         "name": 120976598,
@@ -27094,7 +27553,7 @@
                 "hash": "15438282343866021807",
                 "name": "Harvester MK2",
                 "name_zh": "猎杀器 MK2",
-                "index": 59,
+                "index": 60,
                 "damage_dealer_zones": [
                     {
                         "name": 3070885404,
@@ -27553,7 +28012,7 @@
                 "hash": "16085819457051082660",
                 "name": "Hive Breaker Drill",
                 "name_zh": "虫窝钻机",
-                "index": 60,
+                "index": 61,
                 "damage_dealer_zones": [
                     {
                         "name": 1935977985,
@@ -28012,7 +28471,7 @@
                 "hash": "12902940357999748154",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 61,
+                "index": 62,
                 "damage_dealer_zones": [
                     {
                         "name": 1935977985,
@@ -28471,7 +28930,7 @@
                 "hash": "11555060082231454796",
                 "name": "Charger Behemoth MK2",
                 "name_zh": "巨兽级强袭虫 MK2",
-                "index": 62,
+                "index": 63,
                 "damage_dealer_zones": [
                     {
                         "name": 892275203,

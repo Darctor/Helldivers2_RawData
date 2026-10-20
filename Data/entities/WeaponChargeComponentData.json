@@ -4,8 +4,8 @@
         "omitted_size": 22,
         "exported_entity_count": 10,
         "matched_bilingual_hash_count": 9,
-        "patch_date": "2026-09-22",
-        "game_version": "1.007.100"
+        "patch_date": "2026-10-20",
+        "game_version": "1.007.200"
     },
     "entities": [
         {
@@ -277,19 +277,19 @@
                 "charge_state_settings": [
                     {
                         "charge_time": 0.009999999776482582,
-                        "projectile_type": "129 <=> ProjectileType_Unknown_129",
+                        "projectile_type": "131 <=> ProjectileType_Unknown_131",
                         "muzzle_flash_effect": "10055084526880791407",
                         "fire_single_audio": 0
                     },
                     {
                         "charge_time": 1.0,
-                        "projectile_type": "296 <=> ProjectileType_Unknown_296",
+                        "projectile_type": "301 <=> ProjectileType_Unknown_301",
                         "muzzle_flash_effect": "8143194268241733506",
                         "fire_single_audio": 0
                     },
                     {
                         "charge_time": 1.0,
-                        "projectile_type": "296 <=> ProjectileType_Unknown_296",
+                        "projectile_type": "301 <=> ProjectileType_Unknown_301",
                         "muzzle_flash_effect": "0",
                         "fire_single_audio": 0
                     }
@@ -342,19 +342,19 @@
                 "charge_state_settings": [
                     {
                         "charge_time": 0.009999999776482582,
-                        "projectile_type": "70 <=> ProjectileType_Unknown_70",
+                        "projectile_type": "72 <=> ProjectileType_Unknown_72",
                         "muzzle_flash_effect": "10055084526880791407",
                         "fire_single_audio": 0
                     },
                     {
                         "charge_time": 0.75,
-                        "projectile_type": "341 <=> ProjectileType_Unknown_341",
+                        "projectile_type": "346 <=> ProjectileType_Unknown_346",
                         "muzzle_flash_effect": "8143194268241733506",
                         "fire_single_audio": 0
                     },
                     {
                         "charge_time": 3.0,
-                        "projectile_type": "341 <=> ProjectileType_Unknown_341",
+                        "projectile_type": "346 <=> ProjectileType_Unknown_346",
                         "muzzle_flash_effect": "0",
                         "fire_single_audio": 0
                     }
@@ -537,19 +537,19 @@
                 "charge_state_settings": [
                     {
                         "charge_time": 1.0,
-                        "projectile_type": "165 <=> ProjectileType_Unknown_165",
+                        "projectile_type": "168 <=> ProjectileType_Unknown_168",
                         "muzzle_flash_effect": "10055084526880791407",
                         "fire_single_audio": 0
                     },
                     {
                         "charge_time": 2.5,
-                        "projectile_type": "193 <=> ProjectileType_Unknown_193",
+                        "projectile_type": "196 <=> ProjectileType_Unknown_196",
                         "muzzle_flash_effect": "8143194268241733506",
                         "fire_single_audio": 0
                     },
                     {
                         "charge_time": 2.5999999046325684,
-                        "projectile_type": "193 <=> ProjectileType_Unknown_193",
+                        "projectile_type": "196 <=> ProjectileType_Unknown_196",
                         "muzzle_flash_effect": "8143194268241733506",
                         "fire_single_audio": 0
                     }

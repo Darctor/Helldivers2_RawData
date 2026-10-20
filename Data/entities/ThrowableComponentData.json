@@ -4,8 +4,8 @@
         "omitted_size": 63,
         "exported_entity_count": 46,
         "matched_bilingual_hash_count": 40,
-        "patch_date": "2026-09-22",
-        "game_version": "1.007.100"
+        "patch_date": "2026-10-20",
+        "game_version": "1.007.200"
     },
     "entities": [
         {
@@ -3190,17 +3190,17 @@
                     {
                         "fuse_time": 5.0,
                         "unk_uint32_r0x0008": "4160209270155261412",
-                        "unk_ability": "1235 <=> AbilityId_Unknown_1235"
+                        "unk_ability": "1232 <=> AbilityId_Unknown_1232"
                     },
                     {
                         "fuse_time": 15.0,
                         "unk_uint32_r0x0008": "5402093273241786794",
-                        "unk_ability": "1236 <=> AbilityId_Unknown_1236"
+                        "unk_ability": "1233 <=> AbilityId_Unknown_1233"
                     },
                     {
                         "fuse_time": 60.0,
                         "unk_uint32_r0x0008": "2918027136439598990",
-                        "unk_ability": "1237 <=> AbilityId_Unknown_1237"
+                        "unk_ability": "1234 <=> AbilityId_Unknown_1234"
                     },
                     {
                         "fuse_time": -1.0,
@@ -5145,17 +5145,17 @@
                     {
                         "fuse_time": 5.0,
                         "unk_uint32_r0x0008": "4160209270155261412",
-                        "unk_ability": "1235 <=> AbilityId_Unknown_1235"
+                        "unk_ability": "1232 <=> AbilityId_Unknown_1232"
                     },
                     {
                         "fuse_time": 15.0,
                         "unk_uint32_r0x0008": "5402093273241786794",
-                        "unk_ability": "1236 <=> AbilityId_Unknown_1236"
+                        "unk_ability": "1233 <=> AbilityId_Unknown_1233"
                     },
                     {
                         "fuse_time": 60.0,
                         "unk_uint32_r0x0008": "2918027136439598990",
-                        "unk_ability": "1237 <=> AbilityId_Unknown_1237"
+                        "unk_ability": "1234 <=> AbilityId_Unknown_1234"
                     },
                     {
                         "fuse_time": -1.0,

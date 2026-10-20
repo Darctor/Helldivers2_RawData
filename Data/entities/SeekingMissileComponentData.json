@@ -4,8 +4,8 @@
         "omitted_size": 17,
         "exported_entity_count": 29,
         "matched_bilingual_hash_count": 16,
-        "patch_date": "2026-09-22",
-        "game_version": "1.007.100"
+        "patch_date": "2026-10-20",
+        "game_version": "1.007.200"
     },
     "entities": [
         {
@@ -1306,7 +1306,7 @@
                 "target_dot_minimum": 0.30000001192092896,
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 1,
-                "projectile_type_to_process": "298 <=> ProjectileType_Unknown_298",
+                "projectile_type_to_process": "303 <=> ProjectileType_Unknown_303",
                 "seeking_missile_deviation": {
                     "unk_bool_r0x0000": 0,
                     "unk_float_r0x0004": 0.0,
@@ -2731,7 +2731,7 @@
                 "target_dot_minimum": 0.30000001192092896,
                 "javelin_firing_mode": 0,
                 "movement_should_be_processed_by_projectile_system": 1,
-                "projectile_type_to_process": "298 <=> ProjectileType_Unknown_298",
+                "projectile_type_to_process": "303 <=> ProjectileType_Unknown_303",
                 "seeking_missile_deviation": {
                     "unk_bool_r0x0000": 0,
                     "unk_float_r0x0004": 0.0,

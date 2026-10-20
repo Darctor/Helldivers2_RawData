@@ -4,8 +4,8 @@
         "omitted_size": 17,
         "exported_entity_count": 71,
         "matched_bilingual_hash_count": 52,
-        "patch_date": "2026-09-22",
-        "game_version": "1.007.100"
+        "patch_date": "2026-10-20",
+        "game_version": "1.007.200"
     },
     "entities": [
         {
@@ -2118,7 +2118,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1238 <=> AbilityId_Unknown_1238",
+                "on_armed_ability": "1235 <=> AbilityId_Unknown_1235",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -2281,7 +2281,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1220 <=> AbilityId_Unknown_1220",
+                "on_armed_ability": "1217 <=> AbilityId_Unknown_1217",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -2471,7 +2471,7 @@
                 "unk_bool_0x0018": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
-                "explosion_type": "366 <=> ExplosionType_Unknown_366",
+                "explosion_type": "367 <=> ExplosionType_Unknown_367",
                 "impact_explosion_type": "0 <=> ExplosionType_Unknown_0",
                 "on_exploded_sound": 0,
                 "on_status_effect_done_sound": 0,
@@ -3259,7 +3259,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1218 <=> AbilityId_Unknown_1218",
+                "on_armed_ability": "1215 <=> AbilityId_Unknown_1215",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -3422,7 +3422,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1218 <=> AbilityId_Unknown_1218",
+                "on_armed_ability": "1215 <=> AbilityId_Unknown_1215",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -3585,7 +3585,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1218 <=> AbilityId_Unknown_1218",
+                "on_armed_ability": "1215 <=> AbilityId_Unknown_1215",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -3911,7 +3911,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1219 <=> AbilityId_Unknown_1219",
+                "on_armed_ability": "1216 <=> AbilityId_Unknown_1216",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -3939,7 +3939,7 @@
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "135 <=> ExplosionType_Unknown_135",
-                "impact_explosion_type": "420 <=> ExplosionType_Unknown_420",
+                "impact_explosion_type": "422 <=> ExplosionType_Unknown_422",
                 "on_exploded_sound": 0,
                 "on_status_effect_done_sound": 0,
                 "armed_effect": {
@@ -4074,7 +4074,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "2088 <=> AbilityId_Unknown_2088",
+                "on_armed_ability": "2086 <=> AbilityId_Unknown_2086",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -4101,7 +4101,7 @@
                 "unk_bool_0x0018": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
-                "explosion_type": "179 <=> ExplosionType_Unknown_179",
+                "explosion_type": "180 <=> ExplosionType_Unknown_180",
                 "impact_explosion_type": "0 <=> ExplosionType_Unknown_0",
                 "on_exploded_sound": 0,
                 "on_status_effect_done_sound": 0,
@@ -4400,7 +4400,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "2469 <=> AbilityId_Unknown_2469",
+                "on_armed_ability": "2475 <=> AbilityId_Unknown_2475",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -4579,7 +4579,7 @@
                 "name_zh": "N/A",
                 "index": 28,
                 "mode": "1 <=> ExplosiveMode_Impact",
-                "collision_raycast_filter": "4 <=> RaycastTemplate_Unknown_4",
+                "collision_raycast_filter": "5 <=> RaycastTemplate_Unknown_5",
                 "arming_delay": 1.0,
                 "explosion_delay": 0.0,
                 "removal_delay": 0.0,
@@ -4742,7 +4742,7 @@
                 "name_zh": "N/A",
                 "index": 29,
                 "mode": "1 <=> ExplosiveMode_Impact",
-                "collision_raycast_filter": "4 <=> RaycastTemplate_Unknown_4",
+                "collision_raycast_filter": "5 <=> RaycastTemplate_Unknown_5",
                 "arming_delay": 1.0,
                 "explosion_delay": 0.0,
                 "removal_delay": 0.0,
@@ -4905,7 +4905,7 @@
                 "name_zh": "N/A",
                 "index": 30,
                 "mode": "1 <=> ExplosiveMode_Impact",
-                "collision_raycast_filter": "4 <=> RaycastTemplate_Unknown_4",
+                "collision_raycast_filter": "5 <=> RaycastTemplate_Unknown_5",
                 "arming_delay": 1.5,
                 "explosion_delay": 0.0,
                 "removal_delay": 0.0,
@@ -5079,7 +5079,7 @@
                 "unk_bool_0x0018": 0,
                 "impact_distance": 0.20000000298023224,
                 "impact_airburst_distance": 0.0,
-                "explosion_type": "174 <=> ExplosionType_Unknown_174",
+                "explosion_type": "175 <=> ExplosionType_Unknown_175",
                 "impact_explosion_type": "0 <=> ExplosionType_Unknown_0",
                 "on_exploded_sound": 0,
                 "on_status_effect_done_sound": 0,
@@ -5568,7 +5568,7 @@
                 "unk_bool_0x0018": 0,
                 "impact_distance": 0.5,
                 "impact_airburst_distance": 0.0,
-                "explosion_type": "174 <=> ExplosionType_Unknown_174",
+                "explosion_type": "175 <=> ExplosionType_Unknown_175",
                 "impact_explosion_type": "0 <=> ExplosionType_Unknown_0",
                 "on_exploded_sound": 0,
                 "on_status_effect_done_sound": 0,
@@ -5720,7 +5720,7 @@
                 "name_zh": "N/A",
                 "index": 35,
                 "mode": "1 <=> ExplosiveMode_Impact",
-                "collision_raycast_filter": "4 <=> RaycastTemplate_Unknown_4",
+                "collision_raycast_filter": "5 <=> RaycastTemplate_Unknown_5",
                 "arming_delay": 1.0,
                 "explosion_delay": 0.0,
                 "removal_delay": 0.0,
@@ -5894,7 +5894,7 @@
                 "unk_bool_0x0018": 0,
                 "impact_distance": 0.20000000298023224,
                 "impact_airburst_distance": 0.0,
-                "explosion_type": "398 <=> ExplosionType_Unknown_398",
+                "explosion_type": "399 <=> ExplosionType_Unknown_399",
                 "impact_explosion_type": "0 <=> ExplosionType_Unknown_0",
                 "on_exploded_sound": 0,
                 "on_status_effect_done_sound": 0,
@@ -6682,7 +6682,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1221 <=> AbilityId_Unknown_1221",
+                "on_armed_ability": "1218 <=> AbilityId_Unknown_1218",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -6845,7 +6845,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1221 <=> AbilityId_Unknown_1221",
+                "on_armed_ability": "1218 <=> AbilityId_Unknown_1218",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -7008,7 +7008,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1221 <=> AbilityId_Unknown_1221",
+                "on_armed_ability": "1218 <=> AbilityId_Unknown_1218",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -7171,7 +7171,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1215 <=> AbilityId_Unknown_1215",
+                "on_armed_ability": "1212 <=> AbilityId_Unknown_1212",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -7334,7 +7334,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1221 <=> AbilityId_Unknown_1221",
+                "on_armed_ability": "1218 <=> AbilityId_Unknown_1218",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -7497,7 +7497,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1224 <=> AbilityId_Unknown_1224",
+                "on_armed_ability": "1221 <=> AbilityId_Unknown_1221",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -7960,7 +7960,7 @@
                                 "value": 1.0
                             },
                             {
-                                "type": "12 <=> StatusEffectType_Thermite",
+                                "type": "13 <=> StatusEffectType_Thermite",
                                 "value": 1.0
                             },
                             {
@@ -7986,7 +7986,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1217 <=> AbilityId_Unknown_1217",
+                "on_armed_ability": "1214 <=> AbilityId_Unknown_1214",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -8313,7 +8313,7 @@
                     "y": 0.0
                 },
                 "on_armed_ability": "0 <=> AbilityId_Unknown_0",
-                "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
+                "unk_ability_about_meltamine": "1240 <=> AbilityId_Unknown_1240",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
                 "unk_bool_about_mine": 0,
@@ -8475,7 +8475,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1215 <=> AbilityId_Unknown_1215",
+                "on_armed_ability": "1212 <=> AbilityId_Unknown_1212",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -8638,7 +8638,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1235 <=> AbilityId_Unknown_1235",
+                "on_armed_ability": "1232 <=> AbilityId_Unknown_1232",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -8801,7 +8801,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1242 <=> AbilityId_Unknown_1242",
+                "on_armed_ability": "1239 <=> AbilityId_Unknown_1239",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -8964,7 +8964,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1216 <=> AbilityId_Unknown_1216",
+                "on_armed_ability": "1213 <=> AbilityId_Unknown_1213",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -9127,7 +9127,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1215 <=> AbilityId_Unknown_1215",
+                "on_armed_ability": "1212 <=> AbilityId_Unknown_1212",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -9154,7 +9154,7 @@
                 "unk_bool_0x0018": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
-                "explosion_type": "177 <=> ExplosionType_Unknown_177",
+                "explosion_type": "178 <=> ExplosionType_Unknown_178",
                 "impact_explosion_type": "0 <=> ExplosionType_Unknown_0",
                 "on_exploded_sound": 0,
                 "on_status_effect_done_sound": 0,
@@ -9290,7 +9290,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1226 <=> AbilityId_Unknown_1226",
+                "on_armed_ability": "1223 <=> AbilityId_Unknown_1223",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -9317,7 +9317,7 @@
                 "unk_bool_0x0018": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
-                "explosion_type": "175 <=> ExplosionType_Unknown_175",
+                "explosion_type": "176 <=> ExplosionType_Unknown_176",
                 "impact_explosion_type": "0 <=> ExplosionType_Unknown_0",
                 "on_exploded_sound": 0,
                 "on_status_effect_done_sound": 0,
@@ -9453,7 +9453,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1215 <=> AbilityId_Unknown_1215",
+                "on_armed_ability": "1212 <=> AbilityId_Unknown_1212",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -9616,7 +9616,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1215 <=> AbilityId_Unknown_1215",
+                "on_armed_ability": "1212 <=> AbilityId_Unknown_1212",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -9643,7 +9643,7 @@
                 "unk_bool_0x0018": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
-                "explosion_type": "366 <=> ExplosionType_Unknown_366",
+                "explosion_type": "367 <=> ExplosionType_Unknown_367",
                 "impact_explosion_type": "0 <=> ExplosionType_Unknown_0",
                 "on_exploded_sound": 1302058327,
                 "on_status_effect_done_sound": 2044670814,
@@ -9779,7 +9779,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1217 <=> AbilityId_Unknown_1217",
+                "on_armed_ability": "1214 <=> AbilityId_Unknown_1214",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -9942,13 +9942,13 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "2069 <=> AbilityId_Unknown_2069",
+                "on_armed_ability": "2067 <=> AbilityId_Unknown_2067",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 2.0,
                 "firenode_pose_limit": 90.0,
                 "unk_bool_about_mine": 1,
                 "step_detection_min_unit_size": "0 <=> UnitSize_Small",
-                "unk_ability_about_mine": "2072 <=> AbilityId_Unknown_2072"
+                "unk_ability_about_mine": "2070 <=> AbilityId_Unknown_2070"
             }
         },
         {
@@ -9969,7 +9969,7 @@
                 "unk_bool_0x0018": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
-                "explosion_type": "368 <=> ExplosionType_Unknown_368",
+                "explosion_type": "369 <=> ExplosionType_Unknown_369",
                 "impact_explosion_type": "0 <=> ExplosionType_Unknown_0",
                 "on_exploded_sound": 0,
                 "on_status_effect_done_sound": 0,
@@ -10105,13 +10105,13 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "2082 <=> AbilityId_Unknown_2082",
-                "unk_ability_about_meltamine": "2081 <=> AbilityId_Unknown_2081",
+                "on_armed_ability": "2080 <=> AbilityId_Unknown_2080",
+                "unk_ability_about_meltamine": "2079 <=> AbilityId_Unknown_2079",
                 "unk_float_about_mine": 2.0,
                 "firenode_pose_limit": 90.0,
                 "unk_bool_about_mine": 1,
                 "step_detection_min_unit_size": "1 <=> UnitSize_Medium",
-                "unk_ability_about_mine": "2085 <=> AbilityId_Unknown_2085"
+                "unk_ability_about_mine": "2083 <=> AbilityId_Unknown_2083"
             }
         },
         {
@@ -10132,7 +10132,7 @@
                 "unk_bool_0x0018": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
-                "explosion_type": "385 <=> ExplosionType_Unknown_385",
+                "explosion_type": "386 <=> ExplosionType_Unknown_386",
                 "impact_explosion_type": "0 <=> ExplosionType_Unknown_0",
                 "on_exploded_sound": 3080021504,
                 "on_status_effect_done_sound": 0,
@@ -10431,7 +10431,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1223 <=> AbilityId_Unknown_1223",
+                "on_armed_ability": "1220 <=> AbilityId_Unknown_1220",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -10568,7 +10568,7 @@
                                 "value": 1.0
                             },
                             {
-                                "type": "12 <=> StatusEffectType_Thermite",
+                                "type": "13 <=> StatusEffectType_Thermite",
                                 "value": 1.0
                             },
                             {
@@ -10594,7 +10594,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1217 <=> AbilityId_Unknown_1217",
+                "on_armed_ability": "1214 <=> AbilityId_Unknown_1214",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -10621,7 +10621,7 @@
                 "unk_bool_0x0018": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
-                "explosion_type": "369 <=> ExplosionType_Unknown_369",
+                "explosion_type": "370 <=> ExplosionType_Unknown_370",
                 "impact_explosion_type": "0 <=> ExplosionType_Unknown_0",
                 "on_exploded_sound": 0,
                 "on_status_effect_done_sound": 0,
@@ -10757,7 +10757,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1217 <=> AbilityId_Unknown_1217",
+                "on_armed_ability": "1214 <=> AbilityId_Unknown_1214",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -10784,7 +10784,7 @@
                 "unk_bool_0x0018": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
-                "explosion_type": "409 <=> ExplosionType_Unknown_409",
+                "explosion_type": "411 <=> ExplosionType_Unknown_411",
                 "impact_explosion_type": "0 <=> ExplosionType_Unknown_0",
                 "on_exploded_sound": 0,
                 "on_status_effect_done_sound": 0,
@@ -10947,7 +10947,7 @@
                 "unk_bool_0x0018": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
-                "explosion_type": "363 <=> ExplosionType_Unknown_363",
+                "explosion_type": "364 <=> ExplosionType_Unknown_364",
                 "impact_explosion_type": "0 <=> ExplosionType_Unknown_0",
                 "on_exploded_sound": 0,
                 "on_status_effect_done_sound": 0,
@@ -11083,7 +11083,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1222 <=> AbilityId_Unknown_1222",
+                "on_armed_ability": "1219 <=> AbilityId_Unknown_1219",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -11246,7 +11246,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1235 <=> AbilityId_Unknown_1235",
+                "on_armed_ability": "1232 <=> AbilityId_Unknown_1232",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -11409,7 +11409,7 @@
                     "x": 0.0,
                     "y": 0.0
                 },
-                "on_armed_ability": "1225 <=> AbilityId_Unknown_1225",
+                "on_armed_ability": "1222 <=> AbilityId_Unknown_1222",
                 "unk_ability_about_meltamine": "0 <=> AbilityId_Unknown_0",
                 "unk_float_about_mine": 0.0,
                 "firenode_pose_limit": 180.0,
@@ -11436,7 +11436,7 @@
                 "unk_bool_0x0018": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
-                "explosion_type": "410 <=> ExplosionType_Unknown_410",
+                "explosion_type": "412 <=> ExplosionType_Unknown_412",
                 "impact_explosion_type": "0 <=> ExplosionType_Unknown_0",
                 "on_exploded_sound": 0,
                 "on_status_effect_done_sound": 0,

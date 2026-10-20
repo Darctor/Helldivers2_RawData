@@ -4,8 +4,8 @@
         "omitted_size": 376,
         "exported_entity_count": 20,
         "matched_bilingual_hash_count": 20,
-        "patch_date": "2026-09-22",
-        "game_version": "1.007.100"
+        "patch_date": "2026-10-20",
+        "game_version": "1.007.200"
     },
     "entities": [
         {
@@ -2338,7 +2338,7 @@
                 },
                 "effect_immunity": [
                     "5 <=> StatusEffectType_Fire",
-                    "32 <=> StatusEffectType_BurningHeavy",
+                    "33 <=> StatusEffectType_BurningHeavy",
                     "0 <=> StatusEffectType_None",
                     "0 <=> StatusEffectType_None",
                     "0 <=> StatusEffectType_None",
@@ -4692,10 +4692,10 @@
                 },
                 "effect_immunity": [
                     "5 <=> StatusEffectType_Fire",
-                    "32 <=> StatusEffectType_BurningHeavy",
-                    "38 <=> StatusEffectType_Stun_Medium",
-                    "58 <=> StatusEffectType_Dark_Fluid",
-                    "69 <=> StatusEffectType_Dark_Fluid_MK2",
+                    "33 <=> StatusEffectType_BurningHeavy",
+                    "39 <=> StatusEffectType_Stun_Medium",
+                    "59 <=> StatusEffectType_Dark_Fluid",
+                    "70 <=> StatusEffectType_Dark_Fluid_MK2",
                     "0 <=> StatusEffectType_None",
                     "0 <=> StatusEffectType_None",
                     "0 <=> StatusEffectType_None"
@@ -8223,7 +8223,7 @@
                 },
                 "effect_immunity": [
                     "5 <=> StatusEffectType_Fire",
-                    "32 <=> StatusEffectType_BurningHeavy",
+                    "33 <=> StatusEffectType_BurningHeavy",
                     "0 <=> StatusEffectType_None",
                     "0 <=> StatusEffectType_None",
                     "0 <=> StatusEffectType_None",
@@ -9400,7 +9400,7 @@
                 },
                 "effect_immunity": [
                     "5 <=> StatusEffectType_Fire",
-                    "32 <=> StatusEffectType_BurningHeavy",
+                    "33 <=> StatusEffectType_BurningHeavy",
                     "0 <=> StatusEffectType_None",
                     "0 <=> StatusEffectType_None",
                     "0 <=> StatusEffectType_None",
@@ -11754,7 +11754,7 @@
                 },
                 "effect_immunity": [
                     "5 <=> StatusEffectType_Fire",
-                    "32 <=> StatusEffectType_BurningHeavy",
+                    "33 <=> StatusEffectType_BurningHeavy",
                     "0 <=> StatusEffectType_None",
                     "0 <=> StatusEffectType_None",
                     "0 <=> StatusEffectType_None",
@@ -12931,7 +12931,7 @@
                 },
                 "effect_immunity": [
                     "5 <=> StatusEffectType_Fire",
-                    "32 <=> StatusEffectType_BurningHeavy",
+                    "33 <=> StatusEffectType_BurningHeavy",
                     "0 <=> StatusEffectType_None",
                     "0 <=> StatusEffectType_None",
                     "0 <=> StatusEffectType_None",
@@ -14108,7 +14108,7 @@
                 },
                 "effect_immunity": [
                     "5 <=> StatusEffectType_Fire",
-                    "32 <=> StatusEffectType_BurningHeavy",
+                    "33 <=> StatusEffectType_BurningHeavy",
                     "0 <=> StatusEffectType_None",
                     "0 <=> StatusEffectType_None",
                     "0 <=> StatusEffectType_None",
@@ -22347,7 +22347,7 @@
                 },
                 "effect_immunity": [
                     "5 <=> StatusEffectType_Fire",
-                    "32 <=> StatusEffectType_BurningHeavy",
+                    "33 <=> StatusEffectType_BurningHeavy",
                     "0 <=> StatusEffectType_None",
                     "0 <=> StatusEffectType_None",
                     "0 <=> StatusEffectType_None",
@@ -23524,10 +23524,10 @@
                 },
                 "effect_immunity": [
                     "5 <=> StatusEffectType_Fire",
-                    "32 <=> StatusEffectType_BurningHeavy",
-                    "38 <=> StatusEffectType_Stun_Medium",
-                    "58 <=> StatusEffectType_Dark_Fluid",
-                    "69 <=> StatusEffectType_Dark_Fluid_MK2",
+                    "33 <=> StatusEffectType_BurningHeavy",
+                    "39 <=> StatusEffectType_Stun_Medium",
+                    "59 <=> StatusEffectType_Dark_Fluid",
+                    "70 <=> StatusEffectType_Dark_Fluid_MK2",
                     "0 <=> StatusEffectType_None",
                     "0 <=> StatusEffectType_None",
                     "0 <=> StatusEffectType_None"
