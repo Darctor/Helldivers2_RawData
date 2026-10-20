@@ -1,11 +1,11 @@
 {
     "_metadata": {
-        "struct_size": 552,
+        "struct_size": 568,
         "omitted_size": 16,
         "exported_entity_count": 2,
         "matched_bilingual_hash_count": 2,
-        "patch_date": "2026-09-22",
-        "game_version": "1.007.100"
+        "patch_date": "2026-10-20",
+        "game_version": "1.007.200"
     },
     "entities": [
         {
@@ -248,7 +248,7 @@
                 "movement_speed": 10.0,
                 "search_radius": 50.0,
                 "damage_dealer_zone": {
-                    "damage_info_type": "513 <=> DamageInfoType_Unknown_513",
+                    "damage_info_type": "525 <=> DamageInfoType_Unknown_525",
                     "interval": 0.10000000149011612,
                     "shape": "0 <=> DamageDealerZoneShape_Sphere",
                     "size": {
@@ -267,7 +267,21 @@
                 "projectile_type": "0 <=> ProjectileType_Unknown_0",
                 "projectile_spawn_height": 3000.0,
                 "projectile_spawn_delay": 0.0,
-                "target_list_update_time": 1.0
+                "target_list_update_time": 1.0,
+                "factions": [
+                    {
+                        "faction": "2 <=> FactionType_Bugs"
+                    },
+                    {
+                        "faction": "4 <=> FactionType_Illuminate"
+                    },
+                    {
+                        "faction": "8 <=> FactionType_Cyborg"
+                    },
+                    {
+                        "faction": "0 <=> FactionType_None"
+                    }
+                ]
             }
         },
         {
@@ -526,10 +540,24 @@
                 "ship_effect_is_laser_pointer": 1,
                 "audio_event_start": 3732618020,
                 "audio_event_stop": 1843908931,
-                "projectile_type": "277 <=> ProjectileType_Unknown_277",
+                "projectile_type": "282 <=> ProjectileType_Unknown_282",
                 "projectile_spawn_height": 3000.0,
                 "projectile_spawn_delay": 1.7000000476837158,
-                "target_list_update_time": 0.0
+                "target_list_update_time": 0.0,
+                "factions": [
+                    {
+                        "faction": "2 <=> FactionType_Bugs"
+                    },
+                    {
+                        "faction": "4 <=> FactionType_Illuminate"
+                    },
+                    {
+                        "faction": "8 <=> FactionType_Cyborg"
+                    },
+                    {
+                        "faction": "0 <=> FactionType_None"
+                    }
+                ]
             }
         }
     ]

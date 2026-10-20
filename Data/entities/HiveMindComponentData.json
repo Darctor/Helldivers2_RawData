@@ -4,8 +4,8 @@
         "omitted_size": 6,
         "exported_entity_count": 19,
         "matched_bilingual_hash_count": 0,
-        "patch_date": "2026-09-22",
-        "game_version": "1.007.100"
+        "patch_date": "2026-10-20",
+        "game_version": "1.007.200"
     },
     "entities": [
         {
@@ -2233,8 +2233,8 @@
                     "patrol_flying": 2618368861
                 },
                 "0x862D83AA": {
-                    "unk_float_r0x0000": 0.0,
-                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0000": 500.0,
+                    "unk_float_r0x0004": 700.0,
                     "unk_struct_r0x0008": {
                         "x": 700.0,
                         "y": 0.0,
@@ -2674,8 +2674,8 @@
                     "patrol_flying": 2618368861
                 },
                 "0x862D83AA": {
-                    "unk_float_r0x0000": 0.0,
-                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0000": 300.0,
+                    "unk_float_r0x0004": 600.0,
                     "unk_struct_r0x0008": {
                         "x": 700.0,
                         "y": 0.0,
@@ -3115,8 +3115,8 @@
                     "patrol_flying": 2618368861
                 },
                 "0x862D83AA": {
-                    "unk_float_r0x0000": 0.0,
-                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0000": 300.0,
+                    "unk_float_r0x0004": 600.0,
                     "unk_struct_r0x0008": {
                         "x": 700.0,
                         "y": 0.0,
@@ -5320,8 +5320,8 @@
                     "patrol_flying": 2618368861
                 },
                 "0x862D83AA": {
-                    "unk_float_r0x0000": 0.0,
-                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0000": 300.0,
+                    "unk_float_r0x0004": 600.0,
                     "unk_struct_r0x0008": {
                         "x": 700.0,
                         "y": 0.0,
@@ -5761,8 +5761,8 @@
                     "patrol_flying": 2618368861
                 },
                 "0x862D83AA": {
-                    "unk_float_r0x0000": 0.0,
-                    "unk_float_r0x0004": 0.0,
+                    "unk_float_r0x0000": 300.0,
+                    "unk_float_r0x0004": 600.0,
                     "unk_struct_r0x0008": {
                         "x": 700.0,
                         "y": 0.0,

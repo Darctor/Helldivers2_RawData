@@ -2,10 +2,10 @@
     "_metadata": {
         "struct_size": 4872,
         "omitted_size": 493,
-        "exported_entity_count": 191,
-        "matched_bilingual_hash_count": 179,
-        "patch_date": "2026-09-22",
-        "game_version": "1.007.100"
+        "exported_entity_count": 196,
+        "matched_bilingual_hash_count": 184,
+        "patch_date": "2026-10-20",
+        "game_version": "1.007.200"
     },
     "entities": [
         {
@@ -4251,7 +4251,7 @@
                 "customization_slots": [
                     "2 <=> WeaponCustomizationSlot_Optics",
                     "3 <=> WeaponCustomizationSlot_PaintScheme",
-                    "0 <=> WeaponCustomizationSlot_None",
+                    "4 <=> WeaponCustomizationSlot_Muzzle",
                     "0 <=> WeaponCustomizationSlot_None",
                     "0 <=> WeaponCustomizationSlot_None",
                     "0 <=> WeaponCustomizationSlot_None",
@@ -13510,11 +13510,142 @@
             }
         },
         {
+            "0xB80951732A5F58F4": {
+                "hash": "13261220132843116788",
+                "name": "AR-23L Liberator Legacy (Model)",
+                "name_zh": "AR-23L 解放者传承（主武器，模型）",
+                "index": 103,
+                "default_customizations": [
+                    {
+                        "slot": "5 <=> WeaponCustomizationSlot_Magazine",
+                        "customization": 1353750258
+                    },
+                    {
+                        "slot": "4 <=> WeaponCustomizationSlot_Muzzle",
+                        "customization": 175121524
+                    },
+                    {
+                        "slot": "2 <=> WeaponCustomizationSlot_Optics",
+                        "customization": 1575438446
+                    },
+                    {
+                        "slot": "6 <=> WeaponCustomizationSlot_AmmoType",
+                        "customization": 1600731360
+                    },
+                    {
+                        "slot": "3 <=> WeaponCustomizationSlot_PaintScheme",
+                        "customization": 2163992125
+                    },
+                    {
+                        "slot": "1 <=> WeaponCustomizationSlot_Underbarrel",
+                        "customization": 1585136201
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    }
+                ],
+                "customization_slots": [
+                    "3 <=> WeaponCustomizationSlot_PaintScheme",
+                    "2 <=> WeaponCustomizationSlot_Optics",
+                    "1 <=> WeaponCustomizationSlot_Underbarrel",
+                    "4 <=> WeaponCustomizationSlot_Muzzle",
+                    "5 <=> WeaponCustomizationSlot_Magazine",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None"
+                ],
+                "optics_path": "0",
+                "magazine_path": "0",
+                "unk_override_uint32_0x0088": 0,
+                "unk_override_uint32_0x008C": 0,
+                "magazine_secondary_path": "0",
+                "magazine_tertiary_path": "0",
+                "muzzle_path": "0",
+                "optics_crosshair_params": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scoped_shading_environment": "12963680579605088925",
+                "scoped_blur_shading_environment": "10927800196920066914",
+                "underbarrel_path": "0",
+                "material_override": {
+                    "unit_customization_material_overrides": [],
+                    "0x9E0F7A22": []
+                },
+                "trigger_settings": {
+                    "trigger_threshold": 5,
+                    "trigger_threshold_release": 4,
+                    "resistance_strength_start": 3,
+                    "resistance_strength_end": 7,
+                    "vibration_amplitude": 5,
+                    "vibration_frequency": 0,
+                    "vibration_frequency_variance": 0,
+                    "charge_up_vibration_frequency_start": 0,
+                    "charge_up_vibration_frequency_end": 0,
+                    "weight_resistance": 3,
+                    "double_action_trigger": 0,
+                    "double_action_regular_offset": 0,
+                    "on_fire_event": 0
+                },
+                "hide_magazine_on_start": 0,
+                "magazine_adjusting_nodes": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "use_magazine_adjusting_nodes_in_main_unit": 0,
+                "magazine_adjusting_ammo_reserve_pool": "0 <=> WeaponAmmoPoolType_AmmoLeft",
+                "magazine_adjusting_nodes_visible_chambering": 0,
+                "magazine_adjusting_animation": 0,
+                "magazine_adjusting_animation_variable": 0,
+                "ik_attach_setting": "0 <=> WeaponCustomizationIKAttach_None",
+                "ik_attach_animation_event": 0,
+                "unk_event_0x12FC": 4246017227,
+                "unk_ability_about_shear": "0 <=> AbilityId_Unknown_0"
+            }
+        },
+        {
             "0x4DBD74F49C8FFC13": {
                 "hash": "5601762105466289171",
                 "name": "MA5C Assault Rifle (Model)",
                 "name_zh": "MA5C 突击步枪（主武器，模型）",
-                "index": 103,
+                "index": 104,
                 "default_customizations": [
                     {
                         "slot": "1 <=> WeaponCustomizationSlot_Underbarrel",
@@ -13645,7 +13776,7 @@
                 "hash": "12100643055971655455",
                 "name": "AR-23A Liberator Carbine (Model)",
                 "name_zh": "AR-23A 卡宾解放者（主武器，模型）",
-                "index": 104,
+                "index": 105,
                 "default_customizations": [
                     {
                         "slot": "5 <=> WeaponCustomizationSlot_Magazine",
@@ -13776,7 +13907,7 @@
                 "hash": "14845617694460717074",
                 "name": "AR-61 Tenderizer (Model)",
                 "name_zh": "AR-61 肉锤（主武器，模型）",
-                "index": 105,
+                "index": 106,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -13907,7 +14038,7 @@
                 "hash": "12153278833391482546",
                 "name": "AR-11 Arbitrator (Model)",
                 "name_zh": "AR-11 仲裁者（主武器，模型）",
-                "index": 106,
+                "index": 107,
                 "default_customizations": [
                     {
                         "slot": "4 <=> WeaponCustomizationSlot_Muzzle",
@@ -14038,7 +14169,7 @@
                 "hash": "8110598756017148880",
                 "name": "AR-59 Suppressor (Model)",
                 "name_zh": "AR-59 消音器（主武器，模型）",
-                "index": 107,
+                "index": 108,
                 "default_customizations": [
                     {
                         "slot": "3 <=> WeaponCustomizationSlot_PaintScheme",
@@ -14169,7 +14300,7 @@
                 "hash": "5050852199397921576",
                 "name": "SG-225 Breaker (Model)",
                 "name_zh": "SG-225 破裂者（主武器，模型）",
-                "index": 108,
+                "index": 109,
                 "default_customizations": [
                     {
                         "slot": "5 <=> WeaponCustomizationSlot_Magazine",
@@ -14300,7 +14431,7 @@
                 "hash": "6826025955225526457",
                 "name": "SG-225SP Breaker Spray&Pray (Model)",
                 "name_zh": "SG-225SP 千发百中破裂者（主武器，模型）",
-                "index": 109,
+                "index": 110,
                 "default_customizations": [
                     {
                         "slot": "5 <=> WeaponCustomizationSlot_Magazine",
@@ -14431,7 +14562,7 @@
                 "hash": "13918995818598980231",
                 "name": "SG-225IE Breaker Incendiary (Model)",
                 "name_zh": "SG-225 IE高燃破裂者（主武器，模型）",
-                "index": 110,
+                "index": 111,
                 "default_customizations": [
                     {
                         "slot": "5 <=> WeaponCustomizationSlot_Magazine",
@@ -14562,7 +14693,7 @@
                 "hash": "6912088101323449320",
                 "name": "BR-14 Adjudicator (Model)",
                 "name_zh": "BR-14 审判者（主武器，模型）",
-                "index": 111,
+                "index": 112,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -14693,7 +14824,7 @@
                 "hash": "1117846648694268261",
                 "name": "R-2 Amendment (Model)",
                 "name_zh": "R-2 修正（主武器，模型）",
-                "index": 112,
+                "index": 113,
                 "default_customizations": [
                     {
                         "slot": "1 <=> WeaponCustomizationSlot_Underbarrel",
@@ -14824,7 +14955,7 @@
                 "hash": "8896268509512551590",
                 "name": "R-2124 Constitution (Model)",
                 "name_zh": "R-2124 宪法（主武器，模型）",
-                "index": 113,
+                "index": 114,
                 "default_customizations": [
                     {
                         "slot": "1 <=> WeaponCustomizationSlot_Underbarrel",
@@ -14951,11 +15082,142 @@
             }
         },
         {
+            "0x41F2DEF484634B59": {
+                "hash": "4752105698603780953",
+                "name": "R-40 Sightliner",
+                "name_zh": "R-40 视界者（主武器，模型）",
+                "index": 115,
+                "default_customizations": [
+                    {
+                        "slot": "2 <=> WeaponCustomizationSlot_Optics",
+                        "customization": 1742775424
+                    },
+                    {
+                        "slot": "3 <=> WeaponCustomizationSlot_PaintScheme",
+                        "customization": 2163992125
+                    },
+                    {
+                        "slot": "5 <=> WeaponCustomizationSlot_Magazine",
+                        "customization": 1396036117
+                    },
+                    {
+                        "slot": "4 <=> WeaponCustomizationSlot_Muzzle",
+                        "customization": 752239949
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    }
+                ],
+                "customization_slots": [
+                    "2 <=> WeaponCustomizationSlot_Optics",
+                    "4 <=> WeaponCustomizationSlot_Muzzle",
+                    "1 <=> WeaponCustomizationSlot_Underbarrel",
+                    "5 <=> WeaponCustomizationSlot_Magazine",
+                    "3 <=> WeaponCustomizationSlot_PaintScheme",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None"
+                ],
+                "optics_path": "0",
+                "magazine_path": "10983829338642417922",
+                "unk_override_uint32_0x0088": 0,
+                "unk_override_uint32_0x008C": 0,
+                "magazine_secondary_path": "0",
+                "magazine_tertiary_path": "0",
+                "muzzle_path": "9959079302072113264",
+                "optics_crosshair_params": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scoped_shading_environment": "12963680579605088925",
+                "scoped_blur_shading_environment": "10927800196920066914",
+                "underbarrel_path": "0",
+                "material_override": {
+                    "unit_customization_material_overrides": [],
+                    "0x9E0F7A22": []
+                },
+                "trigger_settings": {
+                    "trigger_threshold": 5,
+                    "trigger_threshold_release": 4,
+                    "resistance_strength_start": 3,
+                    "resistance_strength_end": 7,
+                    "vibration_amplitude": 7,
+                    "vibration_frequency": 0,
+                    "vibration_frequency_variance": 0,
+                    "charge_up_vibration_frequency_start": 0,
+                    "charge_up_vibration_frequency_end": 0,
+                    "weight_resistance": 5,
+                    "double_action_trigger": 0,
+                    "double_action_regular_offset": 0,
+                    "on_fire_event": 0
+                },
+                "hide_magazine_on_start": 0,
+                "magazine_adjusting_nodes": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "use_magazine_adjusting_nodes_in_main_unit": 0,
+                "magazine_adjusting_ammo_reserve_pool": "0 <=> WeaponAmmoPoolType_AmmoLeft",
+                "magazine_adjusting_nodes_visible_chambering": 0,
+                "magazine_adjusting_animation": 0,
+                "magazine_adjusting_animation_variable": 0,
+                "ik_attach_setting": "0 <=> WeaponCustomizationIKAttach_None",
+                "ik_attach_animation_event": 0,
+                "unk_event_0x12FC": 67627790,
+                "unk_ability_about_shear": "0 <=> AbilityId_Unknown_0"
+            }
+        },
+        {
             "0xF49227A0630A3F7F": {
                 "hash": "17623191861664038783",
                 "name": "CB-9 Exploding Crossbow (Model)",
                 "name_zh": "CB-9 爆燃驽（主武器，模型）",
-                "index": 114,
+                "index": 116,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -15086,7 +15348,7 @@
                 "hash": "5742363029208942635",
                 "name": "FLAM-66 Torcher (Model)",
                 "name_zh": "FLAM-66 火炬手（主武器，模型）",
-                "index": 115,
+                "index": 117,
                 "default_customizations": [
                     {
                         "slot": "3 <=> WeaponCustomizationSlot_PaintScheme",
@@ -15217,7 +15479,7 @@
                 "hash": "9291384900638350902",
                 "name": "JAR-5 Dominator (Model)",
                 "name_zh": "JAR-5 主宰（主武器，模型）",
-                "index": 116,
+                "index": 118,
                 "default_customizations": [
                     {
                         "slot": "6 <=> WeaponCustomizationSlot_AmmoType",
@@ -15348,7 +15610,7 @@
                 "hash": "13164006426448262783",
                 "name": "R-36 Eruptor (Model)",
                 "name_zh": "R-36 爆裂铳（主武器，模型）",
-                "index": 117,
+                "index": 119,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -15479,7 +15741,7 @@
                 "hash": "2877271129141764950",
                 "name": "LAS-5 Scythe (Model)",
                 "name_zh": "LAS-5 长柄镰（主武器，模型）",
-                "index": 118,
+                "index": 120,
                 "default_customizations": [
                     {
                         "slot": "5 <=> WeaponCustomizationSlot_Magazine",
@@ -15610,7 +15872,7 @@
                 "hash": "9093125700741019976",
                 "name": "LAS-22 Shear (Model)",
                 "name_zh": "LAS-22 切变（主武器，模型）",
-                "index": 119,
+                "index": 121,
                 "default_customizations": [
                     {
                         "slot": "4 <=> WeaponCustomizationSlot_Muzzle",
@@ -15733,7 +15995,7 @@
                 "ik_attach_setting": "0 <=> WeaponCustomizationIKAttach_None",
                 "ik_attach_animation_event": 0,
                 "unk_event_0x12FC": 3593324605,
-                "unk_ability_about_shear": "2065 <=> AbilityId_Unknown_2065"
+                "unk_ability_about_shear": "2063 <=> AbilityId_Unknown_2063"
             }
         },
         {
@@ -15741,7 +16003,7 @@
                 "hash": "9675404802175538082",
                 "name": "LAS-16 Sickle (Model)",
                 "name_zh": "LAS-16 镰刀（主武器，模型）",
-                "index": 120,
+                "index": 122,
                 "default_customizations": [
                     {
                         "slot": "4 <=> WeaponCustomizationSlot_Muzzle",
@@ -15872,7 +16134,7 @@
                 "hash": "2980234130573201393",
                 "name": "LAS-17 Double-Edge Sickle (Model)",
                 "name_zh": "LAS-17 双刃镰刀（主武器，模型）",
-                "index": 121,
+                "index": 123,
                 "default_customizations": [
                     {
                         "slot": "4 <=> WeaponCustomizationSlot_Muzzle",
@@ -16003,7 +16265,7 @@
                 "hash": "4361428863637469552",
                 "name": "LAS-13 Trident (Model)",
                 "name_zh": "LAS-13 三叉戟（主武器，模型）",
-                "index": 122,
+                "index": 124,
                 "default_customizations": [
                     {
                         "slot": "4 <=> WeaponCustomizationSlot_Muzzle",
@@ -16134,7 +16396,7 @@
                 "hash": "14438355057613758791",
                 "name": "LAS-12 SAI (Model)",
                 "name_zh": "LAS-12 钗（主武器，模型）",
-                "index": 123,
+                "index": 125,
                 "default_customizations": [
                     {
                         "slot": "4 <=> WeaponCustomizationSlot_Muzzle",
@@ -16265,7 +16527,7 @@
                 "hash": "16634382492500136054",
                 "name": "R-6 Deadeye (Model)",
                 "name_zh": "R-6 鹰眼（主武器，模型）",
-                "index": 124,
+                "index": 126,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -16396,7 +16658,7 @@
                 "hash": "12008625947668001407",
                 "name": "M-105 Stalwart (Model)",
                 "name_zh": "M-105 盟友（模型）",
-                "index": 125,
+                "index": 127,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -16527,7 +16789,7 @@
                 "hash": "16535356726426036192",
                 "name": "R-4 Hyena (Model)",
                 "name_zh": "R-4 鬣狗（主武器，模型）",
-                "index": 126,
+                "index": 128,
                 "default_customizations": [
                     {
                         "slot": "4 <=> WeaponCustomizationSlot_Muzzle",
@@ -16658,7 +16920,7 @@
                 "hash": "17308323378831780460",
                 "name": "R-72 Censor (Model)",
                 "name_zh": "R-72 审查官（主武器，模型）",
-                "index": 127,
+                "index": 129,
                 "default_customizations": [
                     {
                         "slot": "3 <=> WeaponCustomizationSlot_PaintScheme",
@@ -16789,7 +17051,7 @@
                 "hash": "1926414056943231889",
                 "name": "R/40-K Hot-shot Marksman Rifle",
                 "name_zh": "R/40K 高能精确射手步枪（主武器，模型）",
-                "index": 128,
+                "index": 130,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -16920,7 +17182,7 @@
                 "hash": "281046277510948131",
                 "name": "R-63 Diligence (Model)",
                 "name_zh": "R-63 勤勉（主武器，模型）",
-                "index": 129,
+                "index": 131,
                 "default_customizations": [
                     {
                         "slot": "4 <=> WeaponCustomizationSlot_Muzzle",
@@ -17051,7 +17313,7 @@
                 "hash": "5510267968365085927",
                 "name": "R-63CS Diligence Counter Sniper (Model)",
                 "name_zh": "R-63 反狙击勤勉（主武器，模型）",
-                "index": 130,
+                "index": 132,
                 "default_customizations": [
                     {
                         "slot": "4 <=> WeaponCustomizationSlot_Muzzle",
@@ -17182,7 +17444,7 @@
                 "hash": "5641428405267160100",
                 "name": "SMG-37 Defender (Model)",
                 "name_zh": "SMG-37 防卫者（主武器，模型）",
-                "index": 131,
+                "index": 133,
                 "default_customizations": [
                     {
                         "slot": "5 <=> WeaponCustomizationSlot_Magazine",
@@ -17313,7 +17575,7 @@
                 "hash": "578623101395158887",
                 "name": "SMG-72 Pummeler (Model)",
                 "name_zh": "SMG-72 暴击斗士（主武器，模型）",
-                "index": 132,
+                "index": 134,
                 "default_customizations": [
                     {
                         "slot": "5 <=> WeaponCustomizationSlot_Magazine",
@@ -17444,7 +17706,7 @@
                 "hash": "5731472083741485993",
                 "name": "Physical Gun (Model)",
                 "name_zh": "物理枪",
-                "index": 133,
+                "index": 135,
                 "default_customizations": [
                     {
                         "slot": "4 <=> WeaponCustomizationSlot_Muzzle",
@@ -17575,7 +17837,7 @@
                 "hash": "17196401230144941076",
                 "name": "PLAS-1 Scorcher (Model)",
                 "name_zh": "PLAS-1 焦土（主武器，模型）",
-                "index": 134,
+                "index": 136,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -17706,7 +17968,7 @@
                 "hash": "18102809172282470538",
                 "name": "PLAS-101 Purifier (Model)",
                 "name_zh": "PLAS-101 净化者（主武器，模型）",
-                "index": 135,
+                "index": 137,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -17837,7 +18099,7 @@
                 "hash": "3109983482551492476",
                 "name": "SG-22 Bushwhacker (Model)",
                 "name_zh": "SG-22 游击兵（副武器，模型）",
-                "index": 136,
+                "index": 138,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -17968,7 +18230,7 @@
                 "hash": "3852172782311805734",
                 "name": "P-19 Redeemer (Model)",
                 "name_zh": "P-19 救世主（副武器，模型）",
-                "index": 137,
+                "index": 139,
                 "default_customizations": [
                     {
                         "slot": "5 <=> WeaponCustomizationSlot_Magazine",
@@ -18099,7 +18361,7 @@
                 "hash": "830958149412624616",
                 "name": "P-35 Re-Educator (Model)",
                 "name_zh": "P-35 思想改造（副武器，模型）",
-                "index": 138,
+                "index": 140,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -18230,7 +18492,7 @@
                 "hash": "4714430103453754419",
                 "name": "LAS-58 Talon (Model)",
                 "name_zh": "LAS-58 猛爪（副武器，模型）",
-                "index": 139,
+                "index": 141,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -18361,7 +18623,7 @@
                 "hash": "4580928717960105129",
                 "name": "P-72 Crisper (Model)",
                 "name_zh": "P-72 迅击（副武器，模型）",
-                "index": 140,
+                "index": 142,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -18492,7 +18754,7 @@
                 "hash": "5972955417680186543",
                 "name": "GP-31 Grenade Pistol (Model)",
                 "name_zh": "GP-31 榴弹手枪（副武器，模型）",
-                "index": 141,
+                "index": 143,
                 "default_customizations": [
                     {
                         "slot": "1 <=> WeaponCustomizationSlot_Underbarrel",
@@ -18623,7 +18885,7 @@
                 "hash": "16798240363848969985",
                 "name": "P-34 Breacher (Model)",
                 "name_zh": "P-34 爆破者（副武器，模型）",
-                "index": 142,
+                "index": 144,
                 "default_customizations": [
                     {
                         "slot": "4 <=> WeaponCustomizationSlot_Muzzle",
@@ -18754,7 +19016,7 @@
                 "hash": "8864800879179811976",
                 "name": "LAS-7 Dagger (Model)",
                 "name_zh": "LAS-7 匕首（副武器，模型）",
-                "index": 143,
+                "index": 145,
                 "default_customizations": [
                     {
                         "slot": "1 <=> WeaponCustomizationSlot_Underbarrel",
@@ -18881,11 +19143,142 @@
             }
         },
         {
+            "0x027DEC442CC26A90": {
+                "hash": "179559337717557904",
+                "name": "P-44 Mist (Model)",
+                "name_zh": "P-44 迷雾（副武器，模型）",
+                "index": 146,
+                "default_customizations": [
+                    {
+                        "slot": "1 <=> WeaponCustomizationSlot_Underbarrel",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "2 <=> WeaponCustomizationSlot_Optics",
+                        "customization": 1184838873
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    }
+                ],
+                "customization_slots": [
+                    "5 <=> WeaponCustomizationSlot_Magazine",
+                    "4 <=> WeaponCustomizationSlot_Muzzle",
+                    "2 <=> WeaponCustomizationSlot_Optics",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None"
+                ],
+                "optics_path": "0",
+                "magazine_path": "2130359959690873062",
+                "unk_override_uint32_0x0088": 0,
+                "unk_override_uint32_0x008C": 0,
+                "magazine_secondary_path": "0",
+                "magazine_tertiary_path": "0",
+                "muzzle_path": "0",
+                "optics_crosshair_params": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scoped_shading_environment": "12963680579605088925",
+                "scoped_blur_shading_environment": "10927800196920066914",
+                "underbarrel_path": "0",
+                "material_override": {
+                    "unit_customization_material_overrides": [],
+                    "0x9E0F7A22": []
+                },
+                "trigger_settings": {
+                    "trigger_threshold": 3,
+                    "trigger_threshold_release": 2,
+                    "resistance_strength_start": 2,
+                    "resistance_strength_end": 4,
+                    "vibration_amplitude": 4,
+                    "vibration_frequency": 0,
+                    "vibration_frequency_variance": 0,
+                    "charge_up_vibration_frequency_start": 0,
+                    "charge_up_vibration_frequency_end": 0,
+                    "weight_resistance": 1,
+                    "double_action_trigger": 0,
+                    "double_action_regular_offset": 0,
+                    "on_fire_event": 0
+                },
+                "hide_magazine_on_start": 0,
+                "magazine_adjusting_nodes": [
+                    1391881483,
+                    2051726355,
+                    1991225466,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "use_magazine_adjusting_nodes_in_main_unit": 0,
+                "magazine_adjusting_ammo_reserve_pool": "0 <=> WeaponAmmoPoolType_AmmoLeft",
+                "magazine_adjusting_nodes_visible_chambering": 0,
+                "magazine_adjusting_animation": 0,
+                "magazine_adjusting_animation_variable": 0,
+                "ik_attach_setting": "0 <=> WeaponCustomizationIKAttach_None",
+                "ik_attach_animation_event": 0,
+                "unk_event_0x12FC": 0,
+                "unk_ability_about_shear": "0 <=> AbilityId_Unknown_0"
+            }
+        },
+        {
             "0x1A437158E1B8D2A1": {
                 "hash": "1892480894983787169",
                 "name": "P-113 Verdict (Model)",
                 "name_zh": "P-113 裁决（副武器，模型）",
-                "index": 144,
+                "index": 147,
                 "default_customizations": [
                     {
                         "slot": "4 <=> WeaponCustomizationSlot_Muzzle",
@@ -19016,7 +19409,7 @@
                 "hash": "14375697644675127823",
                 "name": "P-69 Veto (Model)",
                 "name_zh": "P-69 否决者（副武器，模型）",
-                "index": 145,
+                "index": 148,
                 "default_customizations": [
                     {
                         "slot": "4 <=> WeaponCustomizationSlot_Muzzle",
@@ -19147,7 +19540,7 @@
                 "hash": "11435027044679925718",
                 "name": "GP-20 Ultimatum (Model)",
                 "name_zh": "GP-20 最后通牒（副武器，模型）",
-                "index": 146,
+                "index": 149,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -19278,7 +19671,7 @@
                 "hash": "5573423824998200517",
                 "name": "M6C/SOCOM Pistol (Model)",
                 "name_zh": "M6C/特种作战 手枪（副武器，模型）",
-                "index": 147,
+                "index": 150,
                 "default_customizations": [
                     {
                         "slot": "1 <=> WeaponCustomizationSlot_Underbarrel",
@@ -19409,7 +19802,7 @@
                 "hash": "15832062961832144321",
                 "name": "P-40-K Bolt Pistol (Model)",
                 "name_zh": "P/40K 爆弹手枪（副武器，模型）",
-                "index": 148,
+                "index": 151,
                 "default_customizations": [
                     {
                         "slot": "4 <=> WeaponCustomizationSlot_Muzzle",
@@ -19540,7 +19933,7 @@
                 "hash": "12279528435724053588",
                 "name": "PLAS-15 Loyalist (Model)",
                 "name_zh": "PLAS-15 忠诚者（副武器，模型）",
-                "index": 149,
+                "index": 152,
                 "default_customizations": [
                     {
                         "slot": "5 <=> WeaponCustomizationSlot_Magazine",
@@ -19671,7 +20064,7 @@
                 "hash": "10177381595962512386",
                 "name": "P-4 Senator (Model)",
                 "name_zh": "P-4 参议员（副武器，模型）",
-                "index": 150,
+                "index": 153,
                 "default_customizations": [
                     {
                         "slot": "4 <=> WeaponCustomizationSlot_Muzzle",
@@ -19802,7 +20195,7 @@
                 "hash": "13682483582340182029",
                 "name": "P-41 Ombudsman (Model)",
                 "name_zh": "P-41 巡察者（副武器，模型）",
-                "index": 151,
+                "index": 154,
                 "default_customizations": [
                     {
                         "slot": "4 <=> WeaponCustomizationSlot_Muzzle",
@@ -19933,7 +20326,7 @@
                 "hash": "2802369506329449110",
                 "name": "RL-77 Airburst Rocket Launcher (Model)",
                 "name_zh": "RL-77 空爆火箭发射器（武器，模型）",
-                "index": 152,
+                "index": 155,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -20064,7 +20457,7 @@
                 "hash": "10871298989420119782",
                 "name": "ARC-3 Arc Thrower (Model)",
                 "name_zh": "ARC-3 电弧发射器（模型）",
-                "index": 153,
+                "index": 156,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -20195,7 +20588,7 @@
                 "hash": "12164217308285983839",
                 "name": "AC-8 Autocannon (Model)",
                 "name_zh": "AC-8 机炮（武器，模型）",
-                "index": 154,
+                "index": 157,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -20326,7 +20719,7 @@
                 "hash": "9854668298113416351",
                 "name": "GL-28 Belt-Fed Grenade Launcher (Model)",
                 "name_zh": "GL-28 弹链式榴弹发射器（武器，模型）",
-                "index": 155,
+                "index": 158,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -20457,7 +20850,7 @@
                 "hash": "9869105320050739364",
                 "name": "TX-41 Sterilizer (Model)",
                 "name_zh": "TX-41 灭菌器（模型）",
-                "index": 156,
+                "index": 159,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -20588,7 +20981,7 @@
                 "hash": "7853371720342307430",
                 "name": "40-K Meltagun (Model)",
                 "name_zh": "40K 热熔枪（模型）",
-                "index": 157,
+                "index": 160,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -20719,7 +21112,7 @@
                 "hash": "12784766379234794359",
                 "name": "MGX-42 Bullet Storm (Model)",
                 "name_zh": "MGX-42 子弹风暴（模型）",
-                "index": 158,
+                "index": 161,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -20850,7 +21243,7 @@
                 "hash": "8509380141312129223",
                 "name": "EAT-411 Leveller (Model)",
                 "name_zh": "EAT-411 荡平者（模型）",
-                "index": 159,
+                "index": 162,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -20981,7 +21374,7 @@
                 "hash": "12877445900026273694",
                 "name": "EAT-700 Expendable Napalm (Model)",
                 "name_zh": "EAT-700 消耗性凝固汽油弹（模型）",
-                "index": 160,
+                "index": 163,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -21112,7 +21505,7 @@
                 "hash": "2714034314705433838",
                 "name": "FAF-14 Spear (Model)",
                 "name_zh": "FAF-14 飞矛（武器，模型）",
-                "index": 161,
+                "index": 164,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -21243,7 +21636,7 @@
                 "hash": "14733648658679365221",
                 "name": "StA-X3 W.A.S.P. Launcher (Model)",
                 "name_zh": "StA-X3 WASP 发射器（武器，模型）",
-                "index": 162,
+                "index": 165,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -21374,7 +21767,7 @@
                 "hash": "4155583896232633279",
                 "name": "FLAM-40 Flame Thrower (Model)",
                 "name_zh": "FLAM-40 火焰喷射器（模型）",
-                "index": 163,
+                "index": 166,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -21505,7 +21898,7 @@
                 "hash": "211331680192206384",
                 "name": "GL-21 Grenade Launcher (Model)",
                 "name_zh": "GL-21 榴弹发射器（模型）",
-                "index": 164,
+                "index": 167,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -21636,7 +22029,7 @@
                 "hash": "18319281757224320923",
                 "name": "GL-52 De-Escalator (Model)",
                 "name_zh": "GL-52 缓和使者（模型）",
-                "index": 165,
+                "index": 168,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -21767,7 +22160,7 @@
                 "hash": "4046732776742447255",
                 "name": "S-11 Speargun (Model)",
                 "name_zh": "S-11 矛枪（模型）",
-                "index": 166,
+                "index": 169,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -21898,7 +22291,7 @@
                 "hash": "8694225878611593109",
                 "name": "B/FLAM-80 Cremator (Model)",
                 "name_zh": "B/FLAM-80 焚燃者（武器，模型）",
-                "index": 167,
+                "index": 170,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -22029,7 +22422,7 @@
                 "hash": "2401215835282261016",
                 "name": "MG-206 Heavy Machine Gun (Model)",
                 "name_zh": "MG-206 重机枪（模型）",
-                "index": 168,
+                "index": 171,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -22160,7 +22553,7 @@
                 "hash": "15369542005276747891",
                 "name": "LAS-98 Laser Cannon (Model)",
                 "name_zh": "LAS-98 激光大炮（模型）",
-                "index": 169,
+                "index": 172,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -22291,7 +22684,7 @@
                 "hash": "6453678319562593995",
                 "name": "MLS-4X Commando (Model)",
                 "name_zh": "MLS-4X 突击兵（模型）",
-                "index": 170,
+                "index": 173,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -22422,7 +22815,7 @@
                 "hash": "3865797767236207742",
                 "name": "LAS-99 Quasar Cannon (Model)",
                 "name_zh": "LAS-99 类星体加农炮（模型）",
-                "index": 171,
+                "index": 174,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -22549,11 +22942,142 @@
             }
         },
         {
+            "0x73D84EAAE8C75342": {
+                "hash": "8347508405287998274",
+                "name": "LAS-44 Nova (Model)",
+                "name_zh": "LAS-44 新星（模型）",
+                "index": 175,
+                "default_customizations": [
+                    {
+                        "slot": "2 <=> WeaponCustomizationSlot_Optics",
+                        "customization": 1531812051
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    }
+                ],
+                "customization_slots": [
+                    "2 <=> WeaponCustomizationSlot_Optics",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None"
+                ],
+                "optics_path": "0",
+                "magazine_path": "0",
+                "unk_override_uint32_0x0088": 0,
+                "unk_override_uint32_0x008C": 0,
+                "magazine_secondary_path": "0",
+                "magazine_tertiary_path": "0",
+                "muzzle_path": "0",
+                "optics_crosshair_params": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scoped_shading_environment": "12963680579605088925",
+                "scoped_blur_shading_environment": "10927800196920066914",
+                "underbarrel_path": "0",
+                "material_override": {
+                    "unit_customization_material_overrides": [],
+                    "0x9E0F7A22": []
+                },
+                "trigger_settings": {
+                    "trigger_threshold": 4,
+                    "trigger_threshold_release": 2,
+                    "resistance_strength_start": 3,
+                    "resistance_strength_end": 8,
+                    "vibration_amplitude": 8,
+                    "vibration_frequency": 30,
+                    "vibration_frequency_variance": 8,
+                    "charge_up_vibration_frequency_start": 6,
+                    "charge_up_vibration_frequency_end": 16,
+                    "weight_resistance": 8,
+                    "double_action_trigger": 0,
+                    "double_action_regular_offset": 0,
+                    "on_fire_event": 0
+                },
+                "hide_magazine_on_start": 0,
+                "magazine_adjusting_nodes": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "use_magazine_adjusting_nodes_in_main_unit": 0,
+                "magazine_adjusting_ammo_reserve_pool": "0 <=> WeaponAmmoPoolType_AmmoLeft",
+                "magazine_adjusting_nodes_visible_chambering": 0,
+                "magazine_adjusting_animation": 0,
+                "magazine_adjusting_animation_variable": 0,
+                "ik_attach_setting": "0 <=> WeaponCustomizationIKAttach_None",
+                "ik_attach_animation_event": 0,
+                "unk_event_0x12FC": 0,
+                "unk_ability_about_shear": "0 <=> AbilityId_Unknown_0"
+            }
+        },
+        {
             "0x80932FA0ED6901D3": {
                 "hash": "9264801226655597011",
                 "name": "EAT-17 Expendable Anti-Tank (Model)",
                 "name_zh": "EAT-17 消耗性反坦克武器（模型）",
-                "index": 172,
+                "index": 176,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -22684,7 +23208,7 @@
                 "hash": "1279722939363854678",
                 "name": "MG-43 Machine Gun (Model)",
                 "name_zh": "MG-43 机枪（模型）",
-                "index": 173,
+                "index": 177,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -22815,7 +23339,7 @@
                 "hash": "4874456896233937276",
                 "name": "M-1000 Maxigun (Model)",
                 "name_zh": "M-1000 重装机枪（武器，模型）",
-                "index": 174,
+                "index": 178,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -22946,7 +23470,7 @@
                 "hash": "18163938711866866090",
                 "name": "Mini Missile Silo Target Designator (Model)",
                 "name_zh": "MS-11 单兵导弹发射井（激光指示器）",
-                "index": 175,
+                "index": 179,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -23077,7 +23601,7 @@
                 "hash": "16777584932715761236",
                 "name": "PLAS-45 Epoch (Model)",
                 "name_zh": "PLAS-45 纪元（模型）",
-                "index": 176,
+                "index": 180,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -23208,7 +23732,7 @@
                 "hash": "3358853937828503136",
                 "name": "RS-422 Railgun (Model)",
                 "name_zh": "RS-422 磁轨炮（模型）",
-                "index": 177,
+                "index": 181,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -23339,7 +23863,7 @@
                 "hash": "11493422068836852751",
                 "name": "GR-8 Recoilless Rifle (Model)",
                 "name_zh": "GR-8 无后坐力炮（武器，模型）",
-                "index": 178,
+                "index": 182,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -23470,7 +23994,7 @@
                 "hash": "10266352102081711787",
                 "name": "N/A",
                 "name_zh": "N/A",
-                "index": 179,
+                "index": 183,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -23601,7 +24125,7 @@
                 "hash": "9927421484392399367",
                 "name": "APW-1 Anti-Materiel Rifle (Model)",
                 "name_zh": "APW-1 反器材步枪（模型）",
-                "index": 180,
+                "index": 184,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -23728,11 +24252,142 @@
             }
         },
         {
+            "0xB814EECE17533BC4": {
+                "hash": "13264489371434957764",
+                "name": "AMW-20 Apex (Model)",
+                "name_zh": "AMW-20 尖峰（武器，模型）",
+                "index": 185,
+                "default_customizations": [
+                    {
+                        "slot": "2 <=> WeaponCustomizationSlot_Optics",
+                        "customization": 4105418159
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    },
+                    {
+                        "slot": "0 <=> WeaponCustomizationSlot_None",
+                        "customization": 0
+                    }
+                ],
+                "customization_slots": [
+                    "2 <=> WeaponCustomizationSlot_Optics",
+                    "5 <=> WeaponCustomizationSlot_Magazine",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None",
+                    "0 <=> WeaponCustomizationSlot_None"
+                ],
+                "optics_path": "3028582050964919560",
+                "magazine_path": "4630285911905943564",
+                "unk_override_uint32_0x0088": 0,
+                "unk_override_uint32_0x008C": 0,
+                "magazine_secondary_path": "0",
+                "magazine_tertiary_path": "0",
+                "muzzle_path": "0",
+                "optics_crosshair_params": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scoped_shading_environment": "12963680579605088925",
+                "scoped_blur_shading_environment": "10927800196920066914",
+                "underbarrel_path": "0",
+                "material_override": {
+                    "unit_customization_material_overrides": [],
+                    "0x9E0F7A22": []
+                },
+                "trigger_settings": {
+                    "trigger_threshold": 5,
+                    "trigger_threshold_release": 4,
+                    "resistance_strength_start": 4,
+                    "resistance_strength_end": 8,
+                    "vibration_amplitude": 8,
+                    "vibration_frequency": 0,
+                    "vibration_frequency_variance": 0,
+                    "charge_up_vibration_frequency_start": 0,
+                    "charge_up_vibration_frequency_end": 0,
+                    "weight_resistance": 8,
+                    "double_action_trigger": 0,
+                    "double_action_regular_offset": 0,
+                    "on_fire_event": 0
+                },
+                "hide_magazine_on_start": 0,
+                "magazine_adjusting_nodes": [
+                    1391881483,
+                    2051726355,
+                    1991225466,
+                    2895988748,
+                    1331493149,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "use_magazine_adjusting_nodes_in_main_unit": 0,
+                "magazine_adjusting_ammo_reserve_pool": "0 <=> WeaponAmmoPoolType_AmmoLeft",
+                "magazine_adjusting_nodes_visible_chambering": 0,
+                "magazine_adjusting_animation": 0,
+                "magazine_adjusting_animation_variable": 0,
+                "ik_attach_setting": "0 <=> WeaponCustomizationIKAttach_None",
+                "ik_attach_animation_event": 0,
+                "unk_event_0x12FC": 0,
+                "unk_ability_about_shear": "0 <=> AbilityId_Unknown_0"
+            }
+        },
+        {
             "0x73681FFD58FA1A90": {
                 "hash": "8315931884919593616",
                 "name": "Resupply Pod AR-23",
                 "name_zh": "补给上的解放者",
-                "index": 181,
+                "index": 186,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -23863,7 +24518,7 @@
                 "hash": "6113742425058627513",
                 "name": "A/AC-8 Autocannon Sentry",
                 "name_zh": "A/AC-8 自动哨戒炮",
-                "index": 182,
+                "index": 187,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -23994,7 +24649,7 @@
                 "hash": "2114795373903595840",
                 "name": "GL-21 Grenade Launcher MK2 (Model)",
                 "name_zh": "GL-21 榴弹发射器 MK2（模型）",
-                "index": 183,
+                "index": 188,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -24125,7 +24780,7 @@
                 "hash": "602390376167162446",
                 "name": "M-102 Fast Recon Vehicle HMG",
                 "name_zh": "M-102 快速侦查载具 车载重机枪",
-                "index": 184,
+                "index": 189,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -24256,7 +24911,7 @@
                 "hash": "14772015414747343144",
                 "name": "MG-206 Heavy Machine Gun MK2 (Model)",
                 "name_zh": "MG-206 重机枪 MK2（模型）",
-                "index": 185,
+                "index": 190,
                 "default_customizations": [
                     {
                         "slot": "2 <=> WeaponCustomizationSlot_Optics",
@@ -24387,7 +25042,7 @@
                 "hash": "4920324387701779176",
                 "name": "M-104 Incinerator FRV Flamer",
                 "name_zh": "M-104 炽热型 喷火枪",
-                "index": 186,
+                "index": 191,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -24518,7 +25173,7 @@
                 "hash": "5617149288754513915",
                 "name": "M-103 Supply FRV AR Sentry",
                 "name_zh": "M-103 补给型 解放者炮塔",
-                "index": 187,
+                "index": 192,
                 "default_customizations": [
                     {
                         "slot": "0 <=> WeaponCustomizationSlot_None",
@@ -24649,7 +25304,7 @@
                 "hash": "12984499893943104780",
                 "name": "M-105 Stalwart MK3 (Model)",
                 "name_zh": "M-105 盟友 MK3（模型）",
-                "index": 188,
+                "index": 193,
                 "default_customizations": [
                     {
                         "slot": "5 <=> WeaponCustomizationSlot_Magazine",
@@ -24780,7 +25435,7 @@
                 "hash": "13357795631455978434",
                 "name": "M-105 Stalwart MK4 On APC (Model)",
                 "name_zh": "APC上的 M-105 盟友 MK4（模型）",
-                "index": 189,
+                "index": 194,
                 "default_customizations": [
                     {
                         "slot": "5 <=> WeaponCustomizationSlot_Magazine",
@@ -24911,7 +25566,7 @@
                 "hash": "15365965494753326077",
                 "name": "M-105 Stalwart MK5 On APC (Model)",
                 "name_zh": "APC上的 M-105 盟友 MK5（模型）",
-                "index": 190,
+                "index": 195,
                 "default_customizations": [
                     {
                         "slot": "5 <=> WeaponCustomizationSlot_Magazine",

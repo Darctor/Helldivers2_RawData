@@ -100,8 +100,8 @@ JSON 里的 `0x` 有两种：
 ```json
 {
   "_metadata": {
-    "patch_date": "2026-09-22",
-    "game_version": "1.007.100"
+    "patch_date": "2026-10-20",
+    "game_version": "1.007.200"
   }
 }
 ```
@@ -299,19 +299,19 @@ Settings 是多处共用的配置表，不是某一只敌人或某一把枪的�
 2. 打开 `entities/ProjectileWeaponComponentData.json`，搜这个哈希或“焦土”。其中：
 
    ```json
-   "projectile_type": "142 <=> ProjectileType_Unknown_142"
+   "projectile_type": "144 <=> ProjectileType_Unknown_144"
    ```
 
 3. 打开 `settings/generated_projectile_settings.json`，搜 `"type": "142`。不要搜 `"index": 142`。这条射弹里还有：
 
    ```json
-   "damage_info_type": "56 <=> DamageInfoType_Unknown_56",
+   "damage_info_type": "63 <=> DamageInfoType_Unknown_63",
    "explosion_type_on_impact": "155 <=> ExplosionType_Unknown_155"
    ```
 
 4. 打开 `settings/generated_damage_settings.json`，搜 `"type": "56`。类型 56 的 `damage` 是 `[100, 50]`，也就是标准伤害 100、耐久伤害 50。
 
-5. 打开 `settings/generated_explosion_settings.json`，搜 `"type": "155`，看范围和爆炸标志。这条爆炸自己的 `damage_type` 当前是 `306 <=> DamageInfoType_Unknown_306`，再回伤害表搜 `"type": "306`。
+5. 打开 `settings/generated_explosion_settings.json`，搜 `"type": "155`，看范围和爆炸标志。这条爆炸自己的 `damage_type` 当前是 `316 <=> DamageInfoType_Unknown_316`，再回伤害表搜 `"type": "316`。
 
 ```text
 名称表 → 射弹武器组件 → projectile_type
@@ -439,7 +439,7 @@ HitEffectReceiverType_Unknown_27
 
 ## 当前进度
 
-`v1.007.100`（2026-09-22）已归档：
+`v1.007.200`（2026-10-20）已归档：
 
 - 9 类 Settings：伤害、爆炸、射弹、光束、电弧、状态效果、战备、武器自定义、实体设置；
 - 52 类实体组件，配置和 JSON 都按这份 typelib 的布局导出；

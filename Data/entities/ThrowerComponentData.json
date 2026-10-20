@@ -4,8 +4,8 @@
         "omitted_size": 22,
         "exported_entity_count": 5,
         "matched_bilingual_hash_count": 5,
-        "patch_date": "2026-09-22",
-        "game_version": "1.007.100"
+        "patch_date": "2026-10-20",
+        "game_version": "1.007.200"
     },
     "entities": [
         {
@@ -120,7 +120,7 @@
                             "y": 0.0,
                             "z": 0.05000000074505806
                         },
-                        "unk_enum_r0x016C": "522 <=> AbilityId_Unknown_522",
+                        "unk_enum_r0x016C": "530 <=> AbilityId_Unknown_530",
                         "unk_enum_r0x0170": "0 <=> AbilityId_Unknown_0"
                     },
                     {
@@ -228,7 +228,7 @@
                             "y": 0.0,
                             "z": 0.05000000074505806
                         },
-                        "unk_enum_r0x016C": "522 <=> AbilityId_Unknown_522",
+                        "unk_enum_r0x016C": "530 <=> AbilityId_Unknown_530",
                         "unk_enum_r0x0170": "0 <=> AbilityId_Unknown_0"
                     }
                 ]

@@ -5,8 +5,8 @@
                 "struct_size": 88,
                 "omitted_size": 48,
                 "exported_type_count": 97,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
@@ -1570,8 +1570,8 @@
                 "struct_size": 88,
                 "omitted_size": 48,
                 "exported_type_count": 3,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
@@ -1631,8 +1631,8 @@
                 "struct_size": 88,
                 "omitted_size": 48,
                 "exported_type_count": 4,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
@@ -1707,9 +1707,9 @@
             "_metadata": {
                 "struct_size": 88,
                 "omitted_size": 48,
-                "exported_type_count": 52,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "exported_type_count": 57,
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
@@ -1874,6 +1874,54 @@
                 },
                 {
                     "index": 10,
+                    "debug_name": "Legacy Rifle 5,5x50mm. Standard ",
+                    "id": 1023998806,
+                    "name_upper": 1621453557,
+                    "name_cased": 3487124909,
+                    "description": 1961315473,
+                    "fluff": 0,
+                    "add_path": "18244475866956686833",
+                    "icon": "0",
+                    "slots": [
+                        "5 <=> WeaponCustomizationSlot_Magazine"
+                    ],
+                    "unk_array_0x0040": [],
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
+                },
+                {
+                    "index": 11,
+                    "debug_name": "Legacy Rifle 5,5x50mm. Extended ",
+                    "id": 1353750258,
+                    "name_upper": 2416744569,
+                    "name_cased": 2289976365,
+                    "description": 197005611,
+                    "fluff": 0,
+                    "add_path": "2615862651646633657",
+                    "icon": "0",
+                    "slots": [
+                        "5 <=> WeaponCustomizationSlot_Magazine"
+                    ],
+                    "unk_array_0x0040": [],
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
+                },
+                {
+                    "index": 12,
+                    "debug_name": "Legacy Rifle 5,5x50mm. Drum ",
+                    "id": 1347685561,
+                    "name_upper": 2153424507,
+                    "name_cased": 740089886,
+                    "description": 1896446197,
+                    "fluff": 0,
+                    "add_path": "11218495470612410267",
+                    "icon": "0",
+                    "slots": [
+                        "5 <=> WeaponCustomizationSlot_Magazine"
+                    ],
+                    "unk_array_0x0040": [],
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
+                },
+                {
+                    "index": 13,
                     "debug_name": "SMG 12x25mm. Standard ",
                     "id": 145688603,
                     "name_upper": 1621453557,
@@ -1889,7 +1937,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 11,
+                    "index": 14,
                     "debug_name": "SMG 12x25mm. Extended",
                     "id": 28539884,
                     "name_upper": 2416744569,
@@ -1905,7 +1953,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 12,
+                    "index": 15,
                     "debug_name": "SMG 12x25mm. Drum ",
                     "id": 3836459766,
                     "name_upper": 2153424507,
@@ -1921,7 +1969,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 13,
+                    "index": 16,
                     "debug_name": "SMG 12x25mm. Standard Pummeler",
                     "id": 3296677822,
                     "name_upper": 1621453557,
@@ -1937,7 +1985,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 14,
+                    "index": 17,
                     "debug_name": "SMG 12x25mm. Extended Pummeler",
                     "id": 3693795869,
                     "name_upper": 2416744569,
@@ -1953,7 +2001,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 15,
+                    "index": 18,
                     "debug_name": "SMG 12x25mm. Drum Pummeler",
                     "id": 1868939925,
                     "name_upper": 2153424507,
@@ -1969,7 +2017,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 16,
+                    "index": 19,
                     "debug_name": "SMG 9x20mm. Top Mounted Standard ",
                     "id": 1206147961,
                     "name_upper": 1621453557,
@@ -1985,7 +2033,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 17,
+                    "index": 20,
                     "debug_name": "SMG 9x20mm. Top Mounted Extended",
                     "id": 1331505398,
                     "name_upper": 2416744569,
@@ -2001,7 +2049,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 18,
+                    "index": 21,
                     "debug_name": "SMG 9x20mm. Top Mounted Standard Solvent",
                     "id": 3448072094,
                     "name_upper": 1621453557,
@@ -2017,7 +2065,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 19,
+                    "index": 22,
                     "debug_name": "SMG 9x20mm. Top Mounted Extended Solvent",
                     "id": 2085726026,
                     "name_upper": 2416744569,
@@ -2033,7 +2081,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 20,
+                    "index": 23,
                     "debug_name": "SMG Flamer Standard Magazine ",
                     "id": 1764666355,
                     "name_upper": 1621453557,
@@ -2049,7 +2097,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 21,
+                    "index": 24,
                     "debug_name": "SMG Flamer Drum Magazine ",
                     "id": 1814005482,
                     "name_upper": 2153424507,
@@ -2065,7 +2113,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 22,
+                    "index": 25,
                     "debug_name": "SMG Flamer Extended Magazine ",
                     "id": 3950366798,
                     "name_upper": 2416744569,
@@ -2081,7 +2129,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 23,
+                    "index": 26,
                     "debug_name": "Shotgun 12g. Magazine Standard ",
                     "id": 2927341039,
                     "name_upper": 1621453557,
@@ -2097,7 +2145,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 24,
+                    "index": 27,
                     "debug_name": "SHOTGUN 12g. Magazine Extended",
                     "id": 3396852888,
                     "name_upper": 2416744569,
@@ -2113,7 +2161,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 25,
+                    "index": 28,
                     "debug_name": "SHOTGUN 12g. Drum ",
                     "id": 729386491,
                     "name_upper": 2153424507,
@@ -2129,7 +2177,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 26,
+                    "index": 29,
                     "debug_name": "Shotgun 12g. Magazine Standard Light",
                     "id": 2373844328,
                     "name_upper": 1621453557,
@@ -2145,7 +2193,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 27,
+                    "index": 30,
                     "debug_name": "SHOTGUN 12g. Magazine Extended Light",
                     "id": 3574620973,
                     "name_upper": 2416744569,
@@ -2161,7 +2209,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 28,
+                    "index": 31,
                     "debug_name": "SHOTGUN 12g. Drum Light",
                     "id": 1445040833,
                     "name_upper": 2153424507,
@@ -2177,7 +2225,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 29,
+                    "index": 32,
                     "debug_name": "RIFLE 9x70mm. Standard ",
                     "id": 510429706,
                     "name_upper": 1621453557,
@@ -2193,7 +2241,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 30,
+                    "index": 33,
                     "debug_name": "RIFLE 9x70mm. Extended ",
                     "id": 3170853794,
                     "name_upper": 2416744569,
@@ -2209,7 +2257,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 31,
+                    "index": 34,
                     "debug_name": "RIFLE Justice. Standard ",
                     "id": 2682524333,
                     "name_upper": 1621453557,
@@ -2225,7 +2273,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 32,
+                    "index": 35,
                     "debug_name": "RIFLE Justice. Extended ",
                     "id": 1399218880,
                     "name_upper": 2416744569,
@@ -2241,7 +2289,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 33,
+                    "index": 36,
                     "debug_name": "RIFLE Justice. Short ",
                     "id": 871017061,
                     "name_upper": 4220096722,
@@ -2257,7 +2305,39 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 34,
+                    "index": 37,
+                    "debug_name": "RIFLE Simo. Short ",
+                    "id": 1396036117,
+                    "name_upper": 1621453557,
+                    "name_cased": 3487124909,
+                    "description": 1961315473,
+                    "fluff": 0,
+                    "add_path": "8919220976429977968",
+                    "icon": "0",
+                    "slots": [
+                        "5 <=> WeaponCustomizationSlot_Magazine"
+                    ],
+                    "unk_array_0x0040": [],
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
+                },
+                {
+                    "index": 38,
+                    "debug_name": "RIFLE Simo. Standard ",
+                    "id": 1681359480,
+                    "name_upper": 2416744569,
+                    "name_cased": 2289976365,
+                    "description": 197005611,
+                    "fluff": 0,
+                    "add_path": "5679607561749894105",
+                    "icon": "0",
+                    "slots": [
+                        "5 <=> WeaponCustomizationSlot_Magazine"
+                    ],
+                    "unk_array_0x0040": [],
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
+                },
+                {
+                    "index": 39,
                     "debug_name": "RIFLE Drake. Standard ",
                     "id": 3086651645,
                     "name_upper": 2416744569,
@@ -2273,7 +2353,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 35,
+                    "index": 40,
                     "debug_name": "RIFLE Drake. Short ",
                     "id": 1329537565,
                     "name_upper": 1621453557,
@@ -2289,7 +2369,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 36,
+                    "index": 41,
                     "debug_name": "Laser Heatsink. Medium Standard",
                     "id": 4090552121,
                     "name_upper": 3681591456,
@@ -2305,7 +2385,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 37,
+                    "index": 42,
                     "debug_name": "Laser Heatsink. Medium Improved Heatcapacity",
                     "id": 4191776064,
                     "name_upper": 3799349087,
@@ -2321,7 +2401,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 38,
+                    "index": 43,
                     "debug_name": "Laser Heatsink. Medium Improved Cooldown",
                     "id": 2272725875,
                     "name_upper": 1691987288,
@@ -2337,7 +2417,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 39,
+                    "index": 44,
                     "debug_name": "Laser Heatsink (Charge). Standard Heatsink",
                     "id": 1450370231,
                     "name_upper": 3681591456,
@@ -2353,7 +2433,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 40,
+                    "index": 45,
                     "debug_name": "Laser Heatsink (Charge). Extended Heatsink",
                     "id": 1023838150,
                     "name_upper": 3799349087,
@@ -2369,7 +2449,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 41,
+                    "index": 46,
                     "debug_name": "Laser Heatsink (Charge). Rapid Heatsink",
                     "id": 1393691251,
                     "name_upper": 1055226367,
@@ -2385,7 +2465,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 42,
+                    "index": 47,
                     "debug_name": "Laser Heatsink (Blaster). Standard",
                     "id": 968619308,
                     "name_upper": 3681591456,
@@ -2401,7 +2481,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 43,
+                    "index": 48,
                     "debug_name": "Laser Heatsink (Blaster). Improved Heatcapacity",
                     "id": 2276900410,
                     "name_upper": 3799349087,
@@ -2417,7 +2497,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 44,
+                    "index": 49,
                     "debug_name": "Laser Heatsink (Blaster). Improved Cooldown",
                     "id": 1681023692,
                     "name_upper": 1691987288,
@@ -2433,7 +2513,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 45,
+                    "index": 50,
                     "debug_name": "Plasma Medium. Canister Standard",
                     "id": 2212187482,
                     "name_upper": 2948490704,
@@ -2449,7 +2529,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 46,
+                    "index": 51,
                     "debug_name": "Plasma Medium. Canister Extended",
                     "id": 1891970284,
                     "name_upper": 3236359595,
@@ -2465,7 +2545,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 47,
+                    "index": 52,
                     "debug_name": "Plasma Pistol. Canister Pistol",
                     "id": 1794183093,
                     "name_upper": 1057191056,
@@ -2481,7 +2561,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 48,
+                    "index": 53,
                     "debug_name": "Plasma Pistol. Canister Extended",
                     "id": 2173281941,
                     "name_upper": 287000771,
@@ -2497,7 +2577,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 49,
+                    "index": 54,
                     "debug_name": "Jet Assisted Rifle 15mm. Drum Standard ",
                     "id": 342335342,
                     "name_upper": 2367164855,
@@ -2513,7 +2593,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 50,
+                    "index": 55,
                     "debug_name": "Pistol 9x20mm. Extended ",
                     "id": 2993266867,
                     "name_upper": 2293927390,
@@ -2529,7 +2609,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 51,
+                    "index": 56,
                     "debug_name": "Pistol 12x20mm. Standard",
                     "id": 292456975,
                     "name_upper": 1621453557,
@@ -2553,8 +2633,8 @@
                 "struct_size": 88,
                 "omitted_size": 48,
                 "exported_type_count": 36,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
@@ -3141,9 +3221,9 @@
             "_metadata": {
                 "struct_size": 88,
                 "omitted_size": 48,
-                "exported_type_count": 16,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "exported_type_count": 21,
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
@@ -3164,6 +3244,22 @@
                 },
                 {
                     "index": 1,
+                    "debug_name": "Iron Sights Long",
+                    "id": 926473211,
+                    "name_upper": 1178576085,
+                    "name_cased": 3366822638,
+                    "description": 2748911653,
+                    "fluff": 0,
+                    "add_path": "16978559101578921223",
+                    "icon": "0",
+                    "slots": [
+                        "2 <=> WeaponCustomizationSlot_Optics"
+                    ],
+                    "unk_array_0x0040": [],
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
+                },
+                {
+                    "index": 2,
                     "debug_name": "HOLOGRAPHIC SIGHT",
                     "id": 1181917201,
                     "name_upper": 3401998340,
@@ -3179,7 +3275,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 2,
+                    "index": 3,
                     "debug_name": "REFLEX SIGHT",
                     "id": 3073392033,
                     "name_upper": 3650167756,
@@ -3195,7 +3291,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 3,
+                    "index": 4,
                     "debug_name": "REFLEX SIGHT MKII",
                     "id": 3885038159,
                     "name_upper": 3674314040,
@@ -3211,7 +3307,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 4,
+                    "index": 5,
                     "debug_name": "TUBE REDDOT 1,5x",
                     "id": 1713239419,
                     "name_upper": 1237147322,
@@ -3227,7 +3323,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 5,
+                    "index": 6,
                     "debug_name": "TUBE REDDOT 2x",
                     "id": 841650739,
                     "name_upper": 3610251186,
@@ -3243,7 +3339,23 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 6,
+                    "index": 7,
+                    "debug_name": "TUBE REDDOT 2x LEGACY",
+                    "id": 1575438446,
+                    "name_upper": 3610251186,
+                    "name_cased": 2940193716,
+                    "description": 2863703793,
+                    "fluff": 0,
+                    "add_path": "7016754572783611661",
+                    "icon": "0",
+                    "slots": [
+                        "2 <=> WeaponCustomizationSlot_Optics"
+                    ],
+                    "unk_array_0x0040": [],
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
+                },
+                {
+                    "index": 8,
                     "debug_name": "COMBAT SCOPE 4x",
                     "id": 3905063732,
                     "name_upper": 201467962,
@@ -3259,7 +3371,23 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 7,
+                    "index": 9,
+                    "debug_name": "ION SCOPE 4x",
+                    "id": 1531812051,
+                    "name_upper": 201467962,
+                    "name_cased": 3950887010,
+                    "description": 781923061,
+                    "fluff": 0,
+                    "add_path": "11148744070041794169",
+                    "icon": "0",
+                    "slots": [
+                        "2 <=> WeaponCustomizationSlot_Optics"
+                    ],
+                    "unk_array_0x0040": [],
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
+                },
+                {
+                    "index": 10,
                     "debug_name": "SNIPER SCOPE 10x",
                     "id": 1742775424,
                     "name_upper": 372370498,
@@ -3275,7 +3403,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 8,
+                    "index": 11,
                     "debug_name": "SNIPER SCOPE 10x HELGHAST",
                     "id": 70755494,
                     "name_upper": 372370498,
@@ -3291,7 +3419,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 9,
+                    "index": 12,
                     "debug_name": "DUNE WALKER SNIPER SCOPE 10x",
                     "id": 461255937,
                     "name_upper": 372370498,
@@ -3307,7 +3435,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 10,
+                    "index": 13,
                     "debug_name": "SNIPER SCOPE 10x SHARK",
                     "id": 2702146973,
                     "name_upper": 372370498,
@@ -3323,7 +3451,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 11,
+                    "index": 14,
                     "debug_name": "Support Scope",
                     "id": 3708752448,
                     "name_upper": 3888529137,
@@ -3339,7 +3467,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 12,
+                    "index": 15,
                     "debug_name": "Railgun Scope",
                     "id": 1514045116,
                     "name_upper": 2112571438,
@@ -3355,7 +3483,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 13,
+                    "index": 16,
                     "debug_name": "MORGUNSON HOLO-SIGHT",
                     "id": 245428325,
                     "name_upper": 1078107663,
@@ -3371,7 +3499,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 14,
+                    "index": 17,
                     "debug_name": "PISTOL REFLEX SIGHT",
                     "id": 1184838873,
                     "name_upper": 3967153159,
@@ -3387,7 +3515,7 @@
                     "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
                 },
                 {
-                    "index": 15,
+                    "index": 18,
                     "debug_name": "FAF SPEAR SCOPE",
                     "id": 1941667008,
                     "name_upper": 1911335011,
@@ -3395,6 +3523,38 @@
                     "description": 1400345635,
                     "fluff": 0,
                     "add_path": "11388768893657015391",
+                    "icon": "0",
+                    "slots": [
+                        "2 <=> WeaponCustomizationSlot_Optics"
+                    ],
+                    "unk_array_0x0040": [],
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
+                },
+                {
+                    "index": 19,
+                    "debug_name": "DUO SNIPER SCOPE 10x",
+                    "id": 4105418159,
+                    "name_upper": 372370498,
+                    "name_cased": 361043407,
+                    "description": 742449904,
+                    "fluff": 0,
+                    "add_path": "7186764934662332429",
+                    "icon": "0",
+                    "slots": [
+                        "2 <=> WeaponCustomizationSlot_Optics"
+                    ],
+                    "unk_array_0x0040": [],
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
+                },
+                {
+                    "index": 20,
+                    "debug_name": "SIMO Iron Sights",
+                    "id": 3493367819,
+                    "name_upper": 1178576085,
+                    "name_cased": 3366822638,
+                    "description": 2748911653,
+                    "fluff": 0,
+                    "add_path": "16664212398056724691",
                     "icon": "0",
                     "slots": [
                         "2 <=> WeaponCustomizationSlot_Optics"
@@ -3411,8 +3571,8 @@
                 "struct_size": 88,
                 "omitted_size": 48,
                 "exported_type_count": 12,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
@@ -3847,8 +4007,8 @@
                 "struct_size": 88,
                 "omitted_size": 48,
                 "exported_type_count": 3,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
@@ -3907,9 +4067,9 @@
             "_metadata": {
                 "struct_size": 88,
                 "omitted_size": 48,
-                "exported_type_count": 18,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "exported_type_count": 19,
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
@@ -4193,6 +4353,22 @@
                     "description": 3423109258,
                     "fluff": 0,
                     "add_path": "13385271715385004853",
+                    "icon": "0",
+                    "slots": [
+                        "1 <=> WeaponCustomizationSlot_Underbarrel"
+                    ],
+                    "unk_array_0x0040": [],
+                    "unk_enum_0x0050": "0 <=> WeaponCustomizationSortGroups_Unknown_0"
+                },
+                {
+                    "index": 18,
+                    "debug_name": "Legacy Liberator Default Grip",
+                    "id": 1585136201,
+                    "name_upper": 2204136156,
+                    "name_cased": 1150030374,
+                    "description": 125111073,
+                    "fluff": 0,
+                    "add_path": "13806076216981771869",
                     "icon": "0",
                     "slots": [
                         "1 <=> WeaponCustomizationSlot_Underbarrel"

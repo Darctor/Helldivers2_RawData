@@ -5,13 +5,13 @@
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 13,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "101 <=> StratagemType_AmmoBackpack",
+                    "type": "104 <=> StratagemType_AmmoBackpack",
                     "id": 1907808218,
                     "video_id": 2631438937,
                     "debug_name": "BACKPACK. SUPPLY BACKPACK",
@@ -152,7 +152,7 @@
                 },
                 {
                     "index": 1,
-                    "type": "96 <=> StratagemType_BallisticShield",
+                    "type": "99 <=> StratagemType_BallisticShield",
                     "id": 3353508219,
                     "video_id": 1732777349,
                     "debug_name": "BACKPACK. BALLISTIC SHIELD BACKPACK",
@@ -293,7 +293,7 @@
                 },
                 {
                     "index": 2,
-                    "type": "67 <=> StratagemType_Directional_Shield",
+                    "type": "70 <=> StratagemType_Directional_Shield",
                     "id": 272480476,
                     "video_id": 2412024011,
                     "debug_name": "BACKPACK. DIRECTIONAL ENERGY SHIELD",
@@ -434,7 +434,7 @@
                 },
                 {
                     "index": 3,
-                    "type": "43 <=> StratagemType_ShieldGeneratorPack",
+                    "type": "44 <=> StratagemType_ShieldGeneratorPack",
                     "id": 3843705076,
                     "video_id": 4291165010,
                     "debug_name": "BACKPACK.  GENERATOR PACK",
@@ -575,7 +575,7 @@
                 },
                 {
                     "index": 4,
-                    "type": "134 <=> StratagemType_Jumppack",
+                    "type": "137 <=> StratagemType_Jumppack",
                     "id": 1753436707,
                     "video_id": 4285917866,
                     "debug_name": "BACKPACK. JUMPPACK BACKPACK",
@@ -715,7 +715,7 @@
                 },
                 {
                     "index": 5,
-                    "type": "55 <=> StratagemType_HoverPack",
+                    "type": "57 <=> StratagemType_HoverPack",
                     "id": 73468749,
                     "video_id": 939188707,
                     "debug_name": "BACKPACK. HOVERPACK BACKPACK",
@@ -856,7 +856,7 @@
                 },
                 {
                     "index": 6,
-                    "type": "73 <=> StratagemType_DroneMG",
+                    "type": "76 <=> StratagemType_DroneMG",
                     "id": 485866824,
                     "video_id": 380277557,
                     "debug_name": "BACKPACK. GUARD DOG (Drone)",
@@ -999,7 +999,7 @@
                 },
                 {
                     "index": 7,
-                    "type": "115 <=> StratagemType_Drone_Laser_Rifle",
+                    "type": "118 <=> StratagemType_Drone_Laser_Rifle",
                     "id": 951988742,
                     "video_id": 221425740,
                     "debug_name": "BACKPACK. Laser Rifle (Drone)",
@@ -1142,7 +1142,7 @@
                 },
                 {
                     "index": 8,
-                    "type": "142 <=> StratagemType_Drone_Gas",
+                    "type": "146 <=> StratagemType_Drone_Gas",
                     "id": 5185868,
                     "video_id": 1312777691,
                     "debug_name": "BACKPACK. GUARD DOG GAS PROJECTOR (Drone)",
@@ -1285,7 +1285,7 @@
                 },
                 {
                     "index": 9,
-                    "type": "57 <=> StratagemType_Drone_Flamer",
+                    "type": "59 <=> StratagemType_Drone_Flamer",
                     "id": 1125307795,
                     "video_id": 1159927551,
                     "debug_name": "BACKPACK. GUARD DOG FLAMETHROWER (Drone)",
@@ -1428,7 +1428,7 @@
                 },
                 {
                     "index": 10,
-                    "type": "120 <=> StratagemType_PortableHellbomb",
+                    "type": "123 <=> StratagemType_PortableHellbomb",
                     "id": 45875024,
                     "video_id": 3593822142,
                     "debug_name": "BACKPACK. HELLBOMB",
@@ -1859,13 +1859,13 @@
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 2,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "33 <=> StratagemType_AmmoRack",
+                    "type": "34 <=> StratagemType_AmmoRack",
                     "id": 867876502,
                     "video_id": 0,
                     "debug_name": "CONSUMABLES. RESUPPLY",
@@ -2027,7 +2027,7 @@
                 },
                 {
                     "index": 1,
-                    "type": "77 <=> StratagemType_HealthPackRack",
+                    "type": "80 <=> StratagemType_HealthPackRack",
                     "id": 2229216190,
                     "video_id": 0,
                     "debug_name": "CONSUMABLES. HEALTH PACK RACK",
@@ -2173,13 +2173,13 @@
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 11,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "30 <=> StratagemType_EagleStrafingRun",
+                    "type": "31 <=> StratagemType_EagleStrafingRun",
                     "id": 2808191861,
                     "video_id": 717369399,
                     "debug_name": "EAGLE. AIR SUPPORT",
@@ -2236,7 +2236,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "51 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -2378,7 +2378,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "51 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -2462,7 +2462,7 @@
                 },
                 {
                     "index": 2,
-                    "type": "140 <=> StratagemType_Eagle110mmRocket",
+                    "type": "143 <=> StratagemType_Eagle110mmRocket",
                     "id": 1979913877,
                     "video_id": 1695931029,
                     "debug_name": "EAGLE. 110mm ROCKET PODS",
@@ -2520,7 +2520,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "51 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -2662,7 +2662,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "51 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -2745,7 +2745,7 @@
                 },
                 {
                     "index": 4,
-                    "type": "133 <=> StratagemType_EagleAirstrikeNapalm",
+                    "type": "136 <=> StratagemType_EagleAirstrikeNapalm",
                     "id": 2040137691,
                     "video_id": 457411092,
                     "debug_name": "EAGLE. NAPALM AIRSTRIKE",
@@ -2803,7 +2803,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "51 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -2886,7 +2886,7 @@
                 },
                 {
                     "index": 5,
-                    "type": "65 <=> StratagemType_EagleClusterbombs",
+                    "type": "68 <=> StratagemType_EagleClusterbombs",
                     "id": 3656370131,
                     "video_id": 3081672756,
                     "debug_name": "EAGLE. CLUSTERBOMBS",
@@ -2945,7 +2945,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "51 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -3028,7 +3028,7 @@
                 },
                 {
                     "index": 6,
-                    "type": "38 <=> StratagemType_EagleAirstrikeSmoke",
+                    "type": "39 <=> StratagemType_EagleAirstrikeSmoke",
                     "id": 1685231450,
                     "video_id": 2631025559,
                     "debug_name": "EAGLE. AIRSTRIKE SMOKE",
@@ -3086,7 +3086,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "51 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -3169,7 +3169,7 @@
                 },
                 {
                     "index": 7,
-                    "type": "126 <=> StratagemType_EagleGasStrike",
+                    "type": "129 <=> StratagemType_EagleGasStrike",
                     "id": 4196275240,
                     "video_id": 4061728311,
                     "debug_name": "EAGLE. Gas AIRSTRIKE",
@@ -3227,7 +3227,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "51 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -3310,7 +3310,7 @@
                 },
                 {
                     "index": 8,
-                    "type": "49 <=> StratagemType_EagleRearm",
+                    "type": "51 <=> StratagemType_EagleRearm",
                     "id": 3837064536,
                     "video_id": 0,
                     "debug_name": "EAGLE. REARM",
@@ -3366,7 +3366,7 @@
                     "hud_type": "1 <=> StratagemHUDType_Mission",
                     "cost": 0,
                     "enabled": 1,
-                    "depends_on": "30 <=> StratagemType_EagleStrafingRun",
+                    "depends_on": "31 <=> StratagemType_EagleStrafingRun",
                     "additional_stratagem": "0 <=> StratagemType_None",
                     "max_in_loadout": 1,
                     "has_shared_uses_pool": 0,
@@ -3414,7 +3414,7 @@
                         "stun 眩晕弹": 0
                     },
                     "spottable_vo_line": 580584596,
-                    "shared_stratagem_upgrades_type": "30 <=> StratagemType_EagleStrafingRun",
+                    "shared_stratagem_upgrades_type": "31 <=> StratagemType_EagleStrafingRun",
                     "shared_stratagem_upgrades_categories_flags": 2,
                     "shared_stratagem_upgrades_categories_flags_detail": {
                         "extra_uses": 0,
@@ -3447,7 +3447,7 @@
                 },
                 {
                     "index": 9,
-                    "type": "35 <=> StratagemType_EagleStrafingRun_DSS",
+                    "type": "36 <=> StratagemType_EagleStrafingRun_DSS",
                     "id": 929878807,
                     "video_id": 0,
                     "debug_name": "EAGLE. (NOT USED) ADDITIONAL STRAFING RUNS",
@@ -3504,7 +3504,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "51 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -3584,7 +3584,7 @@
                 },
                 {
                     "index": 10,
-                    "type": "146 <=> StratagemType_EagleAirToAirMissile",
+                    "type": "150 <=> StratagemType_EagleAirToAirMissile",
                     "id": 3001049275,
                     "video_id": 0,
                     "debug_name": "EAGLE. (NOT USED) AIR-TO-AIR MISSLES",
@@ -3642,7 +3642,7 @@
                     "cost": 1,
                     "enabled": 1,
                     "depends_on": "0 <=> StratagemType_None",
-                    "additional_stratagem": "49 <=> StratagemType_EagleRearm",
+                    "additional_stratagem": "51 <=> StratagemType_EagleRearm",
                     "max_in_loadout": 0,
                     "has_shared_uses_pool": 0,
                     "beacon_color": "1 <=> StratagemBeaconColor_Red",
@@ -3733,13 +3733,13 @@
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 9,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "59 <=> StratagemType_GrenadierBattlement",
+                    "type": "61 <=> StratagemType_GrenadierBattlement",
                     "id": 2480128092,
                     "video_id": 2888845076,
                     "debug_name": "EMPLACEMENTS. DEFENSE WALL GRENADE LAUNCHER",
@@ -4040,7 +4040,7 @@
                 },
                 {
                     "index": 2,
-                    "type": "144 <=> StratagemType_HMG_Emplacement",
+                    "type": "148 <=> StratagemType_HMG_Emplacement",
                     "id": 2919842659,
                     "video_id": 1326707506,
                     "debug_name": "EMPLACEMENTS. HEAVY MACHINEGUN EMPLACEMENT",
@@ -4183,7 +4183,7 @@
                 },
                 {
                     "index": 3,
-                    "type": "119 <=> StratagemType_AntiPersonnalMine",
+                    "type": "122 <=> StratagemType_AntiPersonnalMine",
                     "id": 12688472,
                     "video_id": 3690601241,
                     "debug_name": "EMPLACEMENTS. ANTI-PERSONNEL MINE DEPLOYER",
@@ -4322,7 +4322,7 @@
                 },
                 {
                     "index": 4,
-                    "type": "139 <=> StratagemType_IncendiaryMines",
+                    "type": "142 <=> StratagemType_IncendiaryMines",
                     "id": 2742141597,
                     "video_id": 1354726713,
                     "debug_name": "EMPLACEMENTS. INCENDIARY MINE DEPLOYER",
@@ -4603,7 +4603,7 @@
                 },
                 {
                     "index": 6,
-                    "type": "46 <=> StratagemType_GasMines",
+                    "type": "47 <=> StratagemType_GasMines",
                     "id": 644090457,
                     "video_id": 878542088,
                     "debug_name": "EMPLACEMENTS. GAS MINE DEPLOYER",
@@ -4742,7 +4742,7 @@
                 },
                 {
                     "index": 7,
-                    "type": "104 <=> StratagemType_TurretTesla",
+                    "type": "107 <=> StratagemType_TurretTesla",
                     "id": 2402590523,
                     "video_id": 3303546069,
                     "debug_name": "EMPLACEMENTS. TESLA TOWER",
@@ -5030,18 +5030,321 @@
         }
     },
     {
+        "StratagemSettings_LibertyDay": {
+            "_metadata": {
+                "struct_size": 400,
+                "omitted_size": 183,
+                "exported_type_count": 2,
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
+            },
+            "items": [
+                {
+                    "index": 0,
+                    "type": "50 <=> StratagemType_EagleFlyBy",
+                    "id": 71548051,
+                    "video_id": 0,
+                    "debug_name": "EAGLE FLY BY",
+                    "nui_name": "nui_stratagem_eagle_fly_by_name",
+                    "nui_desc": "nui_stratagem_eagle_fly_by_desc",
+                    "name_upper": 2849040043,
+                    "name_cased": 1555547319,
+                    "description": 2373066199,
+                    "fluff": 2105510009,
+                    "loading_loc": 764869094,
+                    "category": "0 <=> StratagemCategoryType_CloseAirSupport",
+                    "button_combination": [
+                        "1 <=> StratagemButtonDirection_Up [↑]",
+                        "3 <=> StratagemButtonDirection_Down [↓]",
+                        "3 <=> StratagemButtonDirection_Down [↓]",
+                        "1 <=> StratagemButtonDirection_Up [↑]",
+                        "1 <=> StratagemButtonDirection_Up [↑]",
+                        "3 <=> StratagemButtonDirection_Down [↓]",
+                        "3 <=> StratagemButtonDirection_Down [↓]",
+                        "1 <=> StratagemButtonDirection_Up [↑]",
+                        "1 <=> StratagemButtonDirection_Up [↑]"
+                    ],
+                    "use": 5,
+                    "spawn_time": 0.0,
+                    "spawn_radius": 0.0,
+                    "unk_float_0x005C": 0.0,
+                    "beacon_linger_time": 0.0,
+                    "extra_travel_time": 0.0,
+                    "cooldown_duration_success": 15.0,
+                    "cooldown_duration_fail": 0.0,
+                    "origin_type": "0 <=> StratagemOriginType_ShipSpecific",
+                    "call_in_type": "0 <=> StratagemCallInType_Throw",
+                    "call_in_logic_flags": 192,
+                    "call_in_logic_flags_detail": {
+                        "unk_bit_0": 0,
+                        "use_objective_position": 0,
+                        "objective_owner": 0,
+                        "host_confirmation": 0,
+                        "host_confirm_unique_instance": 0,
+                        "host_confirm_objective_stratagem_usage": 0,
+                        "blocked_by_stratagem_blocker": 1,
+                        "unk_bit_7": 1,
+                        "available_after_mission_end": 0
+                    },
+                    "objective_drop_requirement": "0 <=> StratagemObjectiveDropRequirement_None",
+                    "stratagem_flags_1": 1,
+                    "stratagem_flags_1_detail": {
+                        "mission_specific": 1,
+                        "selectable": 0
+                    },
+                    "unk_uint64_0x0088": "0",
+                    "triggers_war": 1,
+                    "cooldown_type": "0 <=> StratagemCooldownType_Individual",
+                    "payload": [
+                        "3037497317565530440"
+                    ],
+                    "package": "6399712930837671605",
+                    "icon": "14673224973406499399",
+                    "hud_type": "0 <=> StratagemHUDType_Offensive",
+                    "cost": 1,
+                    "enabled": 1,
+                    "depends_on": "0 <=> StratagemType_None",
+                    "additional_stratagem": "51 <=> StratagemType_EagleRearm",
+                    "max_in_loadout": 0,
+                    "has_shared_uses_pool": 0,
+                    "beacon_color": "2 <=> StratagemBeaconColor_Blue",
+                    "ship_laser_pointer": 0,
+                    "ready_vo": 0,
+                    "denied_vo": 648592619,
+                    "confirmation_vo_owner": 0,
+                    "callout_vo": 633809080,
+                    "off_cooldown_vo": 0,
+                    "damage_dealer": "0",
+                    "matching_support_weapon": 0,
+                    "dlc_pack_id": 0,
+                    "is_clan_stratagem": 0,
+                    "info_flags": 128,
+                    "info_flags_detail": {
+                        "support_weapon 支援武器": 0,
+                        "hellpod 绝地喷射舱": 0,
+                        "explosive 爆炸品": 0,
+                        "backpack 背包": 0,
+                        "orbital 轨道武器": 0,
+                        "vehicle 载具": 0,
+                        "fire 燃烧弹": 0,
+                        "aerial 飞鹰": 1,
+                        "turret 哨戒炮": 0,
+                        "straight_beacon 直信标 (游戏内无中译)": 0,
+                        "gas 腐蚀气体": 0,
+                        "light_antitank 重甲穿透": 0,
+                        "antitank 反坦克": 0,
+                        "lightantipersonnel 轻甲穿透": 0,
+                        "antipersonnel 中甲穿透": 0,
+                        "stationaryreload 固定填弹": 0,
+                        "expendable 消耗品": 0,
+                        "heat 高温": 0,
+                        "beam 激光束": 0,
+                        "charge 充能": 0,
+                        "unk_trait_20 未知特性1": 0,
+                        "unk_trait_21 未知特征2": 0,
+                        "unk_trait_22 未知特征3": 0,
+                        "melee 近战": 0,
+                        "one_handed 单手操作": 0,
+                        "guided 制导": 0,
+                        "sticky 粘性": 0,
+                        "arc 电弧": 0,
+                        "stun 眩晕弹": 0
+                    },
+                    "spottable_vo_line": 0,
+                    "shared_stratagem_upgrades_type": "0 <=> StratagemType_None",
+                    "shared_stratagem_upgrades_categories_flags": 0,
+                    "shared_stratagem_upgrades_categories_flags_detail": {
+                        "extra_uses": 0,
+                        "cooldown_reduction": 0,
+                        "cooldown_reduction_alternate": 0,
+                        "spawn_time_reduction": 0,
+                        "entity_delta": 0,
+                        "entity_swap": 0,
+                        "multi_hellpod": 0
+                    },
+                    "0xB6CAFF2E": [],
+                    "stratagem_flags_2": 0,
+                    "stratagem_flags_2_detail": {
+                        "use_alternate_cooldown": 0,
+                        "unk_bit_2": 0
+                    },
+                    "extra_hellpods": 0,
+                    "hellpod_target_offset": [],
+                    "hellpod_additional_rotation_in_tau": [],
+                    "equipment_tags": [
+                        3450039231
+                    ],
+                    "customizations": [],
+                    "stratagem_flags_3": 0,
+                    "stratagem_flags_3_detail": {
+                        "allow_for_button_overlap": 0,
+                        "deploy_on_navmesh_only": 0
+                    },
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
+                    "0xB24E0C4B": [],
+                    "unk_enum_0x0188": "7 <=> 0x6011FA2B_Unknown_7"
+                },
+                {
+                    "index": 1,
+                    "type": "145 <=> StratagemType_OrbitalConfetti",
+                    "id": 4267557474,
+                    "video_id": 0,
+                    "debug_name": "ORBITAL CONFETTI",
+                    "nui_name": "nui_stratagem_orbital_confetti_name",
+                    "nui_desc": "nui_stratagem_orbital_confetti_desc",
+                    "name_upper": 1912361092,
+                    "name_cased": 2620110255,
+                    "description": 826650508,
+                    "fluff": 2777541878,
+                    "loading_loc": 1914518290,
+                    "category": "1 <=> StratagemCategoryType_OrbitalFireSupport",
+                    "button_combination": [
+                        "2 <=> StratagemButtonDirection_Right [→]",
+                        "3 <=> StratagemButtonDirection_Down [↓]",
+                        "3 <=> StratagemButtonDirection_Down [↓]",
+                        "1 <=> StratagemButtonDirection_Up [↑]",
+                        "1 <=> StratagemButtonDirection_Up [↑]",
+                        "3 <=> StratagemButtonDirection_Down [↓]",
+                        "3 <=> StratagemButtonDirection_Down [↓]",
+                        "1 <=> StratagemButtonDirection_Up [↑]",
+                        "1 <=> StratagemButtonDirection_Up [↑]"
+                    ],
+                    "use": 4294967295,
+                    "spawn_time": 2.0,
+                    "spawn_radius": 0.0,
+                    "unk_float_0x005C": 0.0,
+                    "beacon_linger_time": 0.0,
+                    "extra_travel_time": 0.0,
+                    "cooldown_duration_success": 80.0,
+                    "cooldown_duration_fail": 0.0,
+                    "origin_type": "0 <=> StratagemOriginType_ShipSpecific",
+                    "call_in_type": "0 <=> StratagemCallInType_Throw",
+                    "call_in_logic_flags": 192,
+                    "call_in_logic_flags_detail": {
+                        "unk_bit_0": 0,
+                        "use_objective_position": 0,
+                        "objective_owner": 0,
+                        "host_confirmation": 0,
+                        "host_confirm_unique_instance": 0,
+                        "host_confirm_objective_stratagem_usage": 0,
+                        "blocked_by_stratagem_blocker": 1,
+                        "unk_bit_7": 1,
+                        "available_after_mission_end": 0
+                    },
+                    "objective_drop_requirement": "0 <=> StratagemObjectiveDropRequirement_None",
+                    "stratagem_flags_1": 3,
+                    "stratagem_flags_1_detail": {
+                        "mission_specific": 1,
+                        "selectable": 1
+                    },
+                    "unk_uint64_0x0088": "0",
+                    "triggers_war": 1,
+                    "cooldown_type": "0 <=> StratagemCooldownType_Individual",
+                    "payload": [
+                        "12600027252469840165"
+                    ],
+                    "package": "9395503986354463806",
+                    "icon": "7866182530616662132",
+                    "hud_type": "0 <=> StratagemHUDType_Offensive",
+                    "cost": 1,
+                    "enabled": 1,
+                    "depends_on": "0 <=> StratagemType_None",
+                    "additional_stratagem": "0 <=> StratagemType_None",
+                    "max_in_loadout": 0,
+                    "has_shared_uses_pool": 0,
+                    "beacon_color": "2 <=> StratagemBeaconColor_Blue",
+                    "ship_laser_pointer": 0,
+                    "ready_vo": 0,
+                    "denied_vo": 648592619,
+                    "confirmation_vo_owner": 2032574890,
+                    "callout_vo": 2083631703,
+                    "off_cooldown_vo": 0,
+                    "damage_dealer": "0",
+                    "matching_support_weapon": 0,
+                    "dlc_pack_id": 0,
+                    "is_clan_stratagem": 0,
+                    "info_flags": 16,
+                    "info_flags_detail": {
+                        "support_weapon 支援武器": 0,
+                        "hellpod 绝地喷射舱": 0,
+                        "explosive 爆炸品": 0,
+                        "backpack 背包": 0,
+                        "orbital 轨道武器": 1,
+                        "vehicle 载具": 0,
+                        "fire 燃烧弹": 0,
+                        "aerial 飞鹰": 0,
+                        "turret 哨戒炮": 0,
+                        "straight_beacon 直信标 (游戏内无中译)": 0,
+                        "gas 腐蚀气体": 0,
+                        "light_antitank 重甲穿透": 0,
+                        "antitank 反坦克": 0,
+                        "lightantipersonnel 轻甲穿透": 0,
+                        "antipersonnel 中甲穿透": 0,
+                        "stationaryreload 固定填弹": 0,
+                        "expendable 消耗品": 0,
+                        "heat 高温": 0,
+                        "beam 激光束": 0,
+                        "charge 充能": 0,
+                        "unk_trait_20 未知特性1": 0,
+                        "unk_trait_21 未知特征2": 0,
+                        "unk_trait_22 未知特征3": 0,
+                        "melee 近战": 0,
+                        "one_handed 单手操作": 0,
+                        "guided 制导": 0,
+                        "sticky 粘性": 0,
+                        "arc 电弧": 0,
+                        "stun 眩晕弹": 0
+                    },
+                    "spottable_vo_line": 2312828521,
+                    "shared_stratagem_upgrades_type": "0 <=> StratagemType_None",
+                    "shared_stratagem_upgrades_categories_flags": 0,
+                    "shared_stratagem_upgrades_categories_flags_detail": {
+                        "extra_uses": 0,
+                        "cooldown_reduction": 0,
+                        "cooldown_reduction_alternate": 0,
+                        "spawn_time_reduction": 0,
+                        "entity_delta": 0,
+                        "entity_swap": 0,
+                        "multi_hellpod": 0
+                    },
+                    "0xB6CAFF2E": [],
+                    "stratagem_flags_2": 0,
+                    "stratagem_flags_2_detail": {
+                        "use_alternate_cooldown": 0,
+                        "unk_bit_2": 0
+                    },
+                    "extra_hellpods": 0,
+                    "hellpod_target_offset": [],
+                    "hellpod_additional_rotation_in_tau": [],
+                    "equipment_tags": [
+                        1832780853
+                    ],
+                    "customizations": [],
+                    "stratagem_flags_3": 0,
+                    "stratagem_flags_3_detail": {
+                        "allow_for_button_overlap": 0,
+                        "deploy_on_navmesh_only": 0
+                    },
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
+                    "0xB24E0C4B": [],
+                    "unk_enum_0x0188": "2 <=> 0x6011FA2B_Unknown_2"
+                }
+            ]
+        }
+    },
+    {
         "StratagemSettings_Missions": {
             "_metadata": {
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 36,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "78 <=> StratagemType_ShoulderMountedCamera",
+                    "type": "81 <=> StratagemType_ShoulderMountedCamera",
                     "id": 2186648412,
                     "video_id": 0,
                     "debug_name": "MISSIONS. SHOULDER MOUNTED CAMERA",
@@ -5183,7 +5486,7 @@
                 },
                 {
                     "index": 1,
-                    "type": "76 <=> StratagemType_CyborgCarryData",
+                    "type": "79 <=> StratagemType_CyborgCarryData",
                     "id": 3928947721,
                     "video_id": 0,
                     "debug_name": "MISSIONS. Cyborg Carry Data",
@@ -5325,7 +5628,7 @@
                 },
                 {
                     "index": 2,
-                    "type": "79 <=> StratagemType_CarryData",
+                    "type": "82 <=> StratagemType_CarryData",
                     "id": 2319566343,
                     "video_id": 0,
                     "debug_name": "MISSIONS. Carry Data",
@@ -5465,7 +5768,7 @@
                 },
                 {
                     "index": 3,
-                    "type": "129 <=> StratagemType_DrillingCharge",
+                    "type": "132 <=> StratagemType_DrillingCharge",
                     "id": 716273285,
                     "video_id": 0,
                     "debug_name": "MISSIONS. DRILLING CHARGE",
@@ -5603,7 +5906,7 @@
                 },
                 {
                     "index": 4,
-                    "type": "148 <=> StratagemType_ExtractBeacon",
+                    "type": "152 <=> StratagemType_ExtractBeacon",
                     "id": 115737856,
                     "video_id": 0,
                     "debug_name": "MISSIONS. EXTRACTION",
@@ -5743,7 +6046,7 @@
                 },
                 {
                     "index": 5,
-                    "type": "42 <=> StratagemType_DropoffHellbomb",
+                    "type": "43 <=> StratagemType_DropoffHellbomb",
                     "id": 3989310204,
                     "video_id": 0,
                     "debug_name": "MISSIONS. HELLBOMB",
@@ -5886,7 +6189,7 @@
                 },
                 {
                     "index": 6,
-                    "type": "72 <=> StratagemType_DropoffBugPlug",
+                    "type": "75 <=> StratagemType_DropoffBugPlug",
                     "id": 1503060624,
                     "video_id": 0,
                     "debug_name": "MISSIONS. BUG PLUG",
@@ -6027,7 +6330,7 @@
                 },
                 {
                     "index": 7,
-                    "type": "71 <=> StratagemType_DropoffCargoContainer",
+                    "type": "74 <=> StratagemType_DropoffCargoContainer",
                     "id": 1606251952,
                     "video_id": 0,
                     "debug_name": "MISSIONS. CARGO CONTAINER",
@@ -6168,7 +6471,7 @@
                 },
                 {
                     "index": 8,
-                    "type": "138 <=> StratagemType_CargoContainer",
+                    "type": "141 <=> StratagemType_CargoContainer",
                     "id": 2670122272,
                     "video_id": 0,
                     "debug_name": "MISSIONS. CARGO CONTAINER",
@@ -6309,7 +6612,7 @@
                 },
                 {
                     "index": 9,
-                    "type": "102 <=> StratagemType_MobileCommsRelay",
+                    "type": "105 <=> StratagemType_MobileCommsRelay",
                     "id": 705279885,
                     "video_id": 0,
                     "debug_name": "MISSIONS. MOBILE COMMS RELAY",
@@ -6451,7 +6754,7 @@
                 },
                 {
                     "index": 10,
-                    "type": "122 <=> StratagemType_SpireSterilizer",
+                    "type": "125 <=> StratagemType_SpireSterilizer",
                     "id": 1824787072,
                     "video_id": 0,
                     "debug_name": "MISSIONS. SPIRE STERILIZER",
@@ -6732,7 +7035,7 @@
                 },
                 {
                     "index": 12,
-                    "type": "85 <=> StratagemType_SuperEarthFlag",
+                    "type": "88 <=> StratagemType_SuperEarthFlag",
                     "id": 599201298,
                     "video_id": 0,
                     "debug_name": "MISSIONS. RAISE FLAG NO CLEAR AREA",
@@ -7014,7 +7317,7 @@
                 },
                 {
                     "index": 14,
-                    "type": "70 <=> StratagemType_ProspectingDrill",
+                    "type": "73 <=> StratagemType_ProspectingDrill",
                     "id": 685210453,
                     "video_id": 0,
                     "debug_name": "MISSIONS. PROSPECTING DRILL",
@@ -7296,7 +7599,7 @@
                 },
                 {
                     "index": 16,
-                    "type": "108 <=> StratagemType_Scrambler",
+                    "type": "111 <=> StratagemType_Scrambler",
                     "id": 1005987791,
                     "video_id": 0,
                     "debug_name": "MISSIONS. Scrambler",
@@ -7582,7 +7885,7 @@
                 },
                 {
                     "index": 18,
-                    "type": "111 <=> StratagemType_ImmediateExtractionBeacon",
+                    "type": "114 <=> StratagemType_ImmediateExtractionBeacon",
                     "id": 509712523,
                     "video_id": 0,
                     "debug_name": "MISSIONS. IMMEDIATE EXTRACTION BEACON",
@@ -7725,7 +8028,7 @@
                 },
                 {
                     "index": 19,
-                    "type": "98 <=> StratagemType_EmergencyExtractionBeacon",
+                    "type": "101 <=> StratagemType_EmergencyExtractionBeacon",
                     "id": 716088572,
                     "video_id": 0,
                     "debug_name": "MISSIONS. EMERGENCY EXTRACTION BEACON",
@@ -7867,7 +8170,7 @@
                 },
                 {
                     "index": 20,
-                    "type": "124 <=> StratagemType_ReinforcementBeacon",
+                    "type": "127 <=> StratagemType_ReinforcementBeacon",
                     "id": 2266266587,
                     "video_id": 0,
                     "debug_name": "MISSIONS. REINFORCEMENT BEACON",
@@ -8144,7 +8447,7 @@
                 },
                 {
                     "index": 22,
-                    "type": "145 <=> StratagemType_SOSBeacon",
+                    "type": "149 <=> StratagemType_SOSBeacon",
                     "id": 3193487269,
                     "video_id": 0,
                     "debug_name": "MISSIONS. SOS Beacon",
@@ -8283,7 +8586,7 @@
                 },
                 {
                     "index": 23,
-                    "type": "128 <=> StratagemType_UploadDiscovery",
+                    "type": "131 <=> StratagemType_UploadDiscovery",
                     "id": 3300666223,
                     "video_id": 0,
                     "debug_name": "MISSIONS. Upload Discovery",
@@ -8420,7 +8723,7 @@
                 },
                 {
                     "index": 24,
-                    "type": "132 <=> StratagemType_Nuke",
+                    "type": "135 <=> StratagemType_Nuke",
                     "id": 2663642538,
                     "video_id": 0,
                     "debug_name": "MISSIONS CLAN STATION. Nuke",
@@ -8561,7 +8864,7 @@
                 },
                 {
                     "index": 25,
-                    "type": "103 <=> StratagemType_CarpetBomb",
+                    "type": "106 <=> StratagemType_CarpetBomb",
                     "id": 905054095,
                     "video_id": 0,
                     "debug_name": "MISSIONS CLAN STATION. Carpet Bombing Run",
@@ -8701,7 +9004,7 @@
                 },
                 {
                     "index": 26,
-                    "type": "86 <=> StratagemType_RemoteExplosives",
+                    "type": "89 <=> StratagemType_RemoteExplosives",
                     "id": 1232978203,
                     "video_id": 0,
                     "debug_name": "MISSIONS. REMOTE EXPLOSIVES",
@@ -8844,7 +9147,7 @@
                 },
                 {
                     "index": 27,
-                    "type": "84 <=> StratagemType_JammedPinata",
+                    "type": "87 <=> StratagemType_JammedPinata",
                     "id": 3868299561,
                     "video_id": 0,
                     "debug_name": "MISSIONS. JAMMED PINATA",
@@ -8983,7 +9286,7 @@
                 },
                 {
                     "index": 28,
-                    "type": "28 <=> StratagemType_SEAF_Artillery",
+                    "type": "29 <=> StratagemType_SEAF_Artillery",
                     "id": 2985177386,
                     "video_id": 0,
                     "debug_name": "MISSIONS. SEAF GUN",
@@ -9119,7 +9422,7 @@
                 },
                 {
                     "index": 29,
-                    "type": "29 <=> StratagemType_DarkFluidBackpack",
+                    "type": "30 <=> StratagemType_DarkFluidBackpack",
                     "id": 1042447730,
                     "video_id": 0,
                     "debug_name": "MISSIONS. DARK FLUID BACKPACK",
@@ -9260,7 +9563,7 @@
                 },
                 {
                     "index": 30,
-                    "type": "64 <=> StratagemType_TCS03Thumper",
+                    "type": "67 <=> StratagemType_TCS03Thumper",
                     "id": 1426041086,
                     "video_id": 0,
                     "debug_name": "MISSIONS. TCS 03 THUMPER",
@@ -9401,7 +9704,7 @@
                 },
                 {
                     "index": 31,
-                    "type": "48 <=> StratagemType_MissionDataJack",
+                    "type": "49 <=> StratagemType_MissionDataJack",
                     "id": 681028671,
                     "video_id": 0,
                     "debug_name": "MISSIONS. DATA JACK",
@@ -9543,7 +9846,7 @@
                 },
                 {
                     "index": 32,
-                    "type": "31 <=> StratagemType_MissionHellbombBackpack",
+                    "type": "32 <=> StratagemType_MissionHellbombBackpack",
                     "id": 1053576110,
                     "video_id": 3593822142,
                     "debug_name": "BACKPACK. HELLBOMB",
@@ -9683,7 +9986,7 @@
                 },
                 {
                     "index": 33,
-                    "type": "36 <=> StratagemType_OilRigExtract",
+                    "type": "37 <=> StratagemType_OilRigExtract",
                     "id": 65564476,
                     "video_id": 0,
                     "debug_name": "MISSIONS. OIL RIG EXTRACT",
@@ -9821,7 +10124,7 @@
                 },
                 {
                     "index": 34,
-                    "type": "123 <=> StratagemType_CallInSuperDestroyer",
+                    "type": "126 <=> StratagemType_CallInSuperDestroyer",
                     "id": 4177070437,
                     "video_id": 0,
                     "debug_name": "MISSIONS. CALL IN DESTROYER",
@@ -9961,7 +10264,7 @@
                 },
                 {
                     "index": 35,
-                    "type": "94 <=> StratagemType_Posion_Drill",
+                    "type": "97 <=> StratagemType_Posion_Drill",
                     "id": 913592461,
                     "video_id": 0,
                     "debug_name": "MISSIONS. POISON DRILL",
@@ -10111,13 +10414,13 @@
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 13,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "118 <=> StratagemType_OrbitalPrecisionStrike",
+                    "type": "121 <=> StratagemType_OrbitalPrecisionStrike",
                     "id": 3523620028,
                     "video_id": 241502779,
                     "debug_name": "ORBITAL. PRECISION STRIKE",
@@ -10258,7 +10561,7 @@
                 },
                 {
                     "index": 1,
-                    "type": "41 <=> StratagemType_OrbitalGas",
+                    "type": "42 <=> StratagemType_OrbitalGas",
                     "id": 3193297673,
                     "video_id": 4138095836,
                     "debug_name": "ORBITAL. GAS STRIKE",
@@ -10400,7 +10703,7 @@
                 },
                 {
                     "index": 2,
-                    "type": "83 <=> StratagemType_OrbitalAirBurst",
+                    "type": "86 <=> StratagemType_OrbitalAirBurst",
                     "id": 1560416221,
                     "video_id": 4084788822,
                     "debug_name": "ORBITAL. AIRBURST STRIKE",
@@ -10423,7 +10726,7 @@
                     "unk_float_0x005C": 0.0,
                     "beacon_linger_time": 0.0,
                     "extra_travel_time": 0.0,
-                    "cooldown_duration_success": 100.0,
+                    "cooldown_duration_success": 90.0,
                     "cooldown_duration_fail": 0.0,
                     "origin_type": "0 <=> StratagemOriginType_ShipSpecific",
                     "call_in_type": "0 <=> StratagemCallInType_Throw",
@@ -10683,7 +10986,7 @@
                 },
                 {
                     "index": 4,
-                    "type": "136 <=> StratagemType_Orbital120mmHEBarrage",
+                    "type": "139 <=> StratagemType_Orbital120mmHEBarrage",
                     "id": 1063322614,
                     "video_id": 156926384,
                     "debug_name": "ORBITAL. 120MM HE STRIKE",
@@ -10827,7 +11130,7 @@
                 },
                 {
                     "index": 5,
-                    "type": "106 <=> StratagemType_OrbitalNapalmBarrage",
+                    "type": "109 <=> StratagemType_OrbitalNapalmBarrage",
                     "id": 2902516083,
                     "video_id": 2881064247,
                     "debug_name": "ORBITAL. NAPALM BARRAGE",
@@ -10972,7 +11275,7 @@
                 },
                 {
                     "index": 6,
-                    "type": "125 <=> StratagemType_Orbital380mmHEBarrage",
+                    "type": "128 <=> StratagemType_Orbital380mmHEBarrage",
                     "id": 3108516875,
                     "video_id": 1521915005,
                     "debug_name": "ORBITAL. 380MM HE BARRAGE",
@@ -11259,7 +11562,7 @@
                 },
                 {
                     "index": 8,
-                    "type": "62 <=> StratagemType_WalkingBarrageSmoke",
+                    "type": "64 <=> StratagemType_WalkingBarrageSmoke",
                     "id": 3796132384,
                     "video_id": 3793839349,
                     "debug_name": "ORBITAL. WALKING BARRAGE SMOKE",
@@ -11402,7 +11705,7 @@
                 },
                 {
                     "index": 9,
-                    "type": "74 <=> StratagemType_OrbitalSmoke",
+                    "type": "77 <=> StratagemType_OrbitalSmoke",
                     "id": 3713568312,
                     "video_id": 3093214207,
                     "debug_name": "ORBITAL. SMOKE STRIKE",
@@ -11543,7 +11846,7 @@
                 },
                 {
                     "index": 10,
-                    "type": "34 <=> StratagemType_Orbital_EMS_Strike",
+                    "type": "35 <=> StratagemType_Orbital_EMS_Strike",
                     "id": 1280711447,
                     "video_id": 1732796450,
                     "debug_name": "ORBITAL. STATIC FIELD CONDUTORS",
@@ -11684,7 +11987,7 @@
                 },
                 {
                     "index": 11,
-                    "type": "107 <=> StratagemType_OrbitalLaser",
+                    "type": "110 <=> StratagemType_OrbitalLaser",
                     "id": 970450596,
                     "video_id": 759856207,
                     "debug_name": "ORBITAL. LASER",
@@ -11827,7 +12130,7 @@
                 },
                 {
                     "index": 12,
-                    "type": "58 <=> StratagemType_OrbitalRailcannon",
+                    "type": "60 <=> StratagemType_OrbitalRailcannon",
                     "id": 2744472229,
                     "video_id": 3428463213,
                     "debug_name": "ORBITAL. RAILCANNON",
@@ -11978,13 +12281,13 @@
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 7,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "109 <=> StratagemType_AmmoRack_PresidentReward",
+                    "type": "112 <=> StratagemType_AmmoRack_PresidentReward",
                     "id": 1295431756,
                     "video_id": 0,
                     "debug_name": "PRESIDENT REWARDS. AMMO CACHE",
@@ -12123,7 +12426,7 @@
                 },
                 {
                     "index": 1,
-                    "type": "90 <=> StratagemType_HealthPackRack_PresidentReward",
+                    "type": "93 <=> StratagemType_HealthPackRack_PresidentReward",
                     "id": 255298804,
                     "video_id": 0,
                     "debug_name": "PRESIDENT REWARDS. HEALTH PACK RACK",
@@ -12262,7 +12565,7 @@
                 },
                 {
                     "index": 2,
-                    "type": "37 <=> StratagemType_PatriotExosuit_PresidentReward",
+                    "type": "38 <=> StratagemType_PatriotExosuit_PresidentReward",
                     "id": 2587901119,
                     "video_id": 0,
                     "debug_name": "PRESIDENT REWARDS. COMBAT WALKER",
@@ -12544,7 +12847,7 @@
                 },
                 {
                     "index": 4,
-                    "type": "143 <=> StratagemType_Jumppack_PresidentReward",
+                    "type": "147 <=> StratagemType_Jumppack_PresidentReward",
                     "id": 3316399568,
                     "video_id": 0,
                     "debug_name": "PRESIDENT REWARDS. JUMPPACK BACKPACK",
@@ -12684,7 +12987,7 @@
                 },
                 {
                     "index": 5,
-                    "type": "69 <=> StratagemType_TurretRocket_PresidentReward",
+                    "type": "72 <=> StratagemType_TurretRocket_PresidentReward",
                     "id": 3275255096,
                     "video_id": 0,
                     "debug_name": "PRESIDENT REWARDS. ROCKET SENTRY",
@@ -12824,7 +13127,7 @@
                 },
                 {
                     "index": 6,
-                    "type": "82 <=> StratagemType_Machinegun_PresidentReward",
+                    "type": "85 <=> StratagemType_Machinegun_PresidentReward",
                     "id": 1567517764,
                     "video_id": 0,
                     "debug_name": "PRESIDENT REWARDS. MACHINEGUN",
@@ -12970,9 +13273,9 @@
             "_metadata": {
                 "struct_size": 400,
                 "omitted_size": 183,
-                "exported_type_count": 34,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "exported_type_count": 36,
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
@@ -13125,7 +13428,7 @@
                 },
                 {
                     "index": 1,
-                    "type": "80 <=> StratagemType_GrenadeLauncher",
+                    "type": "83 <=> StratagemType_GrenadeLauncher",
                     "id": 3343676429,
                     "video_id": 2719600676,
                     "debug_name": "TEAM WEAPONS. GRENADE LAUNCHER",
@@ -13268,7 +13571,7 @@
                 },
                 {
                     "index": 2,
-                    "type": "131 <=> StratagemType_De-Escalator",
+                    "type": "134 <=> StratagemType_De-Escalator",
                     "id": 153819019,
                     "video_id": 1079549052,
                     "debug_name": "TEAM WEAPONS. GRENADE LAUNCHER TACTICAL",
@@ -13411,7 +13714,7 @@
                 },
                 {
                     "index": 3,
-                    "type": "127 <=> StratagemType_BeltFedGrenadeLauncher",
+                    "type": "130 <=> StratagemType_BeltFedGrenadeLauncher",
                     "id": 512147393,
                     "video_id": 3948360446,
                     "debug_name": "TEAM WEAPONS. BELT FED GRENADE LAUNCHER",
@@ -13555,7 +13858,7 @@
                 },
                 {
                     "index": 4,
-                    "type": "56 <=> StratagemType_Railgun",
+                    "type": "58 <=> StratagemType_Railgun",
                     "id": 3078242205,
                     "video_id": 2727780022,
                     "debug_name": "TEAM WEAPONS. RAILGUN ",
@@ -13700,7 +14003,7 @@
                 },
                 {
                     "index": 5,
-                    "type": "113 <=> StratagemType_Speargun",
+                    "type": "116 <=> StratagemType_Speargun",
                     "id": 336693041,
                     "video_id": 2632959974,
                     "debug_name": "TEAM WEAPONS. HARPOON GUN ",
@@ -13845,7 +14148,7 @@
                 },
                 {
                     "index": 6,
-                    "type": "130 <=> StratagemType_Recoilless",
+                    "type": "133 <=> StratagemType_Recoilless",
                     "id": 1298599997,
                     "video_id": 2718204526,
                     "debug_name": "TEAM WEAPONS. RECOILLESS RIFLE",
@@ -13989,7 +14292,7 @@
                 },
                 {
                     "index": 7,
-                    "type": "63 <=> StratagemType_LaserCannon",
+                    "type": "65 <=> StratagemType_LaserCannon",
                     "id": 2822568285,
                     "video_id": 1468504979,
                     "debug_name": "TEAM WEAPONS. LASER CANNON",
@@ -14135,7 +14438,7 @@
                 },
                 {
                     "index": 8,
-                    "type": "149 <=> StratagemType_QuasarCannon",
+                    "type": "153 <=> StratagemType_QuasarCannon",
                     "id": 2625074523,
                     "video_id": 1803597048,
                     "debug_name": "TEAM WEAPONS. LASER PULSE CANNON",
@@ -14280,7 +14583,7 @@
                 },
                 {
                     "index": 9,
-                    "type": "141 <=> StratagemType_AntiMaterielRifle",
+                    "type": "144 <=> StratagemType_AntiMaterielRifle",
                     "id": 2207713849,
                     "video_id": 3756988628,
                     "debug_name": "TEAM WEAPONS. SNIPER",
@@ -14424,7 +14727,7 @@
                 },
                 {
                     "index": 10,
-                    "type": "147 <=> StratagemType_ExpendableAntiTank",
+                    "type": "151 <=> StratagemType_ExpendableAntiTank",
                     "id": 3413606544,
                     "video_id": 3409016668,
                     "debug_name": "TEAM WEAPONS. EXPENDABLE ANTI-TANK",
@@ -14714,7 +15017,7 @@
                 },
                 {
                     "index": 12,
-                    "type": "39 <=> StratagemType_ExpendableNapalmLauncher",
+                    "type": "40 <=> StratagemType_ExpendableNapalmLauncher",
                     "id": 1813634375,
                     "video_id": 4086868936,
                     "debug_name": "TEAM WEAPONS. EXPENDABLE NAPALM LAUNCHER",
@@ -15149,7 +15452,7 @@
                 },
                 {
                     "index": 15,
-                    "type": "112 <=> StratagemType_Flamethrower",
+                    "type": "115 <=> StratagemType_Flamethrower",
                     "id": 1432571981,
                     "video_id": 947794889,
                     "debug_name": "TEAM WEAPONS. FLAMETHROWER",
@@ -15293,7 +15596,7 @@
                 },
                 {
                     "index": 16,
-                    "type": "32 <=> StratagemType_HeavyMachineGun",
+                    "type": "33 <=> StratagemType_HeavyMachineGun",
                     "id": 533318241,
                     "video_id": 2838332761,
                     "debug_name": "TEAM WEAPONS. HEAVY MACHINEGUN",
@@ -15437,7 +15740,7 @@
                 },
                 {
                     "index": 17,
-                    "type": "92 <=> StratagemType_Machinegun",
+                    "type": "95 <=> StratagemType_Machinegun",
                     "id": 458198946,
                     "video_id": 2929112146,
                     "debug_name": "TEAM WEAPONS. MACHINEGUN",
@@ -15721,7 +16024,7 @@
                 },
                 {
                     "index": 19,
-                    "type": "99 <=> StratagemType_BulletStorm",
+                    "type": "102 <=> StratagemType_BulletStorm",
                     "id": 3288352984,
                     "video_id": 1527898184,
                     "debug_name": "TEAM WEAPONS. EXPENDABLE MACHINEGUN",
@@ -15865,7 +16168,7 @@
                 },
                 {
                     "index": 20,
-                    "type": "54 <=> StratagemType_AirBurstRocket",
+                    "type": "56 <=> StratagemType_AirBurstRocket",
                     "id": 2007887745,
                     "video_id": 3672540179,
                     "debug_name": "TEAM WEAPONS. AIR BURST ROCKET LAUNCHER",
@@ -16151,7 +16454,7 @@
                 },
                 {
                     "index": 22,
-                    "type": "89 <=> StratagemType_SoloSilo",
+                    "type": "92 <=> StratagemType_SoloSilo",
                     "id": 1337271929,
                     "video_id": 917491533,
                     "debug_name": "TEAM WEAPONS. MINI MISSILE SILO",
@@ -16294,7 +16597,7 @@
                 },
                 {
                     "index": 23,
-                    "type": "75 <=> StratagemType_Spear",
+                    "type": "78 <=> StratagemType_Spear",
                     "id": 3923676543,
                     "video_id": 3243376618,
                     "debug_name": "TEAM WEAPONS. SPEAR",
@@ -16438,7 +16741,7 @@
                 },
                 {
                     "index": 24,
-                    "type": "97 <=> StratagemType_WASP",
+                    "type": "100 <=> StratagemType_WASP",
                     "id": 890972990,
                     "video_id": 2572809942,
                     "debug_name": "TEAM WEAPONS. WASP",
@@ -16582,7 +16885,7 @@
                 },
                 {
                     "index": 25,
-                    "type": "68 <=> StratagemType_ArcThrower",
+                    "type": "71 <=> StratagemType_ArcThrower",
                     "id": 992079466,
                     "video_id": 733709352,
                     "debug_name": "TEAM WEAPONS. ARC THROWER ",
@@ -16728,7 +17031,7 @@
                 },
                 {
                     "index": 26,
-                    "type": "61 <=> StratagemType_Sterilizer",
+                    "type": "63 <=> StratagemType_Sterilizer",
                     "id": 4152191751,
                     "video_id": 2841659442,
                     "debug_name": "TEAM WEAPONS. CHEM GUN",
@@ -16872,7 +17175,7 @@
                 },
                 {
                     "index": 27,
-                    "type": "114 <=> StratagemType_OneTrueFlag",
+                    "type": "117 <=> StratagemType_OneTrueFlag",
                     "id": 2265180087,
                     "video_id": 790127675,
                     "debug_name": "TEAM WEAPONS. MELEE FLAG",
@@ -17015,7 +17318,7 @@
                 },
                 {
                     "index": 28,
-                    "type": "51 <=> StratagemType_DefoliationTool",
+                    "type": "53 <=> StratagemType_DefoliationTool",
                     "id": 3572024208,
                     "video_id": 826246738,
                     "debug_name": "TEAM WEAPONS. CHAINSAW GREATSWORD",
@@ -17158,7 +17461,7 @@
                 },
                 {
                     "index": 29,
-                    "type": "100 <=> StratagemType_BreachingHammer",
+                    "type": "103 <=> StratagemType_BreachingHammer",
                     "id": 3330450692,
                     "video_id": 3342204955,
                     "debug_name": "TEAM WEAPONS. SLEDGE HAMMER",
@@ -17301,7 +17604,7 @@
                 },
                 {
                     "index": 30,
-                    "type": "45 <=> StratagemType_Epoch",
+                    "type": "46 <=> StratagemType_Epoch",
                     "id": 4261593827,
                     "video_id": 3023735307,
                     "debug_name": "TEAM WEAPONS. PLASMA BLASTER",
@@ -17446,7 +17749,7 @@
                 },
                 {
                     "index": 31,
-                    "type": "110 <=> StratagemType_Maxigun",
+                    "type": "113 <=> StratagemType_Maxigun",
                     "id": 3455841218,
                     "video_id": 1386352772,
                     "debug_name": "TEAM WEAPONS. MINIGUN",
@@ -17590,7 +17893,7 @@
                 },
                 {
                     "index": 32,
-                    "type": "87 <=> StratagemType_Cremator",
+                    "type": "90 <=> StratagemType_Cremator",
                     "id": 2271469939,
                     "video_id": 1807067877,
                     "debug_name": "TEAM WEAPONS. HEAVY FLAMETHROWER",
@@ -17734,7 +18037,7 @@
                 },
                 {
                     "index": 33,
-                    "type": "81 <=> StratagemType_Meltagun",
+                    "type": "84 <=> StratagemType_Meltagun",
                     "id": 774795224,
                     "video_id": 3838733730,
                     "debug_name": "TEAM WEAPONS. SHARK ENERGY WEAPON",
@@ -17809,10 +18112,10 @@
                     "matching_support_weapon": 4261593827,
                     "dlc_pack_id": 0,
                     "is_clan_stratagem": 0,
-                    "info_flags": 528385,
+                    "info_flags": 528387,
                     "info_flags_detail": {
                         "support_weapon 支援武器": 1,
-                        "hellpod 绝地喷射舱": 0,
+                        "hellpod 绝地喷射舱": 1,
                         "explosive 爆炸品": 0,
                         "backpack 背包": 0,
                         "orbital 轨道武器": 0,
@@ -17877,6 +18180,298 @@
                     "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
                     "0xB24E0C4B": [],
                     "unk_enum_0x0188": "15 <=> 0x6011FA2B_Unknown_15"
+                },
+                {
+                    "index": 34,
+                    "type": "28 <=> StratagemType_SniperRifle_Apex",
+                    "id": 3082503125,
+                    "video_id": 2570185782,
+                    "debug_name": "TEAM WEAPONS. SNIPER RIFLE DUO (APEX)",
+                    "nui_name": "",
+                    "nui_desc": "",
+                    "name_upper": 3726591119,
+                    "name_cased": 2859365322,
+                    "description": 2706019637,
+                    "fluff": 3026472440,
+                    "loading_loc": 764869094,
+                    "category": "2 <=> StratagemCategoryType_HellpodDeployment",
+                    "button_combination": [
+                        "3 <=> StratagemButtonDirection_Down [↓]",
+                        "4 <=> StratagemButtonDirection_Left [←]",
+                        "4 <=> StratagemButtonDirection_Left [←]",
+                        "1 <=> StratagemButtonDirection_Up [↑]",
+                        "3 <=> StratagemButtonDirection_Down [↓]",
+                        "4 <=> StratagemButtonDirection_Left [←]"
+                    ],
+                    "use": 4294967295,
+                    "spawn_time": 3.0,
+                    "spawn_radius": 0.0,
+                    "unk_float_0x005C": 0.0,
+                    "beacon_linger_time": 4.0,
+                    "extra_travel_time": 0.0,
+                    "cooldown_duration_success": 480.0,
+                    "cooldown_duration_fail": 0.0,
+                    "origin_type": "0 <=> StratagemOriginType_ShipSpecific",
+                    "call_in_type": "0 <=> StratagemCallInType_Throw",
+                    "call_in_logic_flags": 192,
+                    "call_in_logic_flags_detail": {
+                        "unk_bit_0": 0,
+                        "use_objective_position": 0,
+                        "objective_owner": 0,
+                        "host_confirmation": 0,
+                        "host_confirm_unique_instance": 0,
+                        "host_confirm_objective_stratagem_usage": 0,
+                        "blocked_by_stratagem_blocker": 1,
+                        "unk_bit_7": 1,
+                        "available_after_mission_end": 0
+                    },
+                    "objective_drop_requirement": "0 <=> StratagemObjectiveDropRequirement_None",
+                    "stratagem_flags_1": 3,
+                    "stratagem_flags_1_detail": {
+                        "mission_specific": 1,
+                        "selectable": 1
+                    },
+                    "unk_uint64_0x0088": "0",
+                    "triggers_war": 0,
+                    "cooldown_type": "0 <=> StratagemCooldownType_Individual",
+                    "payload": [
+                        "8627652307616206702",
+                        "8356509974227907605"
+                    ],
+                    "package": "8001109617327786615",
+                    "icon": "6126404297009413868",
+                    "hud_type": "2 <=> StratagemHUDType_Supply",
+                    "cost": 1,
+                    "enabled": 1,
+                    "depends_on": "0 <=> StratagemType_None",
+                    "additional_stratagem": "0 <=> StratagemType_None",
+                    "max_in_loadout": 0,
+                    "has_shared_uses_pool": 0,
+                    "beacon_color": "2 <=> StratagemBeaconColor_Blue",
+                    "ship_laser_pointer": 0,
+                    "ready_vo": 0,
+                    "denied_vo": 648592619,
+                    "confirmation_vo_owner": 213621228,
+                    "callout_vo": 1267079926,
+                    "off_cooldown_vo": 0,
+                    "damage_dealer": "0",
+                    "matching_support_weapon": 3082503125,
+                    "dlc_pack_id": 0,
+                    "is_clan_stratagem": 0,
+                    "info_flags": 34827,
+                    "info_flags_detail": {
+                        "support_weapon 支援武器": 1,
+                        "hellpod 绝地喷射舱": 1,
+                        "explosive 爆炸品": 0,
+                        "backpack 背包": 1,
+                        "orbital 轨道武器": 0,
+                        "vehicle 载具": 0,
+                        "fire 燃烧弹": 0,
+                        "aerial 飞鹰": 0,
+                        "turret 哨戒炮": 0,
+                        "straight_beacon 直信标 (游戏内无中译)": 0,
+                        "gas 腐蚀气体": 0,
+                        "light_antitank 重甲穿透": 1,
+                        "antitank 反坦克": 0,
+                        "lightantipersonnel 轻甲穿透": 0,
+                        "antipersonnel 中甲穿透": 0,
+                        "stationaryreload 固定填弹": 1,
+                        "expendable 消耗品": 0,
+                        "heat 高温": 0,
+                        "beam 激光束": 0,
+                        "charge 充能": 0,
+                        "unk_trait_20 未知特性1": 0,
+                        "unk_trait_21 未知特征2": 0,
+                        "unk_trait_22 未知特征3": 0,
+                        "melee 近战": 0,
+                        "one_handed 单手操作": 0,
+                        "guided 制导": 0,
+                        "sticky 粘性": 0,
+                        "arc 电弧": 0,
+                        "stun 眩晕弹": 0
+                    },
+                    "spottable_vo_line": 85101770,
+                    "shared_stratagem_upgrades_type": "0 <=> StratagemType_None",
+                    "shared_stratagem_upgrades_categories_flags": 0,
+                    "shared_stratagem_upgrades_categories_flags_detail": {
+                        "extra_uses": 0,
+                        "cooldown_reduction": 0,
+                        "cooldown_reduction_alternate": 0,
+                        "spawn_time_reduction": 0,
+                        "entity_delta": 0,
+                        "entity_swap": 0,
+                        "multi_hellpod": 0
+                    },
+                    "0xB6CAFF2E": [],
+                    "stratagem_flags_2": 0,
+                    "stratagem_flags_2_detail": {
+                        "use_alternate_cooldown": 0,
+                        "unk_bit_2": 0
+                    },
+                    "extra_hellpods": 0,
+                    "hellpod_target_offset": [],
+                    "hellpod_additional_rotation_in_tau": [],
+                    "equipment_tags": [
+                        119576005,
+                        3329277728,
+                        658390125,
+                        1501540430,
+                        3408600132,
+                        612466998
+                    ],
+                    "customizations": [],
+                    "stratagem_flags_3": 2,
+                    "stratagem_flags_3_detail": {
+                        "allow_for_button_overlap": 0,
+                        "deploy_on_navmesh_only": 1
+                    },
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
+                    "0xB24E0C4B": [],
+                    "unk_enum_0x0188": "20 <=> 0x6011FA2B_Unknown_20"
+                },
+                {
+                    "index": 35,
+                    "type": "66 <=> StratagemType_LaserRifle_Nova",
+                    "id": 4146034362,
+                    "video_id": 2099997611,
+                    "debug_name": "TEAM WEAPONS. LASER RIFLE ION",
+                    "nui_name": "",
+                    "nui_desc": "",
+                    "name_upper": 4118717225,
+                    "name_cased": 2100163737,
+                    "description": 2779662342,
+                    "fluff": 2359594620,
+                    "loading_loc": 764869094,
+                    "category": "2 <=> StratagemCategoryType_HellpodDeployment",
+                    "button_combination": [
+                        "3 <=> StratagemButtonDirection_Down [↓]",
+                        "4 <=> StratagemButtonDirection_Left [←]",
+                        "2 <=> StratagemButtonDirection_Right [→]",
+                        "3 <=> StratagemButtonDirection_Down [↓]",
+                        "3 <=> StratagemButtonDirection_Down [↓]"
+                    ],
+                    "use": 4294967295,
+                    "spawn_time": 3.0,
+                    "spawn_radius": 0.0,
+                    "unk_float_0x005C": 0.0,
+                    "beacon_linger_time": 4.0,
+                    "extra_travel_time": 0.0,
+                    "cooldown_duration_success": 480.0,
+                    "cooldown_duration_fail": 0.0,
+                    "origin_type": "0 <=> StratagemOriginType_ShipSpecific",
+                    "call_in_type": "0 <=> StratagemCallInType_Throw",
+                    "call_in_logic_flags": 192,
+                    "call_in_logic_flags_detail": {
+                        "unk_bit_0": 0,
+                        "use_objective_position": 0,
+                        "objective_owner": 0,
+                        "host_confirmation": 0,
+                        "host_confirm_unique_instance": 0,
+                        "host_confirm_objective_stratagem_usage": 0,
+                        "blocked_by_stratagem_blocker": 1,
+                        "unk_bit_7": 1,
+                        "available_after_mission_end": 0
+                    },
+                    "objective_drop_requirement": "0 <=> StratagemObjectiveDropRequirement_None",
+                    "stratagem_flags_1": 3,
+                    "stratagem_flags_1_detail": {
+                        "mission_specific": 1,
+                        "selectable": 1
+                    },
+                    "unk_uint64_0x0088": "0",
+                    "triggers_war": 0,
+                    "cooldown_type": "0 <=> StratagemCooldownType_Individual",
+                    "payload": [
+                        "3165122520209079584",
+                        "8356509974227907605"
+                    ],
+                    "package": "0",
+                    "icon": "9660663969854758743",
+                    "hud_type": "2 <=> StratagemHUDType_Supply",
+                    "cost": 1,
+                    "enabled": 1,
+                    "depends_on": "0 <=> StratagemType_None",
+                    "additional_stratagem": "0 <=> StratagemType_None",
+                    "max_in_loadout": 0,
+                    "has_shared_uses_pool": 0,
+                    "beacon_color": "2 <=> StratagemBeaconColor_Blue",
+                    "ship_laser_pointer": 0,
+                    "ready_vo": 0,
+                    "denied_vo": 648592619,
+                    "confirmation_vo_owner": 213621228,
+                    "callout_vo": 1267079926,
+                    "off_cooldown_vo": 0,
+                    "damage_dealer": "0",
+                    "matching_support_weapon": 4146034362,
+                    "dlc_pack_id": 0,
+                    "is_clan_stratagem": 0,
+                    "info_flags": 133123,
+                    "info_flags_detail": {
+                        "support_weapon 支援武器": 1,
+                        "hellpod 绝地喷射舱": 1,
+                        "explosive 爆炸品": 0,
+                        "backpack 背包": 0,
+                        "orbital 轨道武器": 0,
+                        "vehicle 载具": 0,
+                        "fire 燃烧弹": 0,
+                        "aerial 飞鹰": 0,
+                        "turret 哨戒炮": 0,
+                        "straight_beacon 直信标 (游戏内无中译)": 0,
+                        "gas 腐蚀气体": 0,
+                        "light_antitank 重甲穿透": 1,
+                        "antitank 反坦克": 0,
+                        "lightantipersonnel 轻甲穿透": 0,
+                        "antipersonnel 中甲穿透": 0,
+                        "stationaryreload 固定填弹": 0,
+                        "expendable 消耗品": 0,
+                        "heat 高温": 1,
+                        "beam 激光束": 0,
+                        "charge 充能": 0,
+                        "unk_trait_20 未知特性1": 0,
+                        "unk_trait_21 未知特征2": 0,
+                        "unk_trait_22 未知特征3": 0,
+                        "melee 近战": 0,
+                        "one_handed 单手操作": 0,
+                        "guided 制导": 0,
+                        "sticky 粘性": 0,
+                        "arc 电弧": 0,
+                        "stun 眩晕弹": 0
+                    },
+                    "spottable_vo_line": 85101770,
+                    "shared_stratagem_upgrades_type": "0 <=> StratagemType_None",
+                    "shared_stratagem_upgrades_categories_flags": 0,
+                    "shared_stratagem_upgrades_categories_flags_detail": {
+                        "extra_uses": 0,
+                        "cooldown_reduction": 0,
+                        "cooldown_reduction_alternate": 0,
+                        "spawn_time_reduction": 0,
+                        "entity_delta": 0,
+                        "entity_swap": 0,
+                        "multi_hellpod": 0
+                    },
+                    "0xB6CAFF2E": [],
+                    "stratagem_flags_2": 0,
+                    "stratagem_flags_2_detail": {
+                        "use_alternate_cooldown": 0,
+                        "unk_bit_2": 0
+                    },
+                    "extra_hellpods": 0,
+                    "hellpod_target_offset": [],
+                    "hellpod_additional_rotation_in_tau": [],
+                    "equipment_tags": [
+                        119576005,
+                        658390125,
+                        3746778495
+                    ],
+                    "customizations": [],
+                    "stratagem_flags_3": 2,
+                    "stratagem_flags_3_detail": {
+                        "allow_for_button_overlap": 0,
+                        "deploy_on_navmesh_only": 1
+                    },
+                    "payload_unit_customization": "12 <=> UnitCustomizationCollectionType_Count",
+                    "0xB24E0C4B": [],
+                    "unk_enum_0x0188": "14 <=> 0x6011FA2B_Unknown_14"
                 }
             ]
         }
@@ -17887,13 +18482,13 @@
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 9,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "121 <=> StratagemType_TurretMachinegun",
+                    "type": "124 <=> StratagemType_TurretMachinegun",
                     "id": 4239785897,
                     "video_id": 15262472,
                     "debug_name": "SENTRYS. MACHINEGUN",
@@ -18036,7 +18631,7 @@
                 },
                 {
                     "index": 1,
-                    "type": "66 <=> StratagemType_TurretGatling",
+                    "type": "69 <=> StratagemType_TurretGatling",
                     "id": 623391597,
                     "video_id": 1470935605,
                     "debug_name": "SENTRYS. GATLING",
@@ -18177,7 +18772,7 @@
                 },
                 {
                     "index": 2,
-                    "type": "117 <=> StratagemType_TurretMortar",
+                    "type": "120 <=> StratagemType_TurretMortar",
                     "id": 1582497738,
                     "video_id": 2169791102,
                     "debug_name": "SENTRYS. MORTAR",
@@ -18321,7 +18916,7 @@
                 },
                 {
                     "index": 3,
-                    "type": "44 <=> StratagemType_TurretMortarStaticField",
+                    "type": "45 <=> StratagemType_TurretMortarStaticField",
                     "id": 3085503322,
                     "video_id": 3593926172,
                     "debug_name": "SENTRYS. MORTAR STATICFIELD",
@@ -18464,7 +19059,7 @@
                 },
                 {
                     "index": 4,
-                    "type": "52 <=> StratagemType_TurretMortarGas",
+                    "type": "54 <=> StratagemType_TurretMortarGas",
                     "id": 3183339606,
                     "video_id": 157635013,
                     "debug_name": "SENTRYS. MORTAR GAS",
@@ -18607,7 +19202,7 @@
                 },
                 {
                     "index": 5,
-                    "type": "53 <=> StratagemType_TurretRocket",
+                    "type": "55 <=> StratagemType_TurretRocket",
                     "id": 717707279,
                     "video_id": 1328508526,
                     "debug_name": "SENTRYS. ROCKET",
@@ -18751,7 +19346,7 @@
                 },
                 {
                     "index": 6,
-                    "type": "137 <=> StratagemType_TurretAutocannon",
+                    "type": "140 <=> StratagemType_TurretAutocannon",
                     "id": 854563507,
                     "video_id": 109485570,
                     "debug_name": "SENTRYS. AUTOCANNON",
@@ -19193,13 +19788,13 @@
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 2,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "93 <=> StratagemType_Tutorial_ReinforcementBeacon",
+                    "type": "96 <=> StratagemType_Tutorial_ReinforcementBeacon",
                     "id": 863373678,
                     "video_id": 0,
                     "debug_name": "TUTORIAL REINFORCEMENT BEACON",
@@ -19339,7 +19934,7 @@
                 },
                 {
                     "index": 1,
-                    "type": "40 <=> StratagemType_Tutorial_ExtractBeacon",
+                    "type": "41 <=> StratagemType_Tutorial_ExtractBeacon",
                     "id": 2230051894,
                     "video_id": 0,
                     "debug_name": "[TUTORIAL] EXTRACTION",
@@ -19488,13 +20083,13 @@
                 "struct_size": 400,
                 "omitted_size": 183,
                 "exported_type_count": 13,
-                "patch_date": "2026-09-22",
-                "game_version": "1.007.100"
+                "patch_date": "2026-10-20",
+                "game_version": "1.007.200"
             },
             "items": [
                 {
                     "index": 0,
-                    "type": "105 <=> StratagemType_FRV",
+                    "type": "108 <=> StratagemType_FRV",
                     "id": 3935317067,
                     "video_id": 4157955717,
                     "debug_name": "VEHICLES. FAST RECON VEHICLE (FRV)",
@@ -19778,7 +20373,7 @@
                 },
                 {
                     "index": 2,
-                    "type": "135 <=> StratagemType_FRV_Incinerator",
+                    "type": "138 <=> StratagemType_FRV_Incinerator",
                     "id": 2846457047,
                     "video_id": 273555367,
                     "debug_name": "VEHICLES. FAST RECON VEHICLE (Ramming Flamethrower)",
@@ -20206,7 +20801,7 @@
                 },
                 {
                     "index": 5,
-                    "type": "91 <=> StratagemType_LumbererExosuit",
+                    "type": "94 <=> StratagemType_LumbererExosuit",
                     "id": 3086305673,
                     "video_id": 3557641311,
                     "debug_name": "VEHICLES. COMBAT WALKER LUMBERER",
@@ -20350,7 +20945,7 @@
                 },
                 {
                     "index": 6,
-                    "type": "88 <=> StratagemType_BreakthroughExosuit",
+                    "type": "91 <=> StratagemType_BreakthroughExosuit",
                     "id": 563851843,
                     "video_id": 1111780085,
                     "debug_name": "VEHICLES. COMBAT WALKER BREACHER",
@@ -20492,7 +21087,7 @@
                 },
                 {
                     "index": 7,
-                    "type": "116 <=> StratagemType_ClanStationSEAFSquad",
+                    "type": "119 <=> StratagemType_ClanStationSEAFSquad",
                     "id": 1449420233,
                     "video_id": 0,
                     "debug_name": "SEAF Squad",
@@ -20777,7 +21372,7 @@
                 },
                 {
                     "index": 9,
-                    "type": "50 <=> StratagemType_StormTank",
+                    "type": "52 <=> StratagemType_StormTank",
                     "id": 460870572,
                     "video_id": 2405106895,
                     "debug_name": "VEHICLES. STORM(tank)",
@@ -20921,7 +21516,7 @@
                 },
                 {
                     "index": 10,
-                    "type": "47 <=> StratagemType_Tank_Reload_HE",
+                    "type": "48 <=> StratagemType_Tank_Reload_HE",
                     "id": 101457192,
                     "video_id": 0,
                     "debug_name": "TANK. TANK RELOAD HE",
@@ -21059,7 +21654,7 @@
                 },
                 {
                     "index": 11,
-                    "type": "95 <=> StratagemType_Tank_Reload_AT",
+                    "type": "98 <=> StratagemType_Tank_Reload_AT",
                     "id": 3702563421,
                     "video_id": 0,
                     "debug_name": "TANK. TANK RELOAD AT",
@@ -21197,7 +21792,7 @@
                 },
                 {
                     "index": 12,
-                    "type": "60 <=> StratagemType_Tank_Reload_Canister",
+                    "type": "62 <=> StratagemType_Tank_Reload_Canister",
                     "id": 4264661046,
                     "video_id": 0,
                     "debug_name": "TANK. TANK RELOAD CANISTER",
