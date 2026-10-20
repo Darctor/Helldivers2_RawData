@@ -7,6 +7,7 @@ StatusEffectType_Fire
 StatusEffectType_Fire_Panic
 StatusEffectType_Lava
 StatusEffectType_Slowed
+StatusEffectType_WebDrips
 StatusEffectType_Rooted
 StatusEffectType_Acid_Splash
 StatusEffectType_Acid_Stream
@@ -69,5 +70,6 @@ StatusEffectType_FlamerSlowed
 StatusEffectType_Gloom
 StatusEffectType_Dark_Fluid_MK2
 StatusEffectType_Poison
+StatusEffectType_PoisonHeavy
 StatusEffectType_PoisonVulnerability
 StatusEffectType_Count

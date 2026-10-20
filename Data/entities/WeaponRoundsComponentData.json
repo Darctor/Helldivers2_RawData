@@ -4,8 +4,8 @@
         "omitted_size": 6,
         "exported_entity_count": 25,
         "matched_bilingual_hash_count": 24,
-        "patch_date": "2026-09-22",
-        "game_version": "1.007.100"
+        "patch_date": "2026-10-20",
+        "game_version": "1.007.200"
     },
     "entities": [
         {
@@ -41,7 +41,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "68 <=> ProjectileType_Unknown_68",
+                    "primary_projectile_type": "70 <=> ProjectileType_Unknown_70",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -99,7 +99,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "297 <=> ProjectileType_Unknown_297",
+                    "primary_projectile_type": "302 <=> ProjectileType_Unknown_302",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -157,8 +157,8 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "260 <=> ProjectileType_Unknown_260",
-                    "alternate_projectile_type": "260 <=> ProjectileType_Unknown_260"
+                    "primary_projectile_type": "264 <=> ProjectileType_Unknown_264",
+                    "alternate_projectile_type": "264 <=> ProjectileType_Unknown_264"
                 },
                 "magazine_capacity": {
                     "x": 8.0,
@@ -215,8 +215,8 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "260 <=> ProjectileType_Unknown_260",
-                    "alternate_projectile_type": "260 <=> ProjectileType_Unknown_260"
+                    "primary_projectile_type": "264 <=> ProjectileType_Unknown_264",
+                    "alternate_projectile_type": "264 <=> ProjectileType_Unknown_264"
                 },
                 "magazine_capacity": {
                     "x": 8.0,
@@ -273,8 +273,8 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "240 <=> ProjectileType_Unknown_240",
-                    "alternate_projectile_type": "240 <=> ProjectileType_Unknown_240"
+                    "primary_projectile_type": "244 <=> ProjectileType_Unknown_244",
+                    "alternate_projectile_type": "244 <=> ProjectileType_Unknown_244"
                 },
                 "magazine_capacity": {
                     "x": 8.0,
@@ -331,8 +331,8 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "183 <=> ProjectileType_Unknown_183",
-                    "alternate_projectile_type": "191 <=> ProjectileType_Unknown_191"
+                    "primary_projectile_type": "187 <=> ProjectileType_Unknown_187",
+                    "alternate_projectile_type": "195 <=> ProjectileType_Unknown_195"
                 },
                 "magazine_capacity": {
                     "x": 8.0,
@@ -389,8 +389,8 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "347 <=> ProjectileType_Unknown_347",
-                    "alternate_projectile_type": "347 <=> ProjectileType_Unknown_347"
+                    "primary_projectile_type": "352 <=> ProjectileType_Unknown_352",
+                    "alternate_projectile_type": "352 <=> ProjectileType_Unknown_352"
                 },
                 "magazine_capacity": {
                     "x": 8.0,
@@ -447,7 +447,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "262 <=> ProjectileType_Unknown_262",
+                    "primary_projectile_type": "266 <=> ProjectileType_Unknown_266",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -505,7 +505,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "317 <=> ProjectileType_Unknown_317",
+                    "primary_projectile_type": "322 <=> ProjectileType_Unknown_322",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -563,7 +563,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "62 <=> ProjectileType_Unknown_62",
+                    "primary_projectile_type": "63 <=> ProjectileType_Unknown_63",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -621,7 +621,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "318 <=> ProjectileType_Unknown_318",
+                    "primary_projectile_type": "323 <=> ProjectileType_Unknown_323",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -679,7 +679,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "318 <=> ProjectileType_Unknown_318",
+                    "primary_projectile_type": "323 <=> ProjectileType_Unknown_323",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -737,7 +737,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "217 <=> ProjectileType_Unknown_217",
+                    "primary_projectile_type": "220 <=> ProjectileType_Unknown_220",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -795,7 +795,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "263 <=> ProjectileType_Unknown_263",
+                    "primary_projectile_type": "267 <=> ProjectileType_Unknown_267",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -853,7 +853,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "198 <=> ProjectileType_Unknown_198",
+                    "primary_projectile_type": "201 <=> ProjectileType_Unknown_201",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -911,7 +911,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "55 <=> ProjectileType_Unknown_55",
+                    "primary_projectile_type": "56 <=> ProjectileType_Unknown_56",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -969,7 +969,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "282 <=> ProjectileType_Unknown_282",
+                    "primary_projectile_type": "287 <=> ProjectileType_Unknown_287",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -1027,7 +1027,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "299 <=> ProjectileType_Unknown_299",
+                    "primary_projectile_type": "304 <=> ProjectileType_Unknown_304",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -1085,7 +1085,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "260 <=> ProjectileType_Unknown_260",
+                    "primary_projectile_type": "264 <=> ProjectileType_Unknown_264",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -1143,7 +1143,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "263 <=> ProjectileType_Unknown_263",
+                    "primary_projectile_type": "267 <=> ProjectileType_Unknown_267",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -1201,7 +1201,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "237 <=> ProjectileType_Unknown_237",
+                    "primary_projectile_type": "241 <=> ProjectileType_Unknown_241",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -1259,7 +1259,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "309 <=> ProjectileType_Unknown_309",
+                    "primary_projectile_type": "314 <=> ProjectileType_Unknown_314",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -1317,7 +1317,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "63 <=> ProjectileType_Unknown_63",
+                    "primary_projectile_type": "64 <=> ProjectileType_Unknown_64",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -1375,7 +1375,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "115 <=> ProjectileType_Unknown_115",
+                    "primary_projectile_type": "117 <=> ProjectileType_Unknown_117",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {
@@ -1433,7 +1433,7 @@
                     }
                 },
                 "ammo_types": {
-                    "primary_projectile_type": "222 <=> ProjectileType_Unknown_222",
+                    "primary_projectile_type": "225 <=> ProjectileType_Unknown_225",
                     "alternate_projectile_type": "0 <=> ProjectileType_Unknown_0"
                 },
                 "magazine_capacity": {

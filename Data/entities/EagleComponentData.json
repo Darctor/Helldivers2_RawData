@@ -1,11 +1,11 @@
 {
     "_metadata": {
-        "struct_size": 152,
-        "omitted_size": 7,
-        "exported_entity_count": 10,
-        "matched_bilingual_hash_count": 10,
-        "patch_date": "2026-09-22",
-        "game_version": "1.007.100"
+        "struct_size": 336,
+        "omitted_size": 15,
+        "exported_entity_count": 11,
+        "matched_bilingual_hash_count": 11,
+        "patch_date": "2026-10-20",
+        "game_version": "1.007.200"
     },
     "entities": [
         {
@@ -21,8 +21,9 @@
                 "payload": "2 <=> EaglePayload_Strafe",
                 "airstrike_pattern": "0 <=> EagleAirstrikePattern_6Z",
                 "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                "unk_uint64_0x0020": "0",
                 "target_angle": 180.0,
-                "unk_bool_0x0020": 0,
+                "unk_bool_0x002C": 0,
                 "search_radius": 60.0,
                 "fire_duration": 1.5,
                 "bomb_interval": 0.5,
@@ -31,8 +32,9 @@
                 "approach_max_distance": 1000.0,
                 "approach_max_height": 800.0,
                 "num_angles_to_try": 16.0,
-                "unk_float_0x0044": 100.0,
+                "unk_float_0x0050": 100.0,
                 "num_heights_to_try": 12.0,
+                "unk_float_0x0058": 360.0,
                 "attack_movespeed": 300.0,
                 "evade_movespeed": 300.0,
                 "damaged_movespeed": 100.0,
@@ -45,11 +47,83 @@
                 "strafing_run_target_adjustment": 7.0,
                 "strafing_run_target_bias_time": 0.4000000059604645,
                 "strafing_run_fire_distance": 600.0,
-                "unk_float_0x007C": 12.0,
-                "unk_float_0x0080": 8.0,
+                "0x19CCA20E": {
+                    "unk_uint32_r0x0000": 20,
+                    "unk_float_r0x0004": 15.0,
+                    "unk_uint32_r0x0008": 2,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_struct_r0x0010": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "unk_uint32_r0x0018": 5
+                },
+                "0x2308DBEC": {
+                    "unk_struct_r0x0000": {
+                        "x": 0.0,
+                        "y": 100.0,
+                        "z": 200.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 1.0,
+                        "y": 200.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 500.0,
+                        "y": 20.0,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0024": {
+                        "x": 0.800000011920929,
+                        "y": 0.10000000149011612,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0030": {
+                        "x": 600.0,
+                        "y": 70.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x003C": {
+                        "x": 500.0,
+                        "y": 500.0,
+                        "z": 500.0
+                    },
+                    "unk_struct_r0x0048": {
+                        "x": 0.800000011920929,
+                        "y": 0.20000000298023224,
+                        "z": 50.0
+                    }
+                },
+                "0x2C2D1CF9": {
+                    "unk_struct_r0x0000": {
+                        "x": 100.0,
+                        "y": 1000.0,
+                        "z": 1500.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 100.0,
+                        "y": 400.0,
+                        "z": 2000.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 0.0,
+                        "y": 400.0,
+                        "z": 200.0
+                    },
+                    "unk_bool_0x0024": 0
+                },
+                "unk_float_0x0124": 12.0,
+                "unk_float_0x0128": 8.0,
                 "engine_start_audio": 1501143151,
                 "engine_stop_audio": 2694781301,
-                "sonic_boom_effect": "14151766337409263731"
+                "sonic_boom_effect": "14151766337409263731",
+                "unk_float_0x0140": -1.0,
+                "unk_float_0x0144": -1.0,
+                "unk_float_0x0148": -1.0,
+                "unk_bool_0x014C": 0,
+                "unk_bool_0x014D": 1,
+                "unk_bool_0x014E": 0
             }
         },
         {
@@ -64,9 +138,10 @@
                 "flyby_cooldown": 3.0,
                 "payload": "5 <=> EaglePayload_Airstrike",
                 "airstrike_pattern": "0 <=> EagleAirstrikePattern_6Z",
-                "projectile_type": "170 <=> ProjectileType_Unknown_170",
+                "projectile_type": "173 <=> ProjectileType_Unknown_173",
+                "unk_uint64_0x0020": "0",
                 "target_angle": 90.0,
-                "unk_bool_0x0020": 1,
+                "unk_bool_0x002C": 1,
                 "search_radius": 60.0,
                 "fire_duration": 1.5,
                 "bomb_interval": 0.20000000298023224,
@@ -75,8 +150,9 @@
                 "approach_max_distance": 800.0,
                 "approach_max_height": 1000.0,
                 "num_angles_to_try": 2.0,
-                "unk_float_0x0044": 100.0,
+                "unk_float_0x0050": 100.0,
                 "num_heights_to_try": 12.0,
+                "unk_float_0x0058": 360.0,
                 "attack_movespeed": 300.0,
                 "evade_movespeed": 300.0,
                 "damaged_movespeed": 100.0,
@@ -89,11 +165,83 @@
                 "strafing_run_target_adjustment": 7.0,
                 "strafing_run_target_bias_time": 0.4000000059604645,
                 "strafing_run_fire_distance": 350.0,
-                "unk_float_0x007C": 12.0,
-                "unk_float_0x0080": 8.0,
+                "0x19CCA20E": {
+                    "unk_uint32_r0x0000": 20,
+                    "unk_float_r0x0004": 15.0,
+                    "unk_uint32_r0x0008": 2,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_struct_r0x0010": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "unk_uint32_r0x0018": 5
+                },
+                "0x2308DBEC": {
+                    "unk_struct_r0x0000": {
+                        "x": 0.0,
+                        "y": 100.0,
+                        "z": 200.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 1.0,
+                        "y": 200.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 500.0,
+                        "y": 20.0,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0024": {
+                        "x": 0.800000011920929,
+                        "y": 0.10000000149011612,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0030": {
+                        "x": 600.0,
+                        "y": 70.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x003C": {
+                        "x": 500.0,
+                        "y": 500.0,
+                        "z": 500.0
+                    },
+                    "unk_struct_r0x0048": {
+                        "x": 0.800000011920929,
+                        "y": 0.20000000298023224,
+                        "z": 50.0
+                    }
+                },
+                "0x2C2D1CF9": {
+                    "unk_struct_r0x0000": {
+                        "x": 100.0,
+                        "y": 1000.0,
+                        "z": 1500.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 100.0,
+                        "y": 400.0,
+                        "z": 2000.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 0.0,
+                        "y": 400.0,
+                        "z": 200.0
+                    },
+                    "unk_bool_0x0024": 0
+                },
+                "unk_float_0x0124": 12.0,
+                "unk_float_0x0128": 8.0,
                 "engine_start_audio": 822447567,
                 "engine_stop_audio": 989231445,
-                "sonic_boom_effect": "14151766337409263731"
+                "sonic_boom_effect": "14151766337409263731",
+                "unk_float_0x0140": -1.0,
+                "unk_float_0x0144": -1.0,
+                "unk_float_0x0148": -1.0,
+                "unk_bool_0x014C": 0,
+                "unk_bool_0x014D": 1,
+                "unk_bool_0x014E": 0
             }
         },
         {
@@ -108,9 +256,10 @@
                 "flyby_cooldown": 3.0,
                 "payload": "5 <=> EaglePayload_Airstrike",
                 "airstrike_pattern": "3 <=> EagleAirstrikePattern_8line_ClusterBomb",
-                "projectile_type": "130 <=> ProjectileType_Unknown_130",
+                "projectile_type": "132 <=> ProjectileType_Unknown_132",
+                "unk_uint64_0x0020": "0",
                 "target_angle": 90.0,
-                "unk_bool_0x0020": 0,
+                "unk_bool_0x002C": 0,
                 "search_radius": 60.0,
                 "fire_duration": 2.0,
                 "bomb_interval": 0.20000000298023224,
@@ -119,8 +268,9 @@
                 "approach_max_distance": 800.0,
                 "approach_max_height": 1000.0,
                 "num_angles_to_try": 2.0,
-                "unk_float_0x0044": 100.0,
+                "unk_float_0x0050": 100.0,
                 "num_heights_to_try": 12.0,
+                "unk_float_0x0058": 360.0,
                 "attack_movespeed": 300.0,
                 "evade_movespeed": 300.0,
                 "damaged_movespeed": 100.0,
@@ -133,11 +283,83 @@
                 "strafing_run_target_adjustment": 7.0,
                 "strafing_run_target_bias_time": 0.4000000059604645,
                 "strafing_run_fire_distance": 600.0,
-                "unk_float_0x007C": 12.0,
-                "unk_float_0x0080": 8.0,
+                "0x19CCA20E": {
+                    "unk_uint32_r0x0000": 20,
+                    "unk_float_r0x0004": 15.0,
+                    "unk_uint32_r0x0008": 2,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_struct_r0x0010": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "unk_uint32_r0x0018": 5
+                },
+                "0x2308DBEC": {
+                    "unk_struct_r0x0000": {
+                        "x": 0.0,
+                        "y": 100.0,
+                        "z": 200.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 1.0,
+                        "y": 200.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 500.0,
+                        "y": 20.0,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0024": {
+                        "x": 0.800000011920929,
+                        "y": 0.10000000149011612,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0030": {
+                        "x": 600.0,
+                        "y": 70.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x003C": {
+                        "x": 500.0,
+                        "y": 500.0,
+                        "z": 500.0
+                    },
+                    "unk_struct_r0x0048": {
+                        "x": 0.800000011920929,
+                        "y": 0.20000000298023224,
+                        "z": 50.0
+                    }
+                },
+                "0x2C2D1CF9": {
+                    "unk_struct_r0x0000": {
+                        "x": 100.0,
+                        "y": 1000.0,
+                        "z": 1500.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 100.0,
+                        "y": 400.0,
+                        "z": 2000.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 0.0,
+                        "y": 400.0,
+                        "z": 200.0
+                    },
+                    "unk_bool_0x0024": 0
+                },
+                "unk_float_0x0124": 12.0,
+                "unk_float_0x0128": 8.0,
                 "engine_start_audio": 822447567,
                 "engine_stop_audio": 989231445,
-                "sonic_boom_effect": "14151766337409263731"
+                "sonic_boom_effect": "14151766337409263731",
+                "unk_float_0x0140": -1.0,
+                "unk_float_0x0144": -1.0,
+                "unk_float_0x0148": -1.0,
+                "unk_bool_0x014C": 0,
+                "unk_bool_0x014D": 1,
+                "unk_bool_0x014E": 0
             }
         },
         {
@@ -152,9 +374,10 @@
                 "flyby_cooldown": 3.0,
                 "payload": "5 <=> EaglePayload_Airstrike",
                 "airstrike_pattern": "6 <=> EagleAirstrikePattern_5line_Napalm_MK3",
-                "projectile_type": "239 <=> ProjectileType_Unknown_239",
+                "projectile_type": "243 <=> ProjectileType_Unknown_243",
+                "unk_uint64_0x0020": "0",
                 "target_angle": 180.0,
-                "unk_bool_0x0020": 0,
+                "unk_bool_0x002C": 0,
                 "search_radius": 60.0,
                 "fire_duration": 1.5,
                 "bomb_interval": 0.05000000074505806,
@@ -163,8 +386,9 @@
                 "approach_max_distance": 1000.0,
                 "approach_max_height": 800.0,
                 "num_angles_to_try": 6.0,
-                "unk_float_0x0044": 100.0,
+                "unk_float_0x0050": 100.0,
                 "num_heights_to_try": 12.0,
+                "unk_float_0x0058": 360.0,
                 "attack_movespeed": 300.0,
                 "evade_movespeed": 300.0,
                 "damaged_movespeed": 100.0,
@@ -177,11 +401,83 @@
                 "strafing_run_target_adjustment": 7.0,
                 "strafing_run_target_bias_time": 0.4000000059604645,
                 "strafing_run_fire_distance": 600.0,
-                "unk_float_0x007C": 12.0,
-                "unk_float_0x0080": 8.0,
+                "0x19CCA20E": {
+                    "unk_uint32_r0x0000": 20,
+                    "unk_float_r0x0004": 15.0,
+                    "unk_uint32_r0x0008": 2,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_struct_r0x0010": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "unk_uint32_r0x0018": 5
+                },
+                "0x2308DBEC": {
+                    "unk_struct_r0x0000": {
+                        "x": 0.0,
+                        "y": 100.0,
+                        "z": 200.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 1.0,
+                        "y": 200.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 500.0,
+                        "y": 20.0,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0024": {
+                        "x": 0.800000011920929,
+                        "y": 0.10000000149011612,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0030": {
+                        "x": 600.0,
+                        "y": 70.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x003C": {
+                        "x": 500.0,
+                        "y": 500.0,
+                        "z": 500.0
+                    },
+                    "unk_struct_r0x0048": {
+                        "x": 0.800000011920929,
+                        "y": 0.20000000298023224,
+                        "z": 50.0
+                    }
+                },
+                "0x2C2D1CF9": {
+                    "unk_struct_r0x0000": {
+                        "x": 100.0,
+                        "y": 1000.0,
+                        "z": 1500.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 100.0,
+                        "y": 400.0,
+                        "z": 2000.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 0.0,
+                        "y": 400.0,
+                        "z": 200.0
+                    },
+                    "unk_bool_0x0024": 0
+                },
+                "unk_float_0x0124": 12.0,
+                "unk_float_0x0128": 8.0,
                 "engine_start_audio": 2771569369,
                 "engine_stop_audio": 3355612339,
-                "sonic_boom_effect": "14151766337409263731"
+                "sonic_boom_effect": "14151766337409263731",
+                "unk_float_0x0140": -1.0,
+                "unk_float_0x0144": -1.0,
+                "unk_float_0x0148": -1.0,
+                "unk_bool_0x014C": 0,
+                "unk_bool_0x014D": 1,
+                "unk_bool_0x014E": 0
             }
         },
         {
@@ -196,9 +492,10 @@
                 "flyby_cooldown": 3.0,
                 "payload": "5 <=> EaglePayload_Airstrike",
                 "airstrike_pattern": "3 <=> EagleAirstrikePattern_8line_ClusterBomb",
-                "projectile_type": "286 <=> ProjectileType_Unknown_286",
+                "projectile_type": "291 <=> ProjectileType_Unknown_291",
+                "unk_uint64_0x0020": "0",
                 "target_angle": 90.0,
-                "unk_bool_0x0020": 0,
+                "unk_bool_0x002C": 0,
                 "search_radius": 60.0,
                 "fire_duration": 1.5,
                 "bomb_interval": 0.10000000149011612,
@@ -207,8 +504,9 @@
                 "approach_max_distance": 1000.0,
                 "approach_max_height": 800.0,
                 "num_angles_to_try": 2.0,
-                "unk_float_0x0044": 100.0,
+                "unk_float_0x0050": 100.0,
                 "num_heights_to_try": 12.0,
+                "unk_float_0x0058": 360.0,
                 "attack_movespeed": 300.0,
                 "evade_movespeed": 300.0,
                 "damaged_movespeed": 100.0,
@@ -221,38 +519,112 @@
                 "strafing_run_target_adjustment": 7.0,
                 "strafing_run_target_bias_time": 0.4000000059604645,
                 "strafing_run_fire_distance": 300.0,
-                "unk_float_0x007C": 12.0,
-                "unk_float_0x0080": 8.0,
+                "0x19CCA20E": {
+                    "unk_uint32_r0x0000": 20,
+                    "unk_float_r0x0004": 15.0,
+                    "unk_uint32_r0x0008": 2,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_struct_r0x0010": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "unk_uint32_r0x0018": 5
+                },
+                "0x2308DBEC": {
+                    "unk_struct_r0x0000": {
+                        "x": 0.0,
+                        "y": 100.0,
+                        "z": 200.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 1.0,
+                        "y": 200.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 500.0,
+                        "y": 20.0,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0024": {
+                        "x": 0.800000011920929,
+                        "y": 0.10000000149011612,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0030": {
+                        "x": 600.0,
+                        "y": 70.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x003C": {
+                        "x": 500.0,
+                        "y": 500.0,
+                        "z": 500.0
+                    },
+                    "unk_struct_r0x0048": {
+                        "x": 0.800000011920929,
+                        "y": 0.20000000298023224,
+                        "z": 50.0
+                    }
+                },
+                "0x2C2D1CF9": {
+                    "unk_struct_r0x0000": {
+                        "x": 100.0,
+                        "y": 1000.0,
+                        "z": 1500.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 100.0,
+                        "y": 400.0,
+                        "z": 2000.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 0.0,
+                        "y": 400.0,
+                        "z": 200.0
+                    },
+                    "unk_bool_0x0024": 0
+                },
+                "unk_float_0x0124": 12.0,
+                "unk_float_0x0128": 8.0,
                 "engine_start_audio": 1501143151,
                 "engine_stop_audio": 2694781301,
-                "sonic_boom_effect": "14151766337409263731"
+                "sonic_boom_effect": "14151766337409263731",
+                "unk_float_0x0140": -1.0,
+                "unk_float_0x0144": -1.0,
+                "unk_float_0x0148": -1.0,
+                "unk_bool_0x014C": 0,
+                "unk_bool_0x014D": 1,
+                "unk_bool_0x014E": 0
             }
         },
         {
-            "0xDBB286AD7ED9DF96": {
-                "hash": "15830863719876386710",
-                "name": "Eagle Gas Strike",
-                "name_zh": "飞鹰毒气空袭",
+            "0x2A275BB78BB20148": {
+                "hash": "3037497317565530440",
+                "name": "Eagle Fly By",
+                "name_zh": "飞鹰掠过",
                 "index": 5,
                 "flyby_event": 0,
                 "strafing_fire_over_event": 1534884119,
                 "flyby_distance": 600.0,
                 "flyby_cooldown": 3.0,
                 "payload": "5 <=> EaglePayload_Airstrike",
-                "airstrike_pattern": "7 <=> EagleAirstrikePattern_Single",
-                "projectile_type": "188 <=> ProjectileType_Unknown_188",
+                "airstrike_pattern": "0 <=> EagleAirstrikePattern_6Z",
+                "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                "unk_uint64_0x0020": "0",
                 "target_angle": 90.0,
-                "unk_bool_0x0020": 0,
+                "unk_bool_0x002C": 0,
                 "search_radius": 60.0,
                 "fire_duration": 1.5,
-                "bomb_interval": 0.20000000298023224,
+                "bomb_interval": 10000.0,
                 "bomb_prediction_interval": 0.05000000074505806,
                 "approach_min_distance": 800.0,
                 "approach_max_distance": 800.0,
-                "approach_max_height": 1000.0,
+                "approach_max_height": 900.0,
                 "num_angles_to_try": 2.0,
-                "unk_float_0x0044": 100.0,
+                "unk_float_0x0050": 100.0,
                 "num_heights_to_try": 12.0,
+                "unk_float_0x0058": 360.0,
                 "attack_movespeed": 300.0,
                 "evade_movespeed": 300.0,
                 "damaged_movespeed": 100.0,
@@ -265,11 +637,201 @@
                 "strafing_run_target_adjustment": 7.0,
                 "strafing_run_target_bias_time": 0.4000000059604645,
                 "strafing_run_fire_distance": 350.0,
-                "unk_float_0x007C": 12.0,
-                "unk_float_0x0080": 8.0,
+                "0x19CCA20E": {
+                    "unk_uint32_r0x0000": 20,
+                    "unk_float_r0x0004": 15.0,
+                    "unk_uint32_r0x0008": 2,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_struct_r0x0010": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "unk_uint32_r0x0018": 5
+                },
+                "0x2308DBEC": {
+                    "unk_struct_r0x0000": {
+                        "x": 0.0,
+                        "y": 100.0,
+                        "z": 200.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 1.0,
+                        "y": 200.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 500.0,
+                        "y": 20.0,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0024": {
+                        "x": 0.800000011920929,
+                        "y": 0.10000000149011612,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0030": {
+                        "x": 600.0,
+                        "y": 70.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x003C": {
+                        "x": 500.0,
+                        "y": 500.0,
+                        "z": 500.0
+                    },
+                    "unk_struct_r0x0048": {
+                        "x": 0.800000011920929,
+                        "y": 0.20000000298023224,
+                        "z": 50.0
+                    }
+                },
+                "0x2C2D1CF9": {
+                    "unk_struct_r0x0000": {
+                        "x": 100.0,
+                        "y": 1000.0,
+                        "z": 1500.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 100.0,
+                        "y": 400.0,
+                        "z": 2000.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 0.0,
+                        "y": 400.0,
+                        "z": 200.0
+                    },
+                    "unk_bool_0x0024": 0
+                },
+                "unk_float_0x0124": 12.0,
+                "unk_float_0x0128": 8.0,
+                "engine_start_audio": 3636994674,
+                "engine_stop_audio": 1910392746,
+                "sonic_boom_effect": "14151766337409263731",
+                "unk_float_0x0140": -1.0,
+                "unk_float_0x0144": -1.0,
+                "unk_float_0x0148": -1.0,
+                "unk_bool_0x014C": 0,
+                "unk_bool_0x014D": 1,
+                "unk_bool_0x014E": 1
+            }
+        },
+        {
+            "0xDBB286AD7ED9DF96": {
+                "hash": "15830863719876386710",
+                "name": "Eagle Gas Strike",
+                "name_zh": "飞鹰毒气空袭",
+                "index": 6,
+                "flyby_event": 0,
+                "strafing_fire_over_event": 1534884119,
+                "flyby_distance": 600.0,
+                "flyby_cooldown": 3.0,
+                "payload": "5 <=> EaglePayload_Airstrike",
+                "airstrike_pattern": "7 <=> EagleAirstrikePattern_Single",
+                "projectile_type": "192 <=> ProjectileType_Unknown_192",
+                "unk_uint64_0x0020": "0",
+                "target_angle": 90.0,
+                "unk_bool_0x002C": 0,
+                "search_radius": 60.0,
+                "fire_duration": 1.5,
+                "bomb_interval": 0.20000000298023224,
+                "bomb_prediction_interval": 0.05000000074505806,
+                "approach_min_distance": 800.0,
+                "approach_max_distance": 800.0,
+                "approach_max_height": 1000.0,
+                "num_angles_to_try": 2.0,
+                "unk_float_0x0050": 100.0,
+                "num_heights_to_try": 12.0,
+                "unk_float_0x0058": 360.0,
+                "attack_movespeed": 300.0,
+                "evade_movespeed": 300.0,
+                "damaged_movespeed": 100.0,
+                "acceleration": 30.0,
+                "deceleration": 30.0,
+                "damage_cooldown": 300.0,
+                "master_target_position_adjustment": 25.0,
+                "master_target_enemy_count": 4.0,
+                "strafing_run_length": 50.0,
+                "strafing_run_target_adjustment": 7.0,
+                "strafing_run_target_bias_time": 0.4000000059604645,
+                "strafing_run_fire_distance": 350.0,
+                "0x19CCA20E": {
+                    "unk_uint32_r0x0000": 20,
+                    "unk_float_r0x0004": 15.0,
+                    "unk_uint32_r0x0008": 2,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_struct_r0x0010": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "unk_uint32_r0x0018": 5
+                },
+                "0x2308DBEC": {
+                    "unk_struct_r0x0000": {
+                        "x": 0.0,
+                        "y": 100.0,
+                        "z": 200.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 1.0,
+                        "y": 200.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 500.0,
+                        "y": 20.0,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0024": {
+                        "x": 0.800000011920929,
+                        "y": 0.10000000149011612,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0030": {
+                        "x": 600.0,
+                        "y": 70.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x003C": {
+                        "x": 500.0,
+                        "y": 500.0,
+                        "z": 500.0
+                    },
+                    "unk_struct_r0x0048": {
+                        "x": 0.800000011920929,
+                        "y": 0.20000000298023224,
+                        "z": 50.0
+                    }
+                },
+                "0x2C2D1CF9": {
+                    "unk_struct_r0x0000": {
+                        "x": 100.0,
+                        "y": 1000.0,
+                        "z": 1500.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 100.0,
+                        "y": 400.0,
+                        "z": 2000.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 0.0,
+                        "y": 400.0,
+                        "z": 200.0
+                    },
+                    "unk_bool_0x0024": 0
+                },
+                "unk_float_0x0124": 12.0,
+                "unk_float_0x0128": 8.0,
                 "engine_start_audio": 822447567,
                 "engine_stop_audio": 989231445,
-                "sonic_boom_effect": "14151766337409263731"
+                "sonic_boom_effect": "14151766337409263731",
+                "unk_float_0x0140": -1.0,
+                "unk_float_0x0144": -1.0,
+                "unk_float_0x0148": -1.0,
+                "unk_bool_0x014C": 0,
+                "unk_bool_0x014D": 1,
+                "unk_bool_0x014E": 0
             }
         },
         {
@@ -277,16 +839,17 @@
                 "hash": "851455025217071569",
                 "name": "Eagle Fast Strike",
                 "name_zh": "飞鹰快速打击",
-                "index": 6,
+                "index": 7,
                 "flyby_event": 0,
                 "strafing_fire_over_event": 1534884119,
                 "flyby_distance": 600.0,
                 "flyby_cooldown": 3.0,
                 "payload": "1 <=> EaglePayload_DoubleStrafe",
                 "airstrike_pattern": "0 <=> EagleAirstrikePattern_6Z",
-                "projectile_type": "115 <=> ProjectileType_Unknown_115",
+                "projectile_type": "117 <=> ProjectileType_Unknown_117",
+                "unk_uint64_0x0020": "0",
                 "target_angle": 180.0,
-                "unk_bool_0x0020": 0,
+                "unk_bool_0x002C": 0,
                 "search_radius": 60.0,
                 "fire_duration": 1.5,
                 "bomb_interval": 0.5,
@@ -295,8 +858,9 @@
                 "approach_max_distance": 1000.0,
                 "approach_max_height": 800.0,
                 "num_angles_to_try": 16.0,
-                "unk_float_0x0044": 100.0,
+                "unk_float_0x0050": 100.0,
                 "num_heights_to_try": 12.0,
+                "unk_float_0x0058": 360.0,
                 "attack_movespeed": 300.0,
                 "evade_movespeed": 300.0,
                 "damaged_movespeed": 100.0,
@@ -309,11 +873,83 @@
                 "strafing_run_target_adjustment": 7.0,
                 "strafing_run_target_bias_time": 0.4000000059604645,
                 "strafing_run_fire_distance": 600.0,
-                "unk_float_0x007C": 12.0,
-                "unk_float_0x0080": 8.0,
+                "0x19CCA20E": {
+                    "unk_uint32_r0x0000": 20,
+                    "unk_float_r0x0004": 15.0,
+                    "unk_uint32_r0x0008": 2,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_struct_r0x0010": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "unk_uint32_r0x0018": 5
+                },
+                "0x2308DBEC": {
+                    "unk_struct_r0x0000": {
+                        "x": 0.0,
+                        "y": 100.0,
+                        "z": 200.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 1.0,
+                        "y": 200.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 500.0,
+                        "y": 20.0,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0024": {
+                        "x": 0.800000011920929,
+                        "y": 0.10000000149011612,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0030": {
+                        "x": 600.0,
+                        "y": 70.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x003C": {
+                        "x": 500.0,
+                        "y": 500.0,
+                        "z": 500.0
+                    },
+                    "unk_struct_r0x0048": {
+                        "x": 0.800000011920929,
+                        "y": 0.20000000298023224,
+                        "z": 50.0
+                    }
+                },
+                "0x2C2D1CF9": {
+                    "unk_struct_r0x0000": {
+                        "x": 100.0,
+                        "y": 1000.0,
+                        "z": 1500.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 100.0,
+                        "y": 400.0,
+                        "z": 2000.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 0.0,
+                        "y": 400.0,
+                        "z": 200.0
+                    },
+                    "unk_bool_0x0024": 0
+                },
+                "unk_float_0x0124": 12.0,
+                "unk_float_0x0128": 8.0,
                 "engine_start_audio": 1501143151,
                 "engine_stop_audio": 2694781301,
-                "sonic_boom_effect": "14151766337409263731"
+                "sonic_boom_effect": "14151766337409263731",
+                "unk_float_0x0140": -1.0,
+                "unk_float_0x0144": -1.0,
+                "unk_float_0x0148": -1.0,
+                "unk_bool_0x014C": 0,
+                "unk_bool_0x014D": 1,
+                "unk_bool_0x014E": 0
             }
         },
         {
@@ -321,7 +957,7 @@
                 "hash": "16121648674137865605",
                 "name": "Eagle Air-To-Air Missiles",
                 "name_zh": "飞鹰空对空导弹",
-                "index": 7,
+                "index": 8,
                 "flyby_event": 0,
                 "strafing_fire_over_event": 1534884119,
                 "flyby_distance": 600.0,
@@ -329,8 +965,9 @@
                 "payload": "3 <=> EaglePayload_Missile",
                 "airstrike_pattern": "0 <=> EagleAirstrikePattern_6Z",
                 "projectile_type": "0 <=> ProjectileType_Unknown_0",
+                "unk_uint64_0x0020": "0",
                 "target_angle": 180.0,
-                "unk_bool_0x0020": 0,
+                "unk_bool_0x002C": 0,
                 "search_radius": 300.0,
                 "fire_duration": 1.5,
                 "bomb_interval": 0.5,
@@ -339,8 +976,9 @@
                 "approach_max_distance": 1000.0,
                 "approach_max_height": 800.0,
                 "num_angles_to_try": 16.0,
-                "unk_float_0x0044": 100.0,
+                "unk_float_0x0050": 100.0,
                 "num_heights_to_try": 12.0,
+                "unk_float_0x0058": 360.0,
                 "attack_movespeed": 300.0,
                 "evade_movespeed": 300.0,
                 "damaged_movespeed": 100.0,
@@ -353,11 +991,83 @@
                 "strafing_run_target_adjustment": 7.0,
                 "strafing_run_target_bias_time": 0.4000000059604645,
                 "strafing_run_fire_distance": 600.0,
-                "unk_float_0x007C": 12.0,
-                "unk_float_0x0080": 8.0,
+                "0x19CCA20E": {
+                    "unk_uint32_r0x0000": 20,
+                    "unk_float_r0x0004": 15.0,
+                    "unk_uint32_r0x0008": 2,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_struct_r0x0010": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "unk_uint32_r0x0018": 5
+                },
+                "0x2308DBEC": {
+                    "unk_struct_r0x0000": {
+                        "x": 0.0,
+                        "y": 100.0,
+                        "z": 200.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 1.0,
+                        "y": 200.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 500.0,
+                        "y": 20.0,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0024": {
+                        "x": 0.800000011920929,
+                        "y": 0.10000000149011612,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0030": {
+                        "x": 600.0,
+                        "y": 70.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x003C": {
+                        "x": 500.0,
+                        "y": 500.0,
+                        "z": 500.0
+                    },
+                    "unk_struct_r0x0048": {
+                        "x": 0.800000011920929,
+                        "y": 0.20000000298023224,
+                        "z": 50.0
+                    }
+                },
+                "0x2C2D1CF9": {
+                    "unk_struct_r0x0000": {
+                        "x": 100.0,
+                        "y": 1000.0,
+                        "z": 1500.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 100.0,
+                        "y": 400.0,
+                        "z": 2000.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 0.0,
+                        "y": 400.0,
+                        "z": 200.0
+                    },
+                    "unk_bool_0x0024": 0
+                },
+                "unk_float_0x0124": 12.0,
+                "unk_float_0x0128": 8.0,
                 "engine_start_audio": 1501143151,
                 "engine_stop_audio": 2694781301,
-                "sonic_boom_effect": "14151766337409263731"
+                "sonic_boom_effect": "14151766337409263731",
+                "unk_float_0x0140": -1.0,
+                "unk_float_0x0144": -1.0,
+                "unk_float_0x0148": -1.0,
+                "unk_bool_0x014C": 0,
+                "unk_bool_0x014D": 1,
+                "unk_bool_0x014E": 0
             }
         },
         {
@@ -365,16 +1075,17 @@
                 "hash": "2862976050209719244",
                 "name": "Eagle Napalm Airstrike",
                 "name_zh": "飞鹰凝固汽油弹",
-                "index": 8,
+                "index": 9,
                 "flyby_event": 0,
                 "strafing_fire_over_event": 1534884119,
                 "flyby_distance": 600.0,
                 "flyby_cooldown": 3.0,
                 "payload": "5 <=> EaglePayload_Airstrike",
                 "airstrike_pattern": "4 <=> EagleAirstrikePattern_4line_Napalm_MK1",
-                "projectile_type": "141 <=> ProjectileType_Unknown_141",
+                "projectile_type": "143 <=> ProjectileType_Unknown_143",
+                "unk_uint64_0x0020": "0",
                 "target_angle": 90.0,
-                "unk_bool_0x0020": 0,
+                "unk_bool_0x002C": 0,
                 "search_radius": 60.0,
                 "fire_duration": 1.5,
                 "bomb_interval": 0.20000000298023224,
@@ -383,8 +1094,9 @@
                 "approach_max_distance": 800.0,
                 "approach_max_height": 1000.0,
                 "num_angles_to_try": 2.0,
-                "unk_float_0x0044": 100.0,
+                "unk_float_0x0050": 100.0,
                 "num_heights_to_try": 12.0,
+                "unk_float_0x0058": 360.0,
                 "attack_movespeed": 300.0,
                 "evade_movespeed": 300.0,
                 "damaged_movespeed": 100.0,
@@ -397,11 +1109,83 @@
                 "strafing_run_target_adjustment": 7.0,
                 "strafing_run_target_bias_time": 0.4000000059604645,
                 "strafing_run_fire_distance": 350.0,
-                "unk_float_0x007C": 12.0,
-                "unk_float_0x0080": 8.0,
+                "0x19CCA20E": {
+                    "unk_uint32_r0x0000": 20,
+                    "unk_float_r0x0004": 15.0,
+                    "unk_uint32_r0x0008": 2,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_struct_r0x0010": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "unk_uint32_r0x0018": 5
+                },
+                "0x2308DBEC": {
+                    "unk_struct_r0x0000": {
+                        "x": 0.0,
+                        "y": 100.0,
+                        "z": 200.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 1.0,
+                        "y": 200.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 500.0,
+                        "y": 20.0,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0024": {
+                        "x": 0.800000011920929,
+                        "y": 0.10000000149011612,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0030": {
+                        "x": 600.0,
+                        "y": 70.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x003C": {
+                        "x": 500.0,
+                        "y": 500.0,
+                        "z": 500.0
+                    },
+                    "unk_struct_r0x0048": {
+                        "x": 0.800000011920929,
+                        "y": 0.20000000298023224,
+                        "z": 50.0
+                    }
+                },
+                "0x2C2D1CF9": {
+                    "unk_struct_r0x0000": {
+                        "x": 100.0,
+                        "y": 1000.0,
+                        "z": 1500.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 100.0,
+                        "y": 400.0,
+                        "z": 2000.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 0.0,
+                        "y": 400.0,
+                        "z": 200.0
+                    },
+                    "unk_bool_0x0024": 0
+                },
+                "unk_float_0x0124": 12.0,
+                "unk_float_0x0128": 8.0,
                 "engine_start_audio": 3208885970,
                 "engine_stop_audio": 2209072266,
-                "sonic_boom_effect": "14151766337409263731"
+                "sonic_boom_effect": "14151766337409263731",
+                "unk_float_0x0140": -1.0,
+                "unk_float_0x0144": -1.0,
+                "unk_float_0x0148": -1.0,
+                "unk_bool_0x014C": 0,
+                "unk_bool_0x014D": 1,
+                "unk_bool_0x014E": 0
             }
         },
         {
@@ -409,16 +1193,17 @@
                 "hash": "4140939466573601321",
                 "name": "Eagle 110MM Rocket Pods",
                 "name_zh": "飞鹰110火箭巢",
-                "index": 9,
+                "index": 10,
                 "flyby_event": 0,
                 "strafing_fire_over_event": 1534884119,
                 "flyby_distance": 600.0,
                 "flyby_cooldown": 3.0,
                 "payload": "4 <=> EaglePayload_Rocket",
                 "airstrike_pattern": "0 <=> EagleAirstrikePattern_6Z",
-                "projectile_type": "82 <=> ProjectileType_Unknown_82",
+                "projectile_type": "84 <=> ProjectileType_Unknown_84",
+                "unk_uint64_0x0020": "0",
                 "target_angle": 180.0,
-                "unk_bool_0x0020": 0,
+                "unk_bool_0x002C": 0,
                 "search_radius": 20.0,
                 "fire_duration": 2.0,
                 "bomb_interval": 0.5,
@@ -427,8 +1212,9 @@
                 "approach_max_distance": 1000.0,
                 "approach_max_height": 800.0,
                 "num_angles_to_try": 16.0,
-                "unk_float_0x0044": 100.0,
+                "unk_float_0x0050": 100.0,
                 "num_heights_to_try": 12.0,
+                "unk_float_0x0058": 360.0,
                 "attack_movespeed": 300.0,
                 "evade_movespeed": 300.0,
                 "damaged_movespeed": 100.0,
@@ -441,11 +1227,83 @@
                 "strafing_run_target_adjustment": 7.0,
                 "strafing_run_target_bias_time": 0.4000000059604645,
                 "strafing_run_fire_distance": 350.0,
-                "unk_float_0x007C": 12.0,
-                "unk_float_0x0080": 8.0,
+                "0x19CCA20E": {
+                    "unk_uint32_r0x0000": 20,
+                    "unk_float_r0x0004": 15.0,
+                    "unk_uint32_r0x0008": 2,
+                    "unk_float_r0x000C": 0.0,
+                    "unk_struct_r0x0010": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "unk_uint32_r0x0018": 5
+                },
+                "0x2308DBEC": {
+                    "unk_struct_r0x0000": {
+                        "x": 0.0,
+                        "y": 100.0,
+                        "z": 200.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 1.0,
+                        "y": 200.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 500.0,
+                        "y": 20.0,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0024": {
+                        "x": 0.800000011920929,
+                        "y": 0.10000000149011612,
+                        "z": 50.0
+                    },
+                    "unk_struct_r0x0030": {
+                        "x": 600.0,
+                        "y": 70.0,
+                        "z": 100.0
+                    },
+                    "unk_struct_r0x003C": {
+                        "x": 500.0,
+                        "y": 500.0,
+                        "z": 500.0
+                    },
+                    "unk_struct_r0x0048": {
+                        "x": 0.800000011920929,
+                        "y": 0.20000000298023224,
+                        "z": 50.0
+                    }
+                },
+                "0x2C2D1CF9": {
+                    "unk_struct_r0x0000": {
+                        "x": 100.0,
+                        "y": 1000.0,
+                        "z": 1500.0
+                    },
+                    "unk_struct_r0x000C": {
+                        "x": 100.0,
+                        "y": 400.0,
+                        "z": 2000.0
+                    },
+                    "unk_struct_r0x0018": {
+                        "x": 0.0,
+                        "y": 400.0,
+                        "z": 200.0
+                    },
+                    "unk_bool_0x0024": 0
+                },
+                "unk_float_0x0124": 12.0,
+                "unk_float_0x0128": 8.0,
                 "engine_start_audio": 2158166289,
                 "engine_stop_audio": 4087131915,
-                "sonic_boom_effect": "14151766337409263731"
+                "sonic_boom_effect": "14151766337409263731",
+                "unk_float_0x0140": -1.0,
+                "unk_float_0x0144": -1.0,
+                "unk_float_0x0148": -1.0,
+                "unk_bool_0x014C": 0,
+                "unk_bool_0x014D": 1,
+                "unk_bool_0x014E": 0
             }
         }
     ]

@@ -4,3 +4,4 @@ HitReactEventType_Medium
 HitReactEventType_Heavy
 HitReactEventType_Massive
 HitReactEventType_CyborgRadical
+HitReactEventType_Unk6

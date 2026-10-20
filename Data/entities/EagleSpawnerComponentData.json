@@ -4,8 +4,8 @@
         "omitted_size": 0,
         "exported_entity_count": 3,
         "matched_bilingual_hash_count": 3,
-        "patch_date": "2026-09-22",
-        "game_version": "1.007.100"
+        "patch_date": "2026-10-20",
+        "game_version": "1.007.200"
     },
     "entities": [
         {
@@ -19,7 +19,7 @@
                 "min_spawn_cooldown": 3.0,
                 "max_spawn_cooldown": 5.0,
                 "eagle_storm_radius": 160.0,
-                "eagle_type": "35 <=> StratagemType_EagleStrafingRun_DSS"
+                "eagle_type": "36 <=> StratagemType_EagleStrafingRun_DSS"
             }
         },
         {
@@ -33,7 +33,7 @@
                 "min_spawn_cooldown": 3.0,
                 "max_spawn_cooldown": 5.0,
                 "eagle_storm_radius": 160.0,
-                "eagle_type": "126 <=> StratagemType_EagleGasStrike"
+                "eagle_type": "129 <=> StratagemType_EagleGasStrike"
             }
         },
         {
@@ -47,7 +47,7 @@
                 "min_spawn_cooldown": 3.0,
                 "max_spawn_cooldown": 5.0,
                 "eagle_storm_radius": 160.0,
-                "eagle_type": "133 <=> StratagemType_EagleAirstrikeNapalm"
+                "eagle_type": "136 <=> StratagemType_EagleAirstrikeNapalm"
             }
         }
     ]

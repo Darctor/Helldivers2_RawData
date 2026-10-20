@@ -4,8 +4,8 @@
         "omitted_size": 5,
         "exported_entity_count": 19,
         "matched_bilingual_hash_count": 18,
-        "patch_date": "2026-09-22",
-        "game_version": "1.007.100"
+        "patch_date": "2026-10-20",
+        "game_version": "1.007.200"
     },
     "entities": [
         {
@@ -317,8 +317,8 @@
                 "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
                 "surface_impact_type": "43 <=> SurfaceImpactType_Unknown_43",
                 "unk_uint32_0x0038": 3301478587,
-                "unk_ability_1": "518 <=> AbilityId_Unknown_518",
-                "unk_ability_2": "519 <=> AbilityId_Unknown_519",
+                "unk_ability_1": "526 <=> AbilityId_Unknown_526",
+                "unk_ability_2": "527 <=> AbilityId_Unknown_527",
                 "unk_bool_0x0044": 0,
                 "unk_uint32_0x0048": 180.0
             }
@@ -348,7 +348,7 @@
                 "unk_bool_0x0022": 0,
                 "unk_uint32_0x0024": 0,
                 "on_stick_audio_event": 3053923312,
-                "damage_type": "68 <=> DamageInfoType_Unknown_68",
+                "damage_type": "75 <=> DamageInfoType_Unknown_75",
                 "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
                 "surface_impact_type": "47 <=> SurfaceImpactType_Unknown_47",
                 "unk_uint32_0x0038": 3301478587,
@@ -387,7 +387,7 @@
                 "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
                 "surface_impact_type": "43 <=> SurfaceImpactType_Unknown_43",
                 "unk_uint32_0x0038": 3301478587,
-                "unk_ability_1": "523 <=> AbilityId_Unknown_523",
+                "unk_ability_1": "531 <=> AbilityId_Unknown_531",
                 "unk_ability_2": "0 <=> AbilityId_Unknown_0",
                 "unk_bool_0x0044": 1,
                 "unk_uint32_0x0048": 180.0
@@ -422,8 +422,8 @@
                 "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
                 "surface_impact_type": "43 <=> SurfaceImpactType_Unknown_43",
                 "unk_uint32_0x0038": 3301478587,
-                "unk_ability_1": "1241 <=> AbilityId_Unknown_1241",
-                "unk_ability_2": "2071 <=> AbilityId_Unknown_2071",
+                "unk_ability_1": "1238 <=> AbilityId_Unknown_1238",
+                "unk_ability_2": "2069 <=> AbilityId_Unknown_2069",
                 "unk_bool_0x0044": 1,
                 "unk_uint32_0x0048": 180.0
             }
@@ -492,8 +492,8 @@
                 "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
                 "surface_impact_type": "43 <=> SurfaceImpactType_Unknown_43",
                 "unk_uint32_0x0038": 3301478587,
-                "unk_ability_1": "2070 <=> AbilityId_Unknown_2070",
-                "unk_ability_2": "2071 <=> AbilityId_Unknown_2071",
+                "unk_ability_1": "2068 <=> AbilityId_Unknown_2068",
+                "unk_ability_2": "2069 <=> AbilityId_Unknown_2069",
                 "unk_bool_0x0044": 0,
                 "unk_uint32_0x0048": 180.0
             }
@@ -527,8 +527,8 @@
                 "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
                 "surface_impact_type": "43 <=> SurfaceImpactType_Unknown_43",
                 "unk_uint32_0x0038": 3301478587,
-                "unk_ability_1": "2083 <=> AbilityId_Unknown_2083",
-                "unk_ability_2": "2084 <=> AbilityId_Unknown_2084",
+                "unk_ability_1": "2081 <=> AbilityId_Unknown_2081",
+                "unk_ability_2": "2082 <=> AbilityId_Unknown_2082",
                 "unk_bool_0x0044": 1,
                 "unk_uint32_0x0048": 60.0
             }
@@ -628,7 +628,7 @@
                 "unk_bool_0x0022": 0,
                 "unk_uint32_0x0024": 0,
                 "on_stick_audio_event": 3053923312,
-                "damage_type": "636 <=> DamageInfoType_Unknown_636",
+                "damage_type": "648 <=> DamageInfoType_Unknown_648",
                 "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
                 "surface_impact_type": "47 <=> SurfaceImpactType_Unknown_47",
                 "unk_uint32_0x0038": 0,
@@ -663,7 +663,7 @@
                 "unk_bool_0x0022": 0,
                 "unk_uint32_0x0024": 0,
                 "on_stick_audio_event": 3053923312,
-                "damage_type": "557 <=> DamageInfoType_Unknown_557",
+                "damage_type": "569 <=> DamageInfoType_Unknown_569",
                 "hit_effect_type": "1 <=> HitEffectDamageType_PiercingSmall",
                 "surface_impact_type": "47 <=> SurfaceImpactType_Unknown_47",
                 "unk_uint32_0x0038": 3301478587,

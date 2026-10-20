@@ -2,10 +2,10 @@
     "_metadata": {
         "struct_size": 152,
         "omitted_size": 14,
-        "exported_entity_count": 29,
-        "matched_bilingual_hash_count": 22,
-        "patch_date": "2026-09-22",
-        "game_version": "1.007.100"
+        "exported_entity_count": 30,
+        "matched_bilingual_hash_count": 23,
+        "patch_date": "2026-10-20",
+        "game_version": "1.007.200"
     },
     "entities": [
         {
@@ -240,8 +240,8 @@
                 "deduct_owner_vo_event": 0,
                 "last_deduct_owner_vo_event": 0,
                 "drone_path": "0",
-                "friendly_interact_ability": "2628 <=> AbilityId_Unknown_2628",
-                "self_interact_ability": "2629 <=> AbilityId_Unknown_2629",
+                "friendly_interact_ability": "2636 <=> AbilityId_Unknown_2636",
+                "self_interact_ability": "2637 <=> AbilityId_Unknown_2637",
                 "show_self_interact": 0,
                 "node_hiding_order": [
                     4061308872,
@@ -417,7 +417,7 @@
                 "last_deduct_owner_vo_event": 0,
                 "drone_path": "0",
                 "friendly_interact_ability": "0 <=> AbilityId_Unknown_0",
-                "self_interact_ability": "2632 <=> AbilityId_Unknown_2632",
+                "self_interact_ability": "2640 <=> AbilityId_Unknown_2640",
                 "show_self_interact": 0,
                 "node_hiding_order": [
                     0,
@@ -988,8 +988,8 @@
                 "deduct_owner_vo_event": 3471829629,
                 "last_deduct_owner_vo_event": 3471829629,
                 "drone_path": "0",
-                "friendly_interact_ability": "2630 <=> AbilityId_Unknown_2630",
-                "self_interact_ability": "2631 <=> AbilityId_Unknown_2631",
+                "friendly_interact_ability": "2638 <=> AbilityId_Unknown_2638",
+                "self_interact_ability": "2639 <=> AbilityId_Unknown_2639",
                 "show_self_interact": 0,
                 "node_hiding_order": [
                     4061308872,
@@ -1153,11 +1153,55 @@
             }
         },
         {
+            "0x0949EEB3DC920324": {
+                "hash": "669328475908342564",
+                "name": "AMW-20 Apex Backpack (Model)",
+                "name_zh": "AMW-20 尖峰（背包，模型）",
+                "index": 26,
+                "capacity": 4,
+                "start_amount": -1,
+                "refill_amount": 2,
+                "deduct_owner_vo_event": 195519030,
+                "last_deduct_owner_vo_event": 3187204892,
+                "drone_path": "0",
+                "friendly_interact_ability": "0 <=> AbilityId_Unknown_0",
+                "self_interact_ability": "0 <=> AbilityId_Unknown_0",
+                "show_self_interact": 0,
+                "node_hiding_order": [
+                    1521254770,
+                    181476733,
+                    595314737,
+                    202190756,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "node_hiding_order_post_anim_event": 0,
+                "refill_style": "1 <=> DepositRefill_Ammo",
+                "assisted_reload_weapon_path": "13264489371434957764",
+                "unk_uint32_0x0090": 1269087576,
+                "unk_bool_0x0094": 0
+            }
+        },
+        {
             "0x9B2140378640432E": {
                 "hash": "11178286357330019118",
                 "name": "M-103 Supply FRV",
                 "name_zh": "M-103 补给型快速侦察载具",
-                "index": 26,
+                "index": 27,
                 "capacity": 8,
                 "start_amount": 8,
                 "refill_amount": 0,
@@ -1201,7 +1245,7 @@
                 "hash": "12738988949818115065",
                 "name": "TD-110 Maelstrom",
                 "name_zh": "TD-110 风暴漩涡",
-                "index": 27,
+                "index": 28,
                 "capacity": 10,
                 "start_amount": -1,
                 "refill_amount": 20,
@@ -1245,7 +1289,7 @@
                 "hash": "576943110514355900",
                 "name": "Ground All-Terrain Extraction Rig MK2",
                 "name_zh": "地面全地形采集钻机 MK2",
-                "index": 28,
+                "index": 29,
                 "capacity": 10,
                 "start_amount": -1,
                 "refill_amount": 20,

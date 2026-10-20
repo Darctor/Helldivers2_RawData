@@ -4,8 +4,8 @@
         "omitted_size": 21,
         "exported_entity_count": 15,
         "matched_bilingual_hash_count": 9,
-        "patch_date": "2026-09-22",
-        "game_version": "1.007.100"
+        "patch_date": "2026-10-20",
+        "game_version": "1.007.200"
     },
     "entities": [
         {
@@ -146,7 +146,7 @@
                 "recharge_rate": 300.0,
                 "starter_charge_on_recharge": 900.0,
                 "unk_float_0x0068": 2.0,
-                "unk_enum_0x006C": "23 <=> StatusEffectType_BushLarge",
+                "unk_enum_0x006C": "24 <=> StatusEffectType_BushLarge",
                 "unk_float_0x0070": 1.0,
                 "visual_sphere_path": "8303034821533817833",
                 "shield_break_particles": "14065866210723488381",
@@ -249,7 +249,7 @@
                 "recharge_rate": 300.0,
                 "starter_charge_on_recharge": 900.0,
                 "unk_float_0x0068": 2.0,
-                "unk_enum_0x006C": "23 <=> StatusEffectType_BushLarge",
+                "unk_enum_0x006C": "24 <=> StatusEffectType_BushLarge",
                 "unk_float_0x0070": 1.0,
                 "visual_sphere_path": "8303034821533817833",
                 "shield_break_particles": "14065866210723488381",
@@ -352,7 +352,7 @@
                 "recharge_rate": 300.0,
                 "starter_charge_on_recharge": 900.0,
                 "unk_float_0x0068": 2.0,
-                "unk_enum_0x006C": "23 <=> StatusEffectType_BushLarge",
+                "unk_enum_0x006C": "24 <=> StatusEffectType_BushLarge",
                 "unk_float_0x0070": 1.0,
                 "visual_sphere_path": "8303034821533817833",
                 "shield_break_particles": "14065866210723488381",

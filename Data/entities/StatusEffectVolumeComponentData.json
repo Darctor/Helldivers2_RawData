@@ -4,8 +4,8 @@
         "omitted_size": 51,
         "exported_entity_count": 8,
         "matched_bilingual_hash_count": 0,
-        "patch_date": "2026-09-22",
-        "game_version": "1.007.100"
+        "patch_date": "2026-10-20",
+        "game_version": "1.007.200"
     },
     "entities": [
         {
@@ -22,7 +22,7 @@
                             "type": "28 <=> StatusEffectTemplateType_Gloom",
                             "effects": [
                                 {
-                                    "type": "68 <=> StatusEffectType_Gloom",
+                                    "type": "69 <=> StatusEffectType_Gloom",
                                     "value_per_second": 1.0
                                 },
                                 {
@@ -377,7 +377,7 @@
                             "type": "28 <=> StatusEffectTemplateType_Gloom",
                             "effects": [
                                 {
-                                    "type": "68 <=> StatusEffectType_Gloom",
+                                    "type": "69 <=> StatusEffectType_Gloom",
                                     "value_per_second": 1.0
                                 },
                                 {
@@ -732,7 +732,7 @@
                             "type": "28 <=> StatusEffectTemplateType_Gloom",
                             "effects": [
                                 {
-                                    "type": "68 <=> StatusEffectType_Gloom",
+                                    "type": "69 <=> StatusEffectType_Gloom",
                                     "value_per_second": 1.0
                                 },
                                 {
@@ -1087,7 +1087,7 @@
                             "type": "28 <=> StatusEffectTemplateType_Gloom",
                             "effects": [
                                 {
-                                    "type": "68 <=> StatusEffectType_Gloom",
+                                    "type": "69 <=> StatusEffectType_Gloom",
                                     "value_per_second": 1.0
                                 },
                                 {
@@ -1442,7 +1442,7 @@
                             "type": "28 <=> StatusEffectTemplateType_Gloom",
                             "effects": [
                                 {
-                                    "type": "68 <=> StatusEffectType_Gloom",
+                                    "type": "69 <=> StatusEffectType_Gloom",
                                     "value_per_second": 1.0
                                 },
                                 {
@@ -1797,7 +1797,7 @@
                             "type": "27 <=> StatusEffectTemplateType_FlamethrowerMK2",
                             "effects": [
                                 {
-                                    "type": "32 <=> StatusEffectType_BurningHeavy",
+                                    "type": "33 <=> StatusEffectType_BurningHeavy",
                                     "value_per_second": 50.0
                                 },
                                 {
@@ -2152,7 +2152,7 @@
                             "type": "27 <=> StatusEffectTemplateType_FlamethrowerMK2",
                             "effects": [
                                 {
-                                    "type": "32 <=> StatusEffectType_BurningHeavy",
+                                    "type": "33 <=> StatusEffectType_BurningHeavy",
                                     "value_per_second": 50.0
                                 },
                                 {
@@ -2507,7 +2507,7 @@
                             "type": "27 <=> StatusEffectTemplateType_FlamethrowerMK2",
                             "effects": [
                                 {
-                                    "type": "32 <=> StatusEffectType_BurningHeavy",
+                                    "type": "33 <=> StatusEffectType_BurningHeavy",
                                     "value_per_second": 50.0
                                 },
                                 {
