@@ -22,7 +22,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -56,7 +56,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -90,7 +90,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -124,7 +124,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -158,7 +158,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -192,7 +192,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -226,7 +226,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -260,7 +260,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -294,7 +294,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -328,7 +328,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -362,7 +362,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -396,7 +396,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -430,7 +430,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -464,7 +464,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -498,7 +498,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -532,7 +532,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -566,7 +566,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -600,7 +600,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -634,7 +634,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -668,7 +668,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -702,7 +702,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -736,7 +736,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -770,7 +770,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -804,7 +804,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -838,7 +838,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -872,7 +872,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -906,7 +906,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -940,7 +940,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -974,7 +974,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1008,7 +1008,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1042,7 +1042,7 @@
                 "boids_view_radius": 5.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1076,7 +1076,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1110,7 +1110,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1144,7 +1144,7 @@
                 "boids_view_radius": 50.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1178,7 +1178,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1212,7 +1212,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1246,7 +1246,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1280,7 +1280,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1314,7 +1314,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 1,
+                "reduce_speed_approaching_target": 1,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1348,7 +1348,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1382,7 +1382,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1416,7 +1416,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1450,7 +1450,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1484,7 +1484,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 50.0,
                     "penetration_penalty": 150.0,
@@ -1518,7 +1518,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1552,7 +1552,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1586,7 +1586,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1620,7 +1620,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1654,7 +1654,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1688,7 +1688,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1722,7 +1722,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1756,7 +1756,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1790,7 +1790,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1824,7 +1824,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1858,7 +1858,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1892,7 +1892,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1926,7 +1926,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1960,7 +1960,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -1994,7 +1994,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2028,7 +2028,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2062,7 +2062,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2096,7 +2096,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2130,7 +2130,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2164,7 +2164,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2198,7 +2198,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2232,7 +2232,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2266,7 +2266,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2300,7 +2300,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2334,7 +2334,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2368,7 +2368,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2402,7 +2402,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2436,7 +2436,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2470,7 +2470,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2504,7 +2504,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2538,7 +2538,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2572,7 +2572,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2606,7 +2606,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2640,7 +2640,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2674,7 +2674,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2708,7 +2708,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2742,7 +2742,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2776,7 +2776,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2810,7 +2810,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2844,7 +2844,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2878,7 +2878,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2912,7 +2912,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2946,7 +2946,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -2980,7 +2980,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3014,7 +3014,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3048,7 +3048,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3082,7 +3082,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3116,7 +3116,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3150,7 +3150,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3184,7 +3184,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3218,7 +3218,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3252,7 +3252,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3286,7 +3286,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3320,7 +3320,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3354,7 +3354,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3388,7 +3388,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3422,7 +3422,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3456,7 +3456,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3490,7 +3490,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3524,7 +3524,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3558,7 +3558,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3592,7 +3592,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3626,7 +3626,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3660,7 +3660,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3694,7 +3694,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3728,7 +3728,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3762,7 +3762,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3796,7 +3796,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3830,7 +3830,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3864,7 +3864,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3898,7 +3898,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3932,7 +3932,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -3966,7 +3966,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4000,7 +4000,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4034,7 +4034,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4068,7 +4068,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4102,7 +4102,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4136,7 +4136,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4170,7 +4170,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4204,7 +4204,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4238,7 +4238,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4272,7 +4272,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4306,7 +4306,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4340,7 +4340,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4374,7 +4374,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4408,7 +4408,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4442,7 +4442,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4476,7 +4476,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4510,7 +4510,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4544,7 +4544,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4578,7 +4578,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4612,7 +4612,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4646,7 +4646,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4680,7 +4680,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4714,7 +4714,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4748,7 +4748,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4782,7 +4782,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4816,7 +4816,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4850,7 +4850,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4884,7 +4884,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4918,7 +4918,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4952,7 +4952,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -4986,7 +4986,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5020,7 +5020,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5054,7 +5054,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5088,7 +5088,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5122,7 +5122,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5156,7 +5156,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5190,7 +5190,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5224,7 +5224,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5258,7 +5258,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5292,7 +5292,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5326,7 +5326,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5360,7 +5360,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 1,
+                "reduce_speed_approaching_target": 1,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5394,7 +5394,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 1,
+                "reduce_speed_approaching_target": 1,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5428,7 +5428,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 1,
+                "reduce_speed_approaching_target": 1,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5462,7 +5462,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 1,
+                "reduce_speed_approaching_target": 1,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5496,7 +5496,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 1,
+                "reduce_speed_approaching_target": 1,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5530,7 +5530,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 1,
+                "reduce_speed_approaching_target": 1,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5564,7 +5564,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 1,
+                "reduce_speed_approaching_target": 1,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5598,7 +5598,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 1,
+                "reduce_speed_approaching_target": 1,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5632,7 +5632,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 1,
+                "reduce_speed_approaching_target": 1,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5666,7 +5666,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 1,
+                "reduce_speed_approaching_target": 1,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5700,7 +5700,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5734,7 +5734,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5768,7 +5768,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5802,7 +5802,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5836,7 +5836,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5870,7 +5870,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5904,7 +5904,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5938,7 +5938,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -5972,7 +5972,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -6006,7 +6006,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -6040,7 +6040,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -6074,7 +6074,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -6108,7 +6108,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -6142,7 +6142,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -6176,7 +6176,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -6210,7 +6210,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -6244,7 +6244,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 50.0,
                     "penetration_penalty": 150.0,
@@ -6278,7 +6278,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 50.0,
                     "penetration_penalty": 150.0,
@@ -6312,7 +6312,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 50.0,
                     "penetration_penalty": 150.0,
@@ -6346,7 +6346,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 50.0,
                     "penetration_penalty": 150.0,
@@ -6380,7 +6380,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 50.0,
                     "penetration_penalty": 150.0,
@@ -6414,7 +6414,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 50.0,
                     "penetration_penalty": 150.0,
@@ -6448,7 +6448,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 50.0,
                     "penetration_penalty": 150.0,
@@ -6482,7 +6482,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -6516,7 +6516,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -6550,7 +6550,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -6584,7 +6584,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -6618,7 +6618,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -6652,7 +6652,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -6686,7 +6686,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -6720,7 +6720,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -6754,7 +6754,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -6788,7 +6788,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,
@@ -6822,7 +6822,7 @@
                 "boids_view_radius": 10.0,
                 "unk_bool_0x0018": 0,
                 "unk_bool_0x0019": 1,
-                "unk_bool_0x0020": 0,
+                "reduce_speed_approaching_target": 0,
                 "steering_properties": {
                     "collision_penalty": 100.0,
                     "penetration_penalty": 100.0,

@@ -23,7 +23,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 0,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.0,
                 "explosion_type": "232 <=> ExplosionType_Unknown_232",
@@ -50,8 +50,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -74,8 +74,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -98,8 +98,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -122,8 +122,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -186,7 +186,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 1.0,
                 "impact_airburst_distance": 0.25,
                 "explosion_type": "196 <=> ExplosionType_Unknown_196",
@@ -213,8 +213,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -237,8 +237,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -261,8 +261,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -285,8 +285,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -349,7 +349,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "131 <=> ExplosionType_Unknown_131",
@@ -376,8 +376,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -400,8 +400,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -424,8 +424,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -448,8 +448,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -512,7 +512,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "100 <=> ExplosionType_Unknown_100",
@@ -539,8 +539,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -563,8 +563,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -587,8 +587,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -611,8 +611,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -675,7 +675,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "133 <=> ExplosionType_Unknown_133",
@@ -702,8 +702,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -726,8 +726,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -750,8 +750,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -774,8 +774,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -838,7 +838,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "132 <=> ExplosionType_Unknown_132",
@@ -865,8 +865,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -889,8 +889,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -913,8 +913,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -937,8 +937,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -1001,7 +1001,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "133 <=> ExplosionType_Unknown_133",
@@ -1028,8 +1028,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -1052,8 +1052,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -1076,8 +1076,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -1100,8 +1100,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -1164,7 +1164,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 0,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 0.5,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "91 <=> ExplosionType_Unknown_91",
@@ -1191,8 +1191,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -1215,8 +1215,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -1239,8 +1239,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -1263,8 +1263,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -1327,7 +1327,7 @@
                 "hide_on_explosion": 0,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 0,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "133 <=> ExplosionType_Unknown_133",
@@ -1354,8 +1354,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -1378,8 +1378,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -1402,8 +1402,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -1426,8 +1426,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -1490,7 +1490,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "73 <=> ExplosionType_Unknown_73",
@@ -1517,8 +1517,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -1541,8 +1541,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -1565,8 +1565,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -1589,8 +1589,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -1653,7 +1653,7 @@
                 "hide_on_explosion": 0,
                 "destroy_actor_on_explosion": 0,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "194 <=> ExplosionType_Unknown_194",
@@ -1680,8 +1680,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -1704,8 +1704,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -1728,8 +1728,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -1752,8 +1752,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -1816,7 +1816,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "257 <=> ExplosionType_Unknown_257",
@@ -1843,8 +1843,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -1867,8 +1867,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -1891,8 +1891,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -1915,8 +1915,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -1979,7 +1979,7 @@
                 "hide_on_explosion": 0,
                 "destroy_actor_on_explosion": 0,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "157 <=> ExplosionType_Unknown_157",
@@ -2006,8 +2006,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -2030,8 +2030,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -2054,8 +2054,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -2078,8 +2078,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -2142,7 +2142,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "96 <=> ExplosionType_Unknown_96",
@@ -2169,8 +2169,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -2193,8 +2193,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -2217,8 +2217,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -2241,8 +2241,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -2305,7 +2305,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "62 <=> ExplosionType_Unknown_62",
@@ -2332,8 +2332,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -2356,8 +2356,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -2380,8 +2380,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -2404,8 +2404,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -2468,7 +2468,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "367 <=> ExplosionType_Unknown_367",
@@ -2495,8 +2495,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -2519,8 +2519,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -2543,8 +2543,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -2567,8 +2567,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -2631,7 +2631,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "188 <=> ExplosionType_Unknown_188",
@@ -2658,8 +2658,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -2682,8 +2682,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -2706,8 +2706,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -2730,8 +2730,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -2794,7 +2794,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "270 <=> ExplosionType_Unknown_270",
@@ -2821,8 +2821,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -2845,8 +2845,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -2869,8 +2869,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -2893,8 +2893,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -2957,7 +2957,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "0 <=> ExplosionType_Unknown_0",
@@ -2984,8 +2984,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -3008,8 +3008,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -3032,8 +3032,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -3056,8 +3056,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -3120,7 +3120,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "342 <=> ExplosionType_Unknown_342",
@@ -3147,8 +3147,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -3171,8 +3171,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -3195,8 +3195,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -3219,8 +3219,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -3283,7 +3283,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "237 <=> ExplosionType_Unknown_237",
@@ -3310,8 +3310,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -3334,8 +3334,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -3358,8 +3358,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -3382,8 +3382,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -3446,7 +3446,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "69 <=> ExplosionType_Unknown_69",
@@ -3473,8 +3473,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -3497,8 +3497,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -3521,8 +3521,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -3545,8 +3545,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -3609,7 +3609,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "72 <=> ExplosionType_Unknown_72",
@@ -3636,8 +3636,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -3660,8 +3660,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -3684,8 +3684,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -3708,8 +3708,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -3772,7 +3772,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "32 <=> ExplosionType_Unknown_32",
@@ -3799,8 +3799,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -3823,8 +3823,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -3847,8 +3847,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -3871,8 +3871,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -3935,7 +3935,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 0,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "135 <=> ExplosionType_Unknown_135",
@@ -3962,8 +3962,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -3986,8 +3986,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -4010,8 +4010,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -4034,8 +4034,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -4098,7 +4098,7 @@
                 "hide_on_explosion": 0,
                 "destroy_actor_on_explosion": 0,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "180 <=> ExplosionType_Unknown_180",
@@ -4125,8 +4125,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -4149,8 +4149,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -4173,8 +4173,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -4197,8 +4197,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -4261,7 +4261,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 0,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "0 <=> ExplosionType_Unknown_0",
@@ -4288,8 +4288,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -4312,8 +4312,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -4336,8 +4336,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -4360,8 +4360,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -4424,7 +4424,7 @@
                 "hide_on_explosion": 0,
                 "destroy_actor_on_explosion": 0,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 1,
+                "ignore_friendly_proximity_contacts": 1,
                 "impact_distance": 0.20000000298023224,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "241 <=> ExplosionType_Unknown_241",
@@ -4451,8 +4451,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -4475,8 +4475,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -4499,8 +4499,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -4523,8 +4523,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -4587,7 +4587,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 0.10000000149011612,
                 "impact_airburst_distance": 0.0,
                 "explosion_type": "86 <=> ExplosionType_Unknown_86",
@@ -4614,8 +4614,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -4638,8 +4638,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -4662,8 +4662,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -4686,8 +4686,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -4750,7 +4750,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 0.10000000149011612,
                 "impact_airburst_distance": 0.0,
                 "explosion_type": "86 <=> ExplosionType_Unknown_86",
@@ -4777,8 +4777,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -4801,8 +4801,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -4825,8 +4825,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -4849,8 +4849,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -4913,7 +4913,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 0.10000000149011612,
                 "impact_airburst_distance": 0.0,
                 "explosion_type": "283 <=> ExplosionType_Unknown_283",
@@ -4940,8 +4940,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -4964,8 +4964,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -4988,8 +4988,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -5012,8 +5012,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -5076,7 +5076,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 0,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 0.20000000298023224,
                 "impact_airburst_distance": 0.0,
                 "explosion_type": "175 <=> ExplosionType_Unknown_175",
@@ -5103,8 +5103,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -5127,8 +5127,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -5151,8 +5151,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -5175,8 +5175,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -5239,7 +5239,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 0,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 1,
+                "ignore_friendly_proximity_contacts": 1,
                 "impact_distance": 0.20000000298023224,
                 "impact_airburst_distance": 0.0,
                 "explosion_type": "86 <=> ExplosionType_Unknown_86",
@@ -5266,8 +5266,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -5290,8 +5290,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -5314,8 +5314,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -5338,8 +5338,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -5402,7 +5402,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 0.10000000149011612,
                 "impact_airburst_distance": 0.0,
                 "explosion_type": "86 <=> ExplosionType_Unknown_86",
@@ -5429,8 +5429,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -5453,8 +5453,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -5477,8 +5477,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -5501,8 +5501,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -5565,7 +5565,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 0,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 0.5,
                 "impact_airburst_distance": 0.0,
                 "explosion_type": "175 <=> ExplosionType_Unknown_175",
@@ -5592,8 +5592,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -5616,8 +5616,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -5640,8 +5640,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -5664,8 +5664,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -5728,7 +5728,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 0.10000000149011612,
                 "impact_airburst_distance": 0.0,
                 "explosion_type": "86 <=> ExplosionType_Unknown_86",
@@ -5755,8 +5755,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -5779,8 +5779,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -5803,8 +5803,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -5827,8 +5827,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -5891,7 +5891,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 0,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 0.20000000298023224,
                 "impact_airburst_distance": 0.0,
                 "explosion_type": "399 <=> ExplosionType_Unknown_399",
@@ -5918,8 +5918,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -5942,8 +5942,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -5966,8 +5966,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -5990,8 +5990,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -6054,7 +6054,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "47 <=> ExplosionType_Unknown_47",
@@ -6081,8 +6081,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -6105,8 +6105,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -6129,8 +6129,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -6153,8 +6153,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -6217,7 +6217,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "161 <=> ExplosionType_Unknown_161",
@@ -6244,8 +6244,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -6268,8 +6268,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -6292,8 +6292,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -6316,8 +6316,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -6380,7 +6380,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "161 <=> ExplosionType_Unknown_161",
@@ -6407,8 +6407,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -6431,8 +6431,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -6455,8 +6455,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -6479,8 +6479,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -6543,7 +6543,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "263 <=> ExplosionType_Unknown_263",
@@ -6570,8 +6570,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -6594,8 +6594,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -6618,8 +6618,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -6642,8 +6642,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 2478681457,
@@ -6706,7 +6706,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "34 <=> ExplosionType_Unknown_34",
@@ -6733,8 +6733,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -6757,8 +6757,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -6781,8 +6781,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -6805,8 +6805,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 3508417189,
@@ -6869,7 +6869,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "329 <=> ExplosionType_Unknown_329",
@@ -6896,8 +6896,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -6920,8 +6920,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -6944,8 +6944,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -6968,8 +6968,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 3572304498,
@@ -7032,7 +7032,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "318 <=> ExplosionType_Unknown_318",
@@ -7059,8 +7059,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -7083,8 +7083,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -7107,8 +7107,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -7131,8 +7131,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 3057486599,
@@ -7195,7 +7195,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "329 <=> ExplosionType_Unknown_329",
@@ -7222,8 +7222,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -7246,8 +7246,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -7270,8 +7270,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -7294,8 +7294,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 3572304498,
@@ -7358,7 +7358,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "17 <=> ExplosionType_Unknown_17",
@@ -7385,8 +7385,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -7409,8 +7409,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -7433,8 +7433,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -7457,8 +7457,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 280696266,
@@ -7521,7 +7521,7 @@
                 "hide_on_explosion": 0,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 0,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "133 <=> ExplosionType_Unknown_133",
@@ -7548,8 +7548,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -7572,8 +7572,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -7596,8 +7596,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -7620,8 +7620,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -7684,7 +7684,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "166 <=> ExplosionType_Unknown_166",
@@ -7711,8 +7711,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -7735,8 +7735,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -7759,8 +7759,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -7783,8 +7783,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -7847,7 +7847,7 @@
                 "hide_on_explosion": 0,
                 "destroy_actor_on_explosion": 0,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "127 <=> ExplosionType_Unknown_127",
@@ -7874,8 +7874,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -7898,8 +7898,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -7922,8 +7922,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -7946,8 +7946,8 @@
                         "inherit_rotation": 1,
                         "linked": 0,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -8010,7 +8010,7 @@
                 "hide_on_explosion": 0,
                 "destroy_actor_on_explosion": 0,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "351 <=> ExplosionType_Unknown_351",
@@ -8037,8 +8037,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -8061,8 +8061,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -8085,8 +8085,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -8109,8 +8109,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -8173,7 +8173,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "230 <=> ExplosionType_Unknown_230",
@@ -8200,8 +8200,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -8224,8 +8224,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -8248,8 +8248,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -8272,8 +8272,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -8336,7 +8336,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "8 <=> ExplosionType_Unknown_8",
@@ -8363,8 +8363,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -8387,8 +8387,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -8411,8 +8411,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -8435,8 +8435,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -8499,7 +8499,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "80 <=> ExplosionType_Unknown_80",
@@ -8526,8 +8526,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -8550,8 +8550,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -8574,8 +8574,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -8598,8 +8598,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -8662,7 +8662,7 @@
                 "hide_on_explosion": 0,
                 "destroy_actor_on_explosion": 0,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "159 <=> ExplosionType_Unknown_159",
@@ -8689,8 +8689,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -8713,8 +8713,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -8737,8 +8737,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -8761,8 +8761,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -8825,7 +8825,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "220 <=> ExplosionType_Unknown_220",
@@ -8852,8 +8852,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -8876,8 +8876,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -8900,8 +8900,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -8924,8 +8924,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -8988,7 +8988,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "257 <=> ExplosionType_Unknown_257",
@@ -9015,8 +9015,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -9039,8 +9039,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -9063,8 +9063,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -9087,8 +9087,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -9151,7 +9151,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "178 <=> ExplosionType_Unknown_178",
@@ -9178,8 +9178,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -9202,8 +9202,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -9226,8 +9226,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -9250,8 +9250,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -9314,7 +9314,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "176 <=> ExplosionType_Unknown_176",
@@ -9341,8 +9341,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -9365,8 +9365,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -9389,8 +9389,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -9413,8 +9413,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -9477,7 +9477,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "224 <=> ExplosionType_Unknown_224",
@@ -9504,8 +9504,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -9528,8 +9528,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -9552,8 +9552,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -9576,8 +9576,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -9640,7 +9640,7 @@
                 "hide_on_explosion": 0,
                 "destroy_actor_on_explosion": 0,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "367 <=> ExplosionType_Unknown_367",
@@ -9667,8 +9667,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -9691,8 +9691,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -9715,8 +9715,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -9739,8 +9739,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -9803,7 +9803,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 0,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "117 <=> ExplosionType_Unknown_117",
@@ -9830,8 +9830,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -9854,8 +9854,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -9878,8 +9878,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -9902,8 +9902,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -9966,7 +9966,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "369 <=> ExplosionType_Unknown_369",
@@ -9993,8 +9993,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -10017,8 +10017,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -10041,8 +10041,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -10065,8 +10065,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -10129,7 +10129,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "386 <=> ExplosionType_Unknown_386",
@@ -10156,8 +10156,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -10180,8 +10180,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -10204,8 +10204,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -10228,8 +10228,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -10292,7 +10292,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "28 <=> ExplosionType_Unknown_28",
@@ -10319,8 +10319,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -10343,8 +10343,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -10367,8 +10367,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -10391,8 +10391,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -10455,7 +10455,7 @@
                 "hide_on_explosion": 0,
                 "destroy_actor_on_explosion": 0,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "201 <=> ExplosionType_Unknown_201",
@@ -10482,8 +10482,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -10506,8 +10506,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -10530,8 +10530,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -10554,8 +10554,8 @@
                         "inherit_rotation": 0,
                         "linked": 0,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -10618,7 +10618,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "370 <=> ExplosionType_Unknown_370",
@@ -10645,8 +10645,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -10669,8 +10669,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -10693,8 +10693,8 @@
                         "inherit_rotation": 1,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -10717,8 +10717,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -10781,7 +10781,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "411 <=> ExplosionType_Unknown_411",
@@ -10808,8 +10808,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -10832,8 +10832,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -10856,8 +10856,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -10880,8 +10880,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -10944,7 +10944,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "364 <=> ExplosionType_Unknown_364",
@@ -10971,8 +10971,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -10995,8 +10995,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -11019,8 +11019,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -11043,8 +11043,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 2013489360,
@@ -11107,7 +11107,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "56 <=> ExplosionType_Unknown_56",
@@ -11134,8 +11134,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -11158,8 +11158,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -11182,8 +11182,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -11206,8 +11206,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -11270,7 +11270,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "330 <=> ExplosionType_Unknown_330",
@@ -11297,8 +11297,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -11321,8 +11321,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -11345,8 +11345,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -11369,8 +11369,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,
@@ -11433,7 +11433,7 @@
                 "hide_on_explosion": 1,
                 "destroy_actor_on_explosion": 1,
                 "ignore_friendly_fire": 1,
-                "unk_bool_0x0018": 0,
+                "ignore_friendly_proximity_contacts": 0,
                 "impact_distance": 3.0,
                 "impact_airburst_distance": 0.5,
                 "explosion_type": "412 <=> ExplosionType_Unknown_412",
@@ -11460,8 +11460,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "trail_effect": {
@@ -11484,8 +11484,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_particle_effect": {
@@ -11508,8 +11508,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "status_effect_done_particle_effect": {
@@ -11532,8 +11532,8 @@
                         "inherit_rotation": 0,
                         "linked": 1,
                         "spawn_on_camera": 0,
-                        "effect_unk_bit_4": 0,
-                        "effect_unk_bit_5": 0
+                        "use_supplied_spawn_transform": 0,
+                        "face_world_origin_xy": 0
                     }
                 },
                 "armed_sound": 0,

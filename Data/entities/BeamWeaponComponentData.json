@@ -48,7 +48,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -91,7 +91,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -134,7 +134,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -177,7 +177,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -220,7 +220,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -263,7 +263,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -306,7 +306,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -349,7 +349,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -392,7 +392,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -435,7 +435,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -478,7 +478,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -521,7 +521,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -564,7 +564,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -607,7 +607,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -650,7 +650,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -693,7 +693,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -736,7 +736,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -779,7 +779,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -822,7 +822,7 @@
                 "rounds_per_minute": 300,
                 "beam_count_per_barrel": 2,
                 "beam_persists_per_shot": 0.15000000596046448,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -865,7 +865,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -908,7 +908,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         },
         {
@@ -951,7 +951,7 @@
                 "rounds_per_minute": 50,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 1.399999976158142,
-                "unk_uint32_about_meltagun": 3916164692
+                "beam_accumulator_material_parameter": 3916164692
             }
         },
         {
@@ -994,7 +994,7 @@
                 "rounds_per_minute": 60,
                 "beam_count_per_barrel": 1,
                 "beam_persists_per_shot": 0.0,
-                "unk_uint32_about_meltagun": 0
+                "beam_accumulator_material_parameter": 0
             }
         }
     ]

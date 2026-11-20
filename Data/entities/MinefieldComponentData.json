@@ -14,7 +14,7 @@
                 "name": "Cyborg Minefield MK8",
                 "name_zh": "地雷区 MK8",
                 "index": 0,
-                "unk_event_0x0000": 35293833,
+                "mine_armed_audio_event": 35293833,
                 "on_mine_triggered_sound_event": 73412703,
                 "trigger_time": 0.10000000149011612,
                 "chain_reaction_time": 0.20000000298023224,
@@ -24,7 +24,7 @@
                 "ai_avoidance_radius": 0.0,
                 "trigger_on_touch": 1,
                 "step_detection_min_unit_size": "0 <=> UnitSize_Small",
-                "unk_bool_0x0028": 0
+                "retire_empty_minefield_even_if_alive": 0
             }
         },
         {
@@ -33,7 +33,7 @@
                 "name": "Cyborg Minefield MK2",
                 "name_zh": "地雷区 MK2",
                 "index": 1,
-                "unk_event_0x0000": 35293833,
+                "mine_armed_audio_event": 35293833,
                 "on_mine_triggered_sound_event": 73412703,
                 "trigger_time": 0.10000000149011612,
                 "chain_reaction_time": 0.20000000298023224,
@@ -43,7 +43,7 @@
                 "ai_avoidance_radius": 19.0,
                 "trigger_on_touch": 1,
                 "step_detection_min_unit_size": "0 <=> UnitSize_Small",
-                "unk_bool_0x0028": 0
+                "retire_empty_minefield_even_if_alive": 0
             }
         },
         {
@@ -52,7 +52,7 @@
                 "name": "Cyborg Minefield MK6",
                 "name_zh": "地雷区 MK6",
                 "index": 2,
-                "unk_event_0x0000": 35293833,
+                "mine_armed_audio_event": 35293833,
                 "on_mine_triggered_sound_event": 73412703,
                 "trigger_time": 0.10000000149011612,
                 "chain_reaction_time": 0.20000000298023224,
@@ -62,7 +62,7 @@
                 "ai_avoidance_radius": 19.0,
                 "trigger_on_touch": 1,
                 "step_detection_min_unit_size": "0 <=> UnitSize_Small",
-                "unk_bool_0x0028": 0
+                "retire_empty_minefield_even_if_alive": 0
             }
         },
         {
@@ -71,7 +71,7 @@
                 "name": "Cyborg Minefield MK5",
                 "name_zh": "地雷区 MK5",
                 "index": 3,
-                "unk_event_0x0000": 35293833,
+                "mine_armed_audio_event": 35293833,
                 "on_mine_triggered_sound_event": 73412703,
                 "trigger_time": 0.10000000149011612,
                 "chain_reaction_time": 0.20000000298023224,
@@ -81,7 +81,7 @@
                 "ai_avoidance_radius": 19.0,
                 "trigger_on_touch": 1,
                 "step_detection_min_unit_size": "0 <=> UnitSize_Small",
-                "unk_bool_0x0028": 0
+                "retire_empty_minefield_even_if_alive": 0
             }
         },
         {
@@ -90,7 +90,7 @@
                 "name": "Cyborg Minefield MK3",
                 "name_zh": "地雷区 MK3",
                 "index": 4,
-                "unk_event_0x0000": 35293833,
+                "mine_armed_audio_event": 35293833,
                 "on_mine_triggered_sound_event": 73412703,
                 "trigger_time": 0.10000000149011612,
                 "chain_reaction_time": 0.20000000298023224,
@@ -100,7 +100,7 @@
                 "ai_avoidance_radius": 19.0,
                 "trigger_on_touch": 1,
                 "step_detection_min_unit_size": "0 <=> UnitSize_Small",
-                "unk_bool_0x0028": 0
+                "retire_empty_minefield_even_if_alive": 0
             }
         },
         {
@@ -109,7 +109,7 @@
                 "name": "Cyborg Minefield",
                 "name_zh": "地雷区",
                 "index": 5,
-                "unk_event_0x0000": 35293833,
+                "mine_armed_audio_event": 35293833,
                 "on_mine_triggered_sound_event": 73412703,
                 "trigger_time": 0.10000000149011612,
                 "chain_reaction_time": 0.20000000298023224,
@@ -119,7 +119,7 @@
                 "ai_avoidance_radius": 19.0,
                 "trigger_on_touch": 1,
                 "step_detection_min_unit_size": "0 <=> UnitSize_Small",
-                "unk_bool_0x0028": 0
+                "retire_empty_minefield_even_if_alive": 0
             }
         },
         {
@@ -128,7 +128,7 @@
                 "name": "Cyborg Minefield MK4",
                 "name_zh": "地雷区 MK4",
                 "index": 6,
-                "unk_event_0x0000": 35293833,
+                "mine_armed_audio_event": 35293833,
                 "on_mine_triggered_sound_event": 73412703,
                 "trigger_time": 0.10000000149011612,
                 "chain_reaction_time": 0.20000000298023224,
@@ -138,7 +138,7 @@
                 "ai_avoidance_radius": 19.0,
                 "trigger_on_touch": 1,
                 "step_detection_min_unit_size": "0 <=> UnitSize_Small",
-                "unk_bool_0x0028": 0
+                "retire_empty_minefield_even_if_alive": 0
             }
         },
         {
@@ -147,7 +147,7 @@
                 "name": "Cyborg Minefield MK7",
                 "name_zh": "地雷区 MK7",
                 "index": 7,
-                "unk_event_0x0000": 35293833,
+                "mine_armed_audio_event": 35293833,
                 "on_mine_triggered_sound_event": 73412703,
                 "trigger_time": 0.10000000149011612,
                 "chain_reaction_time": 0.20000000298023224,
@@ -157,7 +157,7 @@
                 "ai_avoidance_radius": 19.0,
                 "trigger_on_touch": 1,
                 "step_detection_min_unit_size": "0 <=> UnitSize_Small",
-                "unk_bool_0x0028": 0
+                "retire_empty_minefield_even_if_alive": 0
             }
         },
         {
@@ -166,7 +166,7 @@
                 "name": "G-11 Caltrops (Model)",
                 "name_zh": "G-11 铁蒺藜（投掷物，模型）",
                 "index": 8,
-                "unk_event_0x0000": 0,
+                "mine_armed_audio_event": 0,
                 "on_mine_triggered_sound_event": 0,
                 "trigger_time": 0.0010000000474974513,
                 "chain_reaction_time": 0.20000000298023224,
@@ -176,7 +176,7 @@
                 "ai_avoidance_radius": 0.0,
                 "trigger_on_touch": 1,
                 "step_detection_min_unit_size": "0 <=> UnitSize_Small",
-                "unk_bool_0x0028": 1
+                "retire_empty_minefield_even_if_alive": 1
             }
         },
         {
@@ -185,7 +185,7 @@
                 "name": "MD-6 Anti-Personnel Mine Deployer",
                 "name_zh": "MD-6 反步兵地雷",
                 "index": 9,
-                "unk_event_0x0000": 35293833,
+                "mine_armed_audio_event": 35293833,
                 "on_mine_triggered_sound_event": 4259855754,
                 "trigger_time": 0.0010000000474974513,
                 "chain_reaction_time": 0.20000000298023224,
@@ -195,7 +195,7 @@
                 "ai_avoidance_radius": 0.0,
                 "trigger_on_touch": 0,
                 "step_detection_min_unit_size": "0 <=> UnitSize_Small",
-                "unk_bool_0x0028": 0
+                "retire_empty_minefield_even_if_alive": 0
             }
         },
         {
@@ -204,7 +204,7 @@
                 "name": "MD-8 Gas Mine Deployer",
                 "name_zh": "MD-8 毒气地雷",
                 "index": 10,
-                "unk_event_0x0000": 35293833,
+                "mine_armed_audio_event": 35293833,
                 "on_mine_triggered_sound_event": 4259855754,
                 "trigger_time": 0.0010000000474974513,
                 "chain_reaction_time": 0.20000000298023224,
@@ -214,7 +214,7 @@
                 "ai_avoidance_radius": 0.0,
                 "trigger_on_touch": 0,
                 "step_detection_min_unit_size": "0 <=> UnitSize_Small",
-                "unk_bool_0x0028": 0
+                "retire_empty_minefield_even_if_alive": 0
             }
         },
         {
@@ -223,7 +223,7 @@
                 "name": "MD-14 Incendiary Mine Deployer",
                 "name_zh": "MD-i4 燃烧地雷",
                 "index": 11,
-                "unk_event_0x0000": 35293833,
+                "mine_armed_audio_event": 35293833,
                 "on_mine_triggered_sound_event": 4259855754,
                 "trigger_time": 0.0010000000474974513,
                 "chain_reaction_time": 0.20000000298023224,
@@ -233,7 +233,7 @@
                 "ai_avoidance_radius": 0.0,
                 "trigger_on_touch": 0,
                 "step_detection_min_unit_size": "0 <=> UnitSize_Small",
-                "unk_bool_0x0028": 0
+                "retire_empty_minefield_even_if_alive": 0
             }
         },
         {
@@ -242,7 +242,7 @@
                 "name": "MD-17 Anti-Tank Mine Deployer",
                 "name_zh": "MD-17 反坦克地雷",
                 "index": 12,
-                "unk_event_0x0000": 35293833,
+                "mine_armed_audio_event": 35293833,
                 "on_mine_triggered_sound_event": 4217891688,
                 "trigger_time": 1.0,
                 "chain_reaction_time": 0.20000000298023224,
@@ -252,7 +252,7 @@
                 "ai_avoidance_radius": 0.0,
                 "trigger_on_touch": 1,
                 "step_detection_min_unit_size": "2 <=> UnitSize_Large",
-                "unk_bool_0x0028": 0
+                "retire_empty_minefield_even_if_alive": 0
             }
         }
     ]
