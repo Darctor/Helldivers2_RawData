@@ -108,8 +108,8 @@
                                 "inherit_rotatione": 1,
                                 "linked": 1,
                                 "spawn_on_camera": 0,
-                                "effect_unk_bit_4": 0,
-                                "effect_unk_bit_5": 0
+                                "use_supplied_spawn_transform": 0,
+                                "face_world_origin_xy": 0
                             }
                         },
                         "unk_uint8_r0x0150": 1,
@@ -216,8 +216,8 @@
                                 "inherit_rotatione": 1,
                                 "linked": 1,
                                 "spawn_on_camera": 0,
-                                "effect_unk_bit_4": 0,
-                                "effect_unk_bit_5": 0
+                                "use_supplied_spawn_transform": 0,
+                                "face_world_origin_xy": 0
                             }
                         },
                         "unk_uint8_r0x0150": 1,
@@ -334,8 +334,8 @@
                                 "inherit_rotatione": 1,
                                 "linked": 1,
                                 "spawn_on_camera": 0,
-                                "effect_unk_bit_4": 0,
-                                "effect_unk_bit_5": 0
+                                "use_supplied_spawn_transform": 0,
+                                "face_world_origin_xy": 0
                             }
                         },
                         "unk_uint8_r0x0150": 0,
@@ -442,8 +442,8 @@
                                 "inherit_rotatione": 0,
                                 "linked": 1,
                                 "spawn_on_camera": 0,
-                                "effect_unk_bit_4": 0,
-                                "effect_unk_bit_5": 0
+                                "use_supplied_spawn_transform": 0,
+                                "face_world_origin_xy": 0
                             }
                         },
                         "unk_uint8_r0x0150": 0,
@@ -560,8 +560,8 @@
                                 "inherit_rotatione": 1,
                                 "linked": 1,
                                 "spawn_on_camera": 0,
-                                "effect_unk_bit_4": 0,
-                                "effect_unk_bit_5": 0
+                                "use_supplied_spawn_transform": 0,
+                                "face_world_origin_xy": 0
                             }
                         },
                         "unk_uint8_r0x0150": 0,
@@ -668,8 +668,8 @@
                                 "inherit_rotatione": 0,
                                 "linked": 1,
                                 "spawn_on_camera": 0,
-                                "effect_unk_bit_4": 0,
-                                "effect_unk_bit_5": 0
+                                "use_supplied_spawn_transform": 0,
+                                "face_world_origin_xy": 0
                             }
                         },
                         "unk_uint8_r0x0150": 0,
@@ -786,8 +786,8 @@
                                 "inherit_rotatione": 1,
                                 "linked": 1,
                                 "spawn_on_camera": 0,
-                                "effect_unk_bit_4": 0,
-                                "effect_unk_bit_5": 0
+                                "use_supplied_spawn_transform": 0,
+                                "face_world_origin_xy": 0
                             }
                         },
                         "unk_uint8_r0x0150": 0,
@@ -894,8 +894,8 @@
                                 "inherit_rotatione": 0,
                                 "linked": 1,
                                 "spawn_on_camera": 0,
-                                "effect_unk_bit_4": 0,
-                                "effect_unk_bit_5": 0
+                                "use_supplied_spawn_transform": 0,
+                                "face_world_origin_xy": 0
                             }
                         },
                         "unk_uint8_r0x0150": 0,
@@ -1012,8 +1012,8 @@
                                 "inherit_rotatione": 1,
                                 "linked": 1,
                                 "spawn_on_camera": 0,
-                                "effect_unk_bit_4": 0,
-                                "effect_unk_bit_5": 0
+                                "use_supplied_spawn_transform": 0,
+                                "face_world_origin_xy": 0
                             }
                         },
                         "unk_uint8_r0x0150": 0,
@@ -1120,8 +1120,8 @@
                                 "inherit_rotatione": 0,
                                 "linked": 1,
                                 "spawn_on_camera": 0,
-                                "effect_unk_bit_4": 0,
-                                "effect_unk_bit_5": 0
+                                "use_supplied_spawn_transform": 0,
+                                "face_world_origin_xy": 0
                             }
                         },
                         "unk_uint8_r0x0150": 0,

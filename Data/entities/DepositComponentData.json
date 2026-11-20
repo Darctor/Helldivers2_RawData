@@ -48,8 +48,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "0 <=> DepositRefill_None",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -92,8 +92,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "0 <=> DepositRefill_None",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -136,8 +136,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "0 <=> DepositRefill_None",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -180,8 +180,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "0 <=> DepositRefill_None",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -224,8 +224,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "1 <=> DepositRefill_Ammo",
                 "assisted_reload_weapon_path": "2802369506329449110",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -268,8 +268,8 @@
                 "node_hiding_order_post_anim_event": 3740288220,
                 "refill_style": "3 <=> DepositRefill_Supplies",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -312,8 +312,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "1 <=> DepositRefill_Ammo",
                 "assisted_reload_weapon_path": "12164217308285983839",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -356,8 +356,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "1 <=> DepositRefill_Ammo",
                 "assisted_reload_weapon_path": "12164217308285983839",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -400,8 +400,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "1 <=> DepositRefill_Ammo",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -444,8 +444,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "0 <=> DepositRefill_None",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -488,8 +488,8 @@
                 "node_hiding_order_post_anim_event": 3740288220,
                 "refill_style": "1 <=> DepositRefill_Ammo",
                 "assisted_reload_weapon_path": "5905641205788913469",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -532,8 +532,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "1 <=> DepositRefill_Ammo",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 792497908,
-                "unk_bool_0x0094": 1
+                "charge_display_material_name": 792497908,
+                "display_normalized_charge_ratio": 1
             }
         },
         {
@@ -576,8 +576,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "1 <=> DepositRefill_Ammo",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 792497908,
-                "unk_bool_0x0094": 1
+                "charge_display_material_name": 792497908,
+                "display_normalized_charge_ratio": 1
             }
         },
         {
@@ -620,8 +620,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "3 <=> DepositRefill_Supplies",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -664,8 +664,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "1 <=> DepositRefill_Ammo",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -708,8 +708,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "3 <=> DepositRefill_Supplies",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -752,8 +752,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "3 <=> DepositRefill_Supplies",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -796,8 +796,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "1 <=> DepositRefill_Ammo",
                 "assisted_reload_weapon_path": "2714034314705433838",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -840,8 +840,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "1 <=> DepositRefill_Ammo",
                 "assisted_reload_weapon_path": "2714034314705433838",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -884,8 +884,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "1 <=> DepositRefill_Ammo",
                 "assisted_reload_weapon_path": "14733648658679365221",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -928,8 +928,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "1 <=> DepositRefill_Ammo",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -972,8 +972,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "1 <=> DepositRefill_Ammo",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -1016,8 +1016,8 @@
                 "node_hiding_order_post_anim_event": 3740288220,
                 "refill_style": "2 <=> DepositRefill_Medic",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -1060,8 +1060,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "1 <=> DepositRefill_Ammo",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -1104,8 +1104,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "1 <=> DepositRefill_Ammo",
                 "assisted_reload_weapon_path": "11493422068836852751",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -1148,8 +1148,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "1 <=> DepositRefill_Ammo",
                 "assisted_reload_weapon_path": "11493422068836852751",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -1192,8 +1192,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "1 <=> DepositRefill_Ammo",
                 "assisted_reload_weapon_path": "13264489371434957764",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -1236,8 +1236,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "0 <=> DepositRefill_None",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -1280,8 +1280,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "0 <=> DepositRefill_None",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         },
         {
@@ -1324,8 +1324,8 @@
                 "node_hiding_order_post_anim_event": 0,
                 "refill_style": "0 <=> DepositRefill_None",
                 "assisted_reload_weapon_path": "0",
-                "unk_uint32_0x0090": 1269087576,
-                "unk_bool_0x0094": 0
+                "charge_display_material_name": 1269087576,
+                "display_normalized_charge_ratio": 0
             }
         }
     ]

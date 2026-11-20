@@ -41,8 +41,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -77,8 +77,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -113,8 +113,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -149,8 +149,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -185,8 +185,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 4224911188,
                     "notify_event_on_removed": 47623951,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -221,8 +221,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -257,8 +257,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 2343002388,
                     "notify_event_on_removed": 1086274594,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -293,8 +293,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -329,8 +329,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -365,8 +365,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -401,8 +401,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -437,8 +437,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -473,8 +473,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -509,8 +509,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -545,8 +545,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -581,8 +581,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -617,8 +617,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -653,8 +653,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -689,8 +689,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -725,8 +725,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -761,8 +761,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -797,8 +797,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -833,8 +833,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -869,8 +869,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -905,8 +905,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -941,8 +941,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -977,8 +977,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1013,8 +1013,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1049,8 +1049,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1090,8 +1090,8 @@
                     ],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1126,8 +1126,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1162,8 +1162,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1198,8 +1198,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1234,8 +1234,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1270,8 +1270,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1306,8 +1306,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1342,8 +1342,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1378,8 +1378,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1414,8 +1414,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1450,8 +1450,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1486,8 +1486,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1522,8 +1522,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1558,8 +1558,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1594,8 +1594,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1630,8 +1630,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 1079087720,
                     "notify_event_on_removed": 503020676,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1666,8 +1666,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 1079087720,
                     "notify_event_on_removed": 503020676,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1702,8 +1702,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1738,8 +1738,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1774,8 +1774,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1810,8 +1810,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1846,8 +1846,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1882,8 +1882,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1918,8 +1918,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1954,8 +1954,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -1990,8 +1990,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -2026,8 +2026,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -2062,8 +2062,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -2098,8 +2098,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -2134,8 +2134,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -2170,8 +2170,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -2206,8 +2206,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -2242,8 +2242,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -2278,8 +2278,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -2314,8 +2314,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -2350,8 +2350,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -2391,8 +2391,8 @@
                     ],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -2427,8 +2427,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -2463,8 +2463,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -2499,8 +2499,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 2415833742,
                     "notify_event_on_removed": 4083836255,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -2535,8 +2535,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -2571,8 +2571,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -2607,8 +2607,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 0,
-                    "unk_uint32_0x008C": 1,
+                    "accumulation_creates_stacks": 0,
+                    "maximum_accumulated_stacks": 1,
                     "0x9DDD1BE2": []
                 },
                 {
@@ -2643,8 +2643,8 @@
                     "modified_stats_multipliers": [],
                     "notify_event_on_added": 0,
                     "notify_event_on_removed": 0,
-                    "unk_bool_0x0088": 1,
-                    "unk_uint32_0x008C": 4,
+                    "accumulation_creates_stacks": 1,
+                    "maximum_accumulated_stacks": 4,
                     "0x9DDD1BE2": [
                         {
                             "unk_enum_r0x0000": "0 <=> 0xB97958C4_Unknown_0",
